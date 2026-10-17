@@ -31,19 +31,22 @@ export default async function DiscoverPage({ searchParams }: { searchParams: Pro
   const locale = (await getLocale()) as Locale;
   const sp = await searchParams;
   const level = LEVELS.find((l) => l === sp.level) ?? null;
-  const book = sp.book && BOOK_INDEX.has(sp.book) ? sp.book : null;
+  const requestedBook = sp.book && BOOK_INDEX.has(sp.book) ? sp.book : null;
   const { supabase } = await getRegisteredUser();
 
   // O banco tem ~300 perguntas: a ordem canónica não é uma coluna, por isso ordena-se em JS.
   const base = () => {
+    // .limit(5000) é cortado pelo max_rows do Supabase (1000 por defeito): chega para ~300 perguntas.
     let q = supabase.from('bank_questions').select('id, book, chapter, verse_start').eq('active', true).limit(5000);
     if (level) q = q.eq('level', level);
     return q;
   };
-  const { data: levelRows } = await base();
+  const { data: levelRows, error: rowsError } = await base();
+  if (rowsError) throw new Error(rowsError.message);
   const allRows = (levelRows ?? []) as Row[];
   const bookCodes = new Set(allRows.map((r) => r.book));
   const books = BOOKS.filter((b) => bookCodes.has(b.code));
+  const book = requestedBook && bookCodes.has(requestedBook) ? requestedBook : null;
 
   const rows = allRows
     .filter((r) => !book || r.book === book)
@@ -51,7 +54,8 @@ export default async function DiscoverPage({ searchParams }: { searchParams: Pro
       (a, b) =>
         (BOOK_INDEX.get(a.book) ?? 0) - (BOOK_INDEX.get(b.book) ?? 0) ||
         (a.chapter ?? 0) - (b.chapter ?? 0) ||
-        (a.verse_start ?? 0) - (b.verse_start ?? 0),
+        (a.verse_start ?? 0) - (b.verse_start ?? 0) ||
+        a.id.localeCompare(b.id),
     );
   const totalPages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
   const page = Math.min(Math.max(parseInt(sp.page ?? '1', 10) || 1, 1), totalPages);
@@ -69,6 +73,8 @@ export default async function DiscoverPage({ searchParams }: { searchParams: Pro
           .order('position'),
       ])
     : [null, null, null];
+
+  for (const res of [detailRes, textRes, optRes]) if (res?.error) throw new Error(res.error.message);
 
   const details = new Map(((detailRes?.data ?? []) as Detail[]).map((d) => [d.id, d]));
   const texts = new Map<string, TextRow[]>();
@@ -118,7 +124,7 @@ export default async function DiscoverPage({ searchParams }: { searchParams: Pro
           ))}
         </select>
         <button type="submit" className="rounded-full bg-ink px-4 py-2 text-sm font-semibold text-white">
-          OK
+          {t('apply')}
         </button>
         <span className="ml-auto text-sm text-ink/50">{t('count', { count: rows.length })}</span>
       </form>

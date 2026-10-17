@@ -107,7 +107,8 @@
     "prev": "Previous",
     "next": "Next",
     "pageOf": "Page {page} of {total}",
-    "count": "{count} questions"
+    "count": "{count} questions",
+    "apply": "Apply"
   },
   "settings": {
     "title": "Settings",
