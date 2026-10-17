@@ -394,6 +394,20 @@ begin
   return jsonb_build_object('session_id', v_session, 'player_id', v_player);
 end $$;
 
+-- Interno: soma ao marcador os pontos da pergunta p_position.
+-- Chamado sempre que uma pergunta sai do estado 'question' (revelar, avançar
+-- ou terminar). Como só se sai de 'question' uma vez, credita uma só vez.
+create or replace function public.credit_question_points(p_session_id uuid, p_position int)
+returns void
+language plpgsql security definer set search_path = public as $$
+begin
+  update players p
+     set score = p.score + a.points_awarded
+    from answers a
+    join session_questions sq on sq.session_id = a.session_id and sq.question_id = a.question_id
+   where a.session_id = p_session_id and sq.position = p_position and a.player_id = p.id;
+end $$;
+
 -- Anfitrião avança para a próxima pergunta (ou termina o jogo)
 create or replace function public.next_question(p_session_id uuid)
 returns void
@@ -402,9 +416,14 @@ declare
   s      game_sessions%rowtype;
   v_next int;
 begin
-  select * into s from game_sessions where id = p_session_id and host_id = auth.uid();
+  select * into s from game_sessions where id = p_session_id and host_id = auth.uid() for update;
   if not found then raise exception 'not_host'; end if;
   if s.status = 'finished' then return; end if;
+
+  -- Saltou a revelação: os pontos da pergunta atual entram agora
+  if s.status = 'question' then
+    perform public.credit_question_points(p_session_id, s.current_position);
+  end if;
 
   v_next := coalesce(s.current_position, 0) + 1;
 
@@ -430,22 +449,26 @@ begin
   returning current_position into v_pos;
   if not found then raise exception 'cannot_reveal'; end if;
 
-  -- Os pontos só entram no marcador na revelação
-  update players p
-     set score = p.score + a.points_awarded
-    from answers a
-    join session_questions sq on sq.session_id = a.session_id and sq.question_id = a.question_id
-   where a.session_id = p_session_id and sq.position = v_pos and a.player_id = p.id;
+  -- Os pontos só entram no marcador quando a pergunta sai de 'question'
+  perform public.credit_question_points(p_session_id, v_pos);
 end $$;
 
 -- Anfitrião termina o jogo antes do fim
 create or replace function public.end_session(p_session_id uuid)
 returns void
 language plpgsql security definer set search_path = public as $$
+declare
+  s game_sessions%rowtype;
 begin
-  update game_sessions set status = 'finished'
-   where id = p_session_id and host_id = auth.uid();
+  select * into s from game_sessions where id = p_session_id and host_id = auth.uid() for update;
   if not found then raise exception 'not_host'; end if;
+
+  -- Terminou a meio de uma pergunta: os pontos dela entram agora
+  if s.status = 'question' then
+    perform public.credit_question_points(p_session_id, s.current_position);
+  end if;
+
+  update game_sessions set status = 'finished' where id = p_session_id;
 end $$;
 
 -- Pergunta atual na língua pedida (com recurso a 'pt').
@@ -667,6 +690,10 @@ revoke execute on function public.submit_answer(uuid, uuid)          from public
 revoke execute on function public.submit_order(uuid, uuid[])         from public, anon;
 revoke execute on function public.report_question(uuid)              from public, anon;
 revoke execute on function public.game_points(boolean, numeric, int) from public, anon, authenticated;
+revoke execute on function public.credit_question_points(uuid, int)  from public, anon, authenticated;
+-- A policy de answers corre como authenticated
+revoke execute on function public.is_live_question(uuid, text)       from public, anon;
+grant  execute on function public.is_live_question(uuid, text)       to authenticated;
 grant  execute on function public.create_session(text, int)          to authenticated;
 grant  execute on function public.join_session(text, text, text)     to authenticated;
 grant  execute on function public.next_question(uuid)                to authenticated;

@@ -386,4 +386,61 @@ if (fin.status !== 'finished') throw new Error('não terminou ' + fin.status);
 if ((await cur(P1, 'fr')) !== null) throw new Error('finished deve devolver null');
 console.log('✓ jogo termina em finished');
 
+// Pontos creditados mesmo quando o anfitrião salta a revelação
+{
+  const s2 = await asUser(HOST, false, async () => (await one(`select create_session('easy', 5) s`)).s);
+  const S2 = s2.session_id;
+  await asUser(P1, true, () => one(`select join_session($1, 'Ana', 'fr')`, [s2.pin]));
+  const score2 = async () => (await one(`select score from players where session_id = $1 and user_id = $2`, [S2, P1])).score;
+  const host2 = (fn) => asUser(HOST, false, () => db.query(`select ${fn}($1)`, [S2]));
+  // P1 responde certo à pergunta atual; devolve os pontos gravados
+  const answerRight = async () => {
+    const sq = await one(`select sq.question_id, q.type::text type,
+                                 (select jsonb_agg(o.id order by o.position) from bank_options o where o.question_id = sq.question_id) c,
+                                 (select o.id from bank_options o where o.question_id = sq.question_id and o.is_correct limit 1) ok
+                            from game_sessions g join session_questions sq on sq.session_id = g.id and sq.position = g.current_position
+                            join bank_questions q on q.id = sq.question_id where g.id = $1`, [S2]);
+    await asUser(P1, true, () => sq.type === 'order'
+      ? db.query(`select submit_order($1, array(select jsonb_array_elements_text($2::jsonb)::uuid))`, [S2, JSON.stringify(sq.c)])
+      : db.query(`select submit_answer($1, $2)`, [S2, sq.ok]));
+    const pts = (await one(`select a.points_awarded p from answers a join players pl on pl.id = a.player_id
+                             where pl.session_id = $1 and pl.user_id = $2 and a.question_id = $3`, [S2, P1, sq.question_id])).p;
+    if (!(pts > 0)) throw new Error('pontos esperados > 0');
+    return pts;
+  };
+
+  // (a) next_question direto de 'question'
+  await host2('next_question');
+  const p1 = await answerRight();
+  if ((await score2()) !== 0) throw new Error('marcador antes de sair da pergunta');
+  await host2('next_question');
+  if ((await score2()) !== p1) throw new Error('next_question não creditou ' + (await score2()));
+  console.log('✓ next_question sem revelação credita os pontos');
+
+  // (c) reveal e depois next_question não credita duas vezes
+  const p2 = await answerRight();
+  await host2('reveal_answer');
+  if ((await score2()) !== p1 + p2) throw new Error('reveal não creditou');
+  await host2('next_question');
+  if ((await score2()) !== p1 + p2) throw new Error('crédito duplo após reveal + next');
+  console.log('✓ reveal + next_question credita uma só vez');
+
+  // (b) end_session durante 'question'
+  const p3 = await answerRight();
+  await host2('end_session');
+  if ((await score2()) !== p1 + p2 + p3) throw new Error('end_session não creditou');
+  await host2('end_session');
+  if ((await score2()) !== p1 + p2 + p3) throw new Error('crédito duplo em end_session');
+  const st3 = await one(`select status::text from game_sessions where id = $1`, [S2]);
+  if (st3.status !== 'finished') throw new Error('end_session não terminou');
+  console.log('✓ end_session durante a pergunta credita os pontos');
+
+  // O auxiliar de crédito não é chamável por clientes
+  await asUser(HOST, false, () => expectError(() => db.query(`select credit_question_points($1, 1)`, [S2]), 'permission denied'));
+  // is_live_question: anon não executa
+  await db.exec('set role anon');
+  try { await expectError(() => db.query(`select is_live_question($1, 'x')`, [S2]), 'permission denied'); }
+  finally { await db.exec('reset role'); }
+}
+
 console.log('\nTODOS OS TESTES PASSARAM');
