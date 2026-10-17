@@ -1,7 +1,11 @@
 // Testa as migrações num Postgres local (PGlite).
 // Uso: npm run test:db
 import { PGlite } from '@electric-sql/pglite';
-import { readFileSync } from 'node:fs';
+import { readFileSync, mkdtempSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { buildBank } from './build-bank.mjs';
 
 const db = new PGlite();
 
@@ -149,29 +153,19 @@ await db.query(`update profiles set default_time_limit_s = 25 where id = $1`, [H
 // Banco limpo: 6 perguntas easy (2 de cada tipo) e 1 medium
 await db.exec(`select set_config('test.uid', '', false), set_config('test.jwt', '', false);`);
 await db.exec(`delete from bank_questions`);
-const loc2 = (pt, fr) => ({ pt, fr });
-const bank = (id, type, level) => {
-  const base = { id, type, level, testament: 'ot', book: 'GEN', chapter: 1, verse_start: 1, verse_end: 1 };
-  if (type === 'choice') return { ...base,
-    texts: loc2({ prompt: `PT ${id}`, bible_ref: 'Génesis 1:1', verse_text: 'No princípio criou Deus os céus e a terra.' },
-                { prompt: `FR ${id}`, bible_ref: 'Genèse 1:1', verse_text: 'Au commencement, Dieu créa les cieux et la terre.' }),
-    options: ['Deus', 'Moisés', 'Noé'].map((t, i) => ({ position: i + 1, is_correct: i === 0,
-      texts: loc2({ text: t }, { text: `fr-${t}` }) })) };
-  if (type === 'order') return { ...base,
-    texts: loc2({ prompt: `PT ${id}`, bible_ref: 'Génesis 1-4' }, { prompt: `FR ${id}`, bible_ref: 'Genèse 1-4' }),
-    options: ['Criação', 'Queda', 'Caim', 'Dilúvio'].map((t, i) => ({ position: i + 1, is_correct: false,
-      texts: loc2({ text: t, ref: `Gn ${i + 1}` }, { text: `fr-${t}`, ref: `Gn ${i + 1}` }) })) };
-  return { ...base,
-    texts: loc2({ prompt: `PT ${id}`, bible_ref: 'Génesis 1:1', verse_text: 'No princípio criou Deus os céus e a terra.' },
-                { prompt: `FR ${id}`, bible_ref: 'Genèse 1:1', verse_text: 'Au commencement, Dieu créa les cieux et la terre.' }),
-    options: ['Deus', 'Homem', 'Anjo', 'Rei'].map((t, i) => ({ position: i + 1, is_correct: i === 0,
-      texts: loc2({ text: t }, { text: `fr-${t}` }) })) };
-};
-for (const [id, type] of [['g-c1', 'choice'], ['g-c2', 'choice'], ['g-o1', 'order'], ['g-o2', 'order'], ['g-v1', 'verse'], ['g-v2', 'verse']]) {
-  await one(`select upsert_bank_question($1)`, [bank(id, type, 'easy')]);
-}
-await one(`select upsert_bank_question($1)`, [bank('g-m1', 'choice', 'medium')]);
-console.log('✓ banco de jogo semeado (6 easy, 1 medium)');
+// O SQL vem do validador/construtor (Task 4) sobre as fixtures; nada é escrito no repositório
+const outDir = mkdtempSync(join(tmpdir(), 'lumen-bank-'));
+const built = buildBank({
+  dir: fileURLToPath(new URL('./fixtures/questions', import.meta.url)),
+  biblesDir: fileURLToPath(new URL('./fixtures/bibles', import.meta.url)),
+  outDir,
+});
+if (built.errors.length) throw new Error('fixtures inválidas: ' + built.errors.join('; '));
+await db.exec(readFileSync(join(outDir, 'bank-sample.sql'), 'utf8'));
+rmSync(outDir, { recursive: true, force: true });
+const seeded = (await one(`select count(*) filter (where level = 'easy')::int e, count(*) filter (where level = 'medium')::int m from bank_questions`));
+if (seeded.e !== 6 || seeded.m !== 1) throw new Error('banco de jogo ' + JSON.stringify(seeded));
+console.log('✓ banco de jogo semeado a partir de sample.json (6 easy, 1 medium)');
 
 // create_session: erros e sucesso
 await as(P1, true);
@@ -254,7 +248,8 @@ for (let pos = 1; pos <= 5; pos++) {
   if (g.options.some(o => o.is_correct !== null)) throw new Error('is_correct antes da revelação');
   if (g.options.map(o => o.position).join() !== g.options.map((_, i) => i + 1).join()) throw new Error('posições não são 1..n');
   if (g.options.map(o => o.id).join() !== row.d.join()) throw new Error('opções não seguem display_order');
-  if (g.text !== `FR ${row.question_id}`) throw new Error('texto fr ' + g.text);
+  const txt = async (loc) => (await one(`select prompt from bank_question_texts where question_id = $1 and locale = $2`, [row.question_id, loc])).prompt;
+  if (g.text !== await txt('fr')) throw new Error('texto fr ' + g.text);
   if (g.reported !== false) throw new Error('reported inicial');
   if (g.my_answered !== false) throw new Error('my_answered antes de responder');
   const hostView = await cur(HOST, 'fr', false);
@@ -269,8 +264,8 @@ for (let pos = 1; pos <= 5; pos++) {
     if (g.options.some(o => o.ref !== null)) throw new Error('ref fora de order');
   }
   if (pos === 1) {
-    const es = await cur(P1, 'es');
-    if (es.text !== `PT ${row.question_id}`) throw new Error('fallback pt ' + es.text);
+    const it = await cur(P1, 'it');   // língua sem textos no banco
+    if (it.text !== await txt('pt')) throw new Error('fallback pt ' + it.text);
     console.log('✓ recurso a pt quando falta a língua');
   }
 
@@ -313,7 +308,7 @@ for (let pos = 1; pos <= 5; pos++) {
     }
   } else {
     const correctId = (await one(`select id from bank_options where question_id = $1 and is_correct`, [row.question_id])).id;
-    const foreign = (await one(`select o.id from bank_options o where o.question_id = 'g-m1' limit 1`)).id;
+    const foreign = (await one(`select o.id from bank_options o where o.question_id = 'gen-medium-001' limit 1`)).id;
     await asUser(P1, true, async () => {
       await expectError(() => submitOrder(row.d), 'wrong_type');
       if (!testedForeign) {
@@ -356,7 +351,8 @@ for (let pos = 1; pos <= 5; pos++) {
     if (r.verse_text !== null || r.options.some(o => o.is_correct !== null)) throw new Error('order em reveal');
     if (r.options.some(o => !o.ref)) throw new Error('order sem ref na revelação');
   } else {
-    if (!r.verse_text || !r.verse_text.startsWith('Au commencement')) throw new Error('verse_text fr ' + r.verse_text);
+    const vt = (await one(`select verse_text from bank_question_texts where question_id = $1 and locale = 'fr'`, [row.question_id])).verse_text;
+    if (!r.verse_text || r.verse_text !== vt) throw new Error('verse_text fr ' + r.verse_text);
     if (r.correct_order !== null) throw new Error('correct_order fora de order');
     if (r.options.filter(o => o.is_correct === true).length !== 1 || r.options.some(o => typeof o.is_correct !== 'boolean'))
       throw new Error('is_correct em reveal ' + JSON.stringify(r.options));

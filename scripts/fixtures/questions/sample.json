@@ -1,0 +1,326 @@
+[
+  {
+    "id": "jhn-easy-001",
+    "type": "choice",
+    "level": "easy",
+    "book": "JHN",
+    "chapter": 3,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Segundo João 3:16, quem foi amado por Deus de tal maneira?",
+      "fr": "Selon Jean 3:16, qui Dieu a-t-il tant aimé ?",
+      "en": "According to John 3:16, whom did God so love?",
+      "es": "Según Juan 3:16, ¿a quién amó Dios de tal manera?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O mundo",
+          "fr": "Le monde",
+          "en": "The world",
+          "es": "El mundo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os anjos",
+          "fr": "Les anges",
+          "en": "The angels",
+          "es": "Los ángeles"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só Israel",
+          "fr": "Seulement Israël",
+          "en": "Only Israel",
+          "es": "Solo Israel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "gen-easy-001",
+    "type": "choice",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Quem criou os céus e a terra?",
+      "fr": "Qui a créé les cieux et la terre ?",
+      "en": "Who created the heaven and the earth?",
+      "es": "¿Quién creó los cielos y la tierra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Deus",
+          "fr": "Dieu",
+          "en": "God",
+          "es": "Dios"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moisés",
+          "fr": "Moïse",
+          "en": "Moses",
+          "es": "Moisés"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Noé",
+          "fr": "Noé",
+          "en": "Noah",
+          "es": "Noé"
+        }
+      }
+    ]
+  },
+  {
+    "id": "gen-easy-002",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 1,
+        "verse_start": null,
+        "verse_end": null,
+        "text": {
+          "pt": "A criação do mundo",
+          "fr": "La création du monde",
+          "en": "The creation of the world",
+          "es": "La creación del mundo"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 7,
+        "verse_start": null,
+        "verse_end": null,
+        "text": {
+          "pt": "O dilúvio",
+          "fr": "Le déluge",
+          "en": "The flood",
+          "es": "El diluvio"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 3,
+        "verse_start": null,
+        "verse_end": null,
+        "text": {
+          "pt": "A sarça ardente",
+          "fr": "Le buisson ardent",
+          "en": "The burning bush",
+          "es": "La zarza ardiente"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 14,
+        "verse_start": null,
+        "verse_end": null,
+        "text": {
+          "pt": "A travessia do mar",
+          "fr": "La traversée de la mer",
+          "en": "Crossing the sea",
+          "es": "El paso del mar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exo-easy-001",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Deus cria os céus e a terra",
+          "fr": "Dieu crée les cieux et la terre",
+          "en": "God creates heaven and earth",
+          "es": "Dios crea los cielos y la tierra"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 7,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Noé entra na arca",
+          "fr": "Noé entre dans l’arche",
+          "en": "Noah enters the ark",
+          "es": "Noé entra en el arca"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 3,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "O anjo aparece a Moisés na sarça",
+          "fr": "L’ange apparaît à Moïse dans le buisson",
+          "en": "The angel appears to Moses in the bush",
+          "es": "El ángel se aparece a Moisés en la zarza"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 14,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "O mar abre-se diante de Moisés",
+          "fr": "La mer s’ouvre devant Moïse",
+          "en": "The sea parts before Moses",
+          "es": "El mar se abre ante Moisés"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jhn-easy-002",
+    "type": "verse",
+    "level": "easy",
+    "book": "JHN",
+    "chapter": 3,
+    "verse_start": 16,
+    "verse_end": 16,
+    "blank": {
+      "pt": "amou",
+      "fr": "aimé",
+      "en": "loved",
+      "es": "amó"
+    },
+    "distractors": [
+      {
+        "pt": "odiou",
+        "fr": "haï",
+        "en": "hated",
+        "es": "odió"
+      },
+      {
+        "pt": "enviou",
+        "fr": "envoyé",
+        "en": "sent",
+        "es": "envió"
+      },
+      {
+        "pt": "viu",
+        "fr": "vu",
+        "en": "saw",
+        "es": "vio"
+      }
+    ]
+  },
+  {
+    "id": "gen-easy-003",
+    "type": "verse",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "blank": {
+      "pt": "criou",
+      "fr": "créa",
+      "en": "created",
+      "es": "crió"
+    },
+    "distractors": [
+      {
+        "pt": "chamou",
+        "fr": "appela",
+        "en": "called",
+        "es": "llamó"
+      },
+      {
+        "pt": "separou",
+        "fr": "sépara",
+        "en": "divided",
+        "es": "separó"
+      },
+      {
+        "pt": "viu",
+        "fr": "vit",
+        "en": "saw",
+        "es": "vio"
+      }
+    ]
+  },
+  {
+    "id": "gen-medium-001",
+    "type": "choice",
+    "level": "medium",
+    "book": "GEN",
+    "chapter": 7,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "A quem disse o SENHOR para entrar na arca com toda a sua casa?",
+      "fr": "À qui l’Éternel dit-il d’entrer dans l’arche avec toute sa maison ?",
+      "en": "To whom did the LORD say to enter the ark with all his house?",
+      "es": "¿A quién dijo el SEÑOR que entrara en el arca con toda su casa?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Noé",
+          "fr": "Noé",
+          "en": "Noah",
+          "es": "Noé"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Abraão",
+          "fr": "Abraham",
+          "en": "Abraham",
+          "es": "Abraham"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moisés",
+          "fr": "Moïse",
+          "en": "Moses",
+          "es": "Moisés"
+        }
+      }
+    ]
+  }
+]

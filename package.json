@@ -7,6 +7,7 @@
     "start": "next start",
     "test:db": "node scripts/test-db.mjs",
     "test:bank": "node --test \"scripts/*.test.mjs\"",
+    "bank:build": "node scripts/build-bank.mjs",
     "bibles:fetch": "node scripts/bible/fetch-bibles.mjs"
   },
   "dependencies": {
