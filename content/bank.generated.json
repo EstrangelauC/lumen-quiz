@@ -402,6 +402,24 @@
             "text": "Con lanzas"
           }
         }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Com espadas"
+          },
+          "fr": {
+            "text": "Avec des épées"
+          },
+          "en": {
+            "text": "With swords"
+          },
+          "es": {
+            "text": "Con espadas"
+          }
+        }
       }
     ]
   },
@@ -522,22 +540,22 @@
     "verse_end": 5,
     "texts": {
       "pt": {
-        "prompt": "No caminho, quem falou com Saulo e disse «a quem tu persegues»?",
+        "prompt": "No caminho, quem disse a Saulo: «Eu sou aquele a quem tu persegues»?",
         "bible_ref": "Atos 9:5",
         "verse_text": "E ele disse: Quem és, Senhor?E o Senhor disse: Eu sou Jesus, a quem tu persegues; duro é para ti dar coices contra os aguilhões."
       },
       "fr": {
-        "prompt": "Sur le chemin, qui parla à Saul et dit « que tu persécutes » ?",
+        "prompt": "Sur le chemin, qui dit à Saul : « Je suis celui que tu persécutes » ?",
         "bible_ref": "Actes 9:5",
         "verse_text": "Il répondit: Qui es-tu, Seigneur? Et le Seigneur dit: Je suis Jésus que tu persécutes. Il te serait dur de regimber contre les aiguillons."
       },
       "en": {
-        "prompt": "On the road, who spoke to Saul and said “whom thou persecutest”?",
+        "prompt": "On the road, who said to Saul: “I am he whom thou persecutest”?",
         "bible_ref": "Acts 9:5",
         "verse_text": "And he said, Who art thou, Lord? And the Lord said, I am Jesus whom thou persecutest: it is hard for thee to kick against the pricks."
       },
       "es": {
-        "prompt": "En el camino, ¿quién habló a Saulo y dijo «a quien tú persigues»?",
+        "prompt": "En el camino, ¿quién dijo a Saulo: «Yo soy aquel a quien tú persigues»?",
         "bible_ref": "Hechos 9:5",
         "verse_text": "Y él dijo: ¿Quién eres, Señor? Y él dijo: Yo soy Jesús á quien tú persigues: dura cosa te es dar coces contra el aguijón."
       }
@@ -1124,6 +1142,24 @@
           },
           "es": {
             "text": "El profeta Daniel"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O profeta Jeremias"
+          },
+          "fr": {
+            "text": "Le prophète Jérémie"
+          },
+          "en": {
+            "text": "The prophet Jeremias"
+          },
+          "es": {
+            "text": "El profeta Jeremías"
           }
         }
       }
@@ -5402,22 +5438,22 @@
     "verse_end": 1,
     "texts": {
       "pt": {
-        "prompt": "A quem escreve «o ancião» na Segunda Epístola de João?",
+        "prompt": "Na Segunda Epístola de João, que palavra usa o ancião para descrever a senhora a quem escreve?",
         "bible_ref": "2 João 1:1",
         "verse_text": "O ancião, à senhora eleita, e a seus filhos, aos quais eu amo em verdade; e não somente eu, mas também todos os que têm conhecido a verdade;"
       },
       "fr": {
-        "prompt": "À qui « l’ancien » écrit-il dans la deuxième épître de Jean ?",
+        "prompt": "Dans la deuxième épître de Jean, quel mot l’ancien emploie-t-il pour la dame à qui il écrit ?",
         "bible_ref": "2 Jean 1:1",
         "verse_text": "L’ancien, à Kyria l’élue et à ses enfants, que j’aime dans la vérité, et ce n’est pas moi seul qui les aime, mais aussi tous ceux qui ont connu la vérité,"
       },
       "en": {
-        "prompt": "To whom does “the elder” write in the Second Epistle of John?",
+        "prompt": "In the Second Epistle of John, what word does the elder use for the lady he writes to?",
         "bible_ref": "2 John 1:1",
         "verse_text": "The elder unto the elect lady and her children, whom I love in the truth; and not I only, but also all they that have known the truth;"
       },
       "es": {
-        "prompt": "¿A quién escribe «el anciano» en la segunda epístola de Juan?",
+        "prompt": "En la segunda epístola de Juan, ¿qué palabra usa el anciano para la señora a quien escribe?",
         "bible_ref": "2 Juan 1:1",
         "verse_text": "EL anciano á la señora elegida y á sus hijos, á los cuales yo amo en verdad; y no yo solo, sino también todos los que han conocido la verdad,"
       }
@@ -5428,16 +5464,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "À senhora eleita e aos seus filhos"
+            "text": "Eleita"
           },
           "fr": {
-            "text": "À Kyria l’élue et à ses enfants"
+            "text": "Élue"
           },
           "en": {
-            "text": "The elect lady and her children"
+            "text": "Elect"
           },
           "es": {
-            "text": "A la señora elegida y a sus hijos"
+            "text": "Elegida"
           }
         }
       },
@@ -5446,16 +5482,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "A Febe e aos seus filhos"
+            "text": "Viúva"
           },
           "fr": {
-            "text": "À Phœbé et à ses enfants"
+            "text": "Veuve"
           },
           "en": {
-            "text": "Phebe and her children"
+            "text": "Widowed"
           },
           "es": {
-            "text": "A Febe y a sus hijos"
+            "text": "Viuda"
           }
         }
       },
@@ -5464,16 +5500,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "A Lídia e aos seus filhos"
+            "text": "Rica"
           },
           "fr": {
-            "text": "À Lydie et à ses enfants"
+            "text": "Riche"
           },
           "en": {
-            "text": "Lydia and her children"
+            "text": "Rich"
           },
           "es": {
-            "text": "A Lidia y a sus hijos"
+            "text": "Rica"
           }
         }
       },
@@ -5482,16 +5518,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "A Priscila e aos seus filhos"
+            "text": "Idosa"
           },
           "fr": {
-            "text": "À Priscille et à ses enfants"
+            "text": "Âgée"
           },
           "en": {
-            "text": "Priscilla and her children"
+            "text": "Aged"
           },
           "es": {
-            "text": "A Priscila y a sus hijos"
+            "text": "Anciana"
           }
         }
       }
@@ -6096,30 +6132,30 @@
     "type": "verse",
     "level": "hard",
     "testament": "nt",
-    "book": "2TH",
-    "chapter": 3,
-    "verse_start": 10,
-    "verse_end": 10,
+    "book": "2JN",
+    "chapter": 1,
+    "verse_start": 12,
+    "verse_end": 12,
     "texts": {
       "pt": {
-        "prompt": "Porque, quando ainda estávamos convosco, isto vos mandamos: que se alguém não quiser _____, também não coma.",
-        "bible_ref": "2 Tessalonicenses 3:10",
-        "verse_text": "Porque, quando ainda estávamos convosco, isto vos mandamos: que se alguém não quiser trabalhar, também não coma."
+        "prompt": "Eu tenho muitas coisas para vos escrever, porém não quis fazê-lo com papel e _____; mas espero vir até vós, e falar convosco face a face, para que a nossa alegria seja completa.",
+        "bible_ref": "2 João 1:12",
+        "verse_text": "Eu tenho muitas coisas para vos escrever, porém não quis fazê-lo com papel e tinta; mas espero vir até vós, e falar convosco face a face, para que a nossa alegria seja completa."
       },
       "fr": {
-        "prompt": "Car, lorsque nous étions chez vous, nous vous disions expressément: Si quelqu’un ne veut pas _____, qu’il ne mange pas non plus.",
-        "bible_ref": "2 Thessaloniciens 3:10",
-        "verse_text": "Car, lorsque nous étions chez vous, nous vous disions expressément: Si quelqu’un ne veut pas travailler, qu’il ne mange pas non plus."
+        "prompt": "Quoique j’eusse beaucoup de choses à vous écrire, je n’ai pas voulu le faire avec le papier et l’_____; mais j’espère aller chez vous, et vous parler bouche à bouche, afin que notre joie soit parfaite.",
+        "bible_ref": "2 Jean 1:12",
+        "verse_text": "Quoique j’eusse beaucoup de choses à vous écrire, je n’ai pas voulu le faire avec le papier et l’encre; mais j’espère aller chez vous, et vous parler bouche à bouche, afin que notre joie soit parfaite."
       },
       "en": {
-        "prompt": "For even when we were with you, this we commanded you, that if any would not _____, neither should he eat.",
-        "bible_ref": "2 Thessalonians 3:10",
-        "verse_text": "For even when we were with you, this we commanded you, that if any would not work, neither should he eat."
+        "prompt": "Having many things to write unto you, I would not write with paper and _____: but I trust to come unto you, and speak face to face, that our joy may be full.",
+        "bible_ref": "2 John 1:12",
+        "verse_text": "Having many things to write unto you, I would not write with paper and ink: but I trust to come unto you, and speak face to face, that our joy may be full."
       },
       "es": {
-        "prompt": "Porque aun estando con vosotros, os denunciábamos esto: Que si alguno no quisiere _____, tampoco coma.",
-        "bible_ref": "2 Tesalonicenses 3:10",
-        "verse_text": "Porque aun estando con vosotros, os denunciábamos esto: Que si alguno no quisiere trabajar, tampoco coma."
+        "prompt": "Aunque tengo muchas cosas que escribiros, no he querido comunicarlas por medio de papel y _____; mas espero ir á vosotros, y hablar boca á boca, para que nuestro gozo sea cumplido.",
+        "bible_ref": "2 Juan 1:12",
+        "verse_text": "Aunque tengo muchas cosas que escribiros, no he querido comunicarlas por medio de papel y tinta; mas espero ir á vosotros, y hablar boca á boca, para que nuestro gozo sea cumplido."
       }
     },
     "options": [
@@ -6128,16 +6164,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "orar"
+            "text": "barro"
           },
           "fr": {
-            "text": "prier"
+            "text": "argile"
           },
           "en": {
-            "text": "pray"
+            "text": "clay"
           },
           "es": {
-            "text": "orar"
+            "text": "barro"
           }
         }
       },
@@ -6146,16 +6182,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "jejuar"
+            "text": "óleo"
           },
           "fr": {
-            "text": "jeûner"
+            "text": "huile"
           },
           "en": {
-            "text": "fast"
+            "text": "oil"
           },
           "es": {
-            "text": "ayunar"
+            "text": "aceite"
           }
         }
       },
@@ -6164,16 +6200,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "trabalhar"
+            "text": "tinta"
           },
           "fr": {
-            "text": "travailler"
+            "text": "encre"
           },
           "en": {
-            "text": "work"
+            "text": "ink"
           },
           "es": {
-            "text": "trabajar"
+            "text": "tinta"
           }
         }
       },
@@ -6182,16 +6218,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "aprender"
+            "text": "ouro"
           },
           "fr": {
-            "text": "apprendre"
+            "text": "or"
           },
           "en": {
-            "text": "learn"
+            "text": "gold"
           },
           "es": {
-            "text": "aprender"
+            "text": "oro"
           }
         }
       }
@@ -6202,30 +6238,30 @@
     "type": "verse",
     "level": "hard",
     "testament": "nt",
-    "book": "1PE",
-    "chapter": 5,
-    "verse_start": 8,
-    "verse_end": 8,
+    "book": "2TI",
+    "chapter": 4,
+    "verse_start": 13,
+    "verse_end": 13,
     "texts": {
       "pt": {
-        "prompt": "Sede sóbrios! Vigiai! Pois o vosso adversário, o diabo, anda ao redor, rugindo como um _____, buscando a quem possa devorar.",
-        "bible_ref": "1 Pedro 5:8",
-        "verse_text": "Sede sóbrios! Vigiai! Pois o vosso adversário, o diabo, anda ao redor, rugindo como um leão, buscando a quem possa devorar."
+        "prompt": "Quando vieres, traz a _____ que deixei em Trôade na casa de Carpo, e os livros, principalmente os pergaminhos.",
+        "bible_ref": "2 Timóteo 4:13",
+        "verse_text": "Quando vieres, traz a capa que deixei em Trôade na casa de Carpo, e os livros, principalmente os pergaminhos."
       },
       "fr": {
-        "prompt": "Soyez sobres, veillez. Votre adversaire, le diable, rôde comme un _____ rugissant, cherchant qui il dévorera.",
-        "bible_ref": "1 Pierre 5:8",
-        "verse_text": "Soyez sobres, veillez. Votre adversaire, le diable, rôde comme un lion rugissant, cherchant qui il dévorera."
+        "prompt": "Quand tu viendras, apporte le _____ que j’ai laissé à Troas chez Carpus, et les livres, surtout les parchemins.",
+        "bible_ref": "2 Timothée 4:13",
+        "verse_text": "Quand tu viendras, apporte le manteau que j’ai laissé à Troas chez Carpus, et les livres, surtout les parchemins."
       },
       "en": {
-        "prompt": "Be sober, be vigilant; because your adversary the devil, as a roaring _____, walketh about, seeking whom he may devour:",
-        "bible_ref": "1 Peter 5:8",
-        "verse_text": "Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour:"
+        "prompt": "The _____ that I left at Troas with Carpus, when thou comest, bring with thee, and the books, but especially the parchments.",
+        "bible_ref": "2 Timothy 4:13",
+        "verse_text": "The cloke that I left at Troas with Carpus, when thou comest, bring with thee, and the books, but especially the parchments."
       },
       "es": {
-        "prompt": "Sed templados, y velad; porque vuestro adversario el diablo, cual _____ rugiente, anda alrededor buscando á quien devore:",
-        "bible_ref": "1 Pedro 5:8",
-        "verse_text": "Sed templados, y velad; porque vuestro adversario el diablo, cual león rugiente, anda alrededor buscando á quien devore:"
+        "prompt": "Trae, cuando vinieres, el _____ que dejé en Troas en casa de Carpo: y los libros, mayormente los pergaminos.",
+        "bible_ref": "2 Timoteo 4:13",
+        "verse_text": "Trae, cuando vinieres, el capote que dejé en Troas en casa de Carpo: y los libros, mayormente los pergaminos."
       }
     },
     "options": [
@@ -6234,16 +6270,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "leão"
+            "text": "capa"
           },
           "fr": {
-            "text": "lion"
+            "text": "manteau"
           },
           "en": {
-            "text": "lion"
+            "text": "cloke"
           },
           "es": {
-            "text": "león"
+            "text": "capote"
           }
         }
       },
@@ -6252,16 +6288,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "leopardo"
+            "text": "taça"
           },
           "fr": {
-            "text": "léopard"
+            "text": "calice"
           },
           "en": {
-            "text": "leopard"
+            "text": "cup"
           },
           "es": {
-            "text": "leopardo"
+            "text": "cáliz"
           }
         }
       },
@@ -6270,16 +6306,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "lobo"
+            "text": "bengala"
           },
           "fr": {
-            "text": "loup"
+            "text": "bâton"
           },
           "en": {
-            "text": "wolf"
+            "text": "staff"
           },
           "es": {
-            "text": "lobo"
+            "text": "bastón"
           }
         }
       },
@@ -6288,16 +6324,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "urso"
+            "text": "bolsa"
           },
           "fr": {
-            "text": "ours"
+            "text": "sac"
           },
           "en": {
-            "text": "bear"
+            "text": "bag"
           },
           "es": {
-            "text": "oso"
+            "text": "saco"
           }
         }
       }
@@ -6308,30 +6344,30 @@
     "type": "verse",
     "level": "hard",
     "testament": "nt",
-    "book": "PHP",
-    "chapter": 1,
-    "verse_start": 21,
-    "verse_end": 21,
+    "book": "HEB",
+    "chapter": 13,
+    "verse_start": 2,
+    "verse_end": 2,
     "texts": {
       "pt": {
-        "prompt": "Pois, para mim, o viver é Cristo, e o morrer é _____.",
-        "bible_ref": "Filipenses 1:21",
-        "verse_text": "Pois, para mim, o viver é Cristo, e o morrer é lucro."
+        "prompt": "Não vos esqueçais de mostrar hospitalidade, porque através dela alguns, sem saber, acolheram _____.",
+        "bible_ref": "Hebreus 13:2",
+        "verse_text": "Não vos esqueçais de mostrar hospitalidade, porque através dela alguns, sem saber, acolheram anjos."
       },
       "fr": {
-        "prompt": "car Christ est ma vie, et la mort m’est un _____.",
-        "bible_ref": "Philippiens 1:21",
-        "verse_text": "car Christ est ma vie, et la mort m’est un gain."
+        "prompt": "N’oubliez pas l’hospitalité; car, en l’exerçant, quelques-uns ont logé des _____, sans le savoir.",
+        "bible_ref": "Hébreux 13:2",
+        "verse_text": "N’oubliez pas l’hospitalité; car, en l’exerçant, quelques-uns ont logé des anges, sans le savoir."
       },
       "en": {
-        "prompt": "For to me to live is Christ, and to die is _____.",
-        "bible_ref": "Philippians 1:21",
-        "verse_text": "For to me to live is Christ, and to die is gain."
+        "prompt": "Be not forgetful to entertain strangers: for thereby some have entertained _____ unawares.",
+        "bible_ref": "Hebrews 13:2",
+        "verse_text": "Be not forgetful to entertain strangers: for thereby some have entertained angels unawares."
       },
       "es": {
-        "prompt": "Porque para mí el vivir es Cristo, y el morir es _____.",
-        "bible_ref": "Filipenses 1:21",
-        "verse_text": "Porque para mí el vivir es Cristo, y el morir es ganancia."
+        "prompt": "No olvidéis la hospitalidad, porque por ésta algunos, sin saberlo, hospedaron _____.",
+        "bible_ref": "Hebreos 13:2",
+        "verse_text": "No olvidéis la hospitalidad, porque por ésta algunos, sin saberlo, hospedaron ángeles."
       }
     },
     "options": [
@@ -6340,16 +6376,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "descanso"
+            "text": "profetas"
           },
           "fr": {
-            "text": "repos"
+            "text": "prophètes"
           },
           "en": {
-            "text": "rest"
+            "text": "prophets"
           },
           "es": {
-            "text": "descanso"
+            "text": "profetas"
           }
         }
       },
@@ -6358,16 +6394,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "lucro"
+            "text": "anjos"
           },
           "fr": {
-            "text": "gain"
+            "text": "anges"
           },
           "en": {
-            "text": "gain"
+            "text": "angels"
           },
           "es": {
-            "text": "ganancia"
+            "text": "ángeles"
           }
         }
       },
@@ -6376,16 +6412,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "sono"
+            "text": "reis"
           },
           "fr": {
-            "text": "sommeil"
+            "text": "rois"
           },
           "en": {
-            "text": "sleep"
+            "text": "kings"
           },
           "es": {
-            "text": "sueño"
+            "text": "reyes"
           }
         }
       },
@@ -6394,16 +6430,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "mistério"
+            "text": "apóstolos"
           },
           "fr": {
-            "text": "mystère"
+            "text": "apôtres"
           },
           "en": {
-            "text": "mystery"
+            "text": "apostles"
           },
           "es": {
-            "text": "misterio"
+            "text": "apóstoles"
           }
         }
       }
@@ -6414,30 +6450,30 @@
     "type": "verse",
     "level": "hard",
     "testament": "nt",
-    "book": "ROM",
-    "chapter": 12,
-    "verse_start": 21,
-    "verse_end": 21,
+    "book": "JUD",
+    "chapter": 1,
+    "verse_start": 12,
+    "verse_end": 12,
     "texts": {
       "pt": {
-        "prompt": "Não sejas vencido pelo mal, mas vence o mal com o _____.",
-        "bible_ref": "Romanos 12:21",
-        "verse_text": "Não sejas vencido pelo mal, mas vence o mal com o bem."
+        "prompt": "Estes são manchas em vossas demonstrações de amor, participando dos banquetes convosco, apascentando a si mesmos sem temor; eles são nuvens sem _____, levadas pelos ventos sem direção; são como árvores murchas, infrutíferas, duas vezes mortas e arrancadas pela raiz;",
+        "bible_ref": "Judas 1:12",
+        "verse_text": "Estes são manchas em vossas demonstrações de amor, participando dos banquetes convosco, apascentando a si mesmos sem temor; eles são nuvens sem água, levadas pelos ventos sem direção; são como árvores murchas, infrutíferas, duas vezes mortas e arrancadas pela raiz;"
       },
       "fr": {
-        "prompt": "Ne te laisse pas vaincre par le mal, mais surmonte le mal par le _____.",
-        "bible_ref": "Romains 12:21",
-        "verse_text": "Ne te laisse pas vaincre par le mal, mais surmonte le mal par le bien."
+        "prompt": "Ce sont des écueils dans vos agapes, faisant impudemment bonne chère, se repaissant eux-mêmes. Ce sont des nuées sans _____, poussées par les vents; des arbres d’automne sans fruits, deux fois morts, déracinés;",
+        "bible_ref": "Jude 1:12",
+        "verse_text": "Ce sont des écueils dans vos agapes, faisant impudemment bonne chère, se repaissant eux-mêmes. Ce sont des nuées sans eau, poussées par les vents; des arbres d’automne sans fruits, deux fois morts, déracinés;"
       },
       "en": {
-        "prompt": "Be not overcome of evil, but overcome evil with _____.",
-        "bible_ref": "Romans 12:21",
-        "verse_text": "Be not overcome of evil, but overcome evil with good."
+        "prompt": "These are spots in your feasts of charity, when they feast with you, feeding themselves without fear: clouds they are without _____, carried about of winds; trees whose fruit withereth, without fruit, twice dead, plucked up by the roots;",
+        "bible_ref": "Jude 1:12",
+        "verse_text": "These are spots in your feasts of charity, when they feast with you, feeding themselves without fear: clouds they are without water, carried about of winds; trees whose fruit withereth, without fruit, twice dead, plucked up by the roots;"
       },
       "es": {
-        "prompt": "No seas vencido de lo malo; mas vence con el _____ el mal.",
-        "bible_ref": "Romanos 12:21",
-        "verse_text": "No seas vencido de lo malo; mas vence con el bien el mal."
+        "prompt": "Estos son manchas en vuestros convites, que banquetean juntamente, apacentándose á sí mismos sin temor alguno: nubes sin _____, las cuales son llevadas de acá para allá de los vientos: árboles marchitos como en otoño, sin fruto, dos veces muertos y desarraigados;",
+        "bible_ref": "Judas 1:12",
+        "verse_text": "Estos son manchas en vuestros convites, que banquetean juntamente, apacentándose á sí mismos sin temor alguno: nubes sin agua, las cuales son llevadas de acá para allá de los vientos: árboles marchitos como en otoño, sin fruto, dos veces muertos y desarraigados;"
       }
     },
     "options": [
@@ -6446,16 +6482,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "silêncio"
+            "text": "sombra"
           },
           "fr": {
-            "text": "silence"
+            "text": "ombre"
           },
           "en": {
-            "text": "silence"
+            "text": "shade"
           },
           "es": {
-            "text": "silencio"
+            "text": "sombra"
           }
         }
       },
@@ -6464,16 +6500,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "jejum"
+            "text": "cor"
           },
           "fr": {
-            "text": "jeûne"
+            "text": "couleur"
           },
           "en": {
-            "text": "fasting"
+            "text": "colour"
           },
           "es": {
-            "text": "ayuno"
+            "text": "color"
           }
         }
       },
@@ -6482,16 +6518,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "bem"
+            "text": "água"
           },
           "fr": {
-            "text": "bien"
+            "text": "eau"
           },
           "en": {
-            "text": "good"
+            "text": "water"
           },
           "es": {
-            "text": "bien"
+            "text": "agua"
           }
         }
       },
@@ -6500,16 +6536,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "perdão"
+            "text": "luz"
           },
           "fr": {
-            "text": "pardon"
+            "text": "lumière"
           },
           "en": {
-            "text": "forgiveness"
+            "text": "light"
           },
           "es": {
-            "text": "perdón"
+            "text": "luz"
           }
         }
       }

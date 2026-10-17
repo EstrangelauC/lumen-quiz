@@ -199,6 +199,15 @@
           "en": "With spears",
           "es": "Con lanzas"
         }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com espadas",
+          "fr": "Avec des épées",
+          "en": "With swords",
+          "es": "Con espadas"
+        }
       }
     ]
   },
@@ -264,10 +273,10 @@
     "verse_start": 5,
     "verse_end": 5,
     "prompt": {
-      "pt": "No caminho, quem falou com Saulo e disse «a quem tu persegues»?",
-      "fr": "Sur le chemin, qui parla à Saul et dit « que tu persécutes » ?",
-      "en": "On the road, who spoke to Saul and said “whom thou persecutest”?",
-      "es": "En el camino, ¿quién habló a Saulo y dijo «a quien tú persigues»?"
+      "pt": "No caminho, quem disse a Saulo: «Eu sou aquele a quem tu persegues»?",
+      "fr": "Sur le chemin, qui dit à Saul : « Je suis celui que tu persécutes » ?",
+      "en": "On the road, who said to Saul: “I am he whom thou persecutest”?",
+      "es": "En el camino, ¿quién dijo a Saulo: «Yo soy aquel a quien tú persigues»?"
     },
     "options": [
       {
@@ -560,6 +569,15 @@
           "fr": "Le prophète Daniel",
           "en": "The prophet Daniel",
           "es": "El profeta Daniel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O profeta Jeremias",
+          "fr": "Le prophète Jérémie",
+          "en": "The prophet Jeremias",
+          "es": "El profeta Jeremías"
         }
       }
     ]
@@ -2560,46 +2578,46 @@
     "verse_start": 1,
     "verse_end": 1,
     "prompt": {
-      "pt": "A quem escreve «o ancião» na Segunda Epístola de João?",
-      "fr": "À qui « l’ancien » écrit-il dans la deuxième épître de Jean ?",
-      "en": "To whom does “the elder” write in the Second Epistle of John?",
-      "es": "¿A quién escribe «el anciano» en la segunda epístola de Juan?"
+      "pt": "Na Segunda Epístola de João, que palavra usa o ancião para descrever a senhora a quem escreve?",
+      "fr": "Dans la deuxième épître de Jean, quel mot l’ancien emploie-t-il pour la dame à qui il écrit ?",
+      "en": "In the Second Epistle of John, what word does the elder use for the lady he writes to?",
+      "es": "En la segunda epístola de Juan, ¿qué palabra usa el anciano para la señora a quien escribe?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "À senhora eleita e aos seus filhos",
-          "fr": "À Kyria l’élue et à ses enfants",
-          "en": "The elect lady and her children",
-          "es": "A la señora elegida y a sus hijos"
+          "pt": "Eleita",
+          "fr": "Élue",
+          "en": "Elect",
+          "es": "Elegida"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "A Febe e aos seus filhos",
-          "fr": "À Phœbé et à ses enfants",
-          "en": "Phebe and her children",
-          "es": "A Febe y a sus hijos"
+          "pt": "Viúva",
+          "fr": "Veuve",
+          "en": "Widowed",
+          "es": "Viuda"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "A Lídia e aos seus filhos",
-          "fr": "À Lydie et à ses enfants",
-          "en": "Lydia and her children",
-          "es": "A Lidia y a sus hijos"
+          "pt": "Rica",
+          "fr": "Riche",
+          "en": "Rich",
+          "es": "Rica"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "A Priscila e aos seus filhos",
-          "fr": "À Priscille et à ses enfants",
-          "en": "Priscilla and her children",
-          "es": "A Priscila y a sus hijos"
+          "pt": "Idosa",
+          "fr": "Âgée",
+          "en": "Aged",
+          "es": "Anciana"
         }
       }
     ]
@@ -2905,34 +2923,34 @@
     "id": "apos-hard-017",
     "type": "verse",
     "level": "hard",
-    "book": "2TH",
-    "chapter": 3,
-    "verse_start": 10,
-    "verse_end": 10,
+    "book": "2JN",
+    "chapter": 1,
+    "verse_start": 12,
+    "verse_end": 12,
     "blank": {
-      "pt": "trabalhar",
-      "fr": "travailler",
-      "en": "work",
-      "es": "trabajar"
+      "pt": "tinta",
+      "fr": "encre",
+      "en": "ink",
+      "es": "tinta"
     },
     "distractors": [
       {
-        "pt": "orar",
-        "fr": "prier",
-        "en": "pray",
-        "es": "orar"
+        "pt": "barro",
+        "fr": "argile",
+        "en": "clay",
+        "es": "barro"
       },
       {
-        "pt": "aprender",
-        "fr": "apprendre",
-        "en": "learn",
-        "es": "aprender"
+        "pt": "ouro",
+        "fr": "or",
+        "en": "gold",
+        "es": "oro"
       },
       {
-        "pt": "jejuar",
-        "fr": "jeûner",
-        "en": "fast",
-        "es": "ayunar"
+        "pt": "óleo",
+        "fr": "huile",
+        "en": "oil",
+        "es": "aceite"
       }
     ]
   },
@@ -2940,34 +2958,34 @@
     "id": "apos-hard-018",
     "type": "verse",
     "level": "hard",
-    "book": "1PE",
-    "chapter": 5,
-    "verse_start": 8,
-    "verse_end": 8,
+    "book": "2TI",
+    "chapter": 4,
+    "verse_start": 13,
+    "verse_end": 13,
     "blank": {
-      "pt": "leão",
-      "fr": "lion",
-      "en": "lion",
-      "es": "león"
+      "pt": "capa",
+      "fr": "manteau",
+      "en": "cloke",
+      "es": "capote"
     },
     "distractors": [
       {
-        "pt": "urso",
-        "fr": "ours",
-        "en": "bear",
-        "es": "oso"
+        "pt": "bolsa",
+        "fr": "sac",
+        "en": "bag",
+        "es": "saco"
       },
       {
-        "pt": "lobo",
-        "fr": "loup",
-        "en": "wolf",
-        "es": "lobo"
+        "pt": "bengala",
+        "fr": "bâton",
+        "en": "staff",
+        "es": "bastón"
       },
       {
-        "pt": "leopardo",
-        "fr": "léopard",
-        "en": "leopard",
-        "es": "leopardo"
+        "pt": "taça",
+        "fr": "calice",
+        "en": "cup",
+        "es": "cáliz"
       }
     ]
   },
@@ -2975,34 +2993,34 @@
     "id": "apos-hard-019",
     "type": "verse",
     "level": "hard",
-    "book": "PHP",
-    "chapter": 1,
-    "verse_start": 21,
-    "verse_end": 21,
+    "book": "HEB",
+    "chapter": 13,
+    "verse_start": 2,
+    "verse_end": 2,
     "blank": {
-      "pt": "lucro",
-      "fr": "gain",
-      "en": "gain",
-      "es": "ganancia"
+      "pt": "anjos",
+      "fr": "anges",
+      "en": "angels",
+      "es": "ángeles"
     },
     "distractors": [
       {
-        "pt": "descanso",
-        "fr": "repos",
-        "en": "rest",
-        "es": "descanso"
+        "pt": "profetas",
+        "fr": "prophètes",
+        "en": "prophets",
+        "es": "profetas"
       },
       {
-        "pt": "sono",
-        "fr": "sommeil",
-        "en": "sleep",
-        "es": "sueño"
+        "pt": "reis",
+        "fr": "rois",
+        "en": "kings",
+        "es": "reyes"
       },
       {
-        "pt": "mistério",
-        "fr": "mystère",
-        "en": "mystery",
-        "es": "misterio"
+        "pt": "apóstolos",
+        "fr": "apôtres",
+        "en": "apostles",
+        "es": "apóstoles"
       }
     ]
   },
@@ -3010,34 +3028,34 @@
     "id": "apos-hard-020",
     "type": "verse",
     "level": "hard",
-    "book": "ROM",
-    "chapter": 12,
-    "verse_start": 21,
-    "verse_end": 21,
+    "book": "JUD",
+    "chapter": 1,
+    "verse_start": 12,
+    "verse_end": 12,
     "blank": {
-      "pt": "bem",
-      "fr": "bien",
-      "en": "good",
-      "es": "bien"
+      "pt": "água",
+      "fr": "eau",
+      "en": "water",
+      "es": "agua"
     },
     "distractors": [
       {
-        "pt": "perdão",
-        "fr": "pardon",
-        "en": "forgiveness",
-        "es": "perdón"
+        "pt": "luz",
+        "fr": "lumière",
+        "en": "light",
+        "es": "luz"
       },
       {
-        "pt": "silêncio",
-        "fr": "silence",
-        "en": "silence",
-        "es": "silencio"
+        "pt": "sombra",
+        "fr": "ombre",
+        "en": "shade",
+        "es": "sombra"
       },
       {
-        "pt": "jejum",
-        "fr": "jeûne",
-        "en": "fasting",
-        "es": "ayuno"
+        "pt": "cor",
+        "fr": "couleur",
+        "en": "colour",
+        "es": "color"
       }
     ]
   }
