@@ -129,7 +129,13 @@
     "confirmFinish": "End the game now?",
     "gameOver": "Game over!",
     "back": "Back to dashboard",
-    "points": "{points} pts"
+    "points": "{points} pts",
+    "orderHint": "Put them in order: what happened first?",
+    "rightOrder": "Right order",
+    "completeVerse": "Complete the verse",
+    "report": "Report question",
+    "reported": "Question reported",
+    "confirmReport": "Report this question? It will no longer appear in future games."
   },
   "join": {
     "title": "Join a game",
@@ -160,6 +166,14 @@
     "gameOver": "Game over!",
     "finalRank": "You finished #{rank} of {total}",
     "thanks": "Thanks for playing!",
-    "home": "Home"
+    "home": "Home",
+    "orderHint": "Tap the events in the order they happened",
+    "confirm": "Confirm",
+    "clear": "Clear",
+    "rightOrder": "Right order",
+    "completeVerse": "Complete the verse"
+  },
+  "bible": {
+    "source": "King James Version"
   }
 }

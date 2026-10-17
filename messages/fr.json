@@ -129,7 +129,13 @@
     "confirmFinish": "Terminer la partie maintenant ?",
     "gameOver": "Fin de la partie !",
     "back": "Retour au tableau de bord",
-    "points": "{points} pts"
+    "points": "{points} pts",
+    "orderHint": "Remets dans l’ordre : qu’est-ce qui s’est passé en premier ?",
+    "rightOrder": "Bon ordre",
+    "completeVerse": "Complète le verset",
+    "report": "Signaler la question",
+    "reported": "Question signalée",
+    "confirmReport": "Signaler cette question ? Elle ne sortira plus dans les prochaines parties."
   },
   "join": {
     "title": "Rejoindre une partie",
@@ -160,6 +166,14 @@
     "gameOver": "Fin de la partie !",
     "finalRank": "Tu termines {rank}e sur {total}",
     "thanks": "Merci d'avoir joué !",
-    "home": "Accueil"
+    "home": "Accueil",
+    "orderHint": "Touche les épisodes dans l’ordre où ils se sont passés",
+    "confirm": "Confirmer",
+    "clear": "Effacer",
+    "rightOrder": "Bon ordre",
+    "completeVerse": "Complète le verset"
+  },
+  "bible": {
+    "source": "Louis Segond 1910"
   }
 }

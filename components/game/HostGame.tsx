@@ -9,9 +9,11 @@ import { ANSWER_STYLES } from '@/lib/quiz';
 import type { CurrentQuestion, GameSession, Player } from '@/lib/types';
 import { useCountdown } from '@/hooks/useCountdown';
 import TimerBadge from './TimerBadge';
+import VerseReveal, { VerseGapText } from './VerseReveal';
 import LanguageSwitcher from '../LanguageSwitcher';
 
 const MEDALS = ['🥇', '🥈', '🥉'];
+const LETTERS = 'ABCD';
 
 export default function HostGame({ sessionId, pin }: { sessionId: string; pin: string }) {
   const t = useTranslations('host');
@@ -26,6 +28,8 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
   const [joinUrl, setJoinUrl] = useState('');
   const [copied, setCopied] = useState(false);
   const [busy, setBusy] = useState(false);
+  const [reportedNow, setReportedNow] = useState<string | null>(null); // question_id reportada agora
+  const [reporting, setReporting] = useState(false);
   const revealedFor = useRef<string | null>(null);
 
   useEffect(() => setJoinUrl(`${window.location.origin}/j/${pin}`), [pin]);
@@ -82,15 +86,18 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
       const { data } = await supabase.rpc('get_current_question', { p_session_id: sessionId, p_locale: locale });
       if (cancelled || !data) return;
       const q = data as CurrentQuestion;
-      setQuestion(q);
-      setOffset(Date.parse(q.server_now) - Date.now());
       const { count } = await supabase
         .from('answers')
         .select('id', { count: 'exact', head: true })
         .eq('session_id', sessionId)
         .eq('question_id', q.question_id);
-      if (!cancelled) setAnswersCount(count ?? 0);
-      if (status === 'reveal') loadPlayers();
+      if (cancelled) return;
+      // Pergunta e contagem mudam juntas: com a contagem da pergunta anterior
+      // ("todos responderam") a revelação automática disparava logo
+      setQuestion(q);
+      setAnswersCount(count ?? 0);
+      setOffset(Date.parse(q.server_now) - Date.now());
+      if (q.status === 'reveal') loadPlayers();
     })();
     return () => {
       cancelled = true;
@@ -101,19 +108,27 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
 
   // Revela automaticamente quando o tempo acaba ou quando todos já responderam
   useEffect(() => {
-    if (status !== 'question' || !question || question.status !== 'question') return;
+    if (status !== 'question' || !question || question.status !== 'question' || question.position !== position) return;
     const everyone = players.length > 0 && answersCount >= players.length;
     if ((remaining === 0 || everyone) && revealedFor.current !== question.question_id) {
       revealedFor.current = question.question_id;
       supabase.rpc('reveal_answer', { p_session_id: sessionId }).then(() => undefined);
     }
-  }, [status, question, remaining, answersCount, players.length, supabase, sessionId]);
+  }, [status, position, question, remaining, answersCount, players.length, supabase, sessionId]);
 
   async function call(fn: 'next_question' | 'reveal_answer' | 'end_session') {
     setBusy(true);
     if (fn === 'reveal_answer' && question) revealedFor.current = question.question_id;
     await supabase.rpc(fn, { p_session_id: sessionId });
     setBusy(false);
+  }
+
+  async function report() {
+    if (!question || !confirm(t('confirmReport'))) return;
+    setReporting(true);
+    const { error } = await supabase.rpc('report_question', { p_session_id: sessionId });
+    setReporting(false);
+    if (!error) setReportedNow(question.question_id);
   }
 
   async function share() {
@@ -140,6 +155,18 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
   }
 
   const isLast = question ? question.position >= question.total : false;
+  // Só mostra a pergunta carregada se ainda for a do estado atual da sessão
+  const current = question && question.status === status && question.position === position ? question : null;
+  const reported = current ? current.reported || reportedNow === current.question_id : false;
+  const rightOrder =
+    current?.type === 'order' && current.correct_order
+      ? current.correct_order
+          .map((id) => {
+            const i = current.options.findIndex((o) => o.id === id);
+            return i === -1 ? null : { option: current.options[i], i };
+          })
+          .filter((x) => x !== null)
+      : [];
 
   return (
     <div className="flex min-h-dvh flex-col bg-night text-white">
@@ -210,14 +237,14 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
       )}
 
       {/* ---------------- PERGUNTA / REVELAÇÃO ---------------- */}
-      {(status === 'question' || status === 'reveal') && question && (
+      {(status === 'question' || status === 'reveal') && current && (
         <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col px-4 pb-8 sm:px-6">
           <div className="flex items-center justify-between gap-4 py-2">
             <p className="text-sm font-semibold uppercase tracking-widest text-white/50">
-              {t('questionOf', { n: question.position, total: question.total })}
+              {t('questionOf', { n: current.position, total: current.total })}
             </p>
             {status === 'question' ? (
-              <TimerBadge remaining={remaining} total={question.time_limit_s} />
+              <TimerBadge remaining={remaining} total={current.time_limit_s} />
             ) : (
               <span className="rounded-full bg-white/10 px-4 py-2 text-sm font-semibold">
                 {t('answers', { count: answersCount, total: players.length })}
@@ -225,29 +252,73 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
             )}
           </div>
 
-          <div className="py-6 text-center">
-            {question.bible_ref && <p className="mb-2 text-sm font-medium text-gold">📖 {question.bible_ref}</p>}
-            <h1 className="font-display mx-auto max-w-4xl text-3xl font-semibold leading-tight sm:text-5xl">{question.text}</h1>
+          <div className={`text-center ${status === 'reveal' ? 'py-3' : 'py-6'}`}>
+            {current.type === 'verse' && (
+              <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-gold">{t('completeVerse')}</p>
+            )}
+            {current.type === 'order' && status === 'question' && (
+              <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-gold">{t('orderHint')}</p>
+            )}
+            {/* Na revelação de choice/verse a referência aparece com o versículo */}
+            {current.bible_ref && (status === 'question' || current.type === 'order') && (
+              <p className="mb-2 text-sm font-medium text-gold">📖 {current.bible_ref}</p>
+            )}
+            <h1 className="font-display mx-auto max-w-4xl text-3xl font-semibold leading-tight sm:text-5xl">
+              {current.type === 'verse' ? <VerseGapText text={current.text} /> : current.text}
+            </h1>
           </div>
 
-          <div className="mt-auto grid gap-3 sm:grid-cols-2">
-            {question.options.map((o, i) => {
-              const revealed = status === 'reveal';
-              const faded = revealed && !o.is_correct;
-              return (
-                <div
-                  key={o.id}
-                  className={`${ANSWER_STYLES[i].bg} flex min-h-20 items-center gap-4 rounded-2xl px-5 py-4 text-xl font-bold text-white shadow-lg transition sm:min-h-28 sm:text-2xl ${
-                    faded ? 'opacity-25' : ''
-                  } ${revealed && o.is_correct ? `ring-4 ${ANSWER_STYLES[i].ring}` : ''}`}
-                >
-                  <span className="text-2xl opacity-80">{ANSWER_STYLES[i].shape}</span>
-                  <span className="flex-1">{o.text}</span>
-                  {revealed && o.is_correct && <span className="text-3xl">✓</span>}
-                </div>
-              );
-            })}
-          </div>
+          {current.type === 'order' && status === 'reveal' ? (
+            /* Ordem certa, com a referência de cada episódio */
+            <div className="mt-auto">
+              <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-white/50">{t('rightOrder')}</p>
+              <ol className="grid gap-2">
+                {rightOrder.map(({ option: o, i }, n) => (
+                  <li
+                    key={o.id}
+                    className={`${ANSWER_STYLES[i].bg} flex items-center gap-4 rounded-2xl px-5 py-3 text-xl font-bold text-white shadow-lg sm:text-2xl`}
+                  >
+                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white text-2xl font-extrabold text-ink tabular-nums">
+                      {n + 1}
+                    </span>
+                    <span className="w-12 shrink-0 text-lg opacity-80">
+                      {ANSWER_STYLES[i].shape} {LETTERS[i]}
+                    </span>
+                    <span className="flex-1">{o.text}</span>
+                    {o.ref && <span className="shrink-0 text-base font-semibold text-white/85">📖 {o.ref}</span>}
+                  </li>
+                ))}
+              </ol>
+            </div>
+          ) : (
+            <div className="mt-auto grid gap-3 sm:grid-cols-2">
+              {current.options.map((o, i) => {
+                const revealed = status === 'reveal';
+                const faded = revealed && !o.is_correct;
+                return (
+                  <div
+                    key={o.id}
+                    className={`${ANSWER_STYLES[i].bg} flex items-center gap-4 rounded-2xl px-5 py-4 text-xl font-bold text-white shadow-lg transition sm:text-2xl ${
+                      revealed ? 'min-h-16' : 'min-h-20 sm:min-h-28'
+                    } ${faded ? 'opacity-25' : ''} ${revealed && o.is_correct ? `ring-4 ${ANSWER_STYLES[i].ring}` : ''}`}
+                  >
+                    <span className="text-2xl opacity-80">
+                      {ANSWER_STYLES[i].shape}
+                      {current.type === 'order' && <span className="ml-2">{LETTERS[i]}</span>}
+                    </span>
+                    <span className="flex-1">{o.text}</span>
+                    {revealed && o.is_correct && <span className="text-3xl">✓</span>}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
+          {status === 'reveal' && current.type !== 'order' && (
+            <div className="mt-4">
+              <VerseReveal reference={current.bible_ref} text={current.verse_text} size="lg" />
+            </div>
+          )}
 
           <div className="mt-6 flex flex-wrap items-center justify-between gap-3">
             {status === 'question' ? (
@@ -260,9 +331,18 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
             ) : (
               <>
                 <Leaderboard players={players.slice(0, 5)} title={t('leaderboard')} pointsLabel={(p) => t('points', { points: p })} />
-                <button onClick={() => call('next_question')} disabled={busy} className="btn-gold px-8 py-4 text-lg">
-                  {isLast ? `🏆 ${t('podium')}` : `${t('next')} →`}
-                </button>
+                <div className="flex flex-col items-end gap-2">
+                  <button onClick={() => call('next_question')} disabled={busy} className="btn-gold px-8 py-4 text-lg">
+                    {isLast ? `🏆 ${t('podium')}` : `${t('next')} →`}
+                  </button>
+                  <button
+                    onClick={report}
+                    disabled={reported || reporting}
+                    className="rounded-lg px-3 py-1.5 text-sm font-semibold text-white/60 hover:bg-white/10 hover:text-white disabled:cursor-not-allowed disabled:hover:bg-transparent"
+                  >
+                    {reported ? `✓ ${t('reported')}` : `⚑ ${t('report')}`}
+                  </button>
+                </div>
               </>
             )}
           </div>

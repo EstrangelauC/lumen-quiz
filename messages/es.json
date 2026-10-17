@@ -129,7 +129,13 @@
     "confirmFinish": "¿Terminar el juego ahora?",
     "gameOver": "¡Fin del juego!",
     "back": "Volver al panel",
-    "points": "{points} pts"
+    "points": "{points} pts",
+    "orderHint": "Ponlos en orden: ¿qué ocurrió primero?",
+    "rightOrder": "Orden correcto",
+    "completeVerse": "Completa el versículo",
+    "report": "Reportar pregunta",
+    "reported": "Pregunta reportada",
+    "confirmReport": "¿Reportar esta pregunta? Ya no aparecerá en próximas partidas."
   },
   "join": {
     "title": "Unirse a un juego",
@@ -160,6 +166,14 @@
     "gameOver": "¡Fin del juego!",
     "finalRank": "Terminaste en el {rank}.º puesto de {total}",
     "thanks": "¡Gracias por jugar!",
-    "home": "Inicio"
+    "home": "Inicio",
+    "orderHint": "Toca los episodios en el orden en que ocurrieron",
+    "confirm": "Confirmar",
+    "clear": "Borrar",
+    "rightOrder": "Orden correcto",
+    "completeVerse": "Completa el versículo"
+  },
+  "bible": {
+    "source": "Reina-Valera 1909"
   }
 }

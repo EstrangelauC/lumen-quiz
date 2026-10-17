@@ -129,7 +129,13 @@
     "confirmFinish": "Terminar o jogo agora?",
     "gameOver": "Fim do jogo!",
     "back": "Voltar ao painel",
-    "points": "{points} pts"
+    "points": "{points} pts",
+    "orderHint": "Põe por ordem: o que aconteceu primeiro?",
+    "rightOrder": "Ordem certa",
+    "completeVerse": "Completa o versículo",
+    "report": "Reportar pergunta",
+    "reported": "Pergunta reportada",
+    "confirmReport": "Reportar esta pergunta? Deixa de sair nos próximos jogos."
   },
   "join": {
     "title": "Entrar num jogo",
@@ -160,6 +166,14 @@
     "gameOver": "Fim do jogo!",
     "finalRank": "Ficaste em {rank}.º lugar de {total}",
     "thanks": "Obrigado por jogares!",
-    "home": "Página inicial"
+    "home": "Página inicial",
+    "orderHint": "Toca nos episódios pela ordem em que aconteceram",
+    "confirm": "Confirmar",
+    "clear": "Limpar",
+    "rightOrder": "Ordem certa",
+    "completeVerse": "Completa o versículo"
+  },
+  "bible": {
+    "source": "Bíblia Livre (BLIVRE) © Diego Santos, Mario Sérgio e Marco Teles, 2018 · CC BY 4.0"
   }
 }
