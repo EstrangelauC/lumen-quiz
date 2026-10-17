@@ -542,7 +542,7 @@
       "pt": {
         "prompt": "No caminho, quem disse a Saulo: «Eu sou aquele a quem tu persegues»?",
         "bible_ref": "Atos 9:5",
-        "verse_text": "E ele disse: Quem és, Senhor?E o Senhor disse: Eu sou Jesus, a quem tu persegues; duro é para ti dar coices contra os aguilhões."
+        "verse_text": "E ele disse: Quem és, Senhor? E o Senhor disse: Eu sou Jesus, a quem tu persegues; duro é para ti dar coices contra os aguilhões."
       },
       "fr": {
         "prompt": "Sur le chemin, qui dit à Saul : « Je suis celui que tu persécutes » ?",
@@ -648,7 +648,7 @@
       "pt": {
         "prompt": "Quem acordou Pedro na prisão e fez cair as correntes das suas mãos?",
         "bible_ref": "Atos 12:7",
-        "verse_text": "E eis que veio acima um anjo do Senhor, e uma luz brilhou na prisão; e tocando em Pedro em sua lateral, despertou-o, dizendo; Levanta-te, depressa!E as correntes caíram de suas mãos."
+        "verse_text": "E eis que veio acima um anjo do Senhor, e uma luz brilhou na prisão; e tocando em Pedro em sua lateral, despertou-o, dizendo; Levanta-te, depressa! E as correntes caíram de suas mãos."
       },
       "fr": {
         "prompt": "Qui réveilla Pierre dans la prison et fit tomber les chaînes de ses mains ?",
@@ -3496,7 +3496,7 @@
             "ref": "Atos 27:14"
           },
           "fr": {
-            "text": "Un vent impétueux frappe le navire",
+            "text": "Un vent impétueux se déchaîne",
             "ref": "Actes 27:14"
           },
           "en": {
@@ -4246,16 +4246,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "história"
+            "text": "verdade"
           },
           "fr": {
-            "text": "histoire"
+            "text": "vérité"
           },
           "en": {
-            "text": "story"
+            "text": "truth"
           },
           "es": {
-            "text": "historia"
+            "text": "verdad"
           }
         }
       }
@@ -6064,7 +6064,7 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "O ourives Demétrio faz templos de Diana",
+            "text": "Demétrio faz objetos de prata para o templo de Diana",
             "ref": "Atos 19:24"
           },
           "fr": {
@@ -7092,22 +7092,22 @@
     "verse_end": 17,
     "texts": {
       "pt": {
-        "prompt": "Para alimentar a multidão, os discípulos tinham dois peixes e quantos pães?",
+        "prompt": "Para alimentar a multidão, havia ali dois peixes e quantos pães?",
         "bible_ref": "Mateus 14:17",
         "verse_text": "E eles lhe disseram: Nada temos aqui além de cinco pães e dois peixes."
       },
       "fr": {
-        "prompt": "Pour nourrir la foule, les disciples avaient deux poissons et combien de pains ?",
+        "prompt": "Pour nourrir la foule, il y avait là deux poissons et combien de pains ?",
         "bible_ref": "Matthieu 14:17",
         "verse_text": "Mais ils lui dirent: Nous n’avons ici que cinq pains et deux poissons."
       },
       "en": {
-        "prompt": "To feed the crowd, the disciples had two fishes and how many loaves?",
+        "prompt": "To feed the crowd, there were two fishes and how many loaves?",
         "bible_ref": "Matthew 14:17",
         "verse_text": "And they say unto him, We have here but five loaves, and two fishes."
       },
       "es": {
-        "prompt": "Para alimentar a la multitud, los discípulos tenían dos peces y ¿cuántos panes?",
+        "prompt": "Para alimentar a la multitud, había allí dos peces y ¿cuántos panes?",
         "bible_ref": "Mateo 14:17",
         "verse_text": "Y ellos dijeron: No tenemos aquí sino cinco panes y dos peces."
       }
@@ -7412,7 +7412,7 @@
       "pt": {
         "prompt": "Na parábola de Jesus, quem teve compaixão do homem ferido à beira do caminho?",
         "bible_ref": "Lucas 10:33",
-        "verse_text": "Porém um certo samaritano, que ia pelo caminho, veio junto a ele, e vendo-o, teve compaixão dele ."
+        "verse_text": "Porém um certo samaritano, que ia pelo caminho, veio junto a ele, e vendo-o, teve compaixão dele."
       },
       "fr": {
         "prompt": "Dans la parabole de Jésus, qui fut ému de compassion pour l’homme blessé au bord du chemin ?",
@@ -8740,30 +8740,30 @@
     "type": "choice",
     "level": "medium",
     "testament": "nt",
-    "book": "MAT",
-    "chapter": 2,
-    "verse_start": 11,
-    "verse_end": 11,
+    "book": "LUK",
+    "chapter": 1,
+    "verse_start": 13,
+    "verse_end": 13,
     "texts": {
       "pt": {
-        "prompt": "Que presentes ofereceram os magos ao menino Jesus?",
-        "bible_ref": "Mateus 2:11",
-        "verse_text": "E entrando na casa, acharam o menino com sua mãe Maria, e prostrando-se o adoraram. E abrindo seus tesouros, ofereceram-lhe presentes: ouro, incenso, e mirra."
+        "prompt": "Que nome disse o anjo que Zacarias devia dar ao filho que Isabel ia ter?",
+        "bible_ref": "Lucas 1:13",
+        "verse_text": "Mas o anjo lhe disse: Zacarias, não temas, pois a tua oração foi ouvida. E Isabel, tua mulher, dará à luz um filho, e lhe porás o nome de João."
       },
       "fr": {
-        "prompt": "Quels présents les mages offrirent-ils à l’enfant Jésus ?",
-        "bible_ref": "Matthieu 2:11",
-        "verse_text": "Ils entrèrent dans la maison, virent le petit enfant avec Marie, sa mère, se prosternèrent et l’adorèrent; ils ouvrirent ensuite leurs trésors, et lui offrirent en présent de l’or, de l’encens et de la myrrhe."
+        "prompt": "Quel nom l’ange dit-il à Zacharie de donner au fils qu’Élisabeth allait avoir ?",
+        "bible_ref": "Luc 1:13",
+        "verse_text": "Mais l’ange lui dit: Ne crains point, Zacharie; car ta prière a été exaucée. Ta femme Élisabeth t’enfantera un fils, et tu lui donneras le nom de Jean."
       },
       "en": {
-        "prompt": "What gifts did the wise men give to the young child Jesus?",
-        "bible_ref": "Matthew 2:11",
-        "verse_text": "And when they were come into the house, they saw the young child with Mary his mother, and fell down, and worshipped him: and when they had opened their treasures, they presented unto him gifts; gold, and frankincense, and myrrh."
+        "prompt": "What name did the angel tell Zacharias to give the son Elisabeth would bear?",
+        "bible_ref": "Luke 1:13",
+        "verse_text": "But the angel said unto him, Fear not, Zacharias: for thy prayer is heard; and thy wife Elisabeth shall bear thee a son, and thou shalt call his name John."
       },
       "es": {
-        "prompt": "¿Qué dones ofrecieron los magos al niño Jesús?",
-        "bible_ref": "Mateo 2:11",
-        "verse_text": "Y entrando en la casa, vieron al niño con su madre María, y postrándose, le adoraron; y abriendo sus tesoros, le ofrecieron dones, oro é incienso y mirra."
+        "prompt": "¿Qué nombre dijo el ángel a Zacarías que pusiera al hijo que Elisabet iba a tener?",
+        "bible_ref": "Lucas 1:13",
+        "verse_text": "Mas el ángel le dijo: Zacarías, no temas; porque tu oración ha sido oída, y tu mujer Elisabet te parirá un hijo, y llamarás su nombre Juan."
       }
     },
     "options": [
@@ -8772,16 +8772,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Ouro, incenso e mirra"
+            "text": "João"
           },
           "fr": {
-            "text": "De l’or, de l’encens et de la myrrhe"
+            "text": "Jean"
           },
           "en": {
-            "text": "Gold, frankincense and myrrh"
+            "text": "John"
           },
           "es": {
-            "text": "Oro, incienso y mirra"
+            "text": "Juan"
           }
         }
       },
@@ -8790,16 +8790,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Prata, pão e vinho"
+            "text": "Zacarias"
           },
           "fr": {
-            "text": "De l’argent, du pain et du vin"
+            "text": "Zacharie"
           },
           "en": {
-            "text": "Silver, bread and wine"
+            "text": "Zacharias"
           },
           "es": {
-            "text": "Plata, pan y vino"
+            "text": "Zacarías"
           }
         }
       },
@@ -8808,16 +8808,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Ouro, prata e pedras preciosas"
+            "text": "Elias"
           },
           "fr": {
-            "text": "De l’or, de l’argent et des pierres précieuses"
+            "text": "Élie"
           },
           "en": {
-            "text": "Gold, silver and precious stones"
+            "text": "Elias"
           },
           "es": {
-            "text": "Oro, plata y piedras preciosas"
+            "text": "Elías"
           }
         }
       },
@@ -8826,16 +8826,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Azeite, mel e mirra"
+            "text": "Samuel"
           },
           "fr": {
-            "text": "De l’huile, du miel et de la myrrhe"
+            "text": "Samuel"
           },
           "en": {
-            "text": "Oil, honey and myrrh"
+            "text": "Samuel"
           },
           "es": {
-            "text": "Aceite, miel y mirra"
+            "text": "Samuel"
           }
         }
       }
@@ -9482,30 +9482,30 @@
     "type": "choice",
     "level": "medium",
     "testament": "nt",
-    "book": "MAT",
-    "chapter": 26,
-    "verse_start": 34,
-    "verse_end": 34,
+    "book": "JHN",
+    "chapter": 11,
+    "verse_start": 1,
+    "verse_end": 1,
     "texts": {
       "pt": {
-        "prompt": "Jesus disse a Pedro que, antes de o galo cantar, o negaria quantas vezes?",
-        "bible_ref": "Mateus 26:34",
-        "verse_text": "Jesus lhe disse: Em verdade te digo que, nesta mesma noite, antes do galo cantar, tu me negarás três vezes."
+        "prompt": "Em que aldeia viviam Lázaro e as suas irmãs Maria e Marta?",
+        "bible_ref": "João 11:1",
+        "verse_text": "E estava doente um certo Lázaro, de Betânia, a aldeia de Maria e de sua irmã Marta."
       },
       "fr": {
-        "prompt": "Jésus dit à Pierre qu’avant que le coq chante, il le renierait combien de fois ?",
-        "bible_ref": "Matthieu 26:34",
-        "verse_text": "Jésus lui dit: Je te le dis en vérité, cette nuit même, avant que le coq chante, tu me renieras trois fois."
+        "prompt": "Dans quel village vivaient Lazare et ses sœurs Marie et Marthe ?",
+        "bible_ref": "Jean 11:1",
+        "verse_text": "Il y avait un homme malade, Lazare, de Béthanie, village de Marie et de Marthe, sa sœur."
       },
       "en": {
-        "prompt": "Jesus told Peter that before the cock crowed he would deny him how many times?",
-        "bible_ref": "Matthew 26:34",
-        "verse_text": "Jesus said unto him, Verily I say unto thee, That this night, before the cock crow, thou shalt deny me thrice."
+        "prompt": "In which town did Lazarus and his sisters Mary and Martha live?",
+        "bible_ref": "John 11:1",
+        "verse_text": "Now a certain man was sick, named Lazarus, of Bethany, the town of Mary and her sister Martha."
       },
       "es": {
-        "prompt": "Jesús dijo a Pedro que, antes que el gallo cantara, lo negaría ¿cuántas veces?",
-        "bible_ref": "Mateo 26:34",
-        "verse_text": "Jesús le dice: De cierto te digo que esta noche, antes que el gallo cante, me negarás tres veces."
+        "prompt": "¿En qué aldea vivían Lázaro y sus hermanas María y Marta?",
+        "bible_ref": "Juan 11:1",
+        "verse_text": "ESTABA entonces enfermo uno llamado Lázaro, de Bethania, la aldea de María y de Marta su hermana."
       }
     },
     "options": [
@@ -9514,16 +9514,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Três vezes"
+            "text": "Betânia"
           },
           "fr": {
-            "text": "Trois fois"
+            "text": "Béthanie"
           },
           "en": {
-            "text": "Three times"
+            "text": "Bethany"
           },
           "es": {
-            "text": "Tres veces"
+            "text": "Bethania"
           }
         }
       },
@@ -9532,16 +9532,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Uma vez"
+            "text": "Betsaida"
           },
           "fr": {
-            "text": "Une fois"
+            "text": "Bethsaïda"
           },
           "en": {
-            "text": "Once"
+            "text": "Bethsaida"
           },
           "es": {
-            "text": "Una vez"
+            "text": "Bethsaida"
           }
         }
       },
@@ -9550,16 +9550,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Sete vezes"
+            "text": "Caná"
           },
           "fr": {
-            "text": "Sept fois"
+            "text": "Cana"
           },
           "en": {
-            "text": "Seven times"
+            "text": "Cana"
           },
           "es": {
-            "text": "Siete veces"
+            "text": "Caná"
           }
         }
       },
@@ -9568,16 +9568,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Doze vezes"
+            "text": "Naim"
           },
           "fr": {
-            "text": "Douze fois"
+            "text": "Naïn"
           },
           "en": {
-            "text": "Twelve times"
+            "text": "Nain"
           },
           "es": {
-            "text": "Doce veces"
+            "text": "Naín"
           }
         }
       }
@@ -10500,30 +10500,30 @@
     "type": "verse",
     "level": "medium",
     "testament": "nt",
-    "book": "MAT",
-    "chapter": 13,
-    "verse_start": 31,
-    "verse_end": 31,
+    "book": "LUK",
+    "chapter": 2,
+    "verse_start": 52,
+    "verse_end": 52,
     "texts": {
       "pt": {
-        "prompt": "Ele lhes propôs outra parábola: O Reino dos céus é semelhante a um grão de _____ que alguém tomou e semeou no seu campo.",
-        "bible_ref": "Mateus 13:31",
-        "verse_text": "Ele lhes propôs outra parábola: O Reino dos céus é semelhante a um grão de mostarda que alguém tomou e semeou no seu campo."
+        "prompt": "Jesus crescia em _____, em estatura, e em graça para com Deus e as pessoas.",
+        "bible_ref": "Lucas 2:52",
+        "verse_text": "Jesus crescia em sabedoria, em estatura, e em graça para com Deus e as pessoas."
       },
       "fr": {
-        "prompt": "Il leur proposa une autre parabole, et il dit: Le royaume des cieux est semblable à un grain de _____ qu’un homme a pris et semé dans son champ.",
-        "bible_ref": "Matthieu 13:31",
-        "verse_text": "Il leur proposa une autre parabole, et il dit: Le royaume des cieux est semblable à un grain de sénevé qu’un homme a pris et semé dans son champ."
+        "prompt": "Et Jésus croissait en _____, en stature, et en grâce, devant Dieu et devant les hommes.",
+        "bible_ref": "Luc 2:52",
+        "verse_text": "Et Jésus croissait en sagesse, en stature, et en grâce, devant Dieu et devant les hommes."
       },
       "en": {
-        "prompt": "Another parable put he forth unto them, saying, The kingdom of heaven is like to a grain of _____ seed, which a man took, and sowed in his field:",
-        "bible_ref": "Matthew 13:31",
-        "verse_text": "Another parable put he forth unto them, saying, The kingdom of heaven is like to a grain of mustard seed, which a man took, and sowed in his field:"
+        "prompt": "And Jesus increased in _____ and stature, and in favour with God and man.",
+        "bible_ref": "Luke 2:52",
+        "verse_text": "And Jesus increased in wisdom and stature, and in favour with God and man."
       },
       "es": {
-        "prompt": "Otra parábola les propuso, diciendo: El reino de los cielos es semejante al grano de _____, que tomándolo alguno lo sembró en su campo:",
-        "bible_ref": "Mateo 13:31",
-        "verse_text": "Otra parábola les propuso, diciendo: El reino de los cielos es semejante al grano de mostaza, que tomándolo alguno lo sembró en su campo:"
+        "prompt": "Y Jesús crecía en _____, y en edad, y en gracia para con Dios y los hombres.",
+        "bible_ref": "Lucas 2:52",
+        "verse_text": "Y Jesús crecía en sabiduría, y en edad, y en gracia para con Dios y los hombres."
       }
     },
     "options": [
@@ -10532,16 +10532,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "trigo"
+            "text": "força"
           },
           "fr": {
-            "text": "blé"
+            "text": "force"
           },
           "en": {
-            "text": "wheat"
+            "text": "strength"
           },
           "es": {
-            "text": "trigo"
+            "text": "fuerza"
           }
         }
       },
@@ -10550,16 +10550,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "cedro"
+            "text": "bondade"
           },
           "fr": {
-            "text": "cèdre"
+            "text": "bonté"
           },
           "en": {
-            "text": "cedar"
+            "text": "goodness"
           },
           "es": {
-            "text": "cedro"
+            "text": "bondad"
           }
         }
       },
@@ -10568,16 +10568,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "mostarda"
+            "text": "sabedoria"
           },
           "fr": {
-            "text": "sénevé"
+            "text": "sagesse"
           },
           "en": {
-            "text": "mustard"
+            "text": "wisdom"
           },
           "es": {
-            "text": "mostaza"
+            "text": "sabiduría"
           }
         }
       },
@@ -10586,16 +10586,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "cevada"
+            "text": "riqueza"
           },
           "fr": {
-            "text": "orge"
+            "text": "richesse"
           },
           "en": {
-            "text": "barley"
+            "text": "riches"
           },
           "es": {
-            "text": "cebada"
+            "text": "riqueza"
           }
         }
       }
@@ -10712,30 +10712,30 @@
     "type": "verse",
     "level": "medium",
     "testament": "nt",
-    "book": "MRK",
-    "chapter": 10,
-    "verse_start": 25,
-    "verse_end": 25,
+    "book": "LUK",
+    "chapter": 5,
+    "verse_start": 5,
+    "verse_end": 5,
     "texts": {
       "pt": {
-        "prompt": "Mais fácil é passar um _____ pelo olho de uma agulha, do que entrar um rico no Reino de Deus.",
-        "bible_ref": "Marcos 10:25",
-        "verse_text": "Mais fácil é passar um camelo pelo olho de uma agulha, do que entrar um rico no Reino de Deus."
+        "prompt": "Simão lhe respondeu: Mestre, trabalhamos toda a _____, mas nada pegamos; mas pela tua palavra lançarei a rede.",
+        "bible_ref": "Lucas 5:5",
+        "verse_text": "Simão lhe respondeu: Mestre, trabalhamos toda a noite, mas nada pegamos; mas pela tua palavra lançarei a rede."
       },
       "fr": {
-        "prompt": "Il est plus facile à un _____ de passer par le trou d’une aiguille qu’à un riche d’entrer dans le royaume de Dieu.",
-        "bible_ref": "Marc 10:25",
-        "verse_text": "Il est plus facile à un chameau de passer par le trou d’une aiguille qu’à un riche d’entrer dans le royaume de Dieu."
+        "prompt": "Simon lui répondit: Maître, nous avons travaillé toute la _____ sans rien prendre; mais, sur ta parole, je jetterai le filet.",
+        "bible_ref": "Luc 5:5",
+        "verse_text": "Simon lui répondit: Maître, nous avons travaillé toute la nuit sans rien prendre; mais, sur ta parole, je jetterai le filet."
       },
       "en": {
-        "prompt": "It is easier for a _____ to go through the eye of a needle, than for a rich man to enter into the kingdom of God.",
-        "bible_ref": "Mark 10:25",
-        "verse_text": "It is easier for a camel to go through the eye of a needle, than for a rich man to enter into the kingdom of God."
+        "prompt": "And Simon answering said unto him, Master, we have toiled all the _____, and have taken nothing: nevertheless at thy word I will let down the net.",
+        "bible_ref": "Luke 5:5",
+        "verse_text": "And Simon answering said unto him, Master, we have toiled all the night, and have taken nothing: nevertheless at thy word I will let down the net."
       },
       "es": {
-        "prompt": "Más fácil es pasar un _____ por el ojo de una aguja, que el rico entrar en el reino de Dios.",
-        "bible_ref": "Marcos 10:25",
-        "verse_text": "Más fácil es pasar un camello por el ojo de una aguja, que el rico entrar en el reino de Dios."
+        "prompt": "Y respondiendo Simón, le dijo: Maestro, habiendo trabajado toda la _____, nada hemos tomado; mas en tu palabra echaré la red.",
+        "bible_ref": "Lucas 5:5",
+        "verse_text": "Y respondiendo Simón, le dijo: Maestro, habiendo trabajado toda la noche, nada hemos tomado; mas en tu palabra echaré la red."
       }
     },
     "options": [
@@ -10744,16 +10744,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "jumento"
+            "text": "tarde"
           },
           "fr": {
-            "text": "âne"
+            "text": "soirée"
           },
           "en": {
-            "text": "donkey"
+            "text": "evening"
           },
           "es": {
-            "text": "asno"
+            "text": "tarde"
           }
         }
       },
@@ -10762,16 +10762,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "camelo"
+            "text": "noite"
           },
           "fr": {
-            "text": "chameau"
+            "text": "nuit"
           },
           "en": {
-            "text": "camel"
+            "text": "night"
           },
           "es": {
-            "text": "camello"
+            "text": "noche"
           }
         }
       },
@@ -10780,16 +10780,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "cavalo"
+            "text": "manhã"
           },
           "fr": {
-            "text": "cheval"
+            "text": "matinée"
           },
           "en": {
-            "text": "horse"
+            "text": "morning"
           },
           "es": {
-            "text": "caballo"
+            "text": "mañana"
           }
         }
       },
@@ -10798,16 +10798,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "touro"
+            "text": "semana"
           },
           "fr": {
-            "text": "taureau"
+            "text": "semaine"
           },
           "en": {
-            "text": "bull"
+            "text": "week"
           },
           "es": {
-            "text": "toro"
+            "text": "semana"
           }
         }
       }
@@ -11354,22 +11354,22 @@
     "verse_end": 46,
     "texts": {
       "pt": {
-        "prompt": "Como se chamava o cego que estava sentado junto ao caminho, à saída de Jericó?",
+        "prompt": "Segundo Marcos, como se chamava o cego que estava sentado junto ao caminho, à saída de Jericó?",
         "bible_ref": "Marcos 10:46",
         "verse_text": "E vieram a Jericó. E saindo ele, e seus discípulos, e uma grande multidão de Jericó, estava Bartimeu, um cego, filho de Timeu, sentado junto ao caminho."
       },
       "fr": {
-        "prompt": "Comment s’appelait l’aveugle assis au bord du chemin, à la sortie de Jéricho ?",
+        "prompt": "Selon Marc, comment s’appelait l’aveugle assis au bord du chemin, à la sortie de Jéricho ?",
         "bible_ref": "Marc 10:46",
         "verse_text": "Ils arrivèrent à Jéricho. Et, lorsque Jésus en sortit, avec ses disciples et une assez grande foule, le fils de Timée, Bartimée, mendiant aveugle, était assis au bord du chemin."
       },
       "en": {
-        "prompt": "What was the name of the blind man sitting by the highway side as Jesus went out of Jericho?",
+        "prompt": "According to Mark, what was the name of the blind man sitting by the highway side as Jesus went out of Jericho?",
         "bible_ref": "Mark 10:46",
         "verse_text": "And they came to Jericho: and as he went out of Jericho with his disciples and a great number of people, blind Bartimæus, the son of Timæus, sat by the highway side begging."
       },
       "es": {
-        "prompt": "¿Cómo se llamaba el ciego sentado junto al camino, a la salida de Jericó?",
+        "prompt": "Según Marcos, ¿cómo se llamaba el ciego sentado junto al camino, a la salida de Jericó?",
         "bible_ref": "Marcos 10:46",
         "verse_text": "Entonces vienen á Jericó: y saliendo él de Jericó y sus discípulos y una gran compañía, Bartimeo el ciego, hijo de Timeo, estaba sentado junto al camino mendigando."
       }
@@ -11462,7 +11462,7 @@
       "pt": {
         "prompt": "Lucas data o início da pregação de João Batista. Em que ano do império de Tibério César?",
         "bible_ref": "Lucas 3:1",
-        "verse_text": "No ano quinze do império de Tibério César, sendo Pôncio Pilatos o governador da Judeia, Herodes tetraca da Galileia, e seu irmão Filipe o tetrarca da Itureia e da província de Traconites, e Lisânias o tetrarca de Abilene;"
+        "verse_text": "No ano quinze do império de Tibério César, sendo Pôncio Pilatos o governador da Judeia, Herodes tetrarca da Galileia, e seu irmão Filipe o tetrarca da Itureia e da província de Traconites, e Lisânias o tetrarca de Abilene;"
       },
       "fr": {
         "prompt": "Luc date le début de la prédication de Jean-Baptiste. En quelle année du règne de Tibère César ?",
@@ -11667,29 +11667,29 @@
     "level": "hard",
     "testament": "nt",
     "book": "MAT",
-    "chapter": 27,
-    "verse_start": 57,
-    "verse_end": 57,
+    "chapter": 15,
+    "verse_start": 37,
+    "verse_end": 38,
     "texts": {
       "pt": {
-        "prompt": "De onde era José, o homem rico e discípulo de Jesus que veio ao entardecer pedir o corpo?",
-        "bible_ref": "Mateus 27:57",
-        "verse_text": "E chegado o entardecer, veio um homem rico de Arimateia, por nome José, que também era discípulo de Jesus."
+        "prompt": "Numa das multiplicações dos pães sobraram sete cestos cheios. Quantos homens comeram, sem contar mulheres e crianças?",
+        "bible_ref": "Mateus 15:37-38",
+        "verse_text": "E todos comeram e se saciaram; e levantaram dos pedaços que sobraram sete cestos cheios. E foram os que comeram quatro mil homens, sem contar as mulheres e as crianças."
       },
       "fr": {
-        "prompt": "D’où était Joseph, l’homme riche et disciple de Jésus venu le soir demander le corps ?",
-        "bible_ref": "Matthieu 27:57",
-        "verse_text": "Le soir étant venu, arriva un homme riche d’Arimathée, nommé Joseph, lequel était aussi disciple de Jésus."
+        "prompt": "Lors d’une multiplication des pains, il resta sept corbeilles pleines. Combien d’hommes avaient mangé, sans compter les femmes et les enfants ?",
+        "bible_ref": "Matthieu 15:37-38",
+        "verse_text": "Tous mangèrent et furent rassasiés, et l’on emporta sept corbeilles pleines des morceaux qui restaient. Ceux qui avaient mangé étaient quatre mille hommes, sans les femmes et les enfants."
       },
       "en": {
-        "prompt": "Where was Joseph from, the rich man and disciple of Jesus who came at evening for the body?",
-        "bible_ref": "Matthew 27:57",
-        "verse_text": "When the even was come, there came a rich man of Arimathæa, named Joseph, who also himself was Jesus’ disciple:"
+        "prompt": "At one feeding of the crowd, seven baskets full were left over. How many men had eaten, beside women and children?",
+        "bible_ref": "Matthew 15:37-38",
+        "verse_text": "And they did all eat, and were filled: and they took up of the broken meat that was left seven baskets full. And they that did eat were four thousand men, beside women and children."
       },
       "es": {
-        "prompt": "¿De dónde era José, el hombre rico y discípulo de Jesús que vino por la tarde a pedir el cuerpo?",
-        "bible_ref": "Mateo 27:57",
-        "verse_text": "Y como fué la tarde del día, vino un hombre rico de Arimatea, llamado José, el cual también había sido discípulo de Jesús."
+        "prompt": "En una multiplicación de los panes sobraron siete espuertas llenas. ¿Cuántos hombres comieron, sin contar mujeres y niños?",
+        "bible_ref": "Mateo 15:37-38",
+        "verse_text": "Y comieron todos, y se hartaron: y alzaron lo que sobró de los pedazos, siete espuertas llenas. Y eran los que habían comido, cuatro mil hombres, sin las mujeres y los niños."
       }
     },
     "options": [
@@ -11698,16 +11698,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Arimateia"
+            "text": "4000"
           },
           "fr": {
-            "text": "Arimathée"
+            "text": "4000"
           },
           "en": {
-            "text": "Arimathæa"
+            "text": "4000"
           },
           "es": {
-            "text": "Arimatea"
+            "text": "4000"
           }
         }
       },
@@ -11716,16 +11716,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Betânia"
+            "text": "5000"
           },
           "fr": {
-            "text": "Béthanie"
+            "text": "5000"
           },
           "en": {
-            "text": "Bethany"
+            "text": "5000"
           },
           "es": {
-            "text": "Bethania"
+            "text": "5000"
           }
         }
       },
@@ -11734,16 +11734,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Cafarnaum"
+            "text": "3000"
           },
           "fr": {
-            "text": "Capernaüm"
+            "text": "3000"
           },
           "en": {
-            "text": "Capernaum"
+            "text": "3000"
           },
           "es": {
-            "text": "Capernaum"
+            "text": "3000"
           }
         }
       },
@@ -11752,16 +11752,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Emaús"
+            "text": "7000"
           },
           "fr": {
-            "text": "Émmaüs"
+            "text": "7000"
           },
           "en": {
-            "text": "Emmaus"
+            "text": "7000"
           },
           "es": {
-            "text": "Emmaús"
+            "text": "7000"
           }
         }
       }
@@ -11886,7 +11886,7 @@
       "pt": {
         "prompt": "Em Marcos, Jesus chama o cobrador de impostos Levi. De quem era ele filho?",
         "bible_ref": "Marcos 2:14",
-        "verse_text": "E enquanto passava, ele viu Levi, filho de Alfeu, sentado no posto de coleta de impostos, e disse-lhe: Segue-me.Então Levi se levantou e o seguiu."
+        "verse_text": "E enquanto passava, ele viu Levi, filho de Alfeu, sentado no posto de coleta de impostos, e disse-lhe: Segue-me. Então Levi se levantou e o seguiu."
       },
       "fr": {
         "prompt": "Dans Marc, Jésus appelle le péager Lévi. De qui était-il le fils ?",
@@ -11992,7 +11992,7 @@
       "pt": {
         "prompt": "A caminho de Emaús, como se chamava um dos dois discípulos que falaram com Jesus?",
         "bible_ref": "Lucas 24:18",
-        "verse_text": "E um deles ,cujo nome era Cleofas, respondendo-o, disse-lhe: És tu o único viajante em Jerusalém que não sabe as coisas que nela tem acontecido nestes dias?"
+        "verse_text": "E um deles, cujo nome era Cleofas, respondendo-o, disse-lhe: És tu o único viajante em Jerusalém que não sabe as coisas que nela tem acontecido nestes dias?"
       },
       "fr": {
         "prompt": "Sur le chemin d’Émmaüs, comment s’appelait l’un des deux disciples qui parlèrent avec Jésus ?",
@@ -12897,29 +12897,29 @@
     "level": "hard",
     "testament": "nt",
     "book": "MAT",
-    "chapter": 11,
-    "verse_start": 30,
-    "verse_end": 30,
+    "chapter": 10,
+    "verse_start": 16,
+    "verse_end": 16,
     "texts": {
       "pt": {
-        "prompt": "Pois o meu _____ é suave, e minha carga é leve.",
-        "bible_ref": "Mateus 11:30",
-        "verse_text": "Pois o meu jugo é suave, e minha carga é leve."
+        "prompt": "Eis que eu vos envio como ovelhas em meio de lobos; portanto, sede prudentes como as _____ e inofensivos como pombas.",
+        "bible_ref": "Mateus 10:16",
+        "verse_text": "Eis que eu vos envio como ovelhas em meio de lobos; portanto, sede prudentes como as serpentes e inofensivos como pombas."
       },
       "fr": {
-        "prompt": "Car mon _____ est doux, et mon fardeau léger.",
-        "bible_ref": "Matthieu 11:30",
-        "verse_text": "Car mon joug est doux, et mon fardeau léger."
+        "prompt": "Voici, je vous envoie comme des brebis au milieu des loups. Soyez donc prudents comme les _____, et simples comme les colombes.",
+        "bible_ref": "Matthieu 10:16",
+        "verse_text": "Voici, je vous envoie comme des brebis au milieu des loups. Soyez donc prudents comme les serpents, et simples comme les colombes."
       },
       "en": {
-        "prompt": "For my _____ is easy, and my burden is light.",
-        "bible_ref": "Matthew 11:30",
-        "verse_text": "For my yoke is easy, and my burden is light."
+        "prompt": "Behold, I send you forth as sheep in the midst of wolves: be ye therefore wise as _____, and harmless as doves.",
+        "bible_ref": "Matthew 10:16",
+        "verse_text": "Behold, I send you forth as sheep in the midst of wolves: be ye therefore wise as serpents, and harmless as doves."
       },
       "es": {
-        "prompt": "Porque mi _____ es fácil, y ligera mi carga.",
-        "bible_ref": "Mateo 11:30",
-        "verse_text": "Porque mi yugo es fácil, y ligera mi carga."
+        "prompt": "He aquí, yo os envío como á ovejas en medio de lobos: sed pues prudentes como _____, y sencillos como palomas.",
+        "bible_ref": "Mateo 10:16",
+        "verse_text": "He aquí, yo os envío como á ovejas en medio de lobos: sed pues prudentes como serpientes, y sencillos como palomas."
       }
     },
     "options": [
@@ -12928,16 +12928,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "jugo"
+            "text": "serpentes"
           },
           "fr": {
-            "text": "joug"
+            "text": "serpents"
           },
           "en": {
-            "text": "yoke"
+            "text": "serpents"
           },
           "es": {
-            "text": "yugo"
+            "text": "serpientes"
           }
         }
       },
@@ -12946,16 +12946,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "mandamento"
+            "text": "formigas"
           },
           "fr": {
-            "text": "commandement"
+            "text": "fourmis"
           },
           "en": {
-            "text": "commandment"
+            "text": "ants"
           },
           "es": {
-            "text": "mandamiento"
+            "text": "hormigas"
           }
         }
       },
@@ -12964,16 +12964,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "reino"
+            "text": "águias"
           },
           "fr": {
-            "text": "royaume"
+            "text": "aigles"
           },
           "en": {
-            "text": "kingdom"
+            "text": "eagles"
           },
           "es": {
-            "text": "reino"
+            "text": "águilas"
           }
         }
       },
@@ -12982,16 +12982,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "caminho"
+            "text": "raposas"
           },
           "fr": {
-            "text": "chemin"
+            "text": "renards"
           },
           "en": {
-            "text": "way"
+            "text": "foxes"
           },
           "es": {
-            "text": "camino"
+            "text": "zorras"
           }
         }
       }
@@ -13002,30 +13002,30 @@
     "type": "verse",
     "level": "hard",
     "testament": "nt",
-    "book": "JHN",
+    "book": "LUK",
     "chapter": 12,
-    "verse_start": 24,
-    "verse_end": 24,
+    "verse_start": 7,
+    "verse_end": 7,
     "texts": {
       "pt": {
-        "prompt": "Em verdade, em verdade vos digo, se o grão de _____, ao cair na terra, não morrer, ele fica só; porém se morrer, dá muito fruto.",
-        "bible_ref": "João 12:24",
-        "verse_text": "Em verdade, em verdade vos digo, se o grão de trigo, ao cair na terra, não morrer, ele fica só; porém se morrer, dá muito fruto."
+        "prompt": "E até os _____ de vossa cabeça estão todos contados; não temais, pois; mais valeis vós que muitos passarinhos.",
+        "bible_ref": "Lucas 12:7",
+        "verse_text": "E até os cabelos de vossa cabeça estão todos contados; não temais, pois; mais valeis vós que muitos passarinhos."
       },
       "fr": {
-        "prompt": "En vérité, en vérité, je vous le dis, si le grain de _____ qui est tombé en terre ne meurt, il reste seul; mais, s’il meurt, il porte beaucoup de fruit.",
-        "bible_ref": "Jean 12:24",
-        "verse_text": "En vérité, en vérité, je vous le dis, si le grain de blé qui est tombé en terre ne meurt, il reste seul; mais, s’il meurt, il porte beaucoup de fruit."
+        "prompt": "Et même les _____ de votre tête sont tous comptés. Ne craignez donc point: vous valez plus que beaucoup de passereaux.",
+        "bible_ref": "Luc 12:7",
+        "verse_text": "Et même les cheveux de votre tête sont tous comptés. Ne craignez donc point: vous valez plus que beaucoup de passereaux."
       },
       "en": {
-        "prompt": "Verily, verily, I say unto you, Except a corn of _____ fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit.",
-        "bible_ref": "John 12:24",
-        "verse_text": "Verily, verily, I say unto you, Except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit."
+        "prompt": "But even the very _____ of your head are all numbered. Fear not therefore: ye are of more value than many sparrows.",
+        "bible_ref": "Luke 12:7",
+        "verse_text": "But even the very hairs of your head are all numbered. Fear not therefore: ye are of more value than many sparrows."
       },
       "es": {
-        "prompt": "De cierto, de cierto os digo, que si el grano de _____ no cae en la tierra y muere, él solo queda; mas si muriere, mucho fruto lleva.",
-        "bible_ref": "Juan 12:24",
-        "verse_text": "De cierto, de cierto os digo, que si el grano de trigo no cae en la tierra y muere, él solo queda; mas si muriere, mucho fruto lleva."
+        "prompt": "Y aun los _____ de vuestra cabeza están todos contados. No temáis pues: de más estima sois que muchos pajarillos.",
+        "bible_ref": "Lucas 12:7",
+        "verse_text": "Y aun los cabellos de vuestra cabeza están todos contados. No temáis pues: de más estima sois que muchos pajarillos."
       }
     },
     "options": [
@@ -13034,16 +13034,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "mostarda"
+            "text": "dias"
           },
           "fr": {
-            "text": "sénevé"
+            "text": "jours"
           },
           "en": {
-            "text": "mustard"
+            "text": "days"
           },
           "es": {
-            "text": "mostaza"
+            "text": "días"
           }
         }
       },
@@ -13052,16 +13052,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "trigo"
+            "text": "cabelos"
           },
           "fr": {
-            "text": "blé"
+            "text": "cheveux"
           },
           "en": {
-            "text": "wheat"
+            "text": "hairs"
           },
           "es": {
-            "text": "trigo"
+            "text": "cabellos"
           }
         }
       },
@@ -13070,16 +13070,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "linho"
+            "text": "ossos"
           },
           "fr": {
-            "text": "lin"
+            "text": "os"
           },
           "en": {
-            "text": "flax"
+            "text": "bones"
           },
           "es": {
-            "text": "lino"
+            "text": "huesos"
           }
         }
       },
@@ -13088,16 +13088,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "cevada"
+            "text": "pensamentos"
           },
           "fr": {
-            "text": "orge"
+            "text": "pensées"
           },
           "en": {
-            "text": "barley"
+            "text": "thoughts"
           },
           "es": {
-            "text": "cebada"
+            "text": "pensamientos"
           }
         }
       }
@@ -13273,7 +13273,7 @@
             "text": "Ruth"
           },
           "es": {
-            "text": "Rut"
+            "text": "Ruth"
           }
         }
       },
@@ -13379,7 +13379,7 @@
             "text": "Esther"
           },
           "es": {
-            "text": "Ester"
+            "text": "Esther"
           }
         }
       },
@@ -13397,7 +13397,7 @@
             "text": "Ruth"
           },
           "es": {
-            "text": "Rut"
+            "text": "Ruth"
           }
         }
       },
@@ -13415,7 +13415,7 @@
             "text": "Hannah"
           },
           "es": {
-            "text": "Ana"
+            "text": "Anna"
           }
         }
       }
@@ -13447,7 +13447,7 @@
         "verse_text": "That he told her all his heart, and said unto her, There hath not come a razor upon mine head; for I have been a Nazarite unto God from my mother’s womb: if I be shaven, then my strength will go from me, and I shall become weak, and be like any other man."
       },
       "es": {
-        "prompt": "Sansón dijo que, si le rapaban la cabeza, perdería algo. ¿Qué?",
+        "prompt": "Samsón dijo que, si le rapaban la cabeza, perdería algo. ¿Qué?",
         "bible_ref": "Jueces 16:17",
         "verse_text": "Descubrióle pues todo su corazón, y díjole: Nunca á mi cabeza llegó navaja; porque soy Nazareo de Dios desde el vientre de mi madre. Si fuere rapado, mi fuerza se apartará de mí, y seré debilitado, y como todos los hombres."
       }
@@ -13573,7 +13573,7 @@
             "text": "Ruth"
           },
           "es": {
-            "text": "Rut"
+            "text": "Ruth"
           }
         }
       },
@@ -13591,7 +13591,7 @@
             "text": "Naomi"
           },
           "es": {
-            "text": "Noemí"
+            "text": "Noemi"
           }
         }
       },
@@ -13609,7 +13609,7 @@
             "text": "Orpah"
           },
           "es": {
-            "text": "Orfa"
+            "text": "Orpha"
           }
         }
       },
@@ -13627,7 +13627,7 @@
             "text": "Esther"
           },
           "es": {
-            "text": "Ester"
+            "text": "Esther"
           }
         }
       }
@@ -13659,7 +13659,7 @@
         "verse_text": "So David prevailed over the Philistine with a sling and with a stone, and smote the Philistine, and slew him; but there was no sword in the hand of David."
       },
       "es": {
-        "prompt": "¿Con qué venció David al filisteo Goliat?",
+        "prompt": "¿Con qué venció David al filisteo Goliath?",
         "bible_ref": "1 Samuel 17:50",
         "verse_text": "Así venció David al Filisteo con honda y piedra; é hirió al Filisteo y matólo, sin tener David espada en su mano."
       }
@@ -13776,7 +13776,7 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Dançou"
+            "text": "Saltou"
           },
           "fr": {
             "text": "Il dansa"
@@ -13785,7 +13785,7 @@
             "text": "He danced"
           },
           "es": {
-            "text": "Danzó"
+            "text": "Saltó"
           }
         }
       },
@@ -13891,7 +13891,7 @@
             "text": "An understanding heart to judge the people"
           },
           "es": {
-            "text": "Un corazón entendido para juzgar al pueblo"
+            "text": "Un corazón dócil para juzgar al pueblo"
           }
         }
       },
@@ -14139,7 +14139,7 @@
             "text": "The Euphrates"
           },
           "es": {
-            "text": "En el Éufrates"
+            "text": "En el Eufrates"
           }
         }
       },
@@ -14189,7 +14189,7 @@
         "verse_text": "And the king loved Esther above all the women, and she obtained grace and favour in his sight more than all the virgins; so that he set the royal crown upon her head, and made her queen instead of Vashti."
       },
       "es": {
-        "prompt": "¿A quién hizo el rey reina en lugar de Vasti?",
+        "prompt": "¿A quién hizo el rey reina en lugar de Vasthi?",
         "bible_ref": "Ester 2:17",
         "verse_text": "Y el rey amó á Esther sobre todas las mujeres, y halló gracia y benevolencia delante de él más que todas las vírgenes; y puso la corona real en su cabeza, é hízola reina en lugar de Vasthi."
       }
@@ -14209,7 +14209,7 @@
             "text": "Esther"
           },
           "es": {
-            "text": "Ester"
+            "text": "Esther"
           }
         }
       },
@@ -14227,7 +14227,7 @@
             "text": "Ruth"
           },
           "es": {
-            "text": "Rut"
+            "text": "Ruth"
           }
         }
       },
@@ -14245,7 +14245,7 @@
             "text": "Michal"
           },
           "es": {
-            "text": "Mical"
+            "text": "Michâl"
           }
         }
       },
@@ -14295,7 +14295,7 @@
         "verse_text": "Then said I unto them, Ye see the distress that we are in, how Jerusalem lieth waste, and the gates thereof are burned with fire: come, and let us build up the wall of Jerusalem, that we be no more a reproach."
       },
       "es": {
-        "prompt": "¿Qué quería reedificar Nehemías en Jerusalén?",
+        "prompt": "¿Qué quería reedificar Nehemías en Jerusalem?",
         "bible_ref": "Nehemías 2:17",
         "verse_text": "Díjeles pues: Vosotros veis el mal en que estamos, que Jerusalem está desierta, y sus puertas consumidas del fuego: venid, y edifiquemos el muro de Jerusalem, y no seamos más en oprobio."
       }
@@ -14468,7 +14468,7 @@
             "ref": "1 Samuel 17:49"
           },
           "es": {
-            "text": "David vence al gigante Goliat",
+            "text": "David vence al gigante Goliath",
             "ref": "1 Samuel 17:49"
           }
         }
@@ -14546,7 +14546,7 @@
             "ref": "1 Samuel 1:10"
           },
           "es": {
-            "text": "Ana ora y llora delante de Jehová",
+            "text": "Anna ora y llora delante de Jehová",
             "ref": "1 Samuel 1:10"
           }
         }
@@ -14668,7 +14668,7 @@
             "ref": "Ruth 1:19"
           },
           "es": {
-            "text": "Rut y Noemí llegan a Belén",
+            "text": "Ruth y Noemi llegan a Beth-lehem",
             "ref": "Rut 1:19"
           }
         }
@@ -14690,7 +14690,7 @@
             "ref": "Ruth 2:3"
           },
           "es": {
-            "text": "Rut recoge espigas en el campo de Booz",
+            "text": "Ruth recoge espigas en el campo de Booz",
             "ref": "Rut 2:3"
           }
         }
@@ -14712,7 +14712,7 @@
             "ref": "Ruth 4:13"
           },
           "es": {
-            "text": "Booz se casa con Rut",
+            "text": "Booz se casa con Ruth",
             "ref": "Rut 4:13"
           }
         }
@@ -15086,22 +15086,22 @@
     "verse_end": 2,
     "texts": {
       "pt": {
-        "prompt": "E disse: O SENHOR é minha rocha, e minha fortaleza, e meu _____;",
+        "prompt": "E disse: O SENHOR é minha _____, e minha fortaleza, e meu libertador;",
         "bible_ref": "2 Samuel 22:2",
         "verse_text": "E disse: O SENHOR é minha rocha, e minha fortaleza, e meu libertador;"
       },
       "fr": {
-        "prompt": "Il dit: L’Éternel est mon rocher, ma forteresse, mon _____.",
+        "prompt": "Il dit: L’Éternel est mon _____, ma forteresse, mon libérateur.",
         "bible_ref": "2 Samuel 22:2",
         "verse_text": "Il dit: L’Éternel est mon rocher, ma forteresse, mon libérateur."
       },
       "en": {
-        "prompt": "And he said, The LORD is my rock, and my fortress, and my _____;",
+        "prompt": "And he said, The LORD is my _____, and my fortress, and my deliverer;",
         "bible_ref": "2 Samuel 22:2",
         "verse_text": "And he said, The LORD is my rock, and my fortress, and my deliverer;"
       },
       "es": {
-        "prompt": "Y dijo: Jehová es mi roca, y mi fortaleza, y mi _____;",
+        "prompt": "Y dijo: Jehová es mi _____, y mi fortaleza, y mi libertador;",
         "bible_ref": "2 Samuel 22:2",
         "verse_text": "Y dijo: Jehová es mi roca, y mi fortaleza, y mi libertador;"
       }
@@ -15112,16 +15112,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "juiz"
+            "text": "árvore"
           },
           "fr": {
-            "text": "juge"
+            "text": "arbre"
           },
           "en": {
-            "text": "judge"
+            "text": "tree"
           },
           "es": {
-            "text": "juez"
+            "text": "árbol"
           }
         }
       },
@@ -15130,16 +15130,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "libertador"
+            "text": "rocha"
           },
           "fr": {
-            "text": "libérateur"
+            "text": "rocher"
           },
           "en": {
-            "text": "deliverer"
+            "text": "rock"
           },
           "es": {
-            "text": "libertador"
+            "text": "roca"
           }
         }
       },
@@ -15148,16 +15148,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "rei"
+            "text": "estrela"
           },
           "fr": {
-            "text": "roi"
+            "text": "étoile"
           },
           "en": {
-            "text": "king"
+            "text": "star"
           },
           "es": {
-            "text": "rey"
+            "text": "estrella"
           }
         }
       },
@@ -15166,16 +15166,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "pastor"
+            "text": "espada"
           },
           "fr": {
-            "text": "berger"
+            "text": "épée"
           },
           "en": {
-            "text": "shepherd"
+            "text": "sword"
           },
           "es": {
-            "text": "pastor"
+            "text": "espada"
           }
         }
       }
@@ -15188,28 +15188,28 @@
     "testament": "ot",
     "book": "1CH",
     "chapter": 16,
-    "verse_start": 34,
-    "verse_end": 34,
+    "verse_start": 23,
+    "verse_end": 23,
     "texts": {
       "pt": {
-        "prompt": "Celebrai a o SENHOR, porque é _____; Porque sua misericórdia é eterna.",
-        "bible_ref": "1 Crónicas 16:34",
-        "verse_text": "Celebrai a o SENHOR, porque é bom; Porque sua misericórdia é eterna."
+        "prompt": "Cantai ao SENHOR, toda a _____, anunciai de dia em dia sua salvação.",
+        "bible_ref": "1 Crónicas 16:23",
+        "verse_text": "Cantai ao SENHOR, toda a terra, anunciai de dia em dia sua salvação."
       },
       "fr": {
-        "prompt": "Louez l’Éternel, car il est _____, Car sa miséricorde dure à toujours!",
-        "bible_ref": "1 Chroniques 16:34",
-        "verse_text": "Louez l’Éternel, car il est bon, Car sa miséricorde dure à toujours!"
+        "prompt": "Chantez à l’Éternel, vous tous habitants de la _____! Annoncez de jour en jour son salut;",
+        "bible_ref": "1 Chroniques 16:23",
+        "verse_text": "Chantez à l’Éternel, vous tous habitants de la terre! Annoncez de jour en jour son salut;"
       },
       "en": {
-        "prompt": "O give thanks unto the LORD; for he is _____; for his mercy endureth for ever.",
-        "bible_ref": "1 Chronicles 16:34",
-        "verse_text": "O give thanks unto the LORD; for he is good; for his mercy endureth for ever."
+        "prompt": "Sing unto the LORD, all the _____; shew forth from day to day his salvation.",
+        "bible_ref": "1 Chronicles 16:23",
+        "verse_text": "Sing unto the LORD, all the earth; shew forth from day to day his salvation."
       },
       "es": {
-        "prompt": "Celebrad á Jehová, porque es _____; porque su misericordia es eterna.",
-        "bible_ref": "1 Crónicas 16:34",
-        "verse_text": "Celebrad á Jehová, porque es bueno; porque su misericordia es eterna."
+        "prompt": "Cantad á Jehová, toda la _____, anunciad de día en día su salud.",
+        "bible_ref": "1 Crónicas 16:23",
+        "verse_text": "Cantad á Jehová, toda la tierra, anunciad de día en día su salud."
       }
     },
     "options": [
@@ -15218,16 +15218,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "grande"
+            "text": "casa"
           },
           "fr": {
-            "text": "grand"
+            "text": "maison"
           },
           "en": {
-            "text": "great"
+            "text": "house"
           },
           "es": {
-            "text": "grande"
+            "text": "casa"
           }
         }
       },
@@ -15236,16 +15236,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "bom"
+            "text": "terra"
           },
           "fr": {
-            "text": "bon"
+            "text": "terre"
           },
           "en": {
-            "text": "good"
+            "text": "earth"
           },
           "es": {
-            "text": "bueno"
+            "text": "tierra"
           }
         }
       },
@@ -15254,16 +15254,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "justo"
+            "text": "nação"
           },
           "fr": {
-            "text": "juste"
+            "text": "nation"
           },
           "en": {
-            "text": "just"
+            "text": "nation"
           },
           "es": {
-            "text": "justo"
+            "text": "nación"
           }
         }
       },
@@ -15272,16 +15272,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "forte"
+            "text": "cidade"
           },
           "fr": {
-            "text": "fort"
+            "text": "ville"
           },
           "en": {
-            "text": "strong"
+            "text": "city"
           },
           "es": {
-            "text": "fuerte"
+            "text": "ciudad"
           }
         }
       }
@@ -15525,7 +15525,7 @@
         "verse_text": "And after a time he returned to take her, and he turned aside to see the carcase of the lion: and, behold, there was a swarm of bees and honey in the carcase of the lion."
       },
       "es": {
-        "prompt": "¿Qué había dentro del cuerpo del león muerto cuando Sansón volvió a verlo?",
+        "prompt": "¿Qué había dentro del cuerpo del león muerto cuando Samsón volvió a verlo?",
         "bible_ref": "Jueces 14:8",
         "verse_text": "Y volviendo después de algunos días para tomarla, apartóse para ver el cuerpo muerto del león, y he aquí en el cuerpo del león un enjambre de abejas, y un panal de miel."
       }
@@ -15631,7 +15631,7 @@
         "verse_text": "And Elimelech Naomi’s husband died; and she was left, and her two sons. And they took them wives of the women of Moab; the name of the one was Orpah, and the name of the other Ruth: and they dwelled there about ten years."
       },
       "es": {
-        "prompt": "Además de Rut, ¿cómo se llamaba la otra moabita que se casó con uno de los hijos de Noemí?",
+        "prompt": "Además de Ruth, ¿cómo se llamaba la otra moabita que se casó con uno de los hijos de Noemi?",
         "bible_ref": "Rut 1:3-4",
         "verse_text": "Y murió Elimelech, marido de Noemi, y quedó ella con sus dos hijos; Los cuales tomaron para sí mujeres de Moab, el nombre de la una Orpha, y el nombre de la otra Ruth; y habitaron allí unos diez años."
       }
@@ -15651,7 +15651,7 @@
             "text": "Orpah"
           },
           "es": {
-            "text": "Orfa"
+            "text": "Orpha"
           }
         }
       },
@@ -15669,7 +15669,7 @@
             "text": "Michal"
           },
           "es": {
-            "text": "Mical"
+            "text": "Michâl"
           }
         }
       },
@@ -15705,7 +15705,7 @@
             "text": "Peninnah"
           },
           "es": {
-            "text": "Penina"
+            "text": "Peninna"
           }
         }
       }
@@ -15737,7 +15737,7 @@
         "verse_text": "Wherefore it came to pass, when the time was come about after Hannah had conceived, that she bare a son, and called his name Samuel, saying, Because I have asked him of the LORD."
       },
       "es": {
-        "prompt": "¿Por qué le puso Ana a su hijo el nombre de Samuel?",
+        "prompt": "¿Por qué le puso Anna a su hijo el nombre de Samuel?",
         "bible_ref": "1 Samuel 1:20",
         "verse_text": "Y fué que corrido el tiempo, después de haber concebido Anna, parió un hijo, y púsole por nombre Samuel, diciendo: Por cuanto lo demandé á Jehová."
       }
@@ -15843,7 +15843,7 @@
         "verse_text": "And Jonathan stripped himself of the robe that was upon him, and gave it to David, and his garments, even to his sword, and to his bow, and to his girdle."
       },
       "es": {
-        "prompt": "¿Qué le dio Jonatán a David?",
+        "prompt": "¿Qué le dio Jonathán a David?",
         "bible_ref": "1 Samuel 18:4",
         "verse_text": "Y Jonathán se desnudó la ropa que tenía sobre sí, y dióla á David, y otras ropas suyas, hasta su espada, y su arco, y su talabarte."
       }
@@ -15934,7 +15934,7 @@
     "verse_end": 7,
     "texts": {
       "pt": {
-        "prompt": "Que profeta disse a David: «Tu és esse homem»?",
+        "prompt": "Que profeta disse a David: «Tu és aquele homem»?",
         "bible_ref": "2 Samuel 12:7",
         "verse_text": "Então disse Natã a Davi: Tu és aquele homem. Assim disse o SENHOR, Deus de Israel: Eu te ungi por rei sobre Israel, e te livre da mão de Saul;"
       },
@@ -15969,7 +15969,7 @@
             "text": "Nathan"
           },
           "es": {
-            "text": "Natán"
+            "text": "Nathán"
           }
         }
       },
@@ -16066,7 +16066,7 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Uma voz suave e tranquila"
+            "text": "Uma voz agradável e suave"
           },
           "fr": {
             "text": "Un murmure doux et léger"
@@ -16267,7 +16267,7 @@
         "verse_text": "So they hanged Haman on the gallows that he had prepared for Mordecai. Then was the king’s wrath pacified."
       },
       "es": {
-        "prompt": "¿Quién fue colgado en la horca que se había preparado para Mardoqueo?",
+        "prompt": "¿Quién fue colgado en la horca que se había preparado para Mardochêo?",
         "bible_ref": "Ester 7:10",
         "verse_text": "Así colgaron á Amán en la horca que él había hecho aparejar para Mardochêo; y apaciguóse la ira del rey."
       }
@@ -16305,7 +16305,7 @@
             "text": "Ahasuerus"
           },
           "es": {
-            "text": "Asuero"
+            "text": "Assuero"
           }
         }
       },
@@ -16341,7 +16341,7 @@
             "text": "Mordecai"
           },
           "es": {
-            "text": "Mardoqueo"
+            "text": "Mardochêo"
           }
         }
       }
@@ -16464,22 +16464,22 @@
     "verse_end": 1,
     "texts": {
       "pt": {
-        "prompt": "O que desceu do céu quando Salomão acabou de orar?",
+        "prompt": "Quando Salomão acabou de orar, desceu fogo do céu. O que consumiu esse fogo?",
         "bible_ref": "2 Crónicas 7:1",
         "verse_text": "E quando Salomão acabou de orar, o fogo desceu dos céus, e consumiu o holocausto e as vítimas; e a glória do SENHOR encheu a casa."
       },
       "fr": {
-        "prompt": "Qu’est-ce qui descendit du ciel quand Salomon eut achevé de prier ?",
+        "prompt": "Quand Salomon eut achevé de prier, le feu descendit du ciel. Que consuma ce feu ?",
         "bible_ref": "2 Chroniques 7:1",
         "verse_text": "Lorsque Salomon eut achevé de prier, le feu descendit du ciel et consuma l’holocauste et les sacrifices, et la gloire de l’Éternel remplit la maison."
       },
       "en": {
-        "prompt": "What came down from heaven when Solomon had made an end of praying?",
+        "prompt": "When Solomon had made an end of praying, fire came down from heaven. What did it consume?",
         "bible_ref": "2 Chronicles 7:1",
         "verse_text": "Now when Solomon had made an end of praying, the fire came down from heaven, and consumed the burnt offering and the sacrifices; and the glory of the LORD filled the house."
       },
       "es": {
-        "prompt": "¿Qué descendió del cielo cuando Salomón acabó de orar?",
+        "prompt": "Cuando Salomón acabó de orar, descendió fuego del cielo. ¿Qué consumió ese fuego?",
         "bible_ref": "2 Crónicas 7:1",
         "verse_text": "Y COMO Salomón acabó de orar, el fuego descendió de los cielos, y consumió el holocausto y las víctimas; y la gloria de Jehová hinchió la casa."
       }
@@ -16490,16 +16490,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Fogo"
+            "text": "O holocausto e as vítimas"
           },
           "fr": {
-            "text": "Le feu"
+            "text": "L’holocauste et les sacrifices"
           },
           "en": {
-            "text": "Fire"
+            "text": "The burnt offering and the sacrifices"
           },
           "es": {
-            "text": "Fuego"
+            "text": "El holocausto y las víctimas"
           }
         }
       },
@@ -16508,16 +16508,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Chuva"
+            "text": "As portas do templo"
           },
           "fr": {
-            "text": "La pluie"
+            "text": "Les portes du temple"
           },
           "en": {
-            "text": "Rain"
+            "text": "The doors of the temple"
           },
           "es": {
-            "text": "Lluvia"
+            "text": "Las puertas del templo"
           }
         }
       },
@@ -16526,16 +16526,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Maná"
+            "text": "O trono de Salomão"
           },
           "fr": {
-            "text": "La manne"
+            "text": "Le trône de Salomon"
           },
           "en": {
-            "text": "Manna"
+            "text": "Solomon’s throne"
           },
           "es": {
-            "text": "Maná"
+            "text": "El trono de Salomón"
           }
         }
       },
@@ -16544,16 +16544,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Granizo"
+            "text": "Os ídolos da cidade"
           },
           "fr": {
-            "text": "La grêle"
+            "text": "Les idoles de la ville"
           },
           "en": {
-            "text": "Hail"
+            "text": "The idols of the city"
           },
           "es": {
-            "text": "Granizo"
+            "text": "Los ídolos de la ciudad"
           }
         }
       }
@@ -16796,7 +16796,7 @@
             "ref": "Judges 16:30"
           },
           "es": {
-            "text": "Sansón derriba la casa de los filisteos",
+            "text": "Samsón derriba la casa de los filisteos",
             "ref": "Jueces 16:30"
           }
         }
@@ -16896,7 +16896,7 @@
             "ref": "Ezra 7:8"
           },
           "es": {
-            "text": "Esdras llega a Jerusalén",
+            "text": "Esdras llega a Jerusalem",
             "ref": "Esdras 7:8"
           }
         }
@@ -16974,7 +16974,7 @@
             "ref": "Esther 2:17"
           },
           "es": {
-            "text": "Ester recibe la corona real",
+            "text": "Esther recibe la corona real",
             "ref": "Ester 2:17"
           }
         }
@@ -17018,7 +17018,7 @@
             "ref": "Esther 5:2"
           },
           "es": {
-            "text": "Ester toca la punta del cetro de oro",
+            "text": "Esther toca la punta del cetro de oro",
             "ref": "Ester 5:2"
           }
         }
@@ -17040,7 +17040,7 @@
             "ref": "Esther 6:11"
           },
           "es": {
-            "text": "Amán lleva a Mardoqueo a caballo",
+            "text": "Amán lleva a Mardochêo a caballo",
             "ref": "Ester 6:11"
           }
         }
@@ -17058,22 +17058,22 @@
     "verse_end": 15,
     "texts": {
       "pt": {
-        "prompt": "E se mal vos parece servir ao SENHOR, escolhei hoje a quem sirvais; se aos deuses a os quais serviram vossos pais, quando estiveram da outra parte do rio, ou aos deuses dos amorreus em cuja terra habitais: que eu e minha _____ serviremos ao SENHOR.",
+        "prompt": "E se mal vos parece servir ao SENHOR, escolhei hoje a quem sirvais; se aos deuses aos quais serviram vossos pais, quando estiveram da outra parte do rio, ou aos deuses dos _____ em cuja terra habitais: que eu e minha casa serviremos ao SENHOR.",
         "bible_ref": "Josué 24:15",
-        "verse_text": "E se mal vos parece servir ao SENHOR, escolhei hoje a quem sirvais; se aos deuses a os quais serviram vossos pais, quando estiveram da outra parte do rio, ou aos deuses dos amorreus em cuja terra habitais: que eu e minha casa serviremos ao SENHOR."
+        "verse_text": "E se mal vos parece servir ao SENHOR, escolhei hoje a quem sirvais; se aos deuses aos quais serviram vossos pais, quando estiveram da outra parte do rio, ou aos deuses dos amorreus em cuja terra habitais: que eu e minha casa serviremos ao SENHOR."
       },
       "fr": {
-        "prompt": "Et si vous ne trouvez pas bon de servir l’Éternel, choisissez aujourd’hui qui vous voulez servir, ou les dieux que servaient vos pères au-delà du fleuve, ou les dieux des Amoréens dans le pays desquels vous habitez. Moi et ma _____, nous servirons l’Éternel.",
+        "prompt": "Et si vous ne trouvez pas bon de servir l’Éternel, choisissez aujourd’hui qui vous voulez servir, ou les dieux que servaient vos pères au-delà du fleuve, ou les dieux des _____ dans le pays desquels vous habitez. Moi et ma maison, nous servirons l’Éternel.",
         "bible_ref": "Josué 24:15",
         "verse_text": "Et si vous ne trouvez pas bon de servir l’Éternel, choisissez aujourd’hui qui vous voulez servir, ou les dieux que servaient vos pères au-delà du fleuve, ou les dieux des Amoréens dans le pays desquels vous habitez. Moi et ma maison, nous servirons l’Éternel."
       },
       "en": {
-        "prompt": "And if it seem evil unto you to serve the LORD, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my _____, we will serve the LORD.",
+        "prompt": "And if it seem evil unto you to serve the LORD, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the _____, in whose land ye dwell: but as for me and my house, we will serve the LORD.",
         "bible_ref": "Joshua 24:15",
         "verse_text": "And if it seem evil unto you to serve the LORD, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the LORD."
       },
       "es": {
-        "prompt": "Y si mal os parece servir á Jehová, escogeos hoy á quién sirváis; si á los dioses á quienes sirvieron vuestros padres, cuando estuvieron de esotra parte del río, ó á los dioses de los Amorrheos en cuya tierra habitáis: que yo y mi _____ serviremos á Jehová.",
+        "prompt": "Y si mal os parece servir á Jehová, escogeos hoy á quién sirváis; si á los dioses á quienes sirvieron vuestros padres, cuando estuvieron de esotra parte del río, ó á los dioses de los _____ en cuya tierra habitáis: que yo y mi casa serviremos á Jehová.",
         "bible_ref": "Josué 24:15",
         "verse_text": "Y si mal os parece servir á Jehová, escogeos hoy á quién sirváis; si á los dioses á quienes sirvieron vuestros padres, cuando estuvieron de esotra parte del río, ó á los dioses de los Amorrheos en cuya tierra habitáis: que yo y mi casa serviremos á Jehová."
       }
@@ -17084,16 +17084,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "tribo"
+            "text": "egípcios"
           },
           "fr": {
-            "text": "tribu"
+            "text": "Égyptiens"
           },
           "en": {
-            "text": "tribe"
+            "text": "Egyptians"
           },
           "es": {
-            "text": "tribu"
+            "text": "Egipcios"
           }
         }
       },
@@ -17102,16 +17102,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "casa"
+            "text": "amorreus"
           },
           "fr": {
-            "text": "maison"
+            "text": "Amoréens"
           },
           "en": {
-            "text": "house"
+            "text": "Amorites"
           },
           "es": {
-            "text": "casa"
+            "text": "Amorrheos"
           }
         }
       },
@@ -17120,16 +17120,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "cidade"
+            "text": "moabitas"
           },
           "fr": {
-            "text": "ville"
+            "text": "Moabites"
           },
           "en": {
-            "text": "city"
+            "text": "Moabites"
           },
           "es": {
-            "text": "ciudad"
+            "text": "Moabitas"
           }
         }
       },
@@ -17138,16 +17138,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "família"
+            "text": "filisteus"
           },
           "fr": {
-            "text": "famille"
+            "text": "Philistins"
           },
           "en": {
-            "text": "family"
+            "text": "Philistines"
           },
           "es": {
-            "text": "familia"
+            "text": "Filisteos"
           }
         }
       }
@@ -17264,30 +17264,30 @@
     "type": "verse",
     "level": "medium",
     "testament": "ot",
-    "book": "2CH",
-    "chapter": 7,
-    "verse_start": 14,
-    "verse_end": 14,
+    "book": "1KI",
+    "chapter": 18,
+    "verse_start": 21,
+    "verse_end": 21,
     "texts": {
       "pt": {
-        "prompt": "Se se humilhar meu povo, sobre os quais nem nome é invocado, e orarem, e buscarem meu rosto, e se converterem de seus maus caminhos; então eu ouvirei desde os céus, e perdoarei seus pecados, e sararei sua _____.",
-        "bible_ref": "2 Crónicas 7:14",
-        "verse_text": "Se se humilhar meu povo, sobre os quais nem nome é invocado, e orarem, e buscarem meu rosto, e se converterem de seus maus caminhos; então eu ouvirei desde os céus, e perdoarei seus pecados, e sararei sua terra."
+        "prompt": "E aproximando-se Elias a todo o povo, disse: Até quando hesitareis vós entre dois pensamentos? Se o SENHOR é Deus, segui-lhe; e se _____, ide depois dele. E o povo não respondeu palavra.",
+        "bible_ref": "1 Reis 18:21",
+        "verse_text": "E aproximando-se Elias a todo o povo, disse: Até quando hesitareis vós entre dois pensamentos? Se o SENHOR é Deus, segui-lhe; e se Baal, ide depois dele. E o povo não respondeu palavra."
       },
       "fr": {
-        "prompt": "si mon peuple sur qui est invoqué mon nom s’humilie, prie, et cherche ma face, et s’il se détourne de ses mauvaises voies, je l’exaucerai des cieux, je lui pardonnerai son péché, et je guérirai son _____.",
-        "bible_ref": "2 Chroniques 7:14",
-        "verse_text": "si mon peuple sur qui est invoqué mon nom s’humilie, prie, et cherche ma face, et s’il se détourne de ses mauvaises voies, je l’exaucerai des cieux, je lui pardonnerai son péché, et je guérirai son pays."
+        "prompt": "Alors Élie s’approcha de tout le peuple, et dit: Jusqu’à quand clocherez-vous des deux côtés? Si l’Éternel est Dieu, allez après lui; si c’est _____, allez après lui! Le peuple ne lui répondit rien.",
+        "bible_ref": "1 Rois 18:21",
+        "verse_text": "Alors Élie s’approcha de tout le peuple, et dit: Jusqu’à quand clocherez-vous des deux côtés? Si l’Éternel est Dieu, allez après lui; si c’est Baal, allez après lui! Le peuple ne lui répondit rien."
       },
       "en": {
-        "prompt": "If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways; then will I hear from heaven, and will forgive their sin, and will heal their _____.",
-        "bible_ref": "2 Chronicles 7:14",
-        "verse_text": "If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways; then will I hear from heaven, and will forgive their sin, and will heal their land."
+        "prompt": "And Elijah came unto all the people, and said, How long halt ye between two opinions? if the LORD be God, follow him: but if _____, then follow him. And the people answered him not a word.",
+        "bible_ref": "1 Kings 18:21",
+        "verse_text": "And Elijah came unto all the people, and said, How long halt ye between two opinions? if the LORD be God, follow him: but if Baal, then follow him. And the people answered him not a word."
       },
       "es": {
-        "prompt": "Si se humillare mi pueblo, sobre los cuales ni nombre es invocado, y oraren, y buscaren mi rostro, y se convirtieren de sus malos caminos; entonces yo oiré desde los cielos, y perdonaré sus pecados, y sanaré su _____.",
-        "bible_ref": "2 Crónicas 7:14",
-        "verse_text": "Si se humillare mi pueblo, sobre los cuales ni nombre es invocado, y oraren, y buscaren mi rostro, y se convirtieren de sus malos caminos; entonces yo oiré desde los cielos, y perdonaré sus pecados, y sanaré su tierra."
+        "prompt": "Y acercándose Elías á todo el pueblo, dijo: ¿Hasta cuándo claudicaréis vosotros entre dos pensamientos? Si Jehová es Dios, seguidle; y si _____, id en pos de él. Y el pueblo no respondió palabra.",
+        "bible_ref": "1 Reyes 18:21",
+        "verse_text": "Y acercándose Elías á todo el pueblo, dijo: ¿Hasta cuándo claudicaréis vosotros entre dos pensamientos? Si Jehová es Dios, seguidle; y si Baal, id en pos de él. Y el pueblo no respondió palabra."
       }
     },
     "options": [
@@ -17296,16 +17296,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "terra"
+            "text": "Baal"
           },
           "fr": {
-            "text": "pays"
+            "text": "Baal"
           },
           "en": {
-            "text": "land"
+            "text": "Baal"
           },
           "es": {
-            "text": "tierra"
+            "text": "Baal"
           }
         }
       },
@@ -17314,16 +17314,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "alma"
+            "text": "Dagom"
           },
           "fr": {
-            "text": "âme"
+            "text": "Dagon"
           },
           "en": {
-            "text": "soul"
+            "text": "Dagon"
           },
           "es": {
-            "text": "alma"
+            "text": "Dagón"
           }
         }
       },
@@ -17332,16 +17332,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "vinha"
+            "text": "Quemos"
           },
           "fr": {
-            "text": "vignoble"
+            "text": "Kemosch"
           },
           "en": {
-            "text": "vineyard"
+            "text": "Chemosh"
           },
           "es": {
-            "text": "viña"
+            "text": "Chêmos"
           }
         }
       },
@@ -17350,16 +17350,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "enfermidade"
+            "text": "Moloque"
           },
           "fr": {
-            "text": "infirmité"
+            "text": "Moloc"
           },
           "en": {
-            "text": "infirmity"
+            "text": "Molech"
           },
           "es": {
-            "text": "enfermedad"
+            "text": "Moloch"
           }
         }
       }
@@ -17517,7 +17517,7 @@
             "text": "In the book of Jasher"
           },
           "es": {
-            "text": "En el libro de Jaser"
+            "text": "En el libro de Jasher"
           }
         }
       },
@@ -17603,7 +17603,7 @@
         "verse_text": "And Jephthah came to Mizpeh unto his house, and, behold, his daughter came out to meet him with timbrels and with dances: and she was his only child; beside her he had neither son nor daughter."
       },
       "es": {
-        "prompt": "Cuando el juez Jefté volvió a su casa en Mizpa, ¿quién le salió a recibir con panderos y danzas?",
+        "prompt": "Cuando el juez Jephté volvió a su casa en Mizpa, ¿quién le salió a recibir con adufes y danzas?",
         "bible_ref": "Jueces 11:34",
         "verse_text": "Y volviendo Jephté á Mizpa á su casa, he aquí que su hija le salió á recibir con adufes y danzas, y era la sola, la única suya; no tenía fuera de ella otro hijo ni hija."
       }
@@ -17709,7 +17709,7 @@
         "verse_text": "Then said they unto him, Say now Shibboleth: and he said Sibboleth: for he could not frame to pronounce it right. Then they took him, and slew him at the passages of Jordan: and there fell at that time of the Ephraimites forty and two thousand."
       },
       "es": {
-        "prompt": "Los hombres de Galaad hacían decir «Shibolet». ¿Quiénes no podían pronunciarlo bien?",
+        "prompt": "Los hombres de Galaad hacían decir «Shiboleth». ¿Quiénes no podían pronunciarlo bien?",
         "bible_ref": "Jueces 12:6",
         "verse_text": "Entonces le decían: Ahora pues, di, Shiboleth. Y él decía, Siboleth; porque no podía pronunciar de aquella suerte. Entonces le echaban mano, y le degollaban junto á los vados del Jordán. Y murieron entonces de los de Ephraim cuarenta y dos mil."
       }
@@ -17729,7 +17729,7 @@
             "text": "The Ephraimites"
           },
           "es": {
-            "text": "Los de Efraín"
+            "text": "Los de Ephraim"
           }
         }
       },
@@ -17796,28 +17796,28 @@
     "testament": "ot",
     "book": "RUT",
     "chapter": 1,
-    "verse_start": 20,
-    "verse_end": 20,
+    "verse_start": 2,
+    "verse_end": 2,
     "texts": {
       "pt": {
-        "prompt": "Ao voltar a Belém, por que nome pediu Noemi que a chamassem?",
-        "bible_ref": "Rute 1:20",
-        "verse_text": "E ela lhes respondia: Não me chameis Noemi, mas sim me chamai Mara: porque em grande amargura me pôs o Todo-Poderoso."
+        "prompt": "Como se chamavam os dois filhos de Elimeleque e Noemi?",
+        "bible_ref": "Rute 1:2",
+        "verse_text": "O nome daquele homem era Elimeleque, e o de sua mulher Noemi; e os nomes de seus dois filhos eram Malom e Quiliom, efrateus de Belém de Judá. Chegaram, pois, aos campos de Moabe, e assentaram ali."
       },
       "fr": {
-        "prompt": "De retour à Bethléhem, comment Naomi demanda-t-elle qu’on l’appelle ?",
-        "bible_ref": "Ruth 1:20",
-        "verse_text": "Elle leur dit: Ne m’appelez pas Naomi; appelez-moi Mara, car le Tout-Puissant m’a remplie d’amertume."
+        "prompt": "Comment s’appelaient les deux fils d’Élimélec et de Naomi ?",
+        "bible_ref": "Ruth 1:2",
+        "verse_text": "Le nom de cet homme était Élimélec, celui de sa femme Naomi, et ses deux fils s’appelaient Machlon et Kiljon; ils étaient Éphratiens, de Bethléhem de Juda. Arrivés au pays de Moab, ils y fixèrent leur demeure."
       },
       "en": {
-        "prompt": "Back in Bethlehem, what did Naomi ask to be called?",
-        "bible_ref": "Ruth 1:20",
-        "verse_text": "And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me."
+        "prompt": "What were the names of the two sons of Elimelech and Naomi?",
+        "bible_ref": "Ruth 1:2",
+        "verse_text": "And the name of the man was Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Beth-lehem-judah. And they came into the country of Moab, and continued there."
       },
       "es": {
-        "prompt": "De vuelta en Belén, ¿cómo pidió Noemí que la llamaran?",
-        "bible_ref": "Rut 1:20",
-        "verse_text": "Y ella les respondía: No me llaméis Noemi, sino llamadme Mara: porque en grande amargura me ha puesto el Todopoderoso."
+        "prompt": "¿Cómo se llamaban los dos hijos de Elimelech y Noemi?",
+        "bible_ref": "Rut 1:2",
+        "verse_text": "El nombre de aquel varón era Elimelech, y el de su mujer Noemi; y los nombres de sus dos hijos eran, Mahalón y Chelión, Ephrateos de Beth-lehem de Judá. Llegaron pues á los campos de Moab, y asentaron allí."
       }
     },
     "options": [
@@ -17826,16 +17826,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Mara"
+            "text": "Malom e Quiliom"
           },
           "fr": {
-            "text": "Mara"
+            "text": "Machlon et Kiljon"
           },
           "en": {
-            "text": "Mara"
+            "text": "Mahlon and Chilion"
           },
           "es": {
-            "text": "Mara"
+            "text": "Mahalón y Chelión"
           }
         }
       },
@@ -17844,16 +17844,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Orfa"
+            "text": "Quis e Ner"
           },
           "fr": {
-            "text": "Orpa"
+            "text": "Kis et Ner"
           },
           "en": {
-            "text": "Orpah"
+            "text": "Kish and Ner"
           },
           "es": {
-            "text": "Orfa"
+            "text": "Cis y Ner"
           }
         }
       },
@@ -17862,16 +17862,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Ana"
+            "text": "Joel e Abias"
           },
           "fr": {
-            "text": "Anne"
+            "text": "Joël et Abija"
           },
           "en": {
-            "text": "Hannah"
+            "text": "Joel and Abiah"
           },
           "es": {
-            "text": "Ana"
+            "text": "Joel y Abia"
           }
         }
       },
@@ -17880,16 +17880,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Penina"
+            "text": "Hofni e Fineias"
           },
           "fr": {
-            "text": "Peninna"
+            "text": "Hophni et Phinées"
           },
           "en": {
-            "text": "Peninnah"
+            "text": "Hophni and Phinehas"
           },
           "es": {
-            "text": "Penina"
+            "text": "Ophni y Phinees"
           }
         }
       }
@@ -17941,7 +17941,7 @@
             "text": "Hophni and Phinehas"
           },
           "es": {
-            "text": "Ofni y Finees"
+            "text": "Ophni y Phinees"
           }
         }
       },
@@ -17977,7 +17977,7 @@
             "text": "Joel and Abiah"
           },
           "es": {
-            "text": "Joel y Abías"
+            "text": "Joel y Abia"
           }
         }
       },
@@ -17995,7 +17995,7 @@
             "text": "Eleazar and Ithamar"
           },
           "es": {
-            "text": "Eleazar e Itamar"
+            "text": "Eleazar e Ithamar"
           }
         }
       }
@@ -18133,7 +18133,7 @@
         "verse_text": "Now when Mephibosheth, the son of Jonathan, the son of Saul, was come unto David, he fell on his face, and did reverence. And David said, Mephibosheth. And he answered, Behold thy servant!"
       },
       "es": {
-        "prompt": "¿Qué hijo de Jonatán se postró ante David y le dijo: «He aquí tu siervo»?",
+        "prompt": "¿Qué hijo de Jonathán se postró ante David y le dijo: «He aquí tu siervo»?",
         "bible_ref": "2 Samuel 9:6",
         "verse_text": "Y venido Mephi-boseth, hijo de Jonathán hijo de Saúl, á David, postróse sobre su rostro, é hizo reverencia. Y dijo David: Mephi-boseth. Y él respondió: He aquí tu siervo."
       }
@@ -18153,7 +18153,7 @@
             "text": "Mephibosheth"
           },
           "es": {
-            "text": "Mefi-boset"
+            "text": "Mephi-boseth"
           }
         }
       },
@@ -18162,16 +18162,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Isbosete"
+            "text": "Is-Bosete"
           },
           "fr": {
             "text": "Isch-Boscheth"
           },
           "en": {
-            "text": "Ishbosheth"
+            "text": "Ish-bosheth"
           },
           "es": {
-            "text": "Is-boset"
+            "text": "Is-boseth"
           }
         }
       },
@@ -18189,7 +18189,7 @@
             "text": "Absalom"
           },
           "es": {
-            "text": "Absalón"
+            "text": "Absalom"
           }
         }
       },
@@ -18256,10 +18256,10 @@
             "text": "Béthel et Dan"
           },
           "en": {
-            "text": "Bethel and Dan"
+            "text": "Beth-el and Dan"
           },
           "es": {
-            "text": "Betel y Dan"
+            "text": "Beth-el y Dan"
           }
         }
       },
@@ -18277,7 +18277,7 @@
             "text": "Shechem and Samaria"
           },
           "es": {
-            "text": "Siquem y Samaria"
+            "text": "Sichêm y Samaria"
           }
         }
       },
@@ -18286,7 +18286,7 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Gilgal e Silo"
+            "text": "Gilgal e Siló"
           },
           "fr": {
             "text": "Guilgal et Silo"
@@ -18310,10 +18310,10 @@
             "text": "Hébron et Beer-Schéba"
           },
           "en": {
-            "text": "Hebron and Beersheba"
+            "text": "Hebron and Beer-sheba"
           },
           "es": {
-            "text": "Hebrón y Beerseba"
+            "text": "Hebrón y Beer-seba"
           }
         }
       }
@@ -18326,28 +18326,28 @@
     "testament": "ot",
     "book": "2KI",
     "chapter": 20,
-    "verse_start": 6,
-    "verse_end": 6,
+    "verse_start": 11,
+    "verse_end": 11,
     "texts": {
       "pt": {
-        "prompt": "Quantos anos de vida acrescentou o SENHOR ao rei Ezequias?",
-        "bible_ref": "2 Reis 20:6",
-        "verse_text": "E acrescentarei a teus dias quinze anos, e te livrarei a ti e a esta cidade da mão do rei da Assíria; e ampararei esta cidade por causa de mim, e por causa de Davi meu servo."
+        "prompt": "Em 2 Reis 20, quantos degraus voltou atrás a sombra no relógio de Acaz?",
+        "bible_ref": "2 Reis 20:11",
+        "verse_text": "Então o profeta Isaías clamou ao SENHOR; e fez voltar a sombra pelos degraus que havia descido no relógio de Acaz, dez degraus atrás."
       },
       "fr": {
-        "prompt": "Combien d’années l’Éternel ajouta-t-il à la vie du roi Ézéchias ?",
-        "bible_ref": "2 Rois 20:6",
-        "verse_text": "J’ajouterai à tes jours quinze années. Je te délivrerai, toi et cette ville, de la main du roi d’Assyrie; je protégerai cette ville, à cause de moi, et à cause de David, mon serviteur."
+        "prompt": "En 2 Rois 20, de combien de degrés l’ombre recula-t-elle sur les degrés d’Achaz ?",
+        "bible_ref": "2 Rois 20:11",
+        "verse_text": "Alors Ésaïe, le prophète, invoqua l’Éternel, qui fit reculer l’ombre de dix degrés sur les degrés d’Achaz, où elle était descendue."
       },
       "en": {
-        "prompt": "How many years did the LORD add to King Hezekiah’s days?",
-        "bible_ref": "2 Kings 20:6",
-        "verse_text": "And I will add unto thy days fifteen years; and I will deliver thee and this city out of the hand of the king of Assyria; and I will defend this city for mine own sake, and for my servant David’s sake."
+        "prompt": "In 2 Kings 20, how many degrees did the shadow go back on the dial of Ahaz?",
+        "bible_ref": "2 Kings 20:11",
+        "verse_text": "And Isaiah the prophet cried unto the LORD: and he brought the shadow ten degrees backward, by which it had gone down in the dial of Ahaz."
       },
       "es": {
-        "prompt": "¿Cuántos años añadió Jehová a los días del rey Ezequías?",
-        "bible_ref": "2 Reyes 20:6",
-        "verse_text": "Y añadiré á tus días quince años, y te libraré á ti y á esta ciudad de mano del rey de Asiria; y ampararé esta ciudad por amor de mí, y por amor de David mi siervo."
+        "prompt": "En 2 Reyes 20, ¿cuántos grados volvió atrás la sombra en el reloj de Achâz?",
+        "bible_ref": "2 Reyes 20:11",
+        "verse_text": "Entonces el profeta Isaías clamó á Jehová; é hizo volver la sombra por los grados que había descendido en el reloj de Achâz, diez grados atrás."
       }
     },
     "options": [
@@ -18356,16 +18356,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "15 anos"
+            "text": "10 degraus"
           },
           "fr": {
-            "text": "15 ans"
+            "text": "10 degrés"
           },
           "en": {
-            "text": "15 years"
+            "text": "10 degrees"
           },
           "es": {
-            "text": "15 años"
+            "text": "10 grados"
           }
         }
       },
@@ -18374,16 +18374,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "10 anos"
+            "text": "5 degraus"
           },
           "fr": {
-            "text": "10 ans"
+            "text": "5 degrés"
           },
           "en": {
-            "text": "10 years"
+            "text": "5 degrees"
           },
           "es": {
-            "text": "10 años"
+            "text": "5 grados"
           }
         }
       },
@@ -18392,16 +18392,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "12 anos"
+            "text": "15 degraus"
           },
           "fr": {
-            "text": "12 ans"
+            "text": "15 degrés"
           },
           "en": {
-            "text": "12 years"
+            "text": "15 degrees"
           },
           "es": {
-            "text": "12 años"
+            "text": "15 grados"
           }
         }
       },
@@ -18410,16 +18410,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "20 anos"
+            "text": "7 degraus"
           },
           "fr": {
-            "text": "20 ans"
+            "text": "7 degrés"
           },
           "en": {
-            "text": "20 years"
+            "text": "7 degrees"
           },
           "es": {
-            "text": "20 años"
+            "text": "7 grados"
           }
         }
       }
@@ -18486,7 +18486,7 @@
             "text": "Obed-Édom"
           },
           "en": {
-            "text": "Obededom"
+            "text": "Obed-edom"
           },
           "es": {
             "text": "Obed-edom"
@@ -18507,7 +18507,7 @@
             "text": "Asaph"
           },
           "es": {
-            "text": "Asaf"
+            "text": "Asaph"
           }
         }
       },
@@ -18544,7 +18544,7 @@
       "pt": {
         "prompt": "Que função tinha Neemias ao serviço do rei?",
         "bible_ref": "Neemias 1:11",
-        "verse_text": "Por favor, SENHOR, estejam teus ouvidos atentos à oração do teu servo, e a oração de teus servos, que desejam temer o teu nome; e, por favor, faze ter sucesso hoje a teu servo, e dá-lhe favor diante deste homem!Pois eu era copeiro do rei."
+        "verse_text": "Por favor, SENHOR, estejam teus ouvidos atentos à oração do teu servo, e a oração de teus servos, que desejam temer o teu nome; e, por favor, faze ter sucesso hoje a teu servo, e dá-lhe favor diante deste homem! Pois eu era copeiro do rei."
       },
       "fr": {
         "prompt": "Quelle charge Néhémie avait-il au service du roi ?",
@@ -18663,7 +18663,7 @@
         "verse_text": "In the first month, that is, the month Nisan, in the twelfth year of king Ahasuerus, they cast Pur, that is, the lot, before Haman from day to day, and from month to month, to the twelfth month, that is, the month Adar."
       },
       "es": {
-        "prompt": "En Ester 3:7, ¿qué significa «Pur», echado delante de Amán?",
+        "prompt": "En Esther 3:7, ¿qué significa «Pur», echado delante de Amán?",
         "bible_ref": "Ester 3:7",
         "verse_text": "En el mes primero, que es el mes de Nisán, en el año duodécimo del rey Assuero, fué echada Pur, esto es, la suerte, delante de Amán, de día en día y de mes en mes; y salió el mes duodécimo, que es el mes de Adar."
       }
@@ -18792,7 +18792,7 @@
             "ref": "1 Kings 22:41"
           },
           "es": {
-            "text": "Josafat comienza a reinar en Judá",
+            "text": "Josaphat comienza a reinar en Judá",
             "ref": "1 Reyes 22:41"
           }
         }
@@ -18814,7 +18814,7 @@
             "ref": "2 Kings 18:1"
           },
           "es": {
-            "text": "Ezequías comienza a reinar en Judá",
+            "text": "Ezechîas comienza a reinar en Judá",
             "ref": "2 Reyes 18:1"
           }
         }
@@ -18936,7 +18936,7 @@
             "ref": "1 Kings 16:29"
           },
           "es": {
-            "text": "Acab, hijo de Omri, comienza a reinar",
+            "text": "Achâb, hijo de Omri, comienza a reinar",
             "ref": "1 Reyes 16:29"
           }
         }
@@ -19236,30 +19236,30 @@
     "type": "verse",
     "level": "hard",
     "testament": "ot",
-    "book": "JDG",
-    "chapter": 21,
-    "verse_start": 25,
-    "verse_end": 25,
+    "book": "2SA",
+    "chapter": 1,
+    "verse_start": 27,
+    "verse_end": 27,
     "texts": {
       "pt": {
-        "prompt": "Nestes dias não havia _____ em Israel; cada um fazia o que era correto diante de seus olhos.",
-        "bible_ref": "Juízes 21:25",
-        "verse_text": "Nestes dias não havia rei em Israel; cada um fazia o que era correto diante de seus olhos."
+        "prompt": "Como caíram os _____, E pereceram as armas de guerra!",
+        "bible_ref": "2 Samuel 1:27",
+        "verse_text": "Como caíram os valentes, E pereceram as armas de guerra!"
       },
       "fr": {
-        "prompt": "En ce temps-là, il n’y avait point de _____ en Israël. Chacun faisait ce qui lui semblait bon.",
-        "bible_ref": "Juges 21:25",
-        "verse_text": "En ce temps-là, il n’y avait point de roi en Israël. Chacun faisait ce qui lui semblait bon."
+        "prompt": "Comment des _____ sont-ils tombés? Comment leurs armes se sont-elles perdues!",
+        "bible_ref": "2 Samuel 1:27",
+        "verse_text": "Comment des héros sont-ils tombés? Comment leurs armes se sont-elles perdues!"
       },
       "en": {
-        "prompt": "In those days there was no _____ in Israel: every man did that which was right in his own eyes.",
-        "bible_ref": "Judges 21:25",
-        "verse_text": "In those days there was no king in Israel: every man did that which was right in his own eyes."
+        "prompt": "How are the _____ fallen, and the weapons of war perished!",
+        "bible_ref": "2 Samuel 1:27",
+        "verse_text": "How are the mighty fallen, and the weapons of war perished!"
       },
       "es": {
-        "prompt": "En estos días no había _____ en Israel: cada uno hacía lo recto delante de sus ojos.",
-        "bible_ref": "Jueces 21:25",
-        "verse_text": "En estos días no había rey en Israel: cada uno hacía lo recto delante de sus ojos."
+        "prompt": "¡Cómo han caído los _____, y perecieron las armas de guerra!",
+        "bible_ref": "2 Samuel 1:27",
+        "verse_text": "¡Cómo han caído los valientes, y perecieron las armas de guerra!"
       }
     },
     "options": [
@@ -19268,16 +19268,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "sacerdote"
+            "text": "gigantes"
           },
           "fr": {
-            "text": "sacrificateur"
+            "text": "géants"
           },
           "en": {
-            "text": "priest"
+            "text": "giants"
           },
           "es": {
-            "text": "sacerdote"
+            "text": "gigantes"
           }
         }
       },
@@ -19286,16 +19286,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "juiz"
+            "text": "reis"
           },
           "fr": {
-            "text": "juge"
+            "text": "rois"
           },
           "en": {
-            "text": "judge"
+            "text": "kings"
           },
           "es": {
-            "text": "juez"
+            "text": "reyes"
           }
         }
       },
@@ -19304,16 +19304,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "profeta"
+            "text": "ímpios"
           },
           "fr": {
-            "text": "prophète"
+            "text": "méchants"
           },
           "en": {
-            "text": "prophet"
+            "text": "wicked"
           },
           "es": {
-            "text": "profeta"
+            "text": "impíos"
           }
         }
       },
@@ -19322,16 +19322,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "rei"
+            "text": "valentes"
           },
           "fr": {
-            "text": "roi"
+            "text": "héros"
           },
           "en": {
-            "text": "king"
+            "text": "mighty"
           },
           "es": {
-            "text": "rey"
+            "text": "valientes"
           }
         }
       }
@@ -19640,16 +19640,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "suportar"
+            "text": "louvar"
           },
           "fr": {
-            "text": "porter"
+            "text": "louer"
           },
           "en": {
-            "text": "bear"
+            "text": "praise"
           },
           "es": {
-            "text": "soportar"
+            "text": "alabar"
           }
         }
       }
@@ -20037,7 +20037,7 @@
             "text": "Seth"
           },
           "es": {
-            "text": "Set"
+            "text": "Seth"
           }
         }
       },
@@ -20073,7 +20073,7 @@
             "text": "Adam"
           },
           "es": {
-            "text": "Adán"
+            "text": "Adam"
           }
         }
       }
@@ -20443,7 +20443,7 @@
             "text": "A coat of many colours"
           },
           "es": {
-            "text": "Una ropa de diversos colores"
+            "text": "Una túnica de diversos colores"
           }
         }
       },
@@ -20540,16 +20540,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Num cesto, junto ao rio"
+            "text": "Numa cesta de juncos, junto ao rio"
           },
           "fr": {
-            "text": "Dans une caisse, au bord du fleuve"
+            "text": "Dans une caisse de jonc, au bord du fleuve"
           },
           "en": {
-            "text": "In a little ark by the river"
+            "text": "In an ark of bulrushes by the river"
           },
           "es": {
-            "text": "En una arquilla, junto al río"
+            "text": "En una arquilla de juncos, junto al río"
           }
         }
       },
@@ -20867,7 +20867,7 @@
             "text": "The donkey"
           },
           "es": {
-            "text": "La asna"
+            "text": "El asna"
           }
         }
       },
@@ -21461,7 +21461,7 @@
             "text": "Adam"
           },
           "es": {
-            "text": "Adán"
+            "text": "Adam"
           }
         }
       },
@@ -21703,7 +21703,7 @@
             "text": "ensine"
           },
           "fr": {
-            "text": "conduise"
+            "text": "enseigne"
           },
           "en": {
             "text": "teach"
@@ -21721,7 +21721,7 @@
             "text": "ouça"
           },
           "fr": {
-            "text": "console"
+            "text": "écoute"
           },
           "en": {
             "text": "hear"
@@ -21739,29 +21739,29 @@
     "level": "easy",
     "testament": "ot",
     "book": "DEU",
-    "chapter": 6,
-    "verse_start": 5,
-    "verse_end": 5,
+    "chapter": 31,
+    "verse_start": 8,
+    "verse_end": 8,
     "texts": {
       "pt": {
-        "prompt": "E Amarás ao SENHOR teu Deus de todo teu _____, e de toda tua alma, e com todo tua poder.",
-        "bible_ref": "Deuteronómio 6:5",
-        "verse_text": "E Amarás ao SENHOR teu Deus de todo teu coração, e de toda tua alma, e com todo tua poder."
+        "prompt": "E o SENHOR é o que vai diante de ti; ele será contigo, não te deixará, nem te desamparará; não _____, nem te intimides.",
+        "bible_ref": "Deuteronómio 31:8",
+        "verse_text": "E o SENHOR é o que vai diante de ti; ele será contigo, não te deixará, nem te desamparará; não temas, nem te intimides."
       },
       "fr": {
-        "prompt": "Tu aimeras l’Éternel, ton Dieu, de tout ton _____, de toute ton âme et de toute ta force.",
-        "bible_ref": "Deutéronome 6:5",
-        "verse_text": "Tu aimeras l’Éternel, ton Dieu, de tout ton cœur, de toute ton âme et de toute ta force."
+        "prompt": "L’Éternel marchera lui-même devant toi, il sera lui-même avec toi, il ne te délaissera point, il ne t’abandonnera point; ne _____ point, et ne t’effraie point.",
+        "bible_ref": "Deutéronome 31:8",
+        "verse_text": "L’Éternel marchera lui-même devant toi, il sera lui-même avec toi, il ne te délaissera point, il ne t’abandonnera point; ne crains point, et ne t’effraie point."
       },
       "en": {
-        "prompt": "And thou shalt love the LORD thy God with all thine _____, and with all thy soul, and with all thy might.",
-        "bible_ref": "Deuteronomy 6:5",
-        "verse_text": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might."
+        "prompt": "And the LORD, he it is that doth go before thee; he will be with thee, he will not fail thee, neither forsake thee: _____ not, neither be dismayed.",
+        "bible_ref": "Deuteronomy 31:8",
+        "verse_text": "And the LORD, he it is that doth go before thee; he will be with thee, he will not fail thee, neither forsake thee: fear not, neither be dismayed."
       },
       "es": {
-        "prompt": "Y amarás á Jehová tu Dios de todo tu _____, y de toda tu alma, y con todo tu poder.",
-        "bible_ref": "Deuteronomio 6:5",
-        "verse_text": "Y amarás á Jehová tu Dios de todo tu corazón, y de toda tu alma, y con todo tu poder."
+        "prompt": "Y Jehová es el que va delante de ti; él será contigo, no te dejará, ni te desamparará; no _____, ni te intimides.",
+        "bible_ref": "Deuteronomio 31:8",
+        "verse_text": "Y Jehová es el que va delante de ti; él será contigo, no te dejará, ni te desamparará; no temas, ni te intimides."
       }
     },
     "options": [
@@ -21770,16 +21770,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "casa"
+            "text": "chores"
           },
           "fr": {
-            "text": "maison"
+            "text": "pleure"
           },
           "en": {
-            "text": "house"
+            "text": "weep"
           },
           "es": {
-            "text": "casa"
+            "text": "llores"
           }
         }
       },
@@ -21788,16 +21788,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "coração"
+            "text": "temas"
           },
           "fr": {
-            "text": "cœur"
+            "text": "crains"
           },
           "en": {
-            "text": "heart"
+            "text": "fear"
           },
           "es": {
-            "text": "corazón"
+            "text": "temas"
           }
         }
       },
@@ -21806,16 +21806,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "vida"
+            "text": "durmas"
           },
           "fr": {
-            "text": "vie"
+            "text": "dors"
           },
           "en": {
-            "text": "life"
+            "text": "sleep"
           },
           "es": {
-            "text": "vida"
+            "text": "duermas"
           }
         }
       },
@@ -21824,16 +21824,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "voz"
+            "text": "corras"
           },
           "fr": {
-            "text": "voix"
+            "text": "cours"
           },
           "en": {
-            "text": "voice"
+            "text": "run"
           },
           "es": {
-            "text": "voz"
+            "text": "corras"
           }
         }
       }
@@ -21845,29 +21845,29 @@
     "level": "medium",
     "testament": "ot",
     "book": "GEN",
-    "chapter": 7,
-    "verse_start": 12,
-    "verse_end": 12,
+    "chapter": 8,
+    "verse_start": 7,
+    "verse_end": 8,
     "texts": {
       "pt": {
-        "prompt": "Durante quantos dias e noites choveu sobre a terra no dilúvio?",
-        "bible_ref": "Génesis 7:12",
-        "verse_text": "E houve chuva sobre a terra quarenta dias e quarenta noites."
+        "prompt": "Que ave enviou Noé da arca antes da pomba?",
+        "bible_ref": "Génesis 8:7-8",
+        "verse_text": "E enviou ao corvo, o qual saiu, e esteve indo e voltando até que as águas se secaram de sobre a terra. Enviou também de si à pomba, para ver se as águas se haviam retirado de sobre a face da terra;"
       },
       "fr": {
-        "prompt": "Pendant combien de jours et de nuits la pluie est-elle tombée sur la terre lors du déluge ?",
-        "bible_ref": "Genèse 7:12",
-        "verse_text": "La pluie tomba sur la terre quarante jours et quarante nuits."
+        "prompt": "Quel oiseau Noé a-t-il lâché de l’arche avant la colombe ?",
+        "bible_ref": "Genèse 8:7-8",
+        "verse_text": "Il lâcha le corbeau, qui sortit, partant et revenant, jusqu’à ce que les eaux eussent séché sur la terre. Il lâcha aussi la colombe, pour voir si les eaux avaient diminué à la surface de la terre."
       },
       "en": {
-        "prompt": "For how many days and nights did it rain on the earth in the flood?",
-        "bible_ref": "Genesis 7:12",
-        "verse_text": "And the rain was upon the earth forty days and forty nights."
+        "prompt": "Which bird did Noah send out of the ark before the dove?",
+        "bible_ref": "Genesis 8:7-8",
+        "verse_text": "And he sent forth a raven, which went forth to and fro, until the waters were dried up from off the earth. Also he sent forth a dove from him, to see if the waters were abated from off the face of the ground;"
       },
       "es": {
-        "prompt": "¿Durante cuántos días y noches llovió sobre la tierra en el diluvio?",
-        "bible_ref": "Génesis 7:12",
-        "verse_text": "Y hubo lluvia sobre la tierra cuarenta días y cuarenta noches."
+        "prompt": "¿Qué ave envió Noé desde el arca antes de la paloma?",
+        "bible_ref": "Génesis 8:7-8",
+        "verse_text": "Y envió al cuervo, el cual salió, y estuvo yendo y tornando hasta que las aguas se secaron de sobre la tierra. Envió también de sí á la paloma, para ver si las aguas se habían retirado de sobre la faz de la tierra;"
       }
     },
     "options": [
@@ -21876,16 +21876,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "40"
+            "text": "O corvo"
           },
           "fr": {
-            "text": "40"
+            "text": "Le corbeau"
           },
           "en": {
-            "text": "40"
+            "text": "A raven"
           },
           "es": {
-            "text": "40"
+            "text": "El cuervo"
           }
         }
       },
@@ -21894,16 +21894,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "7"
+            "text": "A águia"
           },
           "fr": {
-            "text": "7"
+            "text": "L’aigle"
           },
           "en": {
-            "text": "7"
+            "text": "An eagle"
           },
           "es": {
-            "text": "7"
+            "text": "El águila"
           }
         }
       },
@@ -21912,16 +21912,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "12"
+            "text": "O pardal"
           },
           "fr": {
-            "text": "12"
+            "text": "Le moineau"
           },
           "en": {
-            "text": "12"
+            "text": "A sparrow"
           },
           "es": {
-            "text": "12"
+            "text": "El gorrión"
           }
         }
       },
@@ -21930,16 +21930,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "100"
+            "text": "A andorinha"
           },
           "fr": {
-            "text": "100"
+            "text": "L’hirondelle"
           },
           "en": {
-            "text": "100"
+            "text": "A swallow"
           },
           "es": {
-            "text": "100"
+            "text": "La golondrina"
           }
         }
       }
@@ -22058,28 +22058,28 @@
     "testament": "ot",
     "book": "GEN",
     "chapter": 19,
-    "verse_start": 26,
-    "verse_end": 26,
+    "verse_start": 24,
+    "verse_end": 24,
     "texts": {
       "pt": {
-        "prompt": "Em que se tornou a mulher de Ló quando olhou para trás?",
-        "bible_ref": "Génesis 19:26",
-        "verse_text": "Então a mulher de Ló olhou atrás, às costas dele, e se tornou estátua de sai."
+        "prompt": "O que fez o SENHOR chover sobre Sodoma e Gomorra?",
+        "bible_ref": "Génesis 19:24",
+        "verse_text": "Então choveu o SENHOR sobre Sodoma e sobre Gomorra enxofre e fogo da parte do SENHOR desde os céus;"
       },
       "fr": {
-        "prompt": "Que devint la femme de Lot quand elle regarda en arrière ?",
-        "bible_ref": "Genèse 19:26",
-        "verse_text": "La femme de Lot regarda en arrière, et elle devint une statue de sel."
+        "prompt": "Que fit pleuvoir l’Éternel sur Sodome et Gomorrhe ?",
+        "bible_ref": "Genèse 19:24",
+        "verse_text": "Alors l’Éternel fit pleuvoir du ciel sur Sodome et sur Gomorrhe du soufre et du feu, de par l’Éternel."
       },
       "en": {
-        "prompt": "What did Lot’s wife become when she looked back?",
-        "bible_ref": "Genesis 19:26",
-        "verse_text": "But his wife looked back from behind him, and she became a pillar of salt."
+        "prompt": "What did the LORD rain upon Sodom and Gomorrah?",
+        "bible_ref": "Genesis 19:24",
+        "verse_text": "Then the LORD rained upon Sodom and upon Gomorrah brimstone and fire from the LORD out of heaven;"
       },
       "es": {
-        "prompt": "¿En qué se convirtió la mujer de Lot cuando miró atrás?",
-        "bible_ref": "Génesis 19:26",
-        "verse_text": "Entonces la mujer de Lot miró atrás, á espaldas de él, y se volvió estatua de sal."
+        "prompt": "¿Qué hizo llover Jehová sobre Sodoma y Gomorra?",
+        "bible_ref": "Génesis 19:24",
+        "verse_text": "Entonces llovió Jehová sobre Sodoma y sobre Gomorra azufre y fuego de parte de Jehová desde los cielos;"
       }
     },
     "options": [
@@ -22088,16 +22088,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Numa estátua de sal"
+            "text": "Enxofre e fogo"
           },
           "fr": {
-            "text": "Une statue de sel"
+            "text": "Du soufre et du feu"
           },
           "en": {
-            "text": "A pillar of salt"
+            "text": "Brimstone and fire"
           },
           "es": {
-            "text": "Una estatua de sal"
+            "text": "Azufre y fuego"
           }
         }
       },
@@ -22106,16 +22106,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Numa pedra"
+            "text": "Pedras e cinza"
           },
           "fr": {
-            "text": "Une pierre"
+            "text": "Des pierres et de la cendre"
           },
           "en": {
-            "text": "A stone"
+            "text": "Stones and ashes"
           },
           "es": {
-            "text": "Una piedra"
+            "text": "Piedras y ceniza"
           }
         }
       },
@@ -22124,16 +22124,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Num monte de cinzas"
+            "text": "Água e sal"
           },
           "fr": {
-            "text": "Un tas de cendres"
+            "text": "De l’eau et du sel"
           },
           "en": {
-            "text": "A heap of ashes"
+            "text": "Water and salt"
           },
           "es": {
-            "text": "Un montón de ceniza"
+            "text": "Agua y sal"
           }
         }
       },
@@ -22142,16 +22142,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Numa árvore seca"
+            "text": "Granizo e neve"
           },
           "fr": {
-            "text": "Un arbre sec"
+            "text": "De la grêle et de la neige"
           },
           "en": {
-            "text": "A dry tree"
+            "text": "Hail and snow"
           },
           "es": {
-            "text": "Un árbol seco"
+            "text": "Granizo y nieve"
           }
         }
       }
@@ -22164,28 +22164,28 @@
     "testament": "ot",
     "book": "GEN",
     "chapter": 22,
-    "verse_start": 13,
-    "verse_end": 13,
+    "verse_start": 2,
+    "verse_end": 2,
     "texts": {
       "pt": {
-        "prompt": "Que animal ofereceu Abraão em lugar do seu filho?",
-        "bible_ref": "Génesis 22:13",
-        "verse_text": "Então levantou Abraão seus olhos, e olhou, e eis um carneiro a suas costas preso em um arbusto por seus chifres: e foi Abraão, e tomou o carneiro, e ofereceu-lhe em holocausto em lugar de seu filho."
+        "prompt": "Para que terra mandou Deus Abraão ir, para lá oferecer Isaac?",
+        "bible_ref": "Génesis 22:2",
+        "verse_text": "E disse: Toma agora teu filho, teu único, Isaque, a quem amas, e vai à terra de Moriá, e oferece-o ali em holocausto sobre um dos montes que eu te direi."
       },
       "fr": {
-        "prompt": "Quel animal Abraham a-t-il offert à la place de son fils ?",
-        "bible_ref": "Genèse 22:13",
-        "verse_text": "Abraham leva les yeux, et vit derrière lui un bélier retenu dans un buisson par les cornes; et Abraham alla prendre le bélier, et l’offrit en holocauste à la place de son fils."
+        "prompt": "Dans quel pays Dieu envoya-t-il Abraham pour y offrir Isaac ?",
+        "bible_ref": "Genèse 22:2",
+        "verse_text": "Dieu dit: Prends ton fils, ton unique, celui que tu aimes, Isaac; va-t’en au pays de Morija, et là offre-le en holocauste sur l’une des montagnes que je te dirai."
       },
       "en": {
-        "prompt": "What animal did Abraham offer instead of his son?",
-        "bible_ref": "Genesis 22:13",
-        "verse_text": "And Abraham lifted up his eyes, and looked, and behold behind him a ram caught in a thicket by his horns: and Abraham went and took the ram, and offered him up for a burnt offering in the stead of his son."
+        "prompt": "To which land did God send Abraham to offer Isaac there?",
+        "bible_ref": "Genesis 22:2",
+        "verse_text": "And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of."
       },
       "es": {
-        "prompt": "¿Qué animal ofreció Abraham en lugar de su hijo?",
-        "bible_ref": "Génesis 22:13",
-        "verse_text": "Entonces alzó Abraham sus ojos, y miró, y he aquí un carnero á sus espaldas trabado en un zarzal por sus cuernos: y fué Abraham, y tomó el carnero, y ofrecióle en holocausto en lugar de su hijo."
+        "prompt": "¿A qué tierra mandó Dios ir a Abraham para ofrecer allí a Isaac?",
+        "bible_ref": "Génesis 22:2",
+        "verse_text": "Y dijo: Toma ahora tu hijo, tu único, Isaac, á quien amas, y vete á tierra de Moriah, y ofrécelo allí en holocausto sobre uno de los montes que yo te diré."
       }
     },
     "options": [
@@ -22194,16 +22194,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Um carneiro"
+            "text": "Moriá"
           },
           "fr": {
-            "text": "Un bélier"
+            "text": "Morija"
           },
           "en": {
-            "text": "A ram"
+            "text": "Moriah"
           },
           "es": {
-            "text": "Un carnero"
+            "text": "Moriah"
           }
         }
       },
@@ -22212,16 +22212,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Um bezerro"
+            "text": "Egito"
           },
           "fr": {
-            "text": "Un veau"
+            "text": "Égypte"
           },
           "en": {
-            "text": "A calf"
+            "text": "Egypt"
           },
           "es": {
-            "text": "Un becerro"
+            "text": "Egipto"
           }
         }
       },
@@ -22230,16 +22230,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Uma pomba"
+            "text": "Midiã"
           },
           "fr": {
-            "text": "Une colombe"
+            "text": "Madian"
           },
           "en": {
-            "text": "A dove"
+            "text": "Midian"
           },
           "es": {
-            "text": "Una paloma"
+            "text": "Madián"
           }
         }
       },
@@ -22248,16 +22248,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Um bode"
+            "text": "Moabe"
           },
           "fr": {
-            "text": "Un bouc"
+            "text": "Moab"
           },
           "en": {
-            "text": "A goat"
+            "text": "Moab"
           },
           "es": {
-            "text": "Un macho cabrío"
+            "text": "Moab"
           }
         }
       }
@@ -22481,29 +22481,29 @@
     "level": "medium",
     "testament": "ot",
     "book": "EXO",
-    "chapter": 7,
-    "verse_start": 20,
-    "verse_end": 20,
+    "chapter": 17,
+    "verse_start": 6,
+    "verse_end": 6,
     "texts": {
       "pt": {
-        "prompt": "Quando Moisés feriu as águas do rio com a vara, em que se tornaram?",
-        "bible_ref": "Êxodo 7:20",
-        "verse_text": "E Moisés e Arão fizeram como o SENHOR havia mandado; e levantando a vara feriu as águas que havia no rio, em presença de Faraó e de seus servos; e todas as águas que havia no rio se converteram em sangue."
+        "prompt": "Em Horebe, o que mandou Deus Moisés fazer para o povo ter água?",
+        "bible_ref": "Êxodo 17:6",
+        "verse_text": "Eis que eu estou diante de ti ali sobre a rocha em Horebe; e ferirás a rocha, e sairão dela águas, e beberá o povo. E Moisés o fez assim em presença dos anciãos de Israel."
       },
       "fr": {
-        "prompt": "Quand Moïse frappa les eaux du fleuve avec la verge, en quoi furent-elles changées ?",
-        "bible_ref": "Exode 7:20",
-        "verse_text": "Moïse et Aaron firent ce que l’Éternel avait ordonné. Aaron leva la verge, et il frappa les eaux qui étaient dans le fleuve, sous les yeux de Pharaon et sous les yeux de ses serviteurs; et toutes les eaux du fleuve furent changées en sang."
+        "prompt": "À Horeb, que Dieu ordonna-t-il à Moïse de faire pour que le peuple ait de l’eau ?",
+        "bible_ref": "Exode 17:6",
+        "verse_text": "Voici, je me tiendrai devant toi sur le rocher d’Horeb; tu frapperas le rocher, et il en sortira de l’eau, et le peuple boira. Et Moïse fit ainsi, aux yeux des anciens d’Israël."
       },
       "en": {
-        "prompt": "When Moses struck the river water with the rod, what did it turn into?",
-        "bible_ref": "Exodus 7:20",
-        "verse_text": "And Moses and Aaron did so, as the LORD commanded; and he lifted up the rod, and smote the waters that were in the river, in the sight of Pharaoh, and in the sight of his servants; and all the waters that were in the river were turned to blood."
+        "prompt": "At Horeb, what did God tell Moses to do so the people could have water?",
+        "bible_ref": "Exodus 17:6",
+        "verse_text": "Behold, I will stand before thee there upon the rock in Horeb; and thou shalt smite the rock, and there shall come water out of it, that the people may drink. And Moses did so in the sight of the elders of Israel."
       },
       "es": {
-        "prompt": "Cuando Moisés golpeó las aguas del río con la vara, ¿en qué se convirtieron?",
-        "bible_ref": "Éxodo 7:20",
-        "verse_text": "Y Moisés y Aarón hicieron como Jehová lo mandó; y alzando la vara hirió las aguas que había en el río, en presencia de Faraón y de sus siervos; y todas las aguas que había en el río se convirtieron en sangre."
+        "prompt": "En Horeb, ¿qué mandó Dios hacer a Moisés para que el pueblo tuviera agua?",
+        "bible_ref": "Éxodo 17:6",
+        "verse_text": "He aquí que yo estoy delante de ti allí sobre la peña en Horeb; y herirás la peña, y saldrán de ella aguas, y beberá el pueblo. Y Moisés lo hizo así en presencia de los ancianos de Israel."
       }
     },
     "options": [
@@ -22512,16 +22512,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Em sangue"
+            "text": "Ferir a rocha"
           },
           "fr": {
-            "text": "En sang"
+            "text": "Frapper le rocher"
           },
           "en": {
-            "text": "Blood"
+            "text": "Smite the rock"
           },
           "es": {
-            "text": "En sangre"
+            "text": "Herir la peña"
           }
         }
       },
@@ -22530,16 +22530,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Em vinho"
+            "text": "Cavar um poço"
           },
           "fr": {
-            "text": "En vin"
+            "text": "Creuser un puits"
           },
           "en": {
-            "text": "Wine"
+            "text": "Dig a well"
           },
           "es": {
-            "text": "En vino"
+            "text": "Cavar un pozo"
           }
         }
       },
@@ -22548,16 +22548,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Em gelo"
+            "text": "Orar toda a noite"
           },
           "fr": {
-            "text": "En glace"
+            "text": "Prier toute la nuit"
           },
           "en": {
-            "text": "Ice"
+            "text": "Pray all night"
           },
           "es": {
-            "text": "En hielo"
+            "text": "Orar toda la noche"
           }
         }
       },
@@ -22566,16 +22566,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Em lama"
+            "text": "Lançar sal na fonte"
           },
           "fr": {
-            "text": "En boue"
+            "text": "Jeter du sel dans la source"
           },
           "en": {
-            "text": "Mud"
+            "text": "Throw salt into the spring"
           },
           "es": {
-            "text": "En lodo"
+            "text": "Echar sal en la fuente"
           }
         }
       }
@@ -22806,7 +22806,7 @@
       "pt": {
         "prompt": "Em Levítico 16, que animal levava sobre si as iniquidades do povo para o deserto?",
         "bible_ref": "Levítico 16:22",
-        "verse_text": "E aquele bode macho levará sobre si todas as iniquidades deles a terra inabitada: e deixará ir o bode macho pelo deserto."
+        "verse_text": "E aquele bode macho levará sobre si todas as iniquidades deles à terra inabitada: e deixará ir o bode macho pelo deserto."
       },
       "fr": {
         "prompt": "En Lévitique 16, quel animal emportait les iniquités du peuple dans le désert ?",
@@ -23536,20 +23536,20 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "As rãs cobrem a terra",
-            "ref": "Êxodo 8:6"
+            "text": "Cai granizo sobre o Egito",
+            "ref": "Êxodo 9:23"
           },
           "fr": {
-            "text": "Les grenouilles couvrent le pays",
-            "ref": "Exode 8:6"
+            "text": "La grêle tombe sur l’Égypte",
+            "ref": "Exode 9:23"
           },
           "en": {
-            "text": "Frogs cover the land",
-            "ref": "Exodus 8:6"
+            "text": "Hail falls on Egypt",
+            "ref": "Exodus 9:23"
           },
           "es": {
-            "text": "Las ranas cubren la tierra",
-            "ref": "Éxodo 8:6"
+            "text": "Cae granizo sobre Egipto",
+            "ref": "Éxodo 9:23"
           }
         }
       },
@@ -23760,16 +23760,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "ídolos"
+            "text": "tesouros"
           },
           "fr": {
-            "text": "idoles"
+            "text": "trésors"
           },
           "en": {
-            "text": "idols"
+            "text": "treasures"
           },
           "es": {
-            "text": "ídolos"
+            "text": "tesoros"
           }
         }
       },
@@ -24039,7 +24039,7 @@
         "verse_text": "Foram, pois, todos os dias de Matusalém, novecentos e sessenta e nove anos; e morreu."
       },
       "fr": {
-        "prompt": "Combien d’années Mathusalem a-t-il vécu ?",
+        "prompt": "Combien d’années Metuschélah a-t-il vécu ?",
         "bible_ref": "Genèse 5:27",
         "verse_text": "Tous les jours de Metuschélah furent de neuf cent soixante-neuf ans; puis il mourut."
       },
@@ -24049,7 +24049,7 @@
         "verse_text": "And all the days of Methuselah were nine hundred sixty and nine years: and he died."
       },
       "es": {
-        "prompt": "¿Cuántos años vivió Matusalén?",
+        "prompt": "¿Cuántos años vivió Mathusalam?",
         "bible_ref": "Génesis 5:27",
         "verse_text": "Fueron, pues, todos los días de Mathusalam, novecientos sesenta y nueve años; y murió."
       }
@@ -24175,7 +24175,7 @@
             "text": "Melchizedek"
           },
           "es": {
-            "text": "Melquisedec"
+            "text": "Melchîsedec"
           }
         }
       },
@@ -24193,7 +24193,7 @@
             "text": "Abimelech"
           },
           "es": {
-            "text": "Abimelec"
+            "text": "Abimelech"
           }
         }
       },
@@ -24229,7 +24229,7 @@
             "text": "Chedorlaomer"
           },
           "es": {
-            "text": "Quedorlaomer"
+            "text": "Chêdorlaomer"
           }
         }
       }
@@ -24299,7 +24299,7 @@
             "text": "Rachel"
           },
           "es": {
-            "text": "Raquel"
+            "text": "Rachêl"
           }
         }
       },
@@ -24405,7 +24405,7 @@
             "text": "Zipporah"
           },
           "es": {
-            "text": "Séfora"
+            "text": "Séphora"
           }
         }
       },
@@ -24441,7 +24441,7 @@
             "text": "Tamar"
           },
           "es": {
-            "text": "Tamar"
+            "text": "Thamar"
           }
         }
       }
@@ -24538,7 +24538,7 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Finéias"
+            "text": "Fineias"
           },
           "fr": {
             "text": "Phinées"
@@ -24791,7 +24791,7 @@
         "verse_text": "And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the LORD, which he commanded them not. And there went out fire from the LORD, and devoured them, and they died before the LORD."
       },
       "es": {
-        "prompt": "¿Qué hijos de Aarón ofrecieron fuego extraño delante del SEÑOR y murieron?",
+        "prompt": "¿Qué hijos de Aarón ofrecieron fuego extraño delante de Jehová y murieron?",
         "bible_ref": "Levítico 10:1-2",
         "verse_text": "Y LOS hijos de Aarón, Nadab y Abiú, tomaron cada uno su incensario, y pusieron fuego en ellos, sobre el cual pusieron perfume, y ofrecieron delante de Jehová fuego extraño, que él nunca les mandó. Y salió fuego de delante de Jehová que los quemó, y murieron delante de Jehová."
       }
@@ -24865,7 +24865,7 @@
             "text": "Dathan and Abiram"
           },
           "es": {
-            "text": "Datán y Abiram"
+            "text": "Dathán y Abiram"
           }
         }
       }
@@ -25344,7 +25344,7 @@
             "ref": "Genesis 5:3"
           },
           "es": {
-            "text": "Adán engendra a Set",
+            "text": "Adam engendra a Seth",
             "ref": "Génesis 5:3"
           }
         }
@@ -25366,7 +25366,7 @@
             "ref": "Genesis 5:18"
           },
           "es": {
-            "text": "Jared engendra a Enoc",
+            "text": "Jared engendra a Henoch",
             "ref": "Génesis 5:18"
           }
         }
@@ -25380,7 +25380,7 @@
             "ref": "Génesis 5:21"
           },
           "fr": {
-            "text": "Hénoc engendre Mathusalem",
+            "text": "Hénoc engendre Metuschélah",
             "ref": "Genèse 5:21"
           },
           "en": {
@@ -25388,7 +25388,7 @@
             "ref": "Genesis 5:21"
           },
           "es": {
-            "text": "Enoc engendra a Matusalén",
+            "text": "Henoch engendra a Mathusalam",
             "ref": "Génesis 5:21"
           }
         }
@@ -25720,20 +25720,20 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Espias enviados a Canaã",
-            "ref": "Números 13:2"
+            "text": "Josué e Calebe rasgam as roupas",
+            "ref": "Números 14:6"
           },
           "fr": {
-            "text": "Des espions envoyés en Canaan",
-            "ref": "Nombres 13:2"
+            "text": "Josué et Caleb déchirent leurs vêtements",
+            "ref": "Nombres 14:6"
           },
           "en": {
-            "text": "Spies sent into Canaan",
-            "ref": "Numbers 13:2"
+            "text": "Joshua and Caleb rend their clothes",
+            "ref": "Numbers 14:6"
           },
           "es": {
-            "text": "Espías enviados a Canaán",
-            "ref": "Números 13:2"
+            "text": "Josué y Caleb rompen sus vestidos",
+            "ref": "Números 14:6"
           }
         }
       },
@@ -25900,9 +25900,9 @@
     "verse_end": 11,
     "texts": {
       "pt": {
-        "prompt": "Porque a vida da _____ no sangue está: e eu vos a dei para expiar vossas pessoas sobre o altar: pelo qual o mesmo sangue expiará a pessoa.",
+        "prompt": "Porque a vida da _____ no sangue está: e eu vo-la dei para expiar vossas pessoas sobre o altar: pelo qual o mesmo sangue expiará a pessoa.",
         "bible_ref": "Levítico 17:11",
-        "verse_text": "Porque a vida da carne no sangue está: e eu vos a dei para expiar vossas pessoas sobre o altar: pelo qual o mesmo sangue expiará a pessoa."
+        "verse_text": "Porque a vida da carne no sangue está: e eu vo-la dei para expiar vossas pessoas sobre o altar: pelo qual o mesmo sangue expiará a pessoa."
       },
       "fr": {
         "prompt": "Car l’âme de la _____ est dans le sang. Je vous l’ai donné sur l’autel, afin qu’il servît d’expiation pour vos âmes, car c’est par l’âme que le sang fait l’expiation.",
@@ -26006,9 +26006,9 @@
     "verse_end": 19,
     "texts": {
       "pt": {
-        "prompt": "Deus não é homem, para que _____; nem filho de homem para que se arrependa: ele disse, e não fará?; Falou, e não o executará?",
+        "prompt": "Deus não é homem, para que _____; nem filho de homem para que se arrependa: ele disse, e não fará? Falou, e não o executará?",
         "bible_ref": "Números 23:19",
-        "verse_text": "Deus não é homem, para que minta; nem filho de homem para que se arrependa: ele disse, e não fará?; Falou, e não o executará?"
+        "verse_text": "Deus não é homem, para que minta; nem filho de homem para que se arrependa: ele disse, e não fará? Falou, e não o executará?"
       },
       "fr": {
         "prompt": "Dieu n’est point un homme pour _____, Ni fils d’un homme pour se repentir. Ce qu’il a dit, ne le fera-t-il pas? Ce qu’il a déclaré, ne l’exécutera-t-il pas?",
@@ -26107,29 +26107,29 @@
     "level": "hard",
     "testament": "ot",
     "book": "DEU",
-    "chapter": 6,
-    "verse_start": 4,
-    "verse_end": 4,
+    "chapter": 18,
+    "verse_start": 15,
+    "verse_end": 15,
     "texts": {
       "pt": {
-        "prompt": "Ouve, _____: o SENHOR nosso Deus, o SENHOR um é:",
-        "bible_ref": "Deuteronómio 6:4",
-        "verse_text": "Ouve, Israel: o SENHOR nosso Deus, o SENHOR um é:"
+        "prompt": "O SENHOR teu Deus suscitará para ti um _____ do meio de ti, de teus irmãos, como eu; a ele deverás ouvir.",
+        "bible_ref": "Deuteronómio 18:15",
+        "verse_text": "O SENHOR teu Deus suscitará para ti um Profeta do meio de ti, de teus irmãos, como eu; a ele deverás ouvir."
       },
       "fr": {
-        "prompt": "Écoute, _____! L’Éternel, notre Dieu, est le seul Éternel.",
-        "bible_ref": "Deutéronome 6:4",
-        "verse_text": "Écoute, Israël! L’Éternel, notre Dieu, est le seul Éternel."
+        "prompt": "L’Éternel, ton Dieu, te suscitera du milieu de toi, d’entre tes frères, un _____ comme moi: vous l’écouterez!",
+        "bible_ref": "Deutéronome 18:15",
+        "verse_text": "L’Éternel, ton Dieu, te suscitera du milieu de toi, d’entre tes frères, un prophète comme moi: vous l’écouterez!"
       },
       "en": {
-        "prompt": "Hear, O _____: The LORD our God is one LORD:",
-        "bible_ref": "Deuteronomy 6:4",
-        "verse_text": "Hear, O Israel: The LORD our God is one LORD:"
+        "prompt": "The LORD thy God will raise up unto thee a _____ from the midst of thee, of thy brethren, like unto me; unto him ye shall hearken;",
+        "bible_ref": "Deuteronomy 18:15",
+        "verse_text": "The LORD thy God will raise up unto thee a Prophet from the midst of thee, of thy brethren, like unto me; unto him ye shall hearken;"
       },
       "es": {
-        "prompt": "Oye, _____: Jehová nuestro Dios, Jehová uno es:",
-        "bible_ref": "Deuteronomio 6:4",
-        "verse_text": "Oye, Israel: Jehová nuestro Dios, Jehová uno es:"
+        "prompt": "_____ de en medio de ti, de tus hermanos, como yo, te levantará Jehová tu Dios: á él oiréis:",
+        "bible_ref": "Deuteronomio 18:15",
+        "verse_text": "Profeta de en medio de ti, de tus hermanos, como yo, te levantará Jehová tu Dios: á él oiréis:"
       }
     },
     "options": [
@@ -26138,16 +26138,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Sião"
+            "text": "Sacerdote"
           },
           "fr": {
-            "text": "Sion"
+            "text": "sacrificateur"
           },
           "en": {
-            "text": "Zion"
+            "text": "Priest"
           },
           "es": {
-            "text": "Sión"
+            "text": "Sacerdote"
           }
         }
       },
@@ -26156,16 +26156,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Judá"
+            "text": "Juiz"
           },
           "fr": {
-            "text": "Juda"
+            "text": "juge"
           },
           "en": {
-            "text": "Judah"
+            "text": "Judge"
           },
           "es": {
-            "text": "Judá"
+            "text": "Juez"
           }
         }
       },
@@ -26174,16 +26174,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Egito"
+            "text": "Guerreiro"
           },
           "fr": {
-            "text": "Égypte"
+            "text": "guerrier"
           },
           "en": {
-            "text": "Egypt"
+            "text": "Warrior"
           },
           "es": {
-            "text": "Egipto"
+            "text": "Guerrero"
           }
         }
       },
@@ -26192,16 +26192,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Israel"
+            "text": "Profeta"
           },
           "fr": {
-            "text": "Israël"
+            "text": "prophète"
           },
           "en": {
-            "text": "Israel"
+            "text": "Prophet"
           },
           "es": {
-            "text": "Israel"
+            "text": "Profeta"
           }
         }
       }
@@ -29043,7 +29043,7 @@
         "verse_text": "Levanta-te, e desce à casa do oleiro; e ali te farei ouvir minhas palavras."
       },
       "fr": {
-        "prompt": "Dieu envoya Jérémie descendre dans la maison de qui, pour y entendre ses paroles ?",
+        "prompt": "Dans la maison de qui Dieu envoya-t-il Jérémie pour y entendre ses paroles ?",
         "bible_ref": "Jérémie 18:2",
         "verse_text": "Lève-toi, et descends dans la maison du potier; Là, je te ferai entendre mes paroles."
       },
@@ -29252,7 +29252,7 @@
       "pt": {
         "prompt": "Em Malaquias, o que manda Deus trazer à casa do tesouro?",
         "bible_ref": "Malaquias 3:10",
-        "verse_text": "Trazei todos os dízimos à casa do tesouro, para que haja alimento em minha casa; e provai-me nisto, diz o SENHOR dos exércitos, se não vos abrir as janelas dos céu, e derramar sobre vós bênção transbordante."
+        "verse_text": "Trazei todos os dízimos à casa do tesouro, para que haja alimento em minha casa; e provai-me nisto, diz o SENHOR dos exércitos, se não vos abrir as janelas dos céus, e derramar sobre vós bênção transbordante."
       },
       "fr": {
         "prompt": "Dans Malachie, que demande Dieu d’apporter à la maison du trésor ?",
@@ -31081,7 +31081,7 @@
             "text": "Ammon"
           },
           "es": {
-            "text": "Amón"
+            "text": "Ammón"
           }
         }
       },
@@ -31090,16 +31090,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Filisteia"
+            "text": "Os filisteus"
           },
           "fr": {
-            "text": "Le pays des Philistins"
+            "text": "Les Philistins"
           },
           "en": {
-            "text": "Philistia"
+            "text": "The Philistines"
           },
           "es": {
-            "text": "Filistea"
+            "text": "Los filisteos"
           }
         }
       }
@@ -31224,7 +31224,7 @@
       "pt": {
         "prompt": "Quem era o governador de Judá a quem foi dirigida a palavra do SENHOR por meio de Ageu?",
         "bible_ref": "Ageu 1:1",
-        "verse_text": "No segundo ano segundo do rei Dario, no sexto mês, no primeiro dia do mês, veio a palavra do SENHOR, por meio do profeta Ageu, a Zorobabel filho de Sealtiel, governador de Judá, e a Josué filho de Jeozadaque, sumo sacerdote, dizendo:"
+        "verse_text": "No segundo ano do rei Dario, no sexto mês, no primeiro dia do mês, veio a palavra do SENHOR, por meio do profeta Ageu, a Zorobabel filho de Sealtiel, governador de Judá, e a Josué filho de Jeozadaque, sumo sacerdote, dizendo:"
       },
       "fr": {
         "prompt": "Qui était le gouverneur de Juda à qui fut adressée la parole de l’Éternel par Aggée ?",
@@ -31434,22 +31434,22 @@
     "verse_end": 7,
     "texts": {
       "pt": {
-        "prompt": "Que eunuco etíope da casa do rei soube que Jeremias tinha sido posto na cisterna?",
+        "prompt": "Que eunuco da casa do rei soube que Jeremias tinha sido posto na cisterna?",
         "bible_ref": "Jeremias 38:7",
         "verse_text": "E Ebede-Meleque, o cuxita, um eunuco que estava na casa do rei, tendo ouvido que haviam posto Jeremias na cisterna, e estando o rei sentado à porta de Benjamim,"
       },
       "fr": {
-        "prompt": "Quel eunuque éthiopien de la maison du roi apprit qu’on avait mis Jérémie dans la citerne ?",
+        "prompt": "Quel eunuque de la maison du roi apprit qu’on avait mis Jérémie dans la citerne ?",
         "bible_ref": "Jérémie 38:7",
         "verse_text": "Ébed-Mélec, l’Éthiopien, eunuque qui était dans la maison du roi, apprit qu’on avait mis Jérémie dans la citerne. Le roi était assis à la porte de Benjamin."
       },
       "en": {
-        "prompt": "Which Ethiopian eunuch of the king’s house heard that Jeremiah had been put in the dungeon?",
+        "prompt": "Which eunuch of the king’s house heard that Jeremiah had been put in the dungeon?",
         "bible_ref": "Jeremiah 38:7",
         "verse_text": "Now when Ebed-melech the Ethiopian, one of the eunuchs which was in the king’s house, heard that they had put Jeremiah in the dungeon; the king then sitting in the gate of Benjamin;"
       },
       "es": {
-        "prompt": "¿Qué eunuco etíope de la casa del rey oyó que habían puesto a Jeremías en la mazmorra?",
+        "prompt": "¿Qué eunuco de la casa del rey oyó que habían puesto a Jeremías en la mazmorra?",
         "bible_ref": "Jeremías 38:7",
         "verse_text": "Y oyendo Ebed-melec, hombre etiope, eunuco que estaba en casa del rey, que habían puesto á Jeremías en la mazmorra, y estando sentado el rey á la puerta de Benjamín,"
       }

@@ -273,10 +273,10 @@
     "verse_start": 17,
     "verse_end": 17,
     "prompt": {
-      "pt": "Para alimentar a multidão, os discípulos tinham dois peixes e quantos pães?",
-      "fr": "Pour nourrir la foule, les disciples avaient deux poissons et combien de pains ?",
-      "en": "To feed the crowd, the disciples had two fishes and how many loaves?",
-      "es": "Para alimentar a la multitud, los discípulos tenían dos peces y ¿cuántos panes?"
+      "pt": "Para alimentar a multidão, havia ali dois peixes e quantos pães?",
+      "fr": "Pour nourrir la foule, il y avait là deux poissons et combien de pains ?",
+      "en": "To feed the crowd, there were two fishes and how many loaves?",
+      "es": "Para alimentar a la multitud, había allí dos peces y ¿cuántos panes?"
     },
     "options": [
       {
@@ -1023,51 +1023,51 @@
     "id": "evan-medium-001",
     "type": "choice",
     "level": "medium",
-    "book": "MAT",
-    "chapter": 2,
-    "verse_start": 11,
-    "verse_end": 11,
+    "book": "LUK",
+    "chapter": 1,
+    "verse_start": 13,
+    "verse_end": 13,
     "prompt": {
-      "pt": "Que presentes ofereceram os magos ao menino Jesus?",
-      "fr": "Quels présents les mages offrirent-ils à l’enfant Jésus ?",
-      "en": "What gifts did the wise men give to the young child Jesus?",
-      "es": "¿Qué dones ofrecieron los magos al niño Jesús?"
+      "pt": "Que nome disse o anjo que Zacarias devia dar ao filho que Isabel ia ter?",
+      "fr": "Quel nom l’ange dit-il à Zacharie de donner au fils qu’Élisabeth allait avoir ?",
+      "en": "What name did the angel tell Zacharias to give the son Elisabeth would bear?",
+      "es": "¿Qué nombre dijo el ángel a Zacarías que pusiera al hijo que Elisabet iba a tener?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "Ouro, incenso e mirra",
-          "fr": "De l’or, de l’encens et de la myrrhe",
-          "en": "Gold, frankincense and myrrh",
-          "es": "Oro, incienso y mirra"
+          "pt": "João",
+          "fr": "Jean",
+          "en": "John",
+          "es": "Juan"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Prata, pão e vinho",
-          "fr": "De l’argent, du pain et du vin",
-          "en": "Silver, bread and wine",
-          "es": "Plata, pan y vino"
+          "pt": "Zacarias",
+          "fr": "Zacharie",
+          "en": "Zacharias",
+          "es": "Zacarías"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Ouro, prata e pedras preciosas",
-          "fr": "De l’or, de l’argent et des pierres précieuses",
-          "en": "Gold, silver and precious stones",
-          "es": "Oro, plata y piedras preciosas"
+          "pt": "Elias",
+          "fr": "Élie",
+          "en": "Elias",
+          "es": "Elías"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Azeite, mel e mirra",
-          "fr": "De l’huile, du miel et de la myrrhe",
-          "en": "Oil, honey and myrrh",
-          "es": "Aceite, miel y mirra"
+          "pt": "Samuel",
+          "fr": "Samuel",
+          "en": "Samuel",
+          "es": "Samuel"
         }
       }
     ]
@@ -1394,51 +1394,51 @@
     "id": "evan-medium-008",
     "type": "choice",
     "level": "medium",
-    "book": "MAT",
-    "chapter": 26,
-    "verse_start": 34,
-    "verse_end": 34,
+    "book": "JHN",
+    "chapter": 11,
+    "verse_start": 1,
+    "verse_end": 1,
     "prompt": {
-      "pt": "Jesus disse a Pedro que, antes de o galo cantar, o negaria quantas vezes?",
-      "fr": "Jésus dit à Pierre qu’avant que le coq chante, il le renierait combien de fois ?",
-      "en": "Jesus told Peter that before the cock crowed he would deny him how many times?",
-      "es": "Jesús dijo a Pedro que, antes que el gallo cantara, lo negaría ¿cuántas veces?"
+      "pt": "Em que aldeia viviam Lázaro e as suas irmãs Maria e Marta?",
+      "fr": "Dans quel village vivaient Lazare et ses sœurs Marie et Marthe ?",
+      "en": "In which town did Lazarus and his sisters Mary and Martha live?",
+      "es": "¿En qué aldea vivían Lázaro y sus hermanas María y Marta?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "Três vezes",
-          "fr": "Trois fois",
-          "en": "Three times",
-          "es": "Tres veces"
+          "pt": "Betânia",
+          "fr": "Béthanie",
+          "en": "Bethany",
+          "es": "Bethania"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Uma vez",
-          "fr": "Une fois",
-          "en": "Once",
-          "es": "Una vez"
+          "pt": "Betsaida",
+          "fr": "Bethsaïda",
+          "en": "Bethsaida",
+          "es": "Bethsaida"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Sete vezes",
-          "fr": "Sept fois",
-          "en": "Seven times",
-          "es": "Siete veces"
+          "pt": "Caná",
+          "fr": "Cana",
+          "en": "Cana",
+          "es": "Caná"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Doze vezes",
-          "fr": "Douze fois",
-          "en": "Twelve times",
-          "es": "Doce veces"
+          "pt": "Naim",
+          "fr": "Naïn",
+          "en": "Nain",
+          "es": "Naín"
         }
       }
     ]
@@ -1903,34 +1903,34 @@
     "id": "evan-medium-017",
     "type": "verse",
     "level": "medium",
-    "book": "MAT",
-    "chapter": 13,
-    "verse_start": 31,
-    "verse_end": 31,
+    "book": "LUK",
+    "chapter": 2,
+    "verse_start": 52,
+    "verse_end": 52,
     "blank": {
-      "pt": "mostarda",
-      "fr": "sénevé",
-      "en": "mustard",
-      "es": "mostaza"
+      "pt": "sabedoria",
+      "fr": "sagesse",
+      "en": "wisdom",
+      "es": "sabiduría"
     },
     "distractors": [
       {
-        "pt": "trigo",
-        "fr": "blé",
-        "en": "wheat",
-        "es": "trigo"
+        "pt": "força",
+        "fr": "force",
+        "en": "strength",
+        "es": "fuerza"
       },
       {
-        "pt": "cevada",
-        "fr": "orge",
-        "en": "barley",
-        "es": "cebada"
+        "pt": "riqueza",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riqueza"
       },
       {
-        "pt": "cedro",
-        "fr": "cèdre",
-        "en": "cedar",
-        "es": "cedro"
+        "pt": "bondade",
+        "fr": "bonté",
+        "en": "goodness",
+        "es": "bondad"
       }
     ]
   },
@@ -1973,34 +1973,34 @@
     "id": "evan-medium-019",
     "type": "verse",
     "level": "medium",
-    "book": "MRK",
-    "chapter": 10,
-    "verse_start": 25,
-    "verse_end": 25,
+    "book": "LUK",
+    "chapter": 5,
+    "verse_start": 5,
+    "verse_end": 5,
     "blank": {
-      "pt": "camelo",
-      "fr": "chameau",
-      "en": "camel",
-      "es": "camello"
+      "pt": "noite",
+      "fr": "nuit",
+      "en": "night",
+      "es": "noche"
     },
     "distractors": [
       {
-        "pt": "cavalo",
-        "fr": "cheval",
-        "en": "horse",
-        "es": "caballo"
+        "pt": "manhã",
+        "fr": "matinée",
+        "en": "morning",
+        "es": "mañana"
       },
       {
-        "pt": "touro",
-        "fr": "taureau",
-        "en": "bull",
-        "es": "toro"
+        "pt": "semana",
+        "fr": "semaine",
+        "en": "week",
+        "es": "semana"
       },
       {
-        "pt": "jumento",
-        "fr": "âne",
-        "en": "donkey",
-        "es": "asno"
+        "pt": "tarde",
+        "fr": "soirée",
+        "en": "evening",
+        "es": "tarde"
       }
     ]
   },
@@ -2260,10 +2260,10 @@
     "verse_start": 46,
     "verse_end": 46,
     "prompt": {
-      "pt": "Como se chamava o cego que estava sentado junto ao caminho, à saída de Jericó?",
-      "fr": "Comment s’appelait l’aveugle assis au bord du chemin, à la sortie de Jéricho ?",
-      "en": "What was the name of the blind man sitting by the highway side as Jesus went out of Jericho?",
-      "es": "¿Cómo se llamaba el ciego sentado junto al camino, a la salida de Jericó?"
+      "pt": "Segundo Marcos, como se chamava o cego que estava sentado junto ao caminho, à saída de Jericó?",
+      "fr": "Selon Marc, comment s’appelait l’aveugle assis au bord du chemin, à la sortie de Jéricho ?",
+      "en": "According to Mark, what was the name of the blind man sitting by the highway side as Jesus went out of Jericho?",
+      "es": "Según Marcos, ¿cómo se llamaba el ciego sentado junto al camino, a la salida de Jericó?"
     },
     "options": [
       {
@@ -2415,50 +2415,50 @@
     "type": "choice",
     "level": "hard",
     "book": "MAT",
-    "chapter": 27,
-    "verse_start": 57,
-    "verse_end": 57,
+    "chapter": 15,
+    "verse_start": 37,
+    "verse_end": 38,
     "prompt": {
-      "pt": "De onde era José, o homem rico e discípulo de Jesus que veio ao entardecer pedir o corpo?",
-      "fr": "D’où était Joseph, l’homme riche et disciple de Jésus venu le soir demander le corps ?",
-      "en": "Where was Joseph from, the rich man and disciple of Jesus who came at evening for the body?",
-      "es": "¿De dónde era José, el hombre rico y discípulo de Jesús que vino por la tarde a pedir el cuerpo?"
+      "pt": "Numa das multiplicações dos pães sobraram sete cestos cheios. Quantos homens comeram, sem contar mulheres e crianças?",
+      "fr": "Lors d’une multiplication des pains, il resta sept corbeilles pleines. Combien d’hommes avaient mangé, sans compter les femmes et les enfants ?",
+      "en": "At one feeding of the crowd, seven baskets full were left over. How many men had eaten, beside women and children?",
+      "es": "En una multiplicación de los panes sobraron siete espuertas llenas. ¿Cuántos hombres comieron, sin contar mujeres y niños?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "Arimateia",
-          "fr": "Arimathée",
-          "en": "Arimathæa",
-          "es": "Arimatea"
+          "pt": "4000",
+          "fr": "4000",
+          "en": "4000",
+          "es": "4000"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Betânia",
-          "fr": "Béthanie",
-          "en": "Bethany",
-          "es": "Bethania"
+          "pt": "5000",
+          "fr": "5000",
+          "en": "5000",
+          "es": "5000"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Cafarnaum",
-          "fr": "Capernaüm",
-          "en": "Capernaum",
-          "es": "Capernaum"
+          "pt": "3000",
+          "fr": "3000",
+          "en": "3000",
+          "es": "3000"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Emaús",
-          "fr": "Émmaüs",
-          "en": "Emmaus",
-          "es": "Emmaús"
+          "pt": "7000",
+          "fr": "7000",
+          "en": "7000",
+          "es": "7000"
         }
       }
     ]
@@ -2994,33 +2994,33 @@
     "type": "verse",
     "level": "hard",
     "book": "MAT",
-    "chapter": 11,
-    "verse_start": 30,
-    "verse_end": 30,
+    "chapter": 10,
+    "verse_start": 16,
+    "verse_end": 16,
     "blank": {
-      "pt": "jugo",
-      "fr": "joug",
-      "en": "yoke",
-      "es": "yugo"
+      "pt": "serpentes",
+      "fr": "serpents",
+      "en": "serpents",
+      "es": "serpientes"
     },
     "distractors": [
       {
-        "pt": "caminho",
-        "fr": "chemin",
-        "en": "way",
-        "es": "camino"
+        "pt": "raposas",
+        "fr": "renards",
+        "en": "foxes",
+        "es": "zorras"
       },
       {
-        "pt": "reino",
-        "fr": "royaume",
-        "en": "kingdom",
-        "es": "reino"
+        "pt": "águias",
+        "fr": "aigles",
+        "en": "eagles",
+        "es": "águilas"
       },
       {
-        "pt": "mandamento",
-        "fr": "commandement",
-        "en": "commandment",
-        "es": "mandamiento"
+        "pt": "formigas",
+        "fr": "fourmis",
+        "en": "ants",
+        "es": "hormigas"
       }
     ]
   },
@@ -3028,34 +3028,34 @@
     "id": "evan-hard-020",
     "type": "verse",
     "level": "hard",
-    "book": "JHN",
+    "book": "LUK",
     "chapter": 12,
-    "verse_start": 24,
-    "verse_end": 24,
+    "verse_start": 7,
+    "verse_end": 7,
     "blank": {
-      "pt": "trigo",
-      "fr": "blé",
-      "en": "wheat",
-      "es": "trigo"
+      "pt": "cabelos",
+      "fr": "cheveux",
+      "en": "hairs",
+      "es": "cabellos"
     },
     "distractors": [
       {
-        "pt": "mostarda",
-        "fr": "sénevé",
-        "en": "mustard",
-        "es": "mostaza"
+        "pt": "dias",
+        "fr": "jours",
+        "en": "days",
+        "es": "días"
       },
       {
-        "pt": "cevada",
-        "fr": "orge",
-        "en": "barley",
-        "es": "cebada"
+        "pt": "pensamentos",
+        "fr": "pensées",
+        "en": "thoughts",
+        "es": "pensamientos"
       },
       {
-        "pt": "linho",
-        "fr": "lin",
-        "en": "flax",
-        "es": "lino"
+        "pt": "ossos",
+        "fr": "os",
+        "en": "bones",
+        "es": "huesos"
       }
     ]
   }

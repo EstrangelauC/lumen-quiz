@@ -82,7 +82,7 @@
           "pt": "Rute",
           "fr": "Ruth",
           "en": "Ruth",
-          "es": "Rut"
+          "es": "Ruth"
         }
       },
       {
@@ -135,7 +135,7 @@
           "pt": "Ester",
           "fr": "Esther",
           "en": "Esther",
-          "es": "Ester"
+          "es": "Esther"
         }
       },
       {
@@ -144,7 +144,7 @@
           "pt": "Rute",
           "fr": "Ruth",
           "en": "Ruth",
-          "es": "Rut"
+          "es": "Ruth"
         }
       },
       {
@@ -153,7 +153,7 @@
           "pt": "Ana",
           "fr": "Anne",
           "en": "Hannah",
-          "es": "Ana"
+          "es": "Anna"
         }
       }
     ]
@@ -170,7 +170,7 @@
       "pt": "Sansão disse que, se lhe rapassem a cabeça, perderia uma coisa. O quê?",
       "fr": "Samson dit que, si on lui rasait la tête, il perdrait une chose. Laquelle ?",
       "en": "Samson said that if his head were shaved he would lose something. What?",
-      "es": "Sansón dijo que, si le rapaban la cabeza, perdería algo. ¿Qué?"
+      "es": "Samsón dijo que, si le rapaban la cabeza, perdería algo. ¿Qué?"
     },
     "options": [
       {
@@ -232,7 +232,7 @@
           "pt": "Rute",
           "fr": "Ruth",
           "en": "Ruth",
-          "es": "Rut"
+          "es": "Ruth"
         }
       },
       {
@@ -241,7 +241,7 @@
           "pt": "Noemi",
           "fr": "Naomi",
           "en": "Naomi",
-          "es": "Noemí"
+          "es": "Noemi"
         }
       },
       {
@@ -250,7 +250,7 @@
           "pt": "Orfa",
           "fr": "Orpa",
           "en": "Orpah",
-          "es": "Orfa"
+          "es": "Orpha"
         }
       },
       {
@@ -259,7 +259,7 @@
           "pt": "Ester",
           "fr": "Esther",
           "en": "Esther",
-          "es": "Ester"
+          "es": "Esther"
         }
       }
     ]
@@ -276,7 +276,7 @@
       "pt": "Com que venceu David o filisteu Golias?",
       "fr": "Avec quoi David a-t-il vaincu le Philistin Goliath ?",
       "en": "With what did David beat Goliath the Philistine?",
-      "es": "¿Con qué venció David al filisteo Goliat?"
+      "es": "¿Con qué venció David al filisteo Goliath?"
     },
     "options": [
       {
@@ -335,10 +335,10 @@
       {
         "correct": true,
         "text": {
-          "pt": "Dançou",
+          "pt": "Saltou",
           "fr": "Il dansa",
           "en": "He danced",
-          "es": "Danzó"
+          "es": "Saltó"
         }
       },
       {
@@ -391,7 +391,7 @@
           "pt": "Um coração entendido para julgar o povo",
           "fr": "Un cœur intelligent pour juger le peuple",
           "en": "An understanding heart to judge the people",
-          "es": "Un corazón entendido para juzgar al pueblo"
+          "es": "Un corazón dócil para juzgar al pueblo"
         }
       },
       {
@@ -515,7 +515,7 @@
           "pt": "No Eufrates",
           "fr": "Dans l’Euphrate",
           "en": "The Euphrates",
-          "es": "En el Éufrates"
+          "es": "En el Eufrates"
         }
       },
       {
@@ -541,7 +541,7 @@
       "pt": "Quem é que o rei fez rainha em lugar de Vasti?",
       "fr": "Qui le roi fit-il reine à la place de Vasthi ?",
       "en": "Whom did the king make queen instead of Vashti?",
-      "es": "¿A quién hizo el rey reina en lugar de Vasti?"
+      "es": "¿A quién hizo el rey reina en lugar de Vasthi?"
     },
     "options": [
       {
@@ -550,7 +550,7 @@
           "pt": "Ester",
           "fr": "Esther",
           "en": "Esther",
-          "es": "Ester"
+          "es": "Esther"
         }
       },
       {
@@ -559,7 +559,7 @@
           "pt": "Rute",
           "fr": "Ruth",
           "en": "Ruth",
-          "es": "Rut"
+          "es": "Ruth"
         }
       },
       {
@@ -568,7 +568,7 @@
           "pt": "Mical",
           "fr": "Mical",
           "en": "Michal",
-          "es": "Mical"
+          "es": "Michâl"
         }
       },
       {
@@ -594,7 +594,7 @@
       "pt": "O que queria Neemias reconstruir em Jerusalém?",
       "fr": "Que voulait rebâtir Néhémie à Jérusalem ?",
       "en": "What did Nehemiah want to build up in Jerusalem?",
-      "es": "¿Qué quería reedificar Nehemías en Jerusalén?"
+      "es": "¿Qué quería reedificar Nehemías en Jerusalem?"
     },
     "options": [
       {
@@ -679,7 +679,7 @@
           "pt": "David vence o gigante Golias",
           "fr": "David bat le géant Goliath",
           "en": "David defeats the giant Goliath",
-          "es": "David vence al gigante Goliat"
+          "es": "David vence al gigante Goliath"
         }
       },
       {
@@ -716,7 +716,7 @@
           "pt": "Ana ora e chora diante do SENHOR",
           "fr": "Anne prie et pleure devant l’Éternel",
           "en": "Hannah prays and weeps before the LORD",
-          "es": "Ana ora y llora delante de Jehová"
+          "es": "Anna ora y llora delante de Jehová"
         }
       },
       {
@@ -777,7 +777,7 @@
           "pt": "Rute e Noemi chegam a Belém",
           "fr": "Ruth et Naomi arrivent à Bethléhem",
           "en": "Ruth and Naomi come to Bethlehem",
-          "es": "Rut y Noemí llegan a Belén"
+          "es": "Ruth y Noemi llegan a Beth-lehem"
         }
       },
       {
@@ -789,7 +789,7 @@
           "pt": "Rute apanha espigas no campo de Boaz",
           "fr": "Ruth glane dans le champ de Boaz",
           "en": "Ruth gleans in the field of Boaz",
-          "es": "Rut recoge espigas en el campo de Booz"
+          "es": "Ruth recoge espigas en el campo de Booz"
         }
       },
       {
@@ -801,7 +801,7 @@
           "pt": "Boaz casa com Rute",
           "fr": "Boaz épouse Ruth",
           "en": "Boaz marries Ruth",
-          "es": "Booz se casa con Rut"
+          "es": "Booz se casa con Ruth"
         }
       },
       {
@@ -958,29 +958,29 @@
     "verse_start": 2,
     "verse_end": 2,
     "blank": {
-      "pt": "libertador",
-      "fr": "libérateur",
-      "en": "deliverer",
-      "es": "libertador"
+      "pt": "rocha",
+      "fr": "rocher",
+      "en": "rock",
+      "es": "roca"
     },
     "distractors": [
       {
-        "pt": "pastor",
-        "fr": "berger",
-        "en": "shepherd",
-        "es": "pastor"
+        "pt": "espada",
+        "fr": "épée",
+        "en": "sword",
+        "es": "espada"
       },
       {
-        "pt": "rei",
-        "fr": "roi",
-        "en": "king",
-        "es": "rey"
+        "pt": "estrela",
+        "fr": "étoile",
+        "en": "star",
+        "es": "estrella"
       },
       {
-        "pt": "juiz",
-        "fr": "juge",
-        "en": "judge",
-        "es": "juez"
+        "pt": "árvore",
+        "fr": "arbre",
+        "en": "tree",
+        "es": "árbol"
       }
     ]
   },
@@ -990,32 +990,32 @@
     "level": "easy",
     "book": "1CH",
     "chapter": 16,
-    "verse_start": 34,
-    "verse_end": 34,
+    "verse_start": 23,
+    "verse_end": 23,
     "blank": {
-      "pt": "bom",
-      "fr": "bon",
-      "en": "good",
-      "es": "bueno"
+      "pt": "terra",
+      "fr": "terre",
+      "en": "earth",
+      "es": "tierra"
     },
     "distractors": [
       {
-        "pt": "forte",
-        "fr": "fort",
-        "en": "strong",
-        "es": "fuerte"
+        "pt": "cidade",
+        "fr": "ville",
+        "en": "city",
+        "es": "ciudad"
       },
       {
-        "pt": "grande",
-        "fr": "grand",
-        "en": "great",
-        "es": "grande"
+        "pt": "casa",
+        "fr": "maison",
+        "en": "house",
+        "es": "casa"
       },
       {
-        "pt": "justo",
-        "fr": "juste",
-        "en": "just",
-        "es": "justo"
+        "pt": "nação",
+        "fr": "nation",
+        "en": "nation",
+        "es": "nación"
       }
     ]
   },
@@ -1137,7 +1137,7 @@
       "pt": "O que havia dentro do corpo do leão morto quando Sansão voltou para o ver?",
       "fr": "Qu’y avait-il dans le corps du lion mort quand Samson revint le voir ?",
       "en": "What was inside the dead lion’s carcase when Samson came back to see it?",
-      "es": "¿Qué había dentro del cuerpo del león muerto cuando Sansón volvió a verlo?"
+      "es": "¿Qué había dentro del cuerpo del león muerto cuando Samsón volvió a verlo?"
     },
     "options": [
       {
@@ -1190,7 +1190,7 @@
       "pt": "Além de Rute, como se chamava a outra moabita que casou com um dos filhos de Noemi?",
       "fr": "Outre Ruth, comment s’appelait l’autre Moabite qui épousa un des fils de Naomi ?",
       "en": "Besides Ruth, what was the name of the other woman of Moab who married one of Naomi’s sons?",
-      "es": "Además de Rut, ¿cómo se llamaba la otra moabita que se casó con uno de los hijos de Noemí?"
+      "es": "Además de Ruth, ¿cómo se llamaba la otra moabita que se casó con uno de los hijos de Noemi?"
     },
     "options": [
       {
@@ -1199,7 +1199,7 @@
           "pt": "Orfa",
           "fr": "Orpa",
           "en": "Orpah",
-          "es": "Orfa"
+          "es": "Orpha"
         }
       },
       {
@@ -1208,7 +1208,7 @@
           "pt": "Mical",
           "fr": "Mical",
           "en": "Michal",
-          "es": "Mical"
+          "es": "Michâl"
         }
       },
       {
@@ -1226,7 +1226,7 @@
           "pt": "Penina",
           "fr": "Peninna",
           "en": "Peninnah",
-          "es": "Penina"
+          "es": "Peninna"
         }
       }
     ]
@@ -1243,7 +1243,7 @@
       "pt": "Porque deu Ana ao filho o nome de Samuel?",
       "fr": "Pourquoi Anne donna-t-elle à son fils le nom de Samuel ?",
       "en": "Why did Hannah call her son Samuel?",
-      "es": "¿Por qué le puso Ana a su hijo el nombre de Samuel?"
+      "es": "¿Por qué le puso Anna a su hijo el nombre de Samuel?"
     },
     "options": [
       {
@@ -1296,7 +1296,7 @@
       "pt": "O que deu Jónatas a David?",
       "fr": "Que donna Jonathan à David ?",
       "en": "What did Jonathan give David?",
-      "es": "¿Qué le dio Jonatán a David?"
+      "es": "¿Qué le dio Jonathán a David?"
     },
     "options": [
       {
@@ -1346,7 +1346,7 @@
     "verse_start": 7,
     "verse_end": 7,
     "prompt": {
-      "pt": "Que profeta disse a David: «Tu és esse homem»?",
+      "pt": "Que profeta disse a David: «Tu és aquele homem»?",
       "fr": "Quel prophète dit à David : « Tu es cet homme-là » ?",
       "en": "Which prophet said to David, “Thou art the man”?",
       "es": "¿Qué profeta le dijo a David: «Tú eres aquel hombre»?"
@@ -1358,7 +1358,7 @@
           "pt": "Natã",
           "fr": "Nathan",
           "en": "Nathan",
-          "es": "Natán"
+          "es": "Nathán"
         }
       },
       {
@@ -1408,7 +1408,7 @@
       {
         "correct": true,
         "text": {
-          "pt": "Uma voz suave e tranquila",
+          "pt": "Uma voz agradável e suave",
           "fr": "Un murmure doux et léger",
           "en": "A still small voice",
           "es": "Un silbo apacible y delicado"
@@ -1508,7 +1508,7 @@
       "pt": "Quem foi enforcado na forca que tinha sido preparada para Mardoqueu?",
       "fr": "Qui fut pendu au bois préparé pour Mardochée ?",
       "en": "Who was hanged on the gallows that had been prepared for Mordecai?",
-      "es": "¿Quién fue colgado en la horca que se había preparado para Mardoqueo?"
+      "es": "¿Quién fue colgado en la horca que se había preparado para Mardochêo?"
     },
     "options": [
       {
@@ -1526,7 +1526,7 @@
           "pt": "Assuero",
           "fr": "Assuérus",
           "en": "Ahasuerus",
-          "es": "Asuero"
+          "es": "Assuero"
         }
       },
       {
@@ -1544,7 +1544,7 @@
           "pt": "Mardoqueu",
           "fr": "Mardochée",
           "en": "Mordecai",
-          "es": "Mardoqueo"
+          "es": "Mardochêo"
         }
       }
     ]
@@ -1611,46 +1611,46 @@
     "verse_start": 1,
     "verse_end": 1,
     "prompt": {
-      "pt": "O que desceu do céu quando Salomão acabou de orar?",
-      "fr": "Qu’est-ce qui descendit du ciel quand Salomon eut achevé de prier ?",
-      "en": "What came down from heaven when Solomon had made an end of praying?",
-      "es": "¿Qué descendió del cielo cuando Salomón acabó de orar?"
+      "pt": "Quando Salomão acabou de orar, desceu fogo do céu. O que consumiu esse fogo?",
+      "fr": "Quand Salomon eut achevé de prier, le feu descendit du ciel. Que consuma ce feu ?",
+      "en": "When Solomon had made an end of praying, fire came down from heaven. What did it consume?",
+      "es": "Cuando Salomón acabó de orar, descendió fuego del cielo. ¿Qué consumió ese fuego?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "Fogo",
-          "fr": "Le feu",
-          "en": "Fire",
-          "es": "Fuego"
+          "pt": "O holocausto e as vítimas",
+          "fr": "L’holocauste et les sacrifices",
+          "en": "The burnt offering and the sacrifices",
+          "es": "El holocausto y las víctimas"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Chuva",
-          "fr": "La pluie",
-          "en": "Rain",
-          "es": "Lluvia"
+          "pt": "As portas do templo",
+          "fr": "Les portes du temple",
+          "en": "The doors of the temple",
+          "es": "Las puertas del templo"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Maná",
-          "fr": "La manne",
-          "en": "Manna",
-          "es": "Maná"
+          "pt": "O trono de Salomão",
+          "fr": "Le trône de Salomon",
+          "en": "Solomon’s throne",
+          "es": "El trono de Salomón"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Granizo",
-          "fr": "La grêle",
-          "en": "Hail",
-          "es": "Granizo"
+          "pt": "Os ídolos da cidade",
+          "fr": "Les idoles de la ville",
+          "en": "The idols of the city",
+          "es": "Los ídolos de la ciudad"
         }
       }
     ]
@@ -1772,7 +1772,7 @@
           "pt": "Sansão derruba a casa dos filisteus",
           "fr": "Samson fait tomber la maison des Philistins",
           "en": "Samson brings down the Philistines’ house",
-          "es": "Sansón derriba la casa de los filisteos"
+          "es": "Samsón derriba la casa de los filisteos"
         }
       }
     ]
@@ -1821,7 +1821,7 @@
           "pt": "Esdras chega a Jerusalém",
           "fr": "Esdras arrive à Jérusalem",
           "en": "Ezra comes to Jerusalem",
-          "es": "Esdras llega a Jerusalén"
+          "es": "Esdras llega a Jerusalem"
         }
       },
       {
@@ -1858,7 +1858,7 @@
           "pt": "Ester recebe a coroa real",
           "fr": "Esther reçoit la couronne royale",
           "en": "Esther receives the royal crown",
-          "es": "Ester recibe la corona real"
+          "es": "Esther recibe la corona real"
         }
       },
       {
@@ -1882,7 +1882,7 @@
           "pt": "Ester toca a ponta do cetro de ouro",
           "fr": "Esther touche le bout du sceptre d’or",
           "en": "Esther touches the golden sceptre",
-          "es": "Ester toca la punta del cetro de oro"
+          "es": "Esther toca la punta del cetro de oro"
         }
       },
       {
@@ -1894,7 +1894,7 @@
           "pt": "Hamã leva Mardoqueu a cavalo pela cidade",
           "fr": "Haman promène Mardochée à cheval",
           "en": "Haman leads Mordecai on horseback",
-          "es": "Amán lleva a Mardoqueo a caballo"
+          "es": "Amán lleva a Mardochêo a caballo"
         }
       }
     ]
@@ -1908,29 +1908,29 @@
     "verse_start": 15,
     "verse_end": 15,
     "blank": {
-      "pt": "casa",
-      "fr": "maison",
-      "en": "house",
-      "es": "casa"
+      "pt": "amorreus",
+      "fr": "Amoréens",
+      "en": "Amorites",
+      "es": "Amorrheos"
     },
     "distractors": [
       {
-        "pt": "família",
-        "fr": "famille",
-        "en": "family",
-        "es": "familia"
+        "pt": "filisteus",
+        "fr": "Philistins",
+        "en": "Philistines",
+        "es": "Filisteos"
       },
       {
-        "pt": "tribo",
-        "fr": "tribu",
-        "en": "tribe",
-        "es": "tribu"
+        "pt": "egípcios",
+        "fr": "Égyptiens",
+        "en": "Egyptians",
+        "es": "Egipcios"
       },
       {
-        "pt": "cidade",
-        "fr": "ville",
-        "en": "city",
-        "es": "ciudad"
+        "pt": "moabitas",
+        "fr": "Moabites",
+        "en": "Moabites",
+        "es": "Moabitas"
       }
     ]
   },
@@ -1973,34 +1973,34 @@
     "id": "hist-medium-019",
     "type": "verse",
     "level": "medium",
-    "book": "2CH",
-    "chapter": 7,
-    "verse_start": 14,
-    "verse_end": 14,
+    "book": "1KI",
+    "chapter": 18,
+    "verse_start": 21,
+    "verse_end": 21,
     "blank": {
-      "pt": "terra",
-      "fr": "pays",
-      "en": "land",
-      "es": "tierra"
+      "pt": "Baal",
+      "fr": "Baal",
+      "en": "Baal",
+      "es": "Baal"
     },
     "distractors": [
       {
-        "pt": "alma",
-        "fr": "âme",
-        "en": "soul",
-        "es": "alma"
+        "pt": "Dagom",
+        "fr": "Dagon",
+        "en": "Dagon",
+        "es": "Dagón"
       },
       {
-        "pt": "enfermidade",
-        "fr": "infirmité",
-        "en": "infirmity",
-        "es": "enfermedad"
+        "pt": "Moloque",
+        "fr": "Moloc",
+        "en": "Molech",
+        "es": "Moloch"
       },
       {
-        "pt": "vinha",
-        "fr": "vignoble",
-        "en": "vineyard",
-        "es": "viña"
+        "pt": "Quemos",
+        "fr": "Kemosch",
+        "en": "Chemosh",
+        "es": "Chêmos"
       }
     ]
   },
@@ -2060,7 +2060,7 @@
           "pt": "No livro de Jasar",
           "fr": "Dans le livre du Juste",
           "en": "In the book of Jasher",
-          "es": "En el libro de Jaser"
+          "es": "En el libro de Jasher"
         }
       },
       {
@@ -2104,7 +2104,7 @@
       "pt": "Quando o juiz Jefté voltou a sua casa, em Mispá, quem lhe saiu ao encontro com adufes e danças?",
       "fr": "Quand le juge Jephthé revint dans sa maison à Mitspa, qui sortit au-devant de lui avec des tambourins et des danses ?",
       "en": "When the judge Jephthah came home to Mizpeh, who came out to meet him with timbrels and dances?",
-      "es": "Cuando el juez Jefté volvió a su casa en Mizpa, ¿quién le salió a recibir con panderos y danzas?"
+      "es": "Cuando el juez Jephté volvió a su casa en Mizpa, ¿quién le salió a recibir con adufes y danzas?"
     },
     "options": [
       {
@@ -2157,7 +2157,7 @@
       "pt": "Os homens de Gileade mandavam dizer «Chibolete». Quem não conseguia pronunciar bem a palavra?",
       "fr": "Les hommes de Galaad faisaient dire « Schibboleth ». Qui ne pouvait pas bien prononcer ce mot ?",
       "en": "The men of Gilead made men say “Shibboleth”. Who could not pronounce it right?",
-      "es": "Los hombres de Galaad hacían decir «Shibolet». ¿Quiénes no podían pronunciarlo bien?"
+      "es": "Los hombres de Galaad hacían decir «Shiboleth». ¿Quiénes no podían pronunciarlo bien?"
     },
     "options": [
       {
@@ -2166,7 +2166,7 @@
           "pt": "Os efraimitas",
           "fr": "Les hommes d’Éphraïm",
           "en": "The Ephraimites",
-          "es": "Los de Efraín"
+          "es": "Los de Ephraim"
         }
       },
       {
@@ -2204,49 +2204,49 @@
     "level": "hard",
     "book": "RUT",
     "chapter": 1,
-    "verse_start": 20,
-    "verse_end": 20,
+    "verse_start": 2,
+    "verse_end": 2,
     "prompt": {
-      "pt": "Ao voltar a Belém, por que nome pediu Noemi que a chamassem?",
-      "fr": "De retour à Bethléhem, comment Naomi demanda-t-elle qu’on l’appelle ?",
-      "en": "Back in Bethlehem, what did Naomi ask to be called?",
-      "es": "De vuelta en Belén, ¿cómo pidió Noemí que la llamaran?"
+      "pt": "Como se chamavam os dois filhos de Elimeleque e Noemi?",
+      "fr": "Comment s’appelaient les deux fils d’Élimélec et de Naomi ?",
+      "en": "What were the names of the two sons of Elimelech and Naomi?",
+      "es": "¿Cómo se llamaban los dos hijos de Elimelech y Noemi?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "Mara",
-          "fr": "Mara",
-          "en": "Mara",
-          "es": "Mara"
+          "pt": "Malom e Quiliom",
+          "fr": "Machlon et Kiljon",
+          "en": "Mahlon and Chilion",
+          "es": "Mahalón y Chelión"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Orfa",
-          "fr": "Orpa",
-          "en": "Orpah",
-          "es": "Orfa"
+          "pt": "Quis e Ner",
+          "fr": "Kis et Ner",
+          "en": "Kish and Ner",
+          "es": "Cis y Ner"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Ana",
-          "fr": "Anne",
-          "en": "Hannah",
-          "es": "Ana"
+          "pt": "Joel e Abias",
+          "fr": "Joël et Abija",
+          "en": "Joel and Abiah",
+          "es": "Joel y Abia"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Penina",
-          "fr": "Peninna",
-          "en": "Peninnah",
-          "es": "Penina"
+          "pt": "Hofni e Fineias",
+          "fr": "Hophni et Phinées",
+          "en": "Hophni and Phinehas",
+          "es": "Ophni y Phinees"
         }
       }
     ]
@@ -2272,7 +2272,7 @@
           "pt": "Hofni e Fineias",
           "fr": "Hophni et Phinées",
           "en": "Hophni and Phinehas",
-          "es": "Ofni y Finees"
+          "es": "Ophni y Phinees"
         }
       },
       {
@@ -2290,7 +2290,7 @@
           "pt": "Joel e Abias",
           "fr": "Joël et Abija",
           "en": "Joel and Abiah",
-          "es": "Joel y Abías"
+          "es": "Joel y Abia"
         }
       },
       {
@@ -2299,7 +2299,7 @@
           "pt": "Eleazar e Itamar",
           "fr": "Éléazar et Ithamar",
           "en": "Eleazar and Ithamar",
-          "es": "Eleazar e Itamar"
+          "es": "Eleazar e Ithamar"
         }
       }
     ]
@@ -2369,7 +2369,7 @@
       "pt": "Que filho de Jónatas se prostrou diante de David e lhe disse: «Eis aqui o teu servo»?",
       "fr": "Quel fils de Jonathan se prosterna devant David et lui dit : « Voici ton serviteur » ?",
       "en": "Which son of Jonathan fell on his face before David and said, “Behold thy servant”?",
-      "es": "¿Qué hijo de Jonatán se postró ante David y le dijo: «He aquí tu siervo»?"
+      "es": "¿Qué hijo de Jonathán se postró ante David y le dijo: «He aquí tu siervo»?"
     },
     "options": [
       {
@@ -2378,16 +2378,16 @@
           "pt": "Mefibosete",
           "fr": "Mephiboscheth",
           "en": "Mephibosheth",
-          "es": "Mefi-boset"
+          "es": "Mephi-boseth"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Isbosete",
+          "pt": "Is-Bosete",
           "fr": "Isch-Boscheth",
-          "en": "Ishbosheth",
-          "es": "Is-boset"
+          "en": "Ish-bosheth",
+          "es": "Is-boseth"
         }
       },
       {
@@ -2396,7 +2396,7 @@
           "pt": "Absalão",
           "fr": "Absalom",
           "en": "Absalom",
-          "es": "Absalón"
+          "es": "Absalom"
         }
       },
       {
@@ -2430,8 +2430,8 @@
         "text": {
           "pt": "Betel e Dã",
           "fr": "Béthel et Dan",
-          "en": "Bethel and Dan",
-          "es": "Betel y Dan"
+          "en": "Beth-el and Dan",
+          "es": "Beth-el y Dan"
         }
       },
       {
@@ -2440,13 +2440,13 @@
           "pt": "Siquém e Samaria",
           "fr": "Sichem et Samarie",
           "en": "Shechem and Samaria",
-          "es": "Siquem y Samaria"
+          "es": "Sichêm y Samaria"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Gilgal e Silo",
+          "pt": "Gilgal e Siló",
           "fr": "Guilgal et Silo",
           "en": "Gilgal and Shiloh",
           "es": "Gilgal y Silo"
@@ -2457,8 +2457,8 @@
         "text": {
           "pt": "Hebrom e Berseba",
           "fr": "Hébron et Beer-Schéba",
-          "en": "Hebron and Beersheba",
-          "es": "Hebrón y Beerseba"
+          "en": "Hebron and Beer-sheba",
+          "es": "Hebrón y Beer-seba"
         }
       }
     ]
@@ -2469,49 +2469,49 @@
     "level": "hard",
     "book": "2KI",
     "chapter": 20,
-    "verse_start": 6,
-    "verse_end": 6,
+    "verse_start": 11,
+    "verse_end": 11,
     "prompt": {
-      "pt": "Quantos anos de vida acrescentou o SENHOR ao rei Ezequias?",
-      "fr": "Combien d’années l’Éternel ajouta-t-il à la vie du roi Ézéchias ?",
-      "en": "How many years did the LORD add to King Hezekiah’s days?",
-      "es": "¿Cuántos años añadió Jehová a los días del rey Ezequías?"
+      "pt": "Em 2 Reis 20, quantos degraus voltou atrás a sombra no relógio de Acaz?",
+      "fr": "En 2 Rois 20, de combien de degrés l’ombre recula-t-elle sur les degrés d’Achaz ?",
+      "en": "In 2 Kings 20, how many degrees did the shadow go back on the dial of Ahaz?",
+      "es": "En 2 Reyes 20, ¿cuántos grados volvió atrás la sombra en el reloj de Achâz?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "15 anos",
-          "fr": "15 ans",
-          "en": "15 years",
-          "es": "15 años"
+          "pt": "10 degraus",
+          "fr": "10 degrés",
+          "en": "10 degrees",
+          "es": "10 grados"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "10 anos",
-          "fr": "10 ans",
-          "en": "10 years",
-          "es": "10 años"
+          "pt": "5 degraus",
+          "fr": "5 degrés",
+          "en": "5 degrees",
+          "es": "5 grados"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "12 anos",
-          "fr": "12 ans",
-          "en": "12 years",
-          "es": "12 años"
+          "pt": "15 degraus",
+          "fr": "15 degrés",
+          "en": "15 degrees",
+          "es": "15 grados"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "20 anos",
-          "fr": "20 ans",
-          "en": "20 years",
-          "es": "20 años"
+          "pt": "7 degraus",
+          "fr": "7 degrés",
+          "en": "7 degrees",
+          "es": "7 grados"
         }
       }
     ]
@@ -2545,7 +2545,7 @@
         "text": {
           "pt": "Obede-Edom",
           "fr": "Obed-Édom",
-          "en": "Obededom",
+          "en": "Obed-edom",
           "es": "Obed-edom"
         }
       },
@@ -2555,7 +2555,7 @@
           "pt": "Asafe",
           "fr": "Asaph",
           "en": "Asaph",
-          "es": "Asaf"
+          "es": "Asaph"
         }
       },
       {
@@ -2634,7 +2634,7 @@
       "pt": "Em Ester 3:7, o que quer dizer «Pur», lançado diante de Hamã?",
       "fr": "En Esther 3:7, que signifie le « pur » jeté devant Haman ?",
       "en": "In Esther 3:7, what does “Pur”, cast before Haman, mean?",
-      "es": "En Ester 3:7, ¿qué significa «Pur», echado delante de Amán?"
+      "es": "En Esther 3:7, ¿qué significa «Pur», echado delante de Amán?"
     },
     "options": [
       {
@@ -2695,7 +2695,7 @@
           "pt": "Josafá começa a reinar em Judá",
           "fr": "Josaphat devient roi de Juda",
           "en": "Jehoshaphat begins to reign over Judah",
-          "es": "Josafat comienza a reinar en Judá"
+          "es": "Josaphat comienza a reinar en Judá"
         }
       },
       {
@@ -2707,7 +2707,7 @@
           "pt": "Ezequias começa a reinar em Judá",
           "fr": "Ézéchias devient roi de Juda",
           "en": "Hezekiah begins to reign over Judah",
-          "es": "Ezequías comienza a reinar en Judá"
+          "es": "Ezechîas comienza a reinar en Judá"
         }
       },
       {
@@ -2768,7 +2768,7 @@
           "pt": "Acabe, filho de Onri, começa a reinar",
           "fr": "Achab, fils d’Omri, devient roi",
           "en": "Ahab the son of Omri begins to reign",
-          "es": "Acab, hijo de Omri, comienza a reinar"
+          "es": "Achâb, hijo de Omri, comienza a reinar"
         }
       },
       {
@@ -2923,34 +2923,34 @@
     "id": "hist-hard-017",
     "type": "verse",
     "level": "hard",
-    "book": "JDG",
-    "chapter": 21,
-    "verse_start": 25,
-    "verse_end": 25,
+    "book": "2SA",
+    "chapter": 1,
+    "verse_start": 27,
+    "verse_end": 27,
     "blank": {
-      "pt": "rei",
-      "fr": "roi",
-      "en": "king",
-      "es": "rey"
+      "pt": "valentes",
+      "fr": "héros",
+      "en": "mighty",
+      "es": "valientes"
     },
     "distractors": [
       {
-        "pt": "juiz",
-        "fr": "juge",
-        "en": "judge",
-        "es": "juez"
+        "pt": "reis",
+        "fr": "rois",
+        "en": "kings",
+        "es": "reyes"
       },
       {
-        "pt": "sacerdote",
-        "fr": "sacrificateur",
-        "en": "priest",
-        "es": "sacerdote"
+        "pt": "gigantes",
+        "fr": "géants",
+        "en": "giants",
+        "es": "gigantes"
       },
       {
-        "pt": "profeta",
-        "fr": "prophète",
-        "en": "prophet",
-        "es": "profeta"
+        "pt": "ímpios",
+        "fr": "méchants",
+        "en": "wicked",
+        "es": "impíos"
       }
     ]
   },
@@ -3046,10 +3046,10 @@
         "es": "ver"
       },
       {
-        "pt": "suportar",
-        "fr": "porter",
-        "en": "bear",
-        "es": "soportar"
+        "pt": "louvar",
+        "fr": "louer",
+        "en": "praise",
+        "es": "alabar"
       },
       {
         "pt": "esconder",

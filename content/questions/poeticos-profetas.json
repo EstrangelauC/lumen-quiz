@@ -1347,7 +1347,7 @@
     "verse_end": 2,
     "prompt": {
       "pt": "Deus mandou Jeremias descer à casa de quem, para ouvir as suas palavras?",
-      "fr": "Dieu envoya Jérémie descendre dans la maison de qui, pour y entendre ses paroles ?",
+      "fr": "Dans la maison de qui Dieu envoya-t-il Jérémie pour y entendre ses paroles ?",
       "en": "To whose house did God send Jeremiah to hear his words?",
       "es": "¿A casa de quién mandó Dios a Jeremías para oír sus palabras?"
     },
@@ -2290,16 +2290,16 @@
           "pt": "Amom",
           "fr": "Ammon",
           "en": "Ammon",
-          "es": "Amón"
+          "es": "Ammón"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Filisteia",
-          "fr": "Le pays des Philistins",
-          "en": "Philistia",
-          "es": "Filistea"
+          "pt": "Os filisteus",
+          "fr": "Les Philistins",
+          "en": "The Philistines",
+          "es": "Los filisteos"
         }
       }
     ]
@@ -2472,10 +2472,10 @@
     "verse_start": 7,
     "verse_end": 7,
     "prompt": {
-      "pt": "Que eunuco etíope da casa do rei soube que Jeremias tinha sido posto na cisterna?",
-      "fr": "Quel eunuque éthiopien de la maison du roi apprit qu’on avait mis Jérémie dans la citerne ?",
-      "en": "Which Ethiopian eunuch of the king’s house heard that Jeremiah had been put in the dungeon?",
-      "es": "¿Qué eunuco etíope de la casa del rey oyó que habían puesto a Jeremías en la mazmorra?"
+      "pt": "Que eunuco da casa do rei soube que Jeremias tinha sido posto na cisterna?",
+      "fr": "Quel eunuque de la maison du roi apprit qu’on avait mis Jérémie dans la citerne ?",
+      "en": "Which eunuch of the king’s house heard that Jeremiah had been put in the dungeon?",
+      "es": "¿Qué eunuco de la casa del rey oyó que habían puesto a Jeremías en la mazmorra?"
     },
     "options": [
       {

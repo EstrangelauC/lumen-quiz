@@ -188,7 +188,7 @@
           "pt": "Sete",
           "fr": "Seth",
           "en": "Seth",
-          "es": "Set"
+          "es": "Seth"
         }
       },
       {
@@ -206,7 +206,7 @@
           "pt": "Adão",
           "fr": "Adam",
           "en": "Adam",
-          "es": "Adán"
+          "es": "Adam"
         }
       }
     ]
@@ -391,7 +391,7 @@
           "pt": "Uma roupa de muitas cores",
           "fr": "Une tunique de plusieurs couleurs",
           "en": "A coat of many colours",
-          "es": "Una ropa de diversos colores"
+          "es": "Una túnica de diversos colores"
         }
       },
       {
@@ -441,10 +441,10 @@
       {
         "correct": true,
         "text": {
-          "pt": "Num cesto, junto ao rio",
-          "fr": "Dans une caisse, au bord du fleuve",
-          "en": "In a little ark by the river",
-          "es": "En una arquilla, junto al río"
+          "pt": "Numa cesta de juncos, junto ao rio",
+          "fr": "Dans une caisse de jonc, au bord du fleuve",
+          "en": "In an ark of bulrushes by the river",
+          "es": "En una arquilla de juncos, junto al río"
         }
       },
       {
@@ -603,7 +603,7 @@
           "pt": "A jumenta",
           "fr": "L’ânesse",
           "en": "The donkey",
-          "es": "La asna"
+          "es": "El asna"
         }
       },
       {
@@ -904,7 +904,7 @@
         "pt": "Adão",
         "fr": "Adam",
         "en": "Adam",
-        "es": "Adán"
+        "es": "Adam"
       },
       {
         "pt": "Noé",
@@ -972,13 +972,13 @@
       },
       {
         "pt": "ensine",
-        "fr": "conduise",
+        "fr": "enseigne",
         "en": "teach",
         "es": "enseñe"
       },
       {
         "pt": "ouça",
-        "fr": "console",
+        "fr": "écoute",
         "en": "hear",
         "es": "oiga"
       }
@@ -989,33 +989,33 @@
     "type": "verse",
     "level": "easy",
     "book": "DEU",
-    "chapter": 6,
-    "verse_start": 5,
-    "verse_end": 5,
+    "chapter": 31,
+    "verse_start": 8,
+    "verse_end": 8,
     "blank": {
-      "pt": "coração",
-      "fr": "cœur",
-      "en": "heart",
-      "es": "corazón"
+      "pt": "temas",
+      "fr": "crains",
+      "en": "fear",
+      "es": "temas"
     },
     "distractors": [
       {
-        "pt": "casa",
-        "fr": "maison",
-        "en": "house",
-        "es": "casa"
+        "pt": "chores",
+        "fr": "pleure",
+        "en": "weep",
+        "es": "llores"
       },
       {
-        "pt": "voz",
-        "fr": "voix",
-        "en": "voice",
-        "es": "voz"
+        "pt": "corras",
+        "fr": "cours",
+        "en": "run",
+        "es": "corras"
       },
       {
-        "pt": "vida",
-        "fr": "vie",
-        "en": "life",
-        "es": "vida"
+        "pt": "durmas",
+        "fr": "dors",
+        "en": "sleep",
+        "es": "duermas"
       }
     ]
   },
@@ -1024,50 +1024,50 @@
     "type": "choice",
     "level": "medium",
     "book": "GEN",
-    "chapter": 7,
-    "verse_start": 12,
-    "verse_end": 12,
+    "chapter": 8,
+    "verse_start": 7,
+    "verse_end": 8,
     "prompt": {
-      "pt": "Durante quantos dias e noites choveu sobre a terra no dilúvio?",
-      "fr": "Pendant combien de jours et de nuits la pluie est-elle tombée sur la terre lors du déluge ?",
-      "en": "For how many days and nights did it rain on the earth in the flood?",
-      "es": "¿Durante cuántos días y noches llovió sobre la tierra en el diluvio?"
+      "pt": "Que ave enviou Noé da arca antes da pomba?",
+      "fr": "Quel oiseau Noé a-t-il lâché de l’arche avant la colombe ?",
+      "en": "Which bird did Noah send out of the ark before the dove?",
+      "es": "¿Qué ave envió Noé desde el arca antes de la paloma?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "40",
-          "fr": "40",
-          "en": "40",
-          "es": "40"
+          "pt": "O corvo",
+          "fr": "Le corbeau",
+          "en": "A raven",
+          "es": "El cuervo"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "7",
-          "fr": "7",
-          "en": "7",
-          "es": "7"
+          "pt": "A águia",
+          "fr": "L’aigle",
+          "en": "An eagle",
+          "es": "El águila"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "12",
-          "fr": "12",
-          "en": "12",
-          "es": "12"
+          "pt": "O pardal",
+          "fr": "Le moineau",
+          "en": "A sparrow",
+          "es": "El gorrión"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "100",
-          "fr": "100",
-          "en": "100",
-          "es": "100"
+          "pt": "A andorinha",
+          "fr": "L’hirondelle",
+          "en": "A swallow",
+          "es": "La golondrina"
         }
       }
     ]
@@ -1131,49 +1131,49 @@
     "level": "medium",
     "book": "GEN",
     "chapter": 19,
-    "verse_start": 26,
-    "verse_end": 26,
+    "verse_start": 24,
+    "verse_end": 24,
     "prompt": {
-      "pt": "Em que se tornou a mulher de Ló quando olhou para trás?",
-      "fr": "Que devint la femme de Lot quand elle regarda en arrière ?",
-      "en": "What did Lot’s wife become when she looked back?",
-      "es": "¿En qué se convirtió la mujer de Lot cuando miró atrás?"
+      "pt": "O que fez o SENHOR chover sobre Sodoma e Gomorra?",
+      "fr": "Que fit pleuvoir l’Éternel sur Sodome et Gomorrhe ?",
+      "en": "What did the LORD rain upon Sodom and Gomorrah?",
+      "es": "¿Qué hizo llover Jehová sobre Sodoma y Gomorra?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "Numa estátua de sal",
-          "fr": "Une statue de sel",
-          "en": "A pillar of salt",
-          "es": "Una estatua de sal"
+          "pt": "Enxofre e fogo",
+          "fr": "Du soufre et du feu",
+          "en": "Brimstone and fire",
+          "es": "Azufre y fuego"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Numa pedra",
-          "fr": "Une pierre",
-          "en": "A stone",
-          "es": "Una piedra"
+          "pt": "Pedras e cinza",
+          "fr": "Des pierres et de la cendre",
+          "en": "Stones and ashes",
+          "es": "Piedras y ceniza"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Num monte de cinzas",
-          "fr": "Un tas de cendres",
-          "en": "A heap of ashes",
-          "es": "Un montón de ceniza"
+          "pt": "Água e sal",
+          "fr": "De l’eau et du sel",
+          "en": "Water and salt",
+          "es": "Agua y sal"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Numa árvore seca",
-          "fr": "Un arbre sec",
-          "en": "A dry tree",
-          "es": "Un árbol seco"
+          "pt": "Granizo e neve",
+          "fr": "De la grêle et de la neige",
+          "en": "Hail and snow",
+          "es": "Granizo y nieve"
         }
       }
     ]
@@ -1184,49 +1184,49 @@
     "level": "medium",
     "book": "GEN",
     "chapter": 22,
-    "verse_start": 13,
-    "verse_end": 13,
+    "verse_start": 2,
+    "verse_end": 2,
     "prompt": {
-      "pt": "Que animal ofereceu Abraão em lugar do seu filho?",
-      "fr": "Quel animal Abraham a-t-il offert à la place de son fils ?",
-      "en": "What animal did Abraham offer instead of his son?",
-      "es": "¿Qué animal ofreció Abraham en lugar de su hijo?"
+      "pt": "Para que terra mandou Deus Abraão ir, para lá oferecer Isaac?",
+      "fr": "Dans quel pays Dieu envoya-t-il Abraham pour y offrir Isaac ?",
+      "en": "To which land did God send Abraham to offer Isaac there?",
+      "es": "¿A qué tierra mandó Dios ir a Abraham para ofrecer allí a Isaac?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "Um carneiro",
-          "fr": "Un bélier",
-          "en": "A ram",
-          "es": "Un carnero"
+          "pt": "Moriá",
+          "fr": "Morija",
+          "en": "Moriah",
+          "es": "Moriah"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Um bezerro",
-          "fr": "Un veau",
-          "en": "A calf",
-          "es": "Un becerro"
+          "pt": "Egito",
+          "fr": "Égypte",
+          "en": "Egypt",
+          "es": "Egipto"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Uma pomba",
-          "fr": "Une colombe",
-          "en": "A dove",
-          "es": "Una paloma"
+          "pt": "Midiã",
+          "fr": "Madian",
+          "en": "Midian",
+          "es": "Madián"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Um bode",
-          "fr": "Un bouc",
-          "en": "A goat",
-          "es": "Un macho cabrío"
+          "pt": "Moabe",
+          "fr": "Moab",
+          "en": "Moab",
+          "es": "Moab"
         }
       }
     ]
@@ -1342,50 +1342,50 @@
     "type": "choice",
     "level": "medium",
     "book": "EXO",
-    "chapter": 7,
-    "verse_start": 20,
-    "verse_end": 20,
+    "chapter": 17,
+    "verse_start": 6,
+    "verse_end": 6,
     "prompt": {
-      "pt": "Quando Moisés feriu as águas do rio com a vara, em que se tornaram?",
-      "fr": "Quand Moïse frappa les eaux du fleuve avec la verge, en quoi furent-elles changées ?",
-      "en": "When Moses struck the river water with the rod, what did it turn into?",
-      "es": "Cuando Moisés golpeó las aguas del río con la vara, ¿en qué se convirtieron?"
+      "pt": "Em Horebe, o que mandou Deus Moisés fazer para o povo ter água?",
+      "fr": "À Horeb, que Dieu ordonna-t-il à Moïse de faire pour que le peuple ait de l’eau ?",
+      "en": "At Horeb, what did God tell Moses to do so the people could have water?",
+      "es": "En Horeb, ¿qué mandó Dios hacer a Moisés para que el pueblo tuviera agua?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "Em sangue",
-          "fr": "En sang",
-          "en": "Blood",
-          "es": "En sangre"
+          "pt": "Ferir a rocha",
+          "fr": "Frapper le rocher",
+          "en": "Smite the rock",
+          "es": "Herir la peña"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Em vinho",
-          "fr": "En vin",
-          "en": "Wine",
-          "es": "En vino"
+          "pt": "Cavar um poço",
+          "fr": "Creuser un puits",
+          "en": "Dig a well",
+          "es": "Cavar un pozo"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Em gelo",
-          "fr": "En glace",
-          "en": "Ice",
-          "es": "En hielo"
+          "pt": "Orar toda a noite",
+          "fr": "Prier toute la nuit",
+          "en": "Pray all night",
+          "es": "Orar toda la noche"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Em lama",
-          "fr": "En boue",
-          "en": "Mud",
-          "es": "En lodo"
+          "pt": "Lançar sal na fonte",
+          "fr": "Jeter du sel dans la source",
+          "en": "Throw salt into the spring",
+          "es": "Echar sal en la fuente"
         }
       }
     ]
@@ -1863,14 +1863,14 @@
       },
       {
         "book": "EXO",
-        "chapter": 8,
-        "verse_start": 6,
-        "verse_end": 6,
+        "chapter": 9,
+        "verse_start": 23,
+        "verse_end": 23,
         "text": {
-          "pt": "As rãs cobrem a terra",
-          "fr": "Les grenouilles couvrent le pays",
-          "en": "Frogs cover the land",
-          "es": "Las ranas cubren la tierra"
+          "pt": "Cai granizo sobre o Egito",
+          "fr": "La grêle tombe sur l’Égypte",
+          "en": "Hail falls on Egypt",
+          "es": "Cae granizo sobre Egipto"
         }
       },
       {
@@ -1956,10 +1956,10 @@
         "es": "reyes"
       },
       {
-        "pt": "ídolos",
-        "fr": "idoles",
-        "en": "idols",
-        "es": "ídolos"
+        "pt": "tesouros",
+        "fr": "trésors",
+        "en": "treasures",
+        "es": "tesoros"
       },
       {
         "pt": "senhores",
@@ -2049,9 +2049,9 @@
     "verse_end": 27,
     "prompt": {
       "pt": "Quantos anos viveu Matusalém?",
-      "fr": "Combien d’années Mathusalem a-t-il vécu ?",
+      "fr": "Combien d’années Metuschélah a-t-il vécu ?",
       "en": "How many years did Methuselah live?",
-      "es": "¿Cuántos años vivió Matusalén?"
+      "es": "¿Cuántos años vivió Mathusalam?"
     },
     "options": [
       {
@@ -2113,7 +2113,7 @@
           "pt": "Melquisedeque",
           "fr": "Melchisédek",
           "en": "Melchizedek",
-          "es": "Melquisedec"
+          "es": "Melchîsedec"
         }
       },
       {
@@ -2122,7 +2122,7 @@
           "pt": "Abimeleque",
           "fr": "Abimélec",
           "en": "Abimelech",
-          "es": "Abimelec"
+          "es": "Abimelech"
         }
       },
       {
@@ -2140,7 +2140,7 @@
           "pt": "Quedorlaomer",
           "fr": "Kedorlaomer",
           "en": "Chedorlaomer",
-          "es": "Quedorlaomer"
+          "es": "Chêdorlaomer"
         }
       }
     ]
@@ -2175,7 +2175,7 @@
           "pt": "Raquel",
           "fr": "Rachel",
           "en": "Rachel",
-          "es": "Raquel"
+          "es": "Rachêl"
         }
       },
       {
@@ -2228,7 +2228,7 @@
           "pt": "Zípora",
           "fr": "Séphora",
           "en": "Zipporah",
-          "es": "Séfora"
+          "es": "Séphora"
         }
       },
       {
@@ -2246,7 +2246,7 @@
           "pt": "Tamar",
           "fr": "Tamar",
           "en": "Tamar",
-          "es": "Tamar"
+          "es": "Thamar"
         }
       }
     ]
@@ -2296,7 +2296,7 @@
       {
         "correct": false,
         "text": {
-          "pt": "Finéias",
+          "pt": "Fineias",
           "fr": "Phinées",
           "en": "Phinehas",
           "es": "Phinees"
@@ -2422,7 +2422,7 @@
       "pt": "Que filhos de Arão ofereceram fogo estranho diante do SENHOR e morreram?",
       "fr": "Quels fils d’Aaron offrirent devant l’Éternel un feu étranger et moururent ?",
       "en": "Which sons of Aaron offered strange fire before the LORD and died?",
-      "es": "¿Qué hijos de Aarón ofrecieron fuego extraño delante del SEÑOR y murieron?"
+      "es": "¿Qué hijos de Aarón ofrecieron fuego extraño delante de Jehová y murieron?"
     },
     "options": [
       {
@@ -2458,7 +2458,7 @@
           "pt": "Datã e Abirão",
           "fr": "Dathan et Abiram",
           "en": "Dathan and Abiram",
-          "es": "Datán y Abiram"
+          "es": "Dathán y Abiram"
         }
       }
     ]
@@ -2695,7 +2695,7 @@
           "pt": "Adão gera Sete",
           "fr": "Adam engendre Seth",
           "en": "Adam begets Seth",
-          "es": "Adán engendra a Set"
+          "es": "Adam engendra a Seth"
         }
       },
       {
@@ -2707,7 +2707,7 @@
           "pt": "Jarede gera Enoque",
           "fr": "Jéred engendre Hénoc",
           "en": "Jared begets Enoch",
-          "es": "Jared engendra a Enoc"
+          "es": "Jared engendra a Henoch"
         }
       },
       {
@@ -2717,9 +2717,9 @@
         "verse_end": 21,
         "text": {
           "pt": "Enoque gera Matusalém",
-          "fr": "Hénoc engendre Mathusalem",
+          "fr": "Hénoc engendre Metuschélah",
           "en": "Enoch begets Methuselah",
-          "es": "Enoc engendra a Matusalén"
+          "es": "Henoch engendra a Mathusalam"
         }
       },
       {
@@ -2883,14 +2883,14 @@
       },
       {
         "book": "NUM",
-        "chapter": 13,
-        "verse_start": 2,
-        "verse_end": 2,
+        "chapter": 14,
+        "verse_start": 6,
+        "verse_end": 6,
         "text": {
-          "pt": "Espias enviados a Canaã",
-          "fr": "Des espions envoyés en Canaan",
-          "en": "Spies sent into Canaan",
-          "es": "Espías enviados a Canaán"
+          "pt": "Josué e Calebe rasgam as roupas",
+          "fr": "Josué et Caleb déchirent leurs vêtements",
+          "en": "Joshua and Caleb rend their clothes",
+          "es": "Josué y Caleb rompen sus vestidos"
         }
       },
       {
@@ -3029,33 +3029,33 @@
     "type": "verse",
     "level": "hard",
     "book": "DEU",
-    "chapter": 6,
-    "verse_start": 4,
-    "verse_end": 4,
+    "chapter": 18,
+    "verse_start": 15,
+    "verse_end": 15,
     "blank": {
-      "pt": "Israel",
-      "fr": "Israël",
-      "en": "Israel",
-      "es": "Israel"
+      "pt": "Profeta",
+      "fr": "prophète",
+      "en": "Prophet",
+      "es": "Profeta"
     },
     "distractors": [
       {
-        "pt": "Judá",
-        "fr": "Juda",
-        "en": "Judah",
-        "es": "Judá"
+        "pt": "Juiz",
+        "fr": "juge",
+        "en": "Judge",
+        "es": "Juez"
       },
       {
-        "pt": "Sião",
-        "fr": "Sion",
-        "en": "Zion",
-        "es": "Sión"
+        "pt": "Sacerdote",
+        "fr": "sacrificateur",
+        "en": "Priest",
+        "es": "Sacerdote"
       },
       {
-        "pt": "Egito",
-        "fr": "Égypte",
-        "en": "Egypt",
-        "es": "Egipto"
+        "pt": "Guerreiro",
+        "fr": "guerrier",
+        "en": "Warrior",
+        "es": "Guerrero"
       }
     ]
   }

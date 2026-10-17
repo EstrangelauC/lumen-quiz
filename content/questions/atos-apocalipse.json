@@ -1673,7 +1673,7 @@
         "verse_end": 14,
         "text": {
           "pt": "Um vento violento apanha o navio",
-          "fr": "Un vent impétueux frappe le navire",
+          "fr": "Un vent impétueux se déchaîne",
           "en": "A tempestuous wind arises",
           "es": "Un viento repentino da en la nave"
         }
@@ -1997,10 +1997,10 @@
         "es": "promesa"
       },
       {
-        "pt": "história",
-        "fr": "histoire",
-        "en": "story",
-        "es": "historia"
+        "pt": "verdade",
+        "fr": "vérité",
+        "en": "truth",
+        "es": "verdad"
       }
     ]
   },
@@ -2887,7 +2887,7 @@
         "verse_start": 24,
         "verse_end": 24,
         "text": {
-          "pt": "O ourives Demétrio faz templos de Diana",
+          "pt": "Demétrio faz objetos de prata para o templo de Diana",
           "fr": "L’orfèvre Démétrius fait des temples de Diane",
           "en": "Demetrius makes silver shrines for Diana",
           "es": "El platero Demetrio hace templecillos de Diana"

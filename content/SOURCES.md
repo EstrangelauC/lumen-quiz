@@ -30,3 +30,21 @@ Uma linha por versículo (`LIVRO\tcapítulo\tversículo\ttexto`), códigos USFM;
 ## Fixtures
 
 `scripts/fixtures/bibles/{pt,fr,en,es}.tsv` contêm o texto real destas traduções para GEN 1:1, GEN 7:1, EXO 3:2, EXO 14:21 e JHN 3:16-18, para testes sem descarregar nada.
+
+## Correções tipográficas
+
+Na Bíblia Livre (pt) aplicam-se, ao carregar o texto (`content/bible-corrections.json`), poucas correções de gralhas evidentes (espaço em falta, letra a mais ou a menos, palavra repetida); nunca se reformula nada. Em cumprimento da licença CC BY 4.0, ficam aqui listadas (referência: antes → depois):
+
+- ACT 9:5: "Senhor?E o Senhor" → "Senhor? E o Senhor"
+- ACT 12:7: "depressa!E as" → "depressa! E as"
+- LUK 3:1: "Herodes tetraca" → "Herodes tetrarca"
+- LUK 10:33: "dele ." → "dele."
+- LUK 24:18: "um deles ,cujo" → "um deles, cujo"
+- MRK 2:14: "Segue-me.Então" → "Segue-me. Então"
+- NEH 1:11: "homem!Pois" → "homem! Pois"
+- HAG 1:1: "segundo ano segundo" → "segundo ano"
+- MAL 3:10: "janelas dos céu" → "janelas dos céus"
+- LEV 16:22: "deles a terra inabitada" → "deles à terra inabitada"
+- LEV 17:11: "eu vos a dei" → "eu vo-la dei"
+- NUM 23:19: "e não fará?; Falou" → "e não fará? Falou"
+- JOS 24:15: "aos deuses a os quais" → "aos deuses aos quais"

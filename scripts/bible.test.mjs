@@ -51,3 +51,17 @@ test('66 livros, 39 AT e 27 NT, com os 4 nomes', () => {
   assert.equal(books[0].code, 'GEN');
   assert.equal(books[65].code, 'REV');
 });
+
+test('loadBible aplica as correções do locale', () => {
+  const corrected = loadBible('pt', fixtures, { pt: { 'JHN 3:16': 'texto corrigido' }, en: { 'JHN 3:16': 'outro' } });
+  assert.equal(corrected.get('JHN 3:16'), 'texto corrigido');
+  assert.equal(corrected.get('JHN 3:17'), bibles.pt.get('JHN 3:17'));
+});
+
+test('loadBible lança erro se a correção aponta para um versículo inexistente', () => {
+  assert.throws(() => loadBible('pt', fixtures, { pt: { 'HAG 1:1': 'x' } }), /inexistente/);
+});
+
+test('loadBible sem correções deixa as fixtures intactas', () => {
+  for (const l of LOCALES) assert.equal(bibles[l].get('JHN 3:16'), loadBible(l, fixtures, null).get('JHN 3:16'));
+});

@@ -6,8 +6,13 @@ import books from '../../lib/bible-books.json' with { type: 'json' };
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 export const DEFAULT_BIBLE_DIR = path.join(ROOT, 'data', 'bibles');
 
+export const DEFAULT_CORRECTIONS = path.join(ROOT, 'content', 'bible-corrections.json');
+
 // Lê <dir>/<locale>.tsv (CÓDIGO\tcapítulo\tversículo\ttexto) para um Map "GEN 1:1" -> texto.
-export function loadBible(locale, dir = DEFAULT_BIBLE_DIR) {
+// `corrections` (objeto { locale: { "GEN 1:1": texto } } ou caminho para um JSON) corrige gralhas
+// tipográficas da fonte; por omissão aplica content/bible-corrections.json só à Bíblia real
+// (dir por omissão), nunca a fixtures. Uma correção para um versículo inexistente é um erro.
+export function loadBible(locale, dir = DEFAULT_BIBLE_DIR, corrections = dir === DEFAULT_BIBLE_DIR ? DEFAULT_CORRECTIONS : null) {
   const file = path.join(dir, `${locale}.tsv`);
   if (!fs.existsSync(file)) throw new Error(`Bíblia não encontrada: ${file} (corra npm run bibles:fetch)`);
   const bible = new Map();
@@ -15,6 +20,13 @@ export function loadBible(locale, dir = DEFAULT_BIBLE_DIR) {
     if (!line) continue;
     const [book, chapter, verse, ...rest] = line.split('\t');
     bible.set(`${book} ${Number(chapter)}:${Number(verse)}`, rest.join('\t'));
+  }
+  if (corrections) {
+    const all = typeof corrections === 'string' ? JSON.parse(fs.readFileSync(corrections, 'utf8')) : corrections;
+    for (const [key, text] of Object.entries(all[locale] ?? {})) {
+      if (!bible.has(key)) throw new Error(`Correção para versículo inexistente: ${locale} ${key}`);
+      bible.set(key, text);
+    }
   }
   return bible;
 }
