@@ -1129,51 +1129,51 @@
     "id": "apos-medium-003",
     "type": "choice",
     "level": "medium",
-    "book": "ACT",
-    "chapter": 9,
-    "verse_start": 11,
-    "verse_end": 11,
+    "book": "PHP",
+    "chapter": 1,
+    "verse_start": 21,
+    "verse_end": 21,
     "prompt": {
-      "pt": "Quando o Senhor enviou Ananias a Saulo, de onde disse que Saulo era?",
-      "fr": "Quand le Seigneur envoya Ananias vers Saul, de quelle ville dit-il qu’était Saul ?",
-      "en": "When the Lord sent Ananias to Saul, where did he say Saul was from?",
-      "es": "Cuando el Señor envió a Ananías a Saulo, ¿de dónde dijo que era Saulo?"
+      "pt": "Em Filipenses, o que é o viver para Paulo?",
+      "fr": "Dans Philippiens, qu’est-ce que la vie pour Paul ?",
+      "en": "In Philippians, what is “to live” for Paul?",
+      "es": "En Filipenses, ¿qué es el vivir para Pablo?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "Tarso",
-          "fr": "Tarse",
-          "en": "Tarsus",
-          "es": "Tarso"
+          "pt": "Cristo",
+          "fr": "Christ",
+          "en": "Christ",
+          "es": "Cristo"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Corinto",
-          "fr": "Corinthe",
-          "en": "Corinth",
-          "es": "Corinto"
+          "pt": "A lei",
+          "fr": "La loi",
+          "en": "The law",
+          "es": "La ley"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Éfeso",
-          "fr": "Éphèse",
-          "en": "Ephesus",
-          "es": "Efeso"
+          "pt": "A igreja",
+          "fr": "L’Église",
+          "en": "The church",
+          "es": "La iglesia"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Cesareia",
-          "fr": "Césarée",
-          "en": "Cæsarea",
-          "es": "Cesarea"
+          "pt": "A sabedoria",
+          "fr": "La sagesse",
+          "en": "Wisdom",
+          "es": "La sabiduría"
         }
       }
     ]
@@ -1182,51 +1182,51 @@
     "id": "apos-medium-004",
     "type": "choice",
     "level": "medium",
-    "book": "ACT",
-    "chapter": 9,
-    "verse_start": 40,
-    "verse_end": 40,
+    "book": "1PE",
+    "chapter": 5,
+    "verse_start": 8,
+    "verse_end": 8,
     "prompt": {
-      "pt": "A que mulher disse Pedro «levanta-te», e ela abriu os olhos?",
-      "fr": "À quelle femme Pierre dit-il « lève-toi », et elle ouvrit les yeux ?",
-      "en": "To which woman did Peter say “arise”, and she opened her eyes?",
-      "es": "¿A qué mujer dijo Pedro «levántate», y ella abrió los ojos?"
+      "pt": "Em 1 Pedro, a que animal é comparado o diabo, o vosso adversário?",
+      "fr": "Dans 1 Pierre, à quel animal le diable, votre adversaire, est-il comparé ?",
+      "en": "In 1 Peter, to what animal is the devil, your adversary, compared?",
+      "es": "En 1 Pedro, ¿a qué animal se compara el diablo, vuestro adversario?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "Tabita",
-          "fr": "Tabitha",
-          "en": "Tabitha",
-          "es": "Tabita"
+          "pt": "Um leão que ruge",
+          "fr": "Un lion rugissant",
+          "en": "A roaring lion",
+          "es": "Un león rugiente"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Lídia",
-          "fr": "Lydie",
-          "en": "Lydia",
-          "es": "Lidia"
+          "pt": "Um urso",
+          "fr": "Un ours",
+          "en": "A bear",
+          "es": "Un oso"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Priscila",
-          "fr": "Priscille",
-          "en": "Priscilla",
-          "es": "Priscila"
+          "pt": "Um lobo",
+          "fr": "Un loup",
+          "en": "A wolf",
+          "es": "Un lobo"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Marta",
-          "fr": "Marthe",
-          "en": "Martha",
-          "es": "Marta"
+          "pt": "Um leopardo",
+          "fr": "Un léopard",
+          "en": "A leopard",
+          "es": "Un leopardo"
         }
       }
     ]
@@ -1394,51 +1394,51 @@
     "id": "apos-medium-008",
     "type": "choice",
     "level": "medium",
-    "book": "ACT",
-    "chapter": 20,
-    "verse_start": 9,
-    "verse_end": 9,
+    "book": "2TH",
+    "chapter": 3,
+    "verse_start": 10,
+    "verse_end": 10,
     "prompt": {
-      "pt": "Porque caiu Êutico do terceiro andar enquanto Paulo falava?",
-      "fr": "Pourquoi Eutychus tomba-t-il du troisième étage pendant que Paul parlait ?",
-      "en": "Why did Eutychus fall down from the third loft while Paul was preaching?",
-      "es": "¿Por qué cayó Eutichô del tercer piso mientras Pablo hablaba?"
+      "pt": "Aos tessalonicenses: se alguém não quiser trabalhar, o que também não deve fazer?",
+      "fr": "Aux Thessaloniciens : si quelqu’un ne veut pas travailler, que ne doit-il pas faire non plus ?",
+      "en": "To the Thessalonians: if any would not work, what should he not do either?",
+      "es": "A los tesalonicenses: si alguno no quisiere trabajar, ¿qué tampoco debe hacer?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "Adormeceu",
-          "fr": "Il s’endormit",
-          "en": "He fell asleep",
-          "es": "Se durmió"
+          "pt": "Comer",
+          "fr": "Manger",
+          "en": "Eat",
+          "es": "Comer"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Foi empurrado",
-          "fr": "On le poussa",
-          "en": "He was pushed",
-          "es": "Lo empujaron"
+          "pt": "Falar",
+          "fr": "Parler",
+          "en": "Speak",
+          "es": "Hablar"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "A janela partiu-se",
-          "fr": "La fenêtre se brisa",
-          "en": "The window broke",
-          "es": "Se rompió la ventana"
+          "pt": "Dormir",
+          "fr": "Dormir",
+          "en": "Sleep",
+          "es": "Dormir"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Tropeçou",
-          "fr": "Il trébucha",
-          "en": "He tripped",
-          "es": "Tropezó"
+          "pt": "Viajar",
+          "fr": "Voyager",
+          "en": "Travel",
+          "es": "Viajar"
         }
       }
     ]

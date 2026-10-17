@@ -2400,30 +2400,30 @@
     "type": "choice",
     "level": "medium",
     "testament": "nt",
-    "book": "ACT",
-    "chapter": 9,
-    "verse_start": 11,
-    "verse_end": 11,
+    "book": "PHP",
+    "chapter": 1,
+    "verse_start": 21,
+    "verse_end": 21,
     "texts": {
       "pt": {
-        "prompt": "Quando o Senhor enviou Ananias a Saulo, de onde disse que Saulo era?",
-        "bible_ref": "Atos 9:11",
-        "verse_text": "E o Senhor lhe disse : Levanta-te, e vai a rua chamada Direita, e pergunta na casa de Judas por um chamado Saulo, de Tarso; porque que ele ora."
+        "prompt": "Em Filipenses, o que é o viver para Paulo?",
+        "bible_ref": "Filipenses 1:21",
+        "verse_text": "Pois, para mim, o viver é Cristo, e o morrer é lucro."
       },
       "fr": {
-        "prompt": "Quand le Seigneur envoya Ananias vers Saul, de quelle ville dit-il qu’était Saul ?",
-        "bible_ref": "Actes 9:11",
-        "verse_text": "Et le Seigneur lui dit: Lève-toi, va dans la rue qu’on appelle la droite, et cherche, dans la maison de Judas, un nommé Saul de Tarse."
+        "prompt": "Dans Philippiens, qu’est-ce que la vie pour Paul ?",
+        "bible_ref": "Philippiens 1:21",
+        "verse_text": "car Christ est ma vie, et la mort m’est un gain."
       },
       "en": {
-        "prompt": "When the Lord sent Ananias to Saul, where did he say Saul was from?",
-        "bible_ref": "Acts 9:11",
-        "verse_text": "And the Lord said unto him, Arise, and go into the street which is called Straight, and enquire in the house of Judas for one called Saul, of Tarsus: for, behold, he prayeth,"
+        "prompt": "In Philippians, what is “to live” for Paul?",
+        "bible_ref": "Philippians 1:21",
+        "verse_text": "For to me to live is Christ, and to die is gain."
       },
       "es": {
-        "prompt": "Cuando el Señor envió a Ananías a Saulo, ¿de dónde dijo que era Saulo?",
-        "bible_ref": "Hechos 9:11",
-        "verse_text": "Y el Señor le dijo: Levántate, y ve á la calle que se llama la Derecha, y busca en casa de Judas á uno llamado Saulo, de Tarso: porque he aquí, él ora;"
+        "prompt": "En Filipenses, ¿qué es el vivir para Pablo?",
+        "bible_ref": "Filipenses 1:21",
+        "verse_text": "Porque para mí el vivir es Cristo, y el morir es ganancia."
       }
     },
     "options": [
@@ -2432,16 +2432,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Tarso"
+            "text": "Cristo"
           },
           "fr": {
-            "text": "Tarse"
+            "text": "Christ"
           },
           "en": {
-            "text": "Tarsus"
+            "text": "Christ"
           },
           "es": {
-            "text": "Tarso"
+            "text": "Cristo"
           }
         }
       },
@@ -2450,16 +2450,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Corinto"
+            "text": "A lei"
           },
           "fr": {
-            "text": "Corinthe"
+            "text": "La loi"
           },
           "en": {
-            "text": "Corinth"
+            "text": "The law"
           },
           "es": {
-            "text": "Corinto"
+            "text": "La ley"
           }
         }
       },
@@ -2468,16 +2468,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Éfeso"
+            "text": "A igreja"
           },
           "fr": {
-            "text": "Éphèse"
+            "text": "L’Église"
           },
           "en": {
-            "text": "Ephesus"
+            "text": "The church"
           },
           "es": {
-            "text": "Efeso"
+            "text": "La iglesia"
           }
         }
       },
@@ -2486,16 +2486,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Cesareia"
+            "text": "A sabedoria"
           },
           "fr": {
-            "text": "Césarée"
+            "text": "La sagesse"
           },
           "en": {
-            "text": "Cæsarea"
+            "text": "Wisdom"
           },
           "es": {
-            "text": "Cesarea"
+            "text": "La sabiduría"
           }
         }
       }
@@ -2506,30 +2506,30 @@
     "type": "choice",
     "level": "medium",
     "testament": "nt",
-    "book": "ACT",
-    "chapter": 9,
-    "verse_start": 40,
-    "verse_end": 40,
+    "book": "1PE",
+    "chapter": 5,
+    "verse_start": 8,
+    "verse_end": 8,
     "texts": {
       "pt": {
-        "prompt": "A que mulher disse Pedro «levanta-te», e ela abriu os olhos?",
-        "bible_ref": "Atos 9:40",
-        "verse_text": "Mas Pedro, pondo para fora a todas; pôs-se de joelhos, e orou; e virando-se para o corpo, disse: Tabita, levanta-te;E ela abriu seus olhos, e vendo a Pedro, sentou-se."
+        "prompt": "Em 1 Pedro, a que animal é comparado o diabo, o vosso adversário?",
+        "bible_ref": "1 Pedro 5:8",
+        "verse_text": "Sede sóbrios! Vigiai! Pois o vosso adversário, o diabo, anda ao redor, rugindo como um leão, buscando a quem possa devorar."
       },
       "fr": {
-        "prompt": "À quelle femme Pierre dit-il « lève-toi », et elle ouvrit les yeux ?",
-        "bible_ref": "Actes 9:40",
-        "verse_text": "Pierre fit sortir tout le monde, se mit à genoux, et pria; puis, se tournant vers le corps, il dit: Tabitha, lève-toi! Elle ouvrit les yeux, et ayant vu Pierre, elle s’assit."
+        "prompt": "Dans 1 Pierre, à quel animal le diable, votre adversaire, est-il comparé ?",
+        "bible_ref": "1 Pierre 5:8",
+        "verse_text": "Soyez sobres, veillez. Votre adversaire, le diable, rôde comme un lion rugissant, cherchant qui il dévorera."
       },
       "en": {
-        "prompt": "To which woman did Peter say “arise”, and she opened her eyes?",
-        "bible_ref": "Acts 9:40",
-        "verse_text": "But Peter put them all forth, and kneeled down, and prayed; and turning him to the body said, Tabitha, arise. And she opened her eyes: and when she saw Peter, she sat up."
+        "prompt": "In 1 Peter, to what animal is the devil, your adversary, compared?",
+        "bible_ref": "1 Peter 5:8",
+        "verse_text": "Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour:"
       },
       "es": {
-        "prompt": "¿A qué mujer dijo Pedro «levántate», y ella abrió los ojos?",
-        "bible_ref": "Hechos 9:40",
-        "verse_text": "Entonces echados fuera todos, Pedro puesto de rodillas, oró; y vuelto al cuerpo, dijo: Tabita, levántate. Y ella abrió los ojos, y viendo á Pedro, incorporóse."
+        "prompt": "En 1 Pedro, ¿a qué animal se compara el diablo, vuestro adversario?",
+        "bible_ref": "1 Pedro 5:8",
+        "verse_text": "Sed templados, y velad; porque vuestro adversario el diablo, cual león rugiente, anda alrededor buscando á quien devore:"
       }
     },
     "options": [
@@ -2538,16 +2538,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Tabita"
+            "text": "Um leão que ruge"
           },
           "fr": {
-            "text": "Tabitha"
+            "text": "Un lion rugissant"
           },
           "en": {
-            "text": "Tabitha"
+            "text": "A roaring lion"
           },
           "es": {
-            "text": "Tabita"
+            "text": "Un león rugiente"
           }
         }
       },
@@ -2556,16 +2556,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Lídia"
+            "text": "Um urso"
           },
           "fr": {
-            "text": "Lydie"
+            "text": "Un ours"
           },
           "en": {
-            "text": "Lydia"
+            "text": "A bear"
           },
           "es": {
-            "text": "Lidia"
+            "text": "Un oso"
           }
         }
       },
@@ -2574,16 +2574,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Priscila"
+            "text": "Um lobo"
           },
           "fr": {
-            "text": "Priscille"
+            "text": "Un loup"
           },
           "en": {
-            "text": "Priscilla"
+            "text": "A wolf"
           },
           "es": {
-            "text": "Priscila"
+            "text": "Un lobo"
           }
         }
       },
@@ -2592,16 +2592,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Marta"
+            "text": "Um leopardo"
           },
           "fr": {
-            "text": "Marthe"
+            "text": "Un léopard"
           },
           "en": {
-            "text": "Martha"
+            "text": "A leopard"
           },
           "es": {
-            "text": "Marta"
+            "text": "Un leopardo"
           }
         }
       }
@@ -2930,30 +2930,30 @@
     "type": "choice",
     "level": "medium",
     "testament": "nt",
-    "book": "ACT",
-    "chapter": 20,
-    "verse_start": 9,
-    "verse_end": 9,
+    "book": "2TH",
+    "chapter": 3,
+    "verse_start": 10,
+    "verse_end": 10,
     "texts": {
       "pt": {
-        "prompt": "Porque caiu Êutico do terceiro andar enquanto Paulo falava?",
-        "bible_ref": "Atos 20:9",
-        "verse_text": "E estando um certo rapaz, de nome Êutico, sentado em uma janela, tendo sido tomado por um sono profundo, e ,estando Paulo ainda falando por muito tempo ,Êutico ,derrubado pelo sono, caiu desde o terceiro andar abaixo; e foi levantado morto."
+        "prompt": "Aos tessalonicenses: se alguém não quiser trabalhar, o que também não deve fazer?",
+        "bible_ref": "2 Tessalonicenses 3:10",
+        "verse_text": "Porque, quando ainda estávamos convosco, isto vos mandamos: que se alguém não quiser trabalhar, também não coma."
       },
       "fr": {
-        "prompt": "Pourquoi Eutychus tomba-t-il du troisième étage pendant que Paul parlait ?",
-        "bible_ref": "Actes 20:9",
-        "verse_text": "Or, un jeune homme nommé Eutychus, qui était assis sur la fenêtre, s’endormit profondément pendant le long discours de Paul; entraîné par le sommeil, il tomba du troisième étage en bas, et il fut relevé mort."
+        "prompt": "Aux Thessaloniciens : si quelqu’un ne veut pas travailler, que ne doit-il pas faire non plus ?",
+        "bible_ref": "2 Thessaloniciens 3:10",
+        "verse_text": "Car, lorsque nous étions chez vous, nous vous disions expressément: Si quelqu’un ne veut pas travailler, qu’il ne mange pas non plus."
       },
       "en": {
-        "prompt": "Why did Eutychus fall down from the third loft while Paul was preaching?",
-        "bible_ref": "Acts 20:9",
-        "verse_text": "And there sat in a window a certain young man named Eutychus, being fallen into a deep sleep: and as Paul was long preaching, he sunk down with sleep, and fell down from the third loft, and was taken up dead."
+        "prompt": "To the Thessalonians: if any would not work, what should he not do either?",
+        "bible_ref": "2 Thessalonians 3:10",
+        "verse_text": "For even when we were with you, this we commanded you, that if any would not work, neither should he eat."
       },
       "es": {
-        "prompt": "¿Por qué cayó Eutichô del tercer piso mientras Pablo hablaba?",
-        "bible_ref": "Hechos 20:9",
-        "verse_text": "Y un mancebo llamado Eutichô que estaba sentado en la ventana, tomado de un sueño profundo, como Pablo disputaba largamente, postrado del sueño cayó del tercer piso abajo, y fué alzado muerto."
+        "prompt": "A los tesalonicenses: si alguno no quisiere trabajar, ¿qué tampoco debe hacer?",
+        "bible_ref": "2 Tesalonicenses 3:10",
+        "verse_text": "Porque aun estando con vosotros, os denunciábamos esto: Que si alguno no quisiere trabajar, tampoco coma."
       }
     },
     "options": [
@@ -2962,16 +2962,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Adormeceu"
+            "text": "Comer"
           },
           "fr": {
-            "text": "Il s’endormit"
+            "text": "Manger"
           },
           "en": {
-            "text": "He fell asleep"
+            "text": "Eat"
           },
           "es": {
-            "text": "Se durmió"
+            "text": "Comer"
           }
         }
       },
@@ -2980,16 +2980,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Foi empurrado"
+            "text": "Falar"
           },
           "fr": {
-            "text": "On le poussa"
+            "text": "Parler"
           },
           "en": {
-            "text": "He was pushed"
+            "text": "Speak"
           },
           "es": {
-            "text": "Lo empujaron"
+            "text": "Hablar"
           }
         }
       },
@@ -2998,16 +2998,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "A janela partiu-se"
+            "text": "Dormir"
           },
           "fr": {
-            "text": "La fenêtre se brisa"
+            "text": "Dormir"
           },
           "en": {
-            "text": "The window broke"
+            "text": "Sleep"
           },
           "es": {
-            "text": "Se rompió la ventana"
+            "text": "Dormir"
           }
         }
       },
@@ -3016,16 +3016,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Tropeçou"
+            "text": "Viajar"
           },
           "fr": {
-            "text": "Il trébucha"
+            "text": "Voyager"
           },
           "en": {
-            "text": "He tripped"
+            "text": "Travel"
           },
           "es": {
-            "text": "Tropezó"
+            "text": "Viajar"
           }
         }
       }
