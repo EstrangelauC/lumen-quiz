@@ -1,5 +1,6521 @@
 [
   {
+    "id": "apos-easy-001",
+    "type": "choice",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 1,
+    "verse_start": 9,
+    "verse_end": 9,
+    "texts": {
+      "pt": {
+        "prompt": "Quando Jesus subiu ao céu, o que o escondeu dos olhos dos discípulos?",
+        "bible_ref": "Atos 1:9",
+        "verse_text": "E tendo ele dito estas coisas, enquanto eles o viam, ele foi levantado acima, e uma nuvem o tirou dos olhos deles."
+      },
+      "fr": {
+        "prompt": "Quand Jésus fut élevé au ciel, qu’est-ce qui le cacha aux yeux des disciples ?",
+        "bible_ref": "Actes 1:9",
+        "verse_text": "Après avoir dit cela, il fut élevé pendant qu’ils le regardaient, et une nuée le déroba à leurs yeux."
+      },
+      "en": {
+        "prompt": "When Jesus was taken up, what received him out of the disciples’ sight?",
+        "bible_ref": "Acts 1:9",
+        "verse_text": "And when he had spoken these things, while they beheld, he was taken up; and a cloud received him out of their sight."
+      },
+      "es": {
+        "prompt": "Cuando Jesús fue alzado al cielo, ¿qué lo ocultó de los ojos de los discípulos?",
+        "bible_ref": "Hechos 1:9",
+        "verse_text": "Y habiendo dicho estas cosas, viéndolo ellos, fué alzado; y una nube le recibió y le quitó de sus ojos."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Uma nuvem"
+          },
+          "fr": {
+            "text": "Une nuée"
+          },
+          "en": {
+            "text": "A cloud"
+          },
+          "es": {
+            "text": "Una nube"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um carro de fogo"
+          },
+          "fr": {
+            "text": "Un char de feu"
+          },
+          "en": {
+            "text": "A chariot of fire"
+          },
+          "es": {
+            "text": "Un carro de fuego"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma tempestade"
+          },
+          "fr": {
+            "text": "Une tempête"
+          },
+          "en": {
+            "text": "A storm"
+          },
+          "es": {
+            "text": "Una tempestad"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Fumo"
+          },
+          "fr": {
+            "text": "De la fumée"
+          },
+          "en": {
+            "text": "Smoke"
+          },
+          "es": {
+            "text": "Humo"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-002",
+    "type": "choice",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 2,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "No dia de Pentecostes, o que apareceu sobre cada um dos discípulos?",
+        "bible_ref": "Atos 2:3",
+        "verse_text": "E foram vistas por eles línguas repartidas como que de fogo, e se pôs sobre cada um deles."
+      },
+      "fr": {
+        "prompt": "Le jour de la Pentecôte, qu’est-ce qui apparut et se posa sur chacun des disciples ?",
+        "bible_ref": "Actes 2:3",
+        "verse_text": "Des langues, semblables à des langues de feu, leur apparurent, séparées les unes des autres, et se posèrent sur chacun d’eux."
+      },
+      "en": {
+        "prompt": "On the day of Pentecost, what appeared and sat upon each of the disciples?",
+        "bible_ref": "Acts 2:3",
+        "verse_text": "And there appeared unto them cloven tongues like as of fire, and it sat upon each of them."
+      },
+      "es": {
+        "prompt": "El día de Pentecostés, ¿qué apareció y se posó sobre cada uno de los discípulos?",
+        "bible_ref": "Hechos 2:3",
+        "verse_text": "Y se les aparecieron lenguas repartidas, como de fuego, que se asentó sobre cada uno de ellos."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Línguas como de fogo"
+          },
+          "fr": {
+            "text": "Des langues de feu"
+          },
+          "en": {
+            "text": "Tongues like as of fire"
+          },
+          "es": {
+            "text": "Lenguas como de fuego"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma pomba"
+          },
+          "fr": {
+            "text": "Une colombe"
+          },
+          "en": {
+            "text": "A dove"
+          },
+          "es": {
+            "text": "Una paloma"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Estrelas"
+          },
+          "fr": {
+            "text": "Des étoiles"
+          },
+          "en": {
+            "text": "Stars"
+          },
+          "es": {
+            "text": "Estrellas"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um arco-íris"
+          },
+          "fr": {
+            "text": "Un arc-en-ciel"
+          },
+          "en": {
+            "text": "A rainbow"
+          },
+          "es": {
+            "text": "Un arco iris"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-003",
+    "type": "choice",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 3,
+    "verse_start": 6,
+    "verse_end": 6,
+    "texts": {
+      "pt": {
+        "prompt": "O que disse Pedro ao coxo que não tinha para lhe dar?",
+        "bible_ref": "Atos 3:6",
+        "verse_text": "E Pedro disse: Prata e ouro eu não tenho; mas o que eu tenho, isso eu te dou: no nome de Jesus Cristo, o nazareno, levanta-te, e anda!"
+      },
+      "fr": {
+        "prompt": "Qu’est-ce que Pierre dit au boiteux qu’il n’avait pas ?",
+        "bible_ref": "Actes 3:6",
+        "verse_text": "Alors Pierre lui dit: Je n’ai ni argent, ni or; mais ce que j’ai, je te le donne: au nom de Jésus-Christ de Nazareth, lève-toi et marche."
+      },
+      "en": {
+        "prompt": "What did Peter tell the lame man he did not have?",
+        "bible_ref": "Acts 3:6",
+        "verse_text": "Then Peter said, Silver and gold have I none; but such as I have give I thee: In the name of Jesus Christ of Nazareth rise up and walk."
+      },
+      "es": {
+        "prompt": "¿Qué le dijo Pedro al cojo que no tenía?",
+        "bible_ref": "Hechos 3:6",
+        "verse_text": "Y Pedro dijo: Ni tengo plata ni oro; mas lo que tengo te doy: en el nombre de Jesucristo de Nazaret, levántate y anda."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Prata e ouro"
+          },
+          "fr": {
+            "text": "Argent et or"
+          },
+          "en": {
+            "text": "Silver and gold"
+          },
+          "es": {
+            "text": "Plata y oro"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Pão e peixe"
+          },
+          "fr": {
+            "text": "Pain et poisson"
+          },
+          "en": {
+            "text": "Bread and fish"
+          },
+          "es": {
+            "text": "Pan y pescado"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Água e vinho"
+          },
+          "fr": {
+            "text": "Eau et vin"
+          },
+          "en": {
+            "text": "Water and wine"
+          },
+          "es": {
+            "text": "Agua y vino"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Roupa e sandálias"
+          },
+          "fr": {
+            "text": "Vêtements et sandales"
+          },
+          "en": {
+            "text": "Clothes and sandals"
+          },
+          "es": {
+            "text": "Ropa y sandalias"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-004",
+    "type": "choice",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 7,
+    "verse_start": 59,
+    "verse_end": 59,
+    "texts": {
+      "pt": {
+        "prompt": "Como mataram Estêvão?",
+        "bible_ref": "Atos 7:59",
+        "verse_text": "E apedrejaram a Estêvão, que estava clamando e dizendo: Senhor Jesus, recebe o meu espírito."
+      },
+      "fr": {
+        "prompt": "Comment Étienne fut-il mis à mort ?",
+        "bible_ref": "Actes 7:59",
+        "verse_text": "Et ils lapidaient Étienne, qui priait et disait: Seigneur Jésus, reçois mon esprit!"
+      },
+      "en": {
+        "prompt": "How was Stephen put to death?",
+        "bible_ref": "Acts 7:59",
+        "verse_text": "And they stoned Stephen, calling upon God, and saying, Lord Jesus, receive my spirit."
+      },
+      "es": {
+        "prompt": "¿Cómo mataron a Esteban?",
+        "bible_ref": "Hechos 7:59",
+        "verse_text": "Y apedrearon á Esteban, invocando él y diciendo: Señor Jesús, recibe mi espíritu."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Com pedras"
+          },
+          "fr": {
+            "text": "Avec des pierres"
+          },
+          "en": {
+            "text": "With stones"
+          },
+          "es": {
+            "text": "Con piedras"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Com setas"
+          },
+          "fr": {
+            "text": "Avec des flèches"
+          },
+          "en": {
+            "text": "With arrows"
+          },
+          "es": {
+            "text": "Con flechas"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Com lanças"
+          },
+          "fr": {
+            "text": "Avec des lances"
+          },
+          "en": {
+            "text": "With spears"
+          },
+          "es": {
+            "text": "Con lanzas"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-005",
+    "type": "choice",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 9,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "Saulo viu uma luz do céu quando estava perto de que cidade?",
+        "bible_ref": "Atos 9:3",
+        "verse_text": "E indo, aconteceu que chegando perto de Damasco, repentinamente brilhou ao redor dele uma luz do céu."
+      },
+      "fr": {
+        "prompt": "Saul vit une lumière du ciel alors qu’il approchait de quelle ville ?",
+        "bible_ref": "Actes 9:3",
+        "verse_text": "Comme il était en chemin, et qu’il approchait de Damas, tout à coup une lumière venant du ciel resplendit autour de lui."
+      },
+      "en": {
+        "prompt": "Saul saw a light from heaven as he came near which city?",
+        "bible_ref": "Acts 9:3",
+        "verse_text": "And as he journeyed, he came near Damascus: and suddenly there shined round about him a light from heaven:"
+      },
+      "es": {
+        "prompt": "¿Cerca de qué ciudad estaba Saulo cuando vio una luz del cielo?",
+        "bible_ref": "Hechos 9:3",
+        "verse_text": "Y yendo por el camino, aconteció que llegando cerca de Damasco, súbitamente le cercó un resplandor de luz del cielo;"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Damasco"
+          },
+          "fr": {
+            "text": "Damas"
+          },
+          "en": {
+            "text": "Damascus"
+          },
+          "es": {
+            "text": "Damasco"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Jerusalém"
+          },
+          "fr": {
+            "text": "Jérusalem"
+          },
+          "en": {
+            "text": "Jerusalem"
+          },
+          "es": {
+            "text": "Jerusalem"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Roma"
+          },
+          "fr": {
+            "text": "Rome"
+          },
+          "en": {
+            "text": "Rome"
+          },
+          "es": {
+            "text": "Roma"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Jericó"
+          },
+          "fr": {
+            "text": "Jéricho"
+          },
+          "en": {
+            "text": "Jericho"
+          },
+          "es": {
+            "text": "Jericó"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-006",
+    "type": "choice",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 9,
+    "verse_start": 5,
+    "verse_end": 5,
+    "texts": {
+      "pt": {
+        "prompt": "No caminho, quem falou com Saulo e disse «a quem tu persegues»?",
+        "bible_ref": "Atos 9:5",
+        "verse_text": "E ele disse: Quem és, Senhor?E o Senhor disse: Eu sou Jesus, a quem tu persegues; duro é para ti dar coices contra os aguilhões."
+      },
+      "fr": {
+        "prompt": "Sur le chemin, qui parla à Saul et dit « que tu persécutes » ?",
+        "bible_ref": "Actes 9:5",
+        "verse_text": "Il répondit: Qui es-tu, Seigneur? Et le Seigneur dit: Je suis Jésus que tu persécutes. Il te serait dur de regimber contre les aiguillons."
+      },
+      "en": {
+        "prompt": "On the road, who spoke to Saul and said “whom thou persecutest”?",
+        "bible_ref": "Acts 9:5",
+        "verse_text": "And he said, Who art thou, Lord? And the Lord said, I am Jesus whom thou persecutest: it is hard for thee to kick against the pricks."
+      },
+      "es": {
+        "prompt": "En el camino, ¿quién habló a Saulo y dijo «a quien tú persigues»?",
+        "bible_ref": "Hechos 9:5",
+        "verse_text": "Y él dijo: ¿Quién eres, Señor? Y él dijo: Yo soy Jesús á quien tú persigues: dura cosa te es dar coces contra el aguijón."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Jesus"
+          },
+          "fr": {
+            "text": "Jésus"
+          },
+          "en": {
+            "text": "Jesus"
+          },
+          "es": {
+            "text": "Jesús"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Pedro"
+          },
+          "fr": {
+            "text": "Pierre"
+          },
+          "en": {
+            "text": "Peter"
+          },
+          "es": {
+            "text": "Pedro"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Moisés"
+          },
+          "fr": {
+            "text": "Moïse"
+          },
+          "en": {
+            "text": "Moses"
+          },
+          "es": {
+            "text": "Moisés"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Estêvão"
+          },
+          "fr": {
+            "text": "Étienne"
+          },
+          "en": {
+            "text": "Stephen"
+          },
+          "es": {
+            "text": "Esteban"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-007",
+    "type": "choice",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 12,
+    "verse_start": 7,
+    "verse_end": 7,
+    "texts": {
+      "pt": {
+        "prompt": "Quem acordou Pedro na prisão e fez cair as correntes das suas mãos?",
+        "bible_ref": "Atos 12:7",
+        "verse_text": "E eis que veio acima um anjo do Senhor, e uma luz brilhou na prisão; e tocando em Pedro em sua lateral, despertou-o, dizendo; Levanta-te, depressa!E as correntes caíram de suas mãos."
+      },
+      "fr": {
+        "prompt": "Qui réveilla Pierre dans la prison et fit tomber les chaînes de ses mains ?",
+        "bible_ref": "Actes 12:7",
+        "verse_text": "Et voici, un ange du Seigneur survint, et une lumière brilla dans la prison. L’ange réveilla Pierre, en le frappant au côté, et en disant: Lève-toi promptement! Les chaînes tombèrent de ses mains."
+      },
+      "en": {
+        "prompt": "Who woke Peter in the prison, and made the chains fall off his hands?",
+        "bible_ref": "Acts 12:7",
+        "verse_text": "And, behold, the angel of the Lord came upon him, and a light shined in the prison: and he smote Peter on the side, and raised him up, saying, Arise up quickly. And his chains fell off from his hands."
+      },
+      "es": {
+        "prompt": "¿Quién despertó a Pedro en la cárcel e hizo caer las cadenas de sus manos?",
+        "bible_ref": "Hechos 12:7",
+        "verse_text": "Y he aquí, el ángel del Señor sobrevino, y una luz resplandeció en la cárcel; é hiriendo á Pedro en el lado, le despertó, diciendo: Levántate prestamente. Y las cadenas se le cayeron de las manos."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Um anjo do Senhor"
+          },
+          "fr": {
+            "text": "Un ange du Seigneur"
+          },
+          "en": {
+            "text": "The angel of the Lord"
+          },
+          "es": {
+            "text": "El ángel del Señor"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um soldado"
+          },
+          "fr": {
+            "text": "Un soldat"
+          },
+          "en": {
+            "text": "A soldier"
+          },
+          "es": {
+            "text": "Un soldado"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O carcereiro"
+          },
+          "fr": {
+            "text": "Le geôlier"
+          },
+          "en": {
+            "text": "The jailer"
+          },
+          "es": {
+            "text": "El carcelero"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Paulo"
+          },
+          "fr": {
+            "text": "Paul"
+          },
+          "en": {
+            "text": "Paul"
+          },
+          "es": {
+            "text": "Pablo"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-008",
+    "type": "choice",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 16,
+    "verse_start": 25,
+    "verse_end": 25,
+    "texts": {
+      "pt": {
+        "prompt": "À meia-noite, na prisão, quem cantava hinos a Deus com Paulo?",
+        "bible_ref": "Atos 16:25",
+        "verse_text": "E perto da meia-noite, Paulo e Silas estavam orando, e cantando hinos a Deus; e os outros presos os escutavam."
+      },
+      "fr": {
+        "prompt": "Vers minuit, dans la prison, qui chantait les louanges de Dieu avec Paul ?",
+        "bible_ref": "Actes 16:25",
+        "verse_text": "Vers le milieu de la nuit, Paul et Silas priaient et chantaient les louanges de Dieu, et les prisonniers les entendaient."
+      },
+      "en": {
+        "prompt": "At midnight in the prison, who sang praises unto God with Paul?",
+        "bible_ref": "Acts 16:25",
+        "verse_text": "And at midnight Paul and Silas prayed, and sang praises unto God: and the prisoners heard them."
+      },
+      "es": {
+        "prompt": "A medianoche, en la cárcel, ¿quién cantaba himnos a Dios con Pablo?",
+        "bible_ref": "Hechos 16:25",
+        "verse_text": "Mas á media noche, orando Pablo y Silas, cantaban himnos á Dios: y los que estaban presos los oían."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Silas"
+          },
+          "fr": {
+            "text": "Silas"
+          },
+          "en": {
+            "text": "Silas"
+          },
+          "es": {
+            "text": "Silas"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Pedro"
+          },
+          "fr": {
+            "text": "Pierre"
+          },
+          "en": {
+            "text": "Peter"
+          },
+          "es": {
+            "text": "Pedro"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Timóteo"
+          },
+          "fr": {
+            "text": "Timothée"
+          },
+          "en": {
+            "text": "Timothy"
+          },
+          "es": {
+            "text": "Timoteo"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Lucas"
+          },
+          "fr": {
+            "text": "Luc"
+          },
+          "en": {
+            "text": "Luke"
+          },
+          "es": {
+            "text": "Lucas"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-009",
+    "type": "choice",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 28,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "Quando Paulo pôs lenha no fogo, que animal saiu e se agarrou à sua mão?",
+        "bible_ref": "Atos 28:3",
+        "verse_text": "E tendo Paulo recolhido uma quantidade de gravetos, e pondo-os no fogo, saiu uma víbora do calor, e fixou os dentes na mão dele."
+      },
+      "fr": {
+        "prompt": "Quand Paul mit du bois au feu, quel animal en sortit et s’attacha à sa main ?",
+        "bible_ref": "Actes 28:3",
+        "verse_text": "Paul ayant ramassé un tas de broussailles et l’ayant mis au feu, une vipère en sortit par l’effet de la chaleur et s’attacha à sa main."
+      },
+      "en": {
+        "prompt": "When Paul laid sticks on the fire, what animal came out and fastened on his hand?",
+        "bible_ref": "Acts 28:3",
+        "verse_text": "And when Paul had gathered a bundle of sticks, and laid them on the fire, there came a viper out of the heat, and fastened on his hand."
+      },
+      "es": {
+        "prompt": "Cuando Pablo puso leña en el fuego, ¿qué animal salió y le acometió la mano?",
+        "bible_ref": "Hechos 28:3",
+        "verse_text": "Entonces habiendo Pablo recogido algunos sarmientos, y puéstolos en el fuego, una víbora, huyendo del calor, le acometió á la mano."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Uma víbora"
+          },
+          "fr": {
+            "text": "Une vipère"
+          },
+          "en": {
+            "text": "A viper"
+          },
+          "es": {
+            "text": "Una víbora"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um escorpião"
+          },
+          "fr": {
+            "text": "Un scorpion"
+          },
+          "en": {
+            "text": "A scorpion"
+          },
+          "es": {
+            "text": "Un escorpión"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma aranha"
+          },
+          "fr": {
+            "text": "Une araignée"
+          },
+          "en": {
+            "text": "A spider"
+          },
+          "es": {
+            "text": "Una araña"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um rato"
+          },
+          "fr": {
+            "text": "Un rat"
+          },
+          "en": {
+            "text": "A rat"
+          },
+          "es": {
+            "text": "Una rata"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-010",
+    "type": "choice",
+    "level": "easy",
+    "testament": "nt",
+    "book": "EPH",
+    "chapter": 6,
+    "verse_start": 11,
+    "verse_end": 11,
+    "texts": {
+      "pt": {
+        "prompt": "Para estar firme contra as ciladas do diabo, o que devemos vestir?",
+        "bible_ref": "Efésios 6:11",
+        "verse_text": "Revesti-vos de toda a armadura de Deus, para que possais estar firmes contra as ciladas do diabo."
+      },
+      "fr": {
+        "prompt": "Pour tenir ferme contre les ruses du diable, de quoi faut-il se revêtir ?",
+        "bible_ref": "Éphésiens 6:11",
+        "verse_text": "Revêtez-vous de toutes les armes de Dieu, afin de pouvoir tenir ferme contre les ruses du diable."
+      },
+      "en": {
+        "prompt": "To stand against the wiles of the devil, what should we put on?",
+        "bible_ref": "Ephesians 6:11",
+        "verse_text": "Put on the whole armour of God, that ye may be able to stand against the wiles of the devil."
+      },
+      "es": {
+        "prompt": "Para estar firmes contra las asechanzas del diablo, ¿de qué debemos vestirnos?",
+        "bible_ref": "Efesios 6:11",
+        "verse_text": "Vestíos de toda la armadura de Dios, para que podáis estar firmes contra las asechanzas del diablo."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "A armadura de Deus"
+          },
+          "fr": {
+            "text": "Les armes de Dieu"
+          },
+          "en": {
+            "text": "The whole armour of God"
+          },
+          "es": {
+            "text": "La armadura de Dios"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma coroa de ouro"
+          },
+          "fr": {
+            "text": "Une couronne d’or"
+          },
+          "en": {
+            "text": "A golden crown"
+          },
+          "es": {
+            "text": "Una corona de oro"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Roupas de rei"
+          },
+          "fr": {
+            "text": "Des habits de roi"
+          },
+          "en": {
+            "text": "Royal robes"
+          },
+          "es": {
+            "text": "Ropas de rey"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um manto branco"
+          },
+          "fr": {
+            "text": "Un manteau blanc"
+          },
+          "en": {
+            "text": "A white cloak"
+          },
+          "es": {
+            "text": "Un manto blanco"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-011",
+    "type": "choice",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 8,
+    "verse_start": 30,
+    "verse_end": 30,
+    "texts": {
+      "pt": {
+        "prompt": "O que estava a ler o etíope quando Filipe correu para ele?",
+        "bible_ref": "Atos 8:30",
+        "verse_text": "E Filipe, correndo, ouviu que ele estava lendo ao profeta Isaías, e disse: Tu entendes o que estás lendo?"
+      },
+      "fr": {
+        "prompt": "Que lisait l’Éthiopien quand Philippe accourut ?",
+        "bible_ref": "Actes 8:30",
+        "verse_text": "Philippe accourut, et entendit l’Éthiopien qui lisait le prophète Ésaïe. Il lui dit: Comprends-tu ce que tu lis?"
+      },
+      "en": {
+        "prompt": "What was the Ethiopian reading when Philip ran to him?",
+        "bible_ref": "Acts 8:30",
+        "verse_text": "And Philip ran thither to him, and heard him read the prophet Esaias, and said, Understandest thou what thou readest?"
+      },
+      "es": {
+        "prompt": "¿Qué leía el etíope cuando Felipe acudió a él?",
+        "bible_ref": "Hechos 8:30",
+        "verse_text": "Y acudiendo Felipe, le oyó que leía el profeta Isaías, y dijo: Mas ¿entiendes lo que lees?"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "O profeta Isaías"
+          },
+          "fr": {
+            "text": "Le prophète Ésaïe"
+          },
+          "en": {
+            "text": "The prophet Esaias"
+          },
+          "es": {
+            "text": "El profeta Isaías"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O profeta Jonas"
+          },
+          "fr": {
+            "text": "Le prophète Jonas"
+          },
+          "en": {
+            "text": "The prophet Jonas"
+          },
+          "es": {
+            "text": "El profeta Jonás"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O profeta Daniel"
+          },
+          "fr": {
+            "text": "Le prophète Daniel"
+          },
+          "en": {
+            "text": "The prophet Daniel"
+          },
+          "es": {
+            "text": "El profeta Daniel"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-012",
+    "type": "choice",
+    "level": "easy",
+    "testament": "nt",
+    "book": "REV",
+    "chapter": 1,
+    "verse_start": 9,
+    "verse_end": 9,
+    "texts": {
+      "pt": {
+        "prompt": "Em que ilha estava João quando teve as visões do Apocalipse?",
+        "bible_ref": "Apocalipse 1:9",
+        "verse_text": "Eu, João, (que também sou vosso irmão, e companheiro na aflição, e no Reino, e na paciência de Jesus Cristo), estava na ilha chamada Patmos, por causa da palavra de Deus, e por causa do testemunho de Jesus Cristo."
+      },
+      "fr": {
+        "prompt": "Dans quelle île Jean se trouvait-il quand il eut les visions de l’Apocalypse ?",
+        "bible_ref": "Apocalypse 1:9",
+        "verse_text": "Moi Jean, votre frère, et qui ai part avec vous à la tribulation et au royaume et à la persévérance en Jésus, j’étais dans l’île appelée Patmos, à cause de la parole de Dieu et du témoignage de Jésus."
+      },
+      "en": {
+        "prompt": "On which island was John when he had the visions of Revelation?",
+        "bible_ref": "Revelation 1:9",
+        "verse_text": "I John, who also am your brother, and companion in tribulation, and in the kingdom and patience of Jesus Christ, was in the isle that is called Patmos, for the word of God, and for the testimony of Jesus Christ."
+      },
+      "es": {
+        "prompt": "¿En qué isla estaba Juan cuando tuvo las visiones del Apocalipsis?",
+        "bible_ref": "Apocalipsis 1:9",
+        "verse_text": "Yo Juan, vuestro hermano, y participante en la tribulación y en el reino, y en la paciencia de Jesucristo, estaba en la isla que es llamada Patmos, por la palabra de Dios y el testimonio de Jesucristo."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Patmos"
+          },
+          "fr": {
+            "text": "Patmos"
+          },
+          "en": {
+            "text": "Patmos"
+          },
+          "es": {
+            "text": "Patmos"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Chipre"
+          },
+          "fr": {
+            "text": "Chypre"
+          },
+          "en": {
+            "text": "Cyprus"
+          },
+          "es": {
+            "text": "Cipro"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Creta"
+          },
+          "fr": {
+            "text": "Crète"
+          },
+          "en": {
+            "text": "Crete"
+          },
+          "es": {
+            "text": "Creta"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Malta"
+          },
+          "fr": {
+            "text": "Malte"
+          },
+          "en": {
+            "text": "Melita"
+          },
+          "es": {
+            "text": "Melita"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-013",
+    "type": "order",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 1,
+    "verse_start": 9,
+    "verse_end": 9,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Atos 1:9",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Actes 1:9",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Acts 1:9",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Hechos 1:9",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Jesus sobe ao céu",
+            "ref": "Atos 1:9"
+          },
+          "fr": {
+            "text": "Jésus est élevé au ciel",
+            "ref": "Actes 1:9"
+          },
+          "en": {
+            "text": "Jesus is taken up into heaven",
+            "ref": "Acts 1:9"
+          },
+          "es": {
+            "text": "Jesús sube al cielo",
+            "ref": "Hechos 1:9"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O Espírito Santo enche os discípulos",
+            "ref": "Atos 2:4"
+          },
+          "fr": {
+            "text": "Le Saint-Esprit remplit les disciples",
+            "ref": "Actes 2:4"
+          },
+          "en": {
+            "text": "The Holy Ghost fills the disciples",
+            "ref": "Acts 2:4"
+          },
+          "es": {
+            "text": "El Espíritu Santo llena a los discípulos",
+            "ref": "Hechos 2:4"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "São escolhidos sete homens para servir",
+            "ref": "Atos 6:5"
+          },
+          "fr": {
+            "text": "Sept hommes sont choisis pour servir",
+            "ref": "Actes 6:5"
+          },
+          "en": {
+            "text": "Seven men are chosen to serve",
+            "ref": "Acts 6:5"
+          },
+          "es": {
+            "text": "Eligen a siete hombres para servir",
+            "ref": "Hechos 6:5"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Filipe batiza o eunuco etíope",
+            "ref": "Atos 8:38"
+          },
+          "fr": {
+            "text": "Philippe baptise l’eunuque éthiopien",
+            "ref": "Actes 8:38"
+          },
+          "en": {
+            "text": "Philip baptizes the Ethiopian eunuch",
+            "ref": "Acts 8:38"
+          },
+          "es": {
+            "text": "Felipe bautiza al eunuco etíope",
+            "ref": "Hechos 8:38"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-014",
+    "type": "order",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 13,
+    "verse_start": 2,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Atos 13:2-3",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Actes 13:2-3",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Acts 13:2-3",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Hechos 13:2-3",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Barnabé e Saulo são enviados em missão",
+            "ref": "Atos 13:2-3"
+          },
+          "fr": {
+            "text": "Barnabas et Saul sont envoyés en mission",
+            "ref": "Actes 13:2-3"
+          },
+          "en": {
+            "text": "Barnabas and Saul are sent out",
+            "ref": "Acts 13:2-3"
+          },
+          "es": {
+            "text": "Bernabé y Saulo son enviados en misión",
+            "ref": "Hechos 13:2-3"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Paulo fala aos atenienses no Areópago",
+            "ref": "Atos 17:22"
+          },
+          "fr": {
+            "text": "Paul parle aux Athéniens à l’Aréopage",
+            "ref": "Actes 17:22"
+          },
+          "en": {
+            "text": "Paul speaks to the men of Athens",
+            "ref": "Acts 17:22"
+          },
+          "es": {
+            "text": "Pablo habla a los atenienses en el Areópago",
+            "ref": "Hechos 17:22"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Paulo é preso em Jerusalém",
+            "ref": "Atos 21:33"
+          },
+          "fr": {
+            "text": "Paul est arrêté à Jérusalem",
+            "ref": "Actes 21:33"
+          },
+          "en": {
+            "text": "Paul is arrested in Jerusalem",
+            "ref": "Acts 21:33"
+          },
+          "es": {
+            "text": "Pablo es apresado en Jerusalem",
+            "ref": "Hechos 21:33"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Paulo chega a Roma",
+            "ref": "Atos 28:16"
+          },
+          "fr": {
+            "text": "Paul arrive à Rome",
+            "ref": "Actes 28:16"
+          },
+          "en": {
+            "text": "Paul arrives in Rome",
+            "ref": "Acts 28:16"
+          },
+          "es": {
+            "text": "Pablo llega a Roma",
+            "ref": "Hechos 28:16"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-015",
+    "type": "order",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 3,
+    "verse_start": 7,
+    "verse_end": 7,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Atos 3:7",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Actes 3:7",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Acts 3:7",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Hechos 3:7",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Pedro levanta um coxo pela mão",
+            "ref": "Atos 3:7"
+          },
+          "fr": {
+            "text": "Pierre fait lever un boiteux",
+            "ref": "Actes 3:7"
+          },
+          "en": {
+            "text": "Peter lifts up a lame man",
+            "ref": "Acts 3:7"
+          },
+          "es": {
+            "text": "Pedro levanta a un cojo",
+            "ref": "Hechos 3:7"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Pedro e João passam a noite na prisão",
+            "ref": "Atos 4:3"
+          },
+          "fr": {
+            "text": "Pierre et Jean passent la nuit en prison",
+            "ref": "Actes 4:3"
+          },
+          "en": {
+            "text": "Peter and John are kept in hold overnight",
+            "ref": "Acts 4:3"
+          },
+          "es": {
+            "text": "Pedro y Juan pasan la noche en la cárcel",
+            "ref": "Hechos 4:3"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Pedro diz a Tabita: «Levanta-te»",
+            "ref": "Atos 9:40"
+          },
+          "fr": {
+            "text": "Pierre dit à Tabitha : « Lève-toi »",
+            "ref": "Actes 9:40"
+          },
+          "en": {
+            "text": "Peter says to Tabitha: “Arise”",
+            "ref": "Acts 9:40"
+          },
+          "es": {
+            "text": "Pedro dice a Tabita: «Levántate»",
+            "ref": "Hechos 9:40"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Pedro entra em casa de Cornélio",
+            "ref": "Atos 10:25"
+          },
+          "fr": {
+            "text": "Pierre entre chez Corneille",
+            "ref": "Actes 10:25"
+          },
+          "en": {
+            "text": "Peter comes in to Cornelius",
+            "ref": "Acts 10:25"
+          },
+          "es": {
+            "text": "Pedro entra en casa de Cornelio",
+            "ref": "Hechos 10:25"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-016",
+    "type": "order",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 8,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Atos 8:3",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Actes 8:3",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Acts 8:3",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Hechos 8:3",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Saulo persegue a igreja",
+            "ref": "Atos 8:3"
+          },
+          "fr": {
+            "text": "Saul persécute l’Église",
+            "ref": "Actes 8:3"
+          },
+          "en": {
+            "text": "Saul makes havock of the church",
+            "ref": "Acts 8:3"
+          },
+          "es": {
+            "text": "Saulo persigue a la iglesia",
+            "ref": "Hechos 8:3"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Saulo volta a ver e é batizado",
+            "ref": "Atos 9:18"
+          },
+          "fr": {
+            "text": "Saul recouvre la vue et est baptisé",
+            "ref": "Actes 9:18"
+          },
+          "en": {
+            "text": "Saul receives his sight and is baptized",
+            "ref": "Acts 9:18"
+          },
+          "es": {
+            "text": "Saulo recobra la vista y es bautizado",
+            "ref": "Hechos 9:18"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Saulo foge num cesto pelo muro",
+            "ref": "Atos 9:25"
+          },
+          "fr": {
+            "text": "Saul s’enfuit dans une corbeille",
+            "ref": "Actes 9:25"
+          },
+          "en": {
+            "text": "Saul is let down the wall in a basket",
+            "ref": "Acts 9:25"
+          },
+          "es": {
+            "text": "Saulo huye en una espuerta por el muro",
+            "ref": "Hechos 9:25"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Barnabé leva Saulo aos apóstolos",
+            "ref": "Atos 9:27"
+          },
+          "fr": {
+            "text": "Barnabas mène Saul aux apôtres",
+            "ref": "Actes 9:27"
+          },
+          "en": {
+            "text": "Barnabas brings Saul to the apostles",
+            "ref": "Acts 9:27"
+          },
+          "es": {
+            "text": "Bernabé lleva a Saulo a los apóstoles",
+            "ref": "Hechos 9:27"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-017",
+    "type": "verse",
+    "level": "easy",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 16,
+    "verse_start": 31,
+    "verse_end": 31,
+    "texts": {
+      "pt": {
+        "prompt": "E eles lhe disseram: Crê no Senhor Jesus Cristo, e serás _____, tu e a tua casa.",
+        "bible_ref": "Atos 16:31",
+        "verse_text": "E eles lhe disseram: Crê no Senhor Jesus Cristo, e serás salvo, tu e a tua casa."
+      },
+      "fr": {
+        "prompt": "Paul et Silas répondirent: Crois au Seigneur Jésus, et tu seras _____, toi et ta famille.",
+        "bible_ref": "Actes 16:31",
+        "verse_text": "Paul et Silas répondirent: Crois au Seigneur Jésus, et tu seras sauvé, toi et ta famille."
+      },
+      "en": {
+        "prompt": "And they said, Believe on the Lord Jesus Christ, and thou shalt be _____, and thy house.",
+        "bible_ref": "Acts 16:31",
+        "verse_text": "And they said, Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house."
+      },
+      "es": {
+        "prompt": "Y ellos dijeron: Cree en el Señor Jesucristo, y serás _____ tú, y tu casa.",
+        "bible_ref": "Hechos 16:31",
+        "verse_text": "Y ellos dijeron: Cree en el Señor Jesucristo, y serás salvo tú, y tu casa."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "rico"
+          },
+          "fr": {
+            "text": "riche"
+          },
+          "en": {
+            "text": "rich"
+          },
+          "es": {
+            "text": "rico"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "salvo"
+          },
+          "fr": {
+            "text": "sauvé"
+          },
+          "en": {
+            "text": "saved"
+          },
+          "es": {
+            "text": "salvo"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "feliz"
+          },
+          "fr": {
+            "text": "heureux"
+          },
+          "en": {
+            "text": "happy"
+          },
+          "es": {
+            "text": "feliz"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "forte"
+          },
+          "fr": {
+            "text": "fort"
+          },
+          "en": {
+            "text": "strong"
+          },
+          "es": {
+            "text": "fuerte"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-018",
+    "type": "verse",
+    "level": "easy",
+    "testament": "nt",
+    "book": "1JN",
+    "chapter": 4,
+    "verse_start": 8,
+    "verse_end": 8,
+    "texts": {
+      "pt": {
+        "prompt": "Aquele que não ama não conhece a Deus, porque Deus é _____.",
+        "bible_ref": "1 João 4:8",
+        "verse_text": "Aquele que não ama não conhece a Deus, porque Deus é amor."
+      },
+      "fr": {
+        "prompt": "Celui qui n’aime pas n’a pas connu Dieu, car Dieu est _____.",
+        "bible_ref": "1 Jean 4:8",
+        "verse_text": "Celui qui n’aime pas n’a pas connu Dieu, car Dieu est amour."
+      },
+      "en": {
+        "prompt": "He that loveth not knoweth not God; for God is _____.",
+        "bible_ref": "1 John 4:8",
+        "verse_text": "He that loveth not knoweth not God; for God is love."
+      },
+      "es": {
+        "prompt": "El que no ama, no conoce á Dios; porque Dios es _____.",
+        "bible_ref": "1 Juan 4:8",
+        "verse_text": "El que no ama, no conoce á Dios; porque Dios es amor."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "grande"
+          },
+          "fr": {
+            "text": "grand"
+          },
+          "en": {
+            "text": "great"
+          },
+          "es": {
+            "text": "grande"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "amor"
+          },
+          "fr": {
+            "text": "amour"
+          },
+          "en": {
+            "text": "love"
+          },
+          "es": {
+            "text": "amor"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "paz"
+          },
+          "fr": {
+            "text": "paix"
+          },
+          "en": {
+            "text": "peace"
+          },
+          "es": {
+            "text": "paz"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "rei"
+          },
+          "fr": {
+            "text": "roi"
+          },
+          "en": {
+            "text": "king"
+          },
+          "es": {
+            "text": "rey"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-019",
+    "type": "verse",
+    "level": "easy",
+    "testament": "nt",
+    "book": "EPH",
+    "chapter": 6,
+    "verse_start": 1,
+    "verse_end": 1,
+    "texts": {
+      "pt": {
+        "prompt": "Filhos, sede obedientes aos vossos _____ no Senhor, porque isso é justo.",
+        "bible_ref": "Efésios 6:1",
+        "verse_text": "Filhos, sede obedientes aos vossos pais no Senhor, porque isso é justo."
+      },
+      "fr": {
+        "prompt": "Enfants, obéissez à vos _____, selon le Seigneur, car cela est juste.",
+        "bible_ref": "Éphésiens 6:1",
+        "verse_text": "Enfants, obéissez à vos parents, selon le Seigneur, car cela est juste."
+      },
+      "en": {
+        "prompt": "Children, obey your _____ in the Lord: for this is right.",
+        "bible_ref": "Ephesians 6:1",
+        "verse_text": "Children, obey your parents in the Lord: for this is right."
+      },
+      "es": {
+        "prompt": "HIJOS, obedeced en el Señor á vuestros _____; porque esto es justo.",
+        "bible_ref": "Efesios 6:1",
+        "verse_text": "HIJOS, obedeced en el Señor á vuestros padres; porque esto es justo."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "irmãos"
+          },
+          "fr": {
+            "text": "frères"
+          },
+          "en": {
+            "text": "brothers"
+          },
+          "es": {
+            "text": "hermanos"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "vizinhos"
+          },
+          "fr": {
+            "text": "voisins"
+          },
+          "en": {
+            "text": "neighbours"
+          },
+          "es": {
+            "text": "vecinos"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "amigos"
+          },
+          "fr": {
+            "text": "amis"
+          },
+          "en": {
+            "text": "friends"
+          },
+          "es": {
+            "text": "amigos"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "pais"
+          },
+          "fr": {
+            "text": "parents"
+          },
+          "en": {
+            "text": "parents"
+          },
+          "es": {
+            "text": "padres"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-020",
+    "type": "verse",
+    "level": "easy",
+    "testament": "nt",
+    "book": "1TH",
+    "chapter": 5,
+    "verse_start": 17,
+    "verse_end": 17,
+    "texts": {
+      "pt": {
+        "prompt": "_____ sem cessar.",
+        "bible_ref": "1 Tessalonicenses 5:17",
+        "verse_text": "Orai sem cessar."
+      },
+      "fr": {
+        "prompt": "_____ sans cesse.",
+        "bible_ref": "1 Thessaloniciens 5:17",
+        "verse_text": "Priez sans cesse."
+      },
+      "en": {
+        "prompt": "_____ without ceasing.",
+        "bible_ref": "1 Thessalonians 5:17",
+        "verse_text": "Pray without ceasing."
+      },
+      "es": {
+        "prompt": "_____ sin cesar.",
+        "bible_ref": "1 Tesalonicenses 5:17",
+        "verse_text": "Orad sin cesar."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "cantai"
+          },
+          "fr": {
+            "text": "chantez"
+          },
+          "en": {
+            "text": "sing"
+          },
+          "es": {
+            "text": "cantad"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "aprendei"
+          },
+          "fr": {
+            "text": "apprenez"
+          },
+          "en": {
+            "text": "learn"
+          },
+          "es": {
+            "text": "aprended"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "trabalhai"
+          },
+          "fr": {
+            "text": "travaillez"
+          },
+          "en": {
+            "text": "work"
+          },
+          "es": {
+            "text": "trabajad"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "orai"
+          },
+          "fr": {
+            "text": "priez"
+          },
+          "en": {
+            "text": "pray"
+          },
+          "es": {
+            "text": "orad"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-001",
+    "type": "choice",
+    "level": "medium",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 1,
+    "verse_start": 26,
+    "verse_end": 26,
+    "texts": {
+      "pt": {
+        "prompt": "Sobre quem caiu a sorte para ser contado com os onze apóstolos?",
+        "bible_ref": "Atos 1:26",
+        "verse_text": "E lançaram-lhes as sortes; e caiu a sorte sobre Matias. E ele passou a ser contado junto com os onze apóstolos."
+      },
+      "fr": {
+        "prompt": "Sur qui tomba le sort pour être associé aux onze apôtres ?",
+        "bible_ref": "Actes 1:26",
+        "verse_text": "Ils tirèrent au sort, et le sort tomba sur Matthias, qui fut associé aux onze apôtres."
+      },
+      "en": {
+        "prompt": "Upon whom did the lot fall, to be numbered with the eleven apostles?",
+        "bible_ref": "Acts 1:26",
+        "verse_text": "And they gave forth their lots; and the lot fell upon Matthias; and he was numbered with the eleven apostles."
+      },
+      "es": {
+        "prompt": "¿Sobre quién cayó la suerte para ser contado con los once apóstoles?",
+        "bible_ref": "Hechos 1:26",
+        "verse_text": "Y les echaron suertes, y cayó la suerte sobre Matías; y fué contado con los once apóstoles."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Matias"
+          },
+          "fr": {
+            "text": "Matthias"
+          },
+          "en": {
+            "text": "Matthias"
+          },
+          "es": {
+            "text": "Matías"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "José Barsabás"
+          },
+          "fr": {
+            "text": "Joseph Barsabbas"
+          },
+          "en": {
+            "text": "Joseph Barsabas"
+          },
+          "es": {
+            "text": "José Barsabas"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Estêvão"
+          },
+          "fr": {
+            "text": "Étienne"
+          },
+          "en": {
+            "text": "Stephen"
+          },
+          "es": {
+            "text": "Esteban"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Silas"
+          },
+          "fr": {
+            "text": "Silas"
+          },
+          "en": {
+            "text": "Silas"
+          },
+          "es": {
+            "text": "Silas"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-002",
+    "type": "choice",
+    "level": "medium",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 5,
+    "verse_start": 1,
+    "verse_end": 1,
+    "texts": {
+      "pt": {
+        "prompt": "Como se chamava a mulher de Ananias, que vendeu com ele uma propriedade?",
+        "bible_ref": "Atos 5:1",
+        "verse_text": "E um certo homem, de nome Ananias, com Safira, sua mulher, vendeu uma propriedade de terra."
+      },
+      "fr": {
+        "prompt": "Comment s’appelait la femme d’Ananias, qui vendit avec lui une propriété ?",
+        "bible_ref": "Actes 5:1",
+        "verse_text": "Mais un homme nommé Ananias, avec Saphira sa femme, vendit une propriété,"
+      },
+      "en": {
+        "prompt": "What was the name of the wife of Ananias, who sold a possession with him?",
+        "bible_ref": "Acts 5:1",
+        "verse_text": "But a certain man named Ananias, with Sapphira his wife, sold a possession,"
+      },
+      "es": {
+        "prompt": "¿Cómo se llamaba la mujer de Ananías, que vendió con él una posesión?",
+        "bible_ref": "Hechos 5:1",
+        "verse_text": "MAS un varón llamado Ananías, con Safira su mujer, vendió una posesión,"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Safira"
+          },
+          "fr": {
+            "text": "Saphira"
+          },
+          "en": {
+            "text": "Sapphira"
+          },
+          "es": {
+            "text": "Safira"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Priscila"
+          },
+          "fr": {
+            "text": "Priscille"
+          },
+          "en": {
+            "text": "Priscilla"
+          },
+          "es": {
+            "text": "Priscila"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Rode"
+          },
+          "fr": {
+            "text": "Rhode"
+          },
+          "en": {
+            "text": "Rhoda"
+          },
+          "es": {
+            "text": "Rhode"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Marta"
+          },
+          "fr": {
+            "text": "Marthe"
+          },
+          "en": {
+            "text": "Martha"
+          },
+          "es": {
+            "text": "Marta"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-003",
+    "type": "choice",
+    "level": "medium",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 9,
+    "verse_start": 11,
+    "verse_end": 11,
+    "texts": {
+      "pt": {
+        "prompt": "Quando o Senhor enviou Ananias a Saulo, de onde disse que Saulo era?",
+        "bible_ref": "Atos 9:11",
+        "verse_text": "E o Senhor lhe disse : Levanta-te, e vai a rua chamada Direita, e pergunta na casa de Judas por um chamado Saulo, de Tarso; porque que ele ora."
+      },
+      "fr": {
+        "prompt": "Quand le Seigneur envoya Ananias vers Saul, de quelle ville dit-il qu’était Saul ?",
+        "bible_ref": "Actes 9:11",
+        "verse_text": "Et le Seigneur lui dit: Lève-toi, va dans la rue qu’on appelle la droite, et cherche, dans la maison de Judas, un nommé Saul de Tarse."
+      },
+      "en": {
+        "prompt": "When the Lord sent Ananias to Saul, where did he say Saul was from?",
+        "bible_ref": "Acts 9:11",
+        "verse_text": "And the Lord said unto him, Arise, and go into the street which is called Straight, and enquire in the house of Judas for one called Saul, of Tarsus: for, behold, he prayeth,"
+      },
+      "es": {
+        "prompt": "Cuando el Señor envió a Ananías a Saulo, ¿de dónde dijo que era Saulo?",
+        "bible_ref": "Hechos 9:11",
+        "verse_text": "Y el Señor le dijo: Levántate, y ve á la calle que se llama la Derecha, y busca en casa de Judas á uno llamado Saulo, de Tarso: porque he aquí, él ora;"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Tarso"
+          },
+          "fr": {
+            "text": "Tarse"
+          },
+          "en": {
+            "text": "Tarsus"
+          },
+          "es": {
+            "text": "Tarso"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Corinto"
+          },
+          "fr": {
+            "text": "Corinthe"
+          },
+          "en": {
+            "text": "Corinth"
+          },
+          "es": {
+            "text": "Corinto"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Éfeso"
+          },
+          "fr": {
+            "text": "Éphèse"
+          },
+          "en": {
+            "text": "Ephesus"
+          },
+          "es": {
+            "text": "Efeso"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Cesareia"
+          },
+          "fr": {
+            "text": "Césarée"
+          },
+          "en": {
+            "text": "Cæsarea"
+          },
+          "es": {
+            "text": "Cesarea"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-004",
+    "type": "choice",
+    "level": "medium",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 9,
+    "verse_start": 40,
+    "verse_end": 40,
+    "texts": {
+      "pt": {
+        "prompt": "A que mulher disse Pedro «levanta-te», e ela abriu os olhos?",
+        "bible_ref": "Atos 9:40",
+        "verse_text": "Mas Pedro, pondo para fora a todas; pôs-se de joelhos, e orou; e virando-se para o corpo, disse: Tabita, levanta-te;E ela abriu seus olhos, e vendo a Pedro, sentou-se."
+      },
+      "fr": {
+        "prompt": "À quelle femme Pierre dit-il « lève-toi », et elle ouvrit les yeux ?",
+        "bible_ref": "Actes 9:40",
+        "verse_text": "Pierre fit sortir tout le monde, se mit à genoux, et pria; puis, se tournant vers le corps, il dit: Tabitha, lève-toi! Elle ouvrit les yeux, et ayant vu Pierre, elle s’assit."
+      },
+      "en": {
+        "prompt": "To which woman did Peter say “arise”, and she opened her eyes?",
+        "bible_ref": "Acts 9:40",
+        "verse_text": "But Peter put them all forth, and kneeled down, and prayed; and turning him to the body said, Tabitha, arise. And she opened her eyes: and when she saw Peter, she sat up."
+      },
+      "es": {
+        "prompt": "¿A qué mujer dijo Pedro «levántate», y ella abrió los ojos?",
+        "bible_ref": "Hechos 9:40",
+        "verse_text": "Entonces echados fuera todos, Pedro puesto de rodillas, oró; y vuelto al cuerpo, dijo: Tabita, levántate. Y ella abrió los ojos, y viendo á Pedro, incorporóse."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Tabita"
+          },
+          "fr": {
+            "text": "Tabitha"
+          },
+          "en": {
+            "text": "Tabitha"
+          },
+          "es": {
+            "text": "Tabita"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Lídia"
+          },
+          "fr": {
+            "text": "Lydie"
+          },
+          "en": {
+            "text": "Lydia"
+          },
+          "es": {
+            "text": "Lidia"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Priscila"
+          },
+          "fr": {
+            "text": "Priscille"
+          },
+          "en": {
+            "text": "Priscilla"
+          },
+          "es": {
+            "text": "Priscila"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Marta"
+          },
+          "fr": {
+            "text": "Marthe"
+          },
+          "en": {
+            "text": "Martha"
+          },
+          "es": {
+            "text": "Marta"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-005",
+    "type": "choice",
+    "level": "medium",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 10,
+    "verse_start": 1,
+    "verse_end": 1,
+    "texts": {
+      "pt": {
+        "prompt": "O que era Cornélio, o homem de Cesareia?",
+        "bible_ref": "Atos 10:1",
+        "verse_text": "E havia um certo homem em Cesareia, de nome Cornélio, centurião, do esquadrão chamado Italiano;"
+      },
+      "fr": {
+        "prompt": "Qu’était Corneille, l’homme de Césarée ?",
+        "bible_ref": "Actes 10:1",
+        "verse_text": "Il y avait à Césarée un homme nommé Corneille, centenier dans la cohorte dite italienne."
+      },
+      "en": {
+        "prompt": "What was Cornelius, the man in Cæsarea?",
+        "bible_ref": "Acts 10:1",
+        "verse_text": "There was a certain man in Cæsarea called Cornelius, a centurion of the band called the Italian band,"
+      },
+      "es": {
+        "prompt": "¿Qué era Cornelio, el varón de Cesarea?",
+        "bible_ref": "Hechos 10:1",
+        "verse_text": "Y HABÍA un varón en Cesarea llamado Cornelio, centurión de la compañía que se llamaba la Italiana,"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Centurião"
+          },
+          "fr": {
+            "text": "Centenier"
+          },
+          "en": {
+            "text": "A centurion"
+          },
+          "es": {
+            "text": "Centurión"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Pescador"
+          },
+          "fr": {
+            "text": "Pêcheur"
+          },
+          "en": {
+            "text": "A fisherman"
+          },
+          "es": {
+            "text": "Pescador"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Publicano"
+          },
+          "fr": {
+            "text": "Publicain"
+          },
+          "en": {
+            "text": "A publican"
+          },
+          "es": {
+            "text": "Publicano"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Sacerdote"
+          },
+          "fr": {
+            "text": "Sacrificateur"
+          },
+          "en": {
+            "text": "A priest"
+          },
+          "es": {
+            "text": "Sacerdote"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-006",
+    "type": "choice",
+    "level": "medium",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 11,
+    "verse_start": 26,
+    "verse_end": 26,
+    "texts": {
+      "pt": {
+        "prompt": "Em que cidade os discípulos foram chamados cristãos pela primeira vez?",
+        "bible_ref": "Atos 11:26",
+        "verse_text": "E sucedeu que, durante um ano completo eles se congregaram naquela igreja, e ensinavam a uma grande multidão; e em Antioquia os discípulos foram chamados pela primeira vez de cristãos."
+      },
+      "fr": {
+        "prompt": "Dans quelle ville les disciples furent-ils appelés chrétiens pour la première fois ?",
+        "bible_ref": "Actes 11:26",
+        "verse_text": "et, l’ayant trouvé, il l’amena à Antioche. Pendant toute une année, ils se réunirent aux assemblées de l’Église, et ils enseignèrent beaucoup de personnes. Ce fut à Antioche que, pour la première fois, les disciples furent appelés chrétiens."
+      },
+      "en": {
+        "prompt": "In which city were the disciples first called Christians?",
+        "bible_ref": "Acts 11:26",
+        "verse_text": "And when he had found him, he brought him unto Antioch. And it came to pass, that a whole year they assembled themselves with the church, and taught much people. And the disciples were called Christians first in Antioch."
+      },
+      "es": {
+        "prompt": "¿En qué ciudad los discípulos fueron llamados cristianos por primera vez?",
+        "bible_ref": "Hechos 11:26",
+        "verse_text": "Y conversaron todo un año allí con la iglesia, y enseñaron á mucha gente; y los discípulos fueron llamados Cristianos primeramente en Antioquía."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Antioquia"
+          },
+          "fr": {
+            "text": "Antioche"
+          },
+          "en": {
+            "text": "Antioch"
+          },
+          "es": {
+            "text": "Antioquía"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Jerusalém"
+          },
+          "fr": {
+            "text": "Jérusalem"
+          },
+          "en": {
+            "text": "Jerusalem"
+          },
+          "es": {
+            "text": "Jerusalem"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Roma"
+          },
+          "fr": {
+            "text": "Rome"
+          },
+          "en": {
+            "text": "Rome"
+          },
+          "es": {
+            "text": "Roma"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Damasco"
+          },
+          "fr": {
+            "text": "Damas"
+          },
+          "en": {
+            "text": "Damascus"
+          },
+          "es": {
+            "text": "Damasco"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-007",
+    "type": "choice",
+    "level": "medium",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 16,
+    "verse_start": 14,
+    "verse_end": 14,
+    "texts": {
+      "pt": {
+        "prompt": "O que vendia Lídia, da cidade de Tiatira?",
+        "bible_ref": "Atos 16:14",
+        "verse_text": "E uma certa mulher, por nome Lídia, vendedora de púrpura, da cidade de Tiatira, que servia a Deus; ela nos ouviu; o coração da qual o Senhor abriu, para que prestasse atenção ao que Paulo dizia."
+      },
+      "fr": {
+        "prompt": "Que vendait Lydie, de la ville de Thyatire ?",
+        "bible_ref": "Actes 16:14",
+        "verse_text": "L’une d’elles, nommée Lydie, marchande de pourpre, de la ville de Thyatire, était une femme craignant Dieu, et elle écoutait. Le Seigneur lui ouvrit le cœur, pour qu’elle fût attentive à ce que disait Paul."
+      },
+      "en": {
+        "prompt": "What did Lydia, of the city of Thyatira, sell?",
+        "bible_ref": "Acts 16:14",
+        "verse_text": "And a certain woman named Lydia, a seller of purple, of the city of Thyatira, which worshipped God, heard us: whose heart the Lord opened, that she attended unto the things which were spoken of Paul."
+      },
+      "es": {
+        "prompt": "¿Qué vendía Lidia, de la ciudad de Tiatira?",
+        "bible_ref": "Hechos 16:14",
+        "verse_text": "Entonces una mujer llamada Lidia, que vendía púrpura en la ciudad de Tiatira, temerosa de Dios, estaba oyendo; el corazón de la cual abrió el Señor para que estuviese atenta á lo que Pablo decía."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Púrpura"
+          },
+          "fr": {
+            "text": "De la pourpre"
+          },
+          "en": {
+            "text": "Purple"
+          },
+          "es": {
+            "text": "Púrpura"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Azeite"
+          },
+          "fr": {
+            "text": "De l’huile"
+          },
+          "en": {
+            "text": "Oil"
+          },
+          "es": {
+            "text": "Aceite"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Perfume"
+          },
+          "fr": {
+            "text": "Du parfum"
+          },
+          "en": {
+            "text": "Perfume"
+          },
+          "es": {
+            "text": "Perfume"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Linho"
+          },
+          "fr": {
+            "text": "Du lin"
+          },
+          "en": {
+            "text": "Linen"
+          },
+          "es": {
+            "text": "Lino"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-008",
+    "type": "choice",
+    "level": "medium",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 20,
+    "verse_start": 9,
+    "verse_end": 9,
+    "texts": {
+      "pt": {
+        "prompt": "Porque caiu Êutico do terceiro andar enquanto Paulo falava?",
+        "bible_ref": "Atos 20:9",
+        "verse_text": "E estando um certo rapaz, de nome Êutico, sentado em uma janela, tendo sido tomado por um sono profundo, e ,estando Paulo ainda falando por muito tempo ,Êutico ,derrubado pelo sono, caiu desde o terceiro andar abaixo; e foi levantado morto."
+      },
+      "fr": {
+        "prompt": "Pourquoi Eutychus tomba-t-il du troisième étage pendant que Paul parlait ?",
+        "bible_ref": "Actes 20:9",
+        "verse_text": "Or, un jeune homme nommé Eutychus, qui était assis sur la fenêtre, s’endormit profondément pendant le long discours de Paul; entraîné par le sommeil, il tomba du troisième étage en bas, et il fut relevé mort."
+      },
+      "en": {
+        "prompt": "Why did Eutychus fall down from the third loft while Paul was preaching?",
+        "bible_ref": "Acts 20:9",
+        "verse_text": "And there sat in a window a certain young man named Eutychus, being fallen into a deep sleep: and as Paul was long preaching, he sunk down with sleep, and fell down from the third loft, and was taken up dead."
+      },
+      "es": {
+        "prompt": "¿Por qué cayó Eutichô del tercer piso mientras Pablo hablaba?",
+        "bible_ref": "Hechos 20:9",
+        "verse_text": "Y un mancebo llamado Eutichô que estaba sentado en la ventana, tomado de un sueño profundo, como Pablo disputaba largamente, postrado del sueño cayó del tercer piso abajo, y fué alzado muerto."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Adormeceu"
+          },
+          "fr": {
+            "text": "Il s’endormit"
+          },
+          "en": {
+            "text": "He fell asleep"
+          },
+          "es": {
+            "text": "Se durmió"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Foi empurrado"
+          },
+          "fr": {
+            "text": "On le poussa"
+          },
+          "en": {
+            "text": "He was pushed"
+          },
+          "es": {
+            "text": "Lo empujaron"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A janela partiu-se"
+          },
+          "fr": {
+            "text": "La fenêtre se brisa"
+          },
+          "en": {
+            "text": "The window broke"
+          },
+          "es": {
+            "text": "Se rompió la ventana"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Tropeçou"
+          },
+          "fr": {
+            "text": "Il trébucha"
+          },
+          "en": {
+            "text": "He tripped"
+          },
+          "es": {
+            "text": "Tropezó"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-009",
+    "type": "choice",
+    "level": "medium",
+    "testament": "nt",
+    "book": "1CO",
+    "chapter": 13,
+    "verse_start": 13,
+    "verse_end": 13,
+    "texts": {
+      "pt": {
+        "prompt": "Em 1 Coríntios 13:13, qual é a maior das três coisas que permanecem?",
+        "bible_ref": "1 Coríntios 13:13",
+        "verse_text": "E agora continuam a fé, a esperança, e o amor, estes três; porém o maior destes é o amor."
+      },
+      "fr": {
+        "prompt": "En 1 Corinthiens 13:13, quelle est la plus grande des trois choses qui demeurent ?",
+        "bible_ref": "1 Corinthiens 13:13",
+        "verse_text": "Maintenant donc ces trois choses demeurent: la foi, l’espérance, la charité; mais la plus grande de ces choses, c’est la charité."
+      },
+      "en": {
+        "prompt": "In 1 Corinthians 13:13, which is the greatest of the three things that abide?",
+        "bible_ref": "1 Corinthians 13:13",
+        "verse_text": "And now abideth faith, hope, charity, these three; but the greatest of these is charity."
+      },
+      "es": {
+        "prompt": "En 1 Corintios 13:13, ¿cuál es la mayor de las tres cosas que permanecen?",
+        "bible_ref": "1 Corintios 13:13",
+        "verse_text": "Y ahora permanecen la fe, la esperanza, y la caridad, estas tres: empero la mayor de ellas es la caridad."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "O amor"
+          },
+          "fr": {
+            "text": "La charité"
+          },
+          "en": {
+            "text": "Charity"
+          },
+          "es": {
+            "text": "La caridad"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A fé"
+          },
+          "fr": {
+            "text": "La foi"
+          },
+          "en": {
+            "text": "Faith"
+          },
+          "es": {
+            "text": "La fe"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A esperança"
+          },
+          "fr": {
+            "text": "L’espérance"
+          },
+          "en": {
+            "text": "Hope"
+          },
+          "es": {
+            "text": "La esperanza"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A paciência"
+          },
+          "fr": {
+            "text": "La patience"
+          },
+          "en": {
+            "text": "Patience"
+          },
+          "es": {
+            "text": "La paciencia"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-010",
+    "type": "choice",
+    "level": "medium",
+    "testament": "nt",
+    "book": "GAL",
+    "chapter": 5,
+    "verse_start": 22,
+    "verse_end": 22,
+    "texts": {
+      "pt": {
+        "prompt": "Qual destas coisas faz parte do fruto do Espírito?",
+        "bible_ref": "Gálatas 5:22",
+        "verse_text": "Mas o fruto do Espírito é: amor, alegria, paz, paciência, benignidade, bondade, fidelidade,"
+      },
+      "fr": {
+        "prompt": "Laquelle de ces choses fait partie du fruit de l’Esprit ?",
+        "bible_ref": "Galates 5:22",
+        "verse_text": "Mais le fruit de l’Esprit, c’est l’amour, la joie, la paix, la patience, la bonté, la bénignité, la fidélité, la douceur, la tempérance;"
+      },
+      "en": {
+        "prompt": "Which of these is part of the fruit of the Spirit?",
+        "bible_ref": "Galatians 5:22",
+        "verse_text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith,"
+      },
+      "es": {
+        "prompt": "¿Cuál de estas cosas forma parte del fruto del Espíritu?",
+        "bible_ref": "Gálatas 5:22",
+        "verse_text": "Mas el fruto del Espíritu es: caridad, gozo, paz, tolerancia, benignidad, bondad, fe,"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Alegria"
+          },
+          "fr": {
+            "text": "La joie"
+          },
+          "en": {
+            "text": "Joy"
+          },
+          "es": {
+            "text": "Gozo"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Riqueza"
+          },
+          "fr": {
+            "text": "La richesse"
+          },
+          "en": {
+            "text": "Riches"
+          },
+          "es": {
+            "text": "Riqueza"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Força"
+          },
+          "fr": {
+            "text": "La force"
+          },
+          "en": {
+            "text": "Strength"
+          },
+          "es": {
+            "text": "Fuerza"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Sabedoria"
+          },
+          "fr": {
+            "text": "La sagesse"
+          },
+          "en": {
+            "text": "Wisdom"
+          },
+          "es": {
+            "text": "Sabiduría"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-011",
+    "type": "choice",
+    "level": "medium",
+    "testament": "nt",
+    "book": "REV",
+    "chapter": 1,
+    "verse_start": 11,
+    "verse_end": 11,
+    "texts": {
+      "pt": {
+        "prompt": "A quantas igrejas devia João enviar o livro do que via?",
+        "bible_ref": "Apocalipse 1:11",
+        "verse_text": "Dizendo: “Eu sou o Alfa e o Ômega, o primeiro e o último; e o que tu estás vendo, escreve em um livro, e envia às sete igrejas que estão na Ásia: a Éfeso, e a Esmirna, e a Pérgamo, e a Tiatira, e a Sardes, e a Filadélfia, e a Laodiceia”."
+      },
+      "fr": {
+        "prompt": "À combien d’Églises Jean devait-il envoyer le livre de ce qu’il voyait ?",
+        "bible_ref": "Apocalypse 1:11",
+        "verse_text": "qui disait: Ce que tu vois, écris-le dans un livre, et envoie-le aux sept Églises, à Éphèse, à Smyrne, à Pergame, à Thyatire, à Sardes, à Philadelphie, et à Laodicée."
+      },
+      "en": {
+        "prompt": "To how many churches was John to send the book of what he saw?",
+        "bible_ref": "Revelation 1:11",
+        "verse_text": "Saying, I am Alpha and Omega, the first and the last: and, What thou seest, write in a book, and send it unto the seven churches which are in Asia; unto Ephesus, and unto Smyrna, and unto Pergamos, and unto Thyatira, and unto Sardis, and unto Philadelphia, and unto Laodicea."
+      },
+      "es": {
+        "prompt": "¿A cuántas iglesias debía Juan enviar el libro de lo que veía?",
+        "bible_ref": "Apocalipsis 1:11",
+        "verse_text": "Que decía: Yo soy el Alpha y Omega, el primero y el último. Escribe en un libro lo que ves, y envíalo á las siete iglesias que están en Asia; á Efeso, y á Smirna, y á Pérgamo, y á Tiatira, y á Sardis, y á Filadelfia, y á Laodicea."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Sete"
+          },
+          "fr": {
+            "text": "Sept"
+          },
+          "en": {
+            "text": "Seven"
+          },
+          "es": {
+            "text": "Siete"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Três"
+          },
+          "fr": {
+            "text": "Trois"
+          },
+          "en": {
+            "text": "Three"
+          },
+          "es": {
+            "text": "Tres"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Dez"
+          },
+          "fr": {
+            "text": "Dix"
+          },
+          "en": {
+            "text": "Ten"
+          },
+          "es": {
+            "text": "Diez"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Doze"
+          },
+          "fr": {
+            "text": "Douze"
+          },
+          "en": {
+            "text": "Twelve"
+          },
+          "es": {
+            "text": "Doce"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-012",
+    "type": "choice",
+    "level": "medium",
+    "testament": "nt",
+    "book": "EPH",
+    "chapter": 6,
+    "verse_start": 17,
+    "verse_end": 17,
+    "texts": {
+      "pt": {
+        "prompt": "Na armadura de Deus, o que é a espada do Espírito?",
+        "bible_ref": "Efésios 6:17",
+        "verse_text": "Pegai também o capacete da salvação, e a espada do Espírito, que é a palavra de Deus;"
+      },
+      "fr": {
+        "prompt": "Dans les armes de Dieu, qu’est-ce que l’épée de l’Esprit ?",
+        "bible_ref": "Éphésiens 6:17",
+        "verse_text": "prenez aussi le casque du salut, et l’épée de l’Esprit, qui est la parole de Dieu."
+      },
+      "en": {
+        "prompt": "In the armour of God, what is the sword of the Spirit?",
+        "bible_ref": "Ephesians 6:17",
+        "verse_text": "And take the helmet of salvation, and the sword of the Spirit, which is the word of God:"
+      },
+      "es": {
+        "prompt": "En la armadura de Dios, ¿qué es la espada del Espíritu?",
+        "bible_ref": "Efesios 6:17",
+        "verse_text": "Y tomad el yelmo de salud, y la espada del Espíritu; que es la palabra de Dios;"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "A palavra de Deus"
+          },
+          "fr": {
+            "text": "La parole de Dieu"
+          },
+          "en": {
+            "text": "The word of God"
+          },
+          "es": {
+            "text": "La palabra de Dios"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A fé"
+          },
+          "fr": {
+            "text": "La foi"
+          },
+          "en": {
+            "text": "Faith"
+          },
+          "es": {
+            "text": "La fe"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A oração"
+          },
+          "fr": {
+            "text": "La prière"
+          },
+          "en": {
+            "text": "Prayer"
+          },
+          "es": {
+            "text": "La oración"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A verdade"
+          },
+          "fr": {
+            "text": "La vérité"
+          },
+          "en": {
+            "text": "Truth"
+          },
+          "es": {
+            "text": "La verdad"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-013",
+    "type": "order",
+    "level": "medium",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 27,
+    "verse_start": 14,
+    "verse_end": 14,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Atos 27:14",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Actes 27:14",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Acts 27:14",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Hechos 27:14",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um vento violento apanha o navio",
+            "ref": "Atos 27:14"
+          },
+          "fr": {
+            "text": "Un vent impétueux frappe le navire",
+            "ref": "Actes 27:14"
+          },
+          "en": {
+            "text": "A tempestuous wind arises",
+            "ref": "Acts 27:14"
+          },
+          "es": {
+            "text": "Un viento repentino da en la nave",
+            "ref": "Hechos 27:14"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O navio encalha e a popa desfaz-se",
+            "ref": "Atos 27:41"
+          },
+          "fr": {
+            "text": "Le navire échoue et la poupe se brise",
+            "ref": "Actes 27:41"
+          },
+          "en": {
+            "text": "The ship runs aground and breaks",
+            "ref": "Acts 27:41"
+          },
+          "es": {
+            "text": "La nave encalla y la popa se abre",
+            "ref": "Hechos 27:41"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma víbora agarra-se à mão de Paulo",
+            "ref": "Atos 28:3"
+          },
+          "fr": {
+            "text": "Une vipère s’attache à la main de Paul",
+            "ref": "Actes 28:3"
+          },
+          "en": {
+            "text": "A viper fastens on Paul’s hand",
+            "ref": "Acts 28:3"
+          },
+          "es": {
+            "text": "Una víbora acomete la mano de Pablo",
+            "ref": "Hechos 28:3"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Paulo chega a Roma",
+            "ref": "Atos 28:16"
+          },
+          "fr": {
+            "text": "Paul arrive à Rome",
+            "ref": "Actes 28:16"
+          },
+          "en": {
+            "text": "Paul arrives in Rome",
+            "ref": "Acts 28:16"
+          },
+          "es": {
+            "text": "Pablo llega a Roma",
+            "ref": "Hechos 28:16"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-014",
+    "type": "order",
+    "level": "medium",
+    "testament": "nt",
+    "book": "REV",
+    "chapter": 2,
+    "verse_start": 1,
+    "verse_end": 1,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estas cartas às igrejas pela ordem em que aparecem no Apocalipse.",
+        "bible_ref": "Apocalipse 2:1",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces lettres aux Églises dans l’ordre où elles apparaissent dans l’Apocalypse.",
+        "bible_ref": "Apocalypse 2:1",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these letters to the churches in the order they appear in Revelation.",
+        "bible_ref": "Revelation 2:1",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estas cartas a las iglesias según aparecen en el Apocalipsis.",
+        "bible_ref": "Apocalipsis 2:1",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Carta à igreja de Éfeso",
+            "ref": "Apocalipse 2:1"
+          },
+          "fr": {
+            "text": "Lettre à l’Église d’Éphèse",
+            "ref": "Apocalypse 2:1"
+          },
+          "en": {
+            "text": "Letter to the church of Ephesus",
+            "ref": "Revelation 2:1"
+          },
+          "es": {
+            "text": "Carta a la iglesia en Efeso",
+            "ref": "Apocalipsis 2:1"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Carta à igreja de Esmirna",
+            "ref": "Apocalipse 2:8"
+          },
+          "fr": {
+            "text": "Lettre à l’Église de Smyrne",
+            "ref": "Apocalypse 2:8"
+          },
+          "en": {
+            "text": "Letter to the church in Smyrna",
+            "ref": "Revelation 2:8"
+          },
+          "es": {
+            "text": "Carta a la iglesia en Smirna",
+            "ref": "Apocalipsis 2:8"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Carta à igreja de Pérgamo",
+            "ref": "Apocalipse 2:12"
+          },
+          "fr": {
+            "text": "Lettre à l’Église de Pergame",
+            "ref": "Apocalypse 2:12"
+          },
+          "en": {
+            "text": "Letter to the church in Pergamos",
+            "ref": "Revelation 2:12"
+          },
+          "es": {
+            "text": "Carta a la iglesia en Pérgamo",
+            "ref": "Apocalipsis 2:12"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Carta à igreja de Tiatira",
+            "ref": "Apocalipse 2:18"
+          },
+          "fr": {
+            "text": "Lettre à l’Église de Thyatire",
+            "ref": "Apocalypse 2:18"
+          },
+          "en": {
+            "text": "Letter to the church in Thyatira",
+            "ref": "Revelation 2:18"
+          },
+          "es": {
+            "text": "Carta a la iglesia en Tiatira",
+            "ref": "Apocalipsis 2:18"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-015",
+    "type": "order",
+    "level": "medium",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 16,
+    "verse_start": 9,
+    "verse_end": 9,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Atos 16:9",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Actes 16:9",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Acts 16:9",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Hechos 16:9",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Paulo vê em visão um homem da Macedónia",
+            "ref": "Atos 16:9"
+          },
+          "fr": {
+            "text": "Paul voit en vision un Macédonien",
+            "ref": "Actes 16:9"
+          },
+          "en": {
+            "text": "Paul sees a man of Macedonia in a vision",
+            "ref": "Acts 16:9"
+          },
+          "es": {
+            "text": "Pablo ve en visión a un varón macedonio",
+            "ref": "Hechos 16:9"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Paulo e Silas cantam na prisão",
+            "ref": "Atos 16:25"
+          },
+          "fr": {
+            "text": "Paul et Silas chantent en prison",
+            "ref": "Actes 16:25"
+          },
+          "en": {
+            "text": "Paul and Silas sing in prison",
+            "ref": "Acts 16:25"
+          },
+          "es": {
+            "text": "Pablo y Silas cantan en la cárcel",
+            "ref": "Hechos 16:25"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Paulo fala no Areópago de Atenas",
+            "ref": "Atos 17:22"
+          },
+          "fr": {
+            "text": "Paul parle à l’Aréopage d’Athènes",
+            "ref": "Actes 17:22"
+          },
+          "en": {
+            "text": "Paul speaks on Mars’ hill in Athens",
+            "ref": "Acts 17:22"
+          },
+          "es": {
+            "text": "Pablo habla en el Areópago de Atenas",
+            "ref": "Hechos 17:22"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Paulo encontra Áquila e Priscila",
+            "ref": "Atos 18:2"
+          },
+          "fr": {
+            "text": "Paul rencontre Aquilas et Priscille",
+            "ref": "Actes 18:2"
+          },
+          "en": {
+            "text": "Paul finds Aquila and Priscilla",
+            "ref": "Acts 18:2"
+          },
+          "es": {
+            "text": "Pablo halla a Aquila y Priscila",
+            "ref": "Hechos 18:2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-016",
+    "type": "order",
+    "level": "medium",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 10,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Atos 10:3",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Actes 10:3",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Acts 10:3",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Hechos 10:3",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um anjo aparece a Cornélio",
+            "ref": "Atos 10:3"
+          },
+          "fr": {
+            "text": "Un ange apparaît à Corneille",
+            "ref": "Actes 10:3"
+          },
+          "en": {
+            "text": "An angel comes in to Cornelius",
+            "ref": "Acts 10:3"
+          },
+          "es": {
+            "text": "Un ángel se aparece a Cornelio",
+            "ref": "Hechos 10:3"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Pedro vê descer do céu um grande lençol",
+            "ref": "Atos 10:11"
+          },
+          "fr": {
+            "text": "Pierre voit descendre du ciel une grande nappe",
+            "ref": "Actes 10:11"
+          },
+          "en": {
+            "text": "Peter sees a great sheet let down",
+            "ref": "Acts 10:11"
+          },
+          "es": {
+            "text": "Pedro ve bajar del cielo un gran lienzo",
+            "ref": "Hechos 10:11"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Cornélio cai aos pés de Pedro",
+            "ref": "Atos 10:25"
+          },
+          "fr": {
+            "text": "Corneille tombe aux pieds de Pierre",
+            "ref": "Actes 10:25"
+          },
+          "en": {
+            "text": "Cornelius falls down at Peter’s feet",
+            "ref": "Acts 10:25"
+          },
+          "es": {
+            "text": "Cornelio se derriba a los pies de Pedro",
+            "ref": "Hechos 10:25"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O Espírito Santo cai sobre os que ouvem",
+            "ref": "Atos 10:44"
+          },
+          "fr": {
+            "text": "Le Saint-Esprit descend sur ceux qui écoutent",
+            "ref": "Actes 10:44"
+          },
+          "en": {
+            "text": "The Holy Ghost falls on all who hear",
+            "ref": "Acts 10:44"
+          },
+          "es": {
+            "text": "El Espíritu Santo cae sobre los que oyen",
+            "ref": "Hechos 10:44"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-017",
+    "type": "verse",
+    "level": "medium",
+    "testament": "nt",
+    "book": "HEB",
+    "chapter": 11,
+    "verse_start": 1,
+    "verse_end": 1,
+    "texts": {
+      "pt": {
+        "prompt": "Ora, a _____ é a certeza das coisas que se esperam, e a prova das coisas que não se veem.",
+        "bible_ref": "Hebreus 11:1",
+        "verse_text": "Ora, a fé é a certeza das coisas que se esperam, e a prova das coisas que não se veem."
+      },
+      "fr": {
+        "prompt": "Or la _____ est une ferme assurance des choses qu’on espère, une démonstration de celles qu’on ne voit pas.",
+        "bible_ref": "Hébreux 11:1",
+        "verse_text": "Or la foi est une ferme assurance des choses qu’on espère, une démonstration de celles qu’on ne voit pas."
+      },
+      "en": {
+        "prompt": "Now _____ is the substance of things hoped for, the evidence of things not seen.",
+        "bible_ref": "Hebrews 11:1",
+        "verse_text": "Now faith is the substance of things hoped for, the evidence of things not seen."
+      },
+      "es": {
+        "prompt": "ES pues la _____ la sustancia de las cosas que se esperan, la demostración de las cosas que no se ven.",
+        "bible_ref": "Hebreos 11:1",
+        "verse_text": "ES pues la fe la sustancia de las cosas que se esperan, la demostración de las cosas que no se ven."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "graça"
+          },
+          "fr": {
+            "text": "grâce"
+          },
+          "en": {
+            "text": "grace"
+          },
+          "es": {
+            "text": "gracia"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "fé"
+          },
+          "fr": {
+            "text": "foi"
+          },
+          "en": {
+            "text": "faith"
+          },
+          "es": {
+            "text": "fe"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "lei"
+          },
+          "fr": {
+            "text": "loi"
+          },
+          "en": {
+            "text": "law"
+          },
+          "es": {
+            "text": "ley"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "paz"
+          },
+          "fr": {
+            "text": "paix"
+          },
+          "en": {
+            "text": "peace"
+          },
+          "es": {
+            "text": "paz"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-018",
+    "type": "verse",
+    "level": "medium",
+    "testament": "nt",
+    "book": "ROM",
+    "chapter": 6,
+    "verse_start": 23,
+    "verse_end": 23,
+    "texts": {
+      "pt": {
+        "prompt": "porque o salário do pecado é a _____, mas o dom gratuito de Deus é a vida eterna em Cristo Jesus nosso Senhor.",
+        "bible_ref": "Romanos 6:23",
+        "verse_text": "porque o salário do pecado é a morte, mas o dom gratuito de Deus é a vida eterna em Cristo Jesus nosso Senhor."
+      },
+      "fr": {
+        "prompt": "Car le salaire du péché, c’est la _____; mais le don gratuit de Dieu, c’est la vie éternelle en Jésus-Christ notre Seigneur.",
+        "bible_ref": "Romains 6:23",
+        "verse_text": "Car le salaire du péché, c’est la mort; mais le don gratuit de Dieu, c’est la vie éternelle en Jésus-Christ notre Seigneur."
+      },
+      "en": {
+        "prompt": "For the wages of sin is _____; but the gift of God is eternal life through Jesus Christ our Lord.",
+        "bible_ref": "Romans 6:23",
+        "verse_text": "For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord."
+      },
+      "es": {
+        "prompt": "Porque la paga del pecado es _____: mas la dádiva de Dios es vida eterna en Cristo Jesús Señor nuestro.",
+        "bible_ref": "Romanos 6:23",
+        "verse_text": "Porque la paga del pecado es muerte: mas la dádiva de Dios es vida eterna en Cristo Jesús Señor nuestro."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "dor"
+          },
+          "fr": {
+            "text": "douleur"
+          },
+          "en": {
+            "text": "pain"
+          },
+          "es": {
+            "text": "dolor"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "vergonha"
+          },
+          "fr": {
+            "text": "honte"
+          },
+          "en": {
+            "text": "shame"
+          },
+          "es": {
+            "text": "vergüenza"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "tristeza"
+          },
+          "fr": {
+            "text": "tristesse"
+          },
+          "en": {
+            "text": "sorrow"
+          },
+          "es": {
+            "text": "tristeza"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "morte"
+          },
+          "fr": {
+            "text": "mort"
+          },
+          "en": {
+            "text": "death"
+          },
+          "es": {
+            "text": "muerte"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-019",
+    "type": "verse",
+    "level": "medium",
+    "testament": "nt",
+    "book": "JAS",
+    "chapter": 1,
+    "verse_start": 22,
+    "verse_end": 22,
+    "texts": {
+      "pt": {
+        "prompt": "e sede praticantes da _____, e não somente ouvintes, enganando a vós mesmos.",
+        "bible_ref": "Tiago 1:22",
+        "verse_text": "e sede praticantes da palavra, e não somente ouvintes, enganando a vós mesmos."
+      },
+      "fr": {
+        "prompt": "Mettez en pratique la _____, et ne vous bornez pas à l’écouter, en vous trompant vous-mêmes par de faux raisonnements.",
+        "bible_ref": "Jacques 1:22",
+        "verse_text": "Mettez en pratique la parole, et ne vous bornez pas à l’écouter, en vous trompant vous-mêmes par de faux raisonnements."
+      },
+      "en": {
+        "prompt": "But be ye doers of the _____, and not hearers only, deceiving your own selves.",
+        "bible_ref": "James 1:22",
+        "verse_text": "But be ye doers of the word, and not hearers only, deceiving your own selves."
+      },
+      "es": {
+        "prompt": "Mas sed hacedores de la _____, y no tan solamente oidores, engañándoos á vosotros mismos.",
+        "bible_ref": "Santiago 1:22",
+        "verse_text": "Mas sed hacedores de la palabra, y no tan solamente oidores, engañándoos á vosotros mismos."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "oração"
+          },
+          "fr": {
+            "text": "prière"
+          },
+          "en": {
+            "text": "prayer"
+          },
+          "es": {
+            "text": "oración"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "palavra"
+          },
+          "fr": {
+            "text": "parole"
+          },
+          "en": {
+            "text": "word"
+          },
+          "es": {
+            "text": "palabra"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "promessa"
+          },
+          "fr": {
+            "text": "promesse"
+          },
+          "en": {
+            "text": "promise"
+          },
+          "es": {
+            "text": "promesa"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "história"
+          },
+          "fr": {
+            "text": "histoire"
+          },
+          "en": {
+            "text": "story"
+          },
+          "es": {
+            "text": "historia"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-020",
+    "type": "verse",
+    "level": "medium",
+    "testament": "nt",
+    "book": "1TI",
+    "chapter": 6,
+    "verse_start": 10,
+    "verse_end": 10,
+    "texts": {
+      "pt": {
+        "prompt": "Pois o amor ao _____ é raiz de todos os tipos de males. Alguns o cobiçam, e então se desviaram da fé, e perfuraram a si mesmos com muitas dores.",
+        "bible_ref": "1 Timóteo 6:10",
+        "verse_text": "Pois o amor ao dinheiro é raiz de todos os tipos de males. Alguns o cobiçam, e então se desviaram da fé, e perfuraram a si mesmos com muitas dores."
+      },
+      "fr": {
+        "prompt": "Car l’amour de l’_____ est une racine de tous les maux; et quelques-uns, en étant possédés, se sont égarés loin de la foi, et se sont jetés eux-mêmes dans bien des tourments.",
+        "bible_ref": "1 Timothée 6:10",
+        "verse_text": "Car l’amour de l’argent est une racine de tous les maux; et quelques-uns, en étant possédés, se sont égarés loin de la foi, et se sont jetés eux-mêmes dans bien des tourments."
+      },
+      "en": {
+        "prompt": "For the love of _____ is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.",
+        "bible_ref": "1 Timothy 6:10",
+        "verse_text": "For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows."
+      },
+      "es": {
+        "prompt": "Porque el amor del _____ es la raíz de todos los males: el cual codiciando algunos, se descaminaron de la fe, y fueron traspasados de muchos dolores.",
+        "bible_ref": "1 Timoteo 6:10",
+        "verse_text": "Porque el amor del dinero es la raíz de todos los males: el cual codiciando algunos, se descaminaron de la fe, y fueron traspasados de muchos dolores."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "orgulho"
+          },
+          "fr": {
+            "text": "orgueil"
+          },
+          "en": {
+            "text": "pride"
+          },
+          "es": {
+            "text": "orgullo"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "ouro"
+          },
+          "fr": {
+            "text": "or"
+          },
+          "en": {
+            "text": "gold"
+          },
+          "es": {
+            "text": "oro"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "elogio"
+          },
+          "fr": {
+            "text": "éloge"
+          },
+          "en": {
+            "text": "praise"
+          },
+          "es": {
+            "text": "elogio"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "dinheiro"
+          },
+          "fr": {
+            "text": "argent"
+          },
+          "en": {
+            "text": "money"
+          },
+          "es": {
+            "text": "dinero"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-001",
+    "type": "choice",
+    "level": "hard",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 13,
+    "verse_start": 8,
+    "verse_end": 8,
+    "texts": {
+      "pt": {
+        "prompt": "Em Chipre, que mago se opunha a Paulo e Barnabé, procurando afastar o procônsul da fé?",
+        "bible_ref": "Atos 13:8",
+        "verse_text": "Mas resistia-lhes Elimas, o mago (que assim significa seu nome), procurando afastar o procônsul da fé."
+      },
+      "fr": {
+        "prompt": "À Chypre, quel magicien s’opposait à Paul et Barnabas, cherchant à détourner le proconsul de la foi ?",
+        "bible_ref": "Actes 13:8",
+        "verse_text": "Mais Élymas, le magicien, car c’est ce que signifie son nom, leur faisait opposition, cherchant à détourner de la foi le proconsul."
+      },
+      "en": {
+        "prompt": "In Cyprus, which sorcerer withstood Paul and Barnabas, seeking to turn the deputy from the faith?",
+        "bible_ref": "Acts 13:8",
+        "verse_text": "But Elymas the sorcerer (for so is his name by interpretation) withstood them, seeking to turn away the deputy from the faith."
+      },
+      "es": {
+        "prompt": "En Cipro, ¿qué mago resistía a Pablo y Bernabé, procurando apartar de la fe al procónsul?",
+        "bible_ref": "Hechos 13:8",
+        "verse_text": "Mas les resistía Elimas el encantador (que así se interpreta su nombre), procurando apartar de la fe al procónsul."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Elimas"
+          },
+          "fr": {
+            "text": "Élymas"
+          },
+          "en": {
+            "text": "Elymas"
+          },
+          "es": {
+            "text": "Elimas"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Simão"
+          },
+          "fr": {
+            "text": "Simon"
+          },
+          "en": {
+            "text": "Simon"
+          },
+          "es": {
+            "text": "Simón"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Demétrio"
+          },
+          "fr": {
+            "text": "Démétrius"
+          },
+          "en": {
+            "text": "Demetrius"
+          },
+          "es": {
+            "text": "Demetrio"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Ananias"
+          },
+          "fr": {
+            "text": "Ananias"
+          },
+          "en": {
+            "text": "Ananias"
+          },
+          "es": {
+            "text": "Ananías"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-002",
+    "type": "choice",
+    "level": "hard",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 27,
+    "verse_start": 37,
+    "verse_end": 37,
+    "texts": {
+      "pt": {
+        "prompt": "Quantas pessoas iam no navio de Paulo antes do naufrágio?",
+        "bible_ref": "Atos 27:37",
+        "verse_text": "E éramos todos no navio duzentas e setenta e seis almas."
+      },
+      "fr": {
+        "prompt": "Combien de personnes y avait-il dans le navire de Paul avant le naufrage ?",
+        "bible_ref": "Actes 27:37",
+        "verse_text": "Nous étions, dans le navire, deux cent soixante-seize personnes en tout."
+      },
+      "en": {
+        "prompt": "How many souls were in Paul’s ship before the shipwreck?",
+        "bible_ref": "Acts 27:37",
+        "verse_text": "And we were in all in the ship two hundred threescore and sixteen souls."
+      },
+      "es": {
+        "prompt": "¿Cuántas personas iban en la nave de Pablo antes del naufragio?",
+        "bible_ref": "Hechos 27:37",
+        "verse_text": "Y éramos todas las personas en la nave doscientas setenta y seis."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "276"
+          },
+          "fr": {
+            "text": "276"
+          },
+          "en": {
+            "text": "276"
+          },
+          "es": {
+            "text": "276"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "176"
+          },
+          "fr": {
+            "text": "176"
+          },
+          "en": {
+            "text": "176"
+          },
+          "es": {
+            "text": "176"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "300"
+          },
+          "fr": {
+            "text": "300"
+          },
+          "en": {
+            "text": "300"
+          },
+          "es": {
+            "text": "300"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "75"
+          },
+          "fr": {
+            "text": "75"
+          },
+          "en": {
+            "text": "75"
+          },
+          "es": {
+            "text": "75"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-003",
+    "type": "choice",
+    "level": "hard",
+    "testament": "nt",
+    "book": "PHM",
+    "chapter": 1,
+    "verse_start": 10,
+    "verse_end": 10,
+    "texts": {
+      "pt": {
+        "prompt": "Por quem pede Paulo a Filémon, chamando-lhe «meu filho»?",
+        "bible_ref": "Filémon 1:10",
+        "verse_text": "Eu te peço por meu filho Onésimo, ao qual eu gerei durante minhas prisões."
+      },
+      "fr": {
+        "prompt": "Pour qui Paul prie-t-il Philémon, l’appelant « mon enfant » ?",
+        "bible_ref": "Philémon 1:10",
+        "verse_text": "Je te prie pour mon enfant, que j’ai engendré étant dans les chaînes, Onésime,"
+      },
+      "en": {
+        "prompt": "For whom does Paul beseech Philemon, calling him “my son”?",
+        "bible_ref": "Philemon 1:10",
+        "verse_text": "I beseech thee for my son Onesimus, whom I have begotten in my bonds:"
+      },
+      "es": {
+        "prompt": "¿Por quién ruega Pablo a Filemón, llamándolo «mi hijo»?",
+        "bible_ref": "Filemón 1:10",
+        "verse_text": "Ruégote por mi hijo Onésimo, que he engendrado en mis prisiones,"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Onésimo"
+          },
+          "fr": {
+            "text": "Onésime"
+          },
+          "en": {
+            "text": "Onesimus"
+          },
+          "es": {
+            "text": "Onésimo"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Tíquico"
+          },
+          "fr": {
+            "text": "Tychique"
+          },
+          "en": {
+            "text": "Tychicus"
+          },
+          "es": {
+            "text": "Tichîco"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Epafras"
+          },
+          "fr": {
+            "text": "Épaphras"
+          },
+          "en": {
+            "text": "Epaphras"
+          },
+          "es": {
+            "text": "Epafras"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Demas"
+          },
+          "fr": {
+            "text": "Démas"
+          },
+          "en": {
+            "text": "Demas"
+          },
+          "es": {
+            "text": "Demas"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-004",
+    "type": "choice",
+    "level": "hard",
+    "testament": "nt",
+    "book": "2TI",
+    "chapter": 1,
+    "verse_start": 5,
+    "verse_end": 5,
+    "texts": {
+      "pt": {
+        "prompt": "Como se chamava a avó de Timóteo, em quem habitou primeiro a fé?",
+        "bible_ref": "2 Timóteo 1:5",
+        "verse_text": "Trago à memória a fé não fingida que há em ti, fé que habitou primeiro na tua avó Loide, e na tua mãe Eunice; e tenho certeza que também em ti."
+      },
+      "fr": {
+        "prompt": "Comment s’appelait l’aïeule de Timothée, en qui la foi habita d’abord ?",
+        "bible_ref": "2 Timothée 1:5",
+        "verse_text": "gardant le souvenir de la foi sincère qui est en toi, qui habita d’abord dans ton aïeule Loïs et dans ta mère Eunice, et qui, j’en suis persuadé, habite aussi en toi."
+      },
+      "en": {
+        "prompt": "What was the name of Timothy’s grandmother, in whom faith dwelt first?",
+        "bible_ref": "2 Timothy 1:5",
+        "verse_text": "When I call to remembrance the unfeigned faith that is in thee, which dwelt first in thy grandmother Lois, and thy mother Eunice; and I am persuaded that in thee also."
+      },
+      "es": {
+        "prompt": "¿Cómo se llamaba la abuela de Timoteo, en quien residió primero la fe?",
+        "bible_ref": "2 Timoteo 1:5",
+        "verse_text": "Trayendo á la memoria la fe no fingida que hay en ti, la cual residió primero en tu abuela Loida, y en tu madre Eunice; y estoy cierto que en ti también."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Loide"
+          },
+          "fr": {
+            "text": "Loïs"
+          },
+          "en": {
+            "text": "Lois"
+          },
+          "es": {
+            "text": "Loida"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Eunice"
+          },
+          "fr": {
+            "text": "Eunice"
+          },
+          "en": {
+            "text": "Eunice"
+          },
+          "es": {
+            "text": "Eunice"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Lídia"
+          },
+          "fr": {
+            "text": "Lydie"
+          },
+          "en": {
+            "text": "Lydia"
+          },
+          "es": {
+            "text": "Lidia"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Priscila"
+          },
+          "fr": {
+            "text": "Priscille"
+          },
+          "en": {
+            "text": "Priscilla"
+          },
+          "es": {
+            "text": "Priscila"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-005",
+    "type": "choice",
+    "level": "hard",
+    "testament": "nt",
+    "book": "COL",
+    "chapter": 4,
+    "verse_start": 14,
+    "verse_end": 14,
+    "texts": {
+      "pt": {
+        "prompt": "Em Colossenses, como descreve Paulo a profissão de Lucas?",
+        "bible_ref": "Colossenses 4:14",
+        "verse_text": "Lucas, o médico amado, vos saúda; e também Demas."
+      },
+      "fr": {
+        "prompt": "Dans Colossiens, quel métier Paul attribue-t-il à Luc ?",
+        "bible_ref": "Colossiens 4:14",
+        "verse_text": "Luc, le médecin bien-aimé, vous salue, ainsi que Démas."
+      },
+      "en": {
+        "prompt": "In Colossians, what does Paul call Luke?",
+        "bible_ref": "Colossians 4:14",
+        "verse_text": "Luke, the beloved physician, and Demas, greet you."
+      },
+      "es": {
+        "prompt": "En Colosenses, ¿qué oficio atribuye Pablo a Lucas?",
+        "bible_ref": "Colosenses 4:14",
+        "verse_text": "Os saluda Lucas, el médico amado, y Demas."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Médico"
+          },
+          "fr": {
+            "text": "Médecin"
+          },
+          "en": {
+            "text": "A physician"
+          },
+          "es": {
+            "text": "Médico"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Escriba"
+          },
+          "fr": {
+            "text": "Scribe"
+          },
+          "en": {
+            "text": "A scribe"
+          },
+          "es": {
+            "text": "Escriba"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Pescador"
+          },
+          "fr": {
+            "text": "Pêcheur"
+          },
+          "en": {
+            "text": "A fisherman"
+          },
+          "es": {
+            "text": "Pescador"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Fabricante de tendas"
+          },
+          "fr": {
+            "text": "Faiseur de tentes"
+          },
+          "en": {
+            "text": "A tentmaker"
+          },
+          "es": {
+            "text": "Hacedor de tiendas"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-006",
+    "type": "choice",
+    "level": "hard",
+    "testament": "nt",
+    "book": "TIT",
+    "chapter": 1,
+    "verse_start": 5,
+    "verse_end": 5,
+    "texts": {
+      "pt": {
+        "prompt": "Em que ilha deixou Paulo Tito para pôr em ordem o que faltava?",
+        "bible_ref": "Tito 1:5",
+        "verse_text": "Por esta causa eu te deixei em Creta, para que tu continuasses a pôr em ordem as coisas que estavam faltando, e de cidade em cidade constituísses presbíteros, conforme eu te mandei."
+      },
+      "fr": {
+        "prompt": "Dans quelle île Paul laissa-t-il Tite pour mettre en ordre ce qui restait à régler ?",
+        "bible_ref": "Tite 1:5",
+        "verse_text": "Je t’ai laissé en Crète, afin que tu mettes en ordre ce qui reste à régler, et que, selon mes instructions, tu établisses des anciens dans chaque ville,"
+      },
+      "en": {
+        "prompt": "On which island did Paul leave Titus to set in order the things that were wanting?",
+        "bible_ref": "Titus 1:5",
+        "verse_text": "For this cause left I thee in Crete, that thou shouldest set in order the things that are wanting, and ordain elders in every city, as I had appointed thee:"
+      },
+      "es": {
+        "prompt": "¿En qué isla dejó Pablo a Tito para corregir lo que faltaba?",
+        "bible_ref": "Tito 1:5",
+        "verse_text": "Por esta causa te dejé en Creta, para que corrigieses lo que falta, y pusieses ancianos por las villas, así como yo te mandé:"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Creta"
+          },
+          "fr": {
+            "text": "Crète"
+          },
+          "en": {
+            "text": "Crete"
+          },
+          "es": {
+            "text": "Creta"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Chipre"
+          },
+          "fr": {
+            "text": "Chypre"
+          },
+          "en": {
+            "text": "Cyprus"
+          },
+          "es": {
+            "text": "Cipro"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Rodes"
+          },
+          "fr": {
+            "text": "Rhodes"
+          },
+          "en": {
+            "text": "Rhodes"
+          },
+          "es": {
+            "text": "Rhodas"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Malta"
+          },
+          "fr": {
+            "text": "Malte"
+          },
+          "en": {
+            "text": "Melita"
+          },
+          "es": {
+            "text": "Melita"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-007",
+    "type": "choice",
+    "level": "hard",
+    "testament": "nt",
+    "book": "3JN",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "texts": {
+      "pt": {
+        "prompt": "A quem é dirigida a Terceira Epístola de João?",
+        "bible_ref": "3 João 1:1",
+        "verse_text": "O ancião, ao amado Gaio, a quem amo em verdade."
+      },
+      "fr": {
+        "prompt": "À qui la troisième épître de Jean est-elle adressée ?",
+        "bible_ref": "3 Jean 1:1",
+        "verse_text": "L’ancien, à Gaïus, le bien-aimé, que j’aime dans la vérité."
+      },
+      "en": {
+        "prompt": "To whom is the Third Epistle of John addressed?",
+        "bible_ref": "3 John 1:1",
+        "verse_text": "The elder unto the wellbeloved Gaius, whom I love in the truth."
+      },
+      "es": {
+        "prompt": "¿A quién va dirigida la tercera epístola de Juan?",
+        "bible_ref": "3 Juan 1:1",
+        "verse_text": "EL anciano al muy amado Gaio, al cual yo amo en verdad."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Gaio"
+          },
+          "fr": {
+            "text": "Gaïus"
+          },
+          "en": {
+            "text": "Gaius"
+          },
+          "es": {
+            "text": "Gaio"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Diótrefes"
+          },
+          "fr": {
+            "text": "Diotrèphe"
+          },
+          "en": {
+            "text": "Diotrephes"
+          },
+          "es": {
+            "text": "Diótrefes"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Demétrio"
+          },
+          "fr": {
+            "text": "Démétrius"
+          },
+          "en": {
+            "text": "Demetrius"
+          },
+          "es": {
+            "text": "Demetrio"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Tíquico"
+          },
+          "fr": {
+            "text": "Tychique"
+          },
+          "en": {
+            "text": "Tychicus"
+          },
+          "es": {
+            "text": "Tichîco"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-008",
+    "type": "choice",
+    "level": "hard",
+    "testament": "nt",
+    "book": "JUD",
+    "chapter": 1,
+    "verse_start": 9,
+    "verse_end": 9,
+    "texts": {
+      "pt": {
+        "prompt": "Segundo Judas, por causa do corpo de quem disputou o arcanjo Miguel com o diabo?",
+        "bible_ref": "Judas 1:9",
+        "verse_text": "Mas Miguel, o arcanjo, quando ele discutia com o diabo, e disputava por causa do corpo de Moisés, não ousou contra ele pronunciar juízo de maldição, porém disse: “O Senhor te repreenda.”"
+      },
+      "fr": {
+        "prompt": "Selon Jude, l’archange Michel disputa au diable le corps de qui ?",
+        "bible_ref": "Jude 1:9",
+        "verse_text": "Or, l’archange Michel, lorsqu’il contestait avec le diable et lui disputait le corps de Moïse, n’osa pas porter contre lui un jugement injurieux, mais il dit: Que le Seigneur te réprime!"
+      },
+      "en": {
+        "prompt": "According to Jude, about whose body did Michael the archangel dispute with the devil?",
+        "bible_ref": "Jude 1:9",
+        "verse_text": "Yet Michael the archangel, when contending with the devil he disputed about the body of Moses, durst not bring against him a railing accusation, but said, The Lord rebuke thee."
+      },
+      "es": {
+        "prompt": "Según Judas, ¿por el cuerpo de quién disputó el arcángel Miguel con el diablo?",
+        "bible_ref": "Judas 1:9",
+        "verse_text": "Pero cuando el arcángel Miguel contendía con el diablo, disputando sobre el cuerpo de Moisés, no se atrevió á usar de juicio de maldición contra él, sino que dijo: El Señor te reprenda."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Moisés"
+          },
+          "fr": {
+            "text": "Moïse"
+          },
+          "en": {
+            "text": "Moses"
+          },
+          "es": {
+            "text": "Moisés"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Elias"
+          },
+          "fr": {
+            "text": "Élie"
+          },
+          "en": {
+            "text": "Elias"
+          },
+          "es": {
+            "text": "Elías"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Abraão"
+          },
+          "fr": {
+            "text": "Abraham"
+          },
+          "en": {
+            "text": "Abraham"
+          },
+          "es": {
+            "text": "Abraham"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Enoque"
+          },
+          "fr": {
+            "text": "Énoch"
+          },
+          "en": {
+            "text": "Enoch"
+          },
+          "es": {
+            "text": "Enoc"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-009",
+    "type": "choice",
+    "level": "hard",
+    "testament": "nt",
+    "book": "REV",
+    "chapter": 3,
+    "verse_start": 14,
+    "verse_end": 15,
+    "texts": {
+      "pt": {
+        "prompt": "A que igreja diz o Senhor: «tu nem és frio nem quente»?",
+        "bible_ref": "Apocalipse 3:14-15",
+        "verse_text": "“E escreve ao anjo da igreja dos laodicenses: “Isto diz o Amém, a testemunha fiel e verdadeira, o principal da criação de Deus: “Eu conheço as tuas obras, que tu nem és frio, nem quente; melhor seria que tu fosses frio ou quente!"
+      },
+      "fr": {
+        "prompt": "À quelle Église le Seigneur dit-il : « tu n’es ni froid ni bouillant » ?",
+        "bible_ref": "Apocalypse 3:14-15",
+        "verse_text": "Écris à l’ange de l’Église de Laodicée: Voici ce que dit l’Amen, le témoin fidèle et véritable, le commencement de la création de Dieu: Je connais tes œuvres. Je sais que tu n’es ni froid ni bouillant. Puisses-tu être froid ou bouillant!"
+      },
+      "en": {
+        "prompt": "To which church does the Lord say “thou art neither cold nor hot”?",
+        "bible_ref": "Revelation 3:14-15",
+        "verse_text": "And unto the angel of the church of the Laodiceans write; These things saith the Amen, the faithful and true witness, the beginning of the creation of God; I know thy works, that thou art neither cold nor hot: I would thou wert cold or hot."
+      },
+      "es": {
+        "prompt": "¿A qué iglesia dice el Señor: «ni eres frío ni caliente»?",
+        "bible_ref": "Apocalipsis 3:14-15",
+        "verse_text": "Y escribe al ángel de la iglesia en LAODICEA: He aquí dice el Amén, el testigo fiel y verdadero, el principio de la creación de Dios: Yo conozco tus obras, que ni eres frío, ni caliente. ¡Ojalá fueses frío, ó caliente!"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Laodiceia"
+          },
+          "fr": {
+            "text": "Laodicée"
+          },
+          "en": {
+            "text": "Laodicea"
+          },
+          "es": {
+            "text": "Laodicea"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Sardes"
+          },
+          "fr": {
+            "text": "Sardes"
+          },
+          "en": {
+            "text": "Sardis"
+          },
+          "es": {
+            "text": "Sardis"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Éfeso"
+          },
+          "fr": {
+            "text": "Éphèse"
+          },
+          "en": {
+            "text": "Ephesus"
+          },
+          "es": {
+            "text": "Efeso"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Esmirna"
+          },
+          "fr": {
+            "text": "Smyrne"
+          },
+          "en": {
+            "text": "Smyrna"
+          },
+          "es": {
+            "text": "Smirna"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-010",
+    "type": "choice",
+    "level": "hard",
+    "testament": "nt",
+    "book": "2PE",
+    "chapter": 3,
+    "verse_start": 8,
+    "verse_end": 8,
+    "texts": {
+      "pt": {
+        "prompt": "Segundo Pedro, para o Senhor um dia é como quanto tempo?",
+        "bible_ref": "2 Pedro 3:8",
+        "verse_text": "Mas amados, desta uma coisa não ignoreis: que um dia para o Senhor é como mil anos, e mil anos como um dia."
+      },
+      "fr": {
+        "prompt": "Selon Pierre, devant le Seigneur, un jour est comme combien de temps ?",
+        "bible_ref": "2 Pierre 3:8",
+        "verse_text": "Mais il est une chose, bien-aimés, que vous ne devez pas ignorer, c’est que, devant le Seigneur, un jour est comme mille ans, et mille ans sont comme un jour."
+      },
+      "en": {
+        "prompt": "According to Peter, one day is with the Lord as how long?",
+        "bible_ref": "2 Peter 3:8",
+        "verse_text": "But, beloved, be not ignorant of this one thing, that one day is with the Lord as a thousand years, and a thousand years as one day."
+      },
+      "es": {
+        "prompt": "Según Pedro, ¿cuánto tiempo es un día delante del Señor?",
+        "bible_ref": "2 Pedro 3:8",
+        "verse_text": "Mas, oh amados, no ignoréis esta una cosa: que un día delante del Señor es como mil años y mil años como un día."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Mil anos"
+          },
+          "fr": {
+            "text": "Mille ans"
+          },
+          "en": {
+            "text": "A thousand years"
+          },
+          "es": {
+            "text": "Mil años"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Cem anos"
+          },
+          "fr": {
+            "text": "Cent ans"
+          },
+          "en": {
+            "text": "A hundred years"
+          },
+          "es": {
+            "text": "Cien años"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Quarenta anos"
+          },
+          "fr": {
+            "text": "Quarante ans"
+          },
+          "en": {
+            "text": "Forty years"
+          },
+          "es": {
+            "text": "Cuarenta años"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Sete anos"
+          },
+          "fr": {
+            "text": "Sept ans"
+          },
+          "en": {
+            "text": "Seven years"
+          },
+          "es": {
+            "text": "Siete años"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-011",
+    "type": "choice",
+    "level": "hard",
+    "testament": "nt",
+    "book": "2JN",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "texts": {
+      "pt": {
+        "prompt": "A quem escreve «o ancião» na Segunda Epístola de João?",
+        "bible_ref": "2 João 1:1",
+        "verse_text": "O ancião, à senhora eleita, e a seus filhos, aos quais eu amo em verdade; e não somente eu, mas também todos os que têm conhecido a verdade;"
+      },
+      "fr": {
+        "prompt": "À qui « l’ancien » écrit-il dans la deuxième épître de Jean ?",
+        "bible_ref": "2 Jean 1:1",
+        "verse_text": "L’ancien, à Kyria l’élue et à ses enfants, que j’aime dans la vérité, et ce n’est pas moi seul qui les aime, mais aussi tous ceux qui ont connu la vérité,"
+      },
+      "en": {
+        "prompt": "To whom does “the elder” write in the Second Epistle of John?",
+        "bible_ref": "2 John 1:1",
+        "verse_text": "The elder unto the elect lady and her children, whom I love in the truth; and not I only, but also all they that have known the truth;"
+      },
+      "es": {
+        "prompt": "¿A quién escribe «el anciano» en la segunda epístola de Juan?",
+        "bible_ref": "2 Juan 1:1",
+        "verse_text": "EL anciano á la señora elegida y á sus hijos, á los cuales yo amo en verdad; y no yo solo, sino también todos los que han conocido la verdad,"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "À senhora eleita e aos seus filhos"
+          },
+          "fr": {
+            "text": "À Kyria l’élue et à ses enfants"
+          },
+          "en": {
+            "text": "The elect lady and her children"
+          },
+          "es": {
+            "text": "A la señora elegida y a sus hijos"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A Febe e aos seus filhos"
+          },
+          "fr": {
+            "text": "À Phœbé et à ses enfants"
+          },
+          "en": {
+            "text": "Phebe and her children"
+          },
+          "es": {
+            "text": "A Febe y a sus hijos"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A Lídia e aos seus filhos"
+          },
+          "fr": {
+            "text": "À Lydie et à ses enfants"
+          },
+          "en": {
+            "text": "Lydia and her children"
+          },
+          "es": {
+            "text": "A Lidia y a sus hijos"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A Priscila e aos seus filhos"
+          },
+          "fr": {
+            "text": "À Priscille et à ses enfants"
+          },
+          "en": {
+            "text": "Priscilla and her children"
+          },
+          "es": {
+            "text": "A Priscila y a sus hijos"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-012",
+    "type": "choice",
+    "level": "hard",
+    "testament": "nt",
+    "book": "2CO",
+    "chapter": 11,
+    "verse_start": 25,
+    "verse_end": 25,
+    "texts": {
+      "pt": {
+        "prompt": "Quantas vezes diz Paulo que sofreu naufrágio?",
+        "bible_ref": "2 Coríntios 11:25",
+        "verse_text": "Por três vezes já fui espancado com varas, uma vez fui apedrejado, três vezes sofri naufrágios, passei uma noite e um dia à deriva no mar profundo;"
+      },
+      "fr": {
+        "prompt": "Combien de fois Paul dit-il avoir fait naufrage ?",
+        "bible_ref": "2 Corinthiens 11:25",
+        "verse_text": "trois fois j’ai été battu de verges, une fois j’ai été lapidé, trois fois j’ai fait naufrage, j’ai passé un jour et une nuit dans l’abîme."
+      },
+      "en": {
+        "prompt": "How many times does Paul say he suffered shipwreck?",
+        "bible_ref": "2 Corinthians 11:25",
+        "verse_text": "Thrice was I beaten with rods, once was I stoned, thrice I suffered shipwreck, a night and a day I have been in the deep;"
+      },
+      "es": {
+        "prompt": "¿Cuántas veces dice Pablo que padeció naufragio?",
+        "bible_ref": "2 Corintios 11:25",
+        "verse_text": "Tres veces he sido azotado con varas; una vez apedreado; tres veces he padecido naufragio; una noche y un día he estado en lo profundo de la mar;"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Três vezes"
+          },
+          "fr": {
+            "text": "Trois fois"
+          },
+          "en": {
+            "text": "Three times"
+          },
+          "es": {
+            "text": "Tres veces"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma vez"
+          },
+          "fr": {
+            "text": "Une fois"
+          },
+          "en": {
+            "text": "Once"
+          },
+          "es": {
+            "text": "Una vez"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Duas vezes"
+          },
+          "fr": {
+            "text": "Deux fois"
+          },
+          "en": {
+            "text": "Twice"
+          },
+          "es": {
+            "text": "Dos veces"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Sete vezes"
+          },
+          "fr": {
+            "text": "Sept fois"
+          },
+          "en": {
+            "text": "Seven times"
+          },
+          "es": {
+            "text": "Siete veces"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-013",
+    "type": "order",
+    "level": "hard",
+    "testament": "nt",
+    "book": "REV",
+    "chapter": 2,
+    "verse_start": 8,
+    "verse_end": 8,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estas cartas às igrejas pela ordem em que aparecem no Apocalipse.",
+        "bible_ref": "Apocalipse 2:8",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces lettres aux Églises dans l’ordre où elles apparaissent dans l’Apocalypse.",
+        "bible_ref": "Apocalypse 2:8",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these letters to the churches in the order they appear in Revelation.",
+        "bible_ref": "Revelation 2:8",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estas cartas a las iglesias según aparecen en el Apocalipsis.",
+        "bible_ref": "Apocalipsis 2:8",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Carta à igreja de Esmirna",
+            "ref": "Apocalipse 2:8"
+          },
+          "fr": {
+            "text": "Lettre à l’Église de Smyrne",
+            "ref": "Apocalypse 2:8"
+          },
+          "en": {
+            "text": "Letter to the church in Smyrna",
+            "ref": "Revelation 2:8"
+          },
+          "es": {
+            "text": "Carta a la iglesia en Smirna",
+            "ref": "Apocalipsis 2:8"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Carta à igreja de Tiatira",
+            "ref": "Apocalipse 2:18"
+          },
+          "fr": {
+            "text": "Lettre à l’Église de Thyatire",
+            "ref": "Apocalypse 2:18"
+          },
+          "en": {
+            "text": "Letter to the church in Thyatira",
+            "ref": "Revelation 2:18"
+          },
+          "es": {
+            "text": "Carta a la iglesia en Tiatira",
+            "ref": "Apocalipsis 2:18"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Carta à igreja de Sardes",
+            "ref": "Apocalipse 3:1"
+          },
+          "fr": {
+            "text": "Lettre à l’Église de Sardes",
+            "ref": "Apocalypse 3:1"
+          },
+          "en": {
+            "text": "Letter to the church in Sardis",
+            "ref": "Revelation 3:1"
+          },
+          "es": {
+            "text": "Carta a la iglesia en Sardis",
+            "ref": "Apocalipsis 3:1"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Carta à igreja de Filadélfia",
+            "ref": "Apocalipse 3:7"
+          },
+          "fr": {
+            "text": "Lettre à l’Église de Philadelphie",
+            "ref": "Apocalypse 3:7"
+          },
+          "en": {
+            "text": "Letter to the church in Philadelphia",
+            "ref": "Revelation 3:7"
+          },
+          "es": {
+            "text": "Carta a la iglesia en Filadelfia",
+            "ref": "Apocalipsis 3:7"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-014",
+    "type": "order",
+    "level": "hard",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 13,
+    "verse_start": 6,
+    "verse_end": 6,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Atos 13:6",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Actes 13:6",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Acts 13:6",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Hechos 13:6",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Em Pafo, encontram um falso profeta",
+            "ref": "Atos 13:6"
+          },
+          "fr": {
+            "text": "À Paphos, ils trouvent un faux prophète",
+            "ref": "Actes 13:6"
+          },
+          "en": {
+            "text": "At Paphos they find a false prophet",
+            "ref": "Acts 13:6"
+          },
+          "es": {
+            "text": "En Papho hallan a un falso profeta",
+            "ref": "Hechos 13:6"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Entram na sinagoga de Antioquia da Pisídia",
+            "ref": "Atos 13:14"
+          },
+          "fr": {
+            "text": "Ils entrent dans la synagogue d’Antioche de Pisidie",
+            "ref": "Actes 13:14"
+          },
+          "en": {
+            "text": "They enter the synagogue at Antioch in Pisidia",
+            "ref": "Acts 13:14"
+          },
+          "es": {
+            "text": "Entran en la sinagoga de Antioquía de Pisidia",
+            "ref": "Hechos 13:14"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Em Icónio, uma grande multidão crê",
+            "ref": "Atos 14:1"
+          },
+          "fr": {
+            "text": "À Icone, une grande multitude croit",
+            "ref": "Actes 14:1"
+          },
+          "en": {
+            "text": "In Iconium a great multitude believes",
+            "ref": "Acts 14:1"
+          },
+          "es": {
+            "text": "En Iconio cree una grande multitud",
+            "ref": "Hechos 14:1"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Em Listra, encontram um coxo de nascença",
+            "ref": "Atos 14:8"
+          },
+          "fr": {
+            "text": "À Lystre, ils trouvent un boiteux de naissance",
+            "ref": "Actes 14:8"
+          },
+          "en": {
+            "text": "At Lystra they find a cripple from birth",
+            "ref": "Acts 14:8"
+          },
+          "es": {
+            "text": "En Listra hallan a un cojo de nacimiento",
+            "ref": "Hechos 14:8"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-015",
+    "type": "order",
+    "level": "hard",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 23,
+    "verse_start": 1,
+    "verse_end": 1,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Atos 23:1",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Actes 23:1",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Acts 23:1",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Hechos 23:1",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Paulo fala perante o conselho",
+            "ref": "Atos 23:1"
+          },
+          "fr": {
+            "text": "Paul parle devant le sanhédrin",
+            "ref": "Actes 23:1"
+          },
+          "en": {
+            "text": "Paul speaks before the council",
+            "ref": "Acts 23:1"
+          },
+          "es": {
+            "text": "Pablo habla ante el concilio",
+            "ref": "Hechos 23:1"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O sobrinho de Paulo descobre a cilada",
+            "ref": "Atos 23:16"
+          },
+          "fr": {
+            "text": "Le neveu de Paul apprend le guet-apens",
+            "ref": "Actes 23:16"
+          },
+          "en": {
+            "text": "Paul’s sister’s son hears of the ambush",
+            "ref": "Acts 23:16"
+          },
+          "es": {
+            "text": "El sobrino de Pablo oye las asechanzas",
+            "ref": "Hechos 23:16"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Félix e Drusila ouvem Paulo",
+            "ref": "Atos 24:24"
+          },
+          "fr": {
+            "text": "Félix et Drusille écoutent Paul",
+            "ref": "Actes 24:24"
+          },
+          "en": {
+            "text": "Felix and Drusilla hear Paul",
+            "ref": "Acts 24:24"
+          },
+          "es": {
+            "text": "Félix y Drusila oyen a Pablo",
+            "ref": "Hechos 24:24"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Paulo apela para César",
+            "ref": "Atos 25:11"
+          },
+          "fr": {
+            "text": "Paul en appelle à César",
+            "ref": "Actes 25:11"
+          },
+          "en": {
+            "text": "Paul appeals unto Cæsar",
+            "ref": "Acts 25:11"
+          },
+          "es": {
+            "text": "Pablo apela a César",
+            "ref": "Hechos 25:11"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-016",
+    "type": "order",
+    "level": "hard",
+    "testament": "nt",
+    "book": "ACT",
+    "chapter": 18,
+    "verse_start": 24,
+    "verse_end": 24,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Atos 18:24",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Actes 18:24",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Acts 18:24",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Hechos 18:24",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Apolo chega a Éfeso",
+            "ref": "Atos 18:24"
+          },
+          "fr": {
+            "text": "Apollos arrive à Éphèse",
+            "ref": "Actes 18:24"
+          },
+          "en": {
+            "text": "Apollos comes to Ephesus",
+            "ref": "Acts 18:24"
+          },
+          "es": {
+            "text": "Apolos llega a Efeso",
+            "ref": "Hechos 18:24"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O ourives Demétrio faz templos de Diana",
+            "ref": "Atos 19:24"
+          },
+          "fr": {
+            "text": "L’orfèvre Démétrius fait des temples de Diane",
+            "ref": "Actes 19:24"
+          },
+          "en": {
+            "text": "Demetrius makes silver shrines for Diana",
+            "ref": "Acts 19:24"
+          },
+          "es": {
+            "text": "El platero Demetrio hace templecillos de Diana",
+            "ref": "Hechos 19:24"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Êutico cai de uma janela",
+            "ref": "Atos 20:9"
+          },
+          "fr": {
+            "text": "Eutychus tombe d’une fenêtre",
+            "ref": "Actes 20:9"
+          },
+          "en": {
+            "text": "Eutychus falls from a window",
+            "ref": "Acts 20:9"
+          },
+          "es": {
+            "text": "Eutichô cae de una ventana",
+            "ref": "Hechos 20:9"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Paulo chama de Mileto os anciãos de Éfeso",
+            "ref": "Atos 20:17"
+          },
+          "fr": {
+            "text": "De Milet, Paul fait venir les anciens d’Éphèse",
+            "ref": "Actes 20:17"
+          },
+          "en": {
+            "text": "From Miletus Paul calls the Ephesian elders",
+            "ref": "Acts 20:17"
+          },
+          "es": {
+            "text": "Desde Mileto Pablo llama a los ancianos de Efeso",
+            "ref": "Hechos 20:17"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-017",
+    "type": "verse",
+    "level": "hard",
+    "testament": "nt",
+    "book": "2TH",
+    "chapter": 3,
+    "verse_start": 10,
+    "verse_end": 10,
+    "texts": {
+      "pt": {
+        "prompt": "Porque, quando ainda estávamos convosco, isto vos mandamos: que se alguém não quiser _____, também não coma.",
+        "bible_ref": "2 Tessalonicenses 3:10",
+        "verse_text": "Porque, quando ainda estávamos convosco, isto vos mandamos: que se alguém não quiser trabalhar, também não coma."
+      },
+      "fr": {
+        "prompt": "Car, lorsque nous étions chez vous, nous vous disions expressément: Si quelqu’un ne veut pas _____, qu’il ne mange pas non plus.",
+        "bible_ref": "2 Thessaloniciens 3:10",
+        "verse_text": "Car, lorsque nous étions chez vous, nous vous disions expressément: Si quelqu’un ne veut pas travailler, qu’il ne mange pas non plus."
+      },
+      "en": {
+        "prompt": "For even when we were with you, this we commanded you, that if any would not _____, neither should he eat.",
+        "bible_ref": "2 Thessalonians 3:10",
+        "verse_text": "For even when we were with you, this we commanded you, that if any would not work, neither should he eat."
+      },
+      "es": {
+        "prompt": "Porque aun estando con vosotros, os denunciábamos esto: Que si alguno no quisiere _____, tampoco coma.",
+        "bible_ref": "2 Tesalonicenses 3:10",
+        "verse_text": "Porque aun estando con vosotros, os denunciábamos esto: Que si alguno no quisiere trabajar, tampoco coma."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "orar"
+          },
+          "fr": {
+            "text": "prier"
+          },
+          "en": {
+            "text": "pray"
+          },
+          "es": {
+            "text": "orar"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "jejuar"
+          },
+          "fr": {
+            "text": "jeûner"
+          },
+          "en": {
+            "text": "fast"
+          },
+          "es": {
+            "text": "ayunar"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "trabalhar"
+          },
+          "fr": {
+            "text": "travailler"
+          },
+          "en": {
+            "text": "work"
+          },
+          "es": {
+            "text": "trabajar"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "aprender"
+          },
+          "fr": {
+            "text": "apprendre"
+          },
+          "en": {
+            "text": "learn"
+          },
+          "es": {
+            "text": "aprender"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-018",
+    "type": "verse",
+    "level": "hard",
+    "testament": "nt",
+    "book": "1PE",
+    "chapter": 5,
+    "verse_start": 8,
+    "verse_end": 8,
+    "texts": {
+      "pt": {
+        "prompt": "Sede sóbrios! Vigiai! Pois o vosso adversário, o diabo, anda ao redor, rugindo como um _____, buscando a quem possa devorar.",
+        "bible_ref": "1 Pedro 5:8",
+        "verse_text": "Sede sóbrios! Vigiai! Pois o vosso adversário, o diabo, anda ao redor, rugindo como um leão, buscando a quem possa devorar."
+      },
+      "fr": {
+        "prompt": "Soyez sobres, veillez. Votre adversaire, le diable, rôde comme un _____ rugissant, cherchant qui il dévorera.",
+        "bible_ref": "1 Pierre 5:8",
+        "verse_text": "Soyez sobres, veillez. Votre adversaire, le diable, rôde comme un lion rugissant, cherchant qui il dévorera."
+      },
+      "en": {
+        "prompt": "Be sober, be vigilant; because your adversary the devil, as a roaring _____, walketh about, seeking whom he may devour:",
+        "bible_ref": "1 Peter 5:8",
+        "verse_text": "Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour:"
+      },
+      "es": {
+        "prompt": "Sed templados, y velad; porque vuestro adversario el diablo, cual _____ rugiente, anda alrededor buscando á quien devore:",
+        "bible_ref": "1 Pedro 5:8",
+        "verse_text": "Sed templados, y velad; porque vuestro adversario el diablo, cual león rugiente, anda alrededor buscando á quien devore:"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "leão"
+          },
+          "fr": {
+            "text": "lion"
+          },
+          "en": {
+            "text": "lion"
+          },
+          "es": {
+            "text": "león"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "leopardo"
+          },
+          "fr": {
+            "text": "léopard"
+          },
+          "en": {
+            "text": "leopard"
+          },
+          "es": {
+            "text": "leopardo"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "lobo"
+          },
+          "fr": {
+            "text": "loup"
+          },
+          "en": {
+            "text": "wolf"
+          },
+          "es": {
+            "text": "lobo"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "urso"
+          },
+          "fr": {
+            "text": "ours"
+          },
+          "en": {
+            "text": "bear"
+          },
+          "es": {
+            "text": "oso"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-019",
+    "type": "verse",
+    "level": "hard",
+    "testament": "nt",
+    "book": "PHP",
+    "chapter": 1,
+    "verse_start": 21,
+    "verse_end": 21,
+    "texts": {
+      "pt": {
+        "prompt": "Pois, para mim, o viver é Cristo, e o morrer é _____.",
+        "bible_ref": "Filipenses 1:21",
+        "verse_text": "Pois, para mim, o viver é Cristo, e o morrer é lucro."
+      },
+      "fr": {
+        "prompt": "car Christ est ma vie, et la mort m’est un _____.",
+        "bible_ref": "Philippiens 1:21",
+        "verse_text": "car Christ est ma vie, et la mort m’est un gain."
+      },
+      "en": {
+        "prompt": "For to me to live is Christ, and to die is _____.",
+        "bible_ref": "Philippians 1:21",
+        "verse_text": "For to me to live is Christ, and to die is gain."
+      },
+      "es": {
+        "prompt": "Porque para mí el vivir es Cristo, y el morir es _____.",
+        "bible_ref": "Filipenses 1:21",
+        "verse_text": "Porque para mí el vivir es Cristo, y el morir es ganancia."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "descanso"
+          },
+          "fr": {
+            "text": "repos"
+          },
+          "en": {
+            "text": "rest"
+          },
+          "es": {
+            "text": "descanso"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "lucro"
+          },
+          "fr": {
+            "text": "gain"
+          },
+          "en": {
+            "text": "gain"
+          },
+          "es": {
+            "text": "ganancia"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "sono"
+          },
+          "fr": {
+            "text": "sommeil"
+          },
+          "en": {
+            "text": "sleep"
+          },
+          "es": {
+            "text": "sueño"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "mistério"
+          },
+          "fr": {
+            "text": "mystère"
+          },
+          "en": {
+            "text": "mystery"
+          },
+          "es": {
+            "text": "misterio"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-020",
+    "type": "verse",
+    "level": "hard",
+    "testament": "nt",
+    "book": "ROM",
+    "chapter": 12,
+    "verse_start": 21,
+    "verse_end": 21,
+    "texts": {
+      "pt": {
+        "prompt": "Não sejas vencido pelo mal, mas vence o mal com o _____.",
+        "bible_ref": "Romanos 12:21",
+        "verse_text": "Não sejas vencido pelo mal, mas vence o mal com o bem."
+      },
+      "fr": {
+        "prompt": "Ne te laisse pas vaincre par le mal, mais surmonte le mal par le _____.",
+        "bible_ref": "Romains 12:21",
+        "verse_text": "Ne te laisse pas vaincre par le mal, mais surmonte le mal par le bien."
+      },
+      "en": {
+        "prompt": "Be not overcome of evil, but overcome evil with _____.",
+        "bible_ref": "Romans 12:21",
+        "verse_text": "Be not overcome of evil, but overcome evil with good."
+      },
+      "es": {
+        "prompt": "No seas vencido de lo malo; mas vence con el _____ el mal.",
+        "bible_ref": "Romanos 12:21",
+        "verse_text": "No seas vencido de lo malo; mas vence con el bien el mal."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "silêncio"
+          },
+          "fr": {
+            "text": "silence"
+          },
+          "en": {
+            "text": "silence"
+          },
+          "es": {
+            "text": "silencio"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "jejum"
+          },
+          "fr": {
+            "text": "jeûne"
+          },
+          "en": {
+            "text": "fasting"
+          },
+          "es": {
+            "text": "ayuno"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "bem"
+          },
+          "fr": {
+            "text": "bien"
+          },
+          "en": {
+            "text": "good"
+          },
+          "es": {
+            "text": "bien"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "perdão"
+          },
+          "fr": {
+            "text": "pardon"
+          },
+          "en": {
+            "text": "forgiveness"
+          },
+          "es": {
+            "text": "perdón"
+          }
+        }
+      }
+    ]
+  },
+  {
     "id": "evan-easy-001",
     "type": "choice",
     "level": "easy",
