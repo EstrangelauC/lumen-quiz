@@ -25,7 +25,7 @@ Observação: a grafia é a do português do Brasil (a regra do projeto manda ma
 
 ## Normalização do texto
 
-Uma linha por versículo (`LIVRO\tcapítulo\tversículo\ttexto`), códigos USFM; só os 66 livros canónicos; remove-se a marca de parágrafo `¶` e restos de marcação, colapsam-se os espaços; grafia e pontuação originais mantidas (incluindo, p. ex., as palavras entre parênteses retos da KJV, que assinalam palavras acrescentadas pelos tradutores). Versículos vazios na fonte são omitidos (a RV1909 tem 31 084 versículos, a Louis Segond 31 170 por numeração própria dos Salmos).
+Uma linha por versículo (`LIVRO\tcapítulo\tversículo\ttexto`), códigos USFM; só os 66 livros canónicos; remove-se a marca de parágrafo `¶`, os `[ ]` e restos de marcação, colapsam-se os espaços; grafia e pontuação originais mantidas; removem-se os parênteses retos `[ ]` que assinalam palavras acrescentadas pelos tradutores (ficam as palavras, p. ex. "darkness [was] upon" passa a "darkness was upon"). Versículos vazios na fonte são omitidos (a RV1909 tem 31 084 versículos, a Louis Segond 31 170 por numeração própria dos Salmos).
 
 ## Fixtures
 
