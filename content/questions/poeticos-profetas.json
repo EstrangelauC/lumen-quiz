@@ -1,0 +1,3062 @@
+[
+  {
+    "id": "poet-easy-001",
+    "type": "choice",
+    "level": "easy",
+    "book": "DAN",
+    "chapter": 6,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Quantas vezes por dia se ajoelhava Daniel para orar?",
+      "fr": "Combien de fois par jour Daniel se mettait-il à genoux pour prier ?",
+      "en": "How many times a day did Daniel kneel to pray?",
+      "es": "¿Cuántas veces al día se arrodillaba Daniel para orar?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Três",
+          "fr": "Trois",
+          "en": "Three",
+          "es": "Tres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma",
+          "fr": "Une",
+          "en": "One",
+          "es": "Una"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dez",
+          "fr": "Dix",
+          "en": "Ten",
+          "es": "Diez"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-002",
+    "type": "choice",
+    "level": "easy",
+    "book": "DAN",
+    "chapter": 6,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "Quem fechou a boca dos leões para não fazerem mal a Daniel?",
+      "fr": "Qui a fermé la gueule des lions pour qu’ils ne fassent pas de mal à Daniel ?",
+      "en": "Who shut the lions’ mouths so that they did not hurt Daniel?",
+      "es": "¿Quién cerró la boca de los leones para que no hicieran daño a Daniel?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um anjo enviado por Deus",
+          "fr": "Un ange envoyé par Dieu",
+          "en": "An angel sent by God",
+          "es": "Un ángel enviado por Dios"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O rei",
+          "fr": "Le roi",
+          "en": "The king",
+          "es": "El rey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os soldados",
+          "fr": "Les soldats",
+          "en": "The soldiers",
+          "es": "Los soldados"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O próprio Daniel",
+          "fr": "Daniel lui-même",
+          "en": "Daniel himself",
+          "es": "El propio Daniel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-003",
+    "type": "choice",
+    "level": "easy",
+    "book": "DAN",
+    "chapter": 3,
+    "verse_start": 25,
+    "verse_end": 25,
+    "prompt": {
+      "pt": "Quantos homens viu o rei a andar no meio do fogo da fornalha?",
+      "fr": "Combien d’hommes le roi vit-il marcher au milieu du feu de la fournaise ?",
+      "en": "How many men did the king see walking in the midst of the fire?",
+      "es": "¿Cuántos hombres vio el rey paseándose en medio del fuego del horno?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Quatro",
+          "fr": "Quatre",
+          "en": "Four",
+          "es": "Cuatro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Três",
+          "fr": "Trois",
+          "en": "Three",
+          "es": "Tres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dois",
+          "fr": "Deux",
+          "en": "Two",
+          "es": "Dos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-004",
+    "type": "choice",
+    "level": "easy",
+    "book": "DAN",
+    "chapter": 5,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Durante o banquete do rei, o que apareceu a escrever na parede do palácio?",
+      "fr": "Pendant le festin du roi, qu’est-ce qui apparut pour écrire sur la muraille du palais ?",
+      "en": "During the king’s feast, what appeared and wrote on the wall of the palace?",
+      "es": "Durante el banquete del rey, ¿qué apareció escribiendo en la pared del palacio?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Os dedos de uma mão",
+          "fr": "Les doigts d’une main",
+          "en": "The fingers of a hand",
+          "es": "Los dedos de una mano"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma pomba",
+          "fr": "Une colombe",
+          "en": "A dove",
+          "es": "Una paloma"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um anjo com uma espada",
+          "fr": "Un ange avec une épée",
+          "en": "An angel with a sword",
+          "es": "Un ángel con una espada"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma serpente",
+          "fr": "Un serpent",
+          "en": "A serpent",
+          "es": "Una serpiente"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-005",
+    "type": "choice",
+    "level": "easy",
+    "book": "JON",
+    "chapter": 1,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Para que grande cidade mandou Deus Jonas?",
+      "fr": "Dans quelle grande ville Dieu envoya-t-il Jonas ?",
+      "en": "To which great city did God send Jonah?",
+      "es": "¿A qué gran ciudad envió Dios a Jonás?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nínive",
+          "fr": "Ninive",
+          "en": "Nineveh",
+          "es": "Nínive"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jerusalém",
+          "fr": "Jérusalem",
+          "en": "Jerusalem",
+          "es": "Jerusalén"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Babilónia",
+          "fr": "Babylone",
+          "en": "Babylon",
+          "es": "Babilonia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Belém",
+          "fr": "Bethléhem",
+          "en": "Bethlehem",
+          "es": "Belén"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-006",
+    "type": "choice",
+    "level": "easy",
+    "book": "JON",
+    "chapter": 2,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Jonas esteve dentro da barriga de que animal?",
+      "fr": "Dans le ventre de quel animal Jonas s’est-il trouvé ?",
+      "en": "Inside the belly of which animal was Jonah?",
+      "es": "¿En el vientre de qué animal estuvo Jonás?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um peixe",
+          "fr": "Un poisson",
+          "en": "A fish",
+          "es": "Un pez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um leão",
+          "fr": "Un lion",
+          "en": "A lion",
+          "es": "Un león"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um urso",
+          "fr": "Un ours",
+          "en": "A bear",
+          "es": "Un oso"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um camelo",
+          "fr": "Un chameau",
+          "en": "A camel",
+          "es": "Un camello"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-007",
+    "type": "choice",
+    "level": "easy",
+    "book": "JOB",
+    "chapter": 42,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "No fim da história, quanto deu o SENHOR a Jó?",
+      "fr": "À la fin de l’histoire, combien l’Éternel donna-t-il à Job ?",
+      "en": "At the end of the story, how much did the LORD give Job?",
+      "es": "Al final de la historia, ¿cuánto le dio Jehová a Job?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O dobro do que tinha antes",
+          "fr": "Le double de ce qu’il avait avant",
+          "en": "Twice as much as he had before",
+          "es": "El doble de lo que tenía antes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Metade do que tinha antes",
+          "fr": "La moitié de ce qu’il avait avant",
+          "en": "Half of what he had before",
+          "es": "La mitad de lo que tenía antes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Exatamente o mesmo",
+          "fr": "Exactement la même chose",
+          "en": "Exactly the same",
+          "es": "Exactamente lo mismo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nada",
+          "fr": "Rien",
+          "en": "Nothing",
+          "es": "Nada"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-008",
+    "type": "choice",
+    "level": "easy",
+    "book": "ISA",
+    "chapter": 7,
+    "verse_start": 14,
+    "verse_end": 14,
+    "prompt": {
+      "pt": "Segundo Isaías, que nome teria o filho que a virgem ia ter?",
+      "fr": "Selon Ésaïe, quel nom aurait le fils que la jeune fille allait enfanter ?",
+      "en": "According to Isaiah, what name would the son born of the virgin have?",
+      "es": "Según Isaías, ¿qué nombre tendría el hijo que daría a luz la virgen?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Emanuel",
+          "fr": "Emmanuel",
+          "en": "Immanuel",
+          "es": "Emanuel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Samuel",
+          "fr": "Samuel",
+          "en": "Samuel",
+          "es": "Samuel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Daniel",
+          "fr": "Daniel",
+          "en": "Daniel",
+          "es": "Daniel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Isaque",
+          "fr": "Isaac",
+          "en": "Isaac",
+          "es": "Isaac"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-009",
+    "type": "choice",
+    "level": "easy",
+    "book": "ISA",
+    "chapter": 6,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Quando o Senhor perguntou «A quem enviarei?», o que respondeu Isaías?",
+      "fr": "Quand le Seigneur demanda « Qui enverrai-je ? », que répondit Ésaïe ?",
+      "en": "When the Lord asked “Whom shall I send?”, what did Isaiah answer?",
+      "es": "Cuando el Señor preguntó «¿A quién enviaré?», ¿qué respondió Isaías?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Eis-me aqui, envia-me!",
+          "fr": "Me voici, envoie-moi.",
+          "en": "Here am I; send me.",
+          "es": "Heme aquí, envíame a mí."
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Envia outra pessoa!",
+          "fr": "Envoie quelqu’un d’autre !",
+          "en": "Send someone else!",
+          "es": "¡Envía a otro!"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Não sei falar.",
+          "fr": "Je ne sais pas parler.",
+          "en": "I cannot speak.",
+          "es": "No sé hablar."
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tenho medo.",
+          "fr": "J’ai peur.",
+          "en": "I am afraid.",
+          "es": "Tengo miedo."
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-010",
+    "type": "choice",
+    "level": "easy",
+    "book": "PRO",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "De que rei, filho de David, são os provérbios do livro de Provérbios?",
+      "fr": "De quel roi, fils de David, sont les proverbes du livre des Proverbes ?",
+      "en": "Which king, the son of David, wrote the proverbs of the book of Proverbs?",
+      "es": "¿De qué rey, hijo de David, son los proverbios del libro de Proverbios?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Salomão",
+          "fr": "Salomon",
+          "en": "Solomon",
+          "es": "Salomón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Saul",
+          "fr": "Saül",
+          "en": "Saul",
+          "es": "Saúl"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ezequias",
+          "fr": "Ézéchias",
+          "en": "Hezekiah",
+          "es": "Ezequías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josias",
+          "fr": "Josias",
+          "en": "Josiah",
+          "es": "Josías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-011",
+    "type": "choice",
+    "level": "easy",
+    "book": "ECC",
+    "chapter": 3,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Eclesiastes, o que há para todas as coisas debaixo do céu?",
+      "fr": "Selon l’Ecclésiaste, qu’y a-t-il pour toute chose sous les cieux ?",
+      "en": "According to Ecclesiastes, what is there for every purpose under heaven?",
+      "es": "Según Eclesiastés, ¿qué hay para todo lo que se quiere debajo del cielo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um tempo",
+          "fr": "Un temps",
+          "en": "A time",
+          "es": "Un tiempo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um preço",
+          "fr": "Un prix",
+          "en": "A price",
+          "es": "Un precio"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um rei",
+          "fr": "Un roi",
+          "en": "A king",
+          "es": "Un rey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um segredo",
+          "fr": "Un secret",
+          "en": "A secret",
+          "es": "Un secreto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-012",
+    "type": "choice",
+    "level": "easy",
+    "book": "JER",
+    "chapter": 1,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Quando Deus o chamou para ser profeta, o que disse Jeremias que era?",
+      "fr": "Quand Dieu l’appela à être prophète, que dit Jérémie qu’il était ?",
+      "en": "When God called him to be a prophet, what did Jeremiah say he was?",
+      "es": "Cuando Dios lo llamó para ser profeta, ¿qué dijo Jeremías que era?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um menino",
+          "fr": "Un enfant",
+          "en": "A child",
+          "es": "Un niño"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um velho",
+          "fr": "Un vieillard",
+          "en": "An old man",
+          "es": "Un anciano"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um rei",
+          "fr": "Un roi",
+          "en": "A king",
+          "es": "Un rey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um soldado",
+          "fr": "Un soldat",
+          "en": "A soldier",
+          "es": "Un soldado"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-013",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DAN",
+        "chapter": 6,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Daniel ora com as janelas abertas",
+          "fr": "Daniel prie, fenêtres ouvertes",
+          "en": "Daniel prays with his windows open",
+          "es": "Daniel ora con las ventanas abiertas"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 6,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Daniel é lançado na cova dos leões",
+          "fr": "Daniel est jeté dans la fosse aux lions",
+          "en": "Daniel is cast into the lions’ den",
+          "es": "Daniel es echado en el foso de los leones"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 6,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "Uma pedra tapa a entrada da cova",
+          "fr": "Une pierre ferme l’ouverture de la fosse",
+          "en": "A stone is laid on the mouth of the den",
+          "es": "Una piedra tapa la puerta del foso"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 6,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "Daniel sai da cova sem nenhum mal",
+          "fr": "Daniel sort de la fosse sans blessure",
+          "en": "Daniel comes out of the den unhurt",
+          "es": "Daniel sale del foso sin ningún daño"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-014",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JON",
+        "chapter": 1,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Deus dá uma missão a Jonas",
+          "fr": "Dieu donne une mission à Jonas",
+          "en": "God gives Jonah a mission",
+          "es": "Dios da una misión a Jonás"
+        }
+      },
+      {
+        "book": "JON",
+        "chapter": 1,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Jonas foge num navio",
+          "fr": "Jonas s’enfuit sur un navire",
+          "en": "Jonah runs away on a ship",
+          "es": "Jonás huye en un barco"
+        }
+      },
+      {
+        "book": "JON",
+        "chapter": 1,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Jonas é lançado ao mar",
+          "fr": "Jonas est jeté dans la mer",
+          "en": "Jonah is thrown into the sea",
+          "es": "Jonás es echado al mar"
+        }
+      },
+      {
+        "book": "JON",
+        "chapter": 3,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "O povo da cidade crê em Deus",
+          "fr": "Les gens de la ville croient en Dieu",
+          "en": "The people of the city believe God",
+          "es": "La gente de la ciudad cree a Dios"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-015",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DAN",
+        "chapter": 3,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "O rei faz uma estátua de ouro",
+          "fr": "Le roi fait une statue d’or",
+          "en": "The king makes a golden image",
+          "es": "El rey hace una estatua de oro"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 3,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Três jovens recusam adorar a estátua",
+          "fr": "Trois jeunes refusent d’adorer la statue",
+          "en": "Three young men refuse to worship the image",
+          "es": "Tres jóvenes no quieren adorar la estatua"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 3,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "São atados e lançados na fornalha",
+          "fr": "Ils sont liés et jetés dans la fournaise",
+          "en": "They are bound and cast into the furnace",
+          "es": "Son atados y echados en el horno"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 3,
+        "verse_start": 26,
+        "verse_end": 26,
+        "text": {
+          "pt": "Saem do meio do fogo",
+          "fr": "Ils sortent du milieu du feu",
+          "en": "They come out of the fire",
+          "es": "Salen de en medio del fuego"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-016",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JOB",
+        "chapter": 1,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "Jó diz: «O SENHOR deu, o SENHOR tirou»",
+          "fr": "Job dit : « L’Éternel a donné, l’Éternel a ôté »",
+          "en": "Job says: “The LORD gave, the LORD hath taken”",
+          "es": "Job dice: «Jehová dio, Jehová quitó»"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 2,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Três amigos vêm consolar Jó",
+          "fr": "Trois amis viennent consoler Job",
+          "en": "Three friends come to comfort Job",
+          "es": "Tres amigos vienen a consolar a Job"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 38,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "O SENHOR responde a Jó",
+          "fr": "L’Éternel répond à Job",
+          "en": "The LORD answers Job",
+          "es": "Jehová responde a Job"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 42,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "O SENHOR volta a abençoar Jó",
+          "fr": "L’Éternel bénit de nouveau Job",
+          "en": "The LORD blesses Job again",
+          "es": "Jehová vuelve a bendecir a Job"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-017",
+    "type": "verse",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 23,
+    "verse_start": 1,
+    "verse_end": 1,
+    "blank": {
+      "pt": "pastor",
+      "fr": "berger",
+      "en": "shepherd",
+      "es": "pastor"
+    },
+    "distractors": [
+      {
+        "pt": "rei",
+        "fr": "roi",
+        "en": "king",
+        "es": "rey"
+      },
+      {
+        "pt": "pai",
+        "fr": "père",
+        "en": "father",
+        "es": "padre"
+      },
+      {
+        "pt": "amigo",
+        "fr": "ami",
+        "en": "friend",
+        "es": "amigo"
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-018",
+    "type": "verse",
+    "level": "easy",
+    "book": "PRO",
+    "chapter": 3,
+    "verse_start": 5,
+    "verse_end": 5,
+    "blank": {
+      "pt": "coração",
+      "fr": "cœur",
+      "en": "heart",
+      "es": "corazón"
+    },
+    "distractors": [
+      {
+        "pt": "corpo",
+        "fr": "corps",
+        "en": "body",
+        "es": "cuerpo"
+      },
+      {
+        "pt": "dinheiro",
+        "fr": "argent",
+        "en": "money",
+        "es": "dinero"
+      },
+      {
+        "pt": "tempo",
+        "fr": "temps",
+        "en": "time",
+        "es": "tiempo"
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-019",
+    "type": "verse",
+    "level": "easy",
+    "book": "JER",
+    "chapter": 33,
+    "verse_start": 3,
+    "verse_end": 3,
+    "blank": {
+      "pt": "responderei",
+      "fr": "répondrai",
+      "en": "answer",
+      "es": "responderé"
+    },
+    "distractors": [
+      {
+        "pt": "esquecerei",
+        "fr": "oublierai",
+        "en": "forget",
+        "es": "olvidaré"
+      },
+      {
+        "pt": "castigarei",
+        "fr": "punirai",
+        "en": "punish",
+        "es": "castigaré"
+      },
+      {
+        "pt": "deixarei",
+        "fr": "quitterai",
+        "en": "leave",
+        "es": "dejaré"
+      }
+    ]
+  },
+  {
+    "id": "poet-easy-020",
+    "type": "verse",
+    "level": "easy",
+    "book": "ISA",
+    "chapter": 40,
+    "verse_start": 8,
+    "verse_end": 8,
+    "blank": {
+      "pt": "palavra",
+      "fr": "parole",
+      "en": "word",
+      "es": "palabra"
+    },
+    "distractors": [
+      {
+        "pt": "casa",
+        "fr": "maison",
+        "en": "house",
+        "es": "casa"
+      },
+      {
+        "pt": "cidade",
+        "fr": "ville",
+        "en": "city",
+        "es": "ciudad"
+      },
+      {
+        "pt": "coroa",
+        "fr": "couronne",
+        "en": "crown",
+        "es": "corona"
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-001",
+    "type": "choice",
+    "level": "medium",
+    "book": "PSA",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "No Salmo 1, o homem bem-aventurado é comparado a quê?",
+      "fr": "Dans le Psaume 1, à quoi est comparé l’homme heureux ?",
+      "en": "In Psalm 1, what is the blessed man compared to?",
+      "es": "En el Salmo 1, ¿a qué se compara el varón bienaventurado?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma árvore plantada junto à água",
+          "fr": "Un arbre planté près de l’eau",
+          "en": "A tree planted by the water",
+          "es": "Un árbol plantado junto a las aguas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma casa construída sobre a rocha",
+          "fr": "Une maison bâtie sur le roc",
+          "en": "A house built on the rock",
+          "es": "Una casa edificada sobre la roca"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma estrela no céu",
+          "fr": "Une étoile dans le ciel",
+          "en": "A star in the sky",
+          "es": "Una estrella en el cielo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma torre forte",
+          "fr": "Une tour forte",
+          "en": "A strong tower",
+          "es": "Una torre fuerte"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-002",
+    "type": "choice",
+    "level": "medium",
+    "book": "JOB",
+    "chapter": 38,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "De onde respondeu o SENHOR a Jó?",
+      "fr": "D’où l’Éternel répondit-il à Job ?",
+      "en": "Out of what did the LORD answer Job?",
+      "es": "¿Desde dónde respondió Jehová a Job?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De um redemoinho",
+          "fr": "Du milieu de la tempête",
+          "en": "Out of the whirlwind",
+          "es": "Desde un torbellino"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De uma sarça ardente",
+          "fr": "D’un buisson ardent",
+          "en": "Out of a burning bush",
+          "es": "Desde una zarza ardiendo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De uma nuvem",
+          "fr": "D’une nuée",
+          "en": "Out of a cloud",
+          "es": "Desde una nube"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Do alto de um monte",
+          "fr": "Du haut d’une montagne",
+          "en": "From the top of a mountain",
+          "es": "Desde lo alto de un monte"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-003",
+    "type": "choice",
+    "level": "medium",
+    "book": "DAN",
+    "chapter": 1,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Durante o teste de dez dias, o que pediu Daniel para comer?",
+      "fr": "Pendant l’épreuve de dix jours, que demanda Daniel à manger ?",
+      "en": "During the ten-day test, what did Daniel ask to eat?",
+      "es": "Durante la prueba de diez días, ¿qué pidió Daniel para comer?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Legumes",
+          "fr": "Des légumes",
+          "en": "Pulse (vegetables)",
+          "es": "Legumbres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Carne",
+          "fr": "De la viande",
+          "en": "Meat",
+          "es": "Carne"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pão e mel",
+          "fr": "Du pain et du miel",
+          "en": "Bread and honey",
+          "es": "Pan y miel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Peixe",
+          "fr": "Du poisson",
+          "en": "Fish",
+          "es": "Pescado"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-004",
+    "type": "choice",
+    "level": "medium",
+    "book": "DAN",
+    "chapter": 2,
+    "verse_start": 32,
+    "verse_end": 32,
+    "prompt": {
+      "pt": "No sonho de Nabucodonosor, de que era a cabeça da estátua?",
+      "fr": "Dans le songe de Nebucadnetsar, de quoi était faite la tête de la statue ?",
+      "en": "In Nebuchadnezzar’s dream, what was the head of the image made of?",
+      "es": "En el sueño de Nabucodonosor, ¿de qué era la cabeza de la estatua?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Ouro",
+          "fr": "Or",
+          "en": "Gold",
+          "es": "Oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Prata",
+          "fr": "Argent",
+          "en": "Silver",
+          "es": "Plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ferro",
+          "fr": "Fer",
+          "en": "Iron",
+          "es": "Hierro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Barro",
+          "fr": "Argile",
+          "en": "Clay",
+          "es": "Barro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-005",
+    "type": "choice",
+    "level": "medium",
+    "book": "JON",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Para onde quis Jonas fugir em vez de ir a Nínive?",
+      "fr": "Où Jonas voulut-il s’enfuir au lieu d’aller à Ninive ?",
+      "en": "Where did Jonah try to flee instead of going to Nineveh?",
+      "es": "¿Adónde quiso huir Jonás en lugar de ir a Nínive?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Társis",
+          "fr": "Tarsis",
+          "en": "Tarshish",
+          "es": "Tarsis"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Egito",
+          "fr": "Égypte",
+          "en": "Egypt",
+          "es": "Egipto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Damasco",
+          "fr": "Damas",
+          "en": "Damascus",
+          "es": "Damasco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tiro",
+          "fr": "Tyr",
+          "en": "Tyre",
+          "es": "Tiro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-006",
+    "type": "choice",
+    "level": "medium",
+    "book": "ISA",
+    "chapter": 11,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Na profecia de Isaías 11, com quem morará o lobo?",
+      "fr": "Dans la prophétie d’Ésaïe 11, avec qui habitera le loup ?",
+      "en": "In the prophecy of Isaiah 11, with whom shall the wolf dwell?",
+      "es": "En la profecía de Isaías 11, ¿con quién morará el lobo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Com o cordeiro",
+          "fr": "Avec l’agneau",
+          "en": "With the lamb",
+          "es": "Con el cordero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com o urso",
+          "fr": "Avec l’ours",
+          "en": "With the bear",
+          "es": "Con el oso"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com a raposa",
+          "fr": "Avec le renard",
+          "en": "With the fox",
+          "es": "Con la zorra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com a águia",
+          "fr": "Avec l’aigle",
+          "en": "With the eagle",
+          "es": "Con el águila"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-007",
+    "type": "choice",
+    "level": "medium",
+    "book": "JER",
+    "chapter": 18,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Deus mandou Jeremias descer à casa de quem, para ouvir as suas palavras?",
+      "fr": "Dieu envoya Jérémie descendre dans la maison de qui, pour y entendre ses paroles ?",
+      "en": "To whose house did God send Jeremiah to hear his words?",
+      "es": "¿A casa de quién mandó Dios a Jeremías para oír sus palabras?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Do oleiro",
+          "fr": "Du potier",
+          "en": "The potter’s",
+          "es": "Del alfarero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Do carpinteiro",
+          "fr": "Du charpentier",
+          "en": "The carpenter’s",
+          "es": "Del carpintero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Do ferreiro",
+          "fr": "Du forgeron",
+          "en": "The smith’s",
+          "es": "Del herrero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Do rei",
+          "fr": "Du roi",
+          "en": "The king’s",
+          "es": "Del rey"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-008",
+    "type": "choice",
+    "level": "medium",
+    "book": "EZK",
+    "chapter": 37,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "De que estava cheio o vale onde o Espírito do SENHOR pôs Ezequiel?",
+      "fr": "De quoi était remplie la vallée où l’Éternel déposa Ézéchiel ?",
+      "en": "What was the valley full of, where the LORD set Ezekiel down?",
+      "es": "¿De qué estaba lleno el valle donde Jehová puso a Ezequiel?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De ossos",
+          "fr": "D’ossements",
+          "en": "Bones",
+          "es": "De huesos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De pedras",
+          "fr": "De pierres",
+          "en": "Stones",
+          "es": "De piedras"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De serpentes",
+          "fr": "De serpents",
+          "en": "Serpents",
+          "es": "De serpientes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De soldados",
+          "fr": "De soldats",
+          "en": "Soldiers",
+          "es": "De soldados"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-009",
+    "type": "choice",
+    "level": "medium",
+    "book": "MAL",
+    "chapter": 3,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Em Malaquias, o que manda Deus trazer à casa do tesouro?",
+      "fr": "Dans Malachie, que demande Dieu d’apporter à la maison du trésor ?",
+      "en": "In Malachi, what does God tell the people to bring into the storehouse?",
+      "es": "En Malaquías, ¿qué manda Dios traer al alfolí?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Todos os dízimos",
+          "fr": "Toutes les dîmes",
+          "en": "All the tithes",
+          "es": "Todos los diezmos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Todas as armas",
+          "fr": "Toutes les armes",
+          "en": "All the weapons",
+          "es": "Todas las armas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Todos os ídolos",
+          "fr": "Toutes les idoles",
+          "en": "All the idols",
+          "es": "Todos los ídolos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Todos os rolos da lei",
+          "fr": "Tous les rouleaux de la loi",
+          "en": "All the scrolls of the law",
+          "es": "Todos los rollos de la ley"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-010",
+    "type": "choice",
+    "level": "medium",
+    "book": "ZEC",
+    "chapter": 9,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Segundo Zacarias, montado em que animal viria o rei de Sião, humilde?",
+      "fr": "Selon Zacharie, sur quel animal viendrait le roi de Sion, humble ?",
+      "en": "According to Zechariah, riding on what animal would the lowly king of Zion come?",
+      "es": "Según Zacarías, ¿montado en qué animal vendría el rey de Sión, humilde?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um jumento",
+          "fr": "Un âne",
+          "en": "A donkey",
+          "es": "Un asno"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um cavalo",
+          "fr": "Un cheval",
+          "en": "A horse",
+          "es": "Un caballo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um camelo",
+          "fr": "Un chameau",
+          "en": "A camel",
+          "es": "Un camello"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um carro de guerra",
+          "fr": "Un char de guerre",
+          "en": "A war chariot",
+          "es": "Un carro de guerra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-011",
+    "type": "choice",
+    "level": "medium",
+    "book": "MIC",
+    "chapter": 4,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Na profecia de Miqueias, em que transformarão as nações as suas espadas?",
+      "fr": "Dans la prophétie de Michée, en quoi les nations forgeront-elles leurs glaives ?",
+      "en": "In Micah’s prophecy, what shall the nations beat their swords into?",
+      "es": "En la profecía de Miqueas, ¿en qué convertirán las naciones sus espadas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Enxadas",
+          "fr": "Des hoyaux",
+          "en": "Plowshares",
+          "es": "Azadones"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Escudos",
+          "fr": "Des boucliers",
+          "en": "Shields",
+          "es": "Escudos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Coroas",
+          "fr": "Des couronnes",
+          "en": "Crowns",
+          "es": "Coronas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Correntes",
+          "fr": "Des chaînes",
+          "en": "Chains",
+          "es": "Cadenas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-012",
+    "type": "choice",
+    "level": "medium",
+    "book": "NAM",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Sobre que cidade é a profecia do livro de Naum?",
+      "fr": "Sur quelle ville porte la prophétie du livre de Nahum ?",
+      "en": "Which city is the burden of the book of Nahum about?",
+      "es": "¿Sobre qué ciudad es la profecía del libro de Nahúm?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nínive",
+          "fr": "Ninive",
+          "en": "Nineveh",
+          "es": "Nínive"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Babilónia",
+          "fr": "Babylone",
+          "en": "Babylon",
+          "es": "Babilonia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Samaria",
+          "fr": "Samarie",
+          "en": "Samaria",
+          "es": "Samaria"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tiro",
+          "fr": "Tyr",
+          "en": "Tyre",
+          "es": "Tiro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-013",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DAN",
+        "chapter": 1,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Daniel recusa a comida do rei",
+          "fr": "Daniel refuse les mets du roi",
+          "en": "Daniel refuses the king’s meat",
+          "es": "Daniel rechaza la comida del rey"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 2,
+        "verse_start": 48,
+        "verse_end": 48,
+        "text": {
+          "pt": "O rei faz Daniel governador da Babilónia",
+          "fr": "Le roi fait de Daniel le chef de Babylone",
+          "en": "The king makes Daniel ruler over Babylon",
+          "es": "El rey hace a Daniel gobernador de Babilonia"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 5,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Uma mão escreve na parede do palácio",
+          "fr": "Une main écrit sur la muraille du palais",
+          "en": "A hand writes on the palace wall",
+          "es": "Una mano escribe en la pared del palacio"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 6,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Daniel é lançado na cova dos leões",
+          "fr": "Daniel est jeté dans la fosse aux lions",
+          "en": "Daniel is cast into the lions’ den",
+          "es": "Daniel es echado en el foso de los leones"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-014",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JON",
+        "chapter": 1,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "O SENHOR manda um grande vento ao mar",
+          "fr": "L’Éternel fait souffler un grand vent",
+          "en": "The LORD sends a great wind into the sea",
+          "es": "Jehová levanta un gran viento en el mar"
+        }
+      },
+      {
+        "book": "JON",
+        "chapter": 1,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "A sorte cai sobre Jonas",
+          "fr": "Le sort tombe sur Jonas",
+          "en": "The lot falls upon Jonah",
+          "es": "La suerte cae sobre Jonás"
+        }
+      },
+      {
+        "book": "JON",
+        "chapter": 3,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Jonas anuncia: «Daqui a quarenta dias…»",
+          "fr": "Jonas crie : « Encore quarante jours… »",
+          "en": "Jonah cries: “Yet forty days…”",
+          "es": "Jonás pregona: «De aquí a cuarenta días…»"
+        }
+      },
+      {
+        "book": "JON",
+        "chapter": 4,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Uma lagarta faz secar a planta de Jonas",
+          "fr": "Un ver fait sécher la plante de Jonas",
+          "en": "A worm makes Jonah’s plant wither",
+          "es": "Un gusano seca la planta de Jonás"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-015",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ISA",
+        "chapter": 6,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Isaías vê o Senhor num trono alto",
+          "fr": "Ésaïe voit le Seigneur sur un trône élevé",
+          "en": "Isaiah sees the Lord on a high throne",
+          "es": "Isaías ve al Señor en un trono alto"
+        }
+      },
+      {
+        "book": "ISA",
+        "chapter": 6,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Os serafins clamam: «Santo, Santo, Santo»",
+          "fr": "Les séraphins crient : « Saint, saint, saint »",
+          "en": "The seraphim cry: “Holy, holy, holy”",
+          "es": "Los serafines claman: «Santo, santo, santo»"
+        }
+      },
+      {
+        "book": "ISA",
+        "chapter": 6,
+        "verse_start": 6,
+        "verse_end": 7,
+        "text": {
+          "pt": "Uma brasa do altar toca a boca de Isaías",
+          "fr": "Une pierre ardente touche la bouche d’Ésaïe",
+          "en": "A live coal touches Isaiah’s mouth",
+          "es": "Un carbón encendido toca la boca de Isaías"
+        }
+      },
+      {
+        "book": "ISA",
+        "chapter": 6,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Isaías diz: «Eis-me aqui, envia-me!»",
+          "fr": "Ésaïe dit : « Me voici, envoie-moi »",
+          "en": "Isaiah says: “Here am I; send me”",
+          "es": "Isaías dice: «Heme aquí, envíame a mí»"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-016",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes livros pela ordem em que aparecem na Bíblia.",
+      "fr": "Mets ces livres dans l’ordre où ils apparaissent dans la Bible.",
+      "en": "Put these books in the order they appear in the Bible.",
+      "es": "Ordena estos libros según aparecen en la Biblia."
+    },
+    "items": [
+      {
+        "book": "ISA",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Isaías",
+          "fr": "Ésaïe",
+          "en": "Isaiah",
+          "es": "Isaías"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Jeremias",
+          "fr": "Jérémie",
+          "en": "Jeremiah",
+          "es": "Jeremías"
+        }
+      },
+      {
+        "book": "LAM",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Lamentações",
+          "fr": "Lamentations",
+          "en": "Lamentations",
+          "es": "Lamentaciones"
+        }
+      },
+      {
+        "book": "EZK",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Ezequiel",
+          "fr": "Ézéchiel",
+          "en": "Ezekiel",
+          "es": "Ezequiel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-017",
+    "type": "verse",
+    "level": "medium",
+    "book": "MIC",
+    "chapter": 6,
+    "verse_start": 8,
+    "verse_end": 8,
+    "blank": {
+      "pt": "andar",
+      "fr": "marches",
+      "en": "walk",
+      "es": "andar"
+    },
+    "distractors": [
+      {
+        "pt": "falar",
+        "fr": "parles",
+        "en": "talk",
+        "es": "hablar"
+      },
+      {
+        "pt": "viver",
+        "fr": "vives",
+        "en": "live",
+        "es": "vivir"
+      },
+      {
+        "pt": "cantar",
+        "fr": "chantes",
+        "en": "sing",
+        "es": "cantar"
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-018",
+    "type": "verse",
+    "level": "medium",
+    "book": "ISA",
+    "chapter": 53,
+    "verse_start": 6,
+    "verse_end": 6,
+    "blank": {
+      "pt": "ovelhas",
+      "fr": "brebis",
+      "en": "sheep",
+      "es": "ovejas"
+    },
+    "distractors": [
+      {
+        "pt": "cabras",
+        "fr": "chèvres",
+        "en": "goats",
+        "es": "cabras"
+      },
+      {
+        "pt": "lobos",
+        "fr": "loups",
+        "en": "wolves",
+        "es": "lobos"
+      },
+      {
+        "pt": "bois",
+        "fr": "bœufs",
+        "en": "oxen",
+        "es": "bueyes"
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-019",
+    "type": "verse",
+    "level": "medium",
+    "book": "LAM",
+    "chapter": 3,
+    "verse_start": 22,
+    "verse_end": 23,
+    "blank": {
+      "pt": "manhã",
+      "fr": "matin",
+      "en": "morning",
+      "es": "mañana"
+    },
+    "distractors": [
+      {
+        "pt": "noite",
+        "fr": "soir",
+        "en": "evening",
+        "es": "noche"
+      },
+      {
+        "pt": "semana",
+        "fr": "semaine",
+        "en": "week",
+        "es": "semana"
+      },
+      {
+        "pt": "hora",
+        "fr": "heure",
+        "en": "hour",
+        "es": "hora"
+      }
+    ]
+  },
+  {
+    "id": "poet-medium-020",
+    "type": "verse",
+    "level": "medium",
+    "book": "HAB",
+    "chapter": 2,
+    "verse_start": 4,
+    "verse_end": 4,
+    "blank": {
+      "pt": "fé",
+      "fr": "foi",
+      "en": "faith",
+      "es": "fe"
+    },
+    "distractors": [
+      {
+        "pt": "força",
+        "fr": "force",
+        "en": "strength",
+        "es": "fuerza"
+      },
+      {
+        "pt": "lei",
+        "fr": "loi",
+        "en": "law",
+        "es": "ley"
+      },
+      {
+        "pt": "espada",
+        "fr": "épée",
+        "en": "sword",
+        "es": "espada"
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-001",
+    "type": "choice",
+    "level": "hard",
+    "book": "JOB",
+    "chapter": 2,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Qual dos três amigos que vieram consolar Jó era de Temã?",
+      "fr": "Lequel des trois amis venus consoler Job était de Théman ?",
+      "en": "Which of the three friends who came to comfort Job was the Temanite?",
+      "es": "¿Cuál de los tres amigos que vinieron a consolar a Job era temanita?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Elifaz",
+          "fr": "Éliphaz",
+          "en": "Eliphaz",
+          "es": "Elifaz"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Bildade",
+          "fr": "Bildad",
+          "en": "Bildad",
+          "es": "Bildad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Zofar",
+          "fr": "Tsophar",
+          "en": "Zophar",
+          "es": "Zofar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Eliú",
+          "fr": "Élihu",
+          "en": "Elihu",
+          "es": "Eliú"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-002",
+    "type": "choice",
+    "level": "hard",
+    "book": "DAN",
+    "chapter": 1,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Que nome deu o chefe dos eunucos a Daniel na Babilónia?",
+      "fr": "Quel nom le chef des eunuques donna-t-il à Daniel à Babylone ?",
+      "en": "What name did the prince of the eunuchs give to Daniel in Babylon?",
+      "es": "¿Qué nombre puso el príncipe de los eunucos a Daniel en Babilonia?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Beltessazar",
+          "fr": "Beltschatsar",
+          "en": "Belteshazzar",
+          "es": "Beltsasar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Belsazar",
+          "fr": "Belschatsar",
+          "en": "Belshazzar",
+          "es": "Belsasar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sadraque",
+          "fr": "Schadrac",
+          "en": "Shadrach",
+          "es": "Sadrac"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Abede-Nego",
+          "fr": "Abed-Nego",
+          "en": "Abed-nego",
+          "es": "Abed-nego"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-003",
+    "type": "choice",
+    "level": "hard",
+    "book": "HOS",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Com quem casou o profeta Oseias?",
+      "fr": "Qui le prophète Osée prit-il pour femme ?",
+      "en": "Whom did the prophet Hosea take as his wife?",
+      "es": "¿Con quién se casó el profeta Oseas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Gómer, filha de Diblaim",
+          "fr": "Gomer, fille de Diblaïm",
+          "en": "Gomer, the daughter of Diblaim",
+          "es": "Gomer, hija de Diblaim"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mical, filha de Saul",
+          "fr": "Mical, fille de Saül",
+          "en": "Michal, the daughter of Saul",
+          "es": "Mical, hija de Saúl"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Orpa, a moabita",
+          "fr": "Orpa, la Moabite",
+          "en": "Orpah, the Moabitess",
+          "es": "Orfa, la moabita"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Abigail, a carmelita",
+          "fr": "Abigaïl, la Carmélite",
+          "en": "Abigail, the Carmelitess",
+          "es": "Abigail, la de Carmel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-004",
+    "type": "choice",
+    "level": "hard",
+    "book": "AMO",
+    "chapter": 7,
+    "verse_start": 14,
+    "verse_end": 14,
+    "prompt": {
+      "pt": "Antes de ser profeta, qual era o trabalho de Amós, segundo o que disse a Amazias?",
+      "fr": "Avant d’être prophète, quel était le métier d’Amos, d’après sa réponse à Amatsia ?",
+      "en": "Before he was a prophet, what was Amos’s work, as he told Amaziah?",
+      "es": "Antes de ser profeta, ¿cuál era el oficio de Amós, según dijo a Amasías?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Criador de gado",
+          "fr": "Berger",
+          "en": "A herdman",
+          "es": "Boyero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pescador",
+          "fr": "Pêcheur",
+          "en": "A fisherman",
+          "es": "Pescador"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sacerdote",
+          "fr": "Prêtre",
+          "en": "A priest",
+          "es": "Sacerdote"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Escriba",
+          "fr": "Scribe",
+          "en": "A scribe",
+          "es": "Escriba"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-005",
+    "type": "choice",
+    "level": "hard",
+    "book": "OBA",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Sobre que povo é a visão de Obadias?",
+      "fr": "Sur quel peuple porte la prophétie d’Abdias ?",
+      "en": "Which nation is the vision of Obadiah about?",
+      "es": "¿Sobre qué pueblo es la visión de Abdías?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Edom",
+          "fr": "Édom",
+          "en": "Edom",
+          "es": "Edom"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moabe",
+          "fr": "Moab",
+          "en": "Moab",
+          "es": "Moab"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Amom",
+          "fr": "Ammon",
+          "en": "Ammon",
+          "es": "Amón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Filístia",
+          "fr": "Philistie",
+          "en": "Philistia",
+          "es": "Filistea"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-006",
+    "type": "choice",
+    "level": "hard",
+    "book": "ZEP",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Nos dias de que rei de Judá veio a palavra do SENHOR a Sofonias?",
+      "fr": "Au temps de quel roi de Juda la parole de l’Éternel fut-elle adressée à Sophonie ?",
+      "en": "In the days of which king of Judah did the word of the LORD come to Zephaniah?",
+      "es": "¿En días de qué rey de Judá vino la palabra de Jehová a Sofonías?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Josias",
+          "fr": "Josias",
+          "en": "Josiah",
+          "es": "Josías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Manassés",
+          "fr": "Manassé",
+          "en": "Manasseh",
+          "es": "Manasés"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uzias",
+          "fr": "Ozias",
+          "en": "Uzziah",
+          "es": "Uzías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Acaz",
+          "fr": "Achaz",
+          "en": "Ahaz",
+          "es": "Acaz"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-007",
+    "type": "choice",
+    "level": "hard",
+    "book": "HAG",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Quem era o governador de Judá a quem foi dirigida a palavra do SENHOR por meio de Ageu?",
+      "fr": "Qui était le gouverneur de Juda à qui fut adressée la parole de l’Éternel par Aggée ?",
+      "en": "Who was the governor of Judah to whom the word of the LORD came by Haggai?",
+      "es": "¿Quién era el gobernador de Judá a quien vino la palabra de Jehová por medio de Hageo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Zorobabel",
+          "fr": "Zorobabel",
+          "en": "Zerubbabel",
+          "es": "Zorobabel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Neemias",
+          "fr": "Néhémie",
+          "en": "Nehemiah",
+          "es": "Nehemías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Esdras",
+          "fr": "Esdras",
+          "en": "Ezra",
+          "es": "Esdras"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Gedalias",
+          "fr": "Guedalia",
+          "en": "Gedaliah",
+          "es": "Gedalías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-008",
+    "type": "choice",
+    "level": "hard",
+    "book": "EZK",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Junto a que rio estava Ezequiel quando veio a ele a palavra do SENHOR?",
+      "fr": "Près de quel fleuve était Ézéchiel quand la parole de l’Éternel lui fut adressée ?",
+      "en": "By which river was Ezekiel when the word of the LORD came to him?",
+      "es": "¿Junto a qué río estaba Ezequiel cuando vino a él la palabra de Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Quebar",
+          "fr": "Kebar",
+          "en": "Chebar",
+          "es": "Quebar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jordão",
+          "fr": "Jourdain",
+          "en": "Jordan",
+          "es": "Jordán"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Eufrates",
+          "fr": "Euphrate",
+          "en": "Euphrates",
+          "es": "Éufrates"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nilo",
+          "fr": "Nil",
+          "en": "Nile",
+          "es": "Nilo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-009",
+    "type": "choice",
+    "level": "hard",
+    "book": "JER",
+    "chapter": 38,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Que eunuco etíope da casa do rei soube que Jeremias tinha sido posto na cisterna?",
+      "fr": "Quel eunuque éthiopien de la maison du roi apprit qu’on avait mis Jérémie dans la citerne ?",
+      "en": "Which Ethiopian eunuch of the king’s house heard that Jeremiah had been put in the dungeon?",
+      "es": "¿Qué eunuco etíope de la casa del rey oyó que habían puesto a Jeremías en la mazmorra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Ebede-Meleque",
+          "fr": "Ébed-Mélec",
+          "en": "Ebed-melech",
+          "es": "Ebed-melec"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Baruque",
+          "fr": "Baruc",
+          "en": "Baruch",
+          "es": "Baruc"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jeudi",
+          "fr": "Jehudi",
+          "en": "Jehudi",
+          "es": "Jehudí"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pasur",
+          "fr": "Paschhur",
+          "en": "Pashur",
+          "es": "Pasur"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-010",
+    "type": "choice",
+    "level": "hard",
+    "book": "PRO",
+    "chapter": 31,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Em Provérbios 31, de que rei são as palavras que a sua mãe lhe ensinou?",
+      "fr": "Dans Proverbes 31, de quel roi sont les paroles que sa mère lui enseigna ?",
+      "en": "In Proverbs 31, which king’s words are those that his mother taught him?",
+      "es": "En Proverbios 31, ¿de qué rey son las palabras que le enseñó su madre?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Lemuel",
+          "fr": "Lemuel",
+          "en": "Lemuel",
+          "es": "Lemuel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Agur",
+          "fr": "Agur",
+          "en": "Agur",
+          "es": "Agur"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Roboão",
+          "fr": "Roboam",
+          "en": "Rehoboam",
+          "es": "Roboam"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ezequias",
+          "fr": "Ézéchias",
+          "en": "Hezekiah",
+          "es": "Ezequías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-011",
+    "type": "choice",
+    "level": "hard",
+    "book": "JON",
+    "chapter": 4,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Segundo Deus, quantas pessoas que não sabiam distinguir a direita da esquerda havia em Nínive?",
+      "fr": "Selon Dieu, combien d’hommes ne sachant pas distinguer leur droite de leur gauche y avait-il à Ninive ?",
+      "en": "According to God, how many persons in Nineveh could not discern their right hand from their left?",
+      "es": "Según Dios, ¿cuántas personas que no conocían su mano derecha ni su izquierda había en Nínive?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Mais de 120 mil",
+          "fr": "Plus de 120 000",
+          "en": "More than 120,000",
+          "es": "Más de 120 000"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cerca de 7 mil",
+          "fr": "Environ 7 000",
+          "en": "About 7,000",
+          "es": "Unas 7 000"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cerca de 40 mil",
+          "fr": "Environ 40 000",
+          "en": "About 40,000",
+          "es": "Unas 40 000"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cerca de 12 mil",
+          "fr": "Environ 12 000",
+          "en": "About 12,000",
+          "es": "Unas 12 000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-012",
+    "type": "choice",
+    "level": "hard",
+    "book": "SNG",
+    "chapter": 2,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "No Cântico dos Cânticos 2:1, completa: «Eu sou a rosa de…»",
+      "fr": "Dans le Cantique des Cantiques 2:1, complète : « Je suis un narcisse de… »",
+      "en": "In Song of Solomon 2:1, complete: “I am the rose of…”",
+      "es": "En Cantares 2:1, completa: «Yo soy la rosa de…»"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Sarom",
+          "fr": "Saron",
+          "en": "Sharon",
+          "es": "Sarón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Líbano",
+          "fr": "Liban",
+          "en": "Lebanon",
+          "es": "Líbano"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Carmelo",
+          "fr": "Carmel",
+          "en": "Carmel",
+          "es": "Carmelo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Gileade",
+          "fr": "Galaad",
+          "en": "Gilead",
+          "es": "Galaad"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-013",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DAN",
+        "chapter": 7,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Sonho de Daniel no 1.º ano de Belsazar",
+          "fr": "Songe de Daniel la 1re année de Belschatsar",
+          "en": "Daniel’s dream in Belshazzar’s first year",
+          "es": "Sueño de Daniel en el 1.er año de Belsasar"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 8,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Visão de Daniel no 3.º ano de Belsazar",
+          "fr": "Vision de Daniel la 3e année de Belschatsar",
+          "en": "Daniel’s vision in Belshazzar’s third year",
+          "es": "Visión de Daniel en el 3.er año de Belsasar"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 9,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Daniel lê sobre os 70 anos de Jeremias",
+          "fr": "Daniel lit les 70 ans annoncés à Jérémie",
+          "en": "Daniel reads of Jeremiah’s 70 years",
+          "es": "Daniel lee sobre los 70 años de Jeremías"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 10,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Revelação a Daniel no 3.º ano de Ciro",
+          "fr": "Révélation à Daniel la 3e année de Cyrus",
+          "en": "A revelation to Daniel in Cyrus’s third year",
+          "es": "Revelación a Daniel en el 3.er año de Ciro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-014",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aparecem na Bíblia.",
+      "fr": "Mets ces épisodes dans l’ordre où ils apparaissent dans la Bible.",
+      "en": "Put these episodes in the order they appear in the Bible.",
+      "es": "Ordena estos episodios según aparecen en la Biblia."
+    },
+    "items": [
+      {
+        "book": "JER",
+        "chapter": 1,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Jeremias diz: «Sou um menino»",
+          "fr": "Jérémie dit : « Je suis un enfant »",
+          "en": "Jeremiah says: “I am a child”",
+          "es": "Jeremías dice: «Soy niño»"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 18,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Jeremias desce à casa do oleiro",
+          "fr": "Jérémie descend chez le potier",
+          "en": "Jeremiah goes down to the potter’s house",
+          "es": "Jeremías desciende a casa del alfarero"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 36,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "O rolo lido por Jeudi é queimado",
+          "fr": "Le rouleau lu par Jehudi est brûlé",
+          "en": "The roll read by Jehudi is burned",
+          "es": "El rollo leído por Jehudí es quemado"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 38,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Jeremias afunda-se na lama de uma cisterna",
+          "fr": "Jérémie enfonce dans la boue d’une citerne",
+          "en": "Jeremiah sinks in the mire of a dungeon",
+          "es": "Jeremías se hunde en el cieno de la mazmorra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-015",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aparecem na Bíblia.",
+      "fr": "Mets ces épisodes dans l’ordre où ils apparaissent dans la Bible.",
+      "en": "Put these episodes in the order they appear in the Bible.",
+      "es": "Ordena estos episodios según aparecen en la Biblia."
+    },
+    "items": [
+      {
+        "book": "EZK",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Os céus abrem-se e Ezequiel vê visões",
+          "fr": "Les cieux s’ouvrent, Ézéchiel a des visions",
+          "en": "The heavens open and Ezekiel sees visions",
+          "es": "Los cielos se abren y Ezequiel ve visiones"
+        }
+      },
+      {
+        "book": "EZK",
+        "chapter": 3,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Ezequiel come um rolo",
+          "fr": "Ézéchiel mange un rouleau",
+          "en": "Ezekiel eats a roll",
+          "es": "Ezequiel come un rollo"
+        }
+      },
+      {
+        "book": "EZK",
+        "chapter": 37,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Ezequiel num vale cheio de ossos",
+          "fr": "Ézéchiel dans une vallée d’ossements",
+          "en": "Ezekiel in a valley full of bones",
+          "es": "Ezequiel en un campo lleno de huesos"
+        }
+      },
+      {
+        "book": "EZK",
+        "chapter": 47,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Águas saem de debaixo do umbral da casa",
+          "fr": "De l’eau sort sous le seuil de la maison",
+          "en": "Waters issue from under the threshold",
+          "es": "Aguas salen de debajo del umbral de la casa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-016",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes livros pela ordem em que aparecem na Bíblia.",
+      "fr": "Mets ces livres dans l’ordre où ils apparaissent dans la Bible.",
+      "en": "Put these books in the order they appear in the Bible.",
+      "es": "Ordena estos libros según aparecen en la Biblia."
+    },
+    "items": [
+      {
+        "book": "MIC",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Miqueias",
+          "fr": "Michée",
+          "en": "Micah",
+          "es": "Miqueas"
+        }
+      },
+      {
+        "book": "NAM",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Naum",
+          "fr": "Nahum",
+          "en": "Nahum",
+          "es": "Nahúm"
+        }
+      },
+      {
+        "book": "HAB",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Habacuque",
+          "fr": "Habacuc",
+          "en": "Habakkuk",
+          "es": "Habacuc"
+        }
+      },
+      {
+        "book": "ZEP",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Sofonias",
+          "fr": "Sophonie",
+          "en": "Zephaniah",
+          "es": "Sofonías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-017",
+    "type": "verse",
+    "level": "hard",
+    "book": "ZEC",
+    "chapter": 4,
+    "verse_start": 6,
+    "verse_end": 6,
+    "blank": {
+      "pt": "espírito",
+      "fr": "esprit",
+      "en": "spirit",
+      "es": "espíritu"
+    },
+    "distractors": [
+      {
+        "pt": "braço",
+        "fr": "bras",
+        "en": "arm",
+        "es": "brazo"
+      },
+      {
+        "pt": "nome",
+        "fr": "nom",
+        "en": "name",
+        "es": "nombre"
+      },
+      {
+        "pt": "anjo",
+        "fr": "ange",
+        "en": "angel",
+        "es": "ángel"
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-018",
+    "type": "verse",
+    "level": "hard",
+    "book": "JOL",
+    "chapter": 2,
+    "verse_start": 28,
+    "verse_end": 28,
+    "blank": {
+      "pt": "visões",
+      "fr": "visions",
+      "en": "visions",
+      "es": "visiones"
+    },
+    "distractors": [
+      {
+        "pt": "anjos",
+        "fr": "anges",
+        "en": "angels",
+        "es": "ángeles"
+      },
+      {
+        "pt": "riquezas",
+        "fr": "richesses",
+        "en": "riches",
+        "es": "riquezas"
+      },
+      {
+        "pt": "sinais",
+        "fr": "signes",
+        "en": "signs",
+        "es": "señales"
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-019",
+    "type": "verse",
+    "level": "hard",
+    "book": "HOS",
+    "chapter": 6,
+    "verse_start": 6,
+    "verse_end": 6,
+    "blank": {
+      "pt": "misericórdia",
+      "fr": "piété",
+      "en": "mercy",
+      "es": "misericordia"
+    },
+    "distractors": [
+      {
+        "pt": "riqueza",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riqueza"
+      },
+      {
+        "pt": "força",
+        "fr": "force",
+        "en": "strength",
+        "es": "fuerza"
+      },
+      {
+        "pt": "louvor",
+        "fr": "louange",
+        "en": "praise",
+        "es": "alabanza"
+      }
+    ]
+  },
+  {
+    "id": "poet-hard-020",
+    "type": "verse",
+    "level": "hard",
+    "book": "AMO",
+    "chapter": 5,
+    "verse_start": 24,
+    "verse_end": 24,
+    "blank": {
+      "pt": "ribeiro",
+      "fr": "torrent",
+      "en": "stream",
+      "es": "arroyo"
+    },
+    "distractors": [
+      {
+        "pt": "vento",
+        "fr": "vent",
+        "en": "wind",
+        "es": "viento"
+      },
+      {
+        "pt": "fogo",
+        "fr": "feu",
+        "en": "fire",
+        "es": "fuego"
+      },
+      {
+        "pt": "leão",
+        "fr": "lion",
+        "en": "lion",
+        "es": "león"
+      }
+    ]
+  }
+]
