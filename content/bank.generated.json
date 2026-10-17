@@ -1,0 +1,6554 @@
+[
+  {
+    "id": "pent-easy-001",
+    "type": "choice",
+    "level": "easy",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 2,
+    "verse_start": 7,
+    "verse_end": 7,
+    "texts": {
+      "pt": {
+        "prompt": "De que formou Deus o primeiro homem?",
+        "bible_ref": "Génesis 2:7",
+        "verse_text": "Formou, pois, o SENHOR Deus ao homem do pó da terra, e assoprou em seu nariz sopro de vida; e foi o homem em alma vivente."
+      },
+      "fr": {
+        "prompt": "De quoi Dieu a-t-il formé le premier homme ?",
+        "bible_ref": "Genèse 2:7",
+        "verse_text": "L’Éternel Dieu forma l’homme de la poussière de la terre, il souffla dans ses narines un souffle de vie et l’homme devint un être vivant."
+      },
+      "en": {
+        "prompt": "What did God form the first man from?",
+        "bible_ref": "Genesis 2:7",
+        "verse_text": "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul."
+      },
+      "es": {
+        "prompt": "¿De qué formó Dios al primer hombre?",
+        "bible_ref": "Génesis 2:7",
+        "verse_text": "Formó, pues, Jehová Dios al hombre del polvo de la tierra, y alentó en su nariz soplo de vida; y fué el hombre en alma viviente."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Do pó da terra"
+          },
+          "fr": {
+            "text": "De la poussière de la terre"
+          },
+          "en": {
+            "text": "The dust of the ground"
+          },
+          "es": {
+            "text": "Del polvo de la tierra"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "De uma pedra"
+          },
+          "fr": {
+            "text": "D’une pierre"
+          },
+          "en": {
+            "text": "A stone"
+          },
+          "es": {
+            "text": "De una piedra"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "De uma árvore"
+          },
+          "fr": {
+            "text": "D’un arbre"
+          },
+          "en": {
+            "text": "A tree"
+          },
+          "es": {
+            "text": "De un árbol"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Da água do mar"
+          },
+          "fr": {
+            "text": "De l’eau de la mer"
+          },
+          "en": {
+            "text": "Sea water"
+          },
+          "es": {
+            "text": "Del agua del mar"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-002",
+    "type": "choice",
+    "level": "easy",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 2,
+    "verse_start": 22,
+    "verse_end": 22,
+    "texts": {
+      "pt": {
+        "prompt": "De que parte de Adão fez Deus a mulher?",
+        "bible_ref": "Génesis 2:22",
+        "verse_text": "E da costela que o SENHOR Deus tomou do homem, fez uma mulher, e trouxe-a ao homem."
+      },
+      "fr": {
+        "prompt": "De quelle partie d’Adam Dieu a-t-il fait la femme ?",
+        "bible_ref": "Genèse 2:22",
+        "verse_text": "L’Éternel Dieu forma une femme de la côte qu’il avait prise de l’homme, et il l’amena vers l’homme."
+      },
+      "en": {
+        "prompt": "From what part of Adam did God make the woman?",
+        "bible_ref": "Genesis 2:22",
+        "verse_text": "And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man."
+      },
+      "es": {
+        "prompt": "¿De qué parte de Adán hizo Dios a la mujer?",
+        "bible_ref": "Génesis 2:22",
+        "verse_text": "Y de la costilla que Jehová Dios tomó del hombre, hizo una mujer, y trájola al hombre."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "De uma costela"
+          },
+          "fr": {
+            "text": "D’une côte"
+          },
+          "en": {
+            "text": "A rib"
+          },
+          "es": {
+            "text": "De una costilla"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Do pé"
+          },
+          "fr": {
+            "text": "Du pied"
+          },
+          "en": {
+            "text": "His foot"
+          },
+          "es": {
+            "text": "Del pie"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Da mão"
+          },
+          "fr": {
+            "text": "De la main"
+          },
+          "en": {
+            "text": "His hand"
+          },
+          "es": {
+            "text": "De la mano"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Do cabelo"
+          },
+          "fr": {
+            "text": "Des cheveux"
+          },
+          "en": {
+            "text": "His hair"
+          },
+          "es": {
+            "text": "Del cabello"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-003",
+    "type": "choice",
+    "level": "easy",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 3,
+    "verse_start": 1,
+    "verse_end": 1,
+    "texts": {
+      "pt": {
+        "prompt": "Que animal falou com Eva no jardim?",
+        "bible_ref": "Génesis 3:1",
+        "verse_text": "Porém a serpente era astuta, mais que todos os animais do campo que o SENHOR Deus havia feito. E ela disse à mulher: Deus vos disse: Não comais de toda árvore do jardim?"
+      },
+      "fr": {
+        "prompt": "Quel animal a parlé à Ève dans le jardin ?",
+        "bible_ref": "Genèse 3:1",
+        "verse_text": "Le serpent était le plus rusé de tous les animaux des champs, que l’Éternel Dieu avait faits. Il dit à la femme: Dieu a-t-il réellement dit: Vous ne mangerez pas de tous les arbres du jardin?"
+      },
+      "en": {
+        "prompt": "Which animal spoke to Eve in the garden?",
+        "bible_ref": "Genesis 3:1",
+        "verse_text": "Now the serpent was more subtil than any beast of the field which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of every tree of the garden?"
+      },
+      "es": {
+        "prompt": "¿Qué animal habló con Eva en el huerto?",
+        "bible_ref": "Génesis 3:1",
+        "verse_text": "EMPERO la serpiente era astuta, más que todos los animales del campo que Jehová Dios había hecho; la cual dijo á la mujer: ¿Conque Dios os ha dicho: No comáis de todo árbol del huerto?"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "A serpente"
+          },
+          "fr": {
+            "text": "Le serpent"
+          },
+          "en": {
+            "text": "The serpent"
+          },
+          "es": {
+            "text": "La serpiente"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O leão"
+          },
+          "fr": {
+            "text": "Le lion"
+          },
+          "en": {
+            "text": "The lion"
+          },
+          "es": {
+            "text": "El león"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O corvo"
+          },
+          "fr": {
+            "text": "Le corbeau"
+          },
+          "en": {
+            "text": "The raven"
+          },
+          "es": {
+            "text": "El cuervo"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A raposa"
+          },
+          "fr": {
+            "text": "Le renard"
+          },
+          "en": {
+            "text": "The fox"
+          },
+          "es": {
+            "text": "La zorra"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-004",
+    "type": "choice",
+    "level": "easy",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 4,
+    "verse_start": 8,
+    "verse_end": 8,
+    "texts": {
+      "pt": {
+        "prompt": "Quem matou o seu irmão Abel?",
+        "bible_ref": "Génesis 4:8",
+        "verse_text": "Depois Caim falou a seu irmão Abel; e aconteceu que, estando eles no campo, Caim se levantou contra seu irmão Abel, e o matou."
+      },
+      "fr": {
+        "prompt": "Qui a tué son frère Abel ?",
+        "bible_ref": "Genèse 4:8",
+        "verse_text": "Cependant, Caïn adressa la parole à son frère Abel; mais, comme ils étaient dans les champs, Caïn se jeta sur son frère Abel, et le tua."
+      },
+      "en": {
+        "prompt": "Who killed his brother Abel?",
+        "bible_ref": "Genesis 4:8",
+        "verse_text": "And Cain talked with Abel his brother: and it came to pass, when they were in the field, that Cain rose up against Abel his brother, and slew him."
+      },
+      "es": {
+        "prompt": "¿Quién mató a su hermano Abel?",
+        "bible_ref": "Génesis 4:8",
+        "verse_text": "Y habló Caín á su hermano Abel: y aconteció que estando ellos en el campo, Caín se levantó contra su hermano Abel, y le mató."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Caim"
+          },
+          "fr": {
+            "text": "Caïn"
+          },
+          "en": {
+            "text": "Cain"
+          },
+          "es": {
+            "text": "Caín"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Sete"
+          },
+          "fr": {
+            "text": "Seth"
+          },
+          "en": {
+            "text": "Seth"
+          },
+          "es": {
+            "text": "Set"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Noé"
+          },
+          "fr": {
+            "text": "Noé"
+          },
+          "en": {
+            "text": "Noah"
+          },
+          "es": {
+            "text": "Noé"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Adão"
+          },
+          "fr": {
+            "text": "Adam"
+          },
+          "en": {
+            "text": "Adam"
+          },
+          "es": {
+            "text": "Adán"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-005",
+    "type": "choice",
+    "level": "easy",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 6,
+    "verse_start": 14,
+    "verse_end": 14,
+    "texts": {
+      "pt": {
+        "prompt": "O que mandou Deus Noé construir?",
+        "bible_ref": "Génesis 6:14",
+        "verse_text": "Faze-te uma arca de madeira de gôfer: farás aposentos na arca e a selarás com betume por dentro e por fora."
+      },
+      "fr": {
+        "prompt": "Qu’est-ce que Dieu a demandé à Noé de construire ?",
+        "bible_ref": "Genèse 6:14",
+        "verse_text": "Fais-toi une arche de bois de gopher; tu disposeras cette arche en cellules, et tu l’enduiras de poix en dedans et en dehors."
+      },
+      "en": {
+        "prompt": "What did God tell Noah to build?",
+        "bible_ref": "Genesis 6:14",
+        "verse_text": "Make thee an ark of gopher wood; rooms shalt thou make in the ark, and shalt pitch it within and without with pitch."
+      },
+      "es": {
+        "prompt": "¿Qué mandó Dios a Noé construir?",
+        "bible_ref": "Génesis 6:14",
+        "verse_text": "Hazte un arca de madera de Gopher: harás aposentos en el arca, y la embetunarás con brea por dentro y por fuera."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Uma arca"
+          },
+          "fr": {
+            "text": "Une arche"
+          },
+          "en": {
+            "text": "An ark"
+          },
+          "es": {
+            "text": "Un arca"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma torre"
+          },
+          "fr": {
+            "text": "Une tour"
+          },
+          "en": {
+            "text": "A tower"
+          },
+          "es": {
+            "text": "Una torre"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um templo"
+          },
+          "fr": {
+            "text": "Un temple"
+          },
+          "en": {
+            "text": "A temple"
+          },
+          "es": {
+            "text": "Un templo"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma muralha"
+          },
+          "fr": {
+            "text": "Une muraille"
+          },
+          "en": {
+            "text": "A wall"
+          },
+          "es": {
+            "text": "Una muralla"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-006",
+    "type": "choice",
+    "level": "easy",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 9,
+    "verse_start": 13,
+    "verse_end": 13,
+    "texts": {
+      "pt": {
+        "prompt": "Depois do dilúvio, que sinal pôs Deus nas nuvens?",
+        "bible_ref": "Génesis 9:13",
+        "verse_text": "Meu arco porei nas nuvens, o qual será por sinal de aliança entre mim e a terra."
+      },
+      "fr": {
+        "prompt": "Après le déluge, quel signe Dieu a-t-il mis dans la nuée ?",
+        "bible_ref": "Genèse 9:13",
+        "verse_text": "j’ai placé mon arc dans la nue, et il servira de signe d’alliance entre moi et la terre."
+      },
+      "en": {
+        "prompt": "After the flood, what sign did God set in the clouds?",
+        "bible_ref": "Genesis 9:13",
+        "verse_text": "I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth."
+      },
+      "es": {
+        "prompt": "Después del diluvio, ¿qué señal puso Dios en las nubes?",
+        "bible_ref": "Génesis 9:13",
+        "verse_text": "Mi arco pondré en las nubes, el cual será por señal de convenio entre mí y la tierra."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "O seu arco"
+          },
+          "fr": {
+            "text": "Son arc"
+          },
+          "en": {
+            "text": "His bow"
+          },
+          "es": {
+            "text": "Su arco"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma estrela"
+          },
+          "fr": {
+            "text": "Une étoile"
+          },
+          "en": {
+            "text": "A star"
+          },
+          "es": {
+            "text": "Una estrella"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma pomba"
+          },
+          "fr": {
+            "text": "Une colombe"
+          },
+          "en": {
+            "text": "A dove"
+          },
+          "es": {
+            "text": "Una paloma"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um relâmpago"
+          },
+          "fr": {
+            "text": "Un éclair"
+          },
+          "en": {
+            "text": "Lightning"
+          },
+          "es": {
+            "text": "Un relámpago"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-007",
+    "type": "choice",
+    "level": "easy",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 21,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "Como se chamava o filho que Sara deu a Abraão?",
+        "bible_ref": "Génesis 21:3",
+        "verse_text": "E chamou Abraão o nome de seu filho que lhe nasceu, que lhe deu à luz Sara, Isaque."
+      },
+      "fr": {
+        "prompt": "Comment s’appelait le fils que Sara a donné à Abraham ?",
+        "bible_ref": "Genèse 21:3",
+        "verse_text": "Abraham donna le nom d’Isaac au fils qui lui était né, que Sara lui avait enfanté."
+      },
+      "en": {
+        "prompt": "What was the name of the son Sarah bore to Abraham?",
+        "bible_ref": "Genesis 21:3",
+        "verse_text": "And Abraham called the name of his son that was born unto him, whom Sarah bare to him, Isaac."
+      },
+      "es": {
+        "prompt": "¿Cómo se llamaba el hijo que Sara dio a Abraham?",
+        "bible_ref": "Génesis 21:3",
+        "verse_text": "Y llamó Abraham el nombre de su hijo que le nació, que le parió Sara, Isaac."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Isaac"
+          },
+          "fr": {
+            "text": "Isaac"
+          },
+          "en": {
+            "text": "Isaac"
+          },
+          "es": {
+            "text": "Isaac"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Jacob"
+          },
+          "fr": {
+            "text": "Jacob"
+          },
+          "en": {
+            "text": "Jacob"
+          },
+          "es": {
+            "text": "Jacob"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "José"
+          },
+          "fr": {
+            "text": "Joseph"
+          },
+          "en": {
+            "text": "Joseph"
+          },
+          "es": {
+            "text": "José"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Moisés"
+          },
+          "fr": {
+            "text": "Moïse"
+          },
+          "en": {
+            "text": "Moses"
+          },
+          "es": {
+            "text": "Moisés"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-008",
+    "type": "choice",
+    "level": "easy",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 37,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "Que presente fez Jacob (Israel) ao seu filho José?",
+        "bible_ref": "Génesis 37:3",
+        "verse_text": "E amava Israel a José mais que a todos os seus filhos, porque lhe havia tido em sua velhice: e lhe fez uma roupa de diversas cores."
+      },
+      "fr": {
+        "prompt": "Quel cadeau Jacob (Israël) a-t-il fait à son fils Joseph ?",
+        "bible_ref": "Genèse 37:3",
+        "verse_text": "Israël aimait Joseph plus que tous ses autres fils, parce qu’il l’avait eu dans sa vieillesse; et il lui fit une tunique de plusieurs couleurs."
+      },
+      "en": {
+        "prompt": "What gift did Jacob (Israel) make for his son Joseph?",
+        "bible_ref": "Genesis 37:3",
+        "verse_text": "Now Israel loved Joseph more than all his children, because he was the son of his old age: and he made him a coat of many colours."
+      },
+      "es": {
+        "prompt": "¿Qué regalo hizo Jacob (Israel) a su hijo José?",
+        "bible_ref": "Génesis 37:3",
+        "verse_text": "Y amaba Israel á José más que á todos sus hijos, porque le había tenido en su vejez: y le hizo una ropa de diversos colores."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Uma roupa de muitas cores"
+          },
+          "fr": {
+            "text": "Une tunique de plusieurs couleurs"
+          },
+          "en": {
+            "text": "A coat of many colours"
+          },
+          "es": {
+            "text": "Una ropa de diversos colores"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um anel de ouro"
+          },
+          "fr": {
+            "text": "Un anneau d’or"
+          },
+          "en": {
+            "text": "A gold ring"
+          },
+          "es": {
+            "text": "Un anillo de oro"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma espada"
+          },
+          "fr": {
+            "text": "Une épée"
+          },
+          "en": {
+            "text": "A sword"
+          },
+          "es": {
+            "text": "Una espada"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um cordeiro"
+          },
+          "fr": {
+            "text": "Un agneau"
+          },
+          "en": {
+            "text": "A lamb"
+          },
+          "es": {
+            "text": "Un cordero"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-009",
+    "type": "choice",
+    "level": "easy",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 2,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "Onde pôs a mãe o bebé Moisés para o esconder?",
+        "bible_ref": "Êxodo 2:3",
+        "verse_text": "Porém não podendo ocultar-lhe mais tempo, tomou uma cesta de juncos, e vedou-a com piche e betume, e colocou nela ao menino, e o pôs entre os juncos à beira do rio:"
+      },
+      "fr": {
+        "prompt": "Où la mère a-t-elle mis le bébé Moïse pour le cacher ?",
+        "bible_ref": "Exode 2:3",
+        "verse_text": "Ne pouvant plus le cacher, elle prit une caisse de jonc, qu’elle enduisit de bitume et de poix; elle y mit l’enfant, et le déposa parmi les roseaux, sur le bord du fleuve."
+      },
+      "en": {
+        "prompt": "Where did his mother put baby Moses to hide him?",
+        "bible_ref": "Exodus 2:3",
+        "verse_text": "And when she could not longer hide him, she took for him an ark of bulrushes, and daubed it with slime and with pitch, and put the child therein; and she laid it in the flags by the river’s brink."
+      },
+      "es": {
+        "prompt": "¿Dónde puso la madre al bebé Moisés para esconderlo?",
+        "bible_ref": "Éxodo 2:3",
+        "verse_text": "Pero no pudiendo ocultarle más tiempo, tomó una arquilla de juncos, y calafateóla con pez y betún, y colocó en ella al niño, y púsolo en un carrizal á la orilla del río:"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Num cesto, junto ao rio"
+          },
+          "fr": {
+            "text": "Dans une caisse, au bord du fleuve"
+          },
+          "en": {
+            "text": "In a little ark by the river"
+          },
+          "es": {
+            "text": "En una arquilla, junto al río"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Numa gruta"
+          },
+          "fr": {
+            "text": "Dans une grotte"
+          },
+          "en": {
+            "text": "In a cave"
+          },
+          "es": {
+            "text": "En una cueva"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Num poço"
+          },
+          "fr": {
+            "text": "Dans un puits"
+          },
+          "en": {
+            "text": "In a well"
+          },
+          "es": {
+            "text": "En un pozo"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Numa tenda"
+          },
+          "fr": {
+            "text": "Dans une tente"
+          },
+          "en": {
+            "text": "In a tent"
+          },
+          "es": {
+            "text": "En una tienda"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-010",
+    "type": "choice",
+    "level": "easy",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 3,
+    "verse_start": 2,
+    "verse_end": 2,
+    "texts": {
+      "pt": {
+        "prompt": "Onde viu Moisés uma chama de fogo que não queimava a planta?",
+        "bible_ref": "Êxodo 3:2",
+        "verse_text": "E apareceu-lhe o anjo do SENHOR em uma chama de fogo em meio de uma sarça: e ele olhou, e viu que a sarça ardia em fogo, e a sarça não se consumia."
+      },
+      "fr": {
+        "prompt": "Où Moïse a-t-il vu une flamme de feu qui ne consumait pas la plante ?",
+        "bible_ref": "Exode 3:2",
+        "verse_text": "L’ange de l’Éternel lui apparut dans une flamme de feu, au milieu d’un buisson. Moïse regarda; et voici, le buisson était tout en feu, et le buisson ne se consumait point."
+      },
+      "en": {
+        "prompt": "Where did Moses see a flame of fire that did not burn up the plant?",
+        "bible_ref": "Exodus 3:2",
+        "verse_text": "And the angel of the LORD appeared unto him in a flame of fire out of the midst of a bush: and he looked, and, behold, the bush burned with fire, and the bush was not consumed."
+      },
+      "es": {
+        "prompt": "¿Dónde vio Moisés una llama de fuego que no consumía la planta?",
+        "bible_ref": "Éxodo 3:2",
+        "verse_text": "Y apareciósele el Angel de Jehová en una llama de fuego en medio de una zarza: y él miró, y vió que la zarza ardía en fuego, y la zarza no se consumía."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Numa sarça"
+          },
+          "fr": {
+            "text": "Dans un buisson"
+          },
+          "en": {
+            "text": "In a bush"
+          },
+          "es": {
+            "text": "En una zarza"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Numa oliveira"
+          },
+          "fr": {
+            "text": "Dans un olivier"
+          },
+          "en": {
+            "text": "In an olive tree"
+          },
+          "es": {
+            "text": "En un olivo"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Numa videira"
+          },
+          "fr": {
+            "text": "Dans une vigne"
+          },
+          "en": {
+            "text": "In a vine"
+          },
+          "es": {
+            "text": "En una vid"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Numa figueira"
+          },
+          "fr": {
+            "text": "Dans un figuier"
+          },
+          "en": {
+            "text": "In a fig tree"
+          },
+          "es": {
+            "text": "En una higuera"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-011",
+    "type": "choice",
+    "level": "easy",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 16,
+    "verse_start": 31,
+    "verse_end": 31,
+    "texts": {
+      "pt": {
+        "prompt": "Que nome deu o povo de Israel ao pão que vinha do céu?",
+        "bible_ref": "Êxodo 16:31",
+        "verse_text": "E a casa de Israel o chamou maná; e era como semente de coentro, branco, e seu sabor como de bolos com mel."
+      },
+      "fr": {
+        "prompt": "Quel nom le peuple d’Israël a-t-il donné au pain venu du ciel ?",
+        "bible_ref": "Exode 16:31",
+        "verse_text": "La maison d’Israël donna à cette nourriture le nom de manne. Elle ressemblait à de la graine de coriandre; elle était blanche, et avait le goût d’un gâteau au miel."
+      },
+      "en": {
+        "prompt": "What did the people of Israel call the bread from heaven?",
+        "bible_ref": "Exodus 16:31",
+        "verse_text": "And the house of Israel called the name thereof Manna: and it was like coriander seed, white; and the taste of it was like wafers made with honey."
+      },
+      "es": {
+        "prompt": "¿Qué nombre dio el pueblo de Israel al pan que venía del cielo?",
+        "bible_ref": "Éxodo 16:31",
+        "verse_text": "Y la casa de Israel lo llamó Maná; y era como simiente de culantro, blanco, y su sabor como de hojuelas con miel."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Maná"
+          },
+          "fr": {
+            "text": "Manne"
+          },
+          "en": {
+            "text": "Manna"
+          },
+          "es": {
+            "text": "Maná"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Mel"
+          },
+          "fr": {
+            "text": "Miel"
+          },
+          "en": {
+            "text": "Honey"
+          },
+          "es": {
+            "text": "Miel"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Trigo"
+          },
+          "fr": {
+            "text": "Blé"
+          },
+          "en": {
+            "text": "Wheat"
+          },
+          "es": {
+            "text": "Trigo"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Codorniz"
+          },
+          "fr": {
+            "text": "Caille"
+          },
+          "en": {
+            "text": "Quail"
+          },
+          "es": {
+            "text": "Codorniz"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-012",
+    "type": "choice",
+    "level": "easy",
+    "testament": "ot",
+    "book": "NUM",
+    "chapter": 22,
+    "verse_start": 28,
+    "verse_end": 28,
+    "texts": {
+      "pt": {
+        "prompt": "Que animal falou com Balaão?",
+        "bible_ref": "Números 22:28",
+        "verse_text": "Então o SENHOR abriu a boca da jumenta, a qual disse a Balaão: Que te fiz, que me feriste estas três vezes?"
+      },
+      "fr": {
+        "prompt": "Quel animal a parlé à Balaam ?",
+        "bible_ref": "Nombres 22:28",
+        "verse_text": "L’Éternel ouvrit la bouche de l’ânesse, et elle dit à Balaam: Que t’ai-je fait, pour que tu m’aies frappée déjà trois fois?"
+      },
+      "en": {
+        "prompt": "Which animal spoke to Balaam?",
+        "bible_ref": "Numbers 22:28",
+        "verse_text": "And the LORD opened the mouth of the ass, and she said unto Balaam, What have I done unto thee, that thou hast smitten me these three times?"
+      },
+      "es": {
+        "prompt": "¿Qué animal habló con Balaam?",
+        "bible_ref": "Números 22:28",
+        "verse_text": "Entonces Jehová abrió la boca al asna, la cual dijo á Balaam: ¿Qué te he hecho, que me has herido estas tres veces?"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "A jumenta"
+          },
+          "fr": {
+            "text": "L’ânesse"
+          },
+          "en": {
+            "text": "The donkey"
+          },
+          "es": {
+            "text": "La asna"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O camelo"
+          },
+          "fr": {
+            "text": "Le chameau"
+          },
+          "en": {
+            "text": "The camel"
+          },
+          "es": {
+            "text": "El camello"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O cavalo"
+          },
+          "fr": {
+            "text": "Le cheval"
+          },
+          "en": {
+            "text": "The horse"
+          },
+          "es": {
+            "text": "El caballo"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A ovelha"
+          },
+          "fr": {
+            "text": "La brebis"
+          },
+          "en": {
+            "text": "The sheep"
+          },
+          "es": {
+            "text": "La oveja"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-013",
+    "type": "order",
+    "level": "easy",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Génesis 1:1",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Genèse 1:1",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Genesis 1:1",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Génesis 1:1",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Deus cria os céus e a terra",
+            "ref": "Génesis 1:1"
+          },
+          "fr": {
+            "text": "Dieu crée les cieux et la terre",
+            "ref": "Genèse 1:1"
+          },
+          "en": {
+            "text": "God creates heaven and earth",
+            "ref": "Genesis 1:1"
+          },
+          "es": {
+            "text": "Dios crea los cielos y la tierra",
+            "ref": "Génesis 1:1"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Eva come o fruto da árvore",
+            "ref": "Génesis 3:6"
+          },
+          "fr": {
+            "text": "Ève mange le fruit de l’arbre",
+            "ref": "Genèse 3:6"
+          },
+          "en": {
+            "text": "Eve eats the fruit of the tree",
+            "ref": "Genesis 3:6"
+          },
+          "es": {
+            "text": "Eva come el fruto del árbol",
+            "ref": "Génesis 3:6"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Noé entra na arca",
+            "ref": "Génesis 7:7"
+          },
+          "fr": {
+            "text": "Noé entre dans l’arche",
+            "ref": "Genèse 7:7"
+          },
+          "en": {
+            "text": "Noah goes into the ark",
+            "ref": "Genesis 7:7"
+          },
+          "es": {
+            "text": "Noé entra en el arca",
+            "ref": "Génesis 7:7"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Deus confunde a língua em Babel",
+            "ref": "Génesis 11:9"
+          },
+          "fr": {
+            "text": "Dieu confond le langage à Babel",
+            "ref": "Genèse 11:9"
+          },
+          "en": {
+            "text": "God confounds the language at Babel",
+            "ref": "Genesis 11:9"
+          },
+          "es": {
+            "text": "Dios confunde la lengua en Babel",
+            "ref": "Génesis 11:9"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-014",
+    "type": "order",
+    "level": "easy",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 12,
+    "verse_start": 4,
+    "verse_end": 4,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Génesis 12:4",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Genèse 12:4",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Genesis 12:4",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Génesis 12:4",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Abrão parte de Harã",
+            "ref": "Génesis 12:4"
+          },
+          "fr": {
+            "text": "Abram quitte Charan",
+            "ref": "Genèse 12:4"
+          },
+          "en": {
+            "text": "Abram leaves Haran",
+            "ref": "Genesis 12:4"
+          },
+          "es": {
+            "text": "Abram sale de Harán",
+            "ref": "Génesis 12:4"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Sara dá à luz um filho",
+            "ref": "Génesis 21:2"
+          },
+          "fr": {
+            "text": "Sara enfante un fils",
+            "ref": "Genèse 21:2"
+          },
+          "en": {
+            "text": "Sarah gives birth to a son",
+            "ref": "Genesis 21:2"
+          },
+          "es": {
+            "text": "Sara da a luz un hijo",
+            "ref": "Génesis 21:2"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "José é vendido pelos irmãos",
+            "ref": "Génesis 37:28"
+          },
+          "fr": {
+            "text": "Joseph est vendu par ses frères",
+            "ref": "Genèse 37:28"
+          },
+          "en": {
+            "text": "Joseph is sold by his brothers",
+            "ref": "Genesis 37:28"
+          },
+          "es": {
+            "text": "José es vendido por sus hermanos",
+            "ref": "Génesis 37:28"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "José governa a terra do Egito",
+            "ref": "Génesis 41:41"
+          },
+          "fr": {
+            "text": "Joseph gouverne le pays d’Égypte",
+            "ref": "Genèse 41:41"
+          },
+          "en": {
+            "text": "Joseph rules over the land of Egypt",
+            "ref": "Genesis 41:41"
+          },
+          "es": {
+            "text": "José gobierna la tierra de Egipto",
+            "ref": "Génesis 41:41"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-015",
+    "type": "order",
+    "level": "easy",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 2,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Êxodo 2:3",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Exode 2:3",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Exodus 2:3",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Éxodo 2:3",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O bebé Moisés é posto junto ao rio",
+            "ref": "Êxodo 2:3"
+          },
+          "fr": {
+            "text": "Le bébé Moïse est déposé près du fleuve",
+            "ref": "Exode 2:3"
+          },
+          "en": {
+            "text": "Baby Moses is laid by the river",
+            "ref": "Exodus 2:3"
+          },
+          "es": {
+            "text": "El bebé Moisés es puesto junto al río",
+            "ref": "Éxodo 2:3"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Moisés vê a sarça a arder",
+            "ref": "Êxodo 3:2"
+          },
+          "fr": {
+            "text": "Moïse voit le buisson ardent",
+            "ref": "Exode 3:2"
+          },
+          "en": {
+            "text": "Moses sees the burning bush",
+            "ref": "Exodus 3:2"
+          },
+          "es": {
+            "text": "Moisés ve la zarza ardiendo",
+            "ref": "Éxodo 3:2"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A água do rio torna-se sangue",
+            "ref": "Êxodo 7:20"
+          },
+          "fr": {
+            "text": "L’eau du fleuve devient du sang",
+            "ref": "Exode 7:20"
+          },
+          "en": {
+            "text": "The river water turns to blood",
+            "ref": "Exodus 7:20"
+          },
+          "es": {
+            "text": "El agua del río se vuelve sangre",
+            "ref": "Éxodo 7:20"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "As águas do mar dividem-se",
+            "ref": "Êxodo 14:21"
+          },
+          "fr": {
+            "text": "Les eaux de la mer se fendent",
+            "ref": "Exode 14:21"
+          },
+          "en": {
+            "text": "The waters of the sea are divided",
+            "ref": "Exodus 14:21"
+          },
+          "es": {
+            "text": "Las aguas del mar se dividen",
+            "ref": "Éxodo 14:21"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-016",
+    "type": "order",
+    "level": "easy",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 14,
+    "verse_start": 22,
+    "verse_end": 22,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Êxodo 14:22",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Exode 14:22",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Exodus 14:22",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Éxodo 14:22",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O povo atravessa o mar",
+            "ref": "Êxodo 14:22"
+          },
+          "fr": {
+            "text": "Le peuple traverse la mer",
+            "ref": "Exode 14:22"
+          },
+          "en": {
+            "text": "The people cross the sea",
+            "ref": "Exodus 14:22"
+          },
+          "es": {
+            "text": "El pueblo cruza el mar",
+            "ref": "Éxodo 14:22"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Deus dá o maná ao povo",
+            "ref": "Êxodo 16:31"
+          },
+          "fr": {
+            "text": "Dieu donne la manne au peuple",
+            "ref": "Exode 16:31"
+          },
+          "en": {
+            "text": "God gives manna to the people",
+            "ref": "Exodus 16:31"
+          },
+          "es": {
+            "text": "Dios da el maná al pueblo",
+            "ref": "Éxodo 16:31"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Deus dá os Dez Mandamentos",
+            "ref": "Êxodo 20:1"
+          },
+          "fr": {
+            "text": "Dieu donne les dix commandements",
+            "ref": "Exode 20:1"
+          },
+          "en": {
+            "text": "God gives the Ten Commandments",
+            "ref": "Exodus 20:1"
+          },
+          "es": {
+            "text": "Dios da los diez mandamientos",
+            "ref": "Éxodo 20:1"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O povo faz um bezerro de ouro",
+            "ref": "Êxodo 32:4"
+          },
+          "fr": {
+            "text": "Le peuple fait un veau d’or",
+            "ref": "Exode 32:4"
+          },
+          "en": {
+            "text": "The people make a golden calf",
+            "ref": "Exodus 32:4"
+          },
+          "es": {
+            "text": "El pueblo hace un becerro de oro",
+            "ref": "Éxodo 32:4"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-017",
+    "type": "verse",
+    "level": "easy",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "E disse _____: Haja luz; e houve luz.",
+        "bible_ref": "Génesis 1:3",
+        "verse_text": "E disse Deus: Haja luz; e houve luz."
+      },
+      "fr": {
+        "prompt": "_____ dit: Que la lumière soit! Et la lumière fut.",
+        "bible_ref": "Genèse 1:3",
+        "verse_text": "Dieu dit: Que la lumière soit! Et la lumière fut."
+      },
+      "en": {
+        "prompt": "And _____ said, Let there be light: and there was light.",
+        "bible_ref": "Genesis 1:3",
+        "verse_text": "And God said, Let there be light: and there was light."
+      },
+      "es": {
+        "prompt": "Y dijo _____: Sea la luz: y fué la luz.",
+        "bible_ref": "Génesis 1:3",
+        "verse_text": "Y dijo Dios: Sea la luz: y fué la luz."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Adão"
+          },
+          "fr": {
+            "text": "Adam"
+          },
+          "en": {
+            "text": "Adam"
+          },
+          "es": {
+            "text": "Adán"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Noé"
+          },
+          "fr": {
+            "text": "Noé"
+          },
+          "en": {
+            "text": "Noah"
+          },
+          "es": {
+            "text": "Noé"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Moisés"
+          },
+          "fr": {
+            "text": "Moïse"
+          },
+          "en": {
+            "text": "Moses"
+          },
+          "es": {
+            "text": "Moisés"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Deus"
+          },
+          "fr": {
+            "text": "Dieu"
+          },
+          "en": {
+            "text": "God"
+          },
+          "es": {
+            "text": "Dios"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-018",
+    "type": "verse",
+    "level": "easy",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 20,
+    "verse_start": 12,
+    "verse_end": 12,
+    "texts": {
+      "pt": {
+        "prompt": "Honra a teu _____ e a tua mãe, para que teus dias se alarguem na terra que o SENHOR teu Deus te dá.",
+        "bible_ref": "Êxodo 20:12",
+        "verse_text": "Honra a teu pai e a tua mãe, para que teus dias se alarguem na terra que o SENHOR teu Deus te dá."
+      },
+      "fr": {
+        "prompt": "Honore ton _____ et ta mère, afin que tes jours se prolongent dans le pays que l’Éternel, ton Dieu, te donne.",
+        "bible_ref": "Exode 20:12",
+        "verse_text": "Honore ton père et ta mère, afin que tes jours se prolongent dans le pays que l’Éternel, ton Dieu, te donne."
+      },
+      "en": {
+        "prompt": "Honour thy _____ and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee.",
+        "bible_ref": "Exodus 20:12",
+        "verse_text": "Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee."
+      },
+      "es": {
+        "prompt": "Honra á tu _____ y á tu madre, porque tus días se alarguen en la tierra que Jehová tu Dios te da.",
+        "bible_ref": "Éxodo 20:12",
+        "verse_text": "Honra á tu padre y á tu madre, porque tus días se alarguen en la tierra que Jehová tu Dios te da."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "irmão"
+          },
+          "fr": {
+            "text": "frère"
+          },
+          "en": {
+            "text": "brother"
+          },
+          "es": {
+            "text": "hermano"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "amigo"
+          },
+          "fr": {
+            "text": "ami"
+          },
+          "en": {
+            "text": "friend"
+          },
+          "es": {
+            "text": "amigo"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "pai"
+          },
+          "fr": {
+            "text": "père"
+          },
+          "en": {
+            "text": "father"
+          },
+          "es": {
+            "text": "padre"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "rei"
+          },
+          "fr": {
+            "text": "roi"
+          },
+          "en": {
+            "text": "king"
+          },
+          "es": {
+            "text": "rey"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-019",
+    "type": "verse",
+    "level": "easy",
+    "testament": "ot",
+    "book": "NUM",
+    "chapter": 6,
+    "verse_start": 24,
+    "verse_end": 24,
+    "texts": {
+      "pt": {
+        "prompt": "O SENHOR te _____, e te guarde:",
+        "bible_ref": "Números 6:24",
+        "verse_text": "O SENHOR te abençoe, e te guarde:"
+      },
+      "fr": {
+        "prompt": "Que l’Éternel te _____, et qu’il te garde!",
+        "bible_ref": "Nombres 6:24",
+        "verse_text": "Que l’Éternel te bénisse, et qu’il te garde!"
+      },
+      "en": {
+        "prompt": "The LORD _____ thee, and keep thee:",
+        "bible_ref": "Numbers 6:24",
+        "verse_text": "The LORD bless thee, and keep thee:"
+      },
+      "es": {
+        "prompt": "Jehová te _____, y te guarde:",
+        "bible_ref": "Números 6:24",
+        "verse_text": "Jehová te bendiga, y te guarde:"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "chame"
+          },
+          "fr": {
+            "text": "appelle"
+          },
+          "en": {
+            "text": "call"
+          },
+          "es": {
+            "text": "llame"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "abençoe"
+          },
+          "fr": {
+            "text": "bénisse"
+          },
+          "en": {
+            "text": "bless"
+          },
+          "es": {
+            "text": "bendiga"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "ensine"
+          },
+          "fr": {
+            "text": "conduise"
+          },
+          "en": {
+            "text": "teach"
+          },
+          "es": {
+            "text": "enseñe"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "ouça"
+          },
+          "fr": {
+            "text": "console"
+          },
+          "en": {
+            "text": "hear"
+          },
+          "es": {
+            "text": "oiga"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-020",
+    "type": "verse",
+    "level": "easy",
+    "testament": "ot",
+    "book": "DEU",
+    "chapter": 6,
+    "verse_start": 5,
+    "verse_end": 5,
+    "texts": {
+      "pt": {
+        "prompt": "E Amarás ao SENHOR teu Deus de todo teu _____, e de toda tua alma, e com todo tua poder.",
+        "bible_ref": "Deuteronómio 6:5",
+        "verse_text": "E Amarás ao SENHOR teu Deus de todo teu coração, e de toda tua alma, e com todo tua poder."
+      },
+      "fr": {
+        "prompt": "Tu aimeras l’Éternel, ton Dieu, de tout ton _____, de toute ton âme et de toute ta force.",
+        "bible_ref": "Deutéronome 6:5",
+        "verse_text": "Tu aimeras l’Éternel, ton Dieu, de tout ton cœur, de toute ton âme et de toute ta force."
+      },
+      "en": {
+        "prompt": "And thou shalt love the LORD thy God with all thine _____, and with all thy soul, and with all thy might.",
+        "bible_ref": "Deuteronomy 6:5",
+        "verse_text": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might."
+      },
+      "es": {
+        "prompt": "Y amarás á Jehová tu Dios de todo tu _____, y de toda tu alma, y con todo tu poder.",
+        "bible_ref": "Deuteronomio 6:5",
+        "verse_text": "Y amarás á Jehová tu Dios de todo tu corazón, y de toda tu alma, y con todo tu poder."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "casa"
+          },
+          "fr": {
+            "text": "maison"
+          },
+          "en": {
+            "text": "house"
+          },
+          "es": {
+            "text": "casa"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "coração"
+          },
+          "fr": {
+            "text": "cœur"
+          },
+          "en": {
+            "text": "heart"
+          },
+          "es": {
+            "text": "corazón"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "vida"
+          },
+          "fr": {
+            "text": "vie"
+          },
+          "en": {
+            "text": "life"
+          },
+          "es": {
+            "text": "vida"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "voz"
+          },
+          "fr": {
+            "text": "voix"
+          },
+          "en": {
+            "text": "voice"
+          },
+          "es": {
+            "text": "voz"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-001",
+    "type": "choice",
+    "level": "medium",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 7,
+    "verse_start": 12,
+    "verse_end": 12,
+    "texts": {
+      "pt": {
+        "prompt": "Durante quantos dias e noites choveu sobre a terra no dilúvio?",
+        "bible_ref": "Génesis 7:12",
+        "verse_text": "E houve chuva sobre a terra quarenta dias e quarenta noites."
+      },
+      "fr": {
+        "prompt": "Pendant combien de jours et de nuits la pluie est-elle tombée sur la terre lors du déluge ?",
+        "bible_ref": "Genèse 7:12",
+        "verse_text": "La pluie tomba sur la terre quarante jours et quarante nuits."
+      },
+      "en": {
+        "prompt": "For how many days and nights did it rain on the earth in the flood?",
+        "bible_ref": "Genesis 7:12",
+        "verse_text": "And the rain was upon the earth forty days and forty nights."
+      },
+      "es": {
+        "prompt": "¿Durante cuántos días y noches llovió sobre la tierra en el diluvio?",
+        "bible_ref": "Génesis 7:12",
+        "verse_text": "Y hubo lluvia sobre la tierra cuarenta días y cuarenta noches."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "40"
+          },
+          "fr": {
+            "text": "40"
+          },
+          "en": {
+            "text": "40"
+          },
+          "es": {
+            "text": "40"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "7"
+          },
+          "fr": {
+            "text": "7"
+          },
+          "en": {
+            "text": "7"
+          },
+          "es": {
+            "text": "7"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "12"
+          },
+          "fr": {
+            "text": "12"
+          },
+          "en": {
+            "text": "12"
+          },
+          "es": {
+            "text": "12"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "100"
+          },
+          "fr": {
+            "text": "100"
+          },
+          "en": {
+            "text": "100"
+          },
+          "es": {
+            "text": "100"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-002",
+    "type": "choice",
+    "level": "medium",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 8,
+    "verse_start": 11,
+    "verse_end": 11,
+    "texts": {
+      "pt": {
+        "prompt": "O que trazia a pomba no bico quando voltou à arca ao fim da tarde?",
+        "bible_ref": "Génesis 8:11",
+        "verse_text": "E a pomba voltou a ele à hora da tarde; e eis que trazia uma folha de oliveira tomada em seu bico; então Noé entendeu que as águas haviam se retirado de sobre a terra."
+      },
+      "fr": {
+        "prompt": "Que rapportait la colombe dans son bec quand elle est revenue à l’arche le soir ?",
+        "bible_ref": "Genèse 8:11",
+        "verse_text": "La colombe revint à lui sur le soir; et voici, une feuille d’olivier arrachée était dans son bec. Noé connut ainsi que les eaux avaient diminué sur la terre."
+      },
+      "en": {
+        "prompt": "What did the dove bring in her mouth when she came back to the ark in the evening?",
+        "bible_ref": "Genesis 8:11",
+        "verse_text": "And the dove came in to him in the evening; and, lo, in her mouth was an olive leaf pluckt off: so Noah knew that the waters were abated from off the earth."
+      },
+      "es": {
+        "prompt": "¿Qué traía la paloma en el pico cuando volvió al arca a la tarde?",
+        "bible_ref": "Génesis 8:11",
+        "verse_text": "Y la paloma volvió á él á la hora de la tarde; y he aquí que traía una hoja de oliva tomada en su pico: y entendió Noé que las aguas se habían retirado de sobre la tierra."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Uma folha de oliveira"
+          },
+          "fr": {
+            "text": "Une feuille d’olivier"
+          },
+          "en": {
+            "text": "An olive leaf"
+          },
+          "es": {
+            "text": "Una hoja de olivo"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma espiga de trigo"
+          },
+          "fr": {
+            "text": "Un épi de blé"
+          },
+          "en": {
+            "text": "An ear of wheat"
+          },
+          "es": {
+            "text": "Una espiga de trigo"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um figo"
+          },
+          "fr": {
+            "text": "Une figue"
+          },
+          "en": {
+            "text": "A fig"
+          },
+          "es": {
+            "text": "Un higo"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um cacho de uvas"
+          },
+          "fr": {
+            "text": "Une grappe de raisin"
+          },
+          "en": {
+            "text": "A bunch of grapes"
+          },
+          "es": {
+            "text": "Un racimo de uvas"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-003",
+    "type": "choice",
+    "level": "medium",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 19,
+    "verse_start": 26,
+    "verse_end": 26,
+    "texts": {
+      "pt": {
+        "prompt": "Em que se tornou a mulher de Ló quando olhou para trás?",
+        "bible_ref": "Génesis 19:26",
+        "verse_text": "Então a mulher de Ló olhou atrás, às costas dele, e se tornou estátua de sai."
+      },
+      "fr": {
+        "prompt": "Que devint la femme de Lot quand elle regarda en arrière ?",
+        "bible_ref": "Genèse 19:26",
+        "verse_text": "La femme de Lot regarda en arrière, et elle devint une statue de sel."
+      },
+      "en": {
+        "prompt": "What did Lot’s wife become when she looked back?",
+        "bible_ref": "Genesis 19:26",
+        "verse_text": "But his wife looked back from behind him, and she became a pillar of salt."
+      },
+      "es": {
+        "prompt": "¿En qué se convirtió la mujer de Lot cuando miró atrás?",
+        "bible_ref": "Génesis 19:26",
+        "verse_text": "Entonces la mujer de Lot miró atrás, á espaldas de él, y se volvió estatua de sal."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Numa estátua de sal"
+          },
+          "fr": {
+            "text": "Une statue de sel"
+          },
+          "en": {
+            "text": "A pillar of salt"
+          },
+          "es": {
+            "text": "Una estatua de sal"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Numa pedra"
+          },
+          "fr": {
+            "text": "Une pierre"
+          },
+          "en": {
+            "text": "A stone"
+          },
+          "es": {
+            "text": "Una piedra"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Num monte de cinzas"
+          },
+          "fr": {
+            "text": "Un tas de cendres"
+          },
+          "en": {
+            "text": "A heap of ashes"
+          },
+          "es": {
+            "text": "Un montón de ceniza"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Numa árvore seca"
+          },
+          "fr": {
+            "text": "Un arbre sec"
+          },
+          "en": {
+            "text": "A dry tree"
+          },
+          "es": {
+            "text": "Un árbol seco"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-004",
+    "type": "choice",
+    "level": "medium",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 22,
+    "verse_start": 13,
+    "verse_end": 13,
+    "texts": {
+      "pt": {
+        "prompt": "Que animal ofereceu Abraão em lugar do seu filho?",
+        "bible_ref": "Génesis 22:13",
+        "verse_text": "Então levantou Abraão seus olhos, e olhou, e eis um carneiro a suas costas preso em um arbusto por seus chifres: e foi Abraão, e tomou o carneiro, e ofereceu-lhe em holocausto em lugar de seu filho."
+      },
+      "fr": {
+        "prompt": "Quel animal Abraham a-t-il offert à la place de son fils ?",
+        "bible_ref": "Genèse 22:13",
+        "verse_text": "Abraham leva les yeux, et vit derrière lui un bélier retenu dans un buisson par les cornes; et Abraham alla prendre le bélier, et l’offrit en holocauste à la place de son fils."
+      },
+      "en": {
+        "prompt": "What animal did Abraham offer instead of his son?",
+        "bible_ref": "Genesis 22:13",
+        "verse_text": "And Abraham lifted up his eyes, and looked, and behold behind him a ram caught in a thicket by his horns: and Abraham went and took the ram, and offered him up for a burnt offering in the stead of his son."
+      },
+      "es": {
+        "prompt": "¿Qué animal ofreció Abraham en lugar de su hijo?",
+        "bible_ref": "Génesis 22:13",
+        "verse_text": "Entonces alzó Abraham sus ojos, y miró, y he aquí un carnero á sus espaldas trabado en un zarzal por sus cuernos: y fué Abraham, y tomó el carnero, y ofrecióle en holocausto en lugar de su hijo."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Um carneiro"
+          },
+          "fr": {
+            "text": "Un bélier"
+          },
+          "en": {
+            "text": "A ram"
+          },
+          "es": {
+            "text": "Un carnero"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um bezerro"
+          },
+          "fr": {
+            "text": "Un veau"
+          },
+          "en": {
+            "text": "A calf"
+          },
+          "es": {
+            "text": "Un becerro"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma pomba"
+          },
+          "fr": {
+            "text": "Une colombe"
+          },
+          "en": {
+            "text": "A dove"
+          },
+          "es": {
+            "text": "Una paloma"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um bode"
+          },
+          "fr": {
+            "text": "Un bouc"
+          },
+          "en": {
+            "text": "A goat"
+          },
+          "es": {
+            "text": "Un macho cabrío"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-005",
+    "type": "choice",
+    "level": "medium",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 25,
+    "verse_start": 33,
+    "verse_end": 34,
+    "texts": {
+      "pt": {
+        "prompt": "Que comida deu Jacob a Esaú em troca do direito de primogenitura?",
+        "bible_ref": "Génesis 25:33-34",
+        "verse_text": "E disse Jacó: Jura-me hoje. E ele lhe jurou, e vendeu a Jacó sua primogenitura. Então Jacó deu a Esaú pão e do guisado das lentilhas; e ele comeu e bebeu, e levantou-se, e foi-se. Assim menosprezou Esaú a primogenitura."
+      },
+      "fr": {
+        "prompt": "Quel plat Jacob a-t-il donné à Ésaü en échange de son droit d’aînesse ?",
+        "bible_ref": "Genèse 25:33-34",
+        "verse_text": "Et Jacob dit: Jure-le moi d’abord. Il le lui jura, et il vendit son droit d’aînesse à Jacob. Alors Jacob donna à Ésaü du pain et du potage de lentilles. Il mangea et but, puis se leva et s’en alla. C’est ainsi qu’Ésaü méprisa le droit d’aînesse."
+      },
+      "en": {
+        "prompt": "What food did Jacob give Esau in exchange for his birthright?",
+        "bible_ref": "Genesis 25:33-34",
+        "verse_text": "And Jacob said, Swear to me this day; and he sware unto him: and he sold his birthright unto Jacob. Then Jacob gave Esau bread and pottage of lentiles; and he did eat and drink, and rose up, and went his way: thus Esau despised his birthright."
+      },
+      "es": {
+        "prompt": "¿Qué comida dio Jacob a Esaú a cambio de su primogenitura?",
+        "bible_ref": "Génesis 25:33-34",
+        "verse_text": "Y dijo Jacob: Júramelo en este día. Y él le juró, y vendió á Jacob su primogenitura. Entonces Jacob dió á Esaú pan y del guisado de las lentejas; y él comió y bebió, y levantóse, y fuése. Así menospreció Esaú la primogenitura."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Pão e guisado de lentilhas"
+          },
+          "fr": {
+            "text": "Du pain et un potage de lentilles"
+          },
+          "en": {
+            "text": "Bread and lentil stew"
+          },
+          "es": {
+            "text": "Pan y guisado de lentejas"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Carne de veado"
+          },
+          "fr": {
+            "text": "Du gibier"
+          },
+          "en": {
+            "text": "Venison"
+          },
+          "es": {
+            "text": "Carne de venado"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Peixe assado"
+          },
+          "fr": {
+            "text": "Du poisson grillé"
+          },
+          "en": {
+            "text": "Roasted fish"
+          },
+          "es": {
+            "text": "Pescado asado"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Figos e mel"
+          },
+          "fr": {
+            "text": "Des figues et du miel"
+          },
+          "en": {
+            "text": "Figs and honey"
+          },
+          "es": {
+            "text": "Higos y miel"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-006",
+    "type": "choice",
+    "level": "medium",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 41,
+    "verse_start": 30,
+    "verse_end": 30,
+    "texts": {
+      "pt": {
+        "prompt": "Quantos anos de fome anunciou José ao Faraó?",
+        "bible_ref": "Génesis 41:30",
+        "verse_text": "E se levantarão depois eles sete anos de fome; e toda a fartura será esquecida na terra do Egito; e a fome consumirá a terra;"
+      },
+      "fr": {
+        "prompt": "Combien d’années de famine Joseph a-t-il annoncées au pharaon ?",
+        "bible_ref": "Genèse 41:30",
+        "verse_text": "Sept années de famine viendront après elles; et l’on oubliera toute cette abondance au pays d’Égypte, et la famine consumera le pays."
+      },
+      "en": {
+        "prompt": "How many years of famine did Joseph announce to Pharaoh?",
+        "bible_ref": "Genesis 41:30",
+        "verse_text": "And there shall arise after them seven years of famine; and all the plenty shall be forgotten in the land of Egypt; and the famine shall consume the land;"
+      },
+      "es": {
+        "prompt": "¿Cuántos años de hambre anunció José a Faraón?",
+        "bible_ref": "Génesis 41:30",
+        "verse_text": "Y levantarse han tras ellos siete años de hambre; y toda la hartura será olvidada en la tierra de Egipto; y el hambre consumirá la tierra;"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "7"
+          },
+          "fr": {
+            "text": "7"
+          },
+          "en": {
+            "text": "7"
+          },
+          "es": {
+            "text": "7"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "3"
+          },
+          "fr": {
+            "text": "3"
+          },
+          "en": {
+            "text": "3"
+          },
+          "es": {
+            "text": "3"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "10"
+          },
+          "fr": {
+            "text": "10"
+          },
+          "en": {
+            "text": "10"
+          },
+          "es": {
+            "text": "10"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "40"
+          },
+          "fr": {
+            "text": "40"
+          },
+          "en": {
+            "text": "40"
+          },
+          "es": {
+            "text": "40"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-007",
+    "type": "choice",
+    "level": "medium",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 7,
+    "verse_start": 20,
+    "verse_end": 20,
+    "texts": {
+      "pt": {
+        "prompt": "Quando Moisés feriu as águas do rio com a vara, em que se tornaram?",
+        "bible_ref": "Êxodo 7:20",
+        "verse_text": "E Moisés e Arão fizeram como o SENHOR havia mandado; e levantando a vara feriu as águas que havia no rio, em presença de Faraó e de seus servos; e todas as águas que havia no rio se converteram em sangue."
+      },
+      "fr": {
+        "prompt": "Quand Moïse frappa les eaux du fleuve avec la verge, en quoi furent-elles changées ?",
+        "bible_ref": "Exode 7:20",
+        "verse_text": "Moïse et Aaron firent ce que l’Éternel avait ordonné. Aaron leva la verge, et il frappa les eaux qui étaient dans le fleuve, sous les yeux de Pharaon et sous les yeux de ses serviteurs; et toutes les eaux du fleuve furent changées en sang."
+      },
+      "en": {
+        "prompt": "When Moses struck the river water with the rod, what did it turn into?",
+        "bible_ref": "Exodus 7:20",
+        "verse_text": "And Moses and Aaron did so, as the LORD commanded; and he lifted up the rod, and smote the waters that were in the river, in the sight of Pharaoh, and in the sight of his servants; and all the waters that were in the river were turned to blood."
+      },
+      "es": {
+        "prompt": "Cuando Moisés golpeó las aguas del río con la vara, ¿en qué se convirtieron?",
+        "bible_ref": "Éxodo 7:20",
+        "verse_text": "Y Moisés y Aarón hicieron como Jehová lo mandó; y alzando la vara hirió las aguas que había en el río, en presencia de Faraón y de sus siervos; y todas las aguas que había en el río se convirtieron en sangre."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Em sangue"
+          },
+          "fr": {
+            "text": "En sang"
+          },
+          "en": {
+            "text": "Blood"
+          },
+          "es": {
+            "text": "En sangre"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Em vinho"
+          },
+          "fr": {
+            "text": "En vin"
+          },
+          "en": {
+            "text": "Wine"
+          },
+          "es": {
+            "text": "En vino"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Em gelo"
+          },
+          "fr": {
+            "text": "En glace"
+          },
+          "en": {
+            "text": "Ice"
+          },
+          "es": {
+            "text": "En hielo"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Em lama"
+          },
+          "fr": {
+            "text": "En boue"
+          },
+          "en": {
+            "text": "Mud"
+          },
+          "es": {
+            "text": "En lodo"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-008",
+    "type": "choice",
+    "level": "medium",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 12,
+    "verse_start": 7,
+    "verse_end": 7,
+    "texts": {
+      "pt": {
+        "prompt": "Na Páscoa, onde punham os israelitas o sangue do cordeiro?",
+        "bible_ref": "Êxodo 12:7",
+        "verse_text": "E tomarão do sangue, e o porão nos dois postes e na verga das casas em que o comerão."
+      },
+      "fr": {
+        "prompt": "À la Pâque, où les Israélites mettaient-ils le sang de l’agneau ?",
+        "bible_ref": "Exode 12:7",
+        "verse_text": "On prendra de son sang, et on en mettra sur les deux poteaux et sur le linteau de la porte des maisons où on le mangera."
+      },
+      "en": {
+        "prompt": "At the Passover, where did the Israelites put the lamb’s blood?",
+        "bible_ref": "Exodus 12:7",
+        "verse_text": "And they shall take of the blood, and strike it on the two side posts and on the upper door post of the houses, wherein they shall eat it."
+      },
+      "es": {
+        "prompt": "En la Pascua, ¿dónde ponían los israelitas la sangre del cordero?",
+        "bible_ref": "Éxodo 12:7",
+        "verse_text": "Y tomarán de la sangre, y pondrán en los dos postes y en el dintel de las casas en que lo han de comer."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Nos postes e na verga das portas"
+          },
+          "fr": {
+            "text": "Sur les poteaux et le linteau de la porte"
+          },
+          "en": {
+            "text": "On the side posts and upper door post"
+          },
+          "es": {
+            "text": "En los postes y el dintel de las casas"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "No altar do templo"
+          },
+          "fr": {
+            "text": "Sur l’autel du temple"
+          },
+          "en": {
+            "text": "On the temple altar"
+          },
+          "es": {
+            "text": "En el altar del templo"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Nas próprias roupas"
+          },
+          "fr": {
+            "text": "Sur leurs vêtements"
+          },
+          "en": {
+            "text": "On their own clothes"
+          },
+          "es": {
+            "text": "En sus propias ropas"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "No telhado das casas"
+          },
+          "fr": {
+            "text": "Sur le toit des maisons"
+          },
+          "en": {
+            "text": "On the roofs of the houses"
+          },
+          "es": {
+            "text": "En el techo de las casas"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-009",
+    "type": "choice",
+    "level": "medium",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 32,
+    "verse_start": 35,
+    "verse_end": 35,
+    "texts": {
+      "pt": {
+        "prompt": "Quem fez o bezerro de ouro no deserto?",
+        "bible_ref": "Êxodo 32:35",
+        "verse_text": "E o SENHOR feriu ao povo, porque fizeram o bezerro que formou Arão."
+      },
+      "fr": {
+        "prompt": "Qui a fait le veau d’or dans le désert ?",
+        "bible_ref": "Exode 32:35",
+        "verse_text": "L’Éternel frappa le peuple, parce qu’il avait fait le veau, fabriqué par Aaron."
+      },
+      "en": {
+        "prompt": "Who made the golden calf in the wilderness?",
+        "bible_ref": "Exodus 32:35",
+        "verse_text": "And the LORD plagued the people, because they made the calf, which Aaron made."
+      },
+      "es": {
+        "prompt": "¿Quién hizo el becerro de oro en el desierto?",
+        "bible_ref": "Éxodo 32:35",
+        "verse_text": "Y Jehová hirió al pueblo, porque habían hecho el becerro que formó Aarón."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Arão"
+          },
+          "fr": {
+            "text": "Aaron"
+          },
+          "en": {
+            "text": "Aaron"
+          },
+          "es": {
+            "text": "Aarón"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Josué"
+          },
+          "fr": {
+            "text": "Josué"
+          },
+          "en": {
+            "text": "Joshua"
+          },
+          "es": {
+            "text": "Josué"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Calebe"
+          },
+          "fr": {
+            "text": "Caleb"
+          },
+          "en": {
+            "text": "Caleb"
+          },
+          "es": {
+            "text": "Caleb"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Coré"
+          },
+          "fr": {
+            "text": "Koré"
+          },
+          "en": {
+            "text": "Korah"
+          },
+          "es": {
+            "text": "Coré"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-010",
+    "type": "choice",
+    "level": "medium",
+    "testament": "ot",
+    "book": "LEV",
+    "chapter": 16,
+    "verse_start": 22,
+    "verse_end": 22,
+    "texts": {
+      "pt": {
+        "prompt": "Em Levítico 16, que animal levava sobre si as iniquidades do povo para o deserto?",
+        "bible_ref": "Levítico 16:22",
+        "verse_text": "E aquele bode macho levará sobre si todas as iniquidades deles a terra inabitada: e deixará ir o bode macho pelo deserto."
+      },
+      "fr": {
+        "prompt": "En Lévitique 16, quel animal emportait les iniquités du peuple dans le désert ?",
+        "bible_ref": "Lévitique 16:22",
+        "verse_text": "Le bouc emportera sur lui toutes leurs iniquités dans une terre désolée; il sera chassé dans le désert."
+      },
+      "en": {
+        "prompt": "In Leviticus 16, which animal bore the iniquities of the people into the wilderness?",
+        "bible_ref": "Leviticus 16:22",
+        "verse_text": "And the goat shall bear upon him all their iniquities unto a land not inhabited: and he shall let go the goat in the wilderness."
+      },
+      "es": {
+        "prompt": "En Levítico 16, ¿qué animal llevaba sobre sí las iniquidades del pueblo al desierto?",
+        "bible_ref": "Levítico 16:22",
+        "verse_text": "Y aquel macho cabrío llevará sobre sí todas las iniquidades de ellos á tierra inhabitada: y dejará ir el macho cabrío por el desierto."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Um bode"
+          },
+          "fr": {
+            "text": "Un bouc"
+          },
+          "en": {
+            "text": "A goat"
+          },
+          "es": {
+            "text": "Un macho cabrío"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um cordeiro"
+          },
+          "fr": {
+            "text": "Un agneau"
+          },
+          "en": {
+            "text": "A lamb"
+          },
+          "es": {
+            "text": "Un cordero"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um touro"
+          },
+          "fr": {
+            "text": "Un taureau"
+          },
+          "en": {
+            "text": "A bull"
+          },
+          "es": {
+            "text": "Un toro"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Uma pomba"
+          },
+          "fr": {
+            "text": "Une colombe"
+          },
+          "en": {
+            "text": "A dove"
+          },
+          "es": {
+            "text": "Una paloma"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-011",
+    "type": "choice",
+    "level": "medium",
+    "testament": "ot",
+    "book": "NUM",
+    "chapter": 21,
+    "verse_start": 9,
+    "verse_end": 9,
+    "texts": {
+      "pt": {
+        "prompt": "O que fez Moisés para que quem fosse mordido por serpentes vivesse?",
+        "bible_ref": "Números 21:9",
+        "verse_text": "E Moisés fez uma serpente de bronze, e a pôs sobre a haste, e foi, que quando alguma serpente mordia a algum, olhava à serpente de bronze, e vivia."
+      },
+      "fr": {
+        "prompt": "Qu’a fait Moïse pour que ceux qui étaient mordus par les serpents vivent ?",
+        "bible_ref": "Nombres 21:9",
+        "verse_text": "Moïse fit un serpent d’airain, et le plaça sur une perche; et quiconque avait été mordu par un serpent, et regardait le serpent d’airain, conservait la vie."
+      },
+      "en": {
+        "prompt": "What did Moses make so that those bitten by serpents would live?",
+        "bible_ref": "Numbers 21:9",
+        "verse_text": "And Moses made a serpent of brass, and put it upon a pole, and it came to pass, that if a serpent had bitten any man, when he beheld the serpent of brass, he lived."
+      },
+      "es": {
+        "prompt": "¿Qué hizo Moisés para que los mordidos por serpientes vivieran?",
+        "bible_ref": "Números 21:9",
+        "verse_text": "Y Moisés hizo una serpiente de metal, y púsola sobre la bandera: y fué, que cuando alguna serpiente mordía á alguno, miraba á la serpiente de metal, y vivía."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Uma serpente de bronze numa haste"
+          },
+          "fr": {
+            "text": "Un serpent d’airain sur une perche"
+          },
+          "en": {
+            "text": "A serpent of brass on a pole"
+          },
+          "es": {
+            "text": "Una serpiente de metal sobre un asta"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um altar de pedra"
+          },
+          "fr": {
+            "text": "Un autel de pierre"
+          },
+          "en": {
+            "text": "A stone altar"
+          },
+          "es": {
+            "text": "Un altar de piedra"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um poço de água"
+          },
+          "fr": {
+            "text": "Un puits d’eau"
+          },
+          "en": {
+            "text": "A well of water"
+          },
+          "es": {
+            "text": "Un pozo de agua"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Um bezerro de ouro"
+          },
+          "fr": {
+            "text": "Un veau d’or"
+          },
+          "en": {
+            "text": "A golden calf"
+          },
+          "es": {
+            "text": "Un becerro de oro"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-012",
+    "type": "choice",
+    "level": "medium",
+    "testament": "ot",
+    "book": "DEU",
+    "chapter": 34,
+    "verse_start": 1,
+    "verse_end": 1,
+    "texts": {
+      "pt": {
+        "prompt": "De que monte viu Moisés a terra prometida antes de morrer?",
+        "bible_ref": "Deuteronómio 34:1",
+        "verse_text": "E Moisés subiu dos campos de Moabe ao monte Nebo, ao cume de Pisga, que está em frente de Jericó; e o SENHOR mostrou-lhe toda a terra de Gileade até Dã,"
+      },
+      "fr": {
+        "prompt": "De quelle montagne Moïse a-t-il vu la terre promise avant de mourir ?",
+        "bible_ref": "Deutéronome 34:1",
+        "verse_text": "Moïse monta des plaines de Moab sur le mont Nebo, au sommet du Pisga, vis-à-vis de Jéricho. Et l’Éternel lui fit voir tout le pays:"
+      },
+      "en": {
+        "prompt": "From which mountain did Moses see the promised land before he died?",
+        "bible_ref": "Deuteronomy 34:1",
+        "verse_text": "And Moses went up from the plains of Moab unto the mountain of Nebo, to the top of Pisgah, that is over against Jericho. And the LORD shewed him all the land of Gilead, unto Dan,"
+      },
+      "es": {
+        "prompt": "¿Desde qué monte vio Moisés la tierra prometida antes de morir?",
+        "bible_ref": "Deuteronomio 34:1",
+        "verse_text": "Y SUBIÓ Moisés de los campos de Moab al monte de Nebo, á la cumbre de Pisga, que está enfrente de Jericó: y mostróle Jehová toda la tierra de Galaad hasta Dan,"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Nebo"
+          },
+          "fr": {
+            "text": "Nebo"
+          },
+          "en": {
+            "text": "Nebo"
+          },
+          "es": {
+            "text": "Nebo"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Sinai"
+          },
+          "fr": {
+            "text": "Sinaï"
+          },
+          "en": {
+            "text": "Sinai"
+          },
+          "es": {
+            "text": "Sinaí"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Carmelo"
+          },
+          "fr": {
+            "text": "Carmel"
+          },
+          "en": {
+            "text": "Carmel"
+          },
+          "es": {
+            "text": "Carmelo"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Ararate"
+          },
+          "fr": {
+            "text": "Ararat"
+          },
+          "en": {
+            "text": "Ararat"
+          },
+          "es": {
+            "text": "Ararat"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-013",
+    "type": "order",
+    "level": "medium",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 12,
+    "verse_start": 4,
+    "verse_end": 4,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Génesis 12:4",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Genèse 12:4",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Genesis 12:4",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Génesis 12:4",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Abrão sai de Harã com Ló",
+            "ref": "Génesis 12:4"
+          },
+          "fr": {
+            "text": "Abram quitte Charan avec Lot",
+            "ref": "Genèse 12:4"
+          },
+          "en": {
+            "text": "Abram leaves Haran with Lot",
+            "ref": "Genesis 12:4"
+          },
+          "es": {
+            "text": "Abram sale de Harán con Lot",
+            "ref": "Génesis 12:4"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Ló escolhe a planície do Jordão",
+            "ref": "Génesis 13:11"
+          },
+          "fr": {
+            "text": "Lot choisit la plaine du Jourdain",
+            "ref": "Genèse 13:11"
+          },
+          "en": {
+            "text": "Lot chooses the plain of Jordan",
+            "ref": "Genesis 13:11"
+          },
+          "es": {
+            "text": "Lot escoge la llanura del Jordán",
+            "ref": "Génesis 13:11"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Agar dá à luz Ismael",
+            "ref": "Génesis 16:15"
+          },
+          "fr": {
+            "text": "Agar enfante Ismaël",
+            "ref": "Genèse 16:15"
+          },
+          "en": {
+            "text": "Hagar bears Ishmael",
+            "ref": "Genesis 16:15"
+          },
+          "es": {
+            "text": "Agar da a luz a Ismael",
+            "ref": "Génesis 16:15"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Sara dá à luz Isaac",
+            "ref": "Génesis 21:2"
+          },
+          "fr": {
+            "text": "Sara enfante Isaac",
+            "ref": "Genèse 21:2"
+          },
+          "en": {
+            "text": "Sarah bears Isaac",
+            "ref": "Genesis 21:2"
+          },
+          "es": {
+            "text": "Sara da a luz a Isaac",
+            "ref": "Génesis 21:2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-014",
+    "type": "order",
+    "level": "medium",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 25,
+    "verse_start": 33,
+    "verse_end": 33,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Génesis 25:33",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Genèse 25:33",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Genesis 25:33",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Génesis 25:33",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Esaú vende a primogenitura",
+            "ref": "Génesis 25:33"
+          },
+          "fr": {
+            "text": "Ésaü vend son droit d’aînesse",
+            "ref": "Genèse 25:33"
+          },
+          "en": {
+            "text": "Esau sells his birthright",
+            "ref": "Genesis 25:33"
+          },
+          "es": {
+            "text": "Esaú vende la primogenitura",
+            "ref": "Génesis 25:33"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Isaac abençoa Jacob",
+            "ref": "Génesis 27:27"
+          },
+          "fr": {
+            "text": "Isaac bénit Jacob",
+            "ref": "Genèse 27:27"
+          },
+          "en": {
+            "text": "Isaac blesses Jacob",
+            "ref": "Genesis 27:27"
+          },
+          "es": {
+            "text": "Isaac bendice a Jacob",
+            "ref": "Génesis 27:27"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Jacob sonha com uma escada",
+            "ref": "Génesis 28:12"
+          },
+          "fr": {
+            "text": "Jacob rêve d’une échelle",
+            "ref": "Genèse 28:12"
+          },
+          "en": {
+            "text": "Jacob dreams of a ladder",
+            "ref": "Genesis 28:12"
+          },
+          "es": {
+            "text": "Jacob sueña con una escalera",
+            "ref": "Génesis 28:12"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Jacob recebe o nome Israel",
+            "ref": "Génesis 32:28"
+          },
+          "fr": {
+            "text": "Jacob reçoit le nom d’Israël",
+            "ref": "Genèse 32:28"
+          },
+          "en": {
+            "text": "Jacob is given the name Israel",
+            "ref": "Genesis 32:28"
+          },
+          "es": {
+            "text": "Jacob recibe el nombre de Israel",
+            "ref": "Génesis 32:28"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-015",
+    "type": "order",
+    "level": "medium",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 37,
+    "verse_start": 28,
+    "verse_end": 28,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Génesis 37:28",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Genèse 37:28",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Genesis 37:28",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Génesis 37:28",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "José é vendido aos ismaelitas",
+            "ref": "Génesis 37:28"
+          },
+          "fr": {
+            "text": "Joseph est vendu aux Ismaélites",
+            "ref": "Genèse 37:28"
+          },
+          "en": {
+            "text": "Joseph is sold to the Ishmeelites",
+            "ref": "Genesis 37:28"
+          },
+          "es": {
+            "text": "José es vendido a los ismaelitas",
+            "ref": "Génesis 37:28"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "José ouve os sonhos de dois presos",
+            "ref": "Génesis 40:8"
+          },
+          "fr": {
+            "text": "Joseph écoute les songes de deux prisonniers",
+            "ref": "Genèse 40:8"
+          },
+          "en": {
+            "text": "Joseph hears two prisoners’ dreams",
+            "ref": "Genesis 40:8"
+          },
+          "es": {
+            "text": "José oye los sueños de dos presos",
+            "ref": "Génesis 40:8"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Faraó põe José sobre o Egito",
+            "ref": "Génesis 41:41"
+          },
+          "fr": {
+            "text": "Pharaon établit Joseph sur l’Égypte",
+            "ref": "Genèse 41:41"
+          },
+          "en": {
+            "text": "Pharaoh sets Joseph over Egypt",
+            "ref": "Genesis 41:41"
+          },
+          "es": {
+            "text": "Faraón pone a José sobre Egipto",
+            "ref": "Génesis 41:41"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "José revela-se aos irmãos",
+            "ref": "Génesis 45:3"
+          },
+          "fr": {
+            "text": "Joseph se fait connaître à ses frères",
+            "ref": "Genèse 45:3"
+          },
+          "en": {
+            "text": "Joseph reveals himself to his brothers",
+            "ref": "Genesis 45:3"
+          },
+          "es": {
+            "text": "José se da a conocer a sus hermanos",
+            "ref": "Génesis 45:3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-016",
+    "type": "order",
+    "level": "medium",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 7,
+    "verse_start": 20,
+    "verse_end": 20,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estas pragas do Egito pela ordem em que aconteceram.",
+        "bible_ref": "Êxodo 7:20",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces plaies d’Égypte dans l’ordre où elles se sont produites.",
+        "bible_ref": "Exode 7:20",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these plagues of Egypt in the order they happened.",
+        "bible_ref": "Exodus 7:20",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estas plagas de Egipto según ocurrieron.",
+        "bible_ref": "Éxodo 7:20",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A água transforma-se em sangue",
+            "ref": "Êxodo 7:20"
+          },
+          "fr": {
+            "text": "L’eau est changée en sang",
+            "ref": "Exode 7:20"
+          },
+          "en": {
+            "text": "The water turns to blood",
+            "ref": "Exodus 7:20"
+          },
+          "es": {
+            "text": "El agua se convierte en sangre",
+            "ref": "Éxodo 7:20"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "As rãs cobrem a terra",
+            "ref": "Êxodo 8:6"
+          },
+          "fr": {
+            "text": "Les grenouilles couvrent le pays",
+            "ref": "Exode 8:6"
+          },
+          "en": {
+            "text": "Frogs cover the land",
+            "ref": "Exodus 8:6"
+          },
+          "es": {
+            "text": "Las ranas cubren la tierra",
+            "ref": "Éxodo 8:6"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Os gafanhotos chegam",
+            "ref": "Êxodo 10:13"
+          },
+          "fr": {
+            "text": "Les sauterelles arrivent",
+            "ref": "Exode 10:13"
+          },
+          "en": {
+            "text": "The locusts arrive",
+            "ref": "Exodus 10:13"
+          },
+          "es": {
+            "text": "Llegan las langostas",
+            "ref": "Éxodo 10:13"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Morrem os primogénitos do Egito",
+            "ref": "Êxodo 12:29"
+          },
+          "fr": {
+            "text": "Les premiers-nés d’Égypte meurent",
+            "ref": "Exode 12:29"
+          },
+          "en": {
+            "text": "The firstborn of Egypt die",
+            "ref": "Exodus 12:29"
+          },
+          "es": {
+            "text": "Mueren los primogénitos de Egipto",
+            "ref": "Éxodo 12:29"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-017",
+    "type": "verse",
+    "level": "medium",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 12,
+    "verse_start": 2,
+    "verse_end": 2,
+    "texts": {
+      "pt": {
+        "prompt": "E farei de ti uma grande _____, e te abençoarei, e engrandecerei o teu nome, e tu serás uma bênção.",
+        "bible_ref": "Génesis 12:2",
+        "verse_text": "E farei de ti uma grande nação, e te abençoarei, e engrandecerei o teu nome, e tu serás uma bênção."
+      },
+      "fr": {
+        "prompt": "Je ferai de toi une grande _____, et je te bénirai; je rendrai ton nom grand, et tu seras une source de bénédiction.",
+        "bible_ref": "Genèse 12:2",
+        "verse_text": "Je ferai de toi une grande nation, et je te bénirai; je rendrai ton nom grand, et tu seras une source de bénédiction."
+      },
+      "en": {
+        "prompt": "And I will make of thee a great _____, and I will bless thee, and make thy name great; and thou shalt be a blessing:",
+        "bible_ref": "Genesis 12:2",
+        "verse_text": "And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing:"
+      },
+      "es": {
+        "prompt": "Y haré de ti una _____ grande, y bendecirte he, y engrandeceré tu nombre, y serás bendición:",
+        "bible_ref": "Génesis 12:2",
+        "verse_text": "Y haré de ti una nación grande, y bendecirte he, y engrandeceré tu nombre, y serás bendición:"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "nação"
+          },
+          "fr": {
+            "text": "nation"
+          },
+          "en": {
+            "text": "nation"
+          },
+          "es": {
+            "text": "nación"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "tribo"
+          },
+          "fr": {
+            "text": "tribu"
+          },
+          "en": {
+            "text": "tribe"
+          },
+          "es": {
+            "text": "tribu"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "família"
+          },
+          "fr": {
+            "text": "famille"
+          },
+          "en": {
+            "text": "family"
+          },
+          "es": {
+            "text": "familia"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "cidade"
+          },
+          "fr": {
+            "text": "ville"
+          },
+          "en": {
+            "text": "city"
+          },
+          "es": {
+            "text": "ciudad"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-018",
+    "type": "verse",
+    "level": "medium",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 20,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "Não terás _____ alheios diante de mim.",
+        "bible_ref": "Êxodo 20:3",
+        "verse_text": "Não terás deuses alheios diante de mim."
+      },
+      "fr": {
+        "prompt": "Tu n’auras pas d’autres _____ devant ma face.",
+        "bible_ref": "Exode 20:3",
+        "verse_text": "Tu n’auras pas d’autres dieux devant ma face."
+      },
+      "en": {
+        "prompt": "Thou shalt have no other _____ before me.",
+        "bible_ref": "Exodus 20:3",
+        "verse_text": "Thou shalt have no other gods before me."
+      },
+      "es": {
+        "prompt": "No tendrás _____ ajenos delante de mí.",
+        "bible_ref": "Éxodo 20:3",
+        "verse_text": "No tendrás dioses ajenos delante de mí."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "deuses"
+          },
+          "fr": {
+            "text": "dieux"
+          },
+          "en": {
+            "text": "gods"
+          },
+          "es": {
+            "text": "dioses"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "ídolos"
+          },
+          "fr": {
+            "text": "idoles"
+          },
+          "en": {
+            "text": "idols"
+          },
+          "es": {
+            "text": "ídolos"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "reis"
+          },
+          "fr": {
+            "text": "rois"
+          },
+          "en": {
+            "text": "kings"
+          },
+          "es": {
+            "text": "reyes"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "senhores"
+          },
+          "fr": {
+            "text": "maîtres"
+          },
+          "en": {
+            "text": "masters"
+          },
+          "es": {
+            "text": "señores"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-019",
+    "type": "verse",
+    "level": "medium",
+    "testament": "ot",
+    "book": "LEV",
+    "chapter": 19,
+    "verse_start": 18,
+    "verse_end": 18,
+    "texts": {
+      "pt": {
+        "prompt": "Não te vingarás, nem guardarás rancor aos filhos de teu povo: mas amarás a teu _____ como a ti mesmo: Eu sou o SENHOR.",
+        "bible_ref": "Levítico 19:18",
+        "verse_text": "Não te vingarás, nem guardarás rancor aos filhos de teu povo: mas amarás a teu próximo como a ti mesmo: Eu sou o SENHOR."
+      },
+      "fr": {
+        "prompt": "Tu ne te vengeras point, et tu ne garderas point de rancune contre les enfants de ton peuple. Tu aimeras ton _____ comme toi-même. Je suis l’Éternel.",
+        "bible_ref": "Lévitique 19:18",
+        "verse_text": "Tu ne te vengeras point, et tu ne garderas point de rancune contre les enfants de ton peuple. Tu aimeras ton prochain comme toi-même. Je suis l’Éternel."
+      },
+      "en": {
+        "prompt": "Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy _____ as thyself: I am the LORD.",
+        "bible_ref": "Leviticus 19:18",
+        "verse_text": "Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD."
+      },
+      "es": {
+        "prompt": "No te vengarás, ni guardarás rencor á los hijos de tu pueblo: mas amarás á tu _____ como á ti mismo: Yo Jehová.",
+        "bible_ref": "Levítico 19:18",
+        "verse_text": "No te vengarás, ni guardarás rencor á los hijos de tu pueblo: mas amarás á tu prójimo como á ti mismo: Yo Jehová."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "próximo"
+          },
+          "fr": {
+            "text": "prochain"
+          },
+          "en": {
+            "text": "neighbour"
+          },
+          "es": {
+            "text": "prójimo"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "pai"
+          },
+          "fr": {
+            "text": "père"
+          },
+          "en": {
+            "text": "father"
+          },
+          "es": {
+            "text": "padre"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "rei"
+          },
+          "fr": {
+            "text": "roi"
+          },
+          "en": {
+            "text": "king"
+          },
+          "es": {
+            "text": "rey"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "irmão"
+          },
+          "fr": {
+            "text": "frère"
+          },
+          "en": {
+            "text": "brother"
+          },
+          "es": {
+            "text": "hermano"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-020",
+    "type": "verse",
+    "level": "medium",
+    "testament": "ot",
+    "book": "DEU",
+    "chapter": 8,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "E te afligiu, e te fez ter fome, e te sustentou com maná, comida que não conhecias tu, nem teus pais a conheciam; para fazer-te saber que o homem não viverá de só _____, mas de tudo o que sai da boca do SENHOR viverá o homem.",
+        "bible_ref": "Deuteronómio 8:3",
+        "verse_text": "E te afligiu, e te fez ter fome, e te sustentou com maná, comida que não conhecias tu, nem teus pais a conheciam; para fazer-te saber que o homem não viverá de só pão, mas de tudo o que sai da boca do SENHOR viverá o homem."
+      },
+      "fr": {
+        "prompt": "Il t’a humilié, il t’a fait souffrir de la faim, et il t’a nourri de la manne, que tu ne connaissais pas et que n’avaient pas connue tes pères, afin de t’apprendre que l’homme ne vit pas de _____ seulement, mais que l’homme vit de tout ce qui sort de la bouche de l’Éternel.",
+        "bible_ref": "Deutéronome 8:3",
+        "verse_text": "Il t’a humilié, il t’a fait souffrir de la faim, et il t’a nourri de la manne, que tu ne connaissais pas et que n’avaient pas connue tes pères, afin de t’apprendre que l’homme ne vit pas de pain seulement, mais que l’homme vit de tout ce qui sort de la bouche de l’Éternel."
+      },
+      "en": {
+        "prompt": "And he humbled thee, and suffered thee to hunger, and fed thee with manna, which thou knewest not, neither did thy fathers know; that he might make thee know that man doth not live by _____ only, but by every word that proceedeth out of the mouth of the LORD doth man live.",
+        "bible_ref": "Deuteronomy 8:3",
+        "verse_text": "And he humbled thee, and suffered thee to hunger, and fed thee with manna, which thou knewest not, neither did thy fathers know; that he might make thee know that man doth not live by bread only, but by every word that proceedeth out of the mouth of the LORD doth man live."
+      },
+      "es": {
+        "prompt": "Y te afligió, é hízote tener hambre, y te sustentó con maná, comida que no conocías tú, ni tus padres la habían conocido; para hacerte saber que el hombre no vivirá de solo _____, mas de todo lo que sale de la boca de Jehová vivirá el hombre.",
+        "bible_ref": "Deuteronomio 8:3",
+        "verse_text": "Y te afligió, é hízote tener hambre, y te sustentó con maná, comida que no conocías tú, ni tus padres la habían conocido; para hacerte saber que el hombre no vivirá de solo pan, mas de todo lo que sale de la boca de Jehová vivirá el hombre."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "água"
+          },
+          "fr": {
+            "text": "eau"
+          },
+          "en": {
+            "text": "water"
+          },
+          "es": {
+            "text": "agua"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "vinho"
+          },
+          "fr": {
+            "text": "vin"
+          },
+          "en": {
+            "text": "wine"
+          },
+          "es": {
+            "text": "vino"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "carne"
+          },
+          "fr": {
+            "text": "viande"
+          },
+          "en": {
+            "text": "meat"
+          },
+          "es": {
+            "text": "carne"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "pão"
+          },
+          "fr": {
+            "text": "pain"
+          },
+          "en": {
+            "text": "bread"
+          },
+          "es": {
+            "text": "pan"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-001",
+    "type": "choice",
+    "level": "hard",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 5,
+    "verse_start": 27,
+    "verse_end": 27,
+    "texts": {
+      "pt": {
+        "prompt": "Quantos anos viveu Matusalém?",
+        "bible_ref": "Génesis 5:27",
+        "verse_text": "Foram, pois, todos os dias de Matusalém, novecentos e sessenta e nove anos; e morreu."
+      },
+      "fr": {
+        "prompt": "Combien d’années Mathusalem a-t-il vécu ?",
+        "bible_ref": "Genèse 5:27",
+        "verse_text": "Tous les jours de Metuschélah furent de neuf cent soixante-neuf ans; puis il mourut."
+      },
+      "en": {
+        "prompt": "How many years did Methuselah live?",
+        "bible_ref": "Genesis 5:27",
+        "verse_text": "And all the days of Methuselah were nine hundred sixty and nine years: and he died."
+      },
+      "es": {
+        "prompt": "¿Cuántos años vivió Matusalén?",
+        "bible_ref": "Génesis 5:27",
+        "verse_text": "Fueron, pues, todos los días de Mathusalam, novecientos sesenta y nueve años; y murió."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "969"
+          },
+          "fr": {
+            "text": "969"
+          },
+          "en": {
+            "text": "969"
+          },
+          "es": {
+            "text": "969"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "930"
+          },
+          "fr": {
+            "text": "930"
+          },
+          "en": {
+            "text": "930"
+          },
+          "es": {
+            "text": "930"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "950"
+          },
+          "fr": {
+            "text": "950"
+          },
+          "en": {
+            "text": "950"
+          },
+          "es": {
+            "text": "950"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "912"
+          },
+          "fr": {
+            "text": "912"
+          },
+          "en": {
+            "text": "912"
+          },
+          "es": {
+            "text": "912"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-002",
+    "type": "choice",
+    "level": "hard",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 14,
+    "verse_start": 18,
+    "verse_end": 18,
+    "texts": {
+      "pt": {
+        "prompt": "Quem era rei de Salém e sacerdote do Deus Altíssimo?",
+        "bible_ref": "Génesis 14:18",
+        "verse_text": "Então Melquisedeque, rei de Salém, tirou pão e vinho; o qual era sacerdote do Deus altíssimo;"
+      },
+      "fr": {
+        "prompt": "Qui était roi de Salem et sacrificateur du Dieu Très-Haut ?",
+        "bible_ref": "Genèse 14:18",
+        "verse_text": "Melchisédek, roi de Salem, fit apporter du pain et du vin: il était sacrificateur du Dieu Très-Haut."
+      },
+      "en": {
+        "prompt": "Who was king of Salem and priest of the most high God?",
+        "bible_ref": "Genesis 14:18",
+        "verse_text": "And Melchizedek king of Salem brought forth bread and wine: and he was the priest of the most high God."
+      },
+      "es": {
+        "prompt": "¿Quién era rey de Salem y sacerdote del Dios Altísimo?",
+        "bible_ref": "Génesis 14:18",
+        "verse_text": "Entonces Melchîsedec, rey de Salem, sacó pan y vino; el cual era sacerdote del Dios alto;"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Melquisedeque"
+          },
+          "fr": {
+            "text": "Melchisédek"
+          },
+          "en": {
+            "text": "Melchizedek"
+          },
+          "es": {
+            "text": "Melquisedec"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Abimeleque"
+          },
+          "fr": {
+            "text": "Abimélec"
+          },
+          "en": {
+            "text": "Abimelech"
+          },
+          "es": {
+            "text": "Abimelec"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Labão"
+          },
+          "fr": {
+            "text": "Laban"
+          },
+          "en": {
+            "text": "Laban"
+          },
+          "es": {
+            "text": "Labán"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Quedorlaomer"
+          },
+          "fr": {
+            "text": "Kedorlaomer"
+          },
+          "en": {
+            "text": "Chedorlaomer"
+          },
+          "es": {
+            "text": "Quedorlaomer"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-003",
+    "type": "choice",
+    "level": "hard",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 29,
+    "verse_start": 16,
+    "verse_end": 16,
+    "texts": {
+      "pt": {
+        "prompt": "Como se chamava a filha mais velha de Labão?",
+        "bible_ref": "Génesis 29:16",
+        "verse_text": "E Labão tinha duas filhas: o nome da mais velha era Lia, e o nome da mais nova, Raquel."
+      },
+      "fr": {
+        "prompt": "Comment s’appelait la fille aînée de Laban ?",
+        "bible_ref": "Genèse 29:16",
+        "verse_text": "Or, Laban avait deux filles: l’aînée s’appelait Léa, et la cadette Rachel."
+      },
+      "en": {
+        "prompt": "What was the name of Laban’s elder daughter?",
+        "bible_ref": "Genesis 29:16",
+        "verse_text": "And Laban had two daughters: the name of the elder was Leah, and the name of the younger was Rachel."
+      },
+      "es": {
+        "prompt": "¿Cómo se llamaba la hija mayor de Labán?",
+        "bible_ref": "Génesis 29:16",
+        "verse_text": "Y Labán tenía dos hijas: el nombre de la mayor era Lea, y el nombre de la menor, Rachêl."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Lia"
+          },
+          "fr": {
+            "text": "Léa"
+          },
+          "en": {
+            "text": "Leah"
+          },
+          "es": {
+            "text": "Lea"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Raquel"
+          },
+          "fr": {
+            "text": "Rachel"
+          },
+          "en": {
+            "text": "Rachel"
+          },
+          "es": {
+            "text": "Raquel"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Diná"
+          },
+          "fr": {
+            "text": "Dina"
+          },
+          "en": {
+            "text": "Dinah"
+          },
+          "es": {
+            "text": "Dina"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Rebeca"
+          },
+          "fr": {
+            "text": "Rebecca"
+          },
+          "en": {
+            "text": "Rebekah"
+          },
+          "es": {
+            "text": "Rebeca"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-004",
+    "type": "choice",
+    "level": "hard",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 41,
+    "verse_start": 45,
+    "verse_end": 45,
+    "texts": {
+      "pt": {
+        "prompt": "Como se chamava a mulher que o Faraó deu a José?",
+        "bible_ref": "Génesis 41:45",
+        "verse_text": "E chamou Faraó o nome de José, Zefenate-Paneia; e deu-lhe por mulher a Azenate, filha de Potífera, sacerdote de Om. E saiu José por toda a terra do Egito."
+      },
+      "fr": {
+        "prompt": "Comment s’appelait la femme que le pharaon donna à Joseph ?",
+        "bible_ref": "Genèse 41:45",
+        "verse_text": "Pharaon appela Joseph du nom de Tsaphnath-Paenéach; et il lui donna pour femme Asnath, fille de Poti-Phéra, prêtre d’On. Et Joseph partit pour visiter le pays d’Égypte."
+      },
+      "en": {
+        "prompt": "What was the name of the wife Pharaoh gave to Joseph?",
+        "bible_ref": "Genesis 41:45",
+        "verse_text": "And Pharaoh called Joseph’s name Zaphnath-paaneah; and he gave him to wife Asenath the daughter of Poti-pherah priest of On. And Joseph went out over all the land of Egypt."
+      },
+      "es": {
+        "prompt": "¿Cómo se llamaba la mujer que Faraón dio a José?",
+        "bible_ref": "Génesis 41:45",
+        "verse_text": "Y llamó Faraón el nombre de José, Zaphnath-paaneah; y dióle por mujer á Asenath, hija de Potipherah, sacerdote de On. Y salió José por toda la tierra de Egipto."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Azenate"
+          },
+          "fr": {
+            "text": "Asnath"
+          },
+          "en": {
+            "text": "Asenath"
+          },
+          "es": {
+            "text": "Asenath"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Zípora"
+          },
+          "fr": {
+            "text": "Séphora"
+          },
+          "en": {
+            "text": "Zipporah"
+          },
+          "es": {
+            "text": "Séfora"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Agar"
+          },
+          "fr": {
+            "text": "Agar"
+          },
+          "en": {
+            "text": "Hagar"
+          },
+          "es": {
+            "text": "Agar"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Tamar"
+          },
+          "fr": {
+            "text": "Tamar"
+          },
+          "en": {
+            "text": "Tamar"
+          },
+          "es": {
+            "text": "Tamar"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-005",
+    "type": "choice",
+    "level": "hard",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 2,
+    "verse_start": 22,
+    "verse_end": 22,
+    "texts": {
+      "pt": {
+        "prompt": "Que nome deu Moisés ao filho que lhe nasceu em Midiã, por ser peregrino em terra alheia?",
+        "bible_ref": "Êxodo 2:22",
+        "verse_text": "A qual lhe deu à luz um filho, e ele lhe pôs por nome Gérson: porque disse: Peregrino sou em terra alheia."
+      },
+      "fr": {
+        "prompt": "Quel nom Moïse donna-t-il au fils né en Madian, parce qu’il était un étranger dans un pays étranger ?",
+        "bible_ref": "Exode 2:22",
+        "verse_text": "Elle enfanta un fils, qu’il appela du nom de Guerschom, car, dit-il, j’habite un pays étranger."
+      },
+      "en": {
+        "prompt": "What name did Moses give the son born in Midian, because he was a stranger in a strange land?",
+        "bible_ref": "Exodus 2:22",
+        "verse_text": "And she bare him a son, and he called his name Gershom: for he said, I have been a stranger in a strange land."
+      },
+      "es": {
+        "prompt": "¿Qué nombre dio Moisés al hijo nacido en Madián, por ser extranjero en tierra ajena?",
+        "bible_ref": "Éxodo 2:22",
+        "verse_text": "La cual le parió un hijo, y él le puso por nombre Gersom: porque dijo: Peregrino soy en tierra ajena."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Gérson"
+          },
+          "fr": {
+            "text": "Guerschom"
+          },
+          "en": {
+            "text": "Gershom"
+          },
+          "es": {
+            "text": "Gersom"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Nadabe"
+          },
+          "fr": {
+            "text": "Nadab"
+          },
+          "en": {
+            "text": "Nadab"
+          },
+          "es": {
+            "text": "Nadab"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Eleazar"
+          },
+          "fr": {
+            "text": "Éléazar"
+          },
+          "en": {
+            "text": "Eleazar"
+          },
+          "es": {
+            "text": "Eleazar"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Finéias"
+          },
+          "fr": {
+            "text": "Phinées"
+          },
+          "en": {
+            "text": "Phinehas"
+          },
+          "es": {
+            "text": "Phinees"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-006",
+    "type": "choice",
+    "level": "hard",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 17,
+    "verse_start": 12,
+    "verse_end": 12,
+    "texts": {
+      "pt": {
+        "prompt": "Quem sustentou as mãos de Moisés até ao pôr do sol?",
+        "bible_ref": "Êxodo 17:12",
+        "verse_text": "E as mãos de Moisés estavam pesadas; pelo que tomaram uma pedra, e puseram-na debaixo dele, e se sentou sobre ela; e Arão e Hur sustentavam suas mãos, o um de uma parte e o outro de outra; assim houve em suas mãos firmeza até que se pôs o sol."
+      },
+      "fr": {
+        "prompt": "Qui soutint les mains de Moïse jusqu’au coucher du soleil ?",
+        "bible_ref": "Exode 17:12",
+        "verse_text": "Les mains de Moïse étant fatiguées, ils prirent une pierre qu’ils placèrent sous lui, et il s’assit dessus. Aaron et Hur soutenaient ses mains, l’un d’un côté, l’autre de l’autre; et ses mains restèrent fermes jusqu’au coucher du soleil."
+      },
+      "en": {
+        "prompt": "Who held up Moses’ hands until the going down of the sun?",
+        "bible_ref": "Exodus 17:12",
+        "verse_text": "But Moses’ hands were heavy; and they took a stone, and put it under him, and he sat thereon; and Aaron and Hur stayed up his hands, the one on the one side, and the other on the other side; and his hands were steady until the going down of the sun."
+      },
+      "es": {
+        "prompt": "¿Quiénes sostuvieron las manos de Moisés hasta la puesta del sol?",
+        "bible_ref": "Éxodo 17:12",
+        "verse_text": "Y las manos de Moisés estaban pesadas; por lo que tomaron una piedra, y pusiéronla debajo de él, y se sentó sobre ella: y Aarón y Hur sustentaban sus manos, el uno de una parte y el otro de otra; así hubo en sus manos firmeza hasta que se puso el sol."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Arão e Hur"
+          },
+          "fr": {
+            "text": "Aaron et Hur"
+          },
+          "en": {
+            "text": "Aaron and Hur"
+          },
+          "es": {
+            "text": "Aarón y Hur"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Josué e Calebe"
+          },
+          "fr": {
+            "text": "Josué et Caleb"
+          },
+          "en": {
+            "text": "Joshua and Caleb"
+          },
+          "es": {
+            "text": "Josué y Caleb"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Nadabe e Abiú"
+          },
+          "fr": {
+            "text": "Nadab et Abihu"
+          },
+          "en": {
+            "text": "Nadab and Abihu"
+          },
+          "es": {
+            "text": "Nadab y Abiú"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Eleazar e Itamar"
+          },
+          "fr": {
+            "text": "Éléazar et Ithamar"
+          },
+          "en": {
+            "text": "Eleazar and Ithamar"
+          },
+          "es": {
+            "text": "Eleazar e Ithamar"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-007",
+    "type": "choice",
+    "level": "hard",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 31,
+    "verse_start": 2,
+    "verse_end": 2,
+    "texts": {
+      "pt": {
+        "prompt": "Quem foi chamado por nome, filho de Uri, da tribo de Judá, para fazer as obras do tabernáculo?",
+        "bible_ref": "Êxodo 31:2",
+        "verse_text": "Olha, eu chamei por seu nome a Bezalel, filho de Uri, filho de Hur, da tribo de Judá;"
+      },
+      "fr": {
+        "prompt": "Qui fut appelé par son nom, fils d’Uri, de la tribu de Juda, pour faire les ouvrages du tabernacle ?",
+        "bible_ref": "Exode 31:2",
+        "verse_text": "Sache que j’ai choisi Betsaleel, fils d’Uri, fils de Hur, de la tribu de Juda."
+      },
+      "en": {
+        "prompt": "Who was called by name, the son of Uri, of the tribe of Judah, to make the works of the tabernacle?",
+        "bible_ref": "Exodus 31:2",
+        "verse_text": "See, I have called by name Bezaleel the son of Uri, the son of Hur, of the tribe of Judah:"
+      },
+      "es": {
+        "prompt": "¿Quién fue llamado por su nombre, hijo de Uri, de la tribu de Judá, para hacer las obras del tabernáculo?",
+        "bible_ref": "Éxodo 31:2",
+        "verse_text": "Mira, yo he llamado por su nombre á Bezaleel, hijo de Uri, hijo de Hur, de la tribu de Judá;"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Bezalel"
+          },
+          "fr": {
+            "text": "Betsaleel"
+          },
+          "en": {
+            "text": "Bezaleel"
+          },
+          "es": {
+            "text": "Bezaleel"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Coré"
+          },
+          "fr": {
+            "text": "Koré"
+          },
+          "en": {
+            "text": "Korah"
+          },
+          "es": {
+            "text": "Coré"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Eleazar"
+          },
+          "fr": {
+            "text": "Éléazar"
+          },
+          "en": {
+            "text": "Eleazar"
+          },
+          "es": {
+            "text": "Eleazar"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Calebe"
+          },
+          "fr": {
+            "text": "Caleb"
+          },
+          "en": {
+            "text": "Caleb"
+          },
+          "es": {
+            "text": "Caleb"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-008",
+    "type": "choice",
+    "level": "hard",
+    "testament": "ot",
+    "book": "LEV",
+    "chapter": 10,
+    "verse_start": 1,
+    "verse_end": 2,
+    "texts": {
+      "pt": {
+        "prompt": "Que filhos de Arão ofereceram fogo estranho diante do SENHOR e morreram?",
+        "bible_ref": "Levítico 10:1-2",
+        "verse_text": "E os filhos de Arão, Nadabe e Abiú, tomaram cada um seu incensário, e puseram fogo neles, sobre o qual puseram incenso, e ofereceram diante do SENHOR fogo estranho, que ele nunca lhes mandou. E saiu fogo de diante do SENHOR que os queimou, e morreram diante do SENHOR."
+      },
+      "fr": {
+        "prompt": "Quels fils d’Aaron offrirent devant l’Éternel un feu étranger et moururent ?",
+        "bible_ref": "Lévitique 10:1-2",
+        "verse_text": "Les fils d’Aaron, Nadab et Abihu, prirent chacun un brasier, y mirent du feu, et posèrent du parfum dessus; ils apportèrent devant l’Éternel du feu étranger, ce qu’il ne leur avait point ordonné. Alors le feu sortit de devant l’Éternel, et les consuma: ils moururent devant l’Éternel."
+      },
+      "en": {
+        "prompt": "Which sons of Aaron offered strange fire before the LORD and died?",
+        "bible_ref": "Leviticus 10:1-2",
+        "verse_text": "And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the LORD, which he commanded them not. And there went out fire from the LORD, and devoured them, and they died before the LORD."
+      },
+      "es": {
+        "prompt": "¿Qué hijos de Aarón ofrecieron fuego extraño delante del SEÑOR y murieron?",
+        "bible_ref": "Levítico 10:1-2",
+        "verse_text": "Y LOS hijos de Aarón, Nadab y Abiú, tomaron cada uno su incensario, y pusieron fuego en ellos, sobre el cual pusieron perfume, y ofrecieron delante de Jehová fuego extraño, que él nunca les mandó. Y salió fuego de delante de Jehová que los quemó, y murieron delante de Jehová."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Nadabe e Abiú"
+          },
+          "fr": {
+            "text": "Nadab et Abihu"
+          },
+          "en": {
+            "text": "Nadab and Abihu"
+          },
+          "es": {
+            "text": "Nadab y Abiú"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Eleazar e Itamar"
+          },
+          "fr": {
+            "text": "Éléazar et Ithamar"
+          },
+          "en": {
+            "text": "Eleazar and Ithamar"
+          },
+          "es": {
+            "text": "Eleazar e Ithamar"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Hofni e Fineias"
+          },
+          "fr": {
+            "text": "Hophni et Phinées"
+          },
+          "en": {
+            "text": "Hophni and Phinehas"
+          },
+          "es": {
+            "text": "Ophni y Phinees"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Datã e Abirão"
+          },
+          "fr": {
+            "text": "Dathan et Abiram"
+          },
+          "en": {
+            "text": "Dathan and Abiram"
+          },
+          "es": {
+            "text": "Datán y Abiram"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-009",
+    "type": "choice",
+    "level": "hard",
+    "testament": "ot",
+    "book": "NUM",
+    "chapter": 14,
+    "verse_start": 6,
+    "verse_end": 6,
+    "texts": {
+      "pt": {
+        "prompt": "Que espia, além de Josué, rasgou as roupas depois de reconhecer a terra?",
+        "bible_ref": "Números 14:6",
+        "verse_text": "E Josué filho de Num, e Calebe filho de Jefoné, que eram dos que haviam reconhecido a terra, rasgaram suas roupas;"
+      },
+      "fr": {
+        "prompt": "Quel espion, avec Josué, déchira ses vêtements après avoir exploré le pays ?",
+        "bible_ref": "Nombres 14:6",
+        "verse_text": "Et, parmi ceux qui avaient exploré le pays, Josué, fils de Nun, et Caleb, fils de Jephunné, déchirèrent leurs vêtements,"
+      },
+      "en": {
+        "prompt": "Which spy, besides Joshua, tore his clothes after searching the land?",
+        "bible_ref": "Numbers 14:6",
+        "verse_text": "And Joshua the son of Nun, and Caleb the son of Jephunneh, which were of them that searched the land, rent their clothes:"
+      },
+      "es": {
+        "prompt": "¿Qué espía, además de Josué, rasgó sus vestidos después de reconocer la tierra?",
+        "bible_ref": "Números 14:6",
+        "verse_text": "Y Josué hijo de Nun, y Caleb hijo de Jephone, que eran de los que habían reconocido la tierra, rompieron sus vestidos;"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Calebe"
+          },
+          "fr": {
+            "text": "Caleb"
+          },
+          "en": {
+            "text": "Caleb"
+          },
+          "es": {
+            "text": "Caleb"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Coré"
+          },
+          "fr": {
+            "text": "Koré"
+          },
+          "en": {
+            "text": "Korah"
+          },
+          "es": {
+            "text": "Coré"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Arão"
+          },
+          "fr": {
+            "text": "Aaron"
+          },
+          "en": {
+            "text": "Aaron"
+          },
+          "es": {
+            "text": "Aarón"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Eleazar"
+          },
+          "fr": {
+            "text": "Éléazar"
+          },
+          "en": {
+            "text": "Eleazar"
+          },
+          "es": {
+            "text": "Eleazar"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-010",
+    "type": "choice",
+    "level": "hard",
+    "testament": "ot",
+    "book": "NUM",
+    "chapter": 16,
+    "verse_start": 32,
+    "verse_end": 32,
+    "texts": {
+      "pt": {
+        "prompt": "A terra abriu-se e tragou os homens de quem?",
+        "bible_ref": "Números 16:32",
+        "verse_text": "E abriu a terra sua boca, e tragou-os a eles, e a suas casas, e a todos os homens de Coré, e a todos os seus pertences."
+      },
+      "fr": {
+        "prompt": "La terre ouvrit sa bouche et engloutit les gens de qui ?",
+        "bible_ref": "Nombres 16:32",
+        "verse_text": "La terre ouvrit sa bouche, et les engloutit, eux et leurs maisons, avec tous les gens de Koré et tous leurs biens."
+      },
+      "en": {
+        "prompt": "The earth opened and swallowed up the men of whom?",
+        "bible_ref": "Numbers 16:32",
+        "verse_text": "And the earth opened her mouth, and swallowed them up, and their houses, and all the men that appertained unto Korah, and all their goods."
+      },
+      "es": {
+        "prompt": "¿De quién eran los hombres que la tierra tragó al abrirse?",
+        "bible_ref": "Números 16:32",
+        "verse_text": "Y abrió la tierra su boca, y tragólos á ellos, y á sus casas, y á todos los hombres de Coré, y á toda su hacienda."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Coré"
+          },
+          "fr": {
+            "text": "Koré"
+          },
+          "en": {
+            "text": "Korah"
+          },
+          "es": {
+            "text": "Coré"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Balaão"
+          },
+          "fr": {
+            "text": "Balaam"
+          },
+          "en": {
+            "text": "Balaam"
+          },
+          "es": {
+            "text": "Balaam"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Balaque"
+          },
+          "fr": {
+            "text": "Balak"
+          },
+          "en": {
+            "text": "Balak"
+          },
+          "es": {
+            "text": "Balac"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Ogue"
+          },
+          "fr": {
+            "text": "Og"
+          },
+          "en": {
+            "text": "Og"
+          },
+          "es": {
+            "text": "Og"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-011",
+    "type": "choice",
+    "level": "hard",
+    "testament": "ot",
+    "book": "NUM",
+    "chapter": 20,
+    "verse_start": 11,
+    "verse_end": 11,
+    "texts": {
+      "pt": {
+        "prompt": "Em Números 20, quantas vezes feriu Moisés a rocha com a vara para sair água?",
+        "bible_ref": "Números 20:11",
+        "verse_text": "Então levantou Moisés sua mão, e feriu a rocha com sua vara duas vezes: e saíram muitas águas, e bebeu a congregação, e seus animais."
+      },
+      "fr": {
+        "prompt": "En Nombres 20, combien de fois Moïse frappa-t-il le rocher avec sa verge pour en faire sortir de l’eau ?",
+        "bible_ref": "Nombres 20:11",
+        "verse_text": "Puis Moïse leva la main et frappa deux fois le rocher avec sa verge. Il sortit de l’eau en abondance. L’assemblée but, et le bétail aussi."
+      },
+      "en": {
+        "prompt": "In Numbers 20, how many times did Moses strike the rock with his rod for water?",
+        "bible_ref": "Numbers 20:11",
+        "verse_text": "And Moses lifted up his hand, and with his rod he smote the rock twice: and the water came out abundantly, and the congregation drank, and their beasts also."
+      },
+      "es": {
+        "prompt": "En Números 20, ¿cuántas veces golpeó Moisés la peña con su vara para que saliera agua?",
+        "bible_ref": "Números 20:11",
+        "verse_text": "Entonces alzó Moisés su mano, é hirió la peña con su vara dos veces: y salieron muchas aguas, y bebió la congregación, y sus bestias."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "2"
+          },
+          "fr": {
+            "text": "2"
+          },
+          "en": {
+            "text": "2"
+          },
+          "es": {
+            "text": "2"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "1"
+          },
+          "fr": {
+            "text": "1"
+          },
+          "en": {
+            "text": "1"
+          },
+          "es": {
+            "text": "1"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "3"
+          },
+          "fr": {
+            "text": "3"
+          },
+          "en": {
+            "text": "3"
+          },
+          "es": {
+            "text": "3"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "7"
+          },
+          "fr": {
+            "text": "7"
+          },
+          "en": {
+            "text": "7"
+          },
+          "es": {
+            "text": "7"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-012",
+    "type": "choice",
+    "level": "hard",
+    "testament": "ot",
+    "book": "DEU",
+    "chapter": 34,
+    "verse_start": 7,
+    "verse_end": 7,
+    "texts": {
+      "pt": {
+        "prompt": "Que idade tinha Moisés quando morreu?",
+        "bible_ref": "Deuteronómio 34:7",
+        "verse_text": "E era Moisés de idade de cento e vinte anos quando morreu: seus olhos nunca se escureceram, nem perdeu o seu vigor."
+      },
+      "fr": {
+        "prompt": "Quel âge avait Moïse quand il mourut ?",
+        "bible_ref": "Deutéronome 34:7",
+        "verse_text": "Moïse était âgé de cent vingt ans lorsqu’il mourut; sa vue n’était point affaiblie, et sa vigueur n’était point passée."
+      },
+      "en": {
+        "prompt": "How old was Moses when he died?",
+        "bible_ref": "Deuteronomy 34:7",
+        "verse_text": "And Moses was an hundred and twenty years old when he died: his eye was not dim, nor his natural force abated."
+      },
+      "es": {
+        "prompt": "¿Qué edad tenía Moisés cuando murió?",
+        "bible_ref": "Deuteronomio 34:7",
+        "verse_text": "Y era Moisés de edad de ciento y veinte años cuando murió: sus ojos nunca se oscurecieron, ni perdió su vigor."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "120 anos"
+          },
+          "fr": {
+            "text": "120 ans"
+          },
+          "en": {
+            "text": "120 years"
+          },
+          "es": {
+            "text": "120 años"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "100 anos"
+          },
+          "fr": {
+            "text": "100 ans"
+          },
+          "en": {
+            "text": "100 years"
+          },
+          "es": {
+            "text": "100 años"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "80 anos"
+          },
+          "fr": {
+            "text": "80 ans"
+          },
+          "en": {
+            "text": "80 years"
+          },
+          "es": {
+            "text": "80 años"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "175 anos"
+          },
+          "fr": {
+            "text": "175 ans"
+          },
+          "en": {
+            "text": "175 years"
+          },
+          "es": {
+            "text": "175 años"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-013",
+    "type": "order",
+    "level": "hard",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 5,
+    "verse_start": 3,
+    "verse_end": 3,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes nascimentos pela ordem de Génesis 5.",
+        "bible_ref": "Génesis 5:3",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces naissances dans l’ordre de Genèse 5.",
+        "bible_ref": "Genèse 5:3",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these births in the order of Genesis 5.",
+        "bible_ref": "Genesis 5:3",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos nacimientos según Génesis 5.",
+        "bible_ref": "Génesis 5:3",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Adão gera Sete",
+            "ref": "Génesis 5:3"
+          },
+          "fr": {
+            "text": "Adam engendre Seth",
+            "ref": "Genèse 5:3"
+          },
+          "en": {
+            "text": "Adam begets Seth",
+            "ref": "Genesis 5:3"
+          },
+          "es": {
+            "text": "Adán engendra a Set",
+            "ref": "Génesis 5:3"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Jarede gera Enoque",
+            "ref": "Génesis 5:18"
+          },
+          "fr": {
+            "text": "Jéred engendre Hénoc",
+            "ref": "Genèse 5:18"
+          },
+          "en": {
+            "text": "Jared begets Enoch",
+            "ref": "Genesis 5:18"
+          },
+          "es": {
+            "text": "Jared engendra a Enoc",
+            "ref": "Génesis 5:18"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Enoque gera Matusalém",
+            "ref": "Génesis 5:21"
+          },
+          "fr": {
+            "text": "Hénoc engendre Mathusalem",
+            "ref": "Genèse 5:21"
+          },
+          "en": {
+            "text": "Enoch begets Methuselah",
+            "ref": "Genesis 5:21"
+          },
+          "es": {
+            "text": "Enoc engendra a Matusalén",
+            "ref": "Génesis 5:21"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Nasce Noé",
+            "ref": "Génesis 5:29"
+          },
+          "fr": {
+            "text": "Naissance de Noé",
+            "ref": "Genèse 5:29"
+          },
+          "en": {
+            "text": "Noah is born",
+            "ref": "Genesis 5:29"
+          },
+          "es": {
+            "text": "Nace Noé",
+            "ref": "Génesis 5:29"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-014",
+    "type": "order",
+    "level": "hard",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 29,
+    "verse_start": 32,
+    "verse_end": 32,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes filhos de Jacob pela ordem em que nasceram.",
+        "bible_ref": "Génesis 29:32",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces fils de Jacob dans l’ordre de leur naissance.",
+        "bible_ref": "Genèse 29:32",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these sons of Jacob in the order they were born.",
+        "bible_ref": "Genesis 29:32",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos hijos de Jacob según nacieron.",
+        "bible_ref": "Génesis 29:32",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Rúben",
+            "ref": "Génesis 29:32"
+          },
+          "fr": {
+            "text": "Ruben",
+            "ref": "Genèse 29:32"
+          },
+          "en": {
+            "text": "Reuben",
+            "ref": "Genesis 29:32"
+          },
+          "es": {
+            "text": "Rubén",
+            "ref": "Génesis 29:32"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Levi",
+            "ref": "Génesis 29:34"
+          },
+          "fr": {
+            "text": "Lévi",
+            "ref": "Genèse 29:34"
+          },
+          "en": {
+            "text": "Levi",
+            "ref": "Genesis 29:34"
+          },
+          "es": {
+            "text": "Leví",
+            "ref": "Génesis 29:34"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Judá",
+            "ref": "Génesis 29:35"
+          },
+          "fr": {
+            "text": "Juda",
+            "ref": "Genèse 29:35"
+          },
+          "en": {
+            "text": "Judah",
+            "ref": "Genesis 29:35"
+          },
+          "es": {
+            "text": "Judá",
+            "ref": "Génesis 29:35"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "José",
+            "ref": "Génesis 30:24"
+          },
+          "fr": {
+            "text": "Joseph",
+            "ref": "Genèse 30:24"
+          },
+          "en": {
+            "text": "Joseph",
+            "ref": "Genesis 30:24"
+          },
+          "es": {
+            "text": "José",
+            "ref": "Génesis 30:24"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-015",
+    "type": "order",
+    "level": "hard",
+    "testament": "ot",
+    "book": "EXO",
+    "chapter": 2,
+    "verse_start": 12,
+    "verse_end": 12,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Êxodo 2:12",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Exode 2:12",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Exodus 2:12",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Éxodo 2:12",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Moisés mata um egípcio",
+            "ref": "Êxodo 2:12"
+          },
+          "fr": {
+            "text": "Moïse tue un Égyptien",
+            "ref": "Exode 2:12"
+          },
+          "en": {
+            "text": "Moses kills an Egyptian",
+            "ref": "Exodus 2:12"
+          },
+          "es": {
+            "text": "Moisés mata a un egipcio",
+            "ref": "Éxodo 2:12"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Moisés foge para Midiã",
+            "ref": "Êxodo 2:15"
+          },
+          "fr": {
+            "text": "Moïse s’enfuit au pays de Madian",
+            "ref": "Exode 2:15"
+          },
+          "en": {
+            "text": "Moses flees to Midian",
+            "ref": "Exodus 2:15"
+          },
+          "es": {
+            "text": "Moisés huye a Madián",
+            "ref": "Éxodo 2:15"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "O anjo aparece numa sarça",
+            "ref": "Êxodo 3:2"
+          },
+          "fr": {
+            "text": "L’ange apparaît dans un buisson",
+            "ref": "Exode 3:2"
+          },
+          "en": {
+            "text": "The angel appears in a bush",
+            "ref": "Exodus 3:2"
+          },
+          "es": {
+            "text": "El ángel aparece en una zarza",
+            "ref": "Éxodo 3:2"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Arão vai ao encontro de Moisés",
+            "ref": "Êxodo 4:27"
+          },
+          "fr": {
+            "text": "Aaron va à la rencontre de Moïse",
+            "ref": "Exode 4:27"
+          },
+          "en": {
+            "text": "Aaron goes to meet Moses",
+            "ref": "Exodus 4:27"
+          },
+          "es": {
+            "text": "Aarón sale al encuentro de Moisés",
+            "ref": "Éxodo 4:27"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-016",
+    "type": "order",
+    "level": "hard",
+    "testament": "ot",
+    "book": "NUM",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 2,
+    "texts": {
+      "pt": {
+        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "bible_ref": "Números 1:1-2",
+        "verse_text": null
+      },
+      "fr": {
+        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "bible_ref": "Nombres 1:1-2",
+        "verse_text": null
+      },
+      "en": {
+        "prompt": "Put these episodes in the order they happened.",
+        "bible_ref": "Numbers 1:1-2",
+        "verse_text": null
+      },
+      "es": {
+        "prompt": "Ordena estos episodios según ocurrieron.",
+        "bible_ref": "Números 1:1-2",
+        "verse_text": null
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Recenseamento no deserto do Sinai",
+            "ref": "Números 1:1-2"
+          },
+          "fr": {
+            "text": "Dénombrement dans le désert du Sinaï",
+            "ref": "Nombres 1:1-2"
+          },
+          "en": {
+            "text": "Census in the wilderness of Sinai",
+            "ref": "Numbers 1:1-2"
+          },
+          "es": {
+            "text": "Censo en el desierto de Sinaí",
+            "ref": "Números 1:1-2"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Espias enviados a Canaã",
+            "ref": "Números 13:2"
+          },
+          "fr": {
+            "text": "Des espions envoyés en Canaan",
+            "ref": "Nombres 13:2"
+          },
+          "en": {
+            "text": "Spies sent into Canaan",
+            "ref": "Numbers 13:2"
+          },
+          "es": {
+            "text": "Espías enviados a Canaán",
+            "ref": "Números 13:2"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "A terra traga os homens de Coré",
+            "ref": "Números 16:32"
+          },
+          "fr": {
+            "text": "La terre engloutit les gens de Koré",
+            "ref": "Nombres 16:32"
+          },
+          "en": {
+            "text": "The earth swallows Korah’s men",
+            "ref": "Numbers 16:32"
+          },
+          "es": {
+            "text": "La tierra traga a los hombres de Coré",
+            "ref": "Números 16:32"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Moisés morre na terra de Moabe",
+            "ref": "Deuteronómio 34:5"
+          },
+          "fr": {
+            "text": "Moïse meurt au pays de Moab",
+            "ref": "Deutéronome 34:5"
+          },
+          "en": {
+            "text": "Moses dies in the land of Moab",
+            "ref": "Deuteronomy 34:5"
+          },
+          "es": {
+            "text": "Moisés muere en la tierra de Moab",
+            "ref": "Deuteronomio 34:5"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-017",
+    "type": "verse",
+    "level": "hard",
+    "testament": "ot",
+    "book": "GEN",
+    "chapter": 15,
+    "verse_start": 6,
+    "verse_end": 6,
+    "texts": {
+      "pt": {
+        "prompt": "E creu ao SENHOR, e contou-lhe por _____.",
+        "bible_ref": "Génesis 15:6",
+        "verse_text": "E creu ao SENHOR, e contou-lhe por justiça."
+      },
+      "fr": {
+        "prompt": "Abram eut confiance en l’Éternel, qui le lui imputa à _____.",
+        "bible_ref": "Genèse 15:6",
+        "verse_text": "Abram eut confiance en l’Éternel, qui le lui imputa à justice."
+      },
+      "en": {
+        "prompt": "And he believed in the LORD; and he counted it to him for _____.",
+        "bible_ref": "Genesis 15:6",
+        "verse_text": "And he believed in the LORD; and he counted it to him for righteousness."
+      },
+      "es": {
+        "prompt": "Y creyó á Jehová, y contóselo por _____.",
+        "bible_ref": "Génesis 15:6",
+        "verse_text": "Y creyó á Jehová, y contóselo por justicia."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "graça"
+          },
+          "fr": {
+            "text": "grâce"
+          },
+          "en": {
+            "text": "grace"
+          },
+          "es": {
+            "text": "gracia"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "bênção"
+          },
+          "fr": {
+            "text": "bénédiction"
+          },
+          "en": {
+            "text": "blessing"
+          },
+          "es": {
+            "text": "bendición"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "obediência"
+          },
+          "fr": {
+            "text": "obéissance"
+          },
+          "en": {
+            "text": "obedience"
+          },
+          "es": {
+            "text": "obediencia"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "justiça"
+          },
+          "fr": {
+            "text": "justice"
+          },
+          "en": {
+            "text": "righteousness"
+          },
+          "es": {
+            "text": "justicia"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-018",
+    "type": "verse",
+    "level": "hard",
+    "testament": "ot",
+    "book": "LEV",
+    "chapter": 17,
+    "verse_start": 11,
+    "verse_end": 11,
+    "texts": {
+      "pt": {
+        "prompt": "Porque a vida da _____ no sangue está: e eu vos a dei para expiar vossas pessoas sobre o altar: pelo qual o mesmo sangue expiará a pessoa.",
+        "bible_ref": "Levítico 17:11",
+        "verse_text": "Porque a vida da carne no sangue está: e eu vos a dei para expiar vossas pessoas sobre o altar: pelo qual o mesmo sangue expiará a pessoa."
+      },
+      "fr": {
+        "prompt": "Car l’âme de la _____ est dans le sang. Je vous l’ai donné sur l’autel, afin qu’il servît d’expiation pour vos âmes, car c’est par l’âme que le sang fait l’expiation.",
+        "bible_ref": "Lévitique 17:11",
+        "verse_text": "Car l’âme de la chair est dans le sang. Je vous l’ai donné sur l’autel, afin qu’il servît d’expiation pour vos âmes, car c’est par l’âme que le sang fait l’expiation."
+      },
+      "en": {
+        "prompt": "For the life of the _____ is in the blood: and I have given it to you upon the altar to make an atonement for your souls: for it is the blood that maketh an atonement for the soul.",
+        "bible_ref": "Leviticus 17:11",
+        "verse_text": "For the life of the flesh is in the blood: and I have given it to you upon the altar to make an atonement for your souls: for it is the blood that maketh an atonement for the soul."
+      },
+      "es": {
+        "prompt": "Porque la vida de la _____ en la sangre está: y yo os la he dado para expiar vuestras personas sobre el altar: por lo cual la misma sangre expiará la persona.",
+        "bible_ref": "Levítico 17:11",
+        "verse_text": "Porque la vida de la carne en la sangre está: y yo os la he dado para expiar vuestras personas sobre el altar: por lo cual la misma sangre expiará la persona."
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "terra"
+          },
+          "fr": {
+            "text": "terre"
+          },
+          "en": {
+            "text": "earth"
+          },
+          "es": {
+            "text": "tierra"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "carne"
+          },
+          "fr": {
+            "text": "chair"
+          },
+          "en": {
+            "text": "flesh"
+          },
+          "es": {
+            "text": "carne"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "água"
+          },
+          "fr": {
+            "text": "eau"
+          },
+          "en": {
+            "text": "water"
+          },
+          "es": {
+            "text": "agua"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "palavra"
+          },
+          "fr": {
+            "text": "parole"
+          },
+          "en": {
+            "text": "word"
+          },
+          "es": {
+            "text": "palabra"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-019",
+    "type": "verse",
+    "level": "hard",
+    "testament": "ot",
+    "book": "NUM",
+    "chapter": 23,
+    "verse_start": 19,
+    "verse_end": 19,
+    "texts": {
+      "pt": {
+        "prompt": "Deus não é homem, para que _____; nem filho de homem para que se arrependa: ele disse, e não fará?; Falou, e não o executará?",
+        "bible_ref": "Números 23:19",
+        "verse_text": "Deus não é homem, para que minta; nem filho de homem para que se arrependa: ele disse, e não fará?; Falou, e não o executará?"
+      },
+      "fr": {
+        "prompt": "Dieu n’est point un homme pour _____, Ni fils d’un homme pour se repentir. Ce qu’il a dit, ne le fera-t-il pas? Ce qu’il a déclaré, ne l’exécutera-t-il pas?",
+        "bible_ref": "Nombres 23:19",
+        "verse_text": "Dieu n’est point un homme pour mentir, Ni fils d’un homme pour se repentir. Ce qu’il a dit, ne le fera-t-il pas? Ce qu’il a déclaré, ne l’exécutera-t-il pas?"
+      },
+      "en": {
+        "prompt": "God is not a man, that he should _____; neither the son of man, that he should repent: hath he said, and shall he not do it? or hath he spoken, and shall he not make it good?",
+        "bible_ref": "Numbers 23:19",
+        "verse_text": "God is not a man, that he should lie; neither the son of man, that he should repent: hath he said, and shall he not do it? or hath he spoken, and shall he not make it good?"
+      },
+      "es": {
+        "prompt": "Dios no es hombre, para que _____; ni hijo de hombre para que se arrepienta: el dijo, ¿y no hará?; habló, ¿y no lo ejecutará?",
+        "bible_ref": "Números 23:19",
+        "verse_text": "Dios no es hombre, para que mienta; ni hijo de hombre para que se arrepienta: el dijo, ¿y no hará?; habló, ¿y no lo ejecutará?"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "esqueça"
+          },
+          "fr": {
+            "text": "oublier"
+          },
+          "en": {
+            "text": "forget"
+          },
+          "es": {
+            "text": "olvide"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "morra"
+          },
+          "fr": {
+            "text": "mourir"
+          },
+          "en": {
+            "text": "die"
+          },
+          "es": {
+            "text": "muera"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "durma"
+          },
+          "fr": {
+            "text": "dormir"
+          },
+          "en": {
+            "text": "sleep"
+          },
+          "es": {
+            "text": "duerma"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "minta"
+          },
+          "fr": {
+            "text": "mentir"
+          },
+          "en": {
+            "text": "lie"
+          },
+          "es": {
+            "text": "mienta"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-020",
+    "type": "verse",
+    "level": "hard",
+    "testament": "ot",
+    "book": "DEU",
+    "chapter": 6,
+    "verse_start": 4,
+    "verse_end": 4,
+    "texts": {
+      "pt": {
+        "prompt": "Ouve, _____: o SENHOR nosso Deus, o SENHOR um é:",
+        "bible_ref": "Deuteronómio 6:4",
+        "verse_text": "Ouve, Israel: o SENHOR nosso Deus, o SENHOR um é:"
+      },
+      "fr": {
+        "prompt": "Écoute, _____! L’Éternel, notre Dieu, est le seul Éternel.",
+        "bible_ref": "Deutéronome 6:4",
+        "verse_text": "Écoute, Israël! L’Éternel, notre Dieu, est le seul Éternel."
+      },
+      "en": {
+        "prompt": "Hear, O _____: The LORD our God is one LORD:",
+        "bible_ref": "Deuteronomy 6:4",
+        "verse_text": "Hear, O Israel: The LORD our God is one LORD:"
+      },
+      "es": {
+        "prompt": "Oye, _____: Jehová nuestro Dios, Jehová uno es:",
+        "bible_ref": "Deuteronomio 6:4",
+        "verse_text": "Oye, Israel: Jehová nuestro Dios, Jehová uno es:"
+      }
+    },
+    "options": [
+      {
+        "position": 1,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Sião"
+          },
+          "fr": {
+            "text": "Sion"
+          },
+          "en": {
+            "text": "Zion"
+          },
+          "es": {
+            "text": "Sión"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Judá"
+          },
+          "fr": {
+            "text": "Juda"
+          },
+          "en": {
+            "text": "Judah"
+          },
+          "es": {
+            "text": "Judá"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "is_correct": false,
+        "texts": {
+          "pt": {
+            "text": "Egito"
+          },
+          "fr": {
+            "text": "Égypte"
+          },
+          "en": {
+            "text": "Egypt"
+          },
+          "es": {
+            "text": "Egipto"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "is_correct": true,
+        "texts": {
+          "pt": {
+            "text": "Israel"
+          },
+          "fr": {
+            "text": "Israël"
+          },
+          "en": {
+            "text": "Israel"
+          },
+          "es": {
+            "text": "Israel"
+          }
+        }
+      }
+    ]
+  }
+]
