@@ -112,7 +112,9 @@ grant select on public.bank_questions, public.bank_question_texts,
 -- 4. IMPORTAÇÃO
 -- ---------------------------------------------------------------------
 -- Cria ou atualiza uma pergunta completa. Em conflito preserva
--- active e reported_count (uma pergunta reportada nunca volta a ficar ativa).
+-- active e reported_count (uma pergunta reportada nunca volta a ficar ativa)
+-- e os UUID das opções: cada opção é atualizada no lugar por (question_id,
+-- position); posições novas são inseridas e só as posições a mais são apagadas.
 -- Formato de p:
 -- { id, type, level, testament, book, chapter, verse_start, verse_end,
 --   texts:   { pt: { prompt, bible_ref, verse_text } },
@@ -139,9 +141,8 @@ begin
          verse_start = excluded.verse_start, verse_end = excluded.verse_end,
          updated_at = now();
 
-  -- Recria textos e opções (as opções levam consigo os respetivos textos)
+  -- Recria os textos da pergunta
   delete from bank_question_texts where question_id = v_id;
-  delete from bank_options        where question_id = v_id;
 
   for v_loc, v_t in select key, value from jsonb_each(coalesce(p -> 'texts', '{}'::jsonb)) loop
     insert into bank_question_texts (question_id, locale, prompt, bible_ref, verse_text)
@@ -151,13 +152,23 @@ begin
   for v_o in select value from jsonb_array_elements(coalesce(p -> 'options', '[]'::jsonb)) loop
     insert into bank_options (question_id, position, is_correct)
     values (v_id, (v_o ->> 'position')::int, coalesce((v_o ->> 'is_correct')::boolean, false))
+    on conflict (question_id, position) do update set is_correct = excluded.is_correct
     returning id into v_oid;
+
+    delete from bank_option_texts where option_id = v_oid;
 
     for v_loc, v_t in select key, value from jsonb_each(coalesce(v_o -> 'texts', '{}'::jsonb)) loop
       insert into bank_option_texts (option_id, locale, text, ref)
       values (v_oid, v_loc, v_t ->> 'text', nullif(v_t ->> 'ref', ''));
     end loop;
   end loop;
+
+  -- Apaga só as posições que deixaram de existir (levam consigo os textos)
+  delete from bank_options o
+   where o.question_id = v_id
+     and o.position not in (
+       select (e ->> 'position')::int
+         from jsonb_array_elements(coalesce(p -> 'options', '[]'::jsonb)) e);
 
   return v_id;
 end $$;
@@ -269,10 +280,24 @@ create policy "members read session" on public.game_sessions
   for select to authenticated using (public.is_session_member(id));
 create policy "members read players" on public.players
   for select to authenticated using (public.is_session_member(session_id));
+-- Pergunta da sessão que está agora em 'question' (respostas ainda escondidas)
+create or replace function public.is_live_question(p_session_id uuid, p_question_id text)
+returns boolean
+language sql stable security definer set search_path = public as $$
+  select exists (
+    select 1
+      from game_sessions g
+      join session_questions sq on sq.session_id = g.id and sq.position = g.current_position
+     where g.id = p_session_id and g.status = 'question' and sq.question_id = p_question_id
+  );
+$$;
+
+-- O jogador só vê a sua resposta depois da revelação (nem por SELECT nem por Realtime)
 create policy "own or host read answers" on public.answers
   for select to authenticated
   using (public.is_session_host(session_id)
-         or player_id in (select id from public.players where user_id = auth.uid()));
+         or (player_id in (select id from public.players where user_id = auth.uid())
+             and not public.is_live_question(session_id, question_id)));
 
 -- ---------------------------------------------------------------------
 -- 8. FUNÇÕES DO JOGO (RPC)
@@ -396,10 +421,21 @@ end $$;
 create or replace function public.reveal_answer(p_session_id uuid)
 returns void
 language plpgsql security definer set search_path = public as $$
+declare
+  v_pos int;
 begin
+  -- Só funciona uma vez por pergunta (exige status = 'question')
   update game_sessions set status = 'reveal'
-   where id = p_session_id and host_id = auth.uid() and status = 'question';
+   where id = p_session_id and host_id = auth.uid() and status = 'question'
+  returning current_position into v_pos;
   if not found then raise exception 'cannot_reveal'; end if;
+
+  -- Os pontos só entram no marcador na revelação
+  update players p
+     set score = p.score + a.points_awarded
+    from answers a
+    join session_questions sq on sq.session_id = a.session_id and sq.question_id = a.question_id
+   where a.session_id = p_session_id and sq.position = v_pos and a.player_id = p.id;
 end $$;
 
 -- Anfitrião termina o jogo antes do fim
@@ -413,7 +449,7 @@ begin
 end $$;
 
 -- Pergunta atual na língua pedida (com recurso a 'pt').
--- Antes da revelação NÃO devolve is_correct, correct_order nem verse_text,
+-- Antes da revelação NÃO devolve is_correct, correct_order, verse_text nem ref,
 -- e 'position' é a posição de ecrã (1..n), nunca a posição guardada.
 create or replace function public.get_current_question(p_session_id uuid, p_locale text)
 returns jsonb
@@ -460,7 +496,7 @@ begin
                  (select ot.text from bank_option_texts ot where ot.option_id = o.id and ot.locale = p_locale),
                  (select ot.text from bank_option_texts ot where ot.option_id = o.id and ot.locale = 'pt')
                ),
-               'ref', case when q.type = 'order' then coalesce(
+               'ref', case when v_reveal and q.type = 'order' then coalesce(
                  (select ot.ref from bank_option_texts ot where ot.option_id = o.id and ot.locale = p_locale),
                  (select ot.ref from bank_option_texts ot where ot.option_id = o.id and ot.locale = 'pt')
                ) end,
@@ -476,7 +512,11 @@ begin
       (select t.verse_text from bank_question_texts t where t.question_id = q.id and t.locale = p_locale),
       (select t.verse_text from bank_question_texts t where t.question_id = q.id and t.locale = 'pt')
     ) end,
-    'reported', sq.reported
+    'reported', sq.reported,
+    'my_answered', exists (
+      select 1 from answers a join players p on p.id = a.player_id
+       where p.session_id = p_session_id and p.user_id = auth.uid() and a.question_id = q.id
+    )
   );
 end $$;
 
@@ -505,7 +545,8 @@ begin
   select * into pl from players where session_id = p_session_id and user_id = auth.uid();
   if not found then raise exception 'not_player'; end if;
 
-  select * into s from game_sessions where id = p_session_id;
+  -- Bloqueia a sessão: a revelação espera que esta resposta termine
+  select * into s from game_sessions where id = p_session_id for share;
   if s.status <> 'question' then raise exception 'not_accepting_answers'; end if;
 
   select * into sq from session_questions where session_id = p_session_id and position = s.current_position;
@@ -525,10 +566,11 @@ begin
 
   v_points := public.game_points(v_correct, v_elapsed, s.time_limit_s);
 
+  -- O marcador (players.score) só é atualizado em reveal_answer
   insert into answers (session_id, player_id, question_id, option_id, is_correct, points_awarded)
-  values (p_session_id, pl.id, q.id, p_option_id, v_correct, v_points);
-
-  update players set score = score + v_points where id = pl.id;
+  values (p_session_id, pl.id, q.id, p_option_id, v_correct, v_points)
+  on conflict (player_id, question_id) do nothing;
+  if not found then raise exception 'already_answered'; end if;
 end $$;
 
 -- Jogador responde a 'order': só pontua com a ordem completa certa
@@ -549,7 +591,8 @@ begin
   select * into pl from players where session_id = p_session_id and user_id = auth.uid();
   if not found then raise exception 'not_player'; end if;
 
-  select * into s from game_sessions where id = p_session_id;
+  -- Bloqueia a sessão: a revelação espera que esta resposta termine
+  select * into s from game_sessions where id = p_session_id for share;
   if s.status <> 'question' then raise exception 'not_accepting_answers'; end if;
 
   select * into sq from session_questions where session_id = p_session_id and position = s.current_position;
@@ -578,10 +621,11 @@ begin
   v_correct := p_order = v_right;
   v_points  := public.game_points(v_correct, v_elapsed, v_limit);
 
+  -- O marcador (players.score) só é atualizado em reveal_answer
   insert into answers (session_id, player_id, question_id, order_ids, is_correct, points_awarded)
-  values (p_session_id, pl.id, q.id, p_order, v_correct, v_points);
-
-  update players set score = score + v_points where id = pl.id;
+  values (p_session_id, pl.id, q.id, p_order, v_correct, v_points)
+  on conflict (player_id, question_id) do nothing;
+  if not found then raise exception 'already_answered'; end if;
 end $$;
 
 -- Anfitrião reporta a pergunta revelada: sai do banco (active = false) de vez

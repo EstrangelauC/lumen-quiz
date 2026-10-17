@@ -76,6 +76,25 @@ const orphans = await one(`select (select count(*) from bank_options)::int o, (s
 if (orphans.o !== 2 || orphans.t !== 2) throw new Error('opções antigas por apagar');
 console.log('✓ upsert: 1 linha, opções e textos da segunda chamada');
 
+// 2b. Reimportar mantém os UUID das opções; menos opções apaga só as que sobram
+const optIds = async (id) => (await db.query(
+  `select id from bank_options where question_id = $1 order by position`, [id])).rows.map(r => r.id);
+await one(`select upsert_bank_question($1)`, [q('t-007', 'easy', undefined, ['A', 'B', 'C'])]);
+const ids1 = await optIds('t-007');
+await one(`select upsert_bank_question($1)`, [q('t-007', 'easy', undefined, ['A2', 'B2', 'C2'])]);
+const ids2 = await optIds('t-007');
+if (ids1.length !== 3 || ids1.join() !== ids2.join()) throw new Error('reimportar mudou os UUID ' + JSON.stringify({ ids1, ids2 }));
+const txt2 = (await db.query(`select t.text from bank_options o join bank_option_texts t on t.option_id = o.id
+                               where o.question_id = 't-007' order by o.position`)).rows.map(r => r.text);
+if (txt2.join() !== 'A2,B2,C2') throw new Error('textos das opções não substituídos ' + txt2);
+await one(`select upsert_bank_question($1)`, [q('t-007', 'easy', undefined, ['A3', 'B3'])]);
+const ids3 = await optIds('t-007');
+if (ids3.join() !== ids1.slice(0, 2).join()) throw new Error('menos opções ' + JSON.stringify({ ids1, ids3 }));
+const orph7 = await one(`select count(*)::int n from bank_option_texts where option_id = $1`, [ids1[2]]);
+if (orph7.n !== 0) throw new Error('textos da opção apagada ficaram');
+await db.query(`delete from bank_questions where id = 't-007'`);
+console.log('✓ reimportar mantém os UUID das opções e apaga só as que sobram');
+
 // 3. Reimportar não reativa nem repõe o contador
 await db.query(`update bank_questions set active = false, reported_count = 1 where id = 't-001'`);
 await one(`select upsert_bank_question($1)`, [q('t-001', 'easy')]);
@@ -119,7 +138,12 @@ console.log('✓ service_role importa');
 // JOGO SORTEADO (Task 2)
 // =====================================================================
 const P2 = '33333333-3333-3333-3333-333333333333';
-await db.query(`insert into auth.users (id, is_anonymous) values ($1, true)`, [P2]);
+const P3 = '44444444-4444-4444-4444-444444444444';   // entra a meio de um 'order'
+const P4 = '55555555-5555-5555-5555-555555555555';   // nunca entra
+for (const u of [P2, P3, P4]) await db.query(`insert into auth.users (id, is_anonymous) values ($1, true)`, [u]);
+// O Supabase dá select nas tabelas a anon/authenticated; quem filtra é a RLS
+await db.exec(`grant select on public.game_sessions, public.session_questions, public.players, public.answers
+                 to anon, authenticated`);
 await db.query(`update profiles set default_time_limit_s = 25 where id = $1`, [HOST]);
 
 // Banco limpo: 6 perguntas easy (2 de cada tipo) e 1 medium
@@ -207,6 +231,16 @@ const hostDo = (fn) => asUser(HOST, false, () => db.query(`select ${fn}($1)`, [S
 
 // Antes de começar: lobby devolve null
 if ((await cur(P1, 'fr')) !== null) throw new Error('lobby deve devolver null');
+await asUser(P4, true, () => expectError(() => db.query(`select get_current_question($1, 'fr')`, [SID]), 'not_member'));
+
+const scores = async () => Object.fromEntries((await db.query(
+  `select user_id, score from players where session_id = $1`, [SID])).rows.map(r => [r.user_id, r.score]));
+const pointsFor = async (qid) => Object.fromEntries((await db.query(
+  `select p.user_id, a.points_awarded from answers a join players p on p.id = a.player_id
+    where a.session_id = $1 and a.question_id = $2`, [SID, qid])).rows.map(r => [r.user_id, r.points_awarded]));
+const ownVisible = (uid, qid) => asUser(uid, true, async () =>
+  (await one(`select count(*)::int n from answers where question_id = $1`, [qid])).n);
+let testedForeign = false, testedHidden = false;
 
 let testedOrder = false, testedReport = false;
 for (let pos = 1; pos <= 5; pos++) {
@@ -222,10 +256,14 @@ for (let pos = 1; pos <= 5; pos++) {
   if (g.options.map(o => o.id).join() !== row.d.join()) throw new Error('opções não seguem display_order');
   if (g.text !== `FR ${row.question_id}`) throw new Error('texto fr ' + g.text);
   if (g.reported !== false) throw new Error('reported inicial');
+  if (g.my_answered !== false) throw new Error('my_answered antes de responder');
+  const hostView = await cur(HOST, 'fr', false);
+  if (hostView.my_answered !== false) throw new Error('my_answered do anfitrião');
+  const scoresBefore = await scores();
   if (row.type === 'order') {
     if (g.options.map(o => o.id).join() === row.c.join()) throw new Error('order mostrado na ordem certa');
     if (g.time_limit_s !== 35) throw new Error('tempo de order ' + g.time_limit_s);
-    if (g.options.some(o => !o.ref)) throw new Error('order sem ref');
+    if (g.options.some(o => o.ref !== null)) throw new Error('ref de order antes da revelação');
   } else {
     if (g.time_limit_s !== 25) throw new Error('tempo ' + g.time_limit_s);
     if (g.options.some(o => o.ref !== null)) throw new Error('ref fora de order');
@@ -246,6 +284,7 @@ for (let pos = 1; pos <= 5; pos++) {
       }
       await submitOrder(row.c);
     });
+    if ((await cur(P1, 'fr')).my_answered !== true) throw new Error('my_answered depois de responder');
     const a = await one(`select a.is_correct, a.points_awarded, a.option_id, to_jsonb(a.order_ids) o
                            from answers a join players p on p.id = a.player_id
                           where p.user_id = $1 and a.question_id = $2`, [P1, row.question_id]);
@@ -262,15 +301,40 @@ for (let pos = 1; pos <= 5; pos++) {
                             where p.user_id = $1 and a.question_id = $2`, [P2, row.question_id]);
       if (b.is_correct !== false || b.points_awarded !== 0) throw new Error('ordem errada ' + JSON.stringify(b));
       console.log('✓ submit_order: certa > 900, repetida recusada, errada 0');
+      // Jogador novo entra a meio do 'order': recebe a pergunta e responde uma vez
+      await asUser(P3, true, () => one(`select join_session($1, 'Eva', 'pt')`, [created.pin]));
+      const late = await cur(P3, 'pt');
+      if (late.question_id !== row.question_id || late.my_answered !== false || late.options.length !== 4)
+        throw new Error('entrada a meio ' + JSON.stringify(late));
+      await asUser(P3, true, () => submitOrder(late.options.map(o => o.id)));
+      await asUser(P3, true, () => expectError(() => submitOrder(row.c), 'already_answered'));
+      console.log('✓ jogador que entra a meio de um order responde uma vez');
       testedOrder = true;
     }
   } else {
     const correctId = (await one(`select id from bank_options where question_id = $1 and is_correct`, [row.question_id])).id;
+    const foreign = (await one(`select o.id from bank_options o where o.question_id = 'g-m1' limit 1`)).id;
     await asUser(P1, true, async () => {
       await expectError(() => submitOrder(row.d), 'wrong_type');
+      if (!testedForeign) {
+        await expectError(() => db.query(`select submit_answer($1, $2)`, [SID, foreign]), 'invalid_option');
+        testedForeign = true;
+      }
       await db.query(`select submit_answer($1, $2)`, [SID, correctId]);
     });
+    if ((await cur(P1, 'fr')).my_answered !== true) throw new Error('my_answered depois de responder');
   }
+
+  // Antes da revelação: o jogador não vê a sua resposta e o marcador não mexe
+  const pts = await pointsFor(row.question_id);
+  if (!(P1 in pts)) throw new Error('resposta não gravada');
+  if ((await ownVisible(P1, row.question_id)) !== 0) throw new Error('jogador viu a sua resposta antes da revelação');
+  const hostSees = await asUser(HOST, false, async () =>
+    (await one(`select count(*)::int n from answers where question_id = $1`, [row.question_id])).n);
+  if (hostSees !== Object.keys(pts).length) throw new Error('anfitrião não vê as respostas');
+  const scoresMid = await scores();
+  if (Object.entries(scoresMid).some(([u, sc]) => sc !== (scoresBefore[u] ?? 0))) throw new Error('marcador mexeu antes da revelação');
+  if (!testedHidden) { console.log('✓ antes da revelação: resposta escondida do jogador e marcador parado'); testedHidden = true; }
 
   // report antes da revelação / por jogador
   if (!testedReport) {
@@ -278,11 +342,19 @@ for (let pos = 1; pos <= 5; pos++) {
   }
 
   await hostDo('reveal_answer');
+  const scoresAfter = await scores();
+  for (const [u, sc] of Object.entries(scoresAfter)) {
+    if (sc !== (scoresBefore[u] ?? 0) + (pts[u] ?? 0)) throw new Error('marcador após revelação ' + JSON.stringify({ u, scoresBefore, scoresAfter, pts }));
+  }
+  if ((await ownVisible(P1, row.question_id)) !== 1) throw new Error('jogador não vê a resposta após revelação');
+  await asUser(HOST, false, () => expectError(() => db.query(`select reveal_answer($1)`, [SID]), 'cannot_reveal'));
+  if (JSON.stringify(await scores()) !== JSON.stringify(scoresAfter)) throw new Error('pontos somados duas vezes');
   const r = await cur(P1, 'fr');
   if (r.status !== 'reveal') throw new Error('status reveal');
   if (row.type === 'order') {
     if (!r.correct_order || r.correct_order.length !== 4 || r.correct_order.join() !== row.c.join()) throw new Error('correct_order ' + JSON.stringify(r));
     if (r.verse_text !== null || r.options.some(o => o.is_correct !== null)) throw new Error('order em reveal');
+    if (r.options.some(o => !o.ref)) throw new Error('order sem ref na revelação');
   } else {
     if (!r.verse_text || !r.verse_text.startsWith('Au commencement')) throw new Error('verse_text fr ' + r.verse_text);
     if (r.correct_order !== null) throw new Error('correct_order fora de order');
