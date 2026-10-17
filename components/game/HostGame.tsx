@@ -44,7 +44,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
   useEffect(() => {
     supabase
       .from('game_sessions')
-      .select('id, quiz_id, pin, status, current_position, question_started_at')
+      .select('id, pin, status, level, question_count, current_position, question_started_at')
       .eq('id', sessionId)
       .single()
       .then(({ data }) => data && setSession(data as GameSession));

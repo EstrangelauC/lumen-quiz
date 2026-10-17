@@ -40,7 +40,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
       setMe(player as Player);
       const { data: s } = await supabase
         .from('game_sessions')
-        .select('id, quiz_id, pin, status, current_position, question_started_at')
+        .select('id, pin, status, level, question_count, current_position, question_started_at')
         .eq('id', sessionId)
         .single();
       if (s) setSession(s as GameSession);

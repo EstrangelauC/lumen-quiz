@@ -4,14 +4,13 @@ import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { createClient } from '@/lib/supabase/client';
-import { localeNames, locales, type Locale } from '@/i18n/config';
 
 export const TIME_CHOICES = [10, 15, 20, 30, 45, 60, 90];
 
 type Props = {
   userId: string;
   email: string;
-  initial: { display_name: string; default_locale: Locale; default_time_limit_s: number };
+  initial: { display_name: string; default_time_limit_s: number };
 };
 
 export default function SettingsForm({ userId, email, initial }: Props) {
@@ -33,7 +32,11 @@ export default function SettingsForm({ userId, email, initial }: Props) {
     setProfileMsg(null);
     const { error } = await createClient()
       .from('profiles')
-      .upsert({ id: userId, ...profile, display_name: profile.display_name.trim() || null });
+      .upsert({
+        id: userId,
+        display_name: profile.display_name.trim() || null,
+        default_time_limit_s: profile.default_time_limit_s,
+      });
     setSaving(false);
     setProfileMsg(error ? tc('error') : t('saved'));
     if (!error) router.refresh();
@@ -65,24 +68,6 @@ export default function SettingsForm({ userId, email, initial }: Props) {
             value={profile.display_name}
             onChange={(e) => setProfile({ ...profile, display_name: e.target.value })}
           />
-        </div>
-
-        <div>
-          <label className="label" htmlFor="default_locale">
-            {t('defaultLocale')}
-          </label>
-          <select
-            id="default_locale"
-            className="field"
-            value={profile.default_locale}
-            onChange={(e) => setProfile({ ...profile, default_locale: e.target.value as Locale })}
-          >
-            {locales.map((l) => (
-              <option key={l} value={l}>
-                {localeNames[l]}
-              </option>
-            ))}
-          </select>
         </div>
 
         <div>
