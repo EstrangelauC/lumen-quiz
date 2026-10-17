@@ -1554,50 +1554,50 @@
     "type": "choice",
     "level": "medium",
     "book": "MAT",
-    "chapter": 4,
-    "verse_start": 2,
-    "verse_end": 2,
+    "chapter": 2,
+    "verse_start": 13,
+    "verse_end": 13,
     "prompt": {
-      "pt": "Quantos dias jejuou Jesus no deserto antes de ter fome?",
-      "fr": "Combien de jours Jésus jeûna-t-il dans le désert avant d’avoir faim ?",
-      "en": "How many days did Jesus fast in the wilderness before he was hungry?",
-      "es": "¿Cuántos días ayunó Jesús en el desierto antes de tener hambre?"
+      "pt": "Em sonho, para onde mandou o anjo José fugir com o menino e a sua mãe?",
+      "fr": "En songe, où l’ange dit-il à Joseph de fuir avec l’enfant et sa mère ?",
+      "en": "In a dream, where did the angel tell Joseph to flee with the young child and his mother?",
+      "es": "En sueños, ¿adónde mandó el ángel a José huir con el niño y su madre?"
     },
     "options": [
       {
         "correct": true,
         "text": {
-          "pt": "Quarenta dias",
-          "fr": "Quarante jours",
-          "en": "Forty days",
-          "es": "Cuarenta días"
+          "pt": "Para o Egito",
+          "fr": "En Égypte",
+          "en": "Into Egypt",
+          "es": "A Egipto"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Sete dias",
-          "fr": "Sept jours",
-          "en": "Seven days",
-          "es": "Siete días"
+          "pt": "Para Nazaré",
+          "fr": "À Nazareth",
+          "en": "To Nazareth",
+          "es": "A Nazaret"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Doze dias",
-          "fr": "Douze jours",
-          "en": "Twelve days",
-          "es": "Doce días"
+          "pt": "Para a Samaria",
+          "fr": "En Samarie",
+          "en": "To Samaria",
+          "es": "A Samaria"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Três dias",
-          "fr": "Trois jours",
-          "en": "Three days",
-          "es": "Tres días"
+          "pt": "Para Cafarnaum",
+          "fr": "À Capernaüm",
+          "en": "To Capernaum",
+          "es": "A Capernaum"
         }
       }
     ]
@@ -1660,10 +1660,10 @@
     "type": "order",
     "level": "medium",
     "prompt": {
-      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
-      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
-      "en": "Put these episodes in the order they happened.",
-      "es": "Ordena estos episodios según ocurrieron."
+      "pt": "Ordena estes episódios do Evangelho de Marcos pela ordem em que aparecem.",
+      "fr": "Mets ces épisodes de l’Évangile de Marc dans l’ordre où ils apparaissent.",
+      "en": "Put these episodes from Mark in the order they appear.",
+      "es": "Ordena estos episodios de Marcos según aparecen."
     },
     "items": [
       {
@@ -1950,10 +1950,10 @@
     },
     "distractors": [
       {
-        "pt": "oliveira",
-        "fr": "olivier",
-        "en": "olive tree",
-        "es": "oliva"
+        "pt": "azinheira",
+        "fr": "chêne",
+        "en": "oak tree",
+        "es": "encina"
       },
       {
         "pt": "figueira",
@@ -2227,7 +2227,7 @@
         "text": {
           "pt": "Judá",
           "fr": "Juda",
-          "en": "Judah",
+          "en": "Juda",
           "es": "Judá"
         }
       },
@@ -2863,10 +2863,10 @@
     "type": "order",
     "level": "hard",
     "prompt": {
-      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
-      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
-      "en": "Put these episodes in the order they happened.",
-      "es": "Ordena estos episodios según ocurrieron."
+      "pt": "Ordena estes episódios do Evangelho de Marcos pela ordem em que aparecem.",
+      "fr": "Mets ces épisodes de l’Évangile de Marc dans l’ordre où ils apparaissent.",
+      "en": "Put these episodes from Mark in the order they appear.",
+      "es": "Ordena estos episodios de Marcos según aparecen."
     },
     "items": [
       {
@@ -2923,34 +2923,34 @@
     "id": "evan-hard-017",
     "type": "verse",
     "level": "hard",
-    "book": "LUK",
-    "chapter": 2,
-    "verse_start": 52,
-    "verse_end": 52,
+    "book": "JHN",
+    "chapter": 1,
+    "verse_start": 46,
+    "verse_end": 46,
     "blank": {
-      "pt": "sabedoria",
-      "fr": "sagesse",
-      "en": "wisdom",
-      "es": "sabiduría"
+      "pt": "Nazaré",
+      "fr": "Nazareth",
+      "en": "Nazareth",
+      "es": "Nazaret"
     },
     "distractors": [
       {
-        "pt": "força",
-        "fr": "force",
-        "en": "strength",
-        "es": "fuerza"
+        "pt": "Belém",
+        "fr": "Bethléhem",
+        "en": "Bethlehem",
+        "es": "Bethlehem"
       },
       {
-        "pt": "riqueza",
-        "fr": "richesse",
-        "en": "riches",
-        "es": "riqueza"
+        "pt": "Samaria",
+        "fr": "Samarie",
+        "en": "Samaria",
+        "es": "Samaria"
       },
       {
-        "pt": "beleza",
-        "fr": "beauté",
-        "en": "beauty",
-        "es": "belleza"
+        "pt": "Cafarnaum",
+        "fr": "Capernaüm",
+        "en": "Capernaum",
+        "es": "Capernaum"
       }
     ]
   },

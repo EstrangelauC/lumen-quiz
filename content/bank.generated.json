@@ -3249,29 +3249,29 @@
     "level": "medium",
     "testament": "nt",
     "book": "MAT",
-    "chapter": 4,
-    "verse_start": 2,
-    "verse_end": 2,
+    "chapter": 2,
+    "verse_start": 13,
+    "verse_end": 13,
     "texts": {
       "pt": {
-        "prompt": "Quantos dias jejuou Jesus no deserto antes de ter fome?",
-        "bible_ref": "Mateus 4:2",
-        "verse_text": "E depois de jejuar quarenta dias e quarenta noites, teve fome."
+        "prompt": "Em sonho, para onde mandou o anjo José fugir com o menino e a sua mãe?",
+        "bible_ref": "Mateus 2:13",
+        "verse_text": "E tendo eles partido, eis que um anjo do Senhor apareceu a José em sonho, dizendo: Levanta-te, toma o menino e sua mãe, e foge para o Egito; e fica lá até que eu te diga, porque Herodes buscará o menino para o matar."
       },
       "fr": {
-        "prompt": "Combien de jours Jésus jeûna-t-il dans le désert avant d’avoir faim ?",
-        "bible_ref": "Matthieu 4:2",
-        "verse_text": "Après avoir jeûné quarante jours et quarante nuits, il eut faim."
+        "prompt": "En songe, où l’ange dit-il à Joseph de fuir avec l’enfant et sa mère ?",
+        "bible_ref": "Matthieu 2:13",
+        "verse_text": "Lorsqu’ils furent partis, voici, un ange du Seigneur apparut en songe à Joseph, et dit: Lève-toi, prends le petit enfant et sa mère, fuis en Égypte, et restes-y jusqu’à ce que je te parle; car Hérode cherchera le petit enfant pour le faire périr."
       },
       "en": {
-        "prompt": "How many days did Jesus fast in the wilderness before he was hungry?",
-        "bible_ref": "Matthew 4:2",
-        "verse_text": "And when he had fasted forty days and forty nights, he was afterward an hungred."
+        "prompt": "In a dream, where did the angel tell Joseph to flee with the young child and his mother?",
+        "bible_ref": "Matthew 2:13",
+        "verse_text": "And when they were departed, behold, the angel of the Lord appeareth to Joseph in a dream, saying, Arise, and take the young child and his mother, and flee into Egypt, and be thou there until I bring thee word: for Herod will seek the young child to destroy him."
       },
       "es": {
-        "prompt": "¿Cuántos días ayunó Jesús en el desierto antes de tener hambre?",
-        "bible_ref": "Mateo 4:2",
-        "verse_text": "Y habiendo ayunado cuarenta días y cuarenta noches, después tuvo hambre."
+        "prompt": "En sueños, ¿adónde mandó el ángel a José huir con el niño y su madre?",
+        "bible_ref": "Mateo 2:13",
+        "verse_text": "Y partidos ellos, he aquí el ángel del Señor aparece en sueños á José, diciendo: Levántate, y toma al niño y á su madre, y huye á Egipto, y estáte allá hasta que yo te lo diga; porque ha de acontecer, que Herodes buscará al niño para matarlo."
       }
     },
     "options": [
@@ -3280,16 +3280,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "Quarenta dias"
+            "text": "Para o Egito"
           },
           "fr": {
-            "text": "Quarante jours"
+            "text": "En Égypte"
           },
           "en": {
-            "text": "Forty days"
+            "text": "Into Egypt"
           },
           "es": {
-            "text": "Cuarenta días"
+            "text": "A Egipto"
           }
         }
       },
@@ -3298,16 +3298,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Sete dias"
+            "text": "Para Nazaré"
           },
           "fr": {
-            "text": "Sept jours"
+            "text": "À Nazareth"
           },
           "en": {
-            "text": "Seven days"
+            "text": "To Nazareth"
           },
           "es": {
-            "text": "Siete días"
+            "text": "A Nazaret"
           }
         }
       },
@@ -3316,16 +3316,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Doze dias"
+            "text": "Para a Samaria"
           },
           "fr": {
-            "text": "Douze jours"
+            "text": "En Samarie"
           },
           "en": {
-            "text": "Twelve days"
+            "text": "To Samaria"
           },
           "es": {
-            "text": "Doce días"
+            "text": "A Samaria"
           }
         }
       },
@@ -3334,16 +3334,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Três dias"
+            "text": "Para Cafarnaum"
           },
           "fr": {
-            "text": "Trois jours"
+            "text": "À Capernaüm"
           },
           "en": {
-            "text": "Three days"
+            "text": "To Capernaum"
           },
           "es": {
-            "text": "Tres días"
+            "text": "A Capernaum"
           }
         }
       }
@@ -3466,22 +3466,22 @@
     "verse_end": 7,
     "texts": {
       "pt": {
-        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "prompt": "Ordena estes episódios do Evangelho de Marcos pela ordem em que aparecem.",
         "bible_ref": "Marcos 11:7",
         "verse_text": null
       },
       "fr": {
-        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "prompt": "Mets ces épisodes de l’Évangile de Marc dans l’ordre où ils apparaissent.",
         "bible_ref": "Marc 11:7",
         "verse_text": null
       },
       "en": {
-        "prompt": "Put these episodes in the order they happened.",
+        "prompt": "Put these episodes from Mark in the order they appear.",
         "bible_ref": "Mark 11:7",
         "verse_text": null
       },
       "es": {
-        "prompt": "Ordena estos episodios según ocurrieron.",
+        "prompt": "Ordena estos episodios de Marcos según aparecen.",
         "bible_ref": "Marcos 11:7",
         "verse_text": null
       }
@@ -4086,16 +4086,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "oliveira"
+            "text": "azinheira"
           },
           "fr": {
-            "text": "olivier"
+            "text": "chêne"
           },
           "en": {
-            "text": "olive tree"
+            "text": "oak tree"
           },
           "es": {
-            "text": "oliva"
+            "text": "encina"
           }
         }
       },
@@ -4746,7 +4746,7 @@
             "text": "Juda"
           },
           "en": {
-            "text": "Judah"
+            "text": "Juda"
           },
           "es": {
             "text": "Judá"
@@ -6016,22 +6016,22 @@
     "verse_end": 39,
     "texts": {
       "pt": {
-        "prompt": "Ordena estes episódios pela ordem em que aconteceram.",
+        "prompt": "Ordena estes episódios do Evangelho de Marcos pela ordem em que aparecem.",
         "bible_ref": "Marcos 4:39",
         "verse_text": null
       },
       "fr": {
-        "prompt": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+        "prompt": "Mets ces épisodes de l’Évangile de Marc dans l’ordre où ils apparaissent.",
         "bible_ref": "Marc 4:39",
         "verse_text": null
       },
       "en": {
-        "prompt": "Put these episodes in the order they happened.",
+        "prompt": "Put these episodes from Mark in the order they appear.",
         "bible_ref": "Mark 4:39",
         "verse_text": null
       },
       "es": {
-        "prompt": "Ordena estos episodios según ocurrieron.",
+        "prompt": "Ordena estos episodios de Marcos según aparecen.",
         "bible_ref": "Marcos 4:39",
         "verse_text": null
       }
@@ -6132,30 +6132,30 @@
     "type": "verse",
     "level": "hard",
     "testament": "nt",
-    "book": "LUK",
-    "chapter": 2,
-    "verse_start": 52,
-    "verse_end": 52,
+    "book": "JHN",
+    "chapter": 1,
+    "verse_start": 46,
+    "verse_end": 46,
     "texts": {
       "pt": {
-        "prompt": "Jesus crescia em _____, em estatura, e em graça para com Deus e as pessoas.",
-        "bible_ref": "Lucas 2:52",
-        "verse_text": "Jesus crescia em sabedoria, em estatura, e em graça para com Deus e as pessoas."
+        "prompt": "E disse-lhe Natanael: Pode haver alguma coisa boa de _____? Filipe lhe disse: Vem, e vê.",
+        "bible_ref": "João 1:46",
+        "verse_text": "E disse-lhe Natanael: Pode haver alguma coisa boa de Nazaré? Filipe lhe disse: Vem, e vê."
       },
       "fr": {
-        "prompt": "Et Jésus croissait en _____, en stature, et en grâce, devant Dieu et devant les hommes.",
-        "bible_ref": "Luc 2:52",
-        "verse_text": "Et Jésus croissait en sagesse, en stature, et en grâce, devant Dieu et devant les hommes."
+        "prompt": "Nathanaël lui dit: Peut-il venir de _____ quelque chose de bon? Philippe lui répondit: Viens, et vois.",
+        "bible_ref": "Jean 1:46",
+        "verse_text": "Nathanaël lui dit: Peut-il venir de Nazareth quelque chose de bon? Philippe lui répondit: Viens, et vois."
       },
       "en": {
-        "prompt": "And Jesus increased in _____ and stature, and in favour with God and man.",
-        "bible_ref": "Luke 2:52",
-        "verse_text": "And Jesus increased in wisdom and stature, and in favour with God and man."
+        "prompt": "And Nathanael said unto him, Can there any good thing come out of _____? Philip saith unto him, Come and see.",
+        "bible_ref": "John 1:46",
+        "verse_text": "And Nathanael said unto him, Can there any good thing come out of Nazareth? Philip saith unto him, Come and see."
       },
       "es": {
-        "prompt": "Y Jesús crecía en _____, y en edad, y en gracia para con Dios y los hombres.",
-        "bible_ref": "Lucas 2:52",
-        "verse_text": "Y Jesús crecía en sabiduría, y en edad, y en gracia para con Dios y los hombres."
+        "prompt": "Y díjole Natanael: ¿De _____ puede haber algo de bueno? Dícele Felipe: Ven y ve.",
+        "bible_ref": "Juan 1:46",
+        "verse_text": "Y díjole Natanael: ¿De Nazaret puede haber algo de bueno? Dícele Felipe: Ven y ve."
       }
     },
     "options": [
@@ -6164,16 +6164,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "riqueza"
+            "text": "Samaria"
           },
           "fr": {
-            "text": "richesse"
+            "text": "Samarie"
           },
           "en": {
-            "text": "riches"
+            "text": "Samaria"
           },
           "es": {
-            "text": "riqueza"
+            "text": "Samaria"
           }
         }
       },
@@ -6182,16 +6182,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "beleza"
+            "text": "Cafarnaum"
           },
           "fr": {
-            "text": "beauté"
+            "text": "Capernaüm"
           },
           "en": {
-            "text": "beauty"
+            "text": "Capernaum"
           },
           "es": {
-            "text": "belleza"
+            "text": "Capernaum"
           }
         }
       },
@@ -6200,16 +6200,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "força"
+            "text": "Belém"
           },
           "fr": {
-            "text": "force"
+            "text": "Bethléhem"
           },
           "en": {
-            "text": "strength"
+            "text": "Bethlehem"
           },
           "es": {
-            "text": "fuerza"
+            "text": "Bethlehem"
           }
         }
       },
@@ -6218,16 +6218,16 @@
         "is_correct": true,
         "texts": {
           "pt": {
-            "text": "sabedoria"
+            "text": "Nazaré"
           },
           "fr": {
-            "text": "sagesse"
+            "text": "Nazareth"
           },
           "en": {
-            "text": "wisdom"
+            "text": "Nazareth"
           },
           "es": {
-            "text": "sabiduría"
+            "text": "Nazaret"
           }
         }
       }
