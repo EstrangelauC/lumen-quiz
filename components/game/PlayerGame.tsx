@@ -203,7 +203,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
       )}
 
       {/* Revelação */}
-      {status === 'reveal' && current && <RevealView question={current} myAnswer={myAnswer} ranking={ranking} />}
+      {status === 'reveal' && current && <RevealView question={current} myAnswer={myAnswer} ranking={ranking} locale={me.locale} />}
 
       {/* Fim */}
       {status === 'finished' && (
@@ -230,10 +230,12 @@ function RevealView({
   question,
   myAnswer,
   ranking,
+  locale,
 }: {
   question: CurrentQuestion;
   myAnswer: MyAnswer | null;
   ranking: { rank: number; total: number; score: number } | null;
+  locale: string;
 }) {
   const t = useTranslations('play');
   const correct = question.options.find((o) => o.is_correct);
@@ -269,11 +271,10 @@ function RevealView({
               </ol>
             </div>
           )}
-          {question.bible_ref && <p className="mt-3 text-sm text-white/70">📖 {question.bible_ref}</p>}
         </>
       ) : (
         <div className="mt-5 w-full max-w-md">
-          <VerseReveal reference={question.bible_ref} text={question.verse_text} size="sm" />
+          <VerseReveal reference={question.bible_ref} text={question.verse_text} size="sm" locale={locale} />
         </div>
       )}
       {ranking && <p className="mt-8 font-semibold">{t('rank', { rank: ranking.rank })}</p>}

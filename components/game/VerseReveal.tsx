@@ -1,11 +1,23 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { Fragment } from 'react';
+import { bibleSource } from '@/lib/bible-sources';
 
-/** Versículo mostrado na revelação, com a tradução usada numa linha pequena. */
-export default function VerseReveal({ reference, text, size }: { reference: string | null; text: string | null; size: 'lg' | 'sm' }) {
-  const t = useTranslations('bible');
+/**
+ * Versículo mostrado na revelação, com a tradução usada numa linha pequena.
+ * `locale` é a língua em que o versículo foi pedido (não necessariamente a da interface).
+ */
+export default function VerseReveal({
+  reference,
+  text,
+  size,
+  locale,
+}: {
+  reference: string | null;
+  text: string | null;
+  size: 'lg' | 'sm';
+  locale: string;
+}) {
   if (!text && !reference) return null;
   const lg = size === 'lg';
 
@@ -19,7 +31,7 @@ export default function VerseReveal({ reference, text, size }: { reference: stri
       {reference && (
         <figcaption className={`font-semibold text-gold ${text ? 'mt-2' : ''} ${lg ? 'text-lg' : 'text-sm'}`}>📖 {reference}</figcaption>
       )}
-      {text && <p className={`mt-1 text-white/50 ${lg ? 'text-xs' : 'text-[11px]'}`}>{t('source')}</p>}
+      {text && <p className={`mt-1 text-white/50 ${lg ? 'text-xs' : 'text-[11px]'}`}>{bibleSource(locale)}</p>}
     </figure>
   );
 }

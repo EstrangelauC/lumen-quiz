@@ -17,6 +17,7 @@ const LETTERS = 'ABCD';
 
 export default function HostGame({ sessionId, pin }: { sessionId: string; pin: string }) {
   const t = useTranslations('host');
+  const tc = useTranslations('common');
   const locale = useLocale();
   const supabase = useMemo(() => createClient(), []);
 
@@ -24,12 +25,17 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
   const [players, setPlayers] = useState<Player[]>([]);
   const [question, setQuestion] = useState<CurrentQuestion | null>(null);
   const [offset, setOffset] = useState(0);
-  const [answersCount, setAnswersCount] = useState(0);
+  // Ids das respostas à pergunta atual: um Set não conta duas vezes a mesma resposta
+  // (INSERT em tempo real + carga inicial) nem respostas de outra pergunta
+  const [answerIds, setAnswerIds] = useState<Set<string>>(() => new Set());
+  const answersCount = answerIds.size;
+  const currentQuestionId = useRef<string | null>(null);
   const [joinUrl, setJoinUrl] = useState('');
   const [copied, setCopied] = useState(false);
   const [busy, setBusy] = useState(false);
   const [reportedNow, setReportedNow] = useState<string | null>(null); // question_id reportada agora
   const [reporting, setReporting] = useState(false);
+  const [reportError, setReportError] = useState<string | null>(null); // question_id cuja reportação falhou
   const revealedFor = useRef<string | null>(null);
 
   useEffect(() => setJoinUrl(`${window.location.origin}/j/${pin}`), [pin]);
@@ -62,9 +68,12 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
       .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'players', filter: `session_id=eq.${sessionId}` }, () =>
         loadPlayers(),
       )
-      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'answers', filter: `session_id=eq.${sessionId}` }, () =>
-        setAnswersCount((c) => c + 1),
-      )
+      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'answers', filter: `session_id=eq.${sessionId}` }, (payload) => {
+        const row = payload.new as { id?: string; question_id?: string };
+        if (!row.id || !currentQuestionId.current || row.question_id !== currentQuestionId.current) return;
+        const id = row.id;
+        setAnswerIds((prev) => (prev.has(id) ? prev : new Set(prev).add(id)));
+      })
       .subscribe();
 
     return () => {
@@ -86,16 +95,26 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
       const { data } = await supabase.rpc('get_current_question', { p_session_id: sessionId, p_locale: locale });
       if (cancelled || !data) return;
       const q = data as CurrentQuestion;
-      const { count } = await supabase
+      // A partir daqui os INSERT em tempo real só contam para esta pergunta; os que chegarem
+      // durante a carga juntam-se ao Set sem duplicar os que a consulta também devolve
+      if (currentQuestionId.current !== q.question_id) {
+        currentQuestionId.current = q.question_id;
+        setAnswerIds(new Set());
+      }
+      const { data: rows } = await supabase
         .from('answers')
-        .select('id', { count: 'exact', head: true })
+        .select('id')
         .eq('session_id', sessionId)
         .eq('question_id', q.question_id);
       if (cancelled) return;
       // Pergunta e contagem mudam juntas: com a contagem da pergunta anterior
       // ("todos responderam") a revelação automática disparava logo
       setQuestion(q);
-      setAnswersCount(count ?? 0);
+      setAnswerIds((prev) => {
+        const next = new Set(prev);
+        for (const r of (rows as { id: string }[] | null) ?? []) next.add(r.id);
+        return next;
+      });
       setOffset(Date.parse(q.server_now) - Date.now());
       if (q.status === 'reveal') loadPlayers();
     })();
@@ -125,10 +144,13 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
 
   async function report() {
     if (!question || !confirm(t('confirmReport'))) return;
+    const qid = question.question_id;
     setReporting(true);
+    setReportError(null);
     const { error } = await supabase.rpc('report_question', { p_session_id: sessionId });
     setReporting(false);
-    if (!error) setReportedNow(question.question_id);
+    if (error) setReportError(qid);
+    else setReportedNow(qid);
   }
 
   async function share() {
@@ -259,8 +281,9 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
             {current.type === 'order' && status === 'question' && (
               <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-gold">{t('orderHint')}</p>
             )}
-            {/* Na revelação de choice/verse a referência aparece com o versículo */}
-            {current.bible_ref && (status === 'question' || current.type === 'order') && (
+            {/* Na revelação de choice/verse a referência aparece com o versículo; no ordenar
+                não há referência de pergunta (seria a do 1.º episódio): cada item mostra a sua na revelação */}
+            {current.bible_ref && status === 'question' && current.type !== 'order' && (
               <p className="mb-2 text-sm font-medium text-gold">📖 {current.bible_ref}</p>
             )}
             <h1 className="font-display mx-auto max-w-4xl text-3xl font-semibold leading-tight sm:text-5xl">
@@ -316,7 +339,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
 
           {status === 'reveal' && current.type !== 'order' && (
             <div className="mt-4">
-              <VerseReveal reference={current.bible_ref} text={current.verse_text} size="lg" />
+              <VerseReveal reference={current.bible_ref} text={current.verse_text} size="lg" locale={locale} />
             </div>
           )}
 
@@ -340,8 +363,13 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
                     disabled={reported || reporting}
                     className="rounded-lg px-3 py-1.5 text-sm font-semibold text-white/60 hover:bg-white/10 hover:text-white disabled:cursor-not-allowed disabled:hover:bg-transparent"
                   >
-                    {reported ? `✓ ${t('reported')}` : `⚑ ${t('report')}`}
+                    {reported ? `✓ ${t('reported')}` : reporting ? '…' : `⚑ ${t('report')}`}
                   </button>
+                  {reportError === current.question_id && !reported && (
+                    <p role="alert" className="text-sm text-rose-300">
+                      {tc('error')}
+                    </p>
+                  )}
                 </div>
               </>
             )}

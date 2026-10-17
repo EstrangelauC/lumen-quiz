@@ -259,7 +259,10 @@ for (let pos = 1; pos <= 5; pos++) {
     if (g.options.map(o => o.id).join() === row.c.join()) throw new Error('order mostrado na ordem certa');
     if (g.time_limit_s !== 35) throw new Error('tempo de order ' + g.time_limit_s);
     if (g.options.some(o => o.ref !== null)) throw new Error('ref de order antes da revelação');
+    if (g.bible_ref !== null) throw new Error('bible_ref de order antes da revelação ' + g.bible_ref);
+    if ((await cur(HOST, 'fr', false)).bible_ref !== null) throw new Error('bible_ref de order antes da revelação (anfitrião)');
   } else {
+    if (!g.bible_ref) throw new Error('bible_ref de ' + row.type + ' em falta durante a pergunta');
     if (g.time_limit_s !== 25) throw new Error('tempo ' + g.time_limit_s);
     if (g.options.some(o => o.ref !== null)) throw new Error('ref fora de order');
   }
@@ -350,6 +353,7 @@ for (let pos = 1; pos <= 5; pos++) {
     if (!r.correct_order || r.correct_order.length !== 4 || r.correct_order.join() !== row.c.join()) throw new Error('correct_order ' + JSON.stringify(r));
     if (r.verse_text !== null || r.options.some(o => o.is_correct !== null)) throw new Error('order em reveal');
     if (r.options.some(o => !o.ref)) throw new Error('order sem ref na revelação');
+    console.log('✓ order: bible_ref null durante a pergunta, refs por item na revelação');
   } else {
     const vt = (await one(`select verse_text from bank_question_texts where question_id = $1 and locale = 'fr'`, [row.question_id])).verse_text;
     if (!r.verse_text || r.verse_text !== vt) throw new Error('verse_text fr ' + r.verse_text);

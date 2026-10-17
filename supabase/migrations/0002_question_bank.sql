@@ -503,10 +503,11 @@ begin
     'started_at',   s.question_started_at,
     'server_now',   now(),
     'status',       s.status,
-    'bible_ref', coalesce(
+    -- No ordenar a referência da pergunta é a do 1.º episódio: daria a resposta antes da revelação
+    'bible_ref', case when q.type <> 'order' or v_reveal then coalesce(
       (select t.bible_ref from bank_question_texts t where t.question_id = q.id and t.locale = p_locale),
       (select t.bible_ref from bank_question_texts t where t.question_id = q.id and t.locale = 'pt')
-    ),
+    ) end,
     'text', coalesce(
       (select t.prompt from bank_question_texts t where t.question_id = q.id and t.locale = p_locale),
       (select t.prompt from bank_question_texts t where t.question_id = q.id and t.locale = 'pt')

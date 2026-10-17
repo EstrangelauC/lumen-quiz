@@ -8,11 +8,16 @@ export const DEFAULT_BIBLE_DIR = path.join(ROOT, 'data', 'bibles');
 
 export const DEFAULT_CORRECTIONS = path.join(ROOT, 'content', 'bible-corrections.json');
 
+// O mesmo diretório escrito de outra forma (relativo, com "/" final, "..") conta como o por omissão.
+export function isDefaultBibleDir(dir) {
+  return path.resolve(dir) === path.resolve(DEFAULT_BIBLE_DIR);
+}
+
 // Lê <dir>/<locale>.tsv (CÓDIGO\tcapítulo\tversículo\ttexto) para um Map "GEN 1:1" -> texto.
 // `corrections` (objeto { locale: { "GEN 1:1": texto } } ou caminho para um JSON) corrige gralhas
 // tipográficas da fonte; por omissão aplica content/bible-corrections.json só à Bíblia real
 // (dir por omissão), nunca a fixtures. Uma correção para um versículo inexistente é um erro.
-export function loadBible(locale, dir = DEFAULT_BIBLE_DIR, corrections = dir === DEFAULT_BIBLE_DIR ? DEFAULT_CORRECTIONS : null) {
+export function loadBible(locale, dir = DEFAULT_BIBLE_DIR, corrections = isDefaultBibleDir(dir) ? DEFAULT_CORRECTIONS : null) {
   const file = path.join(dir, `${locale}.tsv`);
   if (!fs.existsSync(file)) throw new Error(`Bíblia não encontrada: ${file} (corra npm run bibles:fetch)`);
   const bible = new Map();

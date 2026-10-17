@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import books from '../lib/bible-books.json' with { type: 'json' };
-import { loadBible, getPassage, formatRef } from './lib/bible.mjs';
+import fs from 'node:fs';
+import { loadBible, getPassage, formatRef, isDefaultBibleDir, DEFAULT_BIBLE_DIR, DEFAULT_CORRECTIONS } from './lib/bible.mjs';
 
 const fixtures = path.join(path.dirname(fileURLToPath(import.meta.url)), 'fixtures', 'bibles');
 const LOCALES = ['pt', 'fr', 'en', 'es'];
@@ -64,4 +65,27 @@ test('loadBible lança erro se a correção aponta para um versículo inexistent
 
 test('loadBible sem correções deixa as fixtures intactas', () => {
   for (const l of LOCALES) assert.equal(bibles[l].get('JHN 3:16'), loadBible(l, fixtures, null).get('JHN 3:16'));
+});
+
+test('isDefaultBibleDir reconhece o diretório por omissão escrito de outra forma', () => {
+  assert.ok(isDefaultBibleDir(DEFAULT_BIBLE_DIR));
+  assert.ok(isDefaultBibleDir(DEFAULT_BIBLE_DIR + path.sep));
+  assert.ok(isDefaultBibleDir(path.join(DEFAULT_BIBLE_DIR, '..', 'bibles')));
+  assert.ok(isDefaultBibleDir(path.relative(process.cwd(), DEFAULT_BIBLE_DIR) || '.'));
+  assert.ok(!isDefaultBibleDir(fixtures));
+});
+
+const realBible = fs.existsSync(path.join(DEFAULT_BIBLE_DIR, 'pt.tsv'));
+test('loadBible aplica as correções por omissão também com um caminho relativo para data/bibles', { skip: !realBible && 'data/bibles em falta (npm run bibles:fetch)' }, () => {
+  const all = JSON.parse(fs.readFileSync(DEFAULT_CORRECTIONS, 'utf8'));
+  const rel = path.relative(process.cwd(), DEFAULT_BIBLE_DIR) + path.sep;
+  let checked = 0;
+  for (const l of LOCALES) {
+    const entries = Object.entries(all[l] ?? {});
+    if (!entries.length) continue;
+    const bible = loadBible(l, rel);
+    for (const [key, text] of entries) assert.equal(bible.get(key), text);
+    checked++;
+  }
+  assert.ok(checked > 0, 'content/bible-corrections.json sem correções para testar');
 });
