@@ -90,9 +90,24 @@
   },
   "discover": {
     "title": "Descubrir",
-    "subtitle": "Quizzes públicos, listos para jugar.",
-    "all": "Todos",
-    "empty": "Aún no hay quizzes públicos en este idioma."
+    "subtitle": "Explora el banco de preguntas por nivel y libro de la Biblia, con las respuestas a la vista, para estudiar.",
+    "allLevels": "Todos los niveles",
+    "allBooks": "Todos los libros",
+    "book": "Libro",
+    "easy": "Fácil",
+    "medium": "Medio",
+    "hard": "Difícil",
+    "choice": "Elección",
+    "order": "Ordenar",
+    "verse": "Versículo",
+    "answer": "Respuesta",
+    "correctOrder": "Orden correcto",
+    "missingWord": "Palabra que falta",
+    "empty": "No hay preguntas con estos filtros.",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "pageOf": "Página {page} de {total}",
+    "count": "{count} preguntas"
   },
   "settings": {
     "title": "Ajustes",

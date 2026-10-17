@@ -90,9 +90,24 @@
   },
   "discover": {
     "title": "Discover",
-    "subtitle": "Public quizzes, ready to play.",
-    "all": "All",
-    "empty": "No public quizzes in this language yet."
+    "subtitle": "Browse the question bank by level and Bible book, with answers shown, to study.",
+    "allLevels": "All levels",
+    "allBooks": "All books",
+    "book": "Book",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "choice": "Choice",
+    "order": "Order",
+    "verse": "Verse",
+    "answer": "Answer",
+    "correctOrder": "Correct order",
+    "missingWord": "Missing word",
+    "empty": "No questions match these filters.",
+    "prev": "Previous",
+    "next": "Next",
+    "pageOf": "Page {page} of {total}",
+    "count": "{count} questions"
   },
   "settings": {
     "title": "Settings",
