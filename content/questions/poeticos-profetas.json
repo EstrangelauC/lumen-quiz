@@ -241,7 +241,7 @@
           "pt": "Jerusalém",
           "fr": "Jérusalem",
           "en": "Jerusalem",
-          "es": "Jerusalén"
+          "es": "Jerusalem"
         }
       },
       {
@@ -259,7 +259,7 @@
           "pt": "Belém",
           "fr": "Bethléhem",
           "en": "Bethlehem",
-          "es": "Belén"
+          "es": "Beth-lehem"
         }
       }
     ]
@@ -391,7 +391,7 @@
           "pt": "Emanuel",
           "fr": "Emmanuel",
           "en": "Immanuel",
-          "es": "Emanuel"
+          "es": "Emmanuel"
         }
       },
       {
@@ -515,7 +515,7 @@
           "pt": "Ezequias",
           "fr": "Ézéchias",
           "en": "Hezekiah",
-          "es": "Ezequías"
+          "es": "Ezechîas"
         }
       },
       {
@@ -1614,7 +1614,7 @@
       "pt": "Sobre que cidade é a profecia do livro de Naum?",
       "fr": "Sur quelle ville porte la prophétie du livre de Nahum ?",
       "en": "Which city is the burden of the book of Nahum about?",
-      "es": "¿Sobre qué ciudad es la profecía del libro de Nahúm?"
+      "es": "¿Sobre qué ciudad es la profecía del libro de Nahum?"
     },
     "options": [
       {
@@ -2060,7 +2060,7 @@
           "pt": "Elifaz",
           "fr": "Éliphaz",
           "en": "Eliphaz",
-          "es": "Elifaz"
+          "es": "Eliphaz"
         }
       },
       {
@@ -2078,7 +2078,7 @@
           "pt": "Zofar",
           "fr": "Tsophar",
           "en": "Zophar",
-          "es": "Zofar"
+          "es": "Sophar"
         }
       },
       {
@@ -2131,13 +2131,13 @@
           "pt": "Sadraque",
           "fr": "Schadrac",
           "en": "Shadrach",
-          "es": "Sadrac"
+          "es": "Sadrach"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Abede-Nego",
+          "pt": "Abednego",
           "fr": "Abed-Nego",
           "en": "Abed-nego",
           "es": "Abed-nego"
@@ -2175,25 +2175,25 @@
           "pt": "Mical, filha de Saul",
           "fr": "Mical, fille de Saül",
           "en": "Michal, the daughter of Saul",
-          "es": "Mical, hija de Saúl"
+          "es": "Michâl, hija de Saúl"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Orpa, a moabita",
+          "pt": "Orfa, a moabita",
           "fr": "Orpa, la Moabite",
           "en": "Orpah, the Moabitess",
-          "es": "Orfa, la moabita"
+          "es": "Orpha, la moabita"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Abigail, a carmelita",
-          "fr": "Abigaïl, la Carmélite",
-          "en": "Abigail, the Carmelitess",
-          "es": "Abigail, la de Carmel"
+          "pt": "Abigail, mulher de Nabal",
+          "fr": "Abigaïl, femme de Nabal",
+          "en": "Abigail, Nabal’s wife",
+          "es": "Abigail, mujer de Nabal"
         }
       }
     ]
@@ -2296,8 +2296,8 @@
       {
         "correct": false,
         "text": {
-          "pt": "Filístia",
-          "fr": "Philistie",
+          "pt": "Filisteia",
+          "fr": "Le pays des Philistins",
           "en": "Philistia",
           "es": "Filistea"
         }
@@ -2343,7 +2343,7 @@
           "pt": "Uzias",
           "fr": "Ozias",
           "en": "Uzziah",
-          "es": "Uzías"
+          "es": "Uzzías"
         }
       },
       {
@@ -2352,7 +2352,7 @@
           "pt": "Acaz",
           "fr": "Achaz",
           "en": "Ahaz",
-          "es": "Acaz"
+          "es": "Achâz"
         }
       }
     ]
@@ -2369,7 +2369,7 @@
       "pt": "Quem era o governador de Judá a quem foi dirigida a palavra do SENHOR por meio de Ageu?",
       "fr": "Qui était le gouverneur de Juda à qui fut adressée la parole de l’Éternel par Aggée ?",
       "en": "Who was the governor of Judah to whom the word of the LORD came by Haggai?",
-      "es": "¿Quién era el gobernador de Judá a quien vino la palabra de Jehová por medio de Hageo?"
+      "es": "¿Quién era el gobernador de Judá a quien vino la palabra de Jehová por medio de Haggeo?"
     },
     "options": [
       {
@@ -2431,7 +2431,7 @@
           "pt": "Quebar",
           "fr": "Kebar",
           "en": "Chebar",
-          "es": "Quebar"
+          "es": "Chebar"
         }
       },
       {
@@ -2449,16 +2449,16 @@
           "pt": "Eufrates",
           "fr": "Euphrate",
           "en": "Euphrates",
-          "es": "Éufrates"
+          "es": "Eufrates"
         }
       },
       {
         "correct": false,
         "text": {
-          "pt": "Nilo",
-          "fr": "Nil",
-          "en": "Nile",
-          "es": "Nilo"
+          "pt": "Quisom",
+          "fr": "Kison",
+          "en": "Kishon",
+          "es": "Cisón"
         }
       }
     ]
@@ -2493,7 +2493,7 @@
           "pt": "Baruque",
           "fr": "Baruc",
           "en": "Baruch",
-          "es": "Baruc"
+          "es": "Baruch"
         }
       },
       {
@@ -2511,7 +2511,7 @@
           "pt": "Pasur",
           "fr": "Paschhur",
           "en": "Pashur",
-          "es": "Pasur"
+          "es": "Pashur"
         }
       }
     ]
@@ -2564,7 +2564,7 @@
           "pt": "Ezequias",
           "fr": "Ézéchias",
           "en": "Hezekiah",
-          "es": "Ezequías"
+          "es": "Ezechîas"
         }
       }
     ]
@@ -2713,7 +2713,7 @@
       {
         "book": "DAN",
         "chapter": 9,
-        "verse_start": 2,
+        "verse_start": 1,
         "verse_end": 2,
         "text": {
           "pt": "Daniel lê sobre os 70 anos de Jeremias",
@@ -2890,7 +2890,7 @@
           "pt": "Naum",
           "fr": "Nahum",
           "en": "Nahum",
-          "es": "Nahúm"
+          "es": "Nahum"
         }
       },
       {

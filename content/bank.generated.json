@@ -13591,7 +13591,7 @@
             "text": "Jerusalem"
           },
           "es": {
-            "text": "Jerusalén"
+            "text": "Jerusalem"
           }
         }
       },
@@ -13627,7 +13627,7 @@
             "text": "Bethlehem"
           },
           "es": {
-            "text": "Belén"
+            "text": "Beth-lehem"
           }
         }
       }
@@ -13891,7 +13891,7 @@
             "text": "Immanuel"
           },
           "es": {
-            "text": "Emanuel"
+            "text": "Emmanuel"
           }
         }
       },
@@ -14139,7 +14139,7 @@
             "text": "Hezekiah"
           },
           "es": {
-            "text": "Ezequías"
+            "text": "Ezechîas"
           }
         }
       },
@@ -16479,7 +16479,7 @@
         "verse_text": "The burden of Nineveh. The book of the vision of Nahum the Elkoshite."
       },
       "es": {
-        "prompt": "¿Sobre qué ciudad es la profecía del libro de Nahúm?",
+        "prompt": "¿Sobre qué ciudad es la profecía del libro de Nahum?",
         "bible_ref": "Nahúm 1:1",
         "verse_text": "CARGA de Nínive. Libro de la visión de Nahum de El-kosh."
       }
@@ -17517,7 +17517,7 @@
             "text": "Eliphaz"
           },
           "es": {
-            "text": "Elifaz"
+            "text": "Eliphaz"
           }
         }
       },
@@ -17553,7 +17553,7 @@
             "text": "Zophar"
           },
           "es": {
-            "text": "Zofar"
+            "text": "Sophar"
           }
         }
       },
@@ -17659,7 +17659,7 @@
             "text": "Shadrach"
           },
           "es": {
-            "text": "Sadrac"
+            "text": "Sadrach"
           }
         }
       },
@@ -17668,7 +17668,7 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Abede-Nego"
+            "text": "Abednego"
           },
           "fr": {
             "text": "Abed-Nego"
@@ -17747,7 +17747,7 @@
             "text": "Michal, the daughter of Saul"
           },
           "es": {
-            "text": "Mical, hija de Saúl"
+            "text": "Michâl, hija de Saúl"
           }
         }
       },
@@ -17756,7 +17756,7 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Orpa, a moabita"
+            "text": "Orfa, a moabita"
           },
           "fr": {
             "text": "Orpa, la Moabite"
@@ -17765,7 +17765,7 @@
             "text": "Orpah, the Moabitess"
           },
           "es": {
-            "text": "Orfa, la moabita"
+            "text": "Orpha, la moabita"
           }
         }
       },
@@ -17774,16 +17774,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Abigail, a carmelita"
+            "text": "Abigail, mulher de Nabal"
           },
           "fr": {
-            "text": "Abigaïl, la Carmélite"
+            "text": "Abigaïl, femme de Nabal"
           },
           "en": {
-            "text": "Abigail, the Carmelitess"
+            "text": "Abigail, Nabal’s wife"
           },
           "es": {
-            "text": "Abigail, la de Carmel"
+            "text": "Abigail, mujer de Nabal"
           }
         }
       }
@@ -17986,10 +17986,10 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Filístia"
+            "text": "Filisteia"
           },
           "fr": {
-            "text": "Philistie"
+            "text": "Le pays des Philistins"
           },
           "en": {
             "text": "Philistia"
@@ -18083,7 +18083,7 @@
             "text": "Uzziah"
           },
           "es": {
-            "text": "Uzías"
+            "text": "Uzzías"
           }
         }
       },
@@ -18101,7 +18101,7 @@
             "text": "Ahaz"
           },
           "es": {
-            "text": "Acaz"
+            "text": "Achâz"
           }
         }
       }
@@ -18133,7 +18133,7 @@
         "verse_text": "In the second year of Darius the king, in the sixth month, in the first day of the month, came the word of the LORD by Haggai the prophet unto Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Josedech, the high priest, saying,"
       },
       "es": {
-        "prompt": "¿Quién era el gobernador de Judá a quien vino la palabra de Jehová por medio de Hageo?",
+        "prompt": "¿Quién era el gobernador de Judá a quien vino la palabra de Jehová por medio de Haggeo?",
         "bible_ref": "Hageo 1:1",
         "verse_text": "EN el año segundo del rey Darío en el mes sexto, en el primer día del mes, fué palabra de Jehová, por mano del profeta Haggeo, á Zorobabel hijo de Sealtiel, gobernador de Judá, y á Josué hijo de Josadac, gran sacerdote, diciendo:"
       }
@@ -18259,7 +18259,7 @@
             "text": "Chebar"
           },
           "es": {
-            "text": "Quebar"
+            "text": "Chebar"
           }
         }
       },
@@ -18295,7 +18295,7 @@
             "text": "Euphrates"
           },
           "es": {
-            "text": "Éufrates"
+            "text": "Eufrates"
           }
         }
       },
@@ -18304,16 +18304,16 @@
         "is_correct": false,
         "texts": {
           "pt": {
-            "text": "Nilo"
+            "text": "Quisom"
           },
           "fr": {
-            "text": "Nil"
+            "text": "Kison"
           },
           "en": {
-            "text": "Nile"
+            "text": "Kishon"
           },
           "es": {
-            "text": "Nilo"
+            "text": "Cisón"
           }
         }
       }
@@ -18383,7 +18383,7 @@
             "text": "Baruch"
           },
           "es": {
-            "text": "Baruc"
+            "text": "Baruch"
           }
         }
       },
@@ -18419,7 +18419,7 @@
             "text": "Pashur"
           },
           "es": {
-            "text": "Pasur"
+            "text": "Pashur"
           }
         }
       }
@@ -18525,7 +18525,7 @@
             "text": "Hezekiah"
           },
           "es": {
-            "text": "Ezequías"
+            "text": "Ezechîas"
           }
         }
       }
@@ -18825,19 +18825,19 @@
         "texts": {
           "pt": {
             "text": "Daniel lê sobre os 70 anos de Jeremias",
-            "ref": "Daniel 9:2"
+            "ref": "Daniel 9:1-2"
           },
           "fr": {
             "text": "Daniel lit les 70 ans annoncés à Jérémie",
-            "ref": "Daniel 9:2"
+            "ref": "Daniel 9:1-2"
           },
           "en": {
             "text": "Daniel reads of Jeremiah’s 70 years",
-            "ref": "Daniel 9:2"
+            "ref": "Daniel 9:1-2"
           },
           "es": {
             "text": "Daniel lee sobre los 70 años de Jeremías",
-            "ref": "Daniel 9:2"
+            "ref": "Daniel 9:1-2"
           }
         }
       },
@@ -19180,7 +19180,7 @@
             "ref": "Nahum 1:1"
           },
           "es": {
-            "text": "Nahúm",
+            "text": "Nahum",
             "ref": "Nahúm 1:1"
           }
         }
