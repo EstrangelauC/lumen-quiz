@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import books from '../lib/bible-books.json' with { type: 'json' };
 import fs from 'node:fs';
+import os from 'node:os';
 import { loadBible, getPassage, formatRef, isDefaultBibleDir, DEFAULT_BIBLE_DIR, DEFAULT_CORRECTIONS } from './lib/bible.mjs';
 
 const fixtures = path.join(path.dirname(fileURLToPath(import.meta.url)), 'fixtures', 'bibles');
@@ -88,4 +89,33 @@ test('loadBible aplica as correções por omissão também com um caminho relati
     checked++;
   }
   assert.ok(checked > 0, 'content/bible-corrections.json sem correções para testar');
+});
+
+test('loadBible (es) repõe a caixa normal nas maiúsculas de início de capítulo', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'es-bible-'));
+  fs.writeFileSync(
+    path.join(dir, 'es.tsv'),
+    [
+      'JOS\t2\t1\tY JOSUÉ, hijo de Nun, envió dos espías.',
+      'JOS\t2\t2\tY había allí Josué y Josué habló.',
+      'ACT\t5\t1\tMAS un varón llamado Ananías.',
+      'EPH\t6\t1\tHIJOS, obedeced en el Señor.',
+      'EPH\t6\t2\tY habló Jehová: honra a tu padre.',
+      'GEN\t1\t1\tEN el principio crió Dios los cielos.',
+      'GEN\t1\t2\tY la tierra estaba desordenada y vacía, y A medias.',
+    ].join('\n') + '\n',
+  );
+  const es = loadBible('es', dir, null);
+  assert.equal(es.get('JOS 2:1'), 'Y Josué, hijo de Nun, envió dos espías.');
+  assert.equal(es.get('ACT 5:1'), 'Mas un varón llamado Ananías.');
+  assert.equal(es.get('EPH 6:1'), 'Hijos, obedeced en el Señor.');
+  assert.equal(es.get('GEN 1:1'), 'En el principio crió Dios los cielos.');
+  // Uma só letra maiúscula no início não é capitular: fica igual
+  assert.equal(es.get('GEN 1:2'), 'Y la tierra estaba desordenada y vacía, y A medias.');
+});
+
+test('loadBible não mexe em SENHOR / LORD (pt, en)', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'pt-bible-'));
+  fs.writeFileSync(path.join(dir, 'pt.tsv'), 'NUM\t6\t24\tO SENHOR te abençoe, e te guarde;\n');
+  assert.equal(loadBible('pt', dir, null).get('NUM 6:24'), 'O SENHOR te abençoe, e te guarde;');
 });

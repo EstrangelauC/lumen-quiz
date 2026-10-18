@@ -26,6 +26,7 @@ export function loadBible(locale, dir = DEFAULT_BIBLE_DIR, corrections = isDefau
     const [book, chapter, verse, ...rest] = line.split('\t');
     bible.set(`${book} ${Number(chapter)}:${Number(verse)}`, rest.join('\t'));
   }
+  if (locale === 'es') fixDropCaps(bible);
   if (corrections) {
     const all = typeof corrections === 'string' ? JSON.parse(fs.readFileSync(corrections, 'utf8')) : corrections;
     for (const [key, text] of Object.entries(all[locale] ?? {})) {
@@ -34,6 +35,32 @@ export function loadBible(locale, dir = DEFAULT_BIBLE_DIR, corrections = isDefau
     }
   }
   return bible;
+}
+
+// A Reina-Valera 1909 escreve em maiúsculas a(s) primeira(s) palavra(s) de cada capítulo
+// ("Y HABÍA un varón", "HIJOS, obedeced"). Repõe a caixa normal: cada palavra fica na forma
+// (minúscula ou nome próprio) mais frequente no resto da Bíblia, e a primeira leva maiúscula.
+const CAPS_WORD = /^[A-ZÁÉÍÓÚÑÜ]+$/;
+function fixDropCaps(bible) {
+  const freq = new Map();
+  for (const text of bible.values()) {
+    for (const w of text.match(/\p{L}+/gu) ?? []) freq.set(w, (freq.get(w) ?? 0) + 1);
+  }
+  for (const [key, text] of bible) {
+    const words = text.split(' ');
+    let n = 0;
+    while (n < words.length && CAPS_WORD.test(words[n].replace(/[^\p{L}]/gu, '')) && words[n].replace(/[^\p{L}]/gu, '')) n++;
+    if (!words.slice(0, n).some((w) => w.replace(/[^\p{L}]/gu, '').length > 1)) continue;
+    for (let i = 0; i < n; i++) {
+      words[i] = words[i].replace(/\p{L}+/gu, (w) => {
+        const lower = w.toLowerCase();
+        const title = lower[0].toUpperCase() + lower.slice(1);
+        const word = (freq.get(title) ?? 0) > (freq.get(lower) ?? 0) ? title : lower;
+        return i === 0 ? word[0].toUpperCase() + word.slice(1) : word;
+      });
+    }
+    bible.set(key, words.join(' '));
+  }
 }
 
 // Versículos de verse_start a verse_end (inclusive) unidos por espaço; null se faltar algum.

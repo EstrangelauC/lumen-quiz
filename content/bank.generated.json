@@ -1997,9 +1997,9 @@
         "verse_text": "Children, obey your parents in the Lord: for this is right."
       },
       "es": {
-        "prompt": "HIJOS, obedeced en el Señor á vuestros _____; porque esto es justo.",
+        "prompt": "Hijos, obedeced en el Señor á vuestros _____; porque esto es justo.",
         "bible_ref": "Efesios 6:1",
-        "verse_text": "HIJOS, obedeced en el Señor á vuestros padres; porque esto es justo."
+        "verse_text": "Hijos, obedeced en el Señor á vuestros padres; porque esto es justo."
       }
     },
     "options": [
@@ -2317,7 +2317,7 @@
       "es": {
         "prompt": "¿Cómo se llamaba la mujer de Ananías, que vendió con él una posesión?",
         "bible_ref": "Hechos 5:1",
-        "verse_text": "MAS un varón llamado Ananías, con Safira su mujer, vendió una posesión,"
+        "verse_text": "Mas un varón llamado Ananías, con Safira su mujer, vendió una posesión,"
       }
     },
     "options": [
@@ -2635,7 +2635,7 @@
       "es": {
         "prompt": "¿Qué era Cornelio, el varón de Cesarea?",
         "bible_ref": "Hechos 10:1",
-        "verse_text": "Y HABÍA un varón en Cesarea llamado Cornelio, centurión de la compañía que se llamaba la Italiana,"
+        "verse_text": "Y había un varón en Cesarea llamado Cornelio, centurión de la compañía que se llamaba la Italiana,"
       }
     },
     "options": [
@@ -3969,9 +3969,9 @@
         "verse_text": "Now faith is the substance of things hoped for, the evidence of things not seen."
       },
       "es": {
-        "prompt": "ES pues la _____ la sustancia de las cosas que se esperan, la demostración de las cosas que no se ven.",
+        "prompt": "Es pues la _____ la sustancia de las cosas que se esperan, la demostración de las cosas que no se ven.",
         "bible_ref": "Hebreos 11:1",
-        "verse_text": "ES pues la fe la sustancia de las cosas que se esperan, la demostración de las cosas que no se ven."
+        "verse_text": "Es pues la fe la sustancia de las cosas que se esperan, la demostración de las cosas que no se ven."
       }
     },
     "options": [
@@ -5031,7 +5031,7 @@
       "es": {
         "prompt": "¿A quién va dirigida la tercera epístola de Juan?",
         "bible_ref": "3 Juan 1:1",
-        "verse_text": "EL anciano al muy amado Gaio, al cual yo amo en verdad."
+        "verse_text": "El anciano al muy amado Gaio, al cual yo amo en verdad."
       }
     },
     "options": [
@@ -5455,7 +5455,7 @@
       "es": {
         "prompt": "En la segunda epístola de Juan, ¿qué palabra usa el anciano para la señora a quien escribe?",
         "bible_ref": "2 Juan 1:1",
-        "verse_text": "EL anciano á la señora elegida y á sus hijos, á los cuales yo amo en verdad; y no yo solo, sino también todos los que han conocido la verdad,"
+        "verse_text": "El anciano á la señora elegida y á sus hijos, á los cuales yo amo en verdad; y no yo solo, sino también todos los que han conocido la verdad,"
       }
     },
     "options": [
@@ -6579,7 +6579,7 @@
       "es": {
         "prompt": "¿En qué ciudad nació Jesús?",
         "bible_ref": "Mateo 2:1",
-        "verse_text": "Y COMO fué nacido Jesús en Bethlehem de Judea en días del rey Herodes, he aquí unos magos vinieron del oriente á Jerusalem,"
+        "verse_text": "Y como fué nacido Jesús en Bethlehem de Judea en días del rey Herodes, he aquí unos magos vinieron del oriente á Jerusalem,"
       }
     },
     "options": [
@@ -9293,7 +9293,7 @@
       "es": {
         "prompt": "¿Qué fariseo, príncipe de los judíos, vino a Jesús de noche?",
         "bible_ref": "Juan 3:1-2",
-        "verse_text": "Y HABÍA un hombre de los Fariseos que se llamaba Nicodemo, príncipe de los Judíos. Este vino á Jesús de noche, y díjole: Rabbí, sabemos que has venido de Dios por maestro; porque nadie puede hacer estas señales que tú haces, si no fuere Dios con él."
+        "verse_text": "Y había un hombre de los Fariseos que se llamaba Nicodemo, príncipe de los Judíos. Este vino á Jesús de noche, y díjole: Rabbí, sabemos que has venido de Dios por maestro; porque nadie puede hacer estas señales que tú haces, si no fuere Dios con él."
       }
     },
     "options": [
@@ -9505,7 +9505,7 @@
       "es": {
         "prompt": "¿En qué aldea vivían Lázaro y sus hermanas María y Marta?",
         "bible_ref": "Juan 11:1",
-        "verse_text": "ESTABA entonces enfermo uno llamado Lázaro, de Bethania, la aldea de María y de Marta su hermana."
+        "verse_text": "Estaba entonces enfermo uno llamado Lázaro, de Bethania, la aldea de María y de Marta su hermana."
       }
     },
     "options": [
@@ -11477,7 +11477,7 @@
       "es": {
         "prompt": "Lucas fecha el comienzo de la predicación de Juan el Bautista. ¿En qué año del imperio de Tiberio César?",
         "bible_ref": "Lucas 3:1",
-        "verse_text": "Y EN el año quince del imperio de Tiberio César, siendo gobernador de Judea Poncio Pilato, y Herodes tetrarca de Galilea, y su hermano Felipe tetrarca de Iturea y de la provincia de Traconite, y Lisanias tetrarca de Abilinia,"
+        "verse_text": "Y en el año quince del imperio de Tiberio César, siendo gobernador de Judea Poncio Pilato, y Herodes tetrarca de Galilea, y su hermano Felipe tetrarca de Iturea y de la provincia de Traconite, y Lisanias tetrarca de Abilinia,"
       }
     },
     "options": [
@@ -13237,7 +13237,7 @@
       "es": {
         "prompt": "¿En casa de qué mujer se quedaron los dos espías que Josué envió a Jericó?",
         "bible_ref": "Josué 2:1",
-        "verse_text": "Y JOSUÉ, hijo de Nun, envió desde Sittim dos espías secretamente, diciéndoles: Andad, reconoced la tierra, y á Jericó. Los cuales fueron, y entráronse en casa de una mujer ramera que se llamaba Rahab, y posaron allí."
+        "verse_text": "Y Josué, hijo de Nun, envió desde Sittim dos espías secretamente, diciéndoles: Andad, reconoced la tierra, y á Jericó. Los cuales fueron, y entráronse en casa de una mujer ramera que se llamaba Rahab, y posaron allí."
       }
     },
     "options": [
@@ -16481,7 +16481,7 @@
       "es": {
         "prompt": "Cuando Salomón acabó de orar, descendió fuego del cielo. ¿Qué consumió ese fuego?",
         "bible_ref": "2 Crónicas 7:1",
-        "verse_text": "Y COMO Salomón acabó de orar, el fuego descendió de los cielos, y consumió el holocausto y las víctimas; y la gloria de Jehová hinchió la casa."
+        "verse_text": "Y como Salomón acabó de orar, el fuego descendió de los cielos, y consumió el holocausto y las víctimas; y la gloria de Jehová hinchió la casa."
       }
     },
     "options": [
@@ -19895,7 +19895,7 @@
       "es": {
         "prompt": "¿Qué animal habló con Eva en el huerto?",
         "bible_ref": "Génesis 3:1",
-        "verse_text": "EMPERO la serpiente era astuta, más que todos los animales del campo que Jehová Dios había hecho; la cual dijo á la mujer: ¿Conque Dios os ha dicho: No comáis de todo árbol del huerto?"
+        "verse_text": "Empero la serpiente era astuta, más que todos los animales del campo que Jehová Dios había hecho; la cual dijo á la mujer: ¿Conque Dios os ha dicho: No comáis de todo árbol del huerto?"
       }
     },
     "options": [
@@ -23033,7 +23033,7 @@
       "es": {
         "prompt": "¿Desde qué monte vio Moisés la tierra prometida antes de morir?",
         "bible_ref": "Deuteronomio 34:1",
-        "verse_text": "Y SUBIÓ Moisés de los campos de Moab al monte de Nebo, á la cumbre de Pisga, que está enfrente de Jericó: y mostróle Jehová toda la tierra de Galaad hasta Dan,"
+        "verse_text": "Y subió Moisés de los campos de Moab al monte de Nebo, á la cumbre de Pisga, que está enfrente de Jericó: y mostróle Jehová toda la tierra de Galaad hasta Dan,"
       }
     },
     "options": [
@@ -24793,7 +24793,7 @@
       "es": {
         "prompt": "¿Qué hijos de Aarón ofrecieron fuego extraño delante de Jehová y murieron?",
         "bible_ref": "Levítico 10:1-2",
-        "verse_text": "Y LOS hijos de Aarón, Nadab y Abiú, tomaron cada uno su incensario, y pusieron fuego en ellos, sobre el cual pusieron perfume, y ofrecieron delante de Jehová fuego extraño, que él nunca les mandó. Y salió fuego de delante de Jehová que los quemó, y murieron delante de Jehová."
+        "verse_text": "Y los hijos de Aarón, Nadab y Abiú, tomaron cada uno su incensario, y pusieron fuego en ellos, sobre el cual pusieron perfume, y ofrecieron delante de Jehová fuego extraño, que él nunca les mandó. Y salió fuego de delante de Jehová que los quemó, y murieron delante de Jehová."
       }
     },
     "options": [
@@ -26765,7 +26765,7 @@
       "es": {
         "prompt": "¿En el vientre de qué animal estuvo Jonás?",
         "bible_ref": "Jonás 2:1",
-        "verse_text": "MAS Jehová había prevenido un gran pez que tragase á Jonás: y estuvo Jonás en el vientre del pez tres días y tres noches."
+        "verse_text": "Mas Jehová había prevenido un gran pez que tragase á Jonás: y estuvo Jonás en el vientre del pez tres días y tres noches."
       }
     },
     "options": [
@@ -27189,7 +27189,7 @@
       "es": {
         "prompt": "¿De qué rey, hijo de David, son los proverbios del libro de Proverbios?",
         "bible_ref": "Proverbios 1:1",
-        "verse_text": "LOS proverbios de Salomón, hijo de David, rey de Israel:"
+        "verse_text": "Los proverbios de Salomón, hijo de David, rey de Israel:"
       }
     },
     "options": [
@@ -27295,7 +27295,7 @@
       "es": {
         "prompt": "Según Eclesiastés, ¿qué hay para todo lo que se quiere debajo del cielo?",
         "bible_ref": "Eclesiastés 3:1",
-        "verse_text": "PARA todas las cosas hay sazón, y todo lo que se quiere debajo del cielo, tiene su tiempo:"
+        "verse_text": "Para todas las cosas hay sazón, y todo lo que se quiere debajo del cielo, tiene su tiempo:"
       }
     },
     "options": [
@@ -28525,7 +28525,7 @@
       "es": {
         "prompt": "¿Desde dónde respondió Jehová a Job?",
         "bible_ref": "Job 38:1",
-        "verse_text": "Y RESPONDIÓ Jehová á Job desde un torbellino, y dijo:"
+        "verse_text": "Y respondió Jehová á Job desde un torbellino, y dijo:"
       }
     },
     "options": [
@@ -29161,7 +29161,7 @@
       "es": {
         "prompt": "¿De qué estaba lleno el valle donde Jehová puso a Ezequiel?",
         "bible_ref": "Ezequiel 37:1",
-        "verse_text": "Y LA mano de Jehová fué sobre mí, y sacóme en espíritu de Jehová, y púsome en medio de un campo que estaba lleno de huesos."
+        "verse_text": "Y la mano de Jehová fué sobre mí, y sacóme en espíritu de Jehová, y púsome en medio de un campo que estaba lleno de huesos."
       }
     },
     "options": [
@@ -29585,7 +29585,7 @@
       "es": {
         "prompt": "¿Sobre qué ciudad es la profecía del libro de Nahum?",
         "bible_ref": "Nahúm 1:1",
-        "verse_text": "CARGA de Nínive. Libro de la visión de Nahum de El-kosh."
+        "verse_text": "Carga de Nínive. Libro de la visión de Nahum de El-kosh."
       }
     },
     "options": [
@@ -31027,7 +31027,7 @@
       "es": {
         "prompt": "¿Sobre qué pueblo es la visión de Abdías?",
         "bible_ref": "Abdías 1:1",
-        "verse_text": "VISIÓN de Abdías. El Señor Jehová ha dicho así cuanto á Edom: Oído hemos el pregón de Jehová, y mensajero es enviado á las gentes. Levantaos, y levantémonos contra ella en batalla."
+        "verse_text": "Visión de Abdías. El Señor Jehová ha dicho así cuanto á Edom: Oído hemos el pregón de Jehová, y mensajero es enviado á las gentes. Levantaos, y levantémonos contra ella en batalla."
       }
     },
     "options": [
@@ -31133,7 +31133,7 @@
       "es": {
         "prompt": "¿En días de qué rey de Judá vino la palabra de Jehová a Sofonías?",
         "bible_ref": "Sofonías 1:1",
-        "verse_text": "PALABRA de Jehová que fué á Sofonías hijo de Cushi, hijo de Gedalías, hijo de Amarías, hijo de Ezechîas, en días de Josías hijo de Amón, rey de Judá."
+        "verse_text": "Palabra de Jehová que fué á Sofonías hijo de Cushi, hijo de Gedalías, hijo de Amarías, hijo de Ezechîas, en días de Josías hijo de Amón, rey de Judá."
       }
     },
     "options": [
@@ -31239,7 +31239,7 @@
       "es": {
         "prompt": "¿Quién era el gobernador de Judá a quien vino la palabra de Jehová por medio de Haggeo?",
         "bible_ref": "Hageo 1:1",
-        "verse_text": "EN el año segundo del rey Darío en el mes sexto, en el primer día del mes, fué palabra de Jehová, por mano del profeta Haggeo, á Zorobabel hijo de Sealtiel, gobernador de Judá, y á Josué hijo de Josadac, gran sacerdote, diciendo:"
+        "verse_text": "En el año segundo del rey Darío en el mes sexto, en el primer día del mes, fué palabra de Jehová, por mano del profeta Haggeo, á Zorobabel hijo de Sealtiel, gobernador de Judá, y á Josué hijo de Josadac, gran sacerdote, diciendo:"
       }
     },
     "options": [
@@ -31557,7 +31557,7 @@
       "es": {
         "prompt": "En Proverbios 31, ¿de qué rey son las palabras que le enseñó su madre?",
         "bible_ref": "Proverbios 31:1",
-        "verse_text": "PALABRAS del rey Lemuel; la profecía con que le enseñó su madre."
+        "verse_text": "Palabras del rey Lemuel; la profecía con que le enseñó su madre."
       }
     },
     "options": [
@@ -31769,7 +31769,7 @@
       "es": {
         "prompt": "En Cantares 2:1, completa: «Yo soy la rosa de…»",
         "bible_ref": "Cantares 2:1",
-        "verse_text": "YO soy la rosa de Sarón, y el lirio de los valles."
+        "verse_text": "Yo soy la rosa de Sarón, y el lirio de los valles."
       }
     },
     "options": [
