@@ -199,16 +199,17 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
           ) : current.type === 'order' ? (
             <OrderInput key={current.question_id} items={current.options} disabled={sending} onSubmit={answerOrder} />
           ) : (
-            <div className="mt-6 grid flex-1 grid-cols-1 gap-3 sm:grid-cols-2">
+            <div className="mt-6 grid flex-1 grid-cols-2 grid-rows-2 gap-3">
+              {/* Grelha 2×2 como no Kahoot, mas com o texto na língua de cada jogador */}
               {current.options.map((o, i) => (
                 <button
                   key={o.id}
                   onClick={() => answer(o.id)}
                   disabled={sending}
-                  className={`${ANSWER_STYLES[i].bg} flex min-h-20 items-center gap-3 rounded-2xl px-5 py-4 text-left text-lg font-bold text-white shadow-lg transition active:scale-[0.97]`}
+                  className={`${ANSWER_STYLES[i].bg} flex min-h-32 flex-col items-start justify-between gap-2 rounded-2xl p-4 text-left text-lg font-bold leading-snug text-white shadow-lg transition active:scale-[0.97]`}
                 >
-                  <span className="text-xl opacity-80">{ANSWER_STYLES[i].shape}</span>
-                  <span>{o.text}</span>
+                  <span className="text-2xl opacity-80">{ANSWER_STYLES[i].shape}</span>
+                  <span className="break-words">{o.text}</span>
                 </button>
               ))}
             </div>
