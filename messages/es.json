@@ -193,6 +193,7 @@
     "rightOrder": "Orden correcto",
     "completeVerse": "Completa el versículo",
     "behind": "A {points} pts de {name}",
-    "tied": "Empatado con {name}"
+    "tied": "Empatado con {name}",
+    "streak": "🔥 {count} aciertos seguidos · +{bonus} de bonificación"
   }
 }

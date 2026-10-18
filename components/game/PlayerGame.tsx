@@ -16,7 +16,14 @@ import Celebration from './Celebration';
 
 // Antes da revelação só se sabe que respondi (is_correct e pontos ficam a null)
 type Ranking = { rank: number; total: number; score: number; ahead: { name: string; gap: number } | null };
-type MyAnswer = { option_id: string | null; order_ids: string[] | null; is_correct: boolean | null; points_awarded: number | null };
+type MyAnswer = {
+  option_id: string | null;
+  order_ids: string[] | null;
+  is_correct: boolean | null;
+  points_awarded: number | null; // já inclui o bónus de sequência
+  streak?: number;
+  streak_bonus?: number;
+};
 const ANSWERED: MyAnswer = { option_id: null, order_ids: null, is_correct: null, points_awarded: null };
 
 export default function PlayerGame({ sessionId }: { sessionId: string }) {
@@ -105,7 +112,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
       if (q.status === 'reveal') {
         const { data: ans } = await supabase
           .from('answers')
-          .select('option_id, order_ids, is_correct, points_awarded')
+          .select('option_id, order_ids, is_correct, points_awarded, streak, streak_bonus')
           .eq('player_id', me.id)
           .eq('question_id', q.question_id)
           .maybeSingle();
@@ -268,6 +275,9 @@ function RevealView({
       <h1 className="font-display mt-4 text-4xl font-semibold">{right ? t('correct') : myAnswer ? t('wrong') : t('noAnswer')}</h1>
       {right && myAnswer?.points_awarded != null && (
         <p className="mt-3 rounded-full bg-white/20 px-5 py-2 text-xl font-bold">{t('points', { points: myAnswer.points_awarded })}</p>
+      )}
+      {right && (myAnswer?.streak_bonus ?? 0) > 0 && (
+        <p className="mt-2 text-base font-semibold">{t('streak', { count: myAnswer?.streak ?? 0, bonus: myAnswer?.streak_bonus ?? 0 })}</p>
       )}
       {!right && correct && <p className="mt-4 text-lg text-white/90">{t('rightAnswer', { answer: correct.text })}</p>}
       {question.type === 'order' ? (

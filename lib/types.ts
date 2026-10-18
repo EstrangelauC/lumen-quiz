@@ -44,4 +44,5 @@ export type Player = {
   nickname: string;
   locale: Locale;
   score: number;
+  streak?: number; // respostas certas seguidas (bónus de sequência)
 };

@@ -26,7 +26,7 @@ await db.exec(`
   create publication supabase_realtime;
 `);
 
-for (const f of ['0001_init.sql', '0002_question_bank.sql']) {
+for (const f of ['0001_init.sql', '0002_question_bank.sql', '0003_answer_streak.sql']) {
   await db.exec(readFileSync(new URL(`../supabase/migrations/${f}`, import.meta.url), 'utf8'));
   console.log(`✓ migração ${f} aplicada`);
 }
@@ -341,8 +341,10 @@ for (let pos = 1; pos <= 5; pos++) {
 
   await hostDo('reveal_answer');
   const scoresAfter = await scores();
+  const ptsAfter = await pointsFor(row.question_id);   // inclui o bónus de sequência
   for (const [u, sc] of Object.entries(scoresAfter)) {
-    if (sc !== (scoresBefore[u] ?? 0) + (pts[u] ?? 0)) throw new Error('marcador após revelação ' + JSON.stringify({ u, scoresBefore, scoresAfter, pts }));
+    if (sc !== (scoresBefore[u] ?? 0) + (ptsAfter[u] ?? 0)) throw new Error('marcador após revelação ' + JSON.stringify({ u, scoresBefore, scoresAfter, ptsAfter }));
+    if ((ptsAfter[u] ?? 0) < (pts[u] ?? 0)) throw new Error('revelação tirou pontos');
   }
   if ((await ownVisible(P1, row.question_id)) !== 1) throw new Error('jogador não vê a resposta após revelação');
   await asUser(HOST, false, () => expectError(() => db.query(`select reveal_answer($1)`, [SID]), 'cannot_reveal'));
@@ -392,6 +394,12 @@ console.log('✓ jogo termina em finished');
   const S2 = s2.session_id;
   await asUser(P1, true, () => one(`select join_session($1, 'Ana', 'fr')`, [s2.pin]));
   const score2 = async () => (await one(`select score from players where session_id = $1 and user_id = $2`, [S2, P1])).score;
+  // Total gravado nas respostas (depois do crédito inclui o bónus de sequência)
+  const total2 = async () => (await one(`select coalesce(sum(a.points_awarded), 0)::int t from answers a join players pl on pl.id = a.player_id
+                                          where pl.session_id = $1 and pl.user_id = $2`, [S2, P1])).t;
+  const bonus2 = async () => (await db.query(`select a.streak, a.streak_bonus from answers a join players pl on pl.id = a.player_id
+                                               join session_questions sq on sq.session_id = a.session_id and sq.question_id = a.question_id
+                                              where pl.session_id = $1 and pl.user_id = $2 order by sq.position`, [S2, P1])).rows;
   const host2 = (fn) => asUser(HOST, false, () => db.query(`select ${fn}($1)`, [S2]));
   // P1 responde certo à pergunta atual; devolve os pontos gravados
   const answerRight = async () => {
@@ -414,26 +422,66 @@ console.log('✓ jogo termina em finished');
   const p1 = await answerRight();
   if ((await score2()) !== 0) throw new Error('marcador antes de sair da pergunta');
   await host2('next_question');
-  if ((await score2()) !== p1) throw new Error('next_question não creditou ' + (await score2()));
+  if ((await score2()) !== p1 || (await total2()) !== p1) throw new Error('next_question não creditou ' + (await score2()));
   console.log('✓ next_question sem revelação credita os pontos');
 
   // (c) reveal e depois next_question não credita duas vezes
   const p2 = await answerRight();
   await host2('reveal_answer');
-  if ((await score2()) !== p1 + p2) throw new Error('reveal não creditou');
+  if ((await score2()) !== (await total2()) || (await total2()) !== p1 + p2 + 100) throw new Error('reveal não creditou (com bónus +100) ' + (await score2()));
   await host2('next_question');
-  if ((await score2()) !== p1 + p2) throw new Error('crédito duplo após reveal + next');
+  if ((await score2()) !== p1 + p2 + 100) throw new Error('crédito duplo após reveal + next');
   console.log('✓ reveal + next_question credita uma só vez');
 
   // (b) end_session durante 'question'
   const p3 = await answerRight();
   await host2('end_session');
-  if ((await score2()) !== p1 + p2 + p3) throw new Error('end_session não creditou');
+  if ((await score2()) !== p1 + p2 + p3 + 300) throw new Error('end_session não creditou (bónus +100 e +200) ' + (await score2()));
   await host2('end_session');
-  if ((await score2()) !== p1 + p2 + p3) throw new Error('crédito duplo em end_session');
+  if ((await score2()) !== p1 + p2 + p3 + 300) throw new Error('crédito duplo em end_session');
+  const b2 = await bonus2();
+  if (JSON.stringify(b2) !== JSON.stringify([{ streak: 1, streak_bonus: 0 }, { streak: 2, streak_bonus: 100 }, { streak: 3, streak_bonus: 200 }]))
+    throw new Error('sequência ' + JSON.stringify(b2));
+  console.log('✓ bónus de sequência: 1.ª certa 0, 2.ª +100, 3.ª +200');
   const st3 = await one(`select status::text from game_sessions where id = $1`, [S2]);
   if (st3.status !== 'finished') throw new Error('end_session não terminou');
   console.log('✓ end_session durante a pergunta credita os pontos');
+
+  // Errada ou sem resposta põe a sequência a zero; o bónus para nos +500
+  const s3 = await asUser(HOST, false, async () => (await one(`select create_session('easy', 5) s`)).s);
+  const S3 = s3.session_id;
+  await asUser(P1, true, () => one(`select join_session($1, 'Ana', 'fr')`, [s3.pin]));
+  const host3 = (fn) => asUser(HOST, false, () => db.query(`select ${fn}($1)`, [S3]));
+  const current3 = () => one(`select sq.question_id, q.type::text type,
+                                     (select jsonb_agg(o.id order by o.position) from bank_options o where o.question_id = sq.question_id) c,
+                                     (select o.id from bank_options o where o.question_id = sq.question_id and o.is_correct limit 1) ok,
+                                     (select o.id from bank_options o where o.question_id = sq.question_id and not o.is_correct limit 1) bad
+                                from game_sessions g join session_questions sq on sq.session_id = g.id and sq.position = g.current_position
+                                join bank_questions q on q.id = sq.question_id where g.id = $1`, [S3]);
+  const answer3 = async (right) => {
+    const sq = await current3();
+    const order = right ? sq.c : [...sq.c].reverse();
+    await asUser(P1, true, () => sq.type === 'order'
+      ? db.query(`select submit_order($1, array(select jsonb_array_elements_text($2::jsonb)::uuid))`, [S3, JSON.stringify(order)])
+      : db.query(`select submit_answer($1, $2)`, [S3, right ? sq.ok : sq.bad]));
+  };
+  const streak3 = async () => (await one(`select streak from players where session_id = $1 and user_id = $2`, [S3, P1])).streak;
+  await host3('next_question'); await answer3(true);  await host3('reveal_answer');
+  if ((await streak3()) !== 1) throw new Error('sequência após certa');
+  await host3('next_question'); await answer3(false); await host3('reveal_answer');
+  if ((await streak3()) !== 0) throw new Error('errada não zerou a sequência');
+  await host3('next_question'); await answer3(true);  await host3('reveal_answer');
+  await host3('next_question');                          await host3('reveal_answer');   // sem resposta
+  if ((await streak3()) !== 0) throw new Error('sem resposta não zerou a sequência');
+  // Teto: com uma sequência longa o bónus fica nos +500
+  await db.query(`update players set streak = 9 where session_id = $1 and user_id = $2`, [S3, P1]);
+  await host3('next_question'); await answer3(true); await host3('reveal_answer');
+  const cap = await one(`select a.streak, a.streak_bonus from answers a join players pl on pl.id = a.player_id
+                          join game_sessions g on g.id = pl.session_id
+                          join session_questions sq on sq.session_id = g.id and sq.position = g.current_position and sq.question_id = a.question_id
+                         where pl.session_id = $1 and pl.user_id = $2`, [S3, P1]);
+  if (cap.streak !== 10 || cap.streak_bonus !== 500) throw new Error('teto do bónus ' + JSON.stringify(cap));
+  console.log('✓ sequência zera com errada ou sem resposta; bónus máximo +500');
 
   // O auxiliar de crédito não é chamável por clientes
   await asUser(HOST, false, () => expectError(() => db.query(`select credit_question_points($1, 1)`, [S2]), 'permission denied'));

@@ -193,6 +193,7 @@
     "rightOrder": "Bon ordre",
     "completeVerse": "Complète le verset",
     "behind": "À {points} pts de {name}",
-    "tied": "À égalité avec {name}"
+    "tied": "À égalité avec {name}",
+    "streak": "🔥 {count} bonnes réponses d’affilée · +{bonus} de bonus"
   }
 }

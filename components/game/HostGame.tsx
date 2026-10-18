@@ -50,7 +50,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
   const loadPlayers = useCallback(async () => {
     const { data } = await supabase
       .from('players')
-      .select('id, user_id, nickname, locale, score')
+      .select('id, user_id, nickname, locale, score, streak')
       .eq('session_id', sessionId)
       .order('score', { ascending: false })
       .order('joined_at', { ascending: true });
@@ -491,7 +491,10 @@ function Scoreboard({
               style={{ width: `${Math.round((p.score / max) * 100)}%` }}
             />
             <span className="relative w-10 text-2xl font-bold tabular-nums">{MEDALS[i] ?? `${i + 1}.`}</span>
-            <span className="relative flex-1 truncate text-xl font-bold sm:text-2xl">{p.nickname}</span>
+            <span className="relative flex-1 truncate text-xl font-bold sm:text-2xl">
+              {p.nickname}
+              {(p.streak ?? 0) >= 2 && <span className="ml-2 text-base font-semibold text-orange-300">🔥 {p.streak}</span>}
+            </span>
             {moved !== 0 && (
               <span className={`relative text-sm font-bold ${moved > 0 ? 'text-emerald-300' : 'text-rose-300'}`}>
                 {moved > 0 ? `▲ ${moved}` : `▼ ${-moved}`}
