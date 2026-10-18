@@ -160,11 +160,14 @@
     "pinLabel": "Code PIN",
     "continue": "Continuer",
     "changePin": "Changer de PIN",
-    "nickname": "Ton pseudo",
+    "nickname": "Ton prénom",
     "language": "Langue des questions",
     "enter": "Entrer dans la partie",
     "notFound": "Aucune partie active avec ce code PIN.",
-    "nicknameTaken": "Ce pseudo est déjà utilisé dans cette partie."
+    "nicknameTaken": "Ce pseudo est déjà utilisé dans cette partie.",
+    "nicknamePlaceholder": "ex. : Marie",
+    "nicknameHint": "C’est le nom qui apparaîtra à l’écran et dans le classement.",
+    "nicknameIsPin": "Écris ton prénom, pas le code PIN de la partie."
   },
   "play": {
     "youAreIn": "Tu es dans la partie !",

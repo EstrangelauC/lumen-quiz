@@ -1,10 +1,21 @@
 import { createServerClient } from '@supabase/ssr';
 import { NextResponse, type NextRequest } from 'next/server';
+import { isLocale, LOCALE_COOKIE } from './i18n/config';
 
 // Áreas que exigem conta de anfitrião (e-mail + palavra-passe)
 const HOST_AREAS = ['/dashboard', '/host'];
 
 export async function middleware(request: NextRequest) {
+  // Link/QR de um jogo (/j/<pin>?l=pt): guarda a língua do anfitrião e limpa o endereço
+  const lang = request.nextUrl.searchParams.get('l');
+  if (request.nextUrl.pathname.startsWith('/j/') && lang !== null) {
+    const url = request.nextUrl.clone();
+    url.searchParams.delete('l');
+    const redirect = NextResponse.redirect(url);
+    if (isLocale(lang)) redirect.cookies.set(LOCALE_COOKIE, lang, { path: '/', maxAge: 31536000, sameSite: 'lax' });
+    return redirect;
+  }
+
   let response = NextResponse.next({ request });
 
   const supabase = createServerClient(

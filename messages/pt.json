@@ -160,11 +160,14 @@
     "pinLabel": "PIN do jogo",
     "continue": "Continuar",
     "changePin": "Mudar PIN",
-    "nickname": "A tua alcunha",
+    "nickname": "O teu nome",
     "language": "Língua das perguntas",
     "enter": "Entrar no jogo",
     "notFound": "Não encontrámos nenhum jogo ativo com este PIN.",
-    "nicknameTaken": "Essa alcunha já está a ser usada neste jogo."
+    "nicknameTaken": "Essa alcunha já está a ser usada neste jogo.",
+    "nicknamePlaceholder": "ex.: Maria",
+    "nicknameHint": "É o nome que vai aparecer no ecrã e na classificação.",
+    "nicknameIsPin": "Escreve o teu nome, não o PIN do jogo."
   },
   "play": {
     "youAreIn": "Estás dentro!",

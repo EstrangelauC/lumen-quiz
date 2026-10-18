@@ -43,7 +43,8 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
   // Pontos de cada jogador antes da pergunta atual (os pontos só entram na revelação)
   const prevScores = useRef<Map<string, number> | null>(null);
 
-  useEffect(() => setJoinUrl(`${window.location.origin}/j/${pin}`), [pin]);
+  // O link/QR leva a língua do anfitrião: quem entra vê o formulário na língua do jogo (pode mudar depois)
+  useEffect(() => setJoinUrl(`${window.location.origin}/j/${pin}?l=${locale}`), [pin, locale]);
 
   const loadPlayers = useCallback(async () => {
     const { data } = await supabase
@@ -228,7 +229,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
             <p className="text-sm font-semibold uppercase tracking-widest text-ink/50">{t('pin')}</p>
             <p className="font-display mt-1 text-6xl font-bold tracking-[0.15em] sm:text-8xl">{pin}</p>
             <p className="mt-6 text-ink/60">{t('joinAt')}</p>
-            <p className="break-all text-lg font-semibold">{joinUrl.replace(/^https?:\/\//, '')}</p>
+            <p className="break-all text-lg font-semibold">{joinUrl.replace(/^https?:\/\//, '').replace(/\?.*$/, '')}</p>
             {joinUrl && (
               <div className="mt-5 rounded-2xl border border-ink/10 p-3">
                 <QRCodeSVG value={joinUrl} size={200} fgColor="#1b1640" marginSize={1} />

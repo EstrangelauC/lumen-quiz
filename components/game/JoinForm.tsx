@@ -20,6 +20,8 @@ export default function JoinForm({ pin }: { pin: string }) {
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
+    // Quem lê o QR code às vezes escreve o PIN no lugar do nome
+    if (nickname.trim() === pin) return setError(t('nicknameIsPin'));
     setLoading(true);
     setError(null);
     const supabase = createClient();
@@ -74,9 +76,11 @@ export default function JoinForm({ pin }: { pin: string }) {
           required
           autoFocus
           autoComplete="nickname"
+          placeholder={t('nicknamePlaceholder')}
           value={nickname}
           onChange={(e) => setNickname(e.target.value)}
         />
+        <p className="mt-1.5 text-xs text-ink/50">{t('nicknameHint')}</p>
       </div>
 
       <fieldset>

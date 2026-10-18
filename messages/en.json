@@ -160,11 +160,14 @@
     "pinLabel": "Game PIN",
     "continue": "Continue",
     "changePin": "Change PIN",
-    "nickname": "Your nickname",
+    "nickname": "Your name",
     "language": "Question language",
     "enter": "Join game",
     "notFound": "No active game found with this PIN.",
-    "nicknameTaken": "That nickname is already taken in this game."
+    "nicknameTaken": "That nickname is already taken in this game.",
+    "nicknamePlaceholder": "e.g. Mary",
+    "nicknameHint": "This is the name shown on the screen and in the leaderboard.",
+    "nicknameIsPin": "Type your name, not the game PIN."
   },
   "play": {
     "youAreIn": "You're in!",
