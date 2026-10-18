@@ -203,9 +203,11 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
       : [];
 
   return (
-    <div className="flex min-h-dvh flex-col bg-night text-white">
+    // Ecrã do anfitrião = exatamente a janela (sem deslizar): tamanhos em vh e as respostas
+    // esticam ou encolhem para caber; só em janelas muito baixas cada zona desliza por dentro
+    <div className="flex h-dvh flex-col overflow-hidden bg-night text-white">
       {/* Barra superior */}
-      <header className="flex items-center justify-between gap-3 px-4 py-3 sm:px-6">
+      <header className="flex shrink-0 items-center justify-between gap-3 px-4 py-2 sm:px-6">
         <div className="flex items-center gap-3">
           <span className="rounded-lg bg-white/10 px-3 py-1.5 text-sm font-bold tracking-widest">PIN {pin}</span>
           <span className="text-sm text-white/60">👥 {players.length}</span>
@@ -225,19 +227,19 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
 
       {/* ---------------- SALA DE ESPERA ---------------- */}
       {status === 'lobby' && (
-        <main className="mx-auto grid w-full max-w-6xl flex-1 gap-8 px-4 pb-10 pt-4 sm:px-6 lg:grid-cols-[1.1fr_1fr]">
-          <section className="flex flex-col items-center justify-center rounded-3xl bg-white p-6 text-center text-ink sm:p-10">
+        <main className="mx-auto grid min-h-0 w-full max-w-6xl flex-1 gap-[3vh] overflow-y-auto px-4 pb-[3vh] pt-[1vh] sm:px-6 lg:grid-cols-[1.1fr_1fr] lg:gap-8">
+          <section className="flex flex-col items-center justify-center rounded-3xl bg-white p-[2.5vh] text-center text-ink sm:p-[4vh]">
             <p className="text-sm font-semibold uppercase tracking-widest text-ink/50">{t('pin')}</p>
-            <p className="font-display mt-1 text-6xl font-bold tracking-[0.15em] sm:text-8xl">{pin}</p>
-            <p className="mt-6 text-ink/60">{t('joinAt')}</p>
+            <p className="font-display mt-1 text-[clamp(2.5rem,11vh,6rem)] font-bold leading-none tracking-[0.15em]">{pin}</p>
+            <p className="mt-[2vh] text-ink/60">{t('joinAt')}</p>
             <p className="break-all text-lg font-semibold">{joinUrl.replace(/^https?:\/\//, '').replace(/\?.*$/, '')}</p>
             {joinUrl && (
-              <div className="mt-5 rounded-2xl border border-ink/10 p-3">
-                <QRCodeSVG value={joinUrl} size={200} fgColor="#1b1640" marginSize={1} />
+              <div className="mt-[2vh] rounded-2xl border border-ink/10 p-2">
+                <QRCodeSVG value={joinUrl} size={200} fgColor="#1b1640" marginSize={1} style={{ height: 'min(26vh, 200px)', width: 'auto' }} />
               </div>
             )}
             <p className="mt-2 text-sm text-ink/50">{t('scan')}</p>
-            <div className="mt-5 flex flex-wrap justify-center gap-2">
+            <div className="mt-[2vh] flex flex-wrap justify-center gap-2">
               <button onClick={share} className="btn-gold">
                 📤 {t('share')}
               </button>
@@ -247,11 +249,11 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
             </div>
           </section>
 
-          <section className="flex flex-col">
+          <section className="flex min-h-0 flex-col">
             <div className="flex items-center justify-between">
               <h2 className="font-display text-2xl font-semibold">{t('players', { count: players.length })}</h2>
             </div>
-            <div className="mt-4 flex flex-1 flex-wrap content-start gap-2 rounded-3xl border border-white/10 bg-white/5 p-4">
+            <div className="mt-[2vh] flex min-h-0 flex-1 flex-wrap content-start gap-2 overflow-y-auto rounded-3xl border border-white/10 bg-white/5 p-4">
               {players.length === 0 ? (
                 <p className="m-auto animate-pulse text-white/50">{t('waiting')}</p>
               ) : (
@@ -263,7 +265,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
                 ))
               )}
             </div>
-            <button onClick={() => call('next_question')} disabled={busy || players.length === 0} className="btn-gold mt-5 py-4 text-lg">
+            <button onClick={() => call('next_question')} disabled={busy || players.length === 0} className="btn-gold mt-[2vh] shrink-0 py-[1.8vh] text-lg">
               ▶ {t('start')}
             </button>
           </section>
@@ -272,8 +274,8 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
 
       {/* ---------------- PERGUNTA / REVELAÇÃO ---------------- */}
       {(status === 'question' || status === 'reveal') && current && !showBoard && (
-        <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col px-4 pb-8 sm:px-6">
-          <div className="flex items-center justify-between gap-4 py-2">
+        <main className="mx-auto flex min-h-0 w-full max-w-6xl flex-1 flex-col overflow-y-auto px-4 pb-[2.5vh] sm:px-6">
+          <div className="flex shrink-0 items-center justify-between gap-4 py-[0.5vh]">
             <p className="text-sm font-semibold uppercase tracking-widest text-white/50">
               {t('questionOf', { n: current.position, total: current.total })}
             </p>
@@ -286,7 +288,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
             )}
           </div>
 
-          <div className={`text-center ${status === 'reveal' ? 'py-3' : 'py-6'}`}>
+          <div className={`shrink-0 text-center ${status === 'reveal' ? 'py-[1vh]' : 'py-[2.5vh]'}`}>
             {current.type === 'verse' && (
               <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-gold">{t('completeVerse')}</p>
             )}
@@ -298,22 +300,22 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
             {current.bible_ref && status === 'question' && current.type !== 'order' && (
               <p className="mb-2 text-sm font-medium text-gold">📖 {current.bible_ref}</p>
             )}
-            <h1 className="font-display mx-auto max-w-4xl text-3xl font-semibold leading-tight sm:text-5xl">
+            <h1 className="font-display mx-auto max-w-4xl text-[clamp(1.35rem,4.8vh,3rem)] font-semibold leading-tight">
               {current.type === 'verse' ? <VerseGapText text={current.text} /> : current.text}
             </h1>
           </div>
 
           {current.type === 'order' && status === 'reveal' ? (
             /* Ordem certa, com a referência de cada episódio */
-            <div className="mt-auto">
-              <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-white/50">{t('rightOrder')}</p>
-              <ol className="grid gap-2">
+            <div className="flex min-h-0 flex-1 flex-col justify-end">
+              <p className="mb-[1vh] text-sm font-semibold uppercase tracking-widest text-white/50">{t('rightOrder')}</p>
+              <ol className="grid min-h-0 flex-1 auto-rows-fr gap-[1vh]">
                 {rightOrder.map(({ option: o, i }, n) => (
                   <li
                     key={o.id}
-                    className={`${ANSWER_STYLES[i].bg} flex items-center gap-4 rounded-2xl px-5 py-3 text-xl font-bold text-white shadow-lg sm:text-2xl`}
+                    className={`${ANSWER_STYLES[i].bg} flex items-center gap-4 rounded-2xl px-5 py-[0.6vh] text-[clamp(1rem,2.8vh,1.5rem)] font-bold text-white shadow-lg`}
                   >
-                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white text-2xl font-extrabold text-ink tabular-nums">
+                    <span className="flex h-[min(2.75rem,5.5vh)] w-[min(2.75rem,5.5vh)] shrink-0 items-center justify-center rounded-full bg-white text-[clamp(1rem,3vh,1.5rem)] font-extrabold text-ink tabular-nums">
                       {n + 1}
                     </span>
                     <span className="w-12 shrink-0 text-lg opacity-80">
@@ -326,18 +328,16 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
               </ol>
             </div>
           ) : (
-            <div className="mt-auto grid gap-3 sm:grid-cols-2">
+            <div className="grid min-h-0 flex-1 auto-rows-fr gap-[1.2vh] sm:grid-cols-2">
               {current.options.map((o, i) => {
                 const revealed = status === 'reveal';
                 const faded = revealed && !o.is_correct;
                 return (
                   <div
                     key={o.id}
-                    className={`${ANSWER_STYLES[i].bg} flex items-center gap-4 rounded-2xl px-5 py-4 text-xl font-bold text-white shadow-lg transition sm:text-2xl ${
-                      revealed ? 'min-h-16' : 'min-h-20 sm:min-h-28'
-                    } ${faded ? 'opacity-25' : ''} ${revealed && o.is_correct ? `ring-4 ${ANSWER_STYLES[i].ring}` : ''}`}
+                    className={`${ANSWER_STYLES[i].bg} flex min-h-[2.75rem] items-center gap-4 rounded-2xl px-5 py-[0.8vh] text-[clamp(1rem,3vh,1.6rem)] font-bold text-white shadow-lg transition ${faded ? 'opacity-25' : ''} ${revealed && o.is_correct ? `ring-4 ${ANSWER_STYLES[i].ring}` : ''}`}
                   >
-                    <span className="text-2xl opacity-80">
+                    <span className="text-[clamp(1.1rem,3.2vh,1.75rem)] opacity-80">
                       {ANSWER_STYLES[i].shape}
                       {current.type === 'order' && <span className="ml-2">{LETTERS[i]}</span>}
                     </span>
@@ -350,12 +350,12 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
           )}
 
           {status === 'reveal' && current.type !== 'order' && (
-            <div className="mt-4">
+            <div className="mt-[1.5vh] shrink-0">
               <VerseReveal reference={current.bible_ref} text={current.verse_text} size="lg" locale={locale} />
             </div>
           )}
 
-          <div className="mt-6 flex flex-wrap items-center justify-between gap-3">
+          <div className="mt-[1.5vh] flex shrink-0 flex-wrap items-center justify-between gap-3">
             {status === 'question' ? (
               <>
                 <span className="text-lg font-semibold text-white/80">{t('answers', { count: answersCount, total: players.length })}</span>
@@ -365,17 +365,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
               </>
             ) : (
               <>
-                <span />
-                <div className="flex flex-col items-end gap-2">
-                  {isLast ? (
-                    <button onClick={() => call('next_question')} disabled={busy} className="btn-gold px-8 py-4 text-lg">
-                      🏆 {t('podium')}
-                    </button>
-                  ) : (
-                    <button onClick={() => setBoardFor(current.question_id)} className="btn-gold px-8 py-4 text-lg">
-                      {t('showLeaderboard')} →
-                    </button>
-                  )}
+                <div className="flex items-center gap-2">
                   <button
                     onClick={report}
                     disabled={reported || reporting}
@@ -389,6 +379,15 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
                     </p>
                   )}
                 </div>
+                {isLast ? (
+                  <button onClick={() => call('next_question')} disabled={busy} className="btn-gold px-8 py-[1.6vh] text-lg">
+                    🏆 {t('podium')}
+                  </button>
+                ) : (
+                  <button onClick={() => setBoardFor(current.question_id)} className="btn-gold px-8 py-[1.6vh] text-lg">
+                    {t('showLeaderboard')} →
+                  </button>
+                )}
               </>
             )}
           </div>
@@ -397,14 +396,14 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
 
       {/* ---------------- CLASSIFICAÇÃO ENTRE PERGUNTAS ---------------- */}
       {showBoard && current && (
-        <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-4 pb-8 pt-4 sm:px-6">
+        <main className="mx-auto flex min-h-0 w-full max-w-3xl flex-1 flex-col overflow-y-auto px-4 pb-[3vh] pt-[1.5vh] sm:px-6">
           <p className="text-center text-sm font-semibold uppercase tracking-widest text-white/50">
             {t('questionOf', { n: current.position, total: current.total })}
           </p>
-          <h1 className="font-display mt-2 text-center text-4xl font-semibold sm:text-5xl">{t('leaderboard')}</h1>
+          <h1 className="font-display mt-[1vh] text-center text-[clamp(1.75rem,6vh,3rem)] font-semibold">{t('leaderboard')}</h1>
           <Scoreboard players={players} prev={prevScores.current} pointsLabel={(p) => t('points', { points: p })} />
-          <div className="mt-8 flex justify-end">
-            <button onClick={() => call('next_question')} disabled={busy} className="btn-gold px-8 py-4 text-lg">
+          <div className="mt-[3vh] flex shrink-0 justify-end">
+            <button onClick={() => call('next_question')} disabled={busy} className="btn-gold px-8 py-[1.6vh] text-lg">
               {t('next')} →
             </button>
           </div>
@@ -413,15 +412,15 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
 
       {/* ---------------- PÓDIO ---------------- */}
       {status === 'finished' && (
-        <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col items-center px-4 pb-10 pt-6 text-center">
+        <main className="mx-auto flex min-h-0 w-full max-w-3xl flex-1 flex-col items-center overflow-y-auto px-4 pb-[3vh] pt-[2vh] text-center">
           {players.length > 0 && <Celebration big />}
-          <h1 className="font-display text-4xl font-semibold sm:text-5xl">{t('gameOver')}</h1>
+          <h1 className="font-display text-[clamp(1.75rem,6vh,3rem)] font-semibold">{t('gameOver')}</h1>
 
-          <div className="mt-10 flex w-full items-end justify-center gap-3">
+          <div className="mt-[4vh] flex w-full shrink-0 items-end justify-center gap-3">
             {[1, 0, 2].map((idx) => {
               const p = players[idx];
               if (!p) return <div key={idx} className="flex-1" />;
-              const heights = ['h-44', 'h-32', 'h-24'];
+              const heights = ['h-[22vh]', 'h-[16vh]', 'h-[12vh]'];
               return (
                 <div key={p.id} className="flex flex-1 flex-col items-center">
                   <span className="text-4xl">{MEDALS[idx]}</span>
@@ -434,7 +433,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
           </div>
 
           {players.length > 3 && (
-            <ol className="mt-8 w-full space-y-1.5 text-left" start={4}>
+            <ol className="mt-[3vh] min-h-0 w-full flex-1 space-y-1.5 overflow-y-auto text-left" start={4}>
               {players.slice(3).map((p, i) => (
                 <li key={p.id} className="flex justify-between rounded-xl bg-white/5 px-4 py-2">
                   <span>
@@ -446,7 +445,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
             </ol>
           )}
 
-          <Link href="/dashboard" className="btn-gold mt-10">
+          <Link href="/dashboard" className="btn-gold mt-[3vh] shrink-0">
             {t('back')}
           </Link>
         </main>
@@ -475,7 +474,7 @@ function Scoreboard({
   const max = Math.max(1, ...top.map((p) => p.score));
 
   return (
-    <ol className="mt-8 space-y-3">
+    <ol className="mt-[3vh] space-y-[1.2vh]">
       {top.map((p, i) => {
         const gained = prev ? p.score - (prev.get(p.id) ?? 0) : 0;
         const moved = prev ? (prevRank.get(p.id) ?? i) - i : 0;
@@ -483,7 +482,7 @@ function Scoreboard({
           <li
             key={p.id}
             style={{ animationDelay: `${i * 80}ms` }}
-            className="relative flex animate-[pop_0.4s_ease-out_both] items-center gap-4 overflow-hidden rounded-2xl bg-white/10 px-5 py-4"
+            className="relative flex animate-[pop_0.4s_ease-out_both] items-center gap-4 overflow-hidden rounded-2xl bg-white/10 px-5 py-[1.4vh]"
           >
             <div
               aria-hidden
