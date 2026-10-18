@@ -1,0 +1,8 @@
+# Nunca enviar para a Vercel: texto extraído dos PDFs (direitos de autor), Bíblias descarregadas,
+# segredos locais e notas de trabalho
+data/
+.superpowers/
+.env*.local
+.env.test.local
+node_modules/
+.next/
