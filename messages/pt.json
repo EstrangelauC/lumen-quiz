@@ -87,7 +87,8 @@
     "start": "Começar jogo",
     "starting": "A criar jogo…",
     "unavailable": "Indisponível",
-    "available": "{count} perguntas disponíveis"
+    "available": "{count} perguntas disponíveis",
+    "countOption": "{count} perguntas"
   },
   "discover": {
     "title": "Descobrir",

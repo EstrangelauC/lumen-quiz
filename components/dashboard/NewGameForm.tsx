@@ -13,7 +13,8 @@ const LEVELS: { id: Level; icon: string }[] = [
   { id: 'medium', icon: '📖' },
   { id: 'hard', icon: '🏛️' },
 ];
-const COUNTS = [5, 10, 15, 20] as const;
+// Tem de coincidir com create_session (migração 0004)
+const COUNTS = [5, 10, 15, 20, 25, 30, 40, 50] as const;
 const DEFAULT_COUNT = 10;
 
 /** Maior número permitido que cabe nas perguntas disponíveis (ou o pedido, se couber). */
@@ -90,27 +91,19 @@ export default function NewGameForm({ counts }: { counts: Counts }) {
 
       <section>
         <h2 className="label">{t('count')}</h2>
-        <div className="mt-2 grid grid-cols-4 gap-3 sm:max-w-md" role="radiogroup" aria-label={t('count')}>
-          {COUNTS.map((c) => {
-            const ok = c <= counts[level];
-            const selected = count === c;
-            return (
-              <button
-                key={c}
-                type="button"
-                role="radio"
-                aria-checked={selected}
-                disabled={!ok}
-                onClick={() => setCount(c)}
-                className={`font-display rounded-xl border-2 py-4 text-2xl font-semibold transition ${
-                  selected ? 'border-gold bg-gold text-ink' : 'border-ink/15 bg-white text-ink hover:border-ink/40'
-                } disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:border-ink/15`}
-              >
-                {c}
-              </button>
-            );
-          })}
-        </div>
+        {/* Um só botão com as escolhas; números acima das perguntas disponíveis ficam desativados */}
+        <select
+          aria-label={t('count')}
+          value={count}
+          onChange={(e) => setCount(Number(e.target.value))}
+          className="field font-display mt-2 w-full py-3 text-xl font-semibold sm:max-w-xs"
+        >
+          {COUNTS.map((c) => (
+            <option key={c} value={c} disabled={c > counts[level]}>
+              {t('countOption', { count: c })}
+            </option>
+          ))}
+        </select>
       </section>
 
       <div className="space-y-3">
