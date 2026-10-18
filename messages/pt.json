@@ -189,6 +189,7 @@
     "clear": "Limpar",
     "rightOrder": "Ordem certa",
     "completeVerse": "Completa o versículo",
-    "behind": "A {points} pts de {name}"
+    "behind": "A {points} pts de {name}",
+    "tied": "Empatado com {name}"
   }
 }

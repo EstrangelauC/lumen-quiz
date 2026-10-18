@@ -189,6 +189,7 @@
     "clear": "Effacer",
     "rightOrder": "Bon ordre",
     "completeVerse": "Complète le verset",
-    "behind": "À {points} pts de {name}"
+    "behind": "À {points} pts de {name}",
+    "tied": "À égalité avec {name}"
   }
 }

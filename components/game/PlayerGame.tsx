@@ -294,7 +294,13 @@ function RevealView({
       {ranking && (
         <div className="mt-8">
           <p className="text-lg font-semibold">{t('rank', { rank: ranking.rank })}</p>
-          {ranking.ahead && <p className="mt-1 text-sm text-white/80">{t('behind', { points: ranking.ahead.gap, name: ranking.ahead.name })}</p>}
+          {ranking.ahead && (
+            <p className="mt-1 text-sm text-white/80">
+              {ranking.ahead.gap === 0
+                ? t('tied', { name: ranking.ahead.name })
+                : t('behind', { points: ranking.ahead.gap, name: ranking.ahead.name })}
+            </p>
+          )}
         </div>
       )}
     </div>

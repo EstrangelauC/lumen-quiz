@@ -189,6 +189,7 @@
     "clear": "Clear",
     "rightOrder": "Right order",
     "completeVerse": "Complete the verse",
-    "behind": "{points} pts behind {name}"
+    "behind": "{points} pts behind {name}",
+    "tied": "Tied with {name}"
   }
 }
