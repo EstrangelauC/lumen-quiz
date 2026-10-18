@@ -16,7 +16,8 @@
     "newGame": "Nouvelle partie",
     "discover": "Découvrir",
     "settings": "Paramètres",
-    "logout": "Se déconnecter"
+    "logout": "Se déconnecter",
+    "profile": "Profil"
   },
   "landing": {
     "badge": "Português · Français · English · Español",
@@ -122,7 +123,8 @@
     "email": "E-mail",
     "newPassword": "Nouveau mot de passe",
     "changePassword": "Changer le mot de passe",
-    "passwordChanged": "Mot de passe modifié ✓"
+    "passwordChanged": "Mot de passe modifié ✓",
+    "languageHint": "La langue des menus et des questions sur ton écran."
   },
   "host": {
     "pin": "Code PIN",

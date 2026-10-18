@@ -16,7 +16,8 @@
     "newGame": "Nuevo juego",
     "discover": "Descubrir",
     "settings": "Ajustes",
-    "logout": "Cerrar sesión"
+    "logout": "Cerrar sesión",
+    "profile": "Perfil"
   },
   "landing": {
     "badge": "Português · Français · English · Español",
@@ -122,7 +123,8 @@
     "email": "Correo electrónico",
     "newPassword": "Nueva contraseña",
     "changePassword": "Cambiar contraseña",
-    "passwordChanged": "Contraseña cambiada ✓"
+    "passwordChanged": "Contraseña cambiada ✓",
+    "languageHint": "El idioma de los menús y de las preguntas en tu pantalla."
   },
   "host": {
     "pin": "PIN del juego",

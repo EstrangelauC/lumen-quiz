@@ -16,7 +16,8 @@
     "newGame": "New game",
     "discover": "Discover",
     "settings": "Settings",
-    "logout": "Log out"
+    "logout": "Log out",
+    "profile": "Profile"
   },
   "landing": {
     "badge": "Português · Français · English · Español",
@@ -122,7 +123,8 @@
     "email": "Email",
     "newPassword": "New password",
     "changePassword": "Change password",
-    "passwordChanged": "Password changed ✓"
+    "passwordChanged": "Password changed ✓",
+    "languageHint": "The language of the menus and questions on your screen."
   },
   "host": {
     "pin": "Game PIN",

@@ -1,31 +1,26 @@
 import { redirect } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
 import Logo from '@/components/Logo';
-import LanguageSwitcher from '@/components/LanguageSwitcher';
 import DashboardNav from '@/components/dashboard/DashboardNav';
+import ProfileMenu from '@/components/dashboard/ProfileMenu';
 import { getRegisteredUser } from '@/lib/supabase/server';
+import { loadProfile } from '@/lib/profile';
 
 export default async function DashboardLayout({ children }: { children: React.ReactNode }) {
-  const { user } = await getRegisteredUser();
+  const { supabase, user } = await getRegisteredUser();
   if (!user) redirect('/login?next=/dashboard');
+  const profile = await loadProfile(supabase, user.id);
 
   const ta = await getTranslations('app');
 
   return (
     <div className="min-h-dvh">
       <header className="sticky top-0 z-20 bg-ink">
-        <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex items-center justify-between gap-3">
-            <Logo name={ta('name')} href="/dashboard" light />
-            <div className="sm:hidden">
-              <LanguageSwitcher dark />
-            </div>
-          </div>
+        <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
+          <Logo name={ta('name')} href="/dashboard" light />
           <div className="flex items-center gap-3">
             <DashboardNav />
-            <div className="hidden sm:block">
-              <LanguageSwitcher dark />
-            </div>
+            <ProfileMenu name={profile.display_name} email={user.email ?? ''} />
           </div>
         </div>
       </header>

@@ -16,7 +16,8 @@
     "newGame": "Novo jogo",
     "discover": "Descobrir",
     "settings": "Definições",
-    "logout": "Sair"
+    "logout": "Sair",
+    "profile": "Perfil"
   },
   "landing": {
     "badge": "Português · Français · English · Español",
@@ -122,7 +123,8 @@
     "email": "E-mail",
     "newPassword": "Nova palavra-passe",
     "changePassword": "Alterar palavra-passe",
-    "passwordChanged": "Palavra-passe alterada ✓"
+    "passwordChanged": "Palavra-passe alterada ✓",
+    "languageHint": "A língua dos menus e das perguntas no teu ecrã."
   },
   "host": {
     "pin": "PIN do jogo",

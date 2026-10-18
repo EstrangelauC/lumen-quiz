@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { createClient } from '@/lib/supabase/client';
+import LanguageSwitcher from '../LanguageSwitcher';
 
 export const TIME_CHOICES = [10, 15, 20, 30, 45, 60, 90];
 
@@ -127,6 +128,12 @@ export default function SettingsForm({ userId, email, initial }: Props) {
           {pwMsg && <span className="text-sm text-ink/70">{pwMsg}</span>}
         </div>
       </form>
+
+      <section className="card space-y-3 p-6">
+        <h2 className="text-lg font-semibold">{tc('language')}</h2>
+        <p className="text-sm text-ink/60">{t('languageHint')}</p>
+        <LanguageSwitcher />
+      </section>
     </div>
   );
 }
