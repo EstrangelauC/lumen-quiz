@@ -22,9 +22,9 @@ export default function VerseReveal({
   const lg = size === 'lg';
 
   return (
-    <figure className={`w-full rounded-2xl bg-black/20 text-center ${lg ? 'px-6 py-5 sm:px-10' : 'px-4 py-3'}`}>
+    <figure className={`w-full rounded-2xl bg-black/20 text-center ${lg ? 'px-6 py-[1.5vh] sm:px-10' : 'px-4 py-3'}`}>
       {text && (
-        <blockquote className={`font-display leading-snug ${lg ? 'mx-auto max-w-4xl text-xl sm:text-2xl' : 'text-base'}`}>
+        <blockquote className={`font-display leading-snug ${lg ? 'mx-auto max-w-4xl text-[clamp(1rem,2.8vh,1.5rem)]' : 'text-base'}`}>
           “{text}”
         </blockquote>
       )}
