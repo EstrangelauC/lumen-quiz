@@ -37,6 +37,11 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
   const [reporting, setReporting] = useState(false);
   const [reportError, setReportError] = useState<string | null>(null); // question_id cuja reportação falhou
   const revealedFor = useRef<string | null>(null);
+  // Classificação entre perguntas (como no Kahoot): mostrada no ecrã do anfitrião depois da revelação
+  const [boardFor, setBoardFor] = useState<string | null>(null); // question_id cuja classificação está aberta
+  const playersRef = useRef<Player[]>([]);
+  // Pontos de cada jogador antes da pergunta atual (os pontos só entram na revelação)
+  const prevScores = useRef<Map<string, number> | null>(null);
 
   useEffect(() => setJoinUrl(`${window.location.origin}/j/${pin}`), [pin]);
 
@@ -47,7 +52,9 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
       .eq('session_id', sessionId)
       .order('score', { ascending: false })
       .order('joined_at', { ascending: true });
-    setPlayers((data as Player[]) ?? []);
+    const list = (data as Player[]) ?? [];
+    playersRef.current = list;
+    setPlayers(list);
   }, [supabase, sessionId]);
 
   // Estado inicial + subscrições em tempo real
@@ -100,6 +107,8 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
       if (currentQuestionId.current !== q.question_id) {
         currentQuestionId.current = q.question_id;
         setAnswerIds(new Set());
+        // Fotografia dos pontos antes desta pergunta; se a página abriu já na revelação não há base
+        prevScores.current = q.status === 'question' ? new Map(playersRef.current.map((p) => [p.id, p.score])) : null;
       }
       const { data: rows } = await supabase
         .from('answers')
@@ -180,6 +189,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
   // Só mostra a pergunta carregada se ainda for a do estado atual da sessão
   const current = question && question.status === status && question.position === position ? question : null;
   const reported = current ? current.reported || reportedNow === current.question_id : false;
+  const showBoard = status === 'reveal' && current !== null && boardFor === current.question_id;
   const rightOrder =
     current?.type === 'order' && current.correct_order
       ? current.correct_order
@@ -259,7 +269,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
       )}
 
       {/* ---------------- PERGUNTA / REVELAÇÃO ---------------- */}
-      {(status === 'question' || status === 'reveal') && current && (
+      {(status === 'question' || status === 'reveal') && current && !showBoard && (
         <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col px-4 pb-8 sm:px-6">
           <div className="flex items-center justify-between gap-4 py-2">
             <p className="text-sm font-semibold uppercase tracking-widest text-white/50">
@@ -353,11 +363,17 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
               </>
             ) : (
               <>
-                <Leaderboard players={players.slice(0, 5)} title={t('leaderboard')} pointsLabel={(p) => t('points', { points: p })} />
+                <span />
                 <div className="flex flex-col items-end gap-2">
-                  <button onClick={() => call('next_question')} disabled={busy} className="btn-gold px-8 py-4 text-lg">
-                    {isLast ? `🏆 ${t('podium')}` : `${t('next')} →`}
-                  </button>
+                  {isLast ? (
+                    <button onClick={() => call('next_question')} disabled={busy} className="btn-gold px-8 py-4 text-lg">
+                      🏆 {t('podium')}
+                    </button>
+                  ) : (
+                    <button onClick={() => setBoardFor(current.question_id)} className="btn-gold px-8 py-4 text-lg">
+                      {t('showLeaderboard')} →
+                    </button>
+                  )}
                   <button
                     onClick={report}
                     disabled={reported || reporting}
@@ -373,6 +389,22 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
                 </div>
               </>
             )}
+          </div>
+        </main>
+      )}
+
+      {/* ---------------- CLASSIFICAÇÃO ENTRE PERGUNTAS ---------------- */}
+      {showBoard && current && (
+        <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-4 pb-8 pt-4 sm:px-6">
+          <p className="text-center text-sm font-semibold uppercase tracking-widest text-white/50">
+            {t('questionOf', { n: current.position, total: current.total })}
+          </p>
+          <h1 className="font-display mt-2 text-center text-4xl font-semibold sm:text-5xl">{t('leaderboard')}</h1>
+          <Scoreboard players={players} prev={prevScores.current} pointsLabel={(p) => t('points', { points: p })} />
+          <div className="mt-8 flex justify-end">
+            <button onClick={() => call('next_question')} disabled={busy} className="btn-gold px-8 py-4 text-lg">
+              {t('next')} →
+            </button>
           </div>
         </main>
       )}
@@ -420,20 +452,53 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
   );
 }
 
-function Leaderboard({ players, title, pointsLabel }: { players: Player[]; title: string; pointsLabel: (p: number) => string }) {
+// Top 5 com os pontos ganhos nesta pergunta e quantos lugares cada um subiu ou desceu
+function Scoreboard({
+  players,
+  prev,
+  pointsLabel,
+}: {
+  players: Player[];
+  prev: Map<string, number> | null;
+  pointsLabel: (p: number) => string;
+}) {
+  const prevRank = new Map<string, number>();
+  if (prev) {
+    [...players]
+      .sort((a, b) => (prev.get(b.id) ?? 0) - (prev.get(a.id) ?? 0))
+      .forEach((p, i) => prevRank.set(p.id, i));
+  }
+  const top = players.slice(0, 5);
+  const max = Math.max(1, ...top.map((p) => p.score));
+
   return (
-    <div className="min-w-64 flex-1 rounded-2xl bg-white/5 p-3">
-      <p className="mb-2 px-1 text-xs font-semibold uppercase tracking-widest text-white/50">{title}</p>
-      <ol className="space-y-1">
-        {players.map((p, i) => (
-          <li key={p.id} className="flex items-center justify-between rounded-lg px-2 py-1">
-            <span className="truncate font-semibold">
-              {MEDALS[i] ?? `${i + 1}.`} {p.nickname}
-            </span>
-            <span className="tabular-nums text-white/70">{pointsLabel(p.score)}</span>
+    <ol className="mt-8 space-y-3">
+      {top.map((p, i) => {
+        const gained = prev ? p.score - (prev.get(p.id) ?? 0) : 0;
+        const moved = prev ? (prevRank.get(p.id) ?? i) - i : 0;
+        return (
+          <li
+            key={p.id}
+            style={{ animationDelay: `${i * 80}ms` }}
+            className="relative flex animate-[pop_0.4s_ease-out_both] items-center gap-4 overflow-hidden rounded-2xl bg-white/10 px-5 py-4"
+          >
+            <div
+              aria-hidden
+              className={`absolute inset-y-0 left-0 ${i === 0 ? 'bg-gold/30' : 'bg-white/10'} transition-[width] duration-700`}
+              style={{ width: `${Math.round((p.score / max) * 100)}%` }}
+            />
+            <span className="relative w-10 text-2xl font-bold tabular-nums">{MEDALS[i] ?? `${i + 1}.`}</span>
+            <span className="relative flex-1 truncate text-xl font-bold sm:text-2xl">{p.nickname}</span>
+            {moved !== 0 && (
+              <span className={`relative text-sm font-bold ${moved > 0 ? 'text-emerald-300' : 'text-rose-300'}`}>
+                {moved > 0 ? `▲ ${moved}` : `▼ ${-moved}`}
+              </span>
+            )}
+            {gained > 0 && <span className="relative text-sm font-semibold text-gold">+{gained}</span>}
+            <span className="relative text-lg font-semibold tabular-nums">{pointsLabel(p.score)}</span>
           </li>
-        ))}
-      </ol>
-    </div>
+        );
+      })}
+    </ol>
   );
 }

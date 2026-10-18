@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { createClient } from '@/lib/supabase/client';
 import { ANSWER_STYLES } from '@/lib/quiz';
@@ -11,13 +11,17 @@ import { useCountdown } from '@/hooks/useCountdown';
 import TimerBadge from './TimerBadge';
 import OrderInput from './OrderInput';
 import VerseReveal, { VerseGapText } from './VerseReveal';
+import LanguageSwitcher from '../LanguageSwitcher';
 
 // Antes da revelação só se sabe que respondi (is_correct e pontos ficam a null)
+type Ranking = { rank: number; total: number; score: number; ahead: { name: string; gap: number } | null };
 type MyAnswer = { option_id: string | null; order_ids: string[] | null; is_correct: boolean | null; points_awarded: number | null };
 const ANSWERED: MyAnswer = { option_id: null, order_ids: null, is_correct: null, points_awarded: null };
 
 export default function PlayerGame({ sessionId }: { sessionId: string }) {
   const t = useTranslations('play');
+  // A língua da interface manda também nas perguntas: o seletor no topo muda as duas a meio do jogo
+  const locale = useLocale();
   const router = useRouter();
   const supabase = useMemo(() => createClient(), []);
 
@@ -27,7 +31,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
   const [offset, setOffset] = useState(0);
   const [myAnswer, setMyAnswer] = useState<MyAnswer | null>(null);
   const [sending, setSending] = useState(false);
-  const [ranking, setRanking] = useState<{ rank: number; total: number; score: number } | null>(null);
+  const [ranking, setRanking] = useState<Ranking | null>(null);
 
   // Quem sou eu neste jogo?
   useEffect(() => {
@@ -63,10 +67,17 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
 
   const loadRanking = useCallback(async () => {
     if (!me) return;
-    const { data } = await supabase.from('players').select('id, score').eq('session_id', sessionId).order('score', { ascending: false });
-    const list = (data ?? []) as { id: string; score: number }[];
+    const { data } = await supabase
+      .from('players')
+      .select('id, nickname, score')
+      .eq('session_id', sessionId)
+      .order('score', { ascending: false })
+      .order('joined_at', { ascending: true });
+    const list = (data ?? []) as { id: string; nickname: string; score: number }[];
     const idx = list.findIndex((p) => p.id === me.id);
-    setRanking({ rank: idx + 1, total: list.length, score: list[idx]?.score ?? 0 });
+    const score = list[idx]?.score ?? 0;
+    const above = idx > 0 ? list[idx - 1] : null;
+    setRanking({ rank: idx + 1, total: list.length, score, ahead: above ? { name: above.nickname, gap: above.score - score } : null });
   }, [supabase, sessionId, me]);
 
   // Cada mudança de estado: pergunta na MINHA língua + a minha resposta
@@ -84,7 +95,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
     }
     let cancelled = false;
     (async () => {
-      const { data } = await supabase.rpc('get_current_question', { p_session_id: sessionId, p_locale: me.locale });
+      const { data } = await supabase.rpc('get_current_question', { p_session_id: sessionId, p_locale: locale });
       if (cancelled || !data) return;
       const q = data as CurrentQuestion;
       // Durante a pergunta a minha linha em answers está escondida (RLS): uso my_answered.
@@ -109,7 +120,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
     return () => {
       cancelled = true;
     };
-  }, [supabase, sessionId, me, status, position, loadRanking]);
+  }, [supabase, sessionId, me, status, position, locale, loadRanking]);
 
   const remaining = useCountdown(question?.started_at, question?.time_limit_s ?? 0, offset, status === 'question');
 
@@ -142,7 +153,10 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
     <div className="flex min-h-dvh flex-col bg-night text-white">
       <header className="flex items-center justify-between px-4 py-3">
         <span className="font-semibold">{me.nickname}</span>
-        {ranking && status !== 'lobby' && <span className="rounded-full bg-white/10 px-3 py-1 text-sm tabular-nums">{ranking.score} pts</span>}
+        <div className="flex items-center gap-2">
+          {ranking && status !== 'lobby' && <span className="rounded-full bg-white/10 px-3 py-1 text-sm tabular-nums">{ranking.score} pts</span>}
+          <LanguageSwitcher dark />
+        </div>
       </header>
 
       {/* Sala de espera */}
@@ -203,7 +217,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
       )}
 
       {/* Revelação */}
-      {status === 'reveal' && current && <RevealView question={current} myAnswer={myAnswer} ranking={ranking} locale={me.locale} />}
+      {status === 'reveal' && current && <RevealView question={current} myAnswer={myAnswer} ranking={ranking} locale={locale} />}
 
       {/* Fim */}
       {status === 'finished' && (
@@ -234,7 +248,7 @@ function RevealView({
 }: {
   question: CurrentQuestion;
   myAnswer: MyAnswer | null;
-  ranking: { rank: number; total: number; score: number } | null;
+  ranking: Ranking | null;
   locale: string;
 }) {
   const t = useTranslations('play');
@@ -277,7 +291,12 @@ function RevealView({
           <VerseReveal reference={question.bible_ref} text={question.verse_text} size="sm" locale={locale} />
         </div>
       )}
-      {ranking && <p className="mt-8 font-semibold">{t('rank', { rank: ranking.rank })}</p>}
+      {ranking && (
+        <div className="mt-8">
+          <p className="text-lg font-semibold">{t('rank', { rank: ranking.rank })}</p>
+          {ranking.ahead && <p className="mt-1 text-sm text-white/80">{t('behind', { points: ranking.ahead.gap, name: ranking.ahead.name })}</p>}
+        </div>
+      )}
     </div>
   );
 }

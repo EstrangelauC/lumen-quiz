@@ -151,7 +151,8 @@
     "completeVerse": "Completa o versículo",
     "report": "Reportar pergunta",
     "reported": "Pergunta reportada",
-    "confirmReport": "Reportar esta pergunta? Deixa de sair nos próximos jogos."
+    "confirmReport": "Reportar esta pergunta? Deixa de sair nos próximos jogos.",
+    "showLeaderboard": "Ver classificação"
   },
   "join": {
     "title": "Entrar num jogo",
@@ -187,6 +188,7 @@
     "confirm": "Confirmar",
     "clear": "Limpar",
     "rightOrder": "Ordem certa",
-    "completeVerse": "Completa o versículo"
+    "completeVerse": "Completa o versículo",
+    "behind": "A {points} pts de {name}"
   }
 }

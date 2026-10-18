@@ -151,7 +151,8 @@
     "completeVerse": "Complete the verse",
     "report": "Report question",
     "reported": "Question reported",
-    "confirmReport": "Report this question? It will no longer appear in future games."
+    "confirmReport": "Report this question? It will no longer appear in future games.",
+    "showLeaderboard": "See leaderboard"
   },
   "join": {
     "title": "Join a game",
@@ -187,6 +188,7 @@
     "confirm": "Confirm",
     "clear": "Clear",
     "rightOrder": "Right order",
-    "completeVerse": "Complete the verse"
+    "completeVerse": "Complete the verse",
+    "behind": "{points} pts behind {name}"
   }
 }

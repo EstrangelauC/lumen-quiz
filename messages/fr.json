@@ -151,7 +151,8 @@
     "completeVerse": "Complète le verset",
     "report": "Signaler la question",
     "reported": "Question signalée",
-    "confirmReport": "Signaler cette question ? Elle ne sortira plus dans les prochaines parties."
+    "confirmReport": "Signaler cette question ? Elle ne sortira plus dans les prochaines parties.",
+    "showLeaderboard": "Voir le classement"
   },
   "join": {
     "title": "Rejoindre une partie",
@@ -187,6 +188,7 @@
     "confirm": "Confirmer",
     "clear": "Effacer",
     "rightOrder": "Bon ordre",
-    "completeVerse": "Complète le verset"
+    "completeVerse": "Complète le verset",
+    "behind": "À {points} pts de {name}"
   }
 }
