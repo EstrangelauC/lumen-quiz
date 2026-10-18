@@ -1,0 +1,3062 @@
+[
+  {
+    "id": "apos-easy-001",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 1,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Quando Jesus subiu ao céu, o que o escondeu dos olhos dos discípulos?",
+      "fr": "Quand Jésus fut élevé au ciel, qu’est-ce qui le cacha aux yeux des disciples ?",
+      "en": "When Jesus was taken up, what received him out of the disciples’ sight?",
+      "es": "Cuando Jesús fue alzado al cielo, ¿qué lo ocultó de los ojos de los discípulos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma nuvem",
+          "fr": "Une nuée",
+          "en": "A cloud",
+          "es": "Una nube"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um carro de fogo",
+          "fr": "Un char de feu",
+          "en": "A chariot of fire",
+          "es": "Un carro de fuego"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma tempestade",
+          "fr": "Une tempête",
+          "en": "A storm",
+          "es": "Una tempestad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Fumo",
+          "fr": "De la fumée",
+          "en": "Smoke",
+          "es": "Humo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-002",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 2,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "No dia de Pentecostes, o que apareceu sobre cada um dos discípulos?",
+      "fr": "Le jour de la Pentecôte, qu’est-ce qui apparut et se posa sur chacun des disciples ?",
+      "en": "On the day of Pentecost, what appeared and sat upon each of the disciples?",
+      "es": "El día de Pentecostés, ¿qué apareció y se posó sobre cada uno de los discípulos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Línguas como de fogo",
+          "fr": "Des langues de feu",
+          "en": "Tongues like as of fire",
+          "es": "Lenguas como de fuego"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma pomba",
+          "fr": "Une colombe",
+          "en": "A dove",
+          "es": "Una paloma"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Estrelas",
+          "fr": "Des étoiles",
+          "en": "Stars",
+          "es": "Estrellas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um arco-íris",
+          "fr": "Un arc-en-ciel",
+          "en": "A rainbow",
+          "es": "Un arco iris"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-003",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 3,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "O que disse Pedro ao coxo que não tinha para lhe dar?",
+      "fr": "Qu’est-ce que Pierre dit au boiteux qu’il n’avait pas ?",
+      "en": "What did Peter tell the lame man he did not have?",
+      "es": "¿Qué le dijo Pedro al cojo que no tenía?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Prata e ouro",
+          "fr": "Argent et or",
+          "en": "Silver and gold",
+          "es": "Plata y oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pão e peixe",
+          "fr": "Pain et poisson",
+          "en": "Bread and fish",
+          "es": "Pan y pescado"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Água e vinho",
+          "fr": "Eau et vin",
+          "en": "Water and wine",
+          "es": "Agua y vino"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Roupa e sandálias",
+          "fr": "Vêtements et sandales",
+          "en": "Clothes and sandals",
+          "es": "Ropa y sandalias"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-004",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 7,
+    "verse_start": 59,
+    "verse_end": 59,
+    "prompt": {
+      "pt": "Como mataram Estêvão?",
+      "fr": "Comment Étienne fut-il mis à mort ?",
+      "en": "How was Stephen put to death?",
+      "es": "¿Cómo mataron a Esteban?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Com pedras",
+          "fr": "Avec des pierres",
+          "en": "With stones",
+          "es": "Con piedras"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com setas",
+          "fr": "Avec des flèches",
+          "en": "With arrows",
+          "es": "Con flechas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com lanças",
+          "fr": "Avec des lances",
+          "en": "With spears",
+          "es": "Con lanzas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com espadas",
+          "fr": "Avec des épées",
+          "en": "With swords",
+          "es": "Con espadas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-005",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 9,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Saulo viu uma luz do céu quando estava perto de que cidade?",
+      "fr": "Saul vit une lumière du ciel alors qu’il approchait de quelle ville ?",
+      "en": "Saul saw a light from heaven as he came near which city?",
+      "es": "¿Cerca de qué ciudad estaba Saulo cuando vio una luz del cielo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Damasco",
+          "fr": "Damas",
+          "en": "Damascus",
+          "es": "Damasco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jerusalém",
+          "fr": "Jérusalem",
+          "en": "Jerusalem",
+          "es": "Jerusalem"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Roma",
+          "fr": "Rome",
+          "en": "Rome",
+          "es": "Roma"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jericó",
+          "fr": "Jéricho",
+          "en": "Jericho",
+          "es": "Jericó"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-006",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 9,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "No caminho, quem disse a Saulo: «Eu sou aquele a quem tu persegues»?",
+      "fr": "Sur le chemin, qui dit à Saul : « Je suis celui que tu persécutes » ?",
+      "en": "On the road, who said to Saul: “I am he whom thou persecutest”?",
+      "es": "En el camino, ¿quién dijo a Saulo: «Yo soy aquel a quien tú persigues»?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Jesus",
+          "fr": "Jésus",
+          "en": "Jesus",
+          "es": "Jesús"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pedro",
+          "fr": "Pierre",
+          "en": "Peter",
+          "es": "Pedro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moisés",
+          "fr": "Moïse",
+          "en": "Moses",
+          "es": "Moisés"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Estêvão",
+          "fr": "Étienne",
+          "en": "Stephen",
+          "es": "Esteban"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-007",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 12,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Quem acordou Pedro na prisão e fez cair as correntes das suas mãos?",
+      "fr": "Qui réveilla Pierre dans la prison et fit tomber les chaînes de ses mains ?",
+      "en": "Who woke Peter in the prison, and made the chains fall off his hands?",
+      "es": "¿Quién despertó a Pedro en la cárcel e hizo caer las cadenas de sus manos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um anjo do Senhor",
+          "fr": "Un ange du Seigneur",
+          "en": "The angel of the Lord",
+          "es": "El ángel del Señor"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um soldado",
+          "fr": "Un soldat",
+          "en": "A soldier",
+          "es": "Un soldado"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O carcereiro",
+          "fr": "Le geôlier",
+          "en": "The jailer",
+          "es": "El carcelero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Paulo",
+          "fr": "Paul",
+          "en": "Paul",
+          "es": "Pablo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-008",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 16,
+    "verse_start": 25,
+    "verse_end": 25,
+    "prompt": {
+      "pt": "À meia-noite, na prisão, quem cantava hinos a Deus com Paulo?",
+      "fr": "Vers minuit, dans la prison, qui chantait les louanges de Dieu avec Paul ?",
+      "en": "At midnight in the prison, who sang praises unto God with Paul?",
+      "es": "A medianoche, en la cárcel, ¿quién cantaba himnos a Dios con Pablo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Silas",
+          "fr": "Silas",
+          "en": "Silas",
+          "es": "Silas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pedro",
+          "fr": "Pierre",
+          "en": "Peter",
+          "es": "Pedro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Timóteo",
+          "fr": "Timothée",
+          "en": "Timothy",
+          "es": "Timoteo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Lucas",
+          "fr": "Luc",
+          "en": "Luke",
+          "es": "Lucas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-009",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 28,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Quando Paulo pôs lenha no fogo, que animal saiu e se agarrou à sua mão?",
+      "fr": "Quand Paul mit du bois au feu, quel animal en sortit et s’attacha à sa main ?",
+      "en": "When Paul laid sticks on the fire, what animal came out and fastened on his hand?",
+      "es": "Cuando Pablo puso leña en el fuego, ¿qué animal salió y le acometió la mano?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma víbora",
+          "fr": "Une vipère",
+          "en": "A viper",
+          "es": "Una víbora"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um escorpião",
+          "fr": "Un scorpion",
+          "en": "A scorpion",
+          "es": "Un escorpión"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma aranha",
+          "fr": "Une araignée",
+          "en": "A spider",
+          "es": "Una araña"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um rato",
+          "fr": "Un rat",
+          "en": "A rat",
+          "es": "Una rata"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-010",
+    "type": "choice",
+    "level": "easy",
+    "book": "EPH",
+    "chapter": 6,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Para estar firme contra as ciladas do diabo, o que devemos vestir?",
+      "fr": "Pour tenir ferme contre les ruses du diable, de quoi faut-il se revêtir ?",
+      "en": "To stand against the wiles of the devil, what should we put on?",
+      "es": "Para estar firmes contra las asechanzas del diablo, ¿de qué debemos vestirnos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A armadura de Deus",
+          "fr": "Les armes de Dieu",
+          "en": "The whole armour of God",
+          "es": "La armadura de Dios"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma coroa de ouro",
+          "fr": "Une couronne d’or",
+          "en": "A golden crown",
+          "es": "Una corona de oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Roupas de rei",
+          "fr": "Des habits de roi",
+          "en": "Royal robes",
+          "es": "Ropas de rey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um manto branco",
+          "fr": "Un manteau blanc",
+          "en": "A white cloak",
+          "es": "Un manto blanco"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-011",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 8,
+    "verse_start": 30,
+    "verse_end": 30,
+    "prompt": {
+      "pt": "O que estava a ler o etíope quando Filipe correu para ele?",
+      "fr": "Que lisait l’Éthiopien quand Philippe accourut ?",
+      "en": "What was the Ethiopian reading when Philip ran to him?",
+      "es": "¿Qué leía el etíope cuando Felipe acudió a él?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O profeta Isaías",
+          "fr": "Le prophète Ésaïe",
+          "en": "The prophet Esaias",
+          "es": "El profeta Isaías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O profeta Jonas",
+          "fr": "Le prophète Jonas",
+          "en": "The prophet Jonas",
+          "es": "El profeta Jonás"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O profeta Daniel",
+          "fr": "Le prophète Daniel",
+          "en": "The prophet Daniel",
+          "es": "El profeta Daniel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O profeta Jeremias",
+          "fr": "Le prophète Jérémie",
+          "en": "The prophet Jeremias",
+          "es": "El profeta Jeremías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-012",
+    "type": "choice",
+    "level": "easy",
+    "book": "REV",
+    "chapter": 1,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Em que ilha estava João quando teve as visões do Apocalipse?",
+      "fr": "Dans quelle île Jean se trouvait-il quand il eut les visions de l’Apocalypse ?",
+      "en": "On which island was John when he had the visions of Revelation?",
+      "es": "¿En qué isla estaba Juan cuando tuvo las visiones del Apocalipsis?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Patmos",
+          "fr": "Patmos",
+          "en": "Patmos",
+          "es": "Patmos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Chipre",
+          "fr": "Chypre",
+          "en": "Cyprus",
+          "es": "Cipro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Creta",
+          "fr": "Crète",
+          "en": "Crete",
+          "es": "Creta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Malta",
+          "fr": "Malte",
+          "en": "Melita",
+          "es": "Melita"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-013",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 1,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Jesus sobe ao céu",
+          "fr": "Jésus est élevé au ciel",
+          "en": "Jesus is taken up into heaven",
+          "es": "Jesús sube al cielo"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 2,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "O Espírito Santo enche os discípulos",
+          "fr": "Le Saint-Esprit remplit les disciples",
+          "en": "The Holy Ghost fills the disciples",
+          "es": "El Espíritu Santo llena a los discípulos"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 6,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "São escolhidos sete homens para servir",
+          "fr": "Sept hommes sont choisis pour servir",
+          "en": "Seven men are chosen to serve",
+          "es": "Eligen a siete hombres para servir"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 8,
+        "verse_start": 38,
+        "verse_end": 38,
+        "text": {
+          "pt": "Filipe batiza o eunuco etíope",
+          "fr": "Philippe baptise l’eunuque éthiopien",
+          "en": "Philip baptizes the Ethiopian eunuch",
+          "es": "Felipe bautiza al eunuco etíope"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-014",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 13,
+        "verse_start": 2,
+        "verse_end": 3,
+        "text": {
+          "pt": "Barnabé e Saulo são enviados em missão",
+          "fr": "Barnabas et Saul sont envoyés en mission",
+          "en": "Barnabas and Saul are sent out",
+          "es": "Bernabé y Saulo son enviados en misión"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 17,
+        "verse_start": 22,
+        "verse_end": 22,
+        "text": {
+          "pt": "Paulo fala aos atenienses no Areópago",
+          "fr": "Paul parle aux Athéniens à l’Aréopage",
+          "en": "Paul speaks to the men of Athens",
+          "es": "Pablo habla a los atenienses en el Areópago"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 21,
+        "verse_start": 33,
+        "verse_end": 33,
+        "text": {
+          "pt": "Paulo é preso em Jerusalém",
+          "fr": "Paul est arrêté à Jérusalem",
+          "en": "Paul is arrested in Jerusalem",
+          "es": "Pablo es apresado en Jerusalem"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 28,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Paulo chega a Roma",
+          "fr": "Paul arrive à Rome",
+          "en": "Paul arrives in Rome",
+          "es": "Pablo llega a Roma"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-015",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 3,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Pedro levanta um coxo pela mão",
+          "fr": "Pierre fait lever un boiteux",
+          "en": "Peter lifts up a lame man",
+          "es": "Pedro levanta a un cojo"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 4,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Pedro e João passam a noite na prisão",
+          "fr": "Pierre et Jean passent la nuit en prison",
+          "en": "Peter and John are kept in hold overnight",
+          "es": "Pedro y Juan pasan la noche en la cárcel"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 9,
+        "verse_start": 40,
+        "verse_end": 40,
+        "text": {
+          "pt": "Pedro diz a Tabita: «Levanta-te»",
+          "fr": "Pierre dit à Tabitha : « Lève-toi »",
+          "en": "Peter says to Tabitha: “Arise”",
+          "es": "Pedro dice a Tabita: «Levántate»"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 10,
+        "verse_start": 25,
+        "verse_end": 25,
+        "text": {
+          "pt": "Pedro entra em casa de Cornélio",
+          "fr": "Pierre entre chez Corneille",
+          "en": "Peter comes in to Cornelius",
+          "es": "Pedro entra en casa de Cornelio"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-016",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 8,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Saulo persegue a igreja",
+          "fr": "Saul persécute l’Église",
+          "en": "Saul makes havock of the church",
+          "es": "Saulo persigue a la iglesia"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 9,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Saulo volta a ver e é batizado",
+          "fr": "Saul recouvre la vue et est baptisé",
+          "en": "Saul receives his sight and is baptized",
+          "es": "Saulo recobra la vista y es bautizado"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 9,
+        "verse_start": 25,
+        "verse_end": 25,
+        "text": {
+          "pt": "Saulo foge num cesto pelo muro",
+          "fr": "Saul s’enfuit dans une corbeille",
+          "en": "Saul is let down the wall in a basket",
+          "es": "Saulo huye en una espuerta por el muro"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 9,
+        "verse_start": 27,
+        "verse_end": 27,
+        "text": {
+          "pt": "Barnabé leva Saulo aos apóstolos",
+          "fr": "Barnabas mène Saul aux apôtres",
+          "en": "Barnabas brings Saul to the apostles",
+          "es": "Bernabé lleva a Saulo a los apóstoles"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-017",
+    "type": "verse",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 16,
+    "verse_start": 31,
+    "verse_end": 31,
+    "blank": {
+      "pt": "salvo",
+      "fr": "sauvé",
+      "en": "saved",
+      "es": "salvo"
+    },
+    "distractors": [
+      {
+        "pt": "feliz",
+        "fr": "heureux",
+        "en": "happy",
+        "es": "feliz"
+      },
+      {
+        "pt": "rico",
+        "fr": "riche",
+        "en": "rich",
+        "es": "rico"
+      },
+      {
+        "pt": "forte",
+        "fr": "fort",
+        "en": "strong",
+        "es": "fuerte"
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-018",
+    "type": "verse",
+    "level": "easy",
+    "book": "1JN",
+    "chapter": 4,
+    "verse_start": 8,
+    "verse_end": 8,
+    "blank": {
+      "pt": "amor",
+      "fr": "amour",
+      "en": "love",
+      "es": "amor"
+    },
+    "distractors": [
+      {
+        "pt": "paz",
+        "fr": "paix",
+        "en": "peace",
+        "es": "paz"
+      },
+      {
+        "pt": "rei",
+        "fr": "roi",
+        "en": "king",
+        "es": "rey"
+      },
+      {
+        "pt": "grande",
+        "fr": "grand",
+        "en": "great",
+        "es": "grande"
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-019",
+    "type": "verse",
+    "level": "easy",
+    "book": "EPH",
+    "chapter": 6,
+    "verse_start": 1,
+    "verse_end": 1,
+    "blank": {
+      "pt": "pais",
+      "fr": "parents",
+      "en": "parents",
+      "es": "padres"
+    },
+    "distractors": [
+      {
+        "pt": "irmãos",
+        "fr": "frères",
+        "en": "brothers",
+        "es": "hermanos"
+      },
+      {
+        "pt": "amigos",
+        "fr": "amis",
+        "en": "friends",
+        "es": "amigos"
+      },
+      {
+        "pt": "vizinhos",
+        "fr": "voisins",
+        "en": "neighbours",
+        "es": "vecinos"
+      }
+    ]
+  },
+  {
+    "id": "apos-easy-020",
+    "type": "verse",
+    "level": "easy",
+    "book": "1TH",
+    "chapter": 5,
+    "verse_start": 17,
+    "verse_end": 17,
+    "blank": {
+      "pt": "orai",
+      "fr": "priez",
+      "en": "pray",
+      "es": "orad"
+    },
+    "distractors": [
+      {
+        "pt": "cantai",
+        "fr": "chantez",
+        "en": "sing",
+        "es": "cantad"
+      },
+      {
+        "pt": "trabalhai",
+        "fr": "travaillez",
+        "en": "work",
+        "es": "trabajad"
+      },
+      {
+        "pt": "aprendei",
+        "fr": "apprenez",
+        "en": "learn",
+        "es": "aprended"
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-001",
+    "type": "choice",
+    "level": "medium",
+    "book": "ACT",
+    "chapter": 1,
+    "verse_start": 26,
+    "verse_end": 26,
+    "prompt": {
+      "pt": "Sobre quem caiu a sorte para ser contado com os onze apóstolos?",
+      "fr": "Sur qui tomba le sort pour être associé aux onze apôtres ?",
+      "en": "Upon whom did the lot fall, to be numbered with the eleven apostles?",
+      "es": "¿Sobre quién cayó la suerte para ser contado con los once apóstoles?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Matias",
+          "fr": "Matthias",
+          "en": "Matthias",
+          "es": "Matías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "José Barsabás",
+          "fr": "Joseph Barsabbas",
+          "en": "Joseph Barsabas",
+          "es": "José Barsabas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Estêvão",
+          "fr": "Étienne",
+          "en": "Stephen",
+          "es": "Esteban"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Silas",
+          "fr": "Silas",
+          "en": "Silas",
+          "es": "Silas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-002",
+    "type": "choice",
+    "level": "medium",
+    "book": "ACT",
+    "chapter": 5,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Como se chamava a mulher de Ananias, que vendeu com ele uma propriedade?",
+      "fr": "Comment s’appelait la femme d’Ananias, qui vendit avec lui une propriété ?",
+      "en": "What was the name of the wife of Ananias, who sold a possession with him?",
+      "es": "¿Cómo se llamaba la mujer de Ananías, que vendió con él una posesión?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Safira",
+          "fr": "Saphira",
+          "en": "Sapphira",
+          "es": "Safira"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Priscila",
+          "fr": "Priscille",
+          "en": "Priscilla",
+          "es": "Priscila"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Rode",
+          "fr": "Rhode",
+          "en": "Rhoda",
+          "es": "Rhode"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Marta",
+          "fr": "Marthe",
+          "en": "Martha",
+          "es": "Marta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-003",
+    "type": "choice",
+    "level": "medium",
+    "book": "PHP",
+    "chapter": 1,
+    "verse_start": 21,
+    "verse_end": 21,
+    "prompt": {
+      "pt": "Em Filipenses, o que é o viver para Paulo?",
+      "fr": "Dans Philippiens, qu’est-ce que la vie pour Paul ?",
+      "en": "In Philippians, what is “to live” for Paul?",
+      "es": "En Filipenses, ¿qué es el vivir para Pablo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Cristo",
+          "fr": "Christ",
+          "en": "Christ",
+          "es": "Cristo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A lei",
+          "fr": "La loi",
+          "en": "The law",
+          "es": "La ley"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A igreja",
+          "fr": "L’Église",
+          "en": "The church",
+          "es": "La iglesia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A sabedoria",
+          "fr": "La sagesse",
+          "en": "Wisdom",
+          "es": "La sabiduría"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-004",
+    "type": "choice",
+    "level": "medium",
+    "book": "1PE",
+    "chapter": 5,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Em 1 Pedro, a que animal é comparado o diabo, o vosso adversário?",
+      "fr": "Dans 1 Pierre, à quel animal le diable, votre adversaire, est-il comparé ?",
+      "en": "In 1 Peter, to what animal is the devil, your adversary, compared?",
+      "es": "En 1 Pedro, ¿a qué animal se compara el diablo, vuestro adversario?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um leão que ruge",
+          "fr": "Un lion rugissant",
+          "en": "A roaring lion",
+          "es": "Un león rugiente"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um urso",
+          "fr": "Un ours",
+          "en": "A bear",
+          "es": "Un oso"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um lobo",
+          "fr": "Un loup",
+          "en": "A wolf",
+          "es": "Un lobo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um leopardo",
+          "fr": "Un léopard",
+          "en": "A leopard",
+          "es": "Un leopardo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-005",
+    "type": "choice",
+    "level": "medium",
+    "book": "ACT",
+    "chapter": 10,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "O que era Cornélio, o homem de Cesareia?",
+      "fr": "Qu’était Corneille, l’homme de Césarée ?",
+      "en": "What was Cornelius, the man in Cæsarea?",
+      "es": "¿Qué era Cornelio, el varón de Cesarea?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Centurião",
+          "fr": "Centenier",
+          "en": "A centurion",
+          "es": "Centurión"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pescador",
+          "fr": "Pêcheur",
+          "en": "A fisherman",
+          "es": "Pescador"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Publicano",
+          "fr": "Publicain",
+          "en": "A publican",
+          "es": "Publicano"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sacerdote",
+          "fr": "Sacrificateur",
+          "en": "A priest",
+          "es": "Sacerdote"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-006",
+    "type": "choice",
+    "level": "medium",
+    "book": "ACT",
+    "chapter": 11,
+    "verse_start": 26,
+    "verse_end": 26,
+    "prompt": {
+      "pt": "Em que cidade os discípulos foram chamados cristãos pela primeira vez?",
+      "fr": "Dans quelle ville les disciples furent-ils appelés chrétiens pour la première fois ?",
+      "en": "In which city were the disciples first called Christians?",
+      "es": "¿En qué ciudad los discípulos fueron llamados cristianos por primera vez?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Antioquia",
+          "fr": "Antioche",
+          "en": "Antioch",
+          "es": "Antioquía"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jerusalém",
+          "fr": "Jérusalem",
+          "en": "Jerusalem",
+          "es": "Jerusalem"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Roma",
+          "fr": "Rome",
+          "en": "Rome",
+          "es": "Roma"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Damasco",
+          "fr": "Damas",
+          "en": "Damascus",
+          "es": "Damasco"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-007",
+    "type": "choice",
+    "level": "medium",
+    "book": "ACT",
+    "chapter": 16,
+    "verse_start": 14,
+    "verse_end": 14,
+    "prompt": {
+      "pt": "O que vendia Lídia, da cidade de Tiatira?",
+      "fr": "Que vendait Lydie, de la ville de Thyatire ?",
+      "en": "What did Lydia, of the city of Thyatira, sell?",
+      "es": "¿Qué vendía Lidia, de la ciudad de Tiatira?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Púrpura",
+          "fr": "De la pourpre",
+          "en": "Purple",
+          "es": "Púrpura"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Azeite",
+          "fr": "De l’huile",
+          "en": "Oil",
+          "es": "Aceite"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Perfume",
+          "fr": "Du parfum",
+          "en": "Perfume",
+          "es": "Perfume"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Linho",
+          "fr": "Du lin",
+          "en": "Linen",
+          "es": "Lino"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-008",
+    "type": "choice",
+    "level": "medium",
+    "book": "2TH",
+    "chapter": 3,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Aos tessalonicenses: se alguém não quiser trabalhar, o que também não deve fazer?",
+      "fr": "Aux Thessaloniciens : si quelqu’un ne veut pas travailler, que ne doit-il pas faire non plus ?",
+      "en": "To the Thessalonians: if any would not work, what should he not do either?",
+      "es": "A los tesalonicenses: si alguno no quisiere trabajar, ¿qué tampoco debe hacer?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Comer",
+          "fr": "Manger",
+          "en": "Eat",
+          "es": "Comer"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Falar",
+          "fr": "Parler",
+          "en": "Speak",
+          "es": "Hablar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dormir",
+          "fr": "Dormir",
+          "en": "Sleep",
+          "es": "Dormir"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Viajar",
+          "fr": "Voyager",
+          "en": "Travel",
+          "es": "Viajar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-009",
+    "type": "choice",
+    "level": "medium",
+    "book": "1CO",
+    "chapter": 13,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Em 1 Coríntios 13:13, qual é a maior das três coisas que permanecem?",
+      "fr": "En 1 Corinthiens 13:13, quelle est la plus grande des trois choses qui demeurent ?",
+      "en": "In 1 Corinthians 13:13, which is the greatest of the three things that abide?",
+      "es": "En 1 Corintios 13:13, ¿cuál es la mayor de las tres cosas que permanecen?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O amor",
+          "fr": "La charité",
+          "en": "Charity",
+          "es": "La caridad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A fé",
+          "fr": "La foi",
+          "en": "Faith",
+          "es": "La fe"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A esperança",
+          "fr": "L’espérance",
+          "en": "Hope",
+          "es": "La esperanza"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A paciência",
+          "fr": "La patience",
+          "en": "Patience",
+          "es": "La paciencia"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-010",
+    "type": "choice",
+    "level": "medium",
+    "book": "GAL",
+    "chapter": 5,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "Qual destas coisas faz parte do fruto do Espírito?",
+      "fr": "Laquelle de ces choses fait partie du fruit de l’Esprit ?",
+      "en": "Which of these is part of the fruit of the Spirit?",
+      "es": "¿Cuál de estas cosas forma parte del fruto del Espíritu?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Alegria",
+          "fr": "La joie",
+          "en": "Joy",
+          "es": "Gozo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Riqueza",
+          "fr": "La richesse",
+          "en": "Riches",
+          "es": "Riqueza"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Força",
+          "fr": "La force",
+          "en": "Strength",
+          "es": "Fuerza"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sabedoria",
+          "fr": "La sagesse",
+          "en": "Wisdom",
+          "es": "Sabiduría"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-011",
+    "type": "choice",
+    "level": "medium",
+    "book": "REV",
+    "chapter": 1,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "A quantas igrejas devia João enviar o livro do que via?",
+      "fr": "À combien d’Églises Jean devait-il envoyer le livre de ce qu’il voyait ?",
+      "en": "To how many churches was John to send the book of what he saw?",
+      "es": "¿A cuántas iglesias debía Juan enviar el libro de lo que veía?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Três",
+          "fr": "Trois",
+          "en": "Three",
+          "es": "Tres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dez",
+          "fr": "Dix",
+          "en": "Ten",
+          "es": "Diez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-012",
+    "type": "choice",
+    "level": "medium",
+    "book": "EPH",
+    "chapter": 6,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Na armadura de Deus, o que é a espada do Espírito?",
+      "fr": "Dans les armes de Dieu, qu’est-ce que l’épée de l’Esprit ?",
+      "en": "In the armour of God, what is the sword of the Spirit?",
+      "es": "En la armadura de Dios, ¿qué es la espada del Espíritu?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A palavra de Deus",
+          "fr": "La parole de Dieu",
+          "en": "The word of God",
+          "es": "La palabra de Dios"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A fé",
+          "fr": "La foi",
+          "en": "Faith",
+          "es": "La fe"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A oração",
+          "fr": "La prière",
+          "en": "Prayer",
+          "es": "La oración"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A verdade",
+          "fr": "La vérité",
+          "en": "Truth",
+          "es": "La verdad"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-013",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 27,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Um vento violento apanha o navio",
+          "fr": "Un vent impétueux se déchaîne",
+          "en": "A tempestuous wind arises",
+          "es": "Un viento repentino da en la nave"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 27,
+        "verse_start": 41,
+        "verse_end": 41,
+        "text": {
+          "pt": "O navio encalha e a popa desfaz-se",
+          "fr": "Le navire échoue et la poupe se brise",
+          "en": "The ship runs aground and breaks",
+          "es": "La nave encalla y la popa se abre"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 28,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Uma víbora agarra-se à mão de Paulo",
+          "fr": "Une vipère s’attache à la main de Paul",
+          "en": "A viper fastens on Paul’s hand",
+          "es": "Una víbora acomete la mano de Pablo"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 28,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Paulo chega a Roma",
+          "fr": "Paul arrive à Rome",
+          "en": "Paul arrives in Rome",
+          "es": "Pablo llega a Roma"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-014",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estas cartas às igrejas pela ordem em que aparecem no Apocalipse.",
+      "fr": "Mets ces lettres aux Églises dans l’ordre où elles apparaissent dans l’Apocalypse.",
+      "en": "Put these letters to the churches in the order they appear in Revelation.",
+      "es": "Ordena estas cartas a las iglesias según aparecen en el Apocalipsis."
+    },
+    "items": [
+      {
+        "book": "REV",
+        "chapter": 2,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Carta à igreja de Éfeso",
+          "fr": "Lettre à l’Église d’Éphèse",
+          "en": "Letter to the church of Ephesus",
+          "es": "Carta a la iglesia en Efeso"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 2,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Carta à igreja de Esmirna",
+          "fr": "Lettre à l’Église de Smyrne",
+          "en": "Letter to the church in Smyrna",
+          "es": "Carta a la iglesia en Smirna"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 2,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Carta à igreja de Pérgamo",
+          "fr": "Lettre à l’Église de Pergame",
+          "en": "Letter to the church in Pergamos",
+          "es": "Carta a la iglesia en Pérgamo"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 2,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Carta à igreja de Tiatira",
+          "fr": "Lettre à l’Église de Thyatire",
+          "en": "Letter to the church in Thyatira",
+          "es": "Carta a la iglesia en Tiatira"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-015",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 16,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Paulo vê em visão um homem da Macedónia",
+          "fr": "Paul voit en vision un Macédonien",
+          "en": "Paul sees a man of Macedonia in a vision",
+          "es": "Pablo ve en visión a un varón macedonio"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 16,
+        "verse_start": 25,
+        "verse_end": 25,
+        "text": {
+          "pt": "Paulo e Silas cantam na prisão",
+          "fr": "Paul et Silas chantent en prison",
+          "en": "Paul and Silas sing in prison",
+          "es": "Pablo y Silas cantan en la cárcel"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 17,
+        "verse_start": 22,
+        "verse_end": 22,
+        "text": {
+          "pt": "Paulo fala no Areópago de Atenas",
+          "fr": "Paul parle à l’Aréopage d’Athènes",
+          "en": "Paul speaks on Mars’ hill in Athens",
+          "es": "Pablo habla en el Areópago de Atenas"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 18,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Paulo encontra Áquila e Priscila",
+          "fr": "Paul rencontre Aquilas et Priscille",
+          "en": "Paul finds Aquila and Priscilla",
+          "es": "Pablo halla a Aquila y Priscila"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-016",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 10,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Um anjo aparece a Cornélio",
+          "fr": "Un ange apparaît à Corneille",
+          "en": "An angel comes in to Cornelius",
+          "es": "Un ángel se aparece a Cornelio"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 10,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Pedro vê descer do céu um grande lençol",
+          "fr": "Pierre voit descendre du ciel une grande nappe",
+          "en": "Peter sees a great sheet let down",
+          "es": "Pedro ve bajar del cielo un gran lienzo"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 10,
+        "verse_start": 25,
+        "verse_end": 25,
+        "text": {
+          "pt": "Cornélio cai aos pés de Pedro",
+          "fr": "Corneille tombe aux pieds de Pierre",
+          "en": "Cornelius falls down at Peter’s feet",
+          "es": "Cornelio se derriba a los pies de Pedro"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 10,
+        "verse_start": 44,
+        "verse_end": 44,
+        "text": {
+          "pt": "O Espírito Santo cai sobre os que ouvem",
+          "fr": "Le Saint-Esprit descend sur ceux qui écoutent",
+          "en": "The Holy Ghost falls on all who hear",
+          "es": "El Espíritu Santo cae sobre los que oyen"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-017",
+    "type": "verse",
+    "level": "medium",
+    "book": "HEB",
+    "chapter": 11,
+    "verse_start": 1,
+    "verse_end": 1,
+    "blank": {
+      "pt": "fé",
+      "fr": "foi",
+      "en": "faith",
+      "es": "fe"
+    },
+    "distractors": [
+      {
+        "pt": "paz",
+        "fr": "paix",
+        "en": "peace",
+        "es": "paz"
+      },
+      {
+        "pt": "graça",
+        "fr": "grâce",
+        "en": "grace",
+        "es": "gracia"
+      },
+      {
+        "pt": "lei",
+        "fr": "loi",
+        "en": "law",
+        "es": "ley"
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-018",
+    "type": "verse",
+    "level": "medium",
+    "book": "ROM",
+    "chapter": 6,
+    "verse_start": 23,
+    "verse_end": 23,
+    "blank": {
+      "pt": "morte",
+      "fr": "mort",
+      "en": "death",
+      "es": "muerte"
+    },
+    "distractors": [
+      {
+        "pt": "dor",
+        "fr": "douleur",
+        "en": "pain",
+        "es": "dolor"
+      },
+      {
+        "pt": "tristeza",
+        "fr": "tristesse",
+        "en": "sorrow",
+        "es": "tristeza"
+      },
+      {
+        "pt": "vergonha",
+        "fr": "honte",
+        "en": "shame",
+        "es": "vergüenza"
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-019",
+    "type": "verse",
+    "level": "medium",
+    "book": "JAS",
+    "chapter": 1,
+    "verse_start": 22,
+    "verse_end": 22,
+    "blank": {
+      "pt": "palavra",
+      "fr": "parole",
+      "en": "word",
+      "es": "palabra"
+    },
+    "distractors": [
+      {
+        "pt": "oração",
+        "fr": "prière",
+        "en": "prayer",
+        "es": "oración"
+      },
+      {
+        "pt": "promessa",
+        "fr": "promesse",
+        "en": "promise",
+        "es": "promesa"
+      },
+      {
+        "pt": "verdade",
+        "fr": "vérité",
+        "en": "truth",
+        "es": "verdad"
+      }
+    ]
+  },
+  {
+    "id": "apos-medium-020",
+    "type": "verse",
+    "level": "medium",
+    "book": "1TI",
+    "chapter": 6,
+    "verse_start": 10,
+    "verse_end": 10,
+    "blank": {
+      "pt": "dinheiro",
+      "fr": "argent",
+      "en": "money",
+      "es": "dinero"
+    },
+    "distractors": [
+      {
+        "pt": "ouro",
+        "fr": "or",
+        "en": "gold",
+        "es": "oro"
+      },
+      {
+        "pt": "orgulho",
+        "fr": "orgueil",
+        "en": "pride",
+        "es": "orgullo"
+      },
+      {
+        "pt": "elogio",
+        "fr": "éloge",
+        "en": "praise",
+        "es": "elogio"
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-001",
+    "type": "choice",
+    "level": "hard",
+    "book": "ACT",
+    "chapter": 13,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Em Chipre, que mago se opunha a Paulo e Barnabé, procurando afastar o procônsul da fé?",
+      "fr": "À Chypre, quel magicien s’opposait à Paul et Barnabas, cherchant à détourner le proconsul de la foi ?",
+      "en": "In Cyprus, which sorcerer withstood Paul and Barnabas, seeking to turn the deputy from the faith?",
+      "es": "En Cipro, ¿qué mago resistía a Pablo y Bernabé, procurando apartar de la fe al procónsul?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Elimas",
+          "fr": "Élymas",
+          "en": "Elymas",
+          "es": "Elimas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Simão",
+          "fr": "Simon",
+          "en": "Simon",
+          "es": "Simón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Demétrio",
+          "fr": "Démétrius",
+          "en": "Demetrius",
+          "es": "Demetrio"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ananias",
+          "fr": "Ananias",
+          "en": "Ananias",
+          "es": "Ananías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-002",
+    "type": "choice",
+    "level": "hard",
+    "book": "ACT",
+    "chapter": 27,
+    "verse_start": 37,
+    "verse_end": 37,
+    "prompt": {
+      "pt": "Quantas pessoas iam no navio de Paulo antes do naufrágio?",
+      "fr": "Combien de personnes y avait-il dans le navire de Paul avant le naufrage ?",
+      "en": "How many souls were in Paul’s ship before the shipwreck?",
+      "es": "¿Cuántas personas iban en la nave de Pablo antes del naufragio?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "276",
+          "fr": "276",
+          "en": "276",
+          "es": "276"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "176",
+          "fr": "176",
+          "en": "176",
+          "es": "176"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "300",
+          "fr": "300",
+          "en": "300",
+          "es": "300"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "75",
+          "fr": "75",
+          "en": "75",
+          "es": "75"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-003",
+    "type": "choice",
+    "level": "hard",
+    "book": "PHM",
+    "chapter": 1,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Por quem pede Paulo a Filémon, chamando-lhe «meu filho»?",
+      "fr": "Pour qui Paul prie-t-il Philémon, l’appelant « mon enfant » ?",
+      "en": "For whom does Paul beseech Philemon, calling him “my son”?",
+      "es": "¿Por quién ruega Pablo a Filemón, llamándolo «mi hijo»?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Onésimo",
+          "fr": "Onésime",
+          "en": "Onesimus",
+          "es": "Onésimo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tíquico",
+          "fr": "Tychique",
+          "en": "Tychicus",
+          "es": "Tichîco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Epafras",
+          "fr": "Épaphras",
+          "en": "Epaphras",
+          "es": "Epafras"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Demas",
+          "fr": "Démas",
+          "en": "Demas",
+          "es": "Demas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-004",
+    "type": "choice",
+    "level": "hard",
+    "book": "2TI",
+    "chapter": 1,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Como se chamava a avó de Timóteo, em quem habitou primeiro a fé?",
+      "fr": "Comment s’appelait l’aïeule de Timothée, en qui la foi habita d’abord ?",
+      "en": "What was the name of Timothy’s grandmother, in whom faith dwelt first?",
+      "es": "¿Cómo se llamaba la abuela de Timoteo, en quien residió primero la fe?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Loide",
+          "fr": "Loïs",
+          "en": "Lois",
+          "es": "Loida"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Eunice",
+          "fr": "Eunice",
+          "en": "Eunice",
+          "es": "Eunice"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Lídia",
+          "fr": "Lydie",
+          "en": "Lydia",
+          "es": "Lidia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Priscila",
+          "fr": "Priscille",
+          "en": "Priscilla",
+          "es": "Priscila"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-005",
+    "type": "choice",
+    "level": "hard",
+    "book": "COL",
+    "chapter": 4,
+    "verse_start": 14,
+    "verse_end": 14,
+    "prompt": {
+      "pt": "Em Colossenses, como descreve Paulo a profissão de Lucas?",
+      "fr": "Dans Colossiens, quel métier Paul attribue-t-il à Luc ?",
+      "en": "In Colossians, what does Paul call Luke?",
+      "es": "En Colosenses, ¿qué oficio atribuye Pablo a Lucas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Médico",
+          "fr": "Médecin",
+          "en": "A physician",
+          "es": "Médico"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Escriba",
+          "fr": "Scribe",
+          "en": "A scribe",
+          "es": "Escriba"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pescador",
+          "fr": "Pêcheur",
+          "en": "A fisherman",
+          "es": "Pescador"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Fabricante de tendas",
+          "fr": "Faiseur de tentes",
+          "en": "A tentmaker",
+          "es": "Hacedor de tiendas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-006",
+    "type": "choice",
+    "level": "hard",
+    "book": "TIT",
+    "chapter": 1,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Em que ilha deixou Paulo Tito para pôr em ordem o que faltava?",
+      "fr": "Dans quelle île Paul laissa-t-il Tite pour mettre en ordre ce qui restait à régler ?",
+      "en": "On which island did Paul leave Titus to set in order the things that were wanting?",
+      "es": "¿En qué isla dejó Pablo a Tito para corregir lo que faltaba?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Creta",
+          "fr": "Crète",
+          "en": "Crete",
+          "es": "Creta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Chipre",
+          "fr": "Chypre",
+          "en": "Cyprus",
+          "es": "Cipro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Rodes",
+          "fr": "Rhodes",
+          "en": "Rhodes",
+          "es": "Rhodas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Malta",
+          "fr": "Malte",
+          "en": "Melita",
+          "es": "Melita"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-007",
+    "type": "choice",
+    "level": "hard",
+    "book": "3JN",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "A quem é dirigida a Terceira Epístola de João?",
+      "fr": "À qui la troisième épître de Jean est-elle adressée ?",
+      "en": "To whom is the Third Epistle of John addressed?",
+      "es": "¿A quién va dirigida la tercera epístola de Juan?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Gaio",
+          "fr": "Gaïus",
+          "en": "Gaius",
+          "es": "Gaio"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Diótrefes",
+          "fr": "Diotrèphe",
+          "en": "Diotrephes",
+          "es": "Diótrefes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Demétrio",
+          "fr": "Démétrius",
+          "en": "Demetrius",
+          "es": "Demetrio"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tíquico",
+          "fr": "Tychique",
+          "en": "Tychicus",
+          "es": "Tichîco"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-008",
+    "type": "choice",
+    "level": "hard",
+    "book": "JUD",
+    "chapter": 1,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Segundo Judas, por causa do corpo de quem disputou o arcanjo Miguel com o diabo?",
+      "fr": "Selon Jude, l’archange Michel disputa au diable le corps de qui ?",
+      "en": "According to Jude, about whose body did Michael the archangel dispute with the devil?",
+      "es": "Según Judas, ¿por el cuerpo de quién disputó el arcángel Miguel con el diablo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Moisés",
+          "fr": "Moïse",
+          "en": "Moses",
+          "es": "Moisés"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Elias",
+          "fr": "Élie",
+          "en": "Elias",
+          "es": "Elías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Abraão",
+          "fr": "Abraham",
+          "en": "Abraham",
+          "es": "Abraham"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Enoque",
+          "fr": "Énoch",
+          "en": "Enoch",
+          "es": "Enoc"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-009",
+    "type": "choice",
+    "level": "hard",
+    "book": "REV",
+    "chapter": 3,
+    "verse_start": 14,
+    "verse_end": 15,
+    "prompt": {
+      "pt": "A que igreja diz o Senhor: «tu nem és frio nem quente»?",
+      "fr": "À quelle Église le Seigneur dit-il : « tu n’es ni froid ni bouillant » ?",
+      "en": "To which church does the Lord say “thou art neither cold nor hot”?",
+      "es": "¿A qué iglesia dice el Señor: «ni eres frío ni caliente»?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Laodiceia",
+          "fr": "Laodicée",
+          "en": "Laodicea",
+          "es": "Laodicea"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sardes",
+          "fr": "Sardes",
+          "en": "Sardis",
+          "es": "Sardis"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Éfeso",
+          "fr": "Éphèse",
+          "en": "Ephesus",
+          "es": "Efeso"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Esmirna",
+          "fr": "Smyrne",
+          "en": "Smyrna",
+          "es": "Smirna"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-010",
+    "type": "choice",
+    "level": "hard",
+    "book": "2PE",
+    "chapter": 3,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Segundo Pedro, para o Senhor um dia é como quanto tempo?",
+      "fr": "Selon Pierre, devant le Seigneur, un jour est comme combien de temps ?",
+      "en": "According to Peter, one day is with the Lord as how long?",
+      "es": "Según Pedro, ¿cuánto tiempo es un día delante del Señor?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Mil anos",
+          "fr": "Mille ans",
+          "en": "A thousand years",
+          "es": "Mil años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cem anos",
+          "fr": "Cent ans",
+          "en": "A hundred years",
+          "es": "Cien años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quarenta anos",
+          "fr": "Quarante ans",
+          "en": "Forty years",
+          "es": "Cuarenta años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete anos",
+          "fr": "Sept ans",
+          "en": "Seven years",
+          "es": "Siete años"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-011",
+    "type": "choice",
+    "level": "hard",
+    "book": "2JN",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Na Segunda Epístola de João, que palavra usa o ancião para descrever a senhora a quem escreve?",
+      "fr": "Dans la deuxième épître de Jean, quel mot l’ancien emploie-t-il pour la dame à qui il écrit ?",
+      "en": "In the Second Epistle of John, what word does the elder use for the lady he writes to?",
+      "es": "En la segunda epístola de Juan, ¿qué palabra usa el anciano para la señora a quien escribe?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Eleita",
+          "fr": "Élue",
+          "en": "Elect",
+          "es": "Elegida"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Viúva",
+          "fr": "Veuve",
+          "en": "Widowed",
+          "es": "Viuda"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Rica",
+          "fr": "Riche",
+          "en": "Rich",
+          "es": "Rica"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Idosa",
+          "fr": "Âgée",
+          "en": "Aged",
+          "es": "Anciana"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-012",
+    "type": "choice",
+    "level": "hard",
+    "book": "2CO",
+    "chapter": 11,
+    "verse_start": 25,
+    "verse_end": 25,
+    "prompt": {
+      "pt": "Quantas vezes diz Paulo que sofreu naufrágio?",
+      "fr": "Combien de fois Paul dit-il avoir fait naufrage ?",
+      "en": "How many times does Paul say he suffered shipwreck?",
+      "es": "¿Cuántas veces dice Pablo que padeció naufragio?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Três vezes",
+          "fr": "Trois fois",
+          "en": "Three times",
+          "es": "Tres veces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma vez",
+          "fr": "Une fois",
+          "en": "Once",
+          "es": "Una vez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Duas vezes",
+          "fr": "Deux fois",
+          "en": "Twice",
+          "es": "Dos veces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete vezes",
+          "fr": "Sept fois",
+          "en": "Seven times",
+          "es": "Siete veces"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-013",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estas cartas às igrejas pela ordem em que aparecem no Apocalipse.",
+      "fr": "Mets ces lettres aux Églises dans l’ordre où elles apparaissent dans l’Apocalypse.",
+      "en": "Put these letters to the churches in the order they appear in Revelation.",
+      "es": "Ordena estas cartas a las iglesias según aparecen en el Apocalipsis."
+    },
+    "items": [
+      {
+        "book": "REV",
+        "chapter": 2,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Carta à igreja de Esmirna",
+          "fr": "Lettre à l’Église de Smyrne",
+          "en": "Letter to the church in Smyrna",
+          "es": "Carta a la iglesia en Smirna"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 2,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Carta à igreja de Tiatira",
+          "fr": "Lettre à l’Église de Thyatire",
+          "en": "Letter to the church in Thyatira",
+          "es": "Carta a la iglesia en Tiatira"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 3,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Carta à igreja de Sardes",
+          "fr": "Lettre à l’Église de Sardes",
+          "en": "Letter to the church in Sardis",
+          "es": "Carta a la iglesia en Sardis"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 3,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Carta à igreja de Filadélfia",
+          "fr": "Lettre à l’Église de Philadelphie",
+          "en": "Letter to the church in Philadelphia",
+          "es": "Carta a la iglesia en Filadelfia"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-014",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 13,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Em Pafo, encontram um falso profeta",
+          "fr": "À Paphos, ils trouvent un faux prophète",
+          "en": "At Paphos they find a false prophet",
+          "es": "En Papho hallan a un falso profeta"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 13,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Entram na sinagoga de Antioquia da Pisídia",
+          "fr": "Ils entrent dans la synagogue d’Antioche de Pisidie",
+          "en": "They enter the synagogue at Antioch in Pisidia",
+          "es": "Entran en la sinagoga de Antioquía de Pisidia"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 14,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Em Icónio, uma grande multidão crê",
+          "fr": "À Icone, une grande multitude croit",
+          "en": "In Iconium a great multitude believes",
+          "es": "En Iconio cree una grande multitud"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 14,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Em Listra, encontram um coxo de nascença",
+          "fr": "À Lystre, ils trouvent un boiteux de naissance",
+          "en": "At Lystra they find a cripple from birth",
+          "es": "En Listra hallan a un cojo de nacimiento"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-015",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 23,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Paulo fala perante o conselho",
+          "fr": "Paul parle devant le sanhédrin",
+          "en": "Paul speaks before the council",
+          "es": "Pablo habla ante el concilio"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 23,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "O sobrinho de Paulo descobre a cilada",
+          "fr": "Le neveu de Paul apprend le guet-apens",
+          "en": "Paul’s sister’s son hears of the ambush",
+          "es": "El sobrino de Pablo oye las asechanzas"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 24,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "Félix e Drusila ouvem Paulo",
+          "fr": "Félix et Drusille écoutent Paul",
+          "en": "Felix and Drusilla hear Paul",
+          "es": "Félix y Drusila oyen a Pablo"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 25,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Paulo apela para César",
+          "fr": "Paul en appelle à César",
+          "en": "Paul appeals unto Cæsar",
+          "es": "Pablo apela a César"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-016",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 18,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "Apolo chega a Éfeso",
+          "fr": "Apollos arrive à Éphèse",
+          "en": "Apollos comes to Ephesus",
+          "es": "Apolos llega a Efeso"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 19,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "Demétrio faz objetos de prata para o templo de Diana",
+          "fr": "L’orfèvre Démétrius fait des temples de Diane",
+          "en": "Demetrius makes silver shrines for Diana",
+          "es": "El platero Demetrio hace templecillos de Diana"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 20,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Êutico cai de uma janela",
+          "fr": "Eutychus tombe d’une fenêtre",
+          "en": "Eutychus falls from a window",
+          "es": "Eutichô cae de una ventana"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 20,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "Paulo chama de Mileto os anciãos de Éfeso",
+          "fr": "De Milet, Paul fait venir les anciens d’Éphèse",
+          "en": "From Miletus Paul calls the Ephesian elders",
+          "es": "Desde Mileto Pablo llama a los ancianos de Efeso"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-017",
+    "type": "verse",
+    "level": "hard",
+    "book": "2JN",
+    "chapter": 1,
+    "verse_start": 12,
+    "verse_end": 12,
+    "blank": {
+      "pt": "tinta",
+      "fr": "encre",
+      "en": "ink",
+      "es": "tinta"
+    },
+    "distractors": [
+      {
+        "pt": "barro",
+        "fr": "argile",
+        "en": "clay",
+        "es": "barro"
+      },
+      {
+        "pt": "ouro",
+        "fr": "or",
+        "en": "gold",
+        "es": "oro"
+      },
+      {
+        "pt": "óleo",
+        "fr": "huile",
+        "en": "oil",
+        "es": "aceite"
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-018",
+    "type": "verse",
+    "level": "hard",
+    "book": "2TI",
+    "chapter": 4,
+    "verse_start": 13,
+    "verse_end": 13,
+    "blank": {
+      "pt": "capa",
+      "fr": "manteau",
+      "en": "cloke",
+      "es": "capote"
+    },
+    "distractors": [
+      {
+        "pt": "bolsa",
+        "fr": "sac",
+        "en": "bag",
+        "es": "saco"
+      },
+      {
+        "pt": "bengala",
+        "fr": "bâton",
+        "en": "staff",
+        "es": "bastón"
+      },
+      {
+        "pt": "taça",
+        "fr": "calice",
+        "en": "cup",
+        "es": "cáliz"
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-019",
+    "type": "verse",
+    "level": "hard",
+    "book": "HEB",
+    "chapter": 13,
+    "verse_start": 2,
+    "verse_end": 2,
+    "blank": {
+      "pt": "anjos",
+      "fr": "anges",
+      "en": "angels",
+      "es": "ángeles"
+    },
+    "distractors": [
+      {
+        "pt": "profetas",
+        "fr": "prophètes",
+        "en": "prophets",
+        "es": "profetas"
+      },
+      {
+        "pt": "reis",
+        "fr": "rois",
+        "en": "kings",
+        "es": "reyes"
+      },
+      {
+        "pt": "apóstolos",
+        "fr": "apôtres",
+        "en": "apostles",
+        "es": "apóstoles"
+      }
+    ]
+  },
+  {
+    "id": "apos-hard-020",
+    "type": "verse",
+    "level": "hard",
+    "book": "JUD",
+    "chapter": 1,
+    "verse_start": 12,
+    "verse_end": 12,
+    "blank": {
+      "pt": "água",
+      "fr": "eau",
+      "en": "water",
+      "es": "agua"
+    },
+    "distractors": [
+      {
+        "pt": "luz",
+        "fr": "lumière",
+        "en": "light",
+        "es": "luz"
+      },
+      {
+        "pt": "sombra",
+        "fr": "ombre",
+        "en": "shade",
+        "es": "sombra"
+      },
+      {
+        "pt": "cor",
+        "fr": "couleur",
+        "en": "colour",
+        "es": "color"
+      }
+    ]
+  }
+]

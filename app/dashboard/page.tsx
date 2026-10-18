@@ -1,43 +1,32 @@
-import Link from 'next/link';
-import { getLocale, getTranslations } from 'next-intl/server';
-import QuizCard from '@/components/dashboard/QuizCard';
+import { getTranslations } from 'next-intl/server';
+import NewGameForm from '@/components/dashboard/NewGameForm';
 import { getRegisteredUser } from '@/lib/supabase/server';
-import { QUIZ_SUMMARY_SELECT, toSummary } from '@/lib/quiz';
 
-export default async function MyQuizzesPage() {
-  const t = await getTranslations('dashboard');
-  const locale = await getLocale();
+export default async function NewGamePage() {
+  const t = await getTranslations('newGame');
+  const th = await getTranslations('dashboard');
+  const tc = await getTranslations('common');
   const { supabase, user } = await getRegisteredUser();
 
-  const [{ data: rows }, { data: profile }] = await Promise.all([
-    supabase.from('quizzes').select(QUIZ_SUMMARY_SELECT).eq('owner_id', user!.id).order('updated_at', { ascending: false }),
+  const [{ data: counts, error: countsError }, { data: profile }] = await Promise.all([
+    supabase.rpc('bank_counts'),
     supabase.from('profiles').select('display_name').eq('id', user!.id).maybeSingle(),
   ]);
 
-  const quizzes = (rows ?? []).map((row) => toSummary(row, locale));
+  const c = (counts ?? {}) as Partial<Record<'easy' | 'medium' | 'hard', number>>;
   const name = profile?.display_name || user!.email?.split('@')[0] || '';
 
   return (
     <div>
-      <div className="flex flex-wrap items-end justify-between gap-4">
-        <div>
-          <p className="text-sm text-ink/60">{t('hello', { name })}</p>
-          <h1 className="font-display text-3xl font-semibold">{t('title')}</h1>
-        </div>
-        <Link href="/dashboard/quizzes/new" className="btn-primary">
-          + {t('newQuiz')}
-        </Link>
-      </div>
-
-      {quizzes.length === 0 ? (
-        <div className="card mt-8 p-10 text-center text-ink/60">{t('empty')}</div>
-      ) : (
-        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {quizzes.map((q) => (
-            <QuizCard key={q.id} quiz={q} mine />
-          ))}
-        </div>
+      <p className="text-sm text-ink/60">{th('hello', { name })}</p>
+      <h1 className="font-display text-3xl font-semibold">{t('title')}</h1>
+      <p className="mt-1 max-w-2xl text-ink/70">{t('subtitle')}</p>
+      {countsError && (
+        <p role="alert" className="mt-4 rounded-xl bg-rose-50 px-4 py-3 text-sm font-medium text-rose-700">
+          {tc('error')}
+        </p>
       )}
+      <NewGameForm counts={{ easy: c.easy ?? 0, medium: c.medium ?? 0, hard: c.hard ?? 0 }} />
     </div>
   );
 }

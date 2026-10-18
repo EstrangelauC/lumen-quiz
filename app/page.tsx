@@ -34,7 +34,7 @@ export default async function LandingPage() {
             <LanguageSwitcher dark />
             {user ? (
               <Link href="/dashboard" className="btn-gold !py-2">
-                {tn('myQuizzes')}
+                {tn('newGame')}
               </Link>
             ) : (
               <Link href="/login" className="hidden rounded-lg px-3 py-2 text-sm font-semibold text-white/90 hover:text-white sm:block">
@@ -62,7 +62,7 @@ export default async function LandingPage() {
             <p className="mt-5 max-w-lg text-lg leading-relaxed text-white/75">{t('heroSubtitle')}</p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href={user ? '/dashboard' : '/register'} className="btn-gold px-6 text-base">
-                {user ? tn('myQuizzes') : t('ctaCreate')}
+                {user ? tn('newGame') : t('ctaCreate')}
               </Link>
               <Link href="/join" className="btn border border-white/25 px-6 text-base text-white hover:bg-white/10">
                 {t('ctaJoin')}
@@ -150,7 +150,7 @@ export default async function LandingPage() {
           <p className="mx-auto mt-3 max-w-md text-white/75">{t('finalText')}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link href={user ? '/dashboard' : '/register'} className="btn-gold px-6 text-base">
-              {user ? tn('myQuizzes') : t('ctaCreate')}
+              {user ? tn('newGame') : t('ctaCreate')}
             </Link>
             <Link href="/join" className="btn border border-white/25 px-6 text-base text-white hover:bg-white/10">
               {tn('join')}

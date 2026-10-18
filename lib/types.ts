@@ -4,7 +4,8 @@ export type SessionStatus = 'lobby' | 'question' | 'reveal' | 'finished';
 
 export type GameSession = {
   id: string;
-  quiz_id: string;
+  level: 'easy' | 'medium' | 'hard';
+  question_count: number;
   pin: string;
   status: SessionStatus;
   current_position: number | null;
@@ -15,11 +16,13 @@ export type QuestionOption = {
   id: string;
   position: number;
   text: string;
+  ref: string | null; // só nos itens de 'order', na revelação
   is_correct: boolean | null; // null até à revelação
 };
 
 export type CurrentQuestion = {
   question_id: string;
+  type: 'choice' | 'order' | 'verse';
   position: number;
   total: number;
   time_limit_s: number;
@@ -29,6 +32,10 @@ export type CurrentQuestion = {
   bible_ref: string | null;
   text: string;
   options: QuestionOption[];
+  correct_order: string[] | null; // só na revelação
+  verse_text: string | null; // só na revelação
+  reported: boolean;
+  my_answered: boolean;
 };
 
 export type Player = {
@@ -37,29 +44,4 @@ export type Player = {
   nickname: string;
   locale: Locale;
   score: number;
-};
-
-export type Texts = Partial<Record<Locale, string>>;
-
-export type EditorOption = { is_correct: boolean; texts: Texts };
-export type EditorQuestion = {
-  time_limit_s: number;
-  bible_ref: string;
-  texts: Texts;
-  options: EditorOption[];
-};
-export type EditorQuiz = {
-  id?: string;
-  default_locale: Locale;
-  is_public: boolean;
-  titles: Texts;
-  questions: EditorQuestion[];
-};
-
-export type QuizSummary = {
-  id: string;
-  title: string;
-  questionCount: number;
-  isPublic: boolean;
-  languages: string[];
 };

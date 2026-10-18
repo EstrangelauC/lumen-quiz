@@ -2,18 +2,26 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { createClient } from '@/lib/supabase/client';
 import { ANSWER_STYLES } from '@/lib/quiz';
 import type { CurrentQuestion, GameSession, Player } from '@/lib/types';
 import { useCountdown } from '@/hooks/useCountdown';
 import TimerBadge from './TimerBadge';
+import OrderInput from './OrderInput';
+import VerseReveal, { VerseGapText } from './VerseReveal';
+import LanguageSwitcher from '../LanguageSwitcher';
 
-type MyAnswer = { option_id: string; is_correct: boolean | null; points_awarded: number | null };
+// Antes da revelação só se sabe que respondi (is_correct e pontos ficam a null)
+type Ranking = { rank: number; total: number; score: number; ahead: { name: string; gap: number } | null };
+type MyAnswer = { option_id: string | null; order_ids: string[] | null; is_correct: boolean | null; points_awarded: number | null };
+const ANSWERED: MyAnswer = { option_id: null, order_ids: null, is_correct: null, points_awarded: null };
 
 export default function PlayerGame({ sessionId }: { sessionId: string }) {
   const t = useTranslations('play');
+  // A língua da interface manda também nas perguntas: o seletor no topo muda as duas a meio do jogo
+  const locale = useLocale();
   const router = useRouter();
   const supabase = useMemo(() => createClient(), []);
 
@@ -23,7 +31,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
   const [offset, setOffset] = useState(0);
   const [myAnswer, setMyAnswer] = useState<MyAnswer | null>(null);
   const [sending, setSending] = useState(false);
-  const [ranking, setRanking] = useState<{ rank: number; total: number; score: number } | null>(null);
+  const [ranking, setRanking] = useState<Ranking | null>(null);
 
   // Quem sou eu neste jogo?
   useEffect(() => {
@@ -40,7 +48,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
       setMe(player as Player);
       const { data: s } = await supabase
         .from('game_sessions')
-        .select('id, quiz_id, pin, status, current_position, question_started_at')
+        .select('id, pin, status, level, question_count, current_position, question_started_at')
         .eq('id', sessionId)
         .single();
       if (s) setSession(s as GameSession);
@@ -59,10 +67,17 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
 
   const loadRanking = useCallback(async () => {
     if (!me) return;
-    const { data } = await supabase.from('players').select('id, score').eq('session_id', sessionId).order('score', { ascending: false });
-    const list = (data ?? []) as { id: string; score: number }[];
+    const { data } = await supabase
+      .from('players')
+      .select('id, nickname, score')
+      .eq('session_id', sessionId)
+      .order('score', { ascending: false })
+      .order('joined_at', { ascending: true });
+    const list = (data ?? []) as { id: string; nickname: string; score: number }[];
     const idx = list.findIndex((p) => p.id === me.id);
-    setRanking({ rank: idx + 1, total: list.length, score: list[idx]?.score ?? 0 });
+    const score = list[idx]?.score ?? 0;
+    const above = idx > 0 ? list[idx - 1] : null;
+    setRanking({ rank: idx + 1, total: list.length, score, ahead: above ? { name: above.nickname, gap: above.score - score } : null });
   }, [supabase, sessionId, me]);
 
   // Cada mudança de estado: pergunta na MINHA língua + a minha resposta
@@ -80,36 +95,55 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
     }
     let cancelled = false;
     (async () => {
-      const { data } = await supabase.rpc('get_current_question', { p_session_id: sessionId, p_locale: me.locale });
+      const { data } = await supabase.rpc('get_current_question', { p_session_id: sessionId, p_locale: locale });
       if (cancelled || !data) return;
       const q = data as CurrentQuestion;
-      setQuestion(q);
-      setOffset(Date.parse(q.server_now) - Date.now());
-      const { data: ans } = await supabase
-        .from('answers')
-        .select('option_id, is_correct, points_awarded')
-        .eq('player_id', me.id)
-        .eq('question_id', q.question_id)
-        .maybeSingle();
+      // Durante a pergunta a minha linha em answers está escondida (RLS): uso my_answered.
+      // Depois da revelação leio-a (certo/errado e pontos).
+      let mine: MyAnswer | null = q.my_answered ? ANSWERED : null;
+      if (q.status === 'reveal') {
+        const { data: ans } = await supabase
+          .from('answers')
+          .select('option_id, order_ids, is_correct, points_awarded')
+          .eq('player_id', me.id)
+          .eq('question_id', q.question_id)
+          .maybeSingle();
+        mine = (ans as MyAnswer | null) ?? null;
+      }
       if (cancelled) return;
-      setMyAnswer(ans ? (status === 'reveal' ? (ans as MyAnswer) : { option_id: ans.option_id, is_correct: null, points_awarded: null }) : null);
-      if (status === 'reveal') loadRanking();
+      // Pergunta e resposta mudam juntas (evita mostrar a resposta da pergunta anterior)
+      setQuestion(q);
+      setMyAnswer(mine);
+      setOffset(Date.parse(q.server_now) - Date.now());
+      if (q.status === 'reveal') loadRanking();
     })();
     return () => {
       cancelled = true;
     };
-  }, [supabase, sessionId, me, status, position, loadRanking]);
+  }, [supabase, sessionId, me, status, position, locale, loadRanking]);
 
   const remaining = useCountdown(question?.started_at, question?.time_limit_s ?? 0, offset, status === 'question');
 
   async function answer(optionId: string) {
     if (myAnswer || sending || remaining === 0) return;
     setSending(true);
-    setMyAnswer({ option_id: optionId, is_correct: null, points_awarded: null });
+    setMyAnswer({ ...ANSWERED, option_id: optionId });
     const { error } = await supabase.rpc('submit_answer', { p_session_id: sessionId, p_option_id: optionId });
     setSending(false);
     if (error && !error.message.includes('already_answered')) setMyAnswer(null);
   }
+
+  async function answerOrder(ids: string[]) {
+    if (myAnswer || sending || remaining === 0) return;
+    setSending(true);
+    setMyAnswer({ ...ANSWERED, order_ids: ids });
+    const { error } = await supabase.rpc('submit_order', { p_session_id: sessionId, p_order: ids });
+    setSending(false);
+    if (error && !error.message.includes('already_answered')) setMyAnswer(null);
+  }
+
+  // Só mostra a pergunta carregada se ainda for a do estado atual da sessão
+  const current = question && question.status === status && question.position === position ? question : null;
 
   if (!me || !session) {
     return <div className="flex min-h-dvh items-center justify-center bg-night text-white/60">…</div>;
@@ -119,7 +153,10 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
     <div className="flex min-h-dvh flex-col bg-night text-white">
       <header className="flex items-center justify-between px-4 py-3">
         <span className="font-semibold">{me.nickname}</span>
-        {ranking && status !== 'lobby' && <span className="rounded-full bg-white/10 px-3 py-1 text-sm tabular-nums">{ranking.score} pts</span>}
+        <div className="flex items-center gap-2">
+          {ranking && status !== 'lobby' && <span className="rounded-full bg-white/10 px-3 py-1 text-sm tabular-nums">{ranking.score} pts</span>}
+          <LanguageSwitcher dark />
+        </div>
       </header>
 
       {/* Sala de espera */}
@@ -133,11 +170,19 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
       )}
 
       {/* Pergunta */}
-      {status === 'question' && question && (
+      {status === 'question' && current && (
         <main className="flex flex-1 flex-col px-4 pb-6">
           <div className="flex items-start gap-3">
-            <h1 className="font-display flex-1 text-xl font-semibold leading-snug sm:text-2xl">{question.text}</h1>
-            <TimerBadge remaining={remaining} total={question.time_limit_s} size="sm" />
+            <div className="flex-1">
+              {current.type === 'verse' && (
+                <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-gold">{t('completeVerse')}</p>
+              )}
+              <h1 className="font-display text-xl font-semibold leading-snug sm:text-2xl">
+                {current.type === 'verse' ? <VerseGapText text={current.text} /> : current.text}
+              </h1>
+              {current.type === 'verse' && current.bible_ref && <p className="mt-1 text-sm text-white/60">📖 {current.bible_ref}</p>}
+            </div>
+            <TimerBadge remaining={remaining} total={current.time_limit_s} size="sm" />
           </div>
 
           {myAnswer ? (
@@ -151,9 +196,11 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
               <p className="text-5xl">⌛</p>
               <h2 className="font-display mt-4 text-2xl font-semibold">{t('timeUp')}</h2>
             </Centered>
+          ) : current.type === 'order' ? (
+            <OrderInput key={current.question_id} items={current.options} disabled={sending} onSubmit={answerOrder} />
           ) : (
             <div className="mt-6 grid flex-1 grid-cols-1 gap-3 sm:grid-cols-2">
-              {question.options.map((o, i) => (
+              {current.options.map((o, i) => (
                 <button
                   key={o.id}
                   onClick={() => answer(o.id)}
@@ -170,9 +217,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
       )}
 
       {/* Revelação */}
-      {status === 'reveal' && question && (
-        <RevealView question={question} myAnswer={myAnswer} ranking={ranking} />
-      )}
+      {status === 'reveal' && current && <RevealView question={current} myAnswer={myAnswer} ranking={ranking} locale={locale} />}
 
       {/* Fim */}
       {status === 'finished' && (
@@ -199,14 +244,20 @@ function RevealView({
   question,
   myAnswer,
   ranking,
+  locale,
 }: {
   question: CurrentQuestion;
   myAnswer: MyAnswer | null;
-  ranking: { rank: number; total: number; score: number } | null;
+  ranking: Ranking | null;
+  locale: string;
 }) {
   const t = useTranslations('play');
   const correct = question.options.find((o) => o.is_correct);
   const right = myAnswer?.is_correct === true;
+  const rightOrder =
+    question.type === 'order' && question.correct_order
+      ? question.correct_order.map((id) => question.options.find((o) => o.id === id)).filter((o) => o !== undefined)
+      : [];
 
   return (
     <div className={`flex flex-1 flex-col items-center justify-center px-6 pb-10 text-center ${right ? 'bg-emerald-600' : myAnswer ? 'bg-rose-600' : ''}`}>
@@ -216,8 +267,36 @@ function RevealView({
         <p className="mt-3 rounded-full bg-white/20 px-5 py-2 text-xl font-bold">{t('points', { points: myAnswer.points_awarded })}</p>
       )}
       {!right && correct && <p className="mt-4 text-lg text-white/90">{t('rightAnswer', { answer: correct.text })}</p>}
-      {question.bible_ref && <p className="mt-3 text-sm text-white/70">📖 {question.bible_ref}</p>}
-      {ranking && <p className="mt-8 font-semibold">{t('rank', { rank: ranking.rank })}</p>}
+      {question.type === 'order' ? (
+        <>
+          {rightOrder.length > 0 && (
+            <div className="mt-5 w-full max-w-md text-left">
+              <p className="mb-2 text-center text-sm font-semibold uppercase tracking-widest text-white/80">{t('rightOrder')}</p>
+              <ol className="space-y-1.5">
+                {rightOrder.map((o, i) => (
+                  <li key={o.id} className="flex items-baseline gap-3 rounded-xl bg-black/20 px-3 py-2">
+                    <span className="font-bold tabular-nums">{i + 1}.</span>
+                    <span className="flex-1">
+                      <span className="font-semibold">{o.text}</span>
+                      {o.ref && <span className="block text-xs text-white/70">📖 {o.ref}</span>}
+                    </span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          )}
+        </>
+      ) : (
+        <div className="mt-5 w-full max-w-md">
+          <VerseReveal reference={question.bible_ref} text={question.verse_text} size="sm" locale={locale} />
+        </div>
+      )}
+      {ranking && (
+        <div className="mt-8">
+          <p className="text-lg font-semibold">{t('rank', { rank: ranking.rank })}</p>
+          {ranking.ahead && <p className="mt-1 text-sm text-white/80">{t('behind', { points: ranking.ahead.gap, name: ranking.ahead.name })}</p>}
+        </div>
+      )}
     </div>
   );
 }

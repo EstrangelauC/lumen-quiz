@@ -1,0 +1,3062 @@
+[
+  {
+    "id": "pent-easy-001",
+    "type": "choice",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 2,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "De que formou Deus o primeiro homem?",
+      "fr": "De quoi Dieu a-t-il formé le premier homme ?",
+      "en": "What did God form the first man from?",
+      "es": "¿De qué formó Dios al primer hombre?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Do pó da terra",
+          "fr": "De la poussière de la terre",
+          "en": "The dust of the ground",
+          "es": "Del polvo de la tierra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De uma pedra",
+          "fr": "D’une pierre",
+          "en": "A stone",
+          "es": "De una piedra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De uma árvore",
+          "fr": "D’un arbre",
+          "en": "A tree",
+          "es": "De un árbol"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Da água do mar",
+          "fr": "De l’eau de la mer",
+          "en": "Sea water",
+          "es": "Del agua del mar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-002",
+    "type": "choice",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 2,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "De que parte de Adão fez Deus a mulher?",
+      "fr": "De quelle partie d’Adam Dieu a-t-il fait la femme ?",
+      "en": "From what part of Adam did God make the woman?",
+      "es": "¿De qué parte de Adán hizo Dios a la mujer?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De uma costela",
+          "fr": "D’une côte",
+          "en": "A rib",
+          "es": "De una costilla"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Do pé",
+          "fr": "Du pied",
+          "en": "His foot",
+          "es": "Del pie"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Da mão",
+          "fr": "De la main",
+          "en": "His hand",
+          "es": "De la mano"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Do cabelo",
+          "fr": "Des cheveux",
+          "en": "His hair",
+          "es": "Del cabello"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-003",
+    "type": "choice",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 3,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Que animal falou com Eva no jardim?",
+      "fr": "Quel animal a parlé à Ève dans le jardin ?",
+      "en": "Which animal spoke to Eve in the garden?",
+      "es": "¿Qué animal habló con Eva en el huerto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A serpente",
+          "fr": "Le serpent",
+          "en": "The serpent",
+          "es": "La serpiente"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O leão",
+          "fr": "Le lion",
+          "en": "The lion",
+          "es": "El león"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O corvo",
+          "fr": "Le corbeau",
+          "en": "The raven",
+          "es": "El cuervo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A raposa",
+          "fr": "Le renard",
+          "en": "The fox",
+          "es": "La zorra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-004",
+    "type": "choice",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 4,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Quem matou o seu irmão Abel?",
+      "fr": "Qui a tué son frère Abel ?",
+      "en": "Who killed his brother Abel?",
+      "es": "¿Quién mató a su hermano Abel?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Caim",
+          "fr": "Caïn",
+          "en": "Cain",
+          "es": "Caín"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete",
+          "fr": "Seth",
+          "en": "Seth",
+          "es": "Seth"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Noé",
+          "fr": "Noé",
+          "en": "Noah",
+          "es": "Noé"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Adão",
+          "fr": "Adam",
+          "en": "Adam",
+          "es": "Adam"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-005",
+    "type": "choice",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 6,
+    "verse_start": 14,
+    "verse_end": 14,
+    "prompt": {
+      "pt": "O que mandou Deus Noé construir?",
+      "fr": "Qu’est-ce que Dieu a demandé à Noé de construire ?",
+      "en": "What did God tell Noah to build?",
+      "es": "¿Qué mandó Dios a Noé construir?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma arca",
+          "fr": "Une arche",
+          "en": "An ark",
+          "es": "Un arca"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma torre",
+          "fr": "Une tour",
+          "en": "A tower",
+          "es": "Una torre"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um templo",
+          "fr": "Un temple",
+          "en": "A temple",
+          "es": "Un templo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma muralha",
+          "fr": "Une muraille",
+          "en": "A wall",
+          "es": "Una muralla"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-006",
+    "type": "choice",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 9,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Depois do dilúvio, que sinal pôs Deus nas nuvens?",
+      "fr": "Après le déluge, quel signe Dieu a-t-il mis dans la nuée ?",
+      "en": "After the flood, what sign did God set in the clouds?",
+      "es": "Después del diluvio, ¿qué señal puso Dios en las nubes?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O seu arco",
+          "fr": "Son arc",
+          "en": "His bow",
+          "es": "Su arco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma estrela",
+          "fr": "Une étoile",
+          "en": "A star",
+          "es": "Una estrella"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma pomba",
+          "fr": "Une colombe",
+          "en": "A dove",
+          "es": "Una paloma"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um relâmpago",
+          "fr": "Un éclair",
+          "en": "Lightning",
+          "es": "Un relámpago"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-007",
+    "type": "choice",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 21,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Como se chamava o filho que Sara deu a Abraão?",
+      "fr": "Comment s’appelait le fils que Sara a donné à Abraham ?",
+      "en": "What was the name of the son Sarah bore to Abraham?",
+      "es": "¿Cómo se llamaba el hijo que Sara dio a Abraham?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Isaac",
+          "fr": "Isaac",
+          "en": "Isaac",
+          "es": "Isaac"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jacob",
+          "fr": "Jacob",
+          "en": "Jacob",
+          "es": "Jacob"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "José",
+          "fr": "Joseph",
+          "en": "Joseph",
+          "es": "José"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moisés",
+          "fr": "Moïse",
+          "en": "Moses",
+          "es": "Moisés"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-008",
+    "type": "choice",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 37,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Que presente fez Jacob (Israel) ao seu filho José?",
+      "fr": "Quel cadeau Jacob (Israël) a-t-il fait à son fils Joseph ?",
+      "en": "What gift did Jacob (Israel) make for his son Joseph?",
+      "es": "¿Qué regalo hizo Jacob (Israel) a su hijo José?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma roupa de muitas cores",
+          "fr": "Une tunique de plusieurs couleurs",
+          "en": "A coat of many colours",
+          "es": "Una túnica de diversos colores"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um anel de ouro",
+          "fr": "Un anneau d’or",
+          "en": "A gold ring",
+          "es": "Un anillo de oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma espada",
+          "fr": "Une épée",
+          "en": "A sword",
+          "es": "Una espada"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um cordeiro",
+          "fr": "Un agneau",
+          "en": "A lamb",
+          "es": "Un cordero"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-009",
+    "type": "choice",
+    "level": "easy",
+    "book": "EXO",
+    "chapter": 2,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Onde pôs a mãe o bebé Moisés para o esconder?",
+      "fr": "Où la mère a-t-elle mis le bébé Moïse pour le cacher ?",
+      "en": "Where did his mother put baby Moses to hide him?",
+      "es": "¿Dónde puso la madre al bebé Moisés para esconderlo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Numa cesta de juncos, junto ao rio",
+          "fr": "Dans une caisse de jonc, au bord du fleuve",
+          "en": "In an ark of bulrushes by the river",
+          "es": "En una arquilla de juncos, junto al río"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Numa gruta",
+          "fr": "Dans une grotte",
+          "en": "In a cave",
+          "es": "En una cueva"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Num poço",
+          "fr": "Dans un puits",
+          "en": "In a well",
+          "es": "En un pozo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Numa tenda",
+          "fr": "Dans une tente",
+          "en": "In a tent",
+          "es": "En una tienda"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-010",
+    "type": "choice",
+    "level": "easy",
+    "book": "EXO",
+    "chapter": 3,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Onde viu Moisés uma chama de fogo que não queimava a planta?",
+      "fr": "Où Moïse a-t-il vu une flamme de feu qui ne consumait pas la plante ?",
+      "en": "Where did Moses see a flame of fire that did not burn up the plant?",
+      "es": "¿Dónde vio Moisés una llama de fuego que no consumía la planta?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Numa sarça",
+          "fr": "Dans un buisson",
+          "en": "In a bush",
+          "es": "En una zarza"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Numa oliveira",
+          "fr": "Dans un olivier",
+          "en": "In an olive tree",
+          "es": "En un olivo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Numa videira",
+          "fr": "Dans une vigne",
+          "en": "In a vine",
+          "es": "En una vid"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Numa figueira",
+          "fr": "Dans un figuier",
+          "en": "In a fig tree",
+          "es": "En una higuera"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-011",
+    "type": "choice",
+    "level": "easy",
+    "book": "EXO",
+    "chapter": 16,
+    "verse_start": 31,
+    "verse_end": 31,
+    "prompt": {
+      "pt": "Que nome deu o povo de Israel ao pão que vinha do céu?",
+      "fr": "Quel nom le peuple d’Israël a-t-il donné au pain venu du ciel ?",
+      "en": "What did the people of Israel call the bread from heaven?",
+      "es": "¿Qué nombre dio el pueblo de Israel al pan que venía del cielo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Maná",
+          "fr": "Manne",
+          "en": "Manna",
+          "es": "Maná"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mel",
+          "fr": "Miel",
+          "en": "Honey",
+          "es": "Miel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Trigo",
+          "fr": "Blé",
+          "en": "Wheat",
+          "es": "Trigo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Codorniz",
+          "fr": "Caille",
+          "en": "Quail",
+          "es": "Codorniz"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-012",
+    "type": "choice",
+    "level": "easy",
+    "book": "NUM",
+    "chapter": 22,
+    "verse_start": 28,
+    "verse_end": 28,
+    "prompt": {
+      "pt": "Que animal falou com Balaão?",
+      "fr": "Quel animal a parlé à Balaam ?",
+      "en": "Which animal spoke to Balaam?",
+      "es": "¿Qué animal habló con Balaam?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A jumenta",
+          "fr": "L’ânesse",
+          "en": "The donkey",
+          "es": "El asna"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O camelo",
+          "fr": "Le chameau",
+          "en": "The camel",
+          "es": "El camello"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O cavalo",
+          "fr": "Le cheval",
+          "en": "The horse",
+          "es": "El caballo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A ovelha",
+          "fr": "La brebis",
+          "en": "The sheep",
+          "es": "La oveja"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-013",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Deus cria os céus e a terra",
+          "fr": "Dieu crée les cieux et la terre",
+          "en": "God creates heaven and earth",
+          "es": "Dios crea los cielos y la tierra"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 3,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Eva come o fruto da árvore",
+          "fr": "Ève mange le fruit de l’arbre",
+          "en": "Eve eats the fruit of the tree",
+          "es": "Eva come el fruto del árbol"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 7,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Noé entra na arca",
+          "fr": "Noé entre dans l’arche",
+          "en": "Noah goes into the ark",
+          "es": "Noé entra en el arca"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 11,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Deus confunde a língua em Babel",
+          "fr": "Dieu confond le langage à Babel",
+          "en": "God confounds the language at Babel",
+          "es": "Dios confunde la lengua en Babel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-014",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 12,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Abrão parte de Harã",
+          "fr": "Abram quitte Charan",
+          "en": "Abram leaves Haran",
+          "es": "Abram sale de Harán"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 21,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Sara dá à luz um filho",
+          "fr": "Sara enfante un fils",
+          "en": "Sarah gives birth to a son",
+          "es": "Sara da a luz un hijo"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 37,
+        "verse_start": 28,
+        "verse_end": 28,
+        "text": {
+          "pt": "José é vendido pelos irmãos",
+          "fr": "Joseph est vendu par ses frères",
+          "en": "Joseph is sold by his brothers",
+          "es": "José es vendido por sus hermanos"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 41,
+        "verse_start": 41,
+        "verse_end": 41,
+        "text": {
+          "pt": "José governa a terra do Egito",
+          "fr": "Joseph gouverne le pays d’Égypte",
+          "en": "Joseph rules over the land of Egypt",
+          "es": "José gobierna la tierra de Egipto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-015",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EXO",
+        "chapter": 2,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "O bebé Moisés é posto junto ao rio",
+          "fr": "Le bébé Moïse est déposé près du fleuve",
+          "en": "Baby Moses is laid by the river",
+          "es": "El bebé Moisés es puesto junto al río"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 3,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Moisés vê a sarça a arder",
+          "fr": "Moïse voit le buisson ardent",
+          "en": "Moses sees the burning bush",
+          "es": "Moisés ve la zarza ardiendo"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 7,
+        "verse_start": 20,
+        "verse_end": 20,
+        "text": {
+          "pt": "A água do rio torna-se sangue",
+          "fr": "L’eau du fleuve devient du sang",
+          "en": "The river water turns to blood",
+          "es": "El agua del río se vuelve sangre"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 14,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "As águas do mar dividem-se",
+          "fr": "Les eaux de la mer se fendent",
+          "en": "The waters of the sea are divided",
+          "es": "Las aguas del mar se dividen"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-016",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EXO",
+        "chapter": 14,
+        "verse_start": 22,
+        "verse_end": 22,
+        "text": {
+          "pt": "O povo atravessa o mar",
+          "fr": "Le peuple traverse la mer",
+          "en": "The people cross the sea",
+          "es": "El pueblo cruza el mar"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 16,
+        "verse_start": 31,
+        "verse_end": 31,
+        "text": {
+          "pt": "Deus dá o maná ao povo",
+          "fr": "Dieu donne la manne au peuple",
+          "en": "God gives manna to the people",
+          "es": "Dios da el maná al pueblo"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 20,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Deus dá os Dez Mandamentos",
+          "fr": "Dieu donne les dix commandements",
+          "en": "God gives the Ten Commandments",
+          "es": "Dios da los diez mandamientos"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 32,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "O povo faz um bezerro de ouro",
+          "fr": "Le peuple fait un veau d’or",
+          "en": "The people make a golden calf",
+          "es": "El pueblo hace un becerro de oro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-017",
+    "type": "verse",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "blank": {
+      "pt": "Deus",
+      "fr": "Dieu",
+      "en": "God",
+      "es": "Dios"
+    },
+    "distractors": [
+      {
+        "pt": "Moisés",
+        "fr": "Moïse",
+        "en": "Moses",
+        "es": "Moisés"
+      },
+      {
+        "pt": "Adão",
+        "fr": "Adam",
+        "en": "Adam",
+        "es": "Adam"
+      },
+      {
+        "pt": "Noé",
+        "fr": "Noé",
+        "en": "Noah",
+        "es": "Noé"
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-018",
+    "type": "verse",
+    "level": "easy",
+    "book": "EXO",
+    "chapter": 20,
+    "verse_start": 12,
+    "verse_end": 12,
+    "blank": {
+      "pt": "pai",
+      "fr": "père",
+      "en": "father",
+      "es": "padre"
+    },
+    "distractors": [
+      {
+        "pt": "irmão",
+        "fr": "frère",
+        "en": "brother",
+        "es": "hermano"
+      },
+      {
+        "pt": "amigo",
+        "fr": "ami",
+        "en": "friend",
+        "es": "amigo"
+      },
+      {
+        "pt": "rei",
+        "fr": "roi",
+        "en": "king",
+        "es": "rey"
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-019",
+    "type": "verse",
+    "level": "easy",
+    "book": "NUM",
+    "chapter": 6,
+    "verse_start": 24,
+    "verse_end": 24,
+    "blank": {
+      "pt": "abençoe",
+      "fr": "bénisse",
+      "en": "bless",
+      "es": "bendiga"
+    },
+    "distractors": [
+      {
+        "pt": "chame",
+        "fr": "appelle",
+        "en": "call",
+        "es": "llame"
+      },
+      {
+        "pt": "ensine",
+        "fr": "enseigne",
+        "en": "teach",
+        "es": "enseñe"
+      },
+      {
+        "pt": "ouça",
+        "fr": "écoute",
+        "en": "hear",
+        "es": "oiga"
+      }
+    ]
+  },
+  {
+    "id": "pent-easy-020",
+    "type": "verse",
+    "level": "easy",
+    "book": "DEU",
+    "chapter": 31,
+    "verse_start": 8,
+    "verse_end": 8,
+    "blank": {
+      "pt": "temas",
+      "fr": "crains",
+      "en": "fear",
+      "es": "temas"
+    },
+    "distractors": [
+      {
+        "pt": "chores",
+        "fr": "pleure",
+        "en": "weep",
+        "es": "llores"
+      },
+      {
+        "pt": "corras",
+        "fr": "cours",
+        "en": "run",
+        "es": "corras"
+      },
+      {
+        "pt": "durmas",
+        "fr": "dors",
+        "en": "sleep",
+        "es": "duermas"
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-001",
+    "type": "choice",
+    "level": "medium",
+    "book": "GEN",
+    "chapter": 8,
+    "verse_start": 7,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Que ave enviou Noé da arca antes da pomba?",
+      "fr": "Quel oiseau Noé a-t-il lâché de l’arche avant la colombe ?",
+      "en": "Which bird did Noah send out of the ark before the dove?",
+      "es": "¿Qué ave envió Noé desde el arca antes de la paloma?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O corvo",
+          "fr": "Le corbeau",
+          "en": "A raven",
+          "es": "El cuervo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A águia",
+          "fr": "L’aigle",
+          "en": "An eagle",
+          "es": "El águila"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O pardal",
+          "fr": "Le moineau",
+          "en": "A sparrow",
+          "es": "El gorrión"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A andorinha",
+          "fr": "L’hirondelle",
+          "en": "A swallow",
+          "es": "La golondrina"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-002",
+    "type": "choice",
+    "level": "medium",
+    "book": "GEN",
+    "chapter": 8,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "O que trazia a pomba no bico quando voltou à arca ao fim da tarde?",
+      "fr": "Que rapportait la colombe dans son bec quand elle est revenue à l’arche le soir ?",
+      "en": "What did the dove bring in her mouth when she came back to the ark in the evening?",
+      "es": "¿Qué traía la paloma en el pico cuando volvió al arca a la tarde?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma folha de oliveira",
+          "fr": "Une feuille d’olivier",
+          "en": "An olive leaf",
+          "es": "Una hoja de olivo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma espiga de trigo",
+          "fr": "Un épi de blé",
+          "en": "An ear of wheat",
+          "es": "Una espiga de trigo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um figo",
+          "fr": "Une figue",
+          "en": "A fig",
+          "es": "Un higo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um cacho de uvas",
+          "fr": "Une grappe de raisin",
+          "en": "A bunch of grapes",
+          "es": "Un racimo de uvas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-003",
+    "type": "choice",
+    "level": "medium",
+    "book": "GEN",
+    "chapter": 19,
+    "verse_start": 24,
+    "verse_end": 24,
+    "prompt": {
+      "pt": "O que fez o SENHOR chover sobre Sodoma e Gomorra?",
+      "fr": "Que fit pleuvoir l’Éternel sur Sodome et Gomorrhe ?",
+      "en": "What did the LORD rain upon Sodom and Gomorrah?",
+      "es": "¿Qué hizo llover Jehová sobre Sodoma y Gomorra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Enxofre e fogo",
+          "fr": "Du soufre et du feu",
+          "en": "Brimstone and fire",
+          "es": "Azufre y fuego"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pedras e cinza",
+          "fr": "Des pierres et de la cendre",
+          "en": "Stones and ashes",
+          "es": "Piedras y ceniza"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Água e sal",
+          "fr": "De l’eau et du sel",
+          "en": "Water and salt",
+          "es": "Agua y sal"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Granizo e neve",
+          "fr": "De la grêle et de la neige",
+          "en": "Hail and snow",
+          "es": "Granizo y nieve"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-004",
+    "type": "choice",
+    "level": "medium",
+    "book": "GEN",
+    "chapter": 22,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Para que terra mandou Deus Abraão ir, para lá oferecer Isaac?",
+      "fr": "Dans quel pays Dieu envoya-t-il Abraham pour y offrir Isaac ?",
+      "en": "To which land did God send Abraham to offer Isaac there?",
+      "es": "¿A qué tierra mandó Dios ir a Abraham para ofrecer allí a Isaac?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Moriá",
+          "fr": "Morija",
+          "en": "Moriah",
+          "es": "Moriah"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Egito",
+          "fr": "Égypte",
+          "en": "Egypt",
+          "es": "Egipto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Midiã",
+          "fr": "Madian",
+          "en": "Midian",
+          "es": "Madián"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moabe",
+          "fr": "Moab",
+          "en": "Moab",
+          "es": "Moab"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-005",
+    "type": "choice",
+    "level": "medium",
+    "book": "GEN",
+    "chapter": 25,
+    "verse_start": 33,
+    "verse_end": 34,
+    "prompt": {
+      "pt": "Que comida deu Jacob a Esaú em troca do direito de primogenitura?",
+      "fr": "Quel plat Jacob a-t-il donné à Ésaü en échange de son droit d’aînesse ?",
+      "en": "What food did Jacob give Esau in exchange for his birthright?",
+      "es": "¿Qué comida dio Jacob a Esaú a cambio de su primogenitura?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Pão e guisado de lentilhas",
+          "fr": "Du pain et un potage de lentilles",
+          "en": "Bread and lentil stew",
+          "es": "Pan y guisado de lentejas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Carne de veado",
+          "fr": "Du gibier",
+          "en": "Venison",
+          "es": "Carne de venado"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Peixe assado",
+          "fr": "Du poisson grillé",
+          "en": "Roasted fish",
+          "es": "Pescado asado"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Figos e mel",
+          "fr": "Des figues et du miel",
+          "en": "Figs and honey",
+          "es": "Higos y miel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-006",
+    "type": "choice",
+    "level": "medium",
+    "book": "GEN",
+    "chapter": 41,
+    "verse_start": 30,
+    "verse_end": 30,
+    "prompt": {
+      "pt": "Quantos anos de fome anunciou José ao Faraó?",
+      "fr": "Combien d’années de famine Joseph a-t-il annoncées au pharaon ?",
+      "en": "How many years of famine did Joseph announce to Pharaoh?",
+      "es": "¿Cuántos años de hambre anunció José a Faraón?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "7",
+          "fr": "7",
+          "en": "7",
+          "es": "7"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "3",
+          "fr": "3",
+          "en": "3",
+          "es": "3"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "10",
+          "fr": "10",
+          "en": "10",
+          "es": "10"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "40",
+          "fr": "40",
+          "en": "40",
+          "es": "40"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-007",
+    "type": "choice",
+    "level": "medium",
+    "book": "EXO",
+    "chapter": 17,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Em Horebe, o que mandou Deus Moisés fazer para o povo ter água?",
+      "fr": "À Horeb, que Dieu ordonna-t-il à Moïse de faire pour que le peuple ait de l’eau ?",
+      "en": "At Horeb, what did God tell Moses to do so the people could have water?",
+      "es": "En Horeb, ¿qué mandó Dios hacer a Moisés para que el pueblo tuviera agua?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Ferir a rocha",
+          "fr": "Frapper le rocher",
+          "en": "Smite the rock",
+          "es": "Herir la peña"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cavar um poço",
+          "fr": "Creuser un puits",
+          "en": "Dig a well",
+          "es": "Cavar un pozo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Orar toda a noite",
+          "fr": "Prier toute la nuit",
+          "en": "Pray all night",
+          "es": "Orar toda la noche"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Lançar sal na fonte",
+          "fr": "Jeter du sel dans la source",
+          "en": "Throw salt into the spring",
+          "es": "Echar sal en la fuente"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-008",
+    "type": "choice",
+    "level": "medium",
+    "book": "EXO",
+    "chapter": 12,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Na Páscoa, onde punham os israelitas o sangue do cordeiro?",
+      "fr": "À la Pâque, où les Israélites mettaient-ils le sang de l’agneau ?",
+      "en": "At the Passover, where did the Israelites put the lamb’s blood?",
+      "es": "En la Pascua, ¿dónde ponían los israelitas la sangre del cordero?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nos postes e na verga das portas",
+          "fr": "Sur les poteaux et le linteau de la porte",
+          "en": "On the side posts and upper door post",
+          "es": "En los postes y el dintel de las casas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No altar do templo",
+          "fr": "Sur l’autel du temple",
+          "en": "On the temple altar",
+          "es": "En el altar del templo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nas próprias roupas",
+          "fr": "Sur leurs vêtements",
+          "en": "On their own clothes",
+          "es": "En sus propias ropas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No telhado das casas",
+          "fr": "Sur le toit des maisons",
+          "en": "On the roofs of the houses",
+          "es": "En el techo de las casas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-009",
+    "type": "choice",
+    "level": "medium",
+    "book": "EXO",
+    "chapter": 32,
+    "verse_start": 35,
+    "verse_end": 35,
+    "prompt": {
+      "pt": "Quem fez o bezerro de ouro no deserto?",
+      "fr": "Qui a fait le veau d’or dans le désert ?",
+      "en": "Who made the golden calf in the wilderness?",
+      "es": "¿Quién hizo el becerro de oro en el desierto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Arão",
+          "fr": "Aaron",
+          "en": "Aaron",
+          "es": "Aarón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josué",
+          "fr": "Josué",
+          "en": "Joshua",
+          "es": "Josué"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Calebe",
+          "fr": "Caleb",
+          "en": "Caleb",
+          "es": "Caleb"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Coré",
+          "fr": "Koré",
+          "en": "Korah",
+          "es": "Coré"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-010",
+    "type": "choice",
+    "level": "medium",
+    "book": "LEV",
+    "chapter": 16,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "Em Levítico 16, que animal levava sobre si as iniquidades do povo para o deserto?",
+      "fr": "En Lévitique 16, quel animal emportait les iniquités du peuple dans le désert ?",
+      "en": "In Leviticus 16, which animal bore the iniquities of the people into the wilderness?",
+      "es": "En Levítico 16, ¿qué animal llevaba sobre sí las iniquidades del pueblo al desierto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um bode",
+          "fr": "Un bouc",
+          "en": "A goat",
+          "es": "Un macho cabrío"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um cordeiro",
+          "fr": "Un agneau",
+          "en": "A lamb",
+          "es": "Un cordero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um touro",
+          "fr": "Un taureau",
+          "en": "A bull",
+          "es": "Un toro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma pomba",
+          "fr": "Une colombe",
+          "en": "A dove",
+          "es": "Una paloma"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-011",
+    "type": "choice",
+    "level": "medium",
+    "book": "NUM",
+    "chapter": 21,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "O que fez Moisés para que quem fosse mordido por serpentes vivesse?",
+      "fr": "Qu’a fait Moïse pour que ceux qui étaient mordus par les serpents vivent ?",
+      "en": "What did Moses make so that those bitten by serpents would live?",
+      "es": "¿Qué hizo Moisés para que los mordidos por serpientes vivieran?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma serpente de bronze numa haste",
+          "fr": "Un serpent d’airain sur une perche",
+          "en": "A serpent of brass on a pole",
+          "es": "Una serpiente de metal sobre un asta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um altar de pedra",
+          "fr": "Un autel de pierre",
+          "en": "A stone altar",
+          "es": "Un altar de piedra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um poço de água",
+          "fr": "Un puits d’eau",
+          "en": "A well of water",
+          "es": "Un pozo de agua"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um bezerro de ouro",
+          "fr": "Un veau d’or",
+          "en": "A golden calf",
+          "es": "Un becerro de oro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-012",
+    "type": "choice",
+    "level": "medium",
+    "book": "DEU",
+    "chapter": 34,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "De que monte viu Moisés a terra prometida antes de morrer?",
+      "fr": "De quelle montagne Moïse a-t-il vu la terre promise avant de mourir ?",
+      "en": "From which mountain did Moses see the promised land before he died?",
+      "es": "¿Desde qué monte vio Moisés la tierra prometida antes de morir?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nebo",
+          "fr": "Nebo",
+          "en": "Nebo",
+          "es": "Nebo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sinai",
+          "fr": "Sinaï",
+          "en": "Sinai",
+          "es": "Sinaí"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Carmelo",
+          "fr": "Carmel",
+          "en": "Carmel",
+          "es": "Carmelo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ararate",
+          "fr": "Ararat",
+          "en": "Ararat",
+          "es": "Ararat"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-013",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 12,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Abrão sai de Harã com Ló",
+          "fr": "Abram quitte Charan avec Lot",
+          "en": "Abram leaves Haran with Lot",
+          "es": "Abram sale de Harán con Lot"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 13,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Ló escolhe a planície do Jordão",
+          "fr": "Lot choisit la plaine du Jourdain",
+          "en": "Lot chooses the plain of Jordan",
+          "es": "Lot escoge la llanura del Jordán"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 16,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Agar dá à luz Ismael",
+          "fr": "Agar enfante Ismaël",
+          "en": "Hagar bears Ishmael",
+          "es": "Agar da a luz a Ismael"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 21,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Sara dá à luz Isaac",
+          "fr": "Sara enfante Isaac",
+          "en": "Sarah bears Isaac",
+          "es": "Sara da a luz a Isaac"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-014",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 25,
+        "verse_start": 33,
+        "verse_end": 33,
+        "text": {
+          "pt": "Esaú vende a primogenitura",
+          "fr": "Ésaü vend son droit d’aînesse",
+          "en": "Esau sells his birthright",
+          "es": "Esaú vende la primogenitura"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 27,
+        "verse_start": 27,
+        "verse_end": 27,
+        "text": {
+          "pt": "Isaac abençoa Jacob",
+          "fr": "Isaac bénit Jacob",
+          "en": "Isaac blesses Jacob",
+          "es": "Isaac bendice a Jacob"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 28,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Jacob sonha com uma escada",
+          "fr": "Jacob rêve d’une échelle",
+          "en": "Jacob dreams of a ladder",
+          "es": "Jacob sueña con una escalera"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 32,
+        "verse_start": 28,
+        "verse_end": 28,
+        "text": {
+          "pt": "Jacob recebe o nome Israel",
+          "fr": "Jacob reçoit le nom d’Israël",
+          "en": "Jacob is given the name Israel",
+          "es": "Jacob recibe el nombre de Israel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-015",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 37,
+        "verse_start": 28,
+        "verse_end": 28,
+        "text": {
+          "pt": "José é vendido aos ismaelitas",
+          "fr": "Joseph est vendu aux Ismaélites",
+          "en": "Joseph is sold to the Ishmeelites",
+          "es": "José es vendido a los ismaelitas"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 40,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "José ouve os sonhos de dois presos",
+          "fr": "Joseph écoute les songes de deux prisonniers",
+          "en": "Joseph hears two prisoners’ dreams",
+          "es": "José oye los sueños de dos presos"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 41,
+        "verse_start": 41,
+        "verse_end": 41,
+        "text": {
+          "pt": "Faraó põe José sobre o Egito",
+          "fr": "Pharaon établit Joseph sur l’Égypte",
+          "en": "Pharaoh sets Joseph over Egypt",
+          "es": "Faraón pone a José sobre Egipto"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 45,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "José revela-se aos irmãos",
+          "fr": "Joseph se fait connaître à ses frères",
+          "en": "Joseph reveals himself to his brothers",
+          "es": "José se da a conocer a sus hermanos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-016",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estas pragas do Egito pela ordem em que aconteceram.",
+      "fr": "Mets ces plaies d’Égypte dans l’ordre où elles se sont produites.",
+      "en": "Put these plagues of Egypt in the order they happened.",
+      "es": "Ordena estas plagas de Egipto según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EXO",
+        "chapter": 7,
+        "verse_start": 20,
+        "verse_end": 20,
+        "text": {
+          "pt": "A água transforma-se em sangue",
+          "fr": "L’eau est changée en sang",
+          "en": "The water turns to blood",
+          "es": "El agua se convierte en sangre"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 9,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "Cai granizo sobre o Egito",
+          "fr": "La grêle tombe sur l’Égypte",
+          "en": "Hail falls on Egypt",
+          "es": "Cae granizo sobre Egipto"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 10,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Os gafanhotos chegam",
+          "fr": "Les sauterelles arrivent",
+          "en": "The locusts arrive",
+          "es": "Llegan las langostas"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 12,
+        "verse_start": 29,
+        "verse_end": 29,
+        "text": {
+          "pt": "Morrem os primogénitos do Egito",
+          "fr": "Les premiers-nés d’Égypte meurent",
+          "en": "The firstborn of Egypt die",
+          "es": "Mueren los primogénitos de Egipto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-017",
+    "type": "verse",
+    "level": "medium",
+    "book": "GEN",
+    "chapter": 12,
+    "verse_start": 2,
+    "verse_end": 2,
+    "blank": {
+      "pt": "nação",
+      "fr": "nation",
+      "en": "nation",
+      "es": "nación"
+    },
+    "distractors": [
+      {
+        "pt": "cidade",
+        "fr": "ville",
+        "en": "city",
+        "es": "ciudad"
+      },
+      {
+        "pt": "família",
+        "fr": "famille",
+        "en": "family",
+        "es": "familia"
+      },
+      {
+        "pt": "tribo",
+        "fr": "tribu",
+        "en": "tribe",
+        "es": "tribu"
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-018",
+    "type": "verse",
+    "level": "medium",
+    "book": "EXO",
+    "chapter": 20,
+    "verse_start": 3,
+    "verse_end": 3,
+    "blank": {
+      "pt": "deuses",
+      "fr": "dieux",
+      "en": "gods",
+      "es": "dioses"
+    },
+    "distractors": [
+      {
+        "pt": "reis",
+        "fr": "rois",
+        "en": "kings",
+        "es": "reyes"
+      },
+      {
+        "pt": "tesouros",
+        "fr": "trésors",
+        "en": "treasures",
+        "es": "tesoros"
+      },
+      {
+        "pt": "senhores",
+        "fr": "maîtres",
+        "en": "masters",
+        "es": "señores"
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-019",
+    "type": "verse",
+    "level": "medium",
+    "book": "LEV",
+    "chapter": 19,
+    "verse_start": 18,
+    "verse_end": 18,
+    "blank": {
+      "pt": "próximo",
+      "fr": "prochain",
+      "en": "neighbour",
+      "es": "prójimo"
+    },
+    "distractors": [
+      {
+        "pt": "irmão",
+        "fr": "frère",
+        "en": "brother",
+        "es": "hermano"
+      },
+      {
+        "pt": "pai",
+        "fr": "père",
+        "en": "father",
+        "es": "padre"
+      },
+      {
+        "pt": "rei",
+        "fr": "roi",
+        "en": "king",
+        "es": "rey"
+      }
+    ]
+  },
+  {
+    "id": "pent-medium-020",
+    "type": "verse",
+    "level": "medium",
+    "book": "DEU",
+    "chapter": 8,
+    "verse_start": 3,
+    "verse_end": 3,
+    "blank": {
+      "pt": "pão",
+      "fr": "pain",
+      "en": "bread",
+      "es": "pan"
+    },
+    "distractors": [
+      {
+        "pt": "água",
+        "fr": "eau",
+        "en": "water",
+        "es": "agua"
+      },
+      {
+        "pt": "vinho",
+        "fr": "vin",
+        "en": "wine",
+        "es": "vino"
+      },
+      {
+        "pt": "carne",
+        "fr": "viande",
+        "en": "meat",
+        "es": "carne"
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-001",
+    "type": "choice",
+    "level": "hard",
+    "book": "GEN",
+    "chapter": 5,
+    "verse_start": 27,
+    "verse_end": 27,
+    "prompt": {
+      "pt": "Quantos anos viveu Matusalém?",
+      "fr": "Combien d’années Metuschélah a-t-il vécu ?",
+      "en": "How many years did Methuselah live?",
+      "es": "¿Cuántos años vivió Mathusalam?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "969",
+          "fr": "969",
+          "en": "969",
+          "es": "969"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "930",
+          "fr": "930",
+          "en": "930",
+          "es": "930"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "950",
+          "fr": "950",
+          "en": "950",
+          "es": "950"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "912",
+          "fr": "912",
+          "en": "912",
+          "es": "912"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-002",
+    "type": "choice",
+    "level": "hard",
+    "book": "GEN",
+    "chapter": 14,
+    "verse_start": 18,
+    "verse_end": 18,
+    "prompt": {
+      "pt": "Quem era rei de Salém e sacerdote do Deus Altíssimo?",
+      "fr": "Qui était roi de Salem et sacrificateur du Dieu Très-Haut ?",
+      "en": "Who was king of Salem and priest of the most high God?",
+      "es": "¿Quién era rey de Salem y sacerdote del Dios Altísimo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Melquisedeque",
+          "fr": "Melchisédek",
+          "en": "Melchizedek",
+          "es": "Melchîsedec"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Abimeleque",
+          "fr": "Abimélec",
+          "en": "Abimelech",
+          "es": "Abimelech"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Labão",
+          "fr": "Laban",
+          "en": "Laban",
+          "es": "Labán"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quedorlaomer",
+          "fr": "Kedorlaomer",
+          "en": "Chedorlaomer",
+          "es": "Chêdorlaomer"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-003",
+    "type": "choice",
+    "level": "hard",
+    "book": "GEN",
+    "chapter": 29,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Como se chamava a filha mais velha de Labão?",
+      "fr": "Comment s’appelait la fille aînée de Laban ?",
+      "en": "What was the name of Laban’s elder daughter?",
+      "es": "¿Cómo se llamaba la hija mayor de Labán?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Lia",
+          "fr": "Léa",
+          "en": "Leah",
+          "es": "Lea"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Raquel",
+          "fr": "Rachel",
+          "en": "Rachel",
+          "es": "Rachêl"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Diná",
+          "fr": "Dina",
+          "en": "Dinah",
+          "es": "Dina"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Rebeca",
+          "fr": "Rebecca",
+          "en": "Rebekah",
+          "es": "Rebeca"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-004",
+    "type": "choice",
+    "level": "hard",
+    "book": "GEN",
+    "chapter": 41,
+    "verse_start": 45,
+    "verse_end": 45,
+    "prompt": {
+      "pt": "Como se chamava a mulher que o Faraó deu a José?",
+      "fr": "Comment s’appelait la femme que le pharaon donna à Joseph ?",
+      "en": "What was the name of the wife Pharaoh gave to Joseph?",
+      "es": "¿Cómo se llamaba la mujer que Faraón dio a José?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Azenate",
+          "fr": "Asnath",
+          "en": "Asenath",
+          "es": "Asenath"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Zípora",
+          "fr": "Séphora",
+          "en": "Zipporah",
+          "es": "Séphora"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Agar",
+          "fr": "Agar",
+          "en": "Hagar",
+          "es": "Agar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tamar",
+          "fr": "Tamar",
+          "en": "Tamar",
+          "es": "Thamar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-005",
+    "type": "choice",
+    "level": "hard",
+    "book": "EXO",
+    "chapter": 2,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "Que nome deu Moisés ao filho que lhe nasceu em Midiã, por ser peregrino em terra alheia?",
+      "fr": "Quel nom Moïse donna-t-il au fils né en Madian, parce qu’il était un étranger dans un pays étranger ?",
+      "en": "What name did Moses give the son born in Midian, because he was a stranger in a strange land?",
+      "es": "¿Qué nombre dio Moisés al hijo nacido en Madián, por ser extranjero en tierra ajena?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Gérson",
+          "fr": "Guerschom",
+          "en": "Gershom",
+          "es": "Gersom"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nadabe",
+          "fr": "Nadab",
+          "en": "Nadab",
+          "es": "Nadab"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Eleazar",
+          "fr": "Éléazar",
+          "en": "Eleazar",
+          "es": "Eleazar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Fineias",
+          "fr": "Phinées",
+          "en": "Phinehas",
+          "es": "Phinees"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-006",
+    "type": "choice",
+    "level": "hard",
+    "book": "EXO",
+    "chapter": 17,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Quem sustentou as mãos de Moisés até ao pôr do sol?",
+      "fr": "Qui soutint les mains de Moïse jusqu’au coucher du soleil ?",
+      "en": "Who held up Moses’ hands until the going down of the sun?",
+      "es": "¿Quiénes sostuvieron las manos de Moisés hasta la puesta del sol?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Arão e Hur",
+          "fr": "Aaron et Hur",
+          "en": "Aaron and Hur",
+          "es": "Aarón y Hur"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josué e Calebe",
+          "fr": "Josué et Caleb",
+          "en": "Joshua and Caleb",
+          "es": "Josué y Caleb"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nadabe e Abiú",
+          "fr": "Nadab et Abihu",
+          "en": "Nadab and Abihu",
+          "es": "Nadab y Abiú"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Eleazar e Itamar",
+          "fr": "Éléazar et Ithamar",
+          "en": "Eleazar and Ithamar",
+          "es": "Eleazar e Ithamar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-007",
+    "type": "choice",
+    "level": "hard",
+    "book": "EXO",
+    "chapter": 31,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Quem foi chamado por nome, filho de Uri, da tribo de Judá, para fazer as obras do tabernáculo?",
+      "fr": "Qui fut appelé par son nom, fils d’Uri, de la tribu de Juda, pour faire les ouvrages du tabernacle ?",
+      "en": "Who was called by name, the son of Uri, of the tribe of Judah, to make the works of the tabernacle?",
+      "es": "¿Quién fue llamado por su nombre, hijo de Uri, de la tribu de Judá, para hacer las obras del tabernáculo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Bezalel",
+          "fr": "Betsaleel",
+          "en": "Bezaleel",
+          "es": "Bezaleel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Coré",
+          "fr": "Koré",
+          "en": "Korah",
+          "es": "Coré"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Eleazar",
+          "fr": "Éléazar",
+          "en": "Eleazar",
+          "es": "Eleazar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Calebe",
+          "fr": "Caleb",
+          "en": "Caleb",
+          "es": "Caleb"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-008",
+    "type": "choice",
+    "level": "hard",
+    "book": "LEV",
+    "chapter": 10,
+    "verse_start": 1,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Que filhos de Arão ofereceram fogo estranho diante do SENHOR e morreram?",
+      "fr": "Quels fils d’Aaron offrirent devant l’Éternel un feu étranger et moururent ?",
+      "en": "Which sons of Aaron offered strange fire before the LORD and died?",
+      "es": "¿Qué hijos de Aarón ofrecieron fuego extraño delante de Jehová y murieron?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nadabe e Abiú",
+          "fr": "Nadab et Abihu",
+          "en": "Nadab and Abihu",
+          "es": "Nadab y Abiú"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Eleazar e Itamar",
+          "fr": "Éléazar et Ithamar",
+          "en": "Eleazar and Ithamar",
+          "es": "Eleazar e Ithamar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Hofni e Fineias",
+          "fr": "Hophni et Phinées",
+          "en": "Hophni and Phinehas",
+          "es": "Ophni y Phinees"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Datã e Abirão",
+          "fr": "Dathan et Abiram",
+          "en": "Dathan and Abiram",
+          "es": "Dathán y Abiram"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-009",
+    "type": "choice",
+    "level": "hard",
+    "book": "NUM",
+    "chapter": 14,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Que espia, além de Josué, rasgou as roupas depois de reconhecer a terra?",
+      "fr": "Quel espion, avec Josué, déchira ses vêtements après avoir exploré le pays ?",
+      "en": "Which spy, besides Joshua, tore his clothes after searching the land?",
+      "es": "¿Qué espía, además de Josué, rasgó sus vestidos después de reconocer la tierra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Calebe",
+          "fr": "Caleb",
+          "en": "Caleb",
+          "es": "Caleb"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Coré",
+          "fr": "Koré",
+          "en": "Korah",
+          "es": "Coré"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Arão",
+          "fr": "Aaron",
+          "en": "Aaron",
+          "es": "Aarón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Eleazar",
+          "fr": "Éléazar",
+          "en": "Eleazar",
+          "es": "Eleazar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-010",
+    "type": "choice",
+    "level": "hard",
+    "book": "NUM",
+    "chapter": 16,
+    "verse_start": 32,
+    "verse_end": 32,
+    "prompt": {
+      "pt": "A terra abriu-se e tragou os homens de quem?",
+      "fr": "La terre ouvrit sa bouche et engloutit les gens de qui ?",
+      "en": "The earth opened and swallowed up the men of whom?",
+      "es": "¿De quién eran los hombres que la tierra tragó al abrirse?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Coré",
+          "fr": "Koré",
+          "en": "Korah",
+          "es": "Coré"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Balaão",
+          "fr": "Balaam",
+          "en": "Balaam",
+          "es": "Balaam"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Balaque",
+          "fr": "Balak",
+          "en": "Balak",
+          "es": "Balac"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ogue",
+          "fr": "Og",
+          "en": "Og",
+          "es": "Og"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-011",
+    "type": "choice",
+    "level": "hard",
+    "book": "NUM",
+    "chapter": 20,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Em Números 20, quantas vezes feriu Moisés a rocha com a vara para sair água?",
+      "fr": "En Nombres 20, combien de fois Moïse frappa-t-il le rocher avec sa verge pour en faire sortir de l’eau ?",
+      "en": "In Numbers 20, how many times did Moses strike the rock with his rod for water?",
+      "es": "En Números 20, ¿cuántas veces golpeó Moisés la peña con su vara para que saliera agua?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "2",
+          "fr": "2",
+          "en": "2",
+          "es": "2"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "1",
+          "fr": "1",
+          "en": "1",
+          "es": "1"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "3",
+          "fr": "3",
+          "en": "3",
+          "es": "3"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "7",
+          "fr": "7",
+          "en": "7",
+          "es": "7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-012",
+    "type": "choice",
+    "level": "hard",
+    "book": "DEU",
+    "chapter": 34,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Que idade tinha Moisés quando morreu?",
+      "fr": "Quel âge avait Moïse quand il mourut ?",
+      "en": "How old was Moses when he died?",
+      "es": "¿Qué edad tenía Moisés cuando murió?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "120 anos",
+          "fr": "120 ans",
+          "en": "120 years",
+          "es": "120 años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "100 anos",
+          "fr": "100 ans",
+          "en": "100 years",
+          "es": "100 años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "80 anos",
+          "fr": "80 ans",
+          "en": "80 years",
+          "es": "80 años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "175 anos",
+          "fr": "175 ans",
+          "en": "175 years",
+          "es": "175 años"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-013",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes nascimentos pela ordem de Génesis 5.",
+      "fr": "Mets ces naissances dans l’ordre de Genèse 5.",
+      "en": "Put these births in the order of Genesis 5.",
+      "es": "Ordena estos nacimientos según Génesis 5."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 5,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Adão gera Sete",
+          "fr": "Adam engendre Seth",
+          "en": "Adam begets Seth",
+          "es": "Adam engendra a Seth"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 5,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Jarede gera Enoque",
+          "fr": "Jéred engendre Hénoc",
+          "en": "Jared begets Enoch",
+          "es": "Jared engendra a Henoch"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 5,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "Enoque gera Matusalém",
+          "fr": "Hénoc engendre Metuschélah",
+          "en": "Enoch begets Methuselah",
+          "es": "Henoch engendra a Mathusalam"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 5,
+        "verse_start": 29,
+        "verse_end": 29,
+        "text": {
+          "pt": "Nasce Noé",
+          "fr": "Naissance de Noé",
+          "en": "Noah is born",
+          "es": "Nace Noé"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-014",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes filhos de Jacob pela ordem em que nasceram.",
+      "fr": "Mets ces fils de Jacob dans l’ordre de leur naissance.",
+      "en": "Put these sons of Jacob in the order they were born.",
+      "es": "Ordena estos hijos de Jacob según nacieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 29,
+        "verse_start": 32,
+        "verse_end": 32,
+        "text": {
+          "pt": "Rúben",
+          "fr": "Ruben",
+          "en": "Reuben",
+          "es": "Rubén"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 29,
+        "verse_start": 34,
+        "verse_end": 34,
+        "text": {
+          "pt": "Levi",
+          "fr": "Lévi",
+          "en": "Levi",
+          "es": "Leví"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 29,
+        "verse_start": 35,
+        "verse_end": 35,
+        "text": {
+          "pt": "Judá",
+          "fr": "Juda",
+          "en": "Judah",
+          "es": "Judá"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 30,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "José",
+          "fr": "Joseph",
+          "en": "Joseph",
+          "es": "José"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-015",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EXO",
+        "chapter": 2,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Moisés mata um egípcio",
+          "fr": "Moïse tue un Égyptien",
+          "en": "Moses kills an Egyptian",
+          "es": "Moisés mata a un egipcio"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 2,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Moisés foge para Midiã",
+          "fr": "Moïse s’enfuit au pays de Madian",
+          "en": "Moses flees to Midian",
+          "es": "Moisés huye a Madián"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 3,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "O anjo aparece numa sarça",
+          "fr": "L’ange apparaît dans un buisson",
+          "en": "The angel appears in a bush",
+          "es": "El ángel aparece en una zarza"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 4,
+        "verse_start": 27,
+        "verse_end": 27,
+        "text": {
+          "pt": "Arão vai ao encontro de Moisés",
+          "fr": "Aaron va à la rencontre de Moïse",
+          "en": "Aaron goes to meet Moses",
+          "es": "Aarón sale al encuentro de Moisés"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-016",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "NUM",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 2,
+        "text": {
+          "pt": "Recenseamento no deserto do Sinai",
+          "fr": "Dénombrement dans le désert du Sinaï",
+          "en": "Census in the wilderness of Sinai",
+          "es": "Censo en el desierto de Sinaí"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 14,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Josué e Calebe rasgam as roupas",
+          "fr": "Josué et Caleb déchirent leurs vêtements",
+          "en": "Joshua and Caleb rend their clothes",
+          "es": "Josué y Caleb rompen sus vestidos"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 16,
+        "verse_start": 32,
+        "verse_end": 32,
+        "text": {
+          "pt": "A terra traga os homens de Coré",
+          "fr": "La terre engloutit les gens de Koré",
+          "en": "The earth swallows Korah’s men",
+          "es": "La tierra traga a los hombres de Coré"
+        }
+      },
+      {
+        "book": "DEU",
+        "chapter": 34,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Moisés morre na terra de Moabe",
+          "fr": "Moïse meurt au pays de Moab",
+          "en": "Moses dies in the land of Moab",
+          "es": "Moisés muere en la tierra de Moab"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-017",
+    "type": "verse",
+    "level": "hard",
+    "book": "GEN",
+    "chapter": 15,
+    "verse_start": 6,
+    "verse_end": 6,
+    "blank": {
+      "pt": "justiça",
+      "fr": "justice",
+      "en": "righteousness",
+      "es": "justicia"
+    },
+    "distractors": [
+      {
+        "pt": "graça",
+        "fr": "grâce",
+        "en": "grace",
+        "es": "gracia"
+      },
+      {
+        "pt": "bênção",
+        "fr": "bénédiction",
+        "en": "blessing",
+        "es": "bendición"
+      },
+      {
+        "pt": "obediência",
+        "fr": "obéissance",
+        "en": "obedience",
+        "es": "obediencia"
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-018",
+    "type": "verse",
+    "level": "hard",
+    "book": "LEV",
+    "chapter": 17,
+    "verse_start": 11,
+    "verse_end": 11,
+    "blank": {
+      "pt": "carne",
+      "fr": "chair",
+      "en": "flesh",
+      "es": "carne"
+    },
+    "distractors": [
+      {
+        "pt": "terra",
+        "fr": "terre",
+        "en": "earth",
+        "es": "tierra"
+      },
+      {
+        "pt": "água",
+        "fr": "eau",
+        "en": "water",
+        "es": "agua"
+      },
+      {
+        "pt": "palavra",
+        "fr": "parole",
+        "en": "word",
+        "es": "palabra"
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-019",
+    "type": "verse",
+    "level": "hard",
+    "book": "NUM",
+    "chapter": 23,
+    "verse_start": 19,
+    "verse_end": 19,
+    "blank": {
+      "pt": "minta",
+      "fr": "mentir",
+      "en": "lie",
+      "es": "mienta"
+    },
+    "distractors": [
+      {
+        "pt": "esqueça",
+        "fr": "oublier",
+        "en": "forget",
+        "es": "olvide"
+      },
+      {
+        "pt": "durma",
+        "fr": "dormir",
+        "en": "sleep",
+        "es": "duerma"
+      },
+      {
+        "pt": "morra",
+        "fr": "mourir",
+        "en": "die",
+        "es": "muera"
+      }
+    ]
+  },
+  {
+    "id": "pent-hard-020",
+    "type": "verse",
+    "level": "hard",
+    "book": "DEU",
+    "chapter": 18,
+    "verse_start": 15,
+    "verse_end": 15,
+    "blank": {
+      "pt": "Profeta",
+      "fr": "prophète",
+      "en": "Prophet",
+      "es": "Profeta"
+    },
+    "distractors": [
+      {
+        "pt": "Juiz",
+        "fr": "juge",
+        "en": "Judge",
+        "es": "Juez"
+      },
+      {
+        "pt": "Sacerdote",
+        "fr": "sacrificateur",
+        "en": "Priest",
+        "es": "Sacerdote"
+      },
+      {
+        "pt": "Guerreiro",
+        "fr": "guerrier",
+        "en": "Warrior",
+        "es": "Guerrero"
+      }
+    ]
+  }
+]

@@ -11,15 +11,13 @@ export default function DashboardNav() {
   const router = useRouter();
 
   const links = [
-    { href: '/dashboard', label: t('myQuizzes'), icon: '📚' },
+    { href: '/dashboard', label: t('newGame'), icon: '🎮' },
     { href: '/dashboard/discover', label: t('discover'), icon: '🧭' },
     { href: '/dashboard/settings', label: t('settings'), icon: '⚙️' },
   ];
 
   const isActive = (href: string) =>
-    href === '/dashboard'
-      ? pathname === '/dashboard' || pathname.startsWith('/dashboard/quizzes')
-      : pathname.startsWith(href);
+    href === '/dashboard' ? pathname === '/dashboard' : pathname.startsWith(href);
 
   async function logout() {
     await createClient().auth.signOut();
