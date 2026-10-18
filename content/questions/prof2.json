@@ -1,0 +1,5102 @@
+[
+  {
+    "id": "prof2-easy-001",
+    "type": "choice",
+    "level": "easy",
+    "book": "ISA",
+    "chapter": 6,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Segundo Isaías 6:2, quantas asas tinha cada serafim?",
+      "fr": "Selon Ésaïe 6:2, combien d’ailes avait chaque séraphin ?",
+      "en": "According to Isaiah 6:2, how many wings did each seraph have?",
+      "es": "Según Isaías 6:2, ¿cuántas alas tenía cada serafín?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Seis",
+          "fr": "Six",
+          "en": "Six",
+          "es": "Seis"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Três",
+          "fr": "Trois",
+          "en": "Three",
+          "es": "Tres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quatro",
+          "fr": "Quatre",
+          "en": "Four",
+          "es": "Cuatro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-002",
+    "type": "choice",
+    "level": "easy",
+    "book": "ISA",
+    "chapter": 40,
+    "verse_start": 31,
+    "verse_end": 31,
+    "prompt": {
+      "pt": "Segundo Isaías 40:31, os que confiam no SENHOR sobem com asas como que aves?",
+      "fr": "Selon Ésaïe 40:31, ceux qui se confient en l’Éternel prennent le vol comme quels oiseaux ?",
+      "en": "According to Isaiah 40:31, they that wait upon the LORD mount up with wings as which birds?",
+      "es": "Según Isaías 40:31, ¿como qué aves levantarán las alas los que esperan a Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Águias",
+          "fr": "Les aigles",
+          "en": "Eagles",
+          "es": "Águilas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pombas",
+          "fr": "Les colombes",
+          "en": "Doves",
+          "es": "Palomas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Corvos",
+          "fr": "Les corbeaux",
+          "en": "Ravens",
+          "es": "Cuervos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pardais",
+          "fr": "Les passereaux",
+          "en": "Sparrows",
+          "es": "Gorriones"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-003",
+    "type": "choice",
+    "level": "easy",
+    "book": "ISA",
+    "chapter": 53,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Segundo Isaías 53:7, foi levado ao matadouro como que animal?",
+      "fr": "Selon Ésaïe 53:7, il était semblable à quel animal qu’on mène à la boucherie ?",
+      "en": "According to Isaiah 53:7, he is brought as what animal to the slaughter?",
+      "es": "Según Isaías 53:7, ¿como qué animal fue llevado al matadero?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um cordeiro",
+          "fr": "Un agneau",
+          "en": "A lamb",
+          "es": "Un cordero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um leão",
+          "fr": "Un lion",
+          "en": "A lion",
+          "es": "Un león"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um bode",
+          "fr": "Un bouc",
+          "en": "A goat",
+          "es": "Un macho cabrío"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um boi",
+          "fr": "Un bœuf",
+          "en": "An ox",
+          "es": "Un buey"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-004",
+    "type": "choice",
+    "level": "easy",
+    "book": "ISA",
+    "chapter": 1,
+    "verse_start": 18,
+    "verse_end": 18,
+    "prompt": {
+      "pt": "Segundo Isaías 1:18, os pecados como a escarlate ficarão brancos como quê?",
+      "fr": "Selon Ésaïe 1:18, les péchés comme le cramoisi deviendront blancs comme quoi ?",
+      "en": "According to Isaiah 1:18, sins as scarlet shall be as white as what?",
+      "es": "Según Isaías 1:18, ¿como qué serán emblanquecidos los pecados como la grana?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A neve",
+          "fr": "La neige",
+          "en": "Snow",
+          "es": "La nieve"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O leite",
+          "fr": "Le lait",
+          "en": "Milk",
+          "es": "La leche"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As nuvens",
+          "fr": "Les nuages",
+          "en": "Clouds",
+          "es": "Las nubes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O sal",
+          "fr": "Le sel",
+          "en": "Salt",
+          "es": "La sal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-005",
+    "type": "choice",
+    "level": "easy",
+    "book": "ISA",
+    "chapter": 40,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Segundo Isaías 40:11, ele apascentará o seu rebanho como quem?",
+      "fr": "Selon Ésaïe 40:11, il paîtra son troupeau comme qui ?",
+      "en": "According to Isaiah 40:11, he shall feed his flock like whom?",
+      "es": "Según Isaías 40:11, ¿como quién apacentará su rebaño?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um pastor",
+          "fr": "Un berger",
+          "en": "A shepherd",
+          "es": "Un pastor"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um rei",
+          "fr": "Un roi",
+          "en": "A king",
+          "es": "Un rey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um pescador",
+          "fr": "Un pêcheur",
+          "en": "A fisherman",
+          "es": "Un pescador"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um soldado",
+          "fr": "Un soldat",
+          "en": "A soldier",
+          "es": "Un soldado"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-006",
+    "type": "choice",
+    "level": "easy",
+    "book": "JER",
+    "chapter": 13,
+    "verse_start": 23,
+    "verse_end": 23,
+    "prompt": {
+      "pt": "Segundo Jeremias 13:23, que animal não pode mudar as suas manchas?",
+      "fr": "Selon Jérémie 13:23, quel animal ne peut pas changer ses taches ?",
+      "en": "According to Jeremiah 13:23, which animal cannot change his spots?",
+      "es": "Según Jeremías 13:23, ¿qué animal no puede mudar sus manchas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O leopardo",
+          "fr": "Le léopard",
+          "en": "The leopard",
+          "es": "El leopardo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O leão",
+          "fr": "Le lion",
+          "en": "The lion",
+          "es": "El león"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A zebra",
+          "fr": "Le zèbre",
+          "en": "The zebra",
+          "es": "La cebra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O camelo",
+          "fr": "Le chameau",
+          "en": "The camel",
+          "es": "El camello"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-007",
+    "type": "choice",
+    "level": "easy",
+    "book": "JER",
+    "chapter": 1,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Segundo Jeremias 1:9, o que tocou o SENHOR com a sua mão?",
+      "fr": "Selon Jérémie 1:9, qu’est-ce que l’Éternel toucha de sa main ?",
+      "en": "According to Jeremiah 1:9, what did the LORD touch with his hand?",
+      "es": "Según Jeremías 1:9, ¿qué tocó Jehová con su mano?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A boca de Jeremias",
+          "fr": "La bouche de Jérémie",
+          "en": "Jeremiah’s mouth",
+          "es": "La boca de Jeremías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os olhos de Jeremias",
+          "fr": "Les yeux de Jérémie",
+          "en": "Jeremiah’s eyes",
+          "es": "Los ojos de Jeremías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os ouvidos de Jeremias",
+          "fr": "Les oreilles de Jérémie",
+          "en": "Jeremiah’s ears",
+          "es": "Los oídos de Jeremías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As mãos de Jeremias",
+          "fr": "Les mains de Jérémie",
+          "en": "Jeremiah’s hands",
+          "es": "Las manos de Jeremías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-008",
+    "type": "choice",
+    "level": "easy",
+    "book": "JON",
+    "chapter": 1,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Segundo Jonas 1:5, o que fazia Jonas no fundo do navio enquanto os marinheiros tinham medo?",
+      "fr": "Selon Jonas 1:5, que faisait Jonas au fond du navire pendant que les mariniers avaient peur ?",
+      "en": "According to Jonah 1:5, what was Jonah doing in the sides of the ship while the mariners were afraid?",
+      "es": "Según Jonás 1:5, ¿qué hacía Jonás abajo en el buque mientras los marineros tenían miedo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Dormia",
+          "fr": "Il dormait",
+          "en": "He was asleep",
+          "es": "Dormía"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Orava",
+          "fr": "Il priait",
+          "en": "He was praying",
+          "es": "Oraba"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Comia",
+          "fr": "Il mangeait",
+          "en": "He was eating",
+          "es": "Comía"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Remava",
+          "fr": "Il ramait",
+          "en": "He was rowing",
+          "es": "Remaba"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-009",
+    "type": "choice",
+    "level": "easy",
+    "book": "MIC",
+    "chapter": 4,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Segundo Miqueias 4:4, debaixo de quê se sentará cada um, sem ninguém que lhe cause medo?",
+      "fr": "Selon Michée 4:4, sous quoi chacun habitera-t-il, sans personne pour le troubler ?",
+      "en": "According to Micah 4:4, under what shall every man sit, with none to make him afraid?",
+      "es": "Según Miqueas 4:4, ¿debajo de qué se sentará cada uno, sin que nadie lo amedrente?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A sua videira e a sua figueira",
+          "fr": "Sa vigne et son figuier",
+          "en": "His vine and his fig tree",
+          "es": "Su vid y su higuera"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O seu carvalho e o seu cedro",
+          "fr": "Son chêne et son cèdre",
+          "en": "His oak and his cedar",
+          "es": "Su encina y su cedro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A sua palmeira e a sua oliveira",
+          "fr": "Son palmier et son olivier",
+          "en": "His palm tree and his olive tree",
+          "es": "Su palmera y su olivo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A sua tenda",
+          "fr": "Sa tente",
+          "en": "His tent",
+          "es": "Su tienda"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-010",
+    "type": "choice",
+    "level": "easy",
+    "book": "MIC",
+    "chapter": 7,
+    "verse_start": 19,
+    "verse_end": 19,
+    "prompt": {
+      "pt": "Segundo Miqueias 7:19, para onde serão lançados os pecados?",
+      "fr": "Selon Michée 7:19, où les péchés seront-ils jetés ?",
+      "en": "According to Micah 7:19, where will the sins be cast?",
+      "es": "Según Miqueas 7:19, ¿dónde serán echados los pecados?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nas profundezas do mar",
+          "fr": "Au fond de la mer",
+          "en": "Into the depths of the sea",
+          "es": "En los profundos de la mar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No fogo",
+          "fr": "Dans le feu",
+          "en": "Into the fire",
+          "es": "En el fuego"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No deserto",
+          "fr": "Au désert",
+          "en": "Into the wilderness",
+          "es": "En el desierto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Atrás das montanhas",
+          "fr": "Derrière les montagnes",
+          "en": "Behind the mountains",
+          "es": "Detrás de los montes"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-011",
+    "type": "choice",
+    "level": "easy",
+    "book": "ZEC",
+    "chapter": 8,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Segundo Zacarias 8:5, de quem estariam cheias as ruas da cidade?",
+      "fr": "Selon Zacharie 8:5, de qui les rues de la ville seraient-elles remplies ?",
+      "en": "According to Zechariah 8:5, the streets of the city shall be full of whom?",
+      "es": "Según Zacarías 8:5, ¿de quiénes estarán llenas las calles de la ciudad?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Meninos e meninas a brincar",
+          "fr": "De garçons et de filles qui jouent",
+          "en": "Boys and girls playing",
+          "es": "Muchachos y muchachas que juegan"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Soldados a marchar",
+          "fr": "De soldats qui marchent",
+          "en": "Soldiers marching",
+          "es": "Soldados que marchan"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mercadores a vender",
+          "fr": "De marchands qui vendent",
+          "en": "Merchants selling",
+          "es": "Mercaderes que venden"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ovelhas a pastar",
+          "fr": "De brebis qui paissent",
+          "en": "Sheep grazing",
+          "es": "Ovejas que pacen"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-012",
+    "type": "choice",
+    "level": "easy",
+    "book": "EZK",
+    "chapter": 37,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Segundo Ezequiel 37:10, quando o espírito entrou neles, em que se tornaram?",
+      "fr": "Selon Ézéchiel 37:10, quand l’esprit entra en eux, que devinrent-ils ?",
+      "en": "According to Ezekiel 37:10, when the breath came into them, what did they become?",
+      "es": "Según Ezequiel 37:10, cuando entró espíritu en ellos, ¿en qué se convirtieron?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um exército muito grande",
+          "fr": "Une armée très nombreuse",
+          "en": "An exceeding great army",
+          "es": "Un ejército grande en extremo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um rebanho de ovelhas",
+          "fr": "Un troupeau de brebis",
+          "en": "A flock of sheep",
+          "es": "Un rebaño de ovejas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma floresta",
+          "fr": "Une forêt",
+          "en": "A forest",
+          "es": "Un bosque"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um monte de pó",
+          "fr": "Un tas de poussière",
+          "en": "A heap of dust",
+          "es": "Un montón de polvo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-013",
+    "type": "choice",
+    "level": "easy",
+    "book": "DAN",
+    "chapter": 9,
+    "verse_start": 21,
+    "verse_end": 21,
+    "prompt": {
+      "pt": "Segundo Daniel 9:21, quem veio a voar até Daniel enquanto ele orava?",
+      "fr": "Selon Daniel 9:21, qui s’approcha de Daniel d’un vol rapide pendant qu’il priait ?",
+      "en": "According to Daniel 9:21, who came flying swiftly to Daniel while he was praying?",
+      "es": "Según Daniel 9:21, ¿quién vino volando a Daniel mientras oraba?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Gabriel",
+          "fr": "Gabriel",
+          "en": "Gabriel",
+          "es": "Gabriel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Miguel",
+          "fr": "Micaël",
+          "en": "Michael",
+          "es": "Miguel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Elias",
+          "fr": "Élie",
+          "en": "Elijah",
+          "es": "Elías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moisés",
+          "fr": "Moïse",
+          "en": "Moses",
+          "es": "Moisés"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-014",
+    "type": "choice",
+    "level": "easy",
+    "book": "DAN",
+    "chapter": 12,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo Daniel 12:3, como o que brilharão os que conduzem muitos à justiça?",
+      "fr": "Selon Daniel 12:3, comme quoi brilleront ceux qui auront enseigné la justice à la multitude ?",
+      "en": "According to Daniel 12:3, they that turn many to righteousness shall shine as what?",
+      "es": "Según Daniel 12:3, ¿como qué resplandecerán los que enseñan a justicia la multitud?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "As estrelas",
+          "fr": "Les étoiles",
+          "en": "The stars",
+          "es": "Las estrellas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O sol",
+          "fr": "Le soleil",
+          "en": "The sun",
+          "es": "El sol"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os relâmpagos",
+          "fr": "Les éclairs",
+          "en": "The lightning",
+          "es": "Los relámpagos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O fogo",
+          "fr": "Le feu",
+          "en": "The fire",
+          "es": "El fuego"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-015",
+    "type": "choice",
+    "level": "easy",
+    "book": "JOL",
+    "chapter": 1,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Segundo Joel 1:4, que insetos comeram o que restava da colheita?",
+      "fr": "Selon Joël 1:4, quels insectes ont dévoré ce qui restait ?",
+      "en": "According to Joel 1:4, which insects ate what was left?",
+      "es": "Según Joel 1:4, ¿qué insectos comieron lo que quedaba?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Gafanhotos",
+          "fr": "Des sauterelles",
+          "en": "Locusts",
+          "es": "Langostas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Abelhas",
+          "fr": "Des abeilles",
+          "en": "Bees",
+          "es": "Abejas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moscas",
+          "fr": "Des mouches",
+          "en": "Flies",
+          "es": "Moscas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Formigas",
+          "fr": "Des fourmis",
+          "en": "Ants",
+          "es": "Hormigas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-016",
+    "type": "choice",
+    "level": "easy",
+    "book": "HAB",
+    "chapter": 2,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Segundo Habacuque 2:2, o que mandou o SENHOR fazer com a visão?",
+      "fr": "Selon Habacuc 2:2, que dit l’Éternel de faire de la prophétie ?",
+      "en": "According to Habakkuk 2:2, what did the LORD say to do with the vision?",
+      "es": "Según Habacuc 2:2, ¿qué dijo Jehová que hiciera con la visión?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Escrevê-la em tábuas",
+          "fr": "L’écrire sur des tables",
+          "en": "Write it upon tables",
+          "es": "Escribirla en tablas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Guardá-la em segredo",
+          "fr": "La garder secrète",
+          "en": "Keep it secret",
+          "es": "Guardarla en secreto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cantá-la no templo",
+          "fr": "La chanter dans le temple",
+          "en": "Sing it in the temple",
+          "es": "Cantarla en el templo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Esquecê-la",
+          "fr": "L’oublier",
+          "en": "Forget it",
+          "es": "Olvidarla"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-017",
+    "type": "choice",
+    "level": "easy",
+    "book": "MAL",
+    "chapter": 4,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Segundo Malaquias 4:5, que profeta enviará Deus antes do grande dia do SENHOR?",
+      "fr": "Selon Malachie 4:5, quel prophète Dieu enverra-t-il avant le grand jour de l’Éternel ?",
+      "en": "According to Malachi 4:5, which prophet will God send before the great day of the LORD?",
+      "es": "Según Malaquías 4:5, ¿qué profeta enviará Dios antes del gran día de Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Elias",
+          "fr": "Élie",
+          "en": "Elijah",
+          "es": "Elías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moisés",
+          "fr": "Moïse",
+          "en": "Moses",
+          "es": "Moisés"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Isaías",
+          "fr": "Ésaïe",
+          "en": "Isaiah",
+          "es": "Isaías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jonas",
+          "fr": "Jonas",
+          "en": "Jonah",
+          "es": "Jonás"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-018",
+    "type": "choice",
+    "level": "easy",
+    "book": "HOS",
+    "chapter": 11,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Oseias 11:1, de que terra chamou Deus o seu filho?",
+      "fr": "Selon Osée 11:1, de quel pays Dieu appela-t-il son fils ?",
+      "en": "According to Hosea 11:1, out of which land did God call his son?",
+      "es": "Según Oseas 11:1, ¿de qué tierra llamó Dios a su hijo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Do Egito",
+          "fr": "D’Égypte",
+          "en": "Out of Egypt",
+          "es": "De Egipto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Da Babilónia",
+          "fr": "De Babylone",
+          "en": "Out of Babylon",
+          "es": "De Babilonia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Da Assíria",
+          "fr": "D’Assyrie",
+          "en": "Out of Assyria",
+          "es": "De Asiria"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De Moabe",
+          "fr": "De Moab",
+          "en": "Out of Moab",
+          "es": "De Moab"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-019",
+    "type": "verse",
+    "level": "easy",
+    "book": "ISA",
+    "chapter": 41,
+    "verse_start": 10,
+    "verse_end": 10,
+    "blank": {
+      "pt": "Deus",
+      "fr": "Dieu",
+      "en": "God",
+      "es": "Dios"
+    },
+    "distractors": [
+      {
+        "pt": "rei",
+        "fr": "roi",
+        "en": "king",
+        "es": "rey"
+      },
+      {
+        "pt": "pai",
+        "fr": "père",
+        "en": "father",
+        "es": "padre"
+      },
+      {
+        "pt": "amigo",
+        "fr": "ami",
+        "en": "friend",
+        "es": "amigo"
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-020",
+    "type": "verse",
+    "level": "easy",
+    "book": "JER",
+    "chapter": 31,
+    "verse_start": 3,
+    "verse_end": 3,
+    "blank": {
+      "pt": "amor",
+      "fr": "amour",
+      "en": "love",
+      "es": "amor"
+    },
+    "distractors": [
+      {
+        "pt": "poder",
+        "fr": "pouvoir",
+        "en": "power",
+        "es": "poder"
+      },
+      {
+        "pt": "perdão",
+        "fr": "pardon",
+        "en": "pardon",
+        "es": "perdón"
+      },
+      {
+        "pt": "consolo",
+        "fr": "réconfort",
+        "en": "comfort",
+        "es": "consuelo"
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-021",
+    "type": "verse",
+    "level": "easy",
+    "book": "NAM",
+    "chapter": 1,
+    "verse_start": 7,
+    "verse_end": 7,
+    "blank": {
+      "pt": "bom",
+      "fr": "bon",
+      "en": "good",
+      "es": "Bueno"
+    },
+    "distractors": [
+      {
+        "pt": "grande",
+        "fr": "grand",
+        "en": "great",
+        "es": "Grande"
+      },
+      {
+        "pt": "santo",
+        "fr": "saint",
+        "en": "holy",
+        "es": "Santo"
+      },
+      {
+        "pt": "justo",
+        "fr": "juste",
+        "en": "just",
+        "es": "Justo"
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-022",
+    "type": "verse",
+    "level": "easy",
+    "book": "HAB",
+    "chapter": 3,
+    "verse_start": 18,
+    "verse_end": 18,
+    "blank": {
+      "pt": "salvação",
+      "fr": "salut",
+      "en": "salvation",
+      "es": "salud"
+    },
+    "distractors": [
+      {
+        "pt": "esperança",
+        "fr": "espérance",
+        "en": "hope",
+        "es": "esperanza"
+      },
+      {
+        "pt": "angústia",
+        "fr": "angoisse",
+        "en": "anguish",
+        "es": "angustia"
+      },
+      {
+        "pt": "ignorância",
+        "fr": "ignorance",
+        "en": "ignorance",
+        "es": "ignorancia"
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-023",
+    "type": "verse",
+    "level": "easy",
+    "book": "JOL",
+    "chapter": 2,
+    "verse_start": 21,
+    "verse_end": 21,
+    "blank": {
+      "pt": "terra",
+      "fr": "Terre",
+      "en": "land",
+      "es": "Tierra"
+    },
+    "distractors": [
+      {
+        "pt": "povo",
+        "fr": "Peuple",
+        "en": "people",
+        "es": "Pueblo"
+      },
+      {
+        "pt": "mar",
+        "fr": "Mer",
+        "en": "sea",
+        "es": "Mar"
+      },
+      {
+        "pt": "cidade",
+        "fr": "Ville",
+        "en": "city",
+        "es": "Ciudad"
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-024",
+    "type": "verse",
+    "level": "easy",
+    "book": "ZEP",
+    "chapter": 3,
+    "verse_start": 17,
+    "verse_end": 17,
+    "blank": {
+      "pt": "salva",
+      "fr": "sauve",
+      "en": "save",
+      "es": "salvará"
+    },
+    "distractors": [
+      {
+        "pt": "dorme",
+        "fr": "dort",
+        "en": "sleep",
+        "es": "dormirá"
+      },
+      {
+        "pt": "foge",
+        "fr": "fuit",
+        "en": "flee",
+        "es": "huirá"
+      },
+      {
+        "pt": "chora",
+        "fr": "pleure",
+        "en": "weep",
+        "es": "llorará"
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-025",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DAN",
+        "chapter": 1,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Nabucodonosor cerca Jerusalém",
+          "fr": "Nebucadnetsar assiège Jérusalem",
+          "en": "Nebuchadnezzar besieges Jerusalem",
+          "es": "Nabucodonosor cerca Jerusalem"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 1,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Daniel pede legumes e água por dez dias",
+          "fr": "Daniel demande des légumes et de l’eau pour dix jours",
+          "en": "Daniel asks for pulse and water for ten days",
+          "es": "Daniel pide legumbres y agua por diez días"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 1,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Ao fim de dez dias, têm melhor aparência",
+          "fr": "Au bout de dix jours, ils ont meilleur visage",
+          "en": "After ten days, they look fairer",
+          "es": "Al cabo de diez días, tienen mejor rostro"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 1,
+        "verse_start": 20,
+        "verse_end": 20,
+        "text": {
+          "pt": "O rei acha-os dez vezes melhores que os magos",
+          "fr": "Le roi les trouve dix fois supérieurs aux magiciens",
+          "en": "The king finds them ten times better than the magicians",
+          "es": "El rey los halla diez veces mejores que los magos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-026",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DAN",
+        "chapter": 2,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "O rei Nabucodonosor tem sonhos e não dorme",
+          "fr": "Le roi Nebucadnetsar a des songes et ne dort plus",
+          "en": "King Nebuchadnezzar dreams and cannot sleep",
+          "es": "El rey Nabucodonosor sueña y no puede dormir"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 2,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Os caldeus dizem que ninguém pode responder",
+          "fr": "Les Chaldéens disent que personne ne peut répondre",
+          "en": "The Chaldeans say no man can answer",
+          "es": "Los caldeos dicen que nadie puede responder"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 2,
+        "verse_start": 19,
+        "verse_end": 19,
+        "text": {
+          "pt": "O segredo é revelado a Daniel de noite",
+          "fr": "Le secret est révélé à Daniel pendant la nuit",
+          "en": "The secret is revealed to Daniel by night",
+          "es": "El secreto es revelado a Daniel de noche"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 2,
+        "verse_start": 46,
+        "verse_end": 46,
+        "text": {
+          "pt": "O rei prostra-se diante de Daniel",
+          "fr": "Le roi se prosterne devant Daniel",
+          "en": "The king falls on his face before Daniel",
+          "es": "El rey se postra ante Daniel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-027",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DAN",
+        "chapter": 5,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Bebem pelos vasos de ouro do templo",
+          "fr": "Ils boivent dans les vases d’or du temple",
+          "en": "They drink from the golden vessels of the temple",
+          "es": "Beben en los vasos de oro del templo"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 5,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Uns dedos escrevem na parede do palácio",
+          "fr": "Des doigts écrivent sur le mur du palais",
+          "en": "Fingers write on the wall of the palace",
+          "es": "Unos dedos escriben en la pared del palacio"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 5,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Daniel é trazido diante do rei",
+          "fr": "Daniel est introduit devant le roi",
+          "en": "Daniel is brought in before the king",
+          "es": "Daniel es traído delante del rey"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 5,
+        "verse_start": 30,
+        "verse_end": 30,
+        "text": {
+          "pt": "Belsazar é morto nessa mesma noite",
+          "fr": "Belschatsar est tué cette même nuit",
+          "en": "Belshazzar is slain that same night",
+          "es": "Belsasar es muerto esa misma noche"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-028",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JON",
+        "chapter": 1,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Jonas diz aos marinheiros que é hebreu",
+          "fr": "Jonas dit aux mariniers qu’il est Hébreu",
+          "en": "Jonah tells the mariners he is a Hebrew",
+          "es": "Jonás dice a los marineros que es hebreo"
+        }
+      },
+      {
+        "book": "JON",
+        "chapter": 1,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "O mar acalma-se",
+          "fr": "La mer s’apaise",
+          "en": "The sea ceases from her raging",
+          "es": "La mar se aquieta"
+        }
+      },
+      {
+        "book": "JON",
+        "chapter": 3,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "O rei de Nínive senta-se na cinza",
+          "fr": "Le roi de Ninive s’assied sur la cendre",
+          "en": "The king of Nineveh sits in ashes",
+          "es": "El rey de Nínive se sienta sobre ceniza"
+        }
+      },
+      {
+        "book": "JON",
+        "chapter": 4,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Jonas faz uma cabana fora da cidade",
+          "fr": "Jonas se fait une cabane hors de la ville",
+          "en": "Jonah makes a booth outside the city",
+          "es": "Jonás se hace una choza fuera de la ciudad"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-029",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JER",
+        "chapter": 38,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Jeremias é descido com cordas para uma cisterna",
+          "fr": "Jérémie est descendu avec des cordes dans une citerne",
+          "en": "Jeremiah is let down with cords into a dungeon",
+          "es": "Jeremías es metido con sogas en una mazmorra"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 38,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Um servo do rei vai falar ao rei",
+          "fr": "Un serviteur du roi va parler au roi",
+          "en": "A servant of the king goes to speak to the king",
+          "es": "Un siervo del rey va a hablar al rey"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 38,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Descem-lhe trapos velhos com cordas",
+          "fr": "On lui descend de vieux haillons avec des cordes",
+          "en": "Old rags are let down to him by cords",
+          "es": "Le echan trapos viejos con sogas"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 38,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Jeremias é puxado para fora da cisterna",
+          "fr": "Jérémie est tiré hors de la citerne",
+          "en": "Jeremiah is drawn up out of the dungeon",
+          "es": "Jeremías es sacado de la mazmorra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-easy-030",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JER",
+        "chapter": 18,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Deus manda Jeremias à casa do oleiro",
+          "fr": "Dieu envoie Jérémie chez le potier",
+          "en": "God sends Jeremiah to the potter’s house",
+          "es": "Dios envía a Jeremías a casa del alfarero"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 18,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Jeremias vê o oleiro a trabalhar na roda",
+          "fr": "Jérémie voit le potier travailler sur un tour",
+          "en": "Jeremiah sees the potter working on the wheels",
+          "es": "Jeremías ve al alfarero trabajar sobre la rueda"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 18,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "O vaso estraga-se e o oleiro faz outro",
+          "fr": "Le vase ne réussit pas et le potier en refait un autre",
+          "en": "The vessel is marred and the potter makes another",
+          "es": "El vaso se quiebra y el alfarero hace otro"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 18,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Deus: «como o barro na mão do oleiro»",
+          "fr": "Dieu : « comme l’argile dans la main du potier »",
+          "en": "God: “as the clay is in the potter’s hand”",
+          "es": "Dios: «como el barro en la mano del alfarero»"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-001",
+    "type": "choice",
+    "level": "medium",
+    "book": "ISA",
+    "chapter": 6,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Isaías 6:1, em que ano viu Isaías o Senhor sentado num alto trono?",
+      "fr": "Selon Ésaïe 6:1, en quelle année Ésaïe vit-il le Seigneur assis sur un trône très élevé ?",
+      "en": "According to Isaiah 6:1, in what year did Isaiah see the Lord sitting upon a high throne?",
+      "es": "Según Isaías 6:1, ¿en qué año vio Isaías al Señor sentado sobre un trono alto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "No ano em que morreu o rei Uzias",
+          "fr": "L’année de la mort du roi Ozias",
+          "en": "In the year that king Uzziah died",
+          "es": "En el año que murió el rey Uzzías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No ano em que morreu o rei Saul",
+          "fr": "L’année de la mort du roi Saül",
+          "en": "In the year that king Saul died",
+          "es": "En el año que murió el rey Saúl"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No ano em que morreu o rei Salomão",
+          "fr": "L’année de la mort du roi Salomon",
+          "en": "In the year that king Solomon died",
+          "es": "En el año que murió el rey Salomón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No ano em que morreu o rei Acabe",
+          "fr": "L’année de la mort du roi Achab",
+          "en": "In the year that king Ahab died",
+          "es": "En el año que murió el rey Achâb"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-002",
+    "type": "choice",
+    "level": "medium",
+    "book": "ISA",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo Isaías 1:3, que animal conhece o seu dono, enquanto Israel não conhece?",
+      "fr": "Selon Ésaïe 1:3, quel animal connaît son possesseur, alors qu’Israël ne connaît rien ?",
+      "en": "According to Isaiah 1:3, which animal knoweth his owner, while Israel doth not know?",
+      "es": "Según Isaías 1:3, ¿qué animal conoce a su dueño, mientras Israel no conoce?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O boi",
+          "fr": "Le bœuf",
+          "en": "The ox",
+          "es": "El buey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O cavalo",
+          "fr": "Le cheval",
+          "en": "The horse",
+          "es": "El caballo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O cão",
+          "fr": "Le chien",
+          "en": "The dog",
+          "es": "El perro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O camelo",
+          "fr": "Le chameau",
+          "en": "The camel",
+          "es": "El camello"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-003",
+    "type": "choice",
+    "level": "medium",
+    "book": "ISA",
+    "chapter": 40,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Isaías 40:3 fala de preparar o caminho do SENHOR. Que lugar é nomeado nesse versículo?",
+      "fr": "Ésaïe 40:3 parle de préparer le chemin de l’Éternel. Quel lieu est nommé dans ce verset ?",
+      "en": "Isaiah 40:3 speaks of preparing the way of the LORD. Which place is named in that verse?",
+      "es": "Isaías 40:3 habla de preparar el camino de Jehová. ¿Qué lugar se nombra en ese versículo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O deserto",
+          "fr": "Le désert",
+          "en": "The wilderness",
+          "es": "El desierto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O mar",
+          "fr": "La mer",
+          "en": "The sea",
+          "es": "La mar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O templo",
+          "fr": "Le temple",
+          "en": "The temple",
+          "es": "El templo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O monte",
+          "fr": "La montagne",
+          "en": "The mountain",
+          "es": "El monte"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-004",
+    "type": "choice",
+    "level": "medium",
+    "book": "JER",
+    "chapter": 1,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Segundo Jeremias 1:11, o que viu Jeremias quando Deus lhe perguntou «Que vês?»",
+      "fr": "Selon Jérémie 1:11, que vit Jérémie quand Dieu lui demanda « Que vois-tu ? »",
+      "en": "According to Jeremiah 1:11, what did Jeremiah see when God asked “What seest thou?”",
+      "es": "Según Jeremías 1:11, ¿qué vio Jeremías cuando Dios le preguntó «¿Qué ves tú?»?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma vara de amendoeira",
+          "fr": "Une branche d’amandier",
+          "en": "A rod of an almond tree",
+          "es": "Una vara de almendro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma vara de oliveira",
+          "fr": "Une branche d’olivier",
+          "en": "A rod of an olive tree",
+          "es": "Una vara de olivo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um ramo de figueira",
+          "fr": "Une branche de figuier",
+          "en": "A branch of a fig tree",
+          "es": "Una rama de higuera"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma videira",
+          "fr": "Une vigne",
+          "en": "A vine",
+          "es": "Una vid"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-005",
+    "type": "choice",
+    "level": "medium",
+    "book": "LAM",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Lamentações 1:1, a cidade que era tão populosa tornou-se como quem?",
+      "fr": "Selon Lamentations 1:1, à qui la ville si peuplée est-elle devenue semblable ?",
+      "en": "According to Lamentations 1:1, the city that was full of people is become as whom?",
+      "es": "Según Lamentaciones 1:1, ¿como quién se ha vuelto la ciudad populosa?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma viúva",
+          "fr": "Une veuve",
+          "en": "A widow",
+          "es": "Una viuda"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma rainha",
+          "fr": "Une reine",
+          "en": "A queen",
+          "es": "Una reina"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma noiva",
+          "fr": "Une fiancée",
+          "en": "A bride",
+          "es": "Una novia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma mãe",
+          "fr": "Une mère",
+          "en": "A mother",
+          "es": "Una madre"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-006",
+    "type": "choice",
+    "level": "medium",
+    "book": "EZK",
+    "chapter": 1,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Segundo Ezequiel 1:10, os quatro seres tinham rosto de homem, de leão, de boi e de quê?",
+      "fr": "Selon Ézéchiel 1:10, les quatre animaux avaient une face d’homme, de lion, de bœuf et de quoi ?",
+      "en": "According to Ezekiel 1:10, the four had the face of a man, a lion, an ox and of what?",
+      "es": "Según Ezequiel 1:10, los cuatro tenían rostro de hombre, de león, de buey y ¿de qué más?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De águia",
+          "fr": "D’aigle",
+          "en": "Of an eagle",
+          "es": "De águila"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De cordeiro",
+          "fr": "D’agneau",
+          "en": "Of a lamb",
+          "es": "De cordero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De cavalo",
+          "fr": "De cheval",
+          "en": "Of a horse",
+          "es": "De caballo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De urso",
+          "fr": "D’ours",
+          "en": "Of a bear",
+          "es": "De oso"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-007",
+    "type": "choice",
+    "level": "medium",
+    "book": "EZK",
+    "chapter": 3,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Segundo Ezequiel 3:17, o que fez Deus de Ezequiel sobre a casa de Israel?",
+      "fr": "Selon Ézéchiel 3:17, qu’est-ce que Dieu fit d’Ézéchiel sur la maison d’Israël ?",
+      "en": "According to Ezekiel 3:17, what did God make Ezekiel unto the house of Israel?",
+      "es": "Según Ezequiel 3:17, ¿qué hizo Dios de Ezequiel para la casa de Israel?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um vigia",
+          "fr": "Une sentinelle",
+          "en": "A watchman",
+          "es": "Un atalaya"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um rei",
+          "fr": "Un roi",
+          "en": "A king",
+          "es": "Un rey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um juiz",
+          "fr": "Un juge",
+          "en": "A judge",
+          "es": "Un juez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um capitão",
+          "fr": "Un capitaine",
+          "en": "A captain",
+          "es": "Un capitán"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-008",
+    "type": "choice",
+    "level": "medium",
+    "book": "EZK",
+    "chapter": 36,
+    "verse_start": 26,
+    "verse_end": 26,
+    "prompt": {
+      "pt": "Segundo Ezequiel 36:26, que coração tiraria Deus de dentro do povo?",
+      "fr": "Selon Ézéchiel 36:26, quel cœur Dieu ôterait-il du peuple ?",
+      "en": "According to Ezekiel 36:26, which heart would God take away out of the people?",
+      "es": "Según Ezequiel 36:26, ¿qué corazón quitaría Dios del pueblo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O coração de pedra",
+          "fr": "Le cœur de pierre",
+          "en": "The stony heart",
+          "es": "El corazón de piedra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O coração de carne",
+          "fr": "Le cœur de chair",
+          "en": "The heart of flesh",
+          "es": "El corazón de carne"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O coração de ferro",
+          "fr": "Le cœur de fer",
+          "en": "The heart of iron",
+          "es": "El corazón de hierro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O coração de gelo",
+          "fr": "Le cœur de glace",
+          "en": "The heart of ice",
+          "es": "El corazón de hielo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-009",
+    "type": "choice",
+    "level": "medium",
+    "book": "HOS",
+    "chapter": 8,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Segundo Oseias 8:7, os que semearam vento, o que colherão?",
+      "fr": "Selon Osée 8:7, ceux qui ont semé du vent, que moissonneront-ils ?",
+      "en": "According to Hosea 8:7, they that have sown the wind shall reap what?",
+      "es": "Según Oseas 8:7, los que sembraron viento, ¿qué segarán?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Tempestade",
+          "fr": "La tempête",
+          "en": "The whirlwind",
+          "es": "Torbellino"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Chuva",
+          "fr": "La pluie",
+          "en": "The rain",
+          "es": "Lluvia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ouro",
+          "fr": "De l’or",
+          "en": "Gold",
+          "es": "Oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Fogo",
+          "fr": "Le feu",
+          "en": "Fire",
+          "es": "Fuego"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-010",
+    "type": "choice",
+    "level": "medium",
+    "book": "JOL",
+    "chapter": 2,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Segundo Joel 2:12, de que maneira pede o SENHOR que o povo se converta a ele?",
+      "fr": "Selon Joël 2:12, de quelle manière l’Éternel demande-t-il au peuple de revenir à lui ?",
+      "en": "According to Joel 2:12, how does the LORD ask the people to turn to him?",
+      "es": "Según Joel 2:12, ¿de qué manera pide Jehová que el pueblo se convierta a él?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De todo o coração, com jejum e choro",
+          "fr": "De tout leur cœur, avec des jeûnes et des pleurs",
+          "en": "With all their heart, with fasting and weeping",
+          "es": "Con todo su corazón, con ayuno y lloro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com ofertas de ouro e prata",
+          "fr": "Avec des offrandes d’or et d’argent",
+          "en": "With offerings of gold and silver",
+          "es": "Con ofrendas de oro y plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com festas e cânticos",
+          "fr": "Avec des fêtes et des chants",
+          "en": "With feasts and songs",
+          "es": "Con fiestas y cantares"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com espadas e escudos",
+          "fr": "Avec des épées et des boucliers",
+          "en": "With swords and shields",
+          "es": "Con espadas y escudos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-011",
+    "type": "choice",
+    "level": "medium",
+    "book": "JOL",
+    "chapter": 2,
+    "verse_start": 31,
+    "verse_end": 31,
+    "prompt": {
+      "pt": "Segundo Joel 2:31, em que se tornará a lua antes do grande dia do SENHOR?",
+      "fr": "Selon Joël 2:31, en quoi la lune se changera-t-elle avant le grand jour de l’Éternel ?",
+      "en": "According to Joel 2:31, into what shall the moon be turned before the great day of the LORD?",
+      "es": "Según Joel 2:31, ¿en qué se tornará la luna antes del gran día de Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Em sangue",
+          "fr": "En sang",
+          "en": "Into blood",
+          "es": "En sangre"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em fogo",
+          "fr": "En feu",
+          "en": "Into fire",
+          "es": "En fuego"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em ouro",
+          "fr": "En or",
+          "en": "Into gold",
+          "es": "En oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em pó",
+          "fr": "En poussière",
+          "en": "Into dust",
+          "es": "En polvo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-012",
+    "type": "choice",
+    "level": "medium",
+    "book": "AMO",
+    "chapter": 8,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Segundo Amós 8:11, que fome enviaria Deus à terra?",
+      "fr": "Selon Amos 8:11, quelle faim Dieu enverrait-il dans le pays ?",
+      "en": "According to Amos 8:11, what famine would God send in the land?",
+      "es": "Según Amós 8:11, ¿qué hambre enviaría Dios a la tierra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Fome de ouvir as palavras do SENHOR",
+          "fr": "La faim d’entendre les paroles de l’Éternel",
+          "en": "A famine of hearing the words of the LORD",
+          "es": "Hambre de oír palabra de Jehová"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Fome de pão",
+          "fr": "La faim de pain",
+          "en": "A famine of bread",
+          "es": "Hambre de pan"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sede de água",
+          "fr": "La soif d’eau",
+          "en": "A thirst for water",
+          "es": "Sed de agua"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Fome de carne",
+          "fr": "La faim de viande",
+          "en": "A famine of meat",
+          "es": "Hambre de carne"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-013",
+    "type": "choice",
+    "level": "medium",
+    "book": "JON",
+    "chapter": 1,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Segundo Jonas 1:6, o que disse o capitão do navio a Jonas?",
+      "fr": "Selon Jonas 1:6, que dit le pilote du navire à Jonas ?",
+      "en": "According to Jonah 1:6, what did the shipmaster say to Jonah?",
+      "es": "Según Jonás 1:6, ¿qué dijo el maestre de la nave a Jonás?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "«Levanta-te e clama ao teu deus»",
+          "fr": "« Lève-toi, invoque ton Dieu »",
+          "en": "“Arise, call upon thy God”",
+          "es": "«Levántate, y clama a tu Dios»"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "«Salta para o mar»",
+          "fr": "« Saute dans la mer »",
+          "en": "“Jump into the sea”",
+          "es": "«Salta a la mar»"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "«Ajuda-nos a remar»",
+          "fr": "« Aide-nous à ramer »",
+          "en": "“Help us to row”",
+          "es": "«Ayúdanos a remar»"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "«Esconde-te no porão»",
+          "fr": "« Cache-toi dans la cale »",
+          "en": "“Hide thyself in the hold”",
+          "es": "«Escóndete en la bodega»"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-014",
+    "type": "choice",
+    "level": "medium",
+    "book": "JON",
+    "chapter": 3,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Segundo Jonas 3:8, além das pessoas, quem devia cobrir-se de saco em Nínive?",
+      "fr": "Selon Jonas 3:8, outre les hommes, qui devait être couvert de sacs à Ninive ?",
+      "en": "According to Jonah 3:8, besides man, who was to be covered with sackcloth in Nineveh?",
+      "es": "Según Jonás 3:8, además de los hombres, ¿quién debía cubrirse de saco en Nínive?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Os animais",
+          "fr": "Les bêtes",
+          "en": "The beasts",
+          "es": "Los animales"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os reis vizinhos",
+          "fr": "Les rois voisins",
+          "en": "The neighbouring kings",
+          "es": "Los reyes vecinos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os ídolos",
+          "fr": "Les idoles",
+          "en": "The idols",
+          "es": "Los ídolos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As casas",
+          "fr": "Les maisons",
+          "en": "The houses",
+          "es": "Las casas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-015",
+    "type": "choice",
+    "level": "medium",
+    "book": "HAB",
+    "chapter": 2,
+    "verse_start": 14,
+    "verse_end": 14,
+    "prompt": {
+      "pt": "Segundo Habacuque 2:14, a terra se encherá do conhecimento da glória do SENHOR como o quê?",
+      "fr": "Selon Habacuc 2:14, la terre sera remplie de la connaissance de la gloire de l’Éternel comme quoi ?",
+      "en": "According to Habakkuk 2:14, the earth shall be filled with the knowledge of the glory of the LORD as what?",
+      "es": "Según Habacuc 2:14, la tierra será llena del conocimiento de la gloria de Jehová ¿como qué?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Como as águas cobrem o mar",
+          "fr": "Comme les eaux couvrent le fond de la mer",
+          "en": "As the waters cover the sea",
+          "es": "Como las aguas cubren la mar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como a areia cobre a praia",
+          "fr": "Comme le sable couvre le rivage",
+          "en": "As the sand covers the shore",
+          "es": "Como la arena cubre la playa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como as estrelas enchem o céu",
+          "fr": "Comme les étoiles remplissent le ciel",
+          "en": "As the stars fill the sky",
+          "es": "Como las estrellas llenan el cielo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como a luz enche o dia",
+          "fr": "Comme la lumière remplit le jour",
+          "en": "As light fills the day",
+          "es": "Como la luz llena el día"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-016",
+    "type": "choice",
+    "level": "medium",
+    "book": "HAG",
+    "chapter": 1,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Segundo Ageu 1:6, onde punha o seu salário quem trabalhava a jornal?",
+      "fr": "Selon Aggée 1:6, où tombe le salaire de celui qui est à gages ?",
+      "en": "According to Haggai 1:6, where does he that earneth wages put them?",
+      "es": "Según Haggeo 1:6, ¿dónde recibe su jornal el que anda a jornal?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Numa bolsa furada",
+          "fr": "Dans un sac percé",
+          "en": "Into a bag with holes",
+          "es": "En un trapo horadado"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Num cofre de ouro",
+          "fr": "Dans un coffre d’or",
+          "en": "Into a chest of gold",
+          "es": "En un cofre de oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Debaixo da terra",
+          "fr": "Sous la terre",
+          "en": "Under the ground",
+          "es": "Debajo de la tierra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No tesouro do templo",
+          "fr": "Dans le trésor du temple",
+          "en": "Into the temple treasury",
+          "es": "En el tesoro del templo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-017",
+    "type": "choice",
+    "level": "medium",
+    "book": "ZEC",
+    "chapter": 11,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Segundo Zacarias 11:12, quanto pesaram como salário?",
+      "fr": "Selon Zacharie 11:12, combien pesa-t-on pour le salaire ?",
+      "en": "According to Zechariah 11:12, what did they weigh for the price?",
+      "es": "Según Zacarías 11:12, ¿cuánto pesaron por el salario?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Trinta moedas de prata",
+          "fr": "Trente sicles d’argent",
+          "en": "Thirty pieces of silver",
+          "es": "Treinta piezas de plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vinte moedas de prata",
+          "fr": "Vingt sicles d’argent",
+          "en": "Twenty pieces of silver",
+          "es": "Veinte piezas de plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cinquenta moedas de prata",
+          "fr": "Cinquante sicles d’argent",
+          "en": "Fifty pieces of silver",
+          "es": "Cincuenta piezas de plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cem moedas de ouro",
+          "fr": "Cent pièces d’or",
+          "en": "A hundred pieces of gold",
+          "es": "Cien piezas de oro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-018",
+    "type": "choice",
+    "level": "medium",
+    "book": "ZEC",
+    "chapter": 14,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Segundo Zacarias 14:9, o que será o SENHOR sobre toda a terra?",
+      "fr": "Selon Zacharie 14:9, que sera l’Éternel de toute la terre ?",
+      "en": "According to Zechariah 14:9, what shall the LORD be over all the earth?",
+      "es": "Según Zacarías 14:9, ¿qué será Jehová sobre toda la tierra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Rei",
+          "fr": "Roi",
+          "en": "King",
+          "es": "Rey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pastor",
+          "fr": "Berger",
+          "en": "Shepherd",
+          "es": "Pastor"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sacerdote",
+          "fr": "Sacrificateur",
+          "en": "Priest",
+          "es": "Sacerdote"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Profeta",
+          "fr": "Prophète",
+          "en": "Prophet",
+          "es": "Profeta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-019",
+    "type": "choice",
+    "level": "medium",
+    "book": "NAM",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo Naum 1:3, o que são as nuvens para o SENHOR?",
+      "fr": "Selon Nahum 1:3, que sont les nuées pour l’Éternel ?",
+      "en": "According to Nahum 1:3, what are the clouds to the LORD?",
+      "es": "Según Nahum 1:3, ¿qué son las nubes para Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O pó dos seus pés",
+          "fr": "La poussière de ses pieds",
+          "en": "The dust of his feet",
+          "es": "El polvo de sus pies"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O seu manto",
+          "fr": "Son manteau",
+          "en": "His garment",
+          "es": "Su manto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O seu trono",
+          "fr": "Son trône",
+          "en": "His throne",
+          "es": "Su trono"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os seus carros",
+          "fr": "Ses chars",
+          "en": "His chariots",
+          "es": "Sus carros"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-020",
+    "type": "choice",
+    "level": "medium",
+    "book": "OBA",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo Obadias 1:3, onde habita aquele a quem a soberba do coração enganou?",
+      "fr": "Selon Abdias 1:3, où habite celui que l’orgueil de son cœur a égaré ?",
+      "en": "According to Obadiah 1:3, where dwells the one whom the pride of his heart hath deceived?",
+      "es": "Según Abdías 1:3, ¿dónde mora aquel a quien la soberbia de su corazón engañó?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nas fendas das rochas",
+          "fr": "Dans le creux des rochers",
+          "en": "In the clefts of the rock",
+          "es": "En las hendiduras de las peñas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Num vale profundo",
+          "fr": "Dans une vallée profonde",
+          "en": "In a deep valley",
+          "es": "En un valle profundo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Junto ao mar",
+          "fr": "Au bord de la mer",
+          "en": "By the sea",
+          "es": "Junto a la mar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em tendas no deserto",
+          "fr": "Sous des tentes au désert",
+          "en": "In tents in the wilderness",
+          "es": "En tiendas en el desierto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-021",
+    "type": "choice",
+    "level": "medium",
+    "book": "MIC",
+    "chapter": 7,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Segundo Miqueias 7:6, quem são os inimigos do homem?",
+      "fr": "Selon Michée 7:6, qui sont les ennemis de chacun ?",
+      "en": "According to Micah 7:6, who are a man’s enemies?",
+      "es": "Según Miqueas 7:6, ¿quiénes son los enemigos del hombre?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Os da sua própria casa",
+          "fr": "Les gens de sa maison",
+          "en": "The men of his own house",
+          "es": "Los de su casa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os povos estrangeiros",
+          "fr": "Les peuples étrangers",
+          "en": "Foreign nations",
+          "es": "Los pueblos extranjeros"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os animais do campo",
+          "fr": "Les bêtes des champs",
+          "en": "The beasts of the field",
+          "es": "Las bestias del campo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os reis da terra",
+          "fr": "Les rois de la terre",
+          "en": "The kings of the earth",
+          "es": "Los reyes de la tierra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-022",
+    "type": "verse",
+    "level": "medium",
+    "book": "ISA",
+    "chapter": 53,
+    "verse_start": 5,
+    "verse_end": 5,
+    "blank": {
+      "pt": "curados",
+      "fr": "guéris",
+      "en": "healed",
+      "es": "curados"
+    },
+    "distractors": [
+      {
+        "pt": "salvos",
+        "fr": "sauvés",
+        "en": "saved",
+        "es": "salvos"
+      },
+      {
+        "pt": "perdoados",
+        "fr": "pardonnés",
+        "en": "forgiven",
+        "es": "perdonados"
+      },
+      {
+        "pt": "libertos",
+        "fr": "délivrés",
+        "en": "delivered",
+        "es": "librados"
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-023",
+    "type": "verse",
+    "level": "medium",
+    "book": "AMO",
+    "chapter": 5,
+    "verse_start": 4,
+    "verse_end": 4,
+    "blank": {
+      "pt": "vivereis",
+      "fr": "vivrez",
+      "en": "live",
+      "es": "viviréis"
+    },
+    "distractors": [
+      {
+        "pt": "descansareis",
+        "fr": "reposerez",
+        "en": "rest",
+        "es": "descansaréis"
+      },
+      {
+        "pt": "reinareis",
+        "fr": "régnerez",
+        "en": "reign",
+        "es": "reinaréis"
+      },
+      {
+        "pt": "cantareis",
+        "fr": "chanterez",
+        "en": "sing",
+        "es": "cantaréis"
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-024",
+    "type": "verse",
+    "level": "medium",
+    "book": "HOS",
+    "chapter": 4,
+    "verse_start": 6,
+    "verse_end": 6,
+    "blank": {
+      "pt": "lei",
+      "fr": "loi",
+      "en": "law",
+      "es": "ley"
+    },
+    "distractors": [
+      {
+        "pt": "voz",
+        "fr": "voix",
+        "en": "voice",
+        "es": "voz"
+      },
+      {
+        "pt": "casa",
+        "fr": "maison",
+        "en": "house",
+        "es": "casa"
+      },
+      {
+        "pt": "promessa",
+        "fr": "promesse",
+        "en": "promise",
+        "es": "promesa"
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-025",
+    "type": "verse",
+    "level": "medium",
+    "book": "LAM",
+    "chapter": 3,
+    "verse_start": 40,
+    "verse_end": 40,
+    "blank": {
+      "pt": "caminhos",
+      "fr": "voies",
+      "en": "ways",
+      "es": "caminos"
+    },
+    "distractors": [
+      {
+        "pt": "corações",
+        "fr": "cœurs",
+        "en": "hearts",
+        "es": "corazones"
+      },
+      {
+        "pt": "pecados",
+        "fr": "péchés",
+        "en": "sins",
+        "es": "pecados"
+      },
+      {
+        "pt": "dias",
+        "fr": "jours",
+        "en": "days",
+        "es": "días"
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-026",
+    "type": "verse",
+    "level": "medium",
+    "book": "HAG",
+    "chapter": 2,
+    "verse_start": 8,
+    "verse_end": 8,
+    "blank": {
+      "pt": "ouro",
+      "fr": "or",
+      "en": "gold",
+      "es": "oro"
+    },
+    "distractors": [
+      {
+        "pt": "bronze",
+        "fr": "airain",
+        "en": "brass",
+        "es": "bronce"
+      },
+      {
+        "pt": "estanho",
+        "fr": "étain",
+        "en": "tin",
+        "es": "estaño"
+      },
+      {
+        "pt": "aço",
+        "fr": "acier",
+        "en": "steel",
+        "es": "acero"
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-027",
+    "type": "verse",
+    "level": "medium",
+    "book": "MAL",
+    "chapter": 3,
+    "verse_start": 6,
+    "verse_end": 6,
+    "blank": {
+      "pt": "consumidos",
+      "fr": "consumés",
+      "en": "consumed",
+      "es": "consumidos"
+    },
+    "distractors": [
+      {
+        "pt": "esquecidos",
+        "fr": "oubliés",
+        "en": "forgotten",
+        "es": "olvidados"
+      },
+      {
+        "pt": "vencidos",
+        "fr": "vaincus",
+        "en": "defeated",
+        "es": "vencidos"
+      },
+      {
+        "pt": "dispersos",
+        "fr": "dispersés",
+        "en": "scattered",
+        "es": "dispersados"
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-028",
+    "type": "verse",
+    "level": "medium",
+    "book": "JER",
+    "chapter": 17,
+    "verse_start": 7,
+    "verse_end": 7,
+    "blank": {
+      "pt": "Bendito",
+      "fr": "Béni",
+      "en": "Blessed",
+      "es": "Bendito"
+    },
+    "distractors": [
+      {
+        "pt": "Sábio",
+        "fr": "Sage",
+        "en": "Wise",
+        "es": "Sabio"
+      },
+      {
+        "pt": "Forte",
+        "fr": "Fort",
+        "en": "Strong",
+        "es": "Fuerte"
+      },
+      {
+        "pt": "Rico",
+        "fr": "Riche",
+        "en": "Rich",
+        "es": "Rico"
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-029",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DAN",
+        "chapter": 4,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Nabucodonosor sonha com uma árvore muito alta",
+          "fr": "Nebucadnetsar voit en songe un arbre très haut",
+          "en": "Nebuchadnezzar dreams of a very tall tree",
+          "es": "Nabucodonosor sueña con un árbol muy alto"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 4,
+        "verse_start": 19,
+        "verse_end": 19,
+        "text": {
+          "pt": "Daniel fica perturbado com o sonho",
+          "fr": "Daniel est troublé par le songe",
+          "en": "Daniel is troubled by the dream",
+          "es": "Daniel se espanta por el sueño"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 4,
+        "verse_start": 30,
+        "verse_end": 30,
+        "text": {
+          "pt": "O rei gaba-se da grande Babilónia",
+          "fr": "Le roi se vante de Babylone la grande",
+          "en": "The king boasts of great Babylon",
+          "es": "El rey se jacta de la gran Babilonia"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 4,
+        "verse_start": 33,
+        "verse_end": 33,
+        "text": {
+          "pt": "O rei come erva como os bois",
+          "fr": "Le roi mange de l’herbe comme les bœufs",
+          "en": "The king eats grass as oxen",
+          "es": "El rey come hierba como los bueyes"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-030",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DAN",
+        "chapter": 7,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Um animal como leão, com asas de águia",
+          "fr": "Un animal semblable à un lion, avec des ailes d’aigle",
+          "en": "A beast like a lion, with eagle’s wings",
+          "es": "Una bestia como león, con alas de águila"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 7,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Um animal como urso, com três costelas na boca",
+          "fr": "Un animal semblable à un ours, trois côtes dans la gueule",
+          "en": "A beast like a bear, with three ribs in its mouth",
+          "es": "Una bestia como oso, con tres costillas en la boca"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 7,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Um animal como leopardo, com quatro cabeças",
+          "fr": "Un animal semblable à un léopard, à quatre têtes",
+          "en": "A beast like a leopard, with four heads",
+          "es": "Una bestia como tigre, con cuatro cabezas"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 7,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Um quarto animal com dentes de ferro",
+          "fr": "Un quatrième animal aux dents de fer",
+          "en": "A fourth beast with iron teeth",
+          "es": "Una cuarta bestia con dientes de hierro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-031",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JER",
+        "chapter": 36,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Baruque escreve num rolo as palavras ditadas",
+          "fr": "Baruc écrit dans un livre sous la dictée",
+          "en": "Baruch writes the words on a roll",
+          "es": "Baruch escribe las palabras en un rollo"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 36,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Baruque lê o livro na casa do SENHOR",
+          "fr": "Baruc lit le livre dans la maison de l’Éternel",
+          "en": "Baruch reads the book in the house of the LORD",
+          "es": "Baruch lee el libro en la casa de Jehová"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 36,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "O rolo é cortado e lançado no fogo",
+          "fr": "Le livre est coupé et jeté au feu",
+          "en": "The roll is cut and cast into the fire",
+          "es": "El rollo es rasgado y echado al fuego"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 36,
+        "verse_start": 32,
+        "verse_end": 32,
+        "text": {
+          "pt": "Jeremias dá outro rolo a Baruque",
+          "fr": "Jérémie donne un autre livre à Baruc",
+          "en": "Jeremiah gives another roll to Baruch",
+          "es": "Jeremías da otro rollo a Baruch"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-032",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JER",
+        "chapter": 13,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Jeremias compra um cinto de linho",
+          "fr": "Jérémie achète une ceinture de lin",
+          "en": "Jeremiah gets a linen girdle",
+          "es": "Jeremías compra un cinto de lino"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 13,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Jeremias esconde o cinto junto ao Eufrates",
+          "fr": "Jérémie cache la ceinture près de l’Euphrate",
+          "en": "Jeremiah hides the girdle by Euphrates",
+          "es": "Jeremías esconde el cinto junto al Eufrates"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 13,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Jeremias desenterra o cinto apodrecido",
+          "fr": "Jérémie retrouve la ceinture gâtée",
+          "en": "Jeremiah digs up the marred girdle",
+          "es": "Jeremías desentierra el cinto podrido"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 13,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Deus anuncia que fará apodrecer a soberba de Judá",
+          "fr": "Dieu annonce qu’il détruira l’orgueil de Juda",
+          "en": "God says he will mar the pride of Judah",
+          "es": "Dios dice que hará podrir la soberbia de Judá"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-033",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EZK",
+        "chapter": 1,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Ezequiel vê quatro seres viventes",
+          "fr": "Ézéchiel voit quatre animaux",
+          "en": "Ezekiel sees four living creatures",
+          "es": "Ezequiel ve cuatro animales"
+        }
+      },
+      {
+        "book": "EZK",
+        "chapter": 2,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "O Espírito entra nele e põe-no de pé",
+          "fr": "L’esprit entre en lui et le fait tenir debout",
+          "en": "The spirit enters him and sets him on his feet",
+          "es": "El espíritu entra en él y lo pone en pie"
+        }
+      },
+      {
+        "book": "EZK",
+        "chapter": 2,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Uma mão estende-lhe um rolo de livro",
+          "fr": "Une main lui tend un livre en rouleau",
+          "en": "A hand is sent to him with a roll of a book",
+          "es": "Una mano le es enviada con un rollo de libro"
+        }
+      },
+      {
+        "book": "EZK",
+        "chapter": 3,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Fica sete dias atónito em Tel-Abibe",
+          "fr": "Il reste sept jours stupéfait à Thel-Abib",
+          "en": "He sits astonished seven days at Tel-abib",
+          "es": "Permanece siete días atónito en Telabib"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-034",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "HOS",
+        "chapter": 1,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "O SENHOR manda Oseias tomar mulher",
+          "fr": "L’Éternel dit à Osée de prendre une femme",
+          "en": "The LORD tells Hosea to take a wife",
+          "es": "Jehová dice a Oseas que tome mujer"
+        }
+      },
+      {
+        "book": "HOS",
+        "chapter": 1,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Nasce um filho chamado Jezreel",
+          "fr": "Naissance d’un fils appelé Jizreel",
+          "en": "A son named Jezreel is born",
+          "es": "Nace un hijo llamado Jezreel"
+        }
+      },
+      {
+        "book": "HOS",
+        "chapter": 1,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Nasce uma filha chamada Não-Amada",
+          "fr": "Naissance d’une fille appelée Lo-Ruchama",
+          "en": "A daughter named Lo-ruhamah is born",
+          "es": "Nace una hija llamada Lo-ruhama"
+        }
+      },
+      {
+        "book": "HOS",
+        "chapter": 1,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Deus manda chamar um filho Não-Meu-Povo",
+          "fr": "Dieu fait appeler un fils Lo-Ammi",
+          "en": "God says to call a son Lo-ammi",
+          "es": "Dios manda llamar a un hijo Lo-ammi"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-medium-035",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ISA",
+        "chapter": 36,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Rabsaqué grita em língua judaica",
+          "fr": "Rabschaké crie en langue judaïque",
+          "en": "Rabshakeh cries in the Jews’ language",
+          "es": "Rabsaces grita en lengua judáica"
+        }
+      },
+      {
+        "book": "ISA",
+        "chapter": 37,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Ezequias manda mensageiros ao profeta Isaías",
+          "fr": "Ézéchias envoie des messagers au prophète Ésaïe",
+          "en": "Hezekiah sends men to Isaiah the prophet",
+          "es": "Ezechîas envía mensajeros al profeta Isaías"
+        }
+      },
+      {
+        "book": "ISA",
+        "chapter": 37,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Ezequias estende a carta perante o SENHOR",
+          "fr": "Ézéchias déploie la lettre devant l’Éternel",
+          "en": "Hezekiah spreads the letter before the LORD",
+          "es": "Ezechîas extiende las cartas delante de Jehová"
+        }
+      },
+      {
+        "book": "ISA",
+        "chapter": 37,
+        "verse_start": 38,
+        "verse_end": 38,
+        "text": {
+          "pt": "Senaqueribe é morto pelos seus filhos",
+          "fr": "Sanchérib est tué par ses fils",
+          "en": "Sennacherib is slain by his sons",
+          "es": "Sennachêrib es muerto por sus hijos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-001",
+    "type": "choice",
+    "level": "hard",
+    "book": "ISA",
+    "chapter": 20,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo Isaías 20:3, como andou Isaías, como sinal relativo ao Egito?",
+      "fr": "Selon Ésaïe 20:3, comment Ésaïe marchait-il, comme signe pour l’Égypte ?",
+      "en": "According to Isaiah 20:3, how did Isaiah walk, for a sign upon Egypt?",
+      "es": "Según Isaías 20:3, ¿cómo anduvo Isaías, como señal sobre Egipto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nu e descalço",
+          "fr": "Nu et déchaussé",
+          "en": "Naked and barefoot",
+          "es": "Desnudo y descalzo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vestido de saco",
+          "fr": "Vêtu d’un sac",
+          "en": "Clothed in sackcloth",
+          "es": "Vestido de saco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com um jugo ao pescoço",
+          "fr": "Avec un joug sur le cou",
+          "en": "With a yoke on his neck",
+          "es": "Con un yugo al cuello"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De cabeça rapada",
+          "fr": "La tête rasée",
+          "en": "With his head shaven",
+          "es": "Con la cabeza rapada"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-002",
+    "type": "choice",
+    "level": "hard",
+    "book": "ISA",
+    "chapter": 8,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo Isaías 8:3, que nome mandou o SENHOR dar ao filho da profetisa?",
+      "fr": "Selon Ésaïe 8:3, quel nom l’Éternel dit-il de donner au fils de la prophétesse ?",
+      "en": "According to Isaiah 8:3, what name did the LORD say to give the prophetess’s son?",
+      "es": "Según Isaías 8:3, ¿qué nombre mandó Jehová poner al hijo de la profetisa?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Maer-Salal-Has-Baz",
+          "fr": "Maher-Schalal-Chasch-Baz",
+          "en": "Maher-shalal-hash-baz",
+          "es": "Maher-salal-hash-baz"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sear-Jasube",
+          "fr": "Schear-Jaschub",
+          "en": "Shear-jashub",
+          "es": "Sear-jasub"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jezreel",
+          "fr": "Jizreel",
+          "en": "Jezreel",
+          "es": "Jezreel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Não-Meu-Povo",
+          "fr": "Lo-Ammi",
+          "en": "Lo-ammi",
+          "es": "Lo-ammi"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-003",
+    "type": "choice",
+    "level": "hard",
+    "book": "ISA",
+    "chapter": 45,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Isaías 45:1, que rei é chamado «ungido» do SENHOR?",
+      "fr": "Selon Ésaïe 45:1, quel roi est appelé « oint » de l’Éternel ?",
+      "en": "According to Isaiah 45:1, which king is called the LORD’s “anointed”?",
+      "es": "Según Isaías 45:1, ¿qué rey es llamado «ungido» de Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Ciro",
+          "fr": "Cyrus",
+          "en": "Cyrus",
+          "es": "Ciro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nabucodonosor",
+          "fr": "Nebucadnetsar",
+          "en": "Nebuchadnezzar",
+          "es": "Nabucodonosor"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dario",
+          "fr": "Darius",
+          "en": "Darius",
+          "es": "Darío"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ezequias",
+          "fr": "Ézéchias",
+          "en": "Hezekiah",
+          "es": "Ezechîas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-004",
+    "type": "choice",
+    "level": "hard",
+    "book": "JER",
+    "chapter": 32,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Segundo Jeremias 32:9, por quanto comprou Jeremias o campo de Hanameel, em Anatote?",
+      "fr": "Selon Jérémie 32:9, pour combien Jérémie acheta-t-il le champ de Hanameel, à Anathoth ?",
+      "en": "According to Jeremiah 32:9, for how much did Jeremiah buy the field of Hanameel in Anathoth?",
+      "es": "Según Jeremías 32:9, ¿por cuánto compró Jeremías la heredad de Hanameel en Anathoth?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Dezassete siclos de prata",
+          "fr": "Dix-sept sicles d’argent",
+          "en": "Seventeen shekels of silver",
+          "es": "Diecisiete siclos de plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Trinta siclos de prata",
+          "fr": "Trente sicles d’argent",
+          "en": "Thirty shekels of silver",
+          "es": "Treinta siclos de plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cinquenta siclos de prata",
+          "fr": "Cinquante sicles d’argent",
+          "en": "Fifty shekels of silver",
+          "es": "Cincuenta siclos de plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete siclos de prata",
+          "fr": "Sept sicles d’argent",
+          "en": "Seven shekels of silver",
+          "es": "Siete siclos de plata"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-005",
+    "type": "choice",
+    "level": "hard",
+    "book": "LAM",
+    "chapter": 3,
+    "verse_start": 27,
+    "verse_end": 27,
+    "prompt": {
+      "pt": "Segundo Lamentações 3:27, o que é bom o homem levar na sua juventude?",
+      "fr": "Selon Lamentations 3:27, qu’est-il bon pour l’homme de porter dans sa jeunesse ?",
+      "en": "According to Lamentations 3:27, what is it good for a man to bear in his youth?",
+      "es": "Según Lamentaciones 3:27, ¿qué es bueno que el hombre lleve desde su mocedad?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O jugo",
+          "fr": "Le joug",
+          "en": "The yoke",
+          "es": "El yugo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A espada",
+          "fr": "L’épée",
+          "en": "The sword",
+          "es": "La espada"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A coroa",
+          "fr": "La couronne",
+          "en": "The crown",
+          "es": "La corona"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O cajado",
+          "fr": "Le bâton",
+          "en": "The staff",
+          "es": "El cayado"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-006",
+    "type": "choice",
+    "level": "hard",
+    "book": "EZK",
+    "chapter": 24,
+    "verse_start": 18,
+    "verse_end": 18,
+    "prompt": {
+      "pt": "Segundo Ezequiel 24:18, o que aconteceu à tarde do dia em que Ezequiel falou ao povo?",
+      "fr": "Selon Ézéchiel 24:18, qu’arriva-t-il le soir du jour où Ézéchiel avait parlé au peuple ?",
+      "en": "According to Ezekiel 24:18, what happened at even on the day Ezekiel spake unto the people?",
+      "es": "Según Ezequiel 24:18, ¿qué pasó a la tarde del día en que Ezequiel habló al pueblo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Morreu a mulher dele",
+          "fr": "Sa femme mourut",
+          "en": "His wife died",
+          "es": "Murió su mujer"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nasceu-lhe um filho",
+          "fr": "Un fils lui naquit",
+          "en": "A son was born to him",
+          "es": "Le nació un hijo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Caiu fogo do céu",
+          "fr": "Le feu tomba du ciel",
+          "en": "Fire fell from heaven",
+          "es": "Cayó fuego del cielo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A cidade foi inundada",
+          "fr": "La ville fut inondée",
+          "en": "The city was flooded",
+          "es": "La ciudad fue inundada"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-007",
+    "type": "choice",
+    "level": "hard",
+    "book": "EZK",
+    "chapter": 47,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo Ezequiel 47:3, depois de medidos os primeiros mil côvados, até onde chegava a água?",
+      "fr": "Selon Ézéchiel 47:3, après les premières mille coudées mesurées, jusqu’où montait l’eau ?",
+      "en": "According to Ezekiel 47:3, after the first thousand cubits were measured, how deep were the waters?",
+      "es": "Según Ezequiel 47:3, medidos los primeros mil codos, ¿hasta dónde llegaban las aguas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Aos tornozelos",
+          "fr": "Aux chevilles",
+          "en": "To the ankles",
+          "es": "Hasta los tobillos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ao peito",
+          "fr": "À la poitrine",
+          "en": "To the chest",
+          "es": "Hasta el pecho"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aos ombros",
+          "fr": "Aux épaules",
+          "en": "To the shoulders",
+          "es": "Hasta los hombros"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ao pescoço",
+          "fr": "Au cou",
+          "en": "To the neck",
+          "es": "Hasta el cuello"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-008",
+    "type": "choice",
+    "level": "hard",
+    "book": "HOS",
+    "chapter": 3,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Segundo Oseias 3:2, por quanta prata comprou Oseias a mulher, além da cevada?",
+      "fr": "Selon Osée 3:2, pour combien d’argent Osée acheta-t-il la femme, outre l’orge ?",
+      "en": "According to Hosea 3:2, for how much silver did Hosea buy her, besides the barley?",
+      "es": "Según Oseas 3:2, ¿por cuánta plata compró Oseas a la mujer, además de la cebada?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Quinze peças de prata",
+          "fr": "Quinze sicles d’argent",
+          "en": "Fifteen pieces of silver",
+          "es": "Quince dineros de plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Trinta peças de prata",
+          "fr": "Trente sicles d’argent",
+          "en": "Thirty pieces of silver",
+          "es": "Treinta dineros de plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dez peças de prata",
+          "fr": "Dix sicles d’argent",
+          "en": "Ten pieces of silver",
+          "es": "Diez dineros de plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cem peças de prata",
+          "fr": "Cent sicles d’argent",
+          "en": "A hundred pieces of silver",
+          "es": "Cien dineros de plata"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-009",
+    "type": "choice",
+    "level": "hard",
+    "book": "JOL",
+    "chapter": 3,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Segundo Joel 3:10, o que deve dizer o fraco?",
+      "fr": "Selon Joël 3:10, que doit dire le faible ?",
+      "en": "According to Joel 3:10, what shall the weak say?",
+      "es": "Según Joel 3:10, ¿qué debe decir el flaco?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "«Sou forte»",
+          "fr": "« Je suis fort »",
+          "en": "“I am strong”",
+          "es": "«Fuerte soy»"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "«Tenho medo»",
+          "fr": "« J’ai peur »",
+          "en": "“I am afraid”",
+          "es": "«Tengo miedo»"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "«Sou pequeno»",
+          "fr": "« Je suis petit »",
+          "en": "“I am small”",
+          "es": "«Pequeño soy»"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "«Estou cansado»",
+          "fr": "« Je suis las »",
+          "en": "“I am weary”",
+          "es": "«Cansado estoy»"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-010",
+    "type": "choice",
+    "level": "hard",
+    "book": "AMO",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Amós 1:1, de que lugar eram os pastores entre os quais estava Amós?",
+      "fr": "Selon Amos 1:1, de quel lieu étaient les bergers parmi lesquels était Amos ?",
+      "en": "According to Amos 1:1, Amos was among the herdmen of which place?",
+      "es": "Según Amós 1:1, ¿de qué lugar eran los pastores entre los que estaba Amós?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Tecoa",
+          "fr": "Tekoa",
+          "en": "Tekoa",
+          "es": "Tecoa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Anatote",
+          "fr": "Anathoth",
+          "en": "Anathoth",
+          "es": "Anathoth"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Siló",
+          "fr": "Silo",
+          "en": "Shiloh",
+          "es": "Silo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Belém",
+          "fr": "Bethléem",
+          "en": "Bethlehem",
+          "es": "Belén"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-011",
+    "type": "choice",
+    "level": "hard",
+    "book": "AMO",
+    "chapter": 4,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Em Amós 4:1, como são chamados os que oprimem os pobres no monte de Samaria?",
+      "fr": "Dans Amos 4:1, comment sont appelés ceux qui oppriment les misérables sur la montagne de Samarie ?",
+      "en": "In Amos 4:1, what are those called who oppress the poor in the mountain of Samaria?",
+      "es": "En Amós 4:1, ¿cómo son llamados los que oprimen a los pobres en el monte de Samaria?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Vacas de Basã",
+          "fr": "Génisses de Basan",
+          "en": "Kine of Bashan",
+          "es": "Vacas de Basán"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vacas de Gileade",
+          "fr": "Génisses de Galaad",
+          "en": "Kine of Gilead",
+          "es": "Vacas de Galaad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vacas do Egito",
+          "fr": "Génisses d’Égypte",
+          "en": "Kine of Egypt",
+          "es": "Vacas de Egipto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vacas de Moabe",
+          "fr": "Génisses de Moab",
+          "en": "Kine of Moab",
+          "es": "Vacas de Moab"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-012",
+    "type": "choice",
+    "level": "hard",
+    "book": "OBA",
+    "chapter": 1,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Segundo Obadias 1:10, contra que irmão foi feita a violência?",
+      "fr": "Selon Abdias 1:10, contre quel frère la violence a-t-elle été commise ?",
+      "en": "According to Obadiah 1:10, against which brother was the violence done?",
+      "es": "Según Abdías 1:10, ¿contra qué hermano fue hecha la injuria?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Jacob",
+          "fr": "Jacob",
+          "en": "Jacob",
+          "es": "Jacob"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Esaú",
+          "fr": "Ésaü",
+          "en": "Esau",
+          "es": "Esaú"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ismael",
+          "fr": "Ismaël",
+          "en": "Ishmael",
+          "es": "Ismael"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ló",
+          "fr": "Lot",
+          "en": "Lot",
+          "es": "Lot"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-013",
+    "type": "choice",
+    "level": "hard",
+    "book": "MIC",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Miqueias 1:1, sobre que cidades viu Miqueias a palavra do SENHOR?",
+      "fr": "Selon Michée 1:1, sur quelles villes porte la prophétie de Michée ?",
+      "en": "According to Micah 1:1, concerning which cities did Micah see the word of the LORD?",
+      "es": "Según Miqueas 1:1, ¿sobre qué ciudades vio Miqueas la palabra de Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Samaria e Jerusalém",
+          "fr": "Samarie et Jérusalem",
+          "en": "Samaria and Jerusalem",
+          "es": "Samaria y Jerusalem"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nínive e Babilónia",
+          "fr": "Ninive et Babylone",
+          "en": "Nineveh and Babylon",
+          "es": "Nínive y Babilonia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tiro e Sidom",
+          "fr": "Tyr et Sidon",
+          "en": "Tyre and Sidon",
+          "es": "Tiro y Sidón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sodoma e Gomorra",
+          "fr": "Sodome et Gomorrhe",
+          "en": "Sodom and Gomorrah",
+          "es": "Sodoma y Gomorra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-014",
+    "type": "choice",
+    "level": "hard",
+    "book": "NAM",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Naum 1:1, como é identificado o profeta Naum?",
+      "fr": "Selon Nahum 1:1, comment le prophète Nahum est-il désigné ?",
+      "en": "According to Nahum 1:1, how is the prophet Nahum described?",
+      "es": "Según Nahum 1:1, ¿cómo se describe al profeta Nahum?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Era elcosita",
+          "fr": "Il était d’Elkosch",
+          "en": "The Elkoshite",
+          "es": "Era de El-kosh"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Era tisbita",
+          "fr": "Il était Thischbite",
+          "en": "The Tishbite",
+          "es": "Era thisbita"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Era morastita",
+          "fr": "Il était de Moréscheth",
+          "en": "The Morasthite",
+          "es": "Era de Morasti"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Era gibeonita",
+          "fr": "Il était de Gabaon",
+          "en": "The Gibeonite",
+          "es": "Era de Gabaón"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-015",
+    "type": "choice",
+    "level": "hard",
+    "book": "HAB",
+    "chapter": 3,
+    "verse_start": 19,
+    "verse_end": 19,
+    "prompt": {
+      "pt": "Segundo Habacuque 3:19, Deus fará os pés do profeta como os de que animal?",
+      "fr": "Selon Habacuc 3:19, Dieu rend les pieds du prophète semblables à ceux de quel animal ?",
+      "en": "According to Habakkuk 3:19, God will make the prophet’s feet like the feet of which animal?",
+      "es": "Según Habacuc 3:19, ¿como los de qué animal pondrá Dios los pies del profeta?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Das corças",
+          "fr": "Des biches",
+          "en": "Hinds",
+          "es": "De ciervas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dos leões",
+          "fr": "Des lions",
+          "en": "Lions",
+          "es": "De leones"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dos cavalos",
+          "fr": "Des chevaux",
+          "en": "Horses",
+          "es": "De caballos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Das cabras",
+          "fr": "Des chèvres",
+          "en": "Goats",
+          "es": "De cabras"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-016",
+    "type": "choice",
+    "level": "hard",
+    "book": "ZEP",
+    "chapter": 1,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Segundo Sofonias 1:12, com quê fará Deus busca em Jerusalém?",
+      "fr": "Selon Sophonie 1:12, avec quoi Dieu fouillera-t-il Jérusalem ?",
+      "en": "According to Zephaniah 1:12, with what will God search Jerusalem?",
+      "es": "Según Sofonías 1:12, ¿con qué escudriñará Dios a Jerusalem?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Com lâmpadas",
+          "fr": "Avec des lampes",
+          "en": "With candles",
+          "es": "Con candiles"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com espadas",
+          "fr": "Avec des épées",
+          "en": "With swords",
+          "es": "Con espadas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com trombetas",
+          "fr": "Avec des trompettes",
+          "en": "With trumpets",
+          "es": "Con trompetas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com cães",
+          "fr": "Avec des chiens",
+          "en": "With dogs",
+          "es": "Con perros"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-017",
+    "type": "choice",
+    "level": "hard",
+    "book": "ZEP",
+    "chapter": 2,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Segundo Sofonias 2:13, que cidade Deus tornaria em desolação, seca como um deserto?",
+      "fr": "Selon Sophonie 2:13, quelle ville Dieu ferait-il devenir une solitude, aride comme le désert ?",
+      "en": "According to Zephaniah 2:13, which city would God make a desolation, dry like a wilderness?",
+      "es": "Según Sofonías 2:13, ¿qué ciudad pondría Dios en asolamiento, seca como un desierto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nínive",
+          "fr": "Ninive",
+          "en": "Nineveh",
+          "es": "Nínive"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Babilónia",
+          "fr": "Babylone",
+          "en": "Babylon",
+          "es": "Babilonia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Damasco",
+          "fr": "Damas",
+          "en": "Damascus",
+          "es": "Damasco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tiro",
+          "fr": "Tyr",
+          "en": "Tyre",
+          "es": "Tiro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-018",
+    "type": "choice",
+    "level": "hard",
+    "book": "HAG",
+    "chapter": 2,
+    "verse_start": 23,
+    "verse_end": 23,
+    "prompt": {
+      "pt": "Segundo Ageu 2:23, como o que porá Deus Zorobabel, porque o escolheu?",
+      "fr": "Selon Aggée 2:23, comme quoi Dieu gardera-t-il Zorobabel, parce qu’il l’a choisi ?",
+      "en": "According to Haggai 2:23, what will God make Zerubbabel as, because he has chosen him?",
+      "es": "Según Haggeo 2:23, ¿como qué pondrá Dios a Zorobabel, porque lo escogió?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um anel de selar",
+          "fr": "Un sceau",
+          "en": "A signet",
+          "es": "Un anillo de sellar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma coroa",
+          "fr": "Une couronne",
+          "en": "A crown",
+          "es": "Una corona"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um cetro",
+          "fr": "Un sceptre",
+          "en": "A sceptre",
+          "es": "Un cetro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um escudo",
+          "fr": "Un bouclier",
+          "en": "A shield",
+          "es": "Un escudo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-019",
+    "type": "choice",
+    "level": "hard",
+    "book": "ZEC",
+    "chapter": 2,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Segundo Zacarias 2:8, quem vos toca, toca em quê?",
+      "fr": "Selon Zacharie 2:8, celui qui vous touche, que touche-t-il ?",
+      "en": "According to Zechariah 2:8, he that toucheth you toucheth what?",
+      "es": "Según Zacarías 2:8, el que os toca, ¿qué toca?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A menina do seu olho",
+          "fr": "La prunelle de son œil",
+          "en": "The apple of his eye",
+          "es": "La niña de su ojo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O seu coração",
+          "fr": "Son cœur",
+          "en": "His heart",
+          "es": "Su corazón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O seu trono",
+          "fr": "Son trône",
+          "en": "His throne",
+          "es": "Su trono"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A sua mão direita",
+          "fr": "Sa main droite",
+          "en": "His right hand",
+          "es": "Su mano derecha"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-020",
+    "type": "choice",
+    "level": "hard",
+    "book": "MAL",
+    "chapter": 4,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Segundo Malaquias 4:2, o que nascerá para os que temem o nome do SENHOR?",
+      "fr": "Selon Malachie 4:2, qu’est-ce qui se lèvera pour ceux qui craignent le nom de l’Éternel ?",
+      "en": "According to Malachi 4:2, what shall arise unto them that fear the LORD’s name?",
+      "es": "Según Malaquías 4:2, ¿qué nacerá para los que temen el nombre de Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O Sol da justiça",
+          "fr": "Le soleil de la justice",
+          "en": "The Sun of righteousness",
+          "es": "El Sol de justicia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A estrela da manhã",
+          "fr": "L’étoile du matin",
+          "en": "The morning star",
+          "es": "La estrella de la mañana"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A lua cheia",
+          "fr": "La pleine lune",
+          "en": "The full moon",
+          "es": "La luna llena"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma nova cidade",
+          "fr": "Une ville nouvelle",
+          "en": "A new city",
+          "es": "Una nueva ciudad"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-021",
+    "type": "choice",
+    "level": "hard",
+    "book": "MAL",
+    "chapter": 3,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Segundo Malaquias 3:16, o que foi escrito diante do SENHOR para os que o temem?",
+      "fr": "Selon Malachie 3:16, qu’est-ce qui fut écrit devant l’Éternel pour ceux qui le craignent ?",
+      "en": "According to Malachi 3:16, what was written before the LORD for them that feared him?",
+      "es": "Según Malaquías 3:16, ¿qué fue escrito delante de Jehová para los que le temen?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um livro de memória",
+          "fr": "Un livre de souvenir",
+          "en": "A book of remembrance",
+          "es": "Un libro de memoria"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma nova lei",
+          "fr": "Une loi nouvelle",
+          "en": "A new law",
+          "es": "Una nueva ley"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um cântico novo",
+          "fr": "Un cantique nouveau",
+          "en": "A new song",
+          "es": "Un cántico nuevo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma carta de divórcio",
+          "fr": "Une lettre de divorce",
+          "en": "A bill of divorcement",
+          "es": "Una carta de divorcio"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-022",
+    "type": "verse",
+    "level": "hard",
+    "book": "EZK",
+    "chapter": 18,
+    "verse_start": 20,
+    "verse_end": 20,
+    "blank": {
+      "pt": "morrerá",
+      "fr": "mourra",
+      "en": "die",
+      "es": "morirá"
+    },
+    "distractors": [
+      {
+        "pt": "viverá",
+        "fr": "vivra",
+        "en": "live",
+        "es": "vivirá"
+      },
+      {
+        "pt": "chorará",
+        "fr": "pleurera",
+        "en": "weep",
+        "es": "llorará"
+      },
+      {
+        "pt": "fugirá",
+        "fr": "fuira",
+        "en": "flee",
+        "es": "huirá"
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-023",
+    "type": "verse",
+    "level": "hard",
+    "book": "LAM",
+    "chapter": 5,
+    "verse_start": 21,
+    "verse_end": 21,
+    "blank": {
+      "pt": "dias",
+      "fr": "jours",
+      "en": "days",
+      "es": "días"
+    },
+    "distractors": [
+      {
+        "pt": "corações",
+        "fr": "cœurs",
+        "en": "hearts",
+        "es": "corazones"
+      },
+      {
+        "pt": "campos",
+        "fr": "champs",
+        "en": "fields",
+        "es": "campos"
+      },
+      {
+        "pt": "muros",
+        "fr": "murs",
+        "en": "walls",
+        "es": "muros"
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-024",
+    "type": "verse",
+    "level": "hard",
+    "book": "OBA",
+    "chapter": 1,
+    "verse_start": 21,
+    "verse_end": 21,
+    "blank": {
+      "pt": "reino",
+      "fr": "règne",
+      "en": "kingdom",
+      "es": "reino"
+    },
+    "distractors": [
+      {
+        "pt": "templo",
+        "fr": "temple",
+        "en": "temple",
+        "es": "templo"
+      },
+      {
+        "pt": "deserto",
+        "fr": "désert",
+        "en": "wilderness",
+        "es": "desierto"
+      },
+      {
+        "pt": "campo",
+        "fr": "champ",
+        "en": "field",
+        "es": "campo"
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-025",
+    "type": "verse",
+    "level": "hard",
+    "book": "JON",
+    "chapter": 3,
+    "verse_start": 10,
+    "verse_end": 10,
+    "blank": {
+      "pt": "arrependeu",
+      "fr": "repentit",
+      "en": "repented",
+      "es": "arrepintióse"
+    },
+    "distractors": [
+      {
+        "pt": "cansou",
+        "fr": "lassa",
+        "en": "tired",
+        "es": "cansóse"
+      },
+      {
+        "pt": "queixou",
+        "fr": "plaignit",
+        "en": "complained",
+        "es": "quejóse"
+      },
+      {
+        "pt": "gabou",
+        "fr": "vanta",
+        "en": "boasted",
+        "es": "jactóse"
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-026",
+    "type": "verse",
+    "level": "hard",
+    "book": "MIC",
+    "chapter": 7,
+    "verse_start": 18,
+    "verse_end": 18,
+    "blank": {
+      "pt": "bondade",
+      "fr": "miséricorde",
+      "en": "mercy",
+      "es": "misericordia"
+    },
+    "distractors": [
+      {
+        "pt": "vingança",
+        "fr": "vengeance",
+        "en": "vengeance",
+        "es": "venganza"
+      },
+      {
+        "pt": "glória",
+        "fr": "gloire",
+        "en": "glory",
+        "es": "gloria"
+      },
+      {
+        "pt": "força",
+        "fr": "force",
+        "en": "strength",
+        "es": "fortaleza"
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-027",
+    "type": "verse",
+    "level": "hard",
+    "book": "ZEC",
+    "chapter": 13,
+    "verse_start": 7,
+    "verse_end": 7,
+    "blank": {
+      "pt": "ovelhas",
+      "fr": "brebis",
+      "en": "sheep",
+      "es": "ovejas"
+    },
+    "distractors": [
+      {
+        "pt": "cabras",
+        "fr": "chèvres",
+        "en": "goats",
+        "es": "cabras"
+      },
+      {
+        "pt": "nações",
+        "fr": "nations",
+        "en": "nations",
+        "es": "naciones"
+      },
+      {
+        "pt": "pombas",
+        "fr": "colombes",
+        "en": "doves",
+        "es": "palomas"
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-028",
+    "type": "verse",
+    "level": "hard",
+    "book": "MAL",
+    "chapter": 3,
+    "verse_start": 1,
+    "verse_end": 1,
+    "blank": {
+      "pt": "templo",
+      "fr": "temple",
+      "en": "temple",
+      "es": "templo"
+    },
+    "distractors": [
+      {
+        "pt": "trono",
+        "fr": "trône",
+        "en": "throne",
+        "es": "trono"
+      },
+      {
+        "pt": "monte",
+        "fr": "mont",
+        "en": "mountain",
+        "es": "monte"
+      },
+      {
+        "pt": "povo",
+        "fr": "peuple",
+        "en": "people",
+        "es": "pueblo"
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-029",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JER",
+        "chapter": 37,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Jeremias é preso na casa do escriba Jónatas",
+          "fr": "Jérémie est mis en prison chez Jonathan, le secrétaire",
+          "en": "Jeremiah is imprisoned in the house of Jonathan the scribe",
+          "es": "Jeremías es encarcelado en casa de Jonathán escriba"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 37,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "Zedequias manda guardá-lo no pátio da guarda",
+          "fr": "Sédécias le fait garder dans la cour de la prison",
+          "en": "Zedekiah commits him to the court of the prison",
+          "es": "Sedechîas lo hace poner en el patio de la cárcel"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 39,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "No 11.º ano de Zedequias, a cidade é rompida",
+          "fr": "La 11e année de Sédécias, la brèche est faite à la ville",
+          "en": "In Zedekiah’s eleventh year the city is broken up",
+          "es": "En el año 11 de Sedechîas la ciudad es rota"
+        }
+      },
+      {
+        "book": "JER",
+        "chapter": 39,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Jeremias é entregue a Gedalias",
+          "fr": "Jérémie est remis à Guedalia",
+          "en": "Jeremiah is committed to Gedaliah",
+          "es": "Jeremías es entregado a Gedalías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-030",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ZEC",
+        "chapter": 1,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Um homem num cavalo vermelho entre as murtas",
+          "fr": "Un homme sur un cheval roux parmi des myrtes",
+          "en": "A man on a red horse among the myrtle trees",
+          "es": "Un varón en un caballo bermejo entre los mirtos"
+        }
+      },
+      {
+        "book": "ZEC",
+        "chapter": 3,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Josué está diante do anjo com roupas impuras",
+          "fr": "Josué se tient devant l’ange en vêtements sales",
+          "en": "Joshua stands before the angel in filthy garments",
+          "es": "Josué está delante del ángel con vestimentas viles"
+        }
+      },
+      {
+        "book": "ZEC",
+        "chapter": 4,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Um castiçal de ouro com sete lâmpadas",
+          "fr": "Un chandelier d’or portant sept lampes",
+          "en": "A candlestick of gold with seven lamps",
+          "es": "Un candelero de oro con siete lámparas"
+        }
+      },
+      {
+        "book": "ZEC",
+        "chapter": 5,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Um rolo que voa",
+          "fr": "Un rouleau qui vole",
+          "en": "A flying roll",
+          "es": "Un rollo que vuela"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-031",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "AMO",
+        "chapter": 7,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Amós vê Deus formar gafanhotos",
+          "fr": "Amos voit Dieu former des sauterelles",
+          "en": "Amos sees God form grasshoppers",
+          "es": "Amós ve a Dios criar langostas"
+        }
+      },
+      {
+        "book": "AMO",
+        "chapter": 7,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Amós vê um juízo pelo fogo",
+          "fr": "Amos voit un châtiment par le feu",
+          "en": "Amos sees God contend by fire",
+          "es": "Amós ve un juicio por fuego"
+        }
+      },
+      {
+        "book": "AMO",
+        "chapter": 7,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Amós vê o Senhor sobre um muro, com um prumo",
+          "fr": "Amos voit le Seigneur sur un mur, un niveau à la main",
+          "en": "Amos sees the Lord upon a wall, with a plumbline",
+          "es": "Amós ve al Señor sobre un muro, con una plomada"
+        }
+      },
+      {
+        "book": "AMO",
+        "chapter": 8,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Amós vê um cesto de frutos de verão",
+          "fr": "Amos voit une corbeille de fruits",
+          "en": "Amos sees a basket of summer fruit",
+          "es": "Amós ve un canastillo de fruta de verano"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-032",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "HAG",
+        "chapter": 1,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Ageu: vós morais em boas casas e o templo está deserto",
+          "fr": "Aggée : vous habitez des demeures lambrissées, le temple est détruit",
+          "en": "Haggai: you dwell in cieled houses while this house lies waste",
+          "es": "Haggeo: moráis en casas enmaderadas y el templo está desierto"
+        }
+      },
+      {
+        "book": "HAG",
+        "chapter": 1,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "O povo começa a obra na casa do SENHOR",
+          "fr": "Le peuple se met à l’œuvre dans la maison de l’Éternel",
+          "en": "The people begin work in the house of the LORD",
+          "es": "El pueblo empieza la obra en la casa de Jehová"
+        }
+      },
+      {
+        "book": "HAG",
+        "chapter": 2,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "A glória da última casa será maior que a da primeira",
+          "fr": "La gloire de la dernière maison sera plus grande",
+          "en": "The glory of the latter house shall be greater",
+          "es": "La gloria de la casa postrera será mayor"
+        }
+      },
+      {
+        "book": "HAG",
+        "chapter": 2,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Ageu interroga os sacerdotes sobre carne santa",
+          "fr": "Aggée interroge les sacrificateurs sur la chair consacrée",
+          "en": "Haggai asks the priests about holy flesh",
+          "es": "Haggeo pregunta a los sacerdotes sobre las carnes sagradas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-033",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JON",
+        "chapter": 4,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Jonas desgosta-se muito e fica irado",
+          "fr": "Jonas est très mécontent et irrité",
+          "en": "Jonah is displeased and very angry",
+          "es": "Jonás se apesadumbra y se enoja"
+        }
+      },
+      {
+        "book": "JON",
+        "chapter": 4,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Deus faz crescer uma planta para dar sombra a Jonas",
+          "fr": "Dieu fait croître un ricin pour donner de l’ombre à Jonas",
+          "en": "God makes a gourd grow to shade Jonah",
+          "es": "Dios hace crecer una calabacera para dar sombra a Jonás"
+        }
+      },
+      {
+        "book": "JON",
+        "chapter": 4,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Um vento quente do oriente e o sol ferem Jonas",
+          "fr": "Un vent chaud d’orient et le soleil frappent Jonas",
+          "en": "A vehement east wind and the sun beat upon Jonah",
+          "es": "Un recio viento solano y el sol hieren a Jonás"
+        }
+      },
+      {
+        "book": "JON",
+        "chapter": 4,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Deus fala da sua compaixão por Nínive",
+          "fr": "Dieu parle de sa pitié pour Ninive",
+          "en": "God speaks of sparing Nineveh",
+          "es": "Dios habla de su piedad por Nínive"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-034",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DAN",
+        "chapter": 8,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Um carneiro com dois chifres junto ao rio",
+          "fr": "Un bélier avec des cornes devant le fleuve",
+          "en": "A ram with two horns before the river",
+          "es": "Un carnero con dos cuernos delante del río"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 8,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Um bode vem do ocidente sem tocar a terra",
+          "fr": "Un bouc vient de l’occident sans toucher la terre",
+          "en": "A he goat comes from the west, not touching the ground",
+          "es": "Un macho cabrío viene del poniente sin tocar la tierra"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 8,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "O grande chifre do bode quebra-se",
+          "fr": "La grande corne du bouc se brise",
+          "en": "The goat’s great horn is broken",
+          "es": "El gran cuerno del macho cabrío es quebrado"
+        }
+      },
+      {
+        "book": "DAN",
+        "chapter": 8,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Uma voz manda Gabriel explicar a visão",
+          "fr": "Une voix dit à Gabriel d’expliquer la vision",
+          "en": "A voice tells Gabriel to explain the vision",
+          "es": "Una voz dice a Gabriel que enseñe la visión"
+        }
+      }
+    ]
+  },
+  {
+    "id": "prof2-hard-035",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ISA",
+        "chapter": 38,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Ezequias, doente, vira o rosto para a parede e ora",
+          "fr": "Ézéchias, malade, tourne son visage contre le mur",
+          "en": "Hezekiah, sick, turns his face toward the wall",
+          "es": "Ezechîas, enfermo, vuelve su rostro a la pared"
+        }
+      },
+      {
+        "book": "ISA",
+        "chapter": 38,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Deus acrescenta quinze anos à vida de Ezequias",
+          "fr": "Dieu ajoute quinze années aux jours d’Ézéchias",
+          "en": "God adds fifteen years to Hezekiah’s days",
+          "es": "Dios añade quince años a los días de Ezechîas"
+        }
+      },
+      {
+        "book": "ISA",
+        "chapter": 39,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Ezequias mostra os seus tesouros aos enviados",
+          "fr": "Ézéchias montre ses trésors aux envoyés",
+          "en": "Hezekiah shows his treasures to the envoys",
+          "es": "Ezechîas muestra sus tesoros a los enviados"
+        }
+      },
+      {
+        "book": "ISA",
+        "chapter": 39,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Isaías anuncia que tudo será levado à Babilónia",
+          "fr": "Ésaïe annonce que tout sera emporté à Babylone",
+          "en": "Isaiah says all shall be carried to Babylon",
+          "es": "Isaías anuncia que todo será llevado a Babilonia"
+        }
+      }
+    ]
+  }
+]

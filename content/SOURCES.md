@@ -48,3 +48,8 @@ Na Bíblia Livre (pt) aplicam-se, ao carregar o texto (`content/bible-correction
 - LEV 17:11: "eu vos a dei" → "eu vo-la dei"
 - NUM 23:19: "e não fará?; Falou" → "e não fará? Falou"
 - JOS 24:15: "aos deuses a os quais" → "aos deuses aos quais"
+
+### Correções acrescentadas com o lote de +700 perguntas (2026-10-18)
+Só gralhas evidentes de tipografia nos versículos (espaços, concordância, uma palavra trocada); a redação da tradução não foi alterada. Lista completa em `content/bible-corrections.json`.
+- pt: ISA 1:18, AMO 8:11, ZEC 13:7, MAL 3:1 (falta espaço antes de "diz"); JON 3:8 ("convertam-se"); HAB 3:19 (espaço antes do parêntese); LAM 5:21 ("os nossos"); OBA 1:3 ("tua alta morada"); JOS 9:4 ("sacos velhos", "odres velhos", em vez de "anciãos"); JDG 14:5 ("leão jovem vinha"); 2KI 4:43 ("Dá ao povo"); JOB 1:5 ("holocaustos conforme"); SNG 3:1 e 5:2 ("Ela:"); 2CO 5:17 ("é;"); ROM 5:3 ("isso, mas").
+- es: JOS 21:45 ("todas las buenas"); 2KI 23:25 ("todas sus fuerzas").

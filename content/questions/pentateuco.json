@@ -965,22 +965,22 @@
     },
     "distractors": [
       {
-        "pt": "chame",
-        "fr": "appelle",
-        "en": "call",
-        "es": "llame"
+        "pt": "guie",
+        "fr": "guide",
+        "en": "guide",
+        "es": "guíe"
       },
       {
-        "pt": "ensine",
-        "fr": "enseigne",
-        "en": "teach",
-        "es": "enseñe"
+        "pt": "veja",
+        "fr": "voie",
+        "en": "see",
+        "es": "vea"
       },
       {
-        "pt": "ouça",
-        "fr": "écoute",
-        "en": "hear",
-        "es": "oiga"
+        "pt": "visite",
+        "fr": "visite",
+        "en": "visit",
+        "es": "visite"
       }
     ]
   },
@@ -2020,10 +2020,10 @@
     },
     "distractors": [
       {
-        "pt": "água",
-        "fr": "eau",
-        "en": "water",
-        "es": "agua"
+        "pt": "leite",
+        "fr": "lait",
+        "en": "milk",
+        "es": "leche"
       },
       {
         "pt": "vinho",
@@ -2976,10 +2976,10 @@
         "es": "tierra"
       },
       {
-        "pt": "água",
-        "fr": "eau",
-        "en": "water",
-        "es": "agua"
+        "pt": "pedra",
+        "fr": "pierre",
+        "en": "stone",
+        "es": "piedra"
       },
       {
         "pt": "palavra",

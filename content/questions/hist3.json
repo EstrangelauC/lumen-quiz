@@ -1,0 +1,5102 @@
+[
+  {
+    "id": "hist3-easy-001",
+    "type": "choice",
+    "level": "easy",
+    "book": "1KI",
+    "chapter": 3,
+    "verse_start": 24,
+    "verse_end": 25,
+    "prompt": {
+      "pt": "Quando duas mulheres disputavam um menino, o que mandou Salomão trazer?",
+      "fr": "Quand deux femmes se disputaient un enfant, que fit apporter Salomon ?",
+      "en": "When two women argued over a child, what did Solomon ask to be brought?",
+      "es": "Cuando dos mujeres se disputaban un niño, ¿qué mandó traer Salomón?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma espada",
+          "fr": "Une épée",
+          "en": "A sword",
+          "es": "Un cuchillo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma balança",
+          "fr": "Une balance",
+          "en": "A pair of scales",
+          "es": "Una balanza"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um livro",
+          "fr": "Un livre",
+          "en": "A book",
+          "es": "Un libro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um cesto",
+          "fr": "Un panier",
+          "en": "A basket",
+          "es": "Una cesta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-002",
+    "type": "choice",
+    "level": "easy",
+    "book": "1KI",
+    "chapter": 10,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Quem ouviu falar da fama de Salomão e veio pô-lo à prova com perguntas?",
+      "fr": "Qui apprit la renommée de Salomon et vint l’éprouver par des énigmes ?",
+      "en": "Who heard of the fame of Solomon and came to prove him with hard questions?",
+      "es": "¿Quién oyó la fama de Salomón y vino a probarle con preguntas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A rainha de Sabá",
+          "fr": "La reine de Séba",
+          "en": "The queen of Sheba",
+          "es": "La reina de Seba"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A rainha Jezabel",
+          "fr": "La reine Jézabel",
+          "en": "Queen Jezebel",
+          "es": "La reina Jezabel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A rainha Vasti",
+          "fr": "La reine Vasthi",
+          "en": "Queen Vashti",
+          "es": "La reina Vasthi"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mical, filha de Saul",
+          "fr": "Mical, fille de Saül",
+          "en": "Michal, Saul’s daughter",
+          "es": "Michâl, hija de Saúl"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-003",
+    "type": "choice",
+    "level": "easy",
+    "book": "1KI",
+    "chapter": 17,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "Quando Elias clamou ao SENHOR pelo filho da viúva, o que aconteceu ao menino?",
+      "fr": "Quand Élie implora l’Éternel pour le fils de la veuve, qu’arriva-t-il à l’enfant ?",
+      "en": "When Elijah cried to the LORD for the widow’s son, what happened to the child?",
+      "es": "Cuando Elías clamó a Jehová por el hijo de la viuda, ¿qué le pasó al niño?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Voltou a viver",
+          "fr": "Il revint à la vie",
+          "en": "He revived",
+          "es": "Revivió"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Adormeceu",
+          "fr": "Il s’endormit",
+          "en": "He fell asleep",
+          "es": "Se durmió"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Fugiu para o deserto",
+          "fr": "Il s’enfuit au désert",
+          "en": "He ran away to the wilderness",
+          "es": "Huyó al desierto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tornou-se profeta",
+          "fr": "Il devint prophète",
+          "en": "He became a prophet",
+          "es": "Se hizo profeta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-004",
+    "type": "choice",
+    "level": "easy",
+    "book": "1KI",
+    "chapter": 18,
+    "verse_start": 34,
+    "verse_end": 34,
+    "prompt": {
+      "pt": "Quantas vezes mandou Elias derramar água sobre o holocausto?",
+      "fr": "Combien de fois Élie fit-il verser de l’eau sur l’holocauste ?",
+      "en": "How many times did Elijah have water poured on the sacrifice?",
+      "es": "¿Cuántas veces mandó Elías derramar agua sobre el holocausto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Três vezes",
+          "fr": "Trois fois",
+          "en": "Three times",
+          "es": "Tres veces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete vezes",
+          "fr": "Sept fois",
+          "en": "Seven times",
+          "es": "Siete veces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Duas vezes",
+          "fr": "Deux fois",
+          "en": "Two times",
+          "es": "Dos veces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze vezes",
+          "fr": "Douze fois",
+          "en": "Twelve times",
+          "es": "Doce veces"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-005",
+    "type": "choice",
+    "level": "easy",
+    "book": "1KI",
+    "chapter": 18,
+    "verse_start": 44,
+    "verse_end": 44,
+    "prompt": {
+      "pt": "À sétima vez, o que viu o servo de Elias a subir do mar?",
+      "fr": "À la septième fois, que vit le serviteur d’Élie s’élever de la mer ?",
+      "en": "At the seventh time, what did Elijah’s servant see arise out of the sea?",
+      "es": "A la séptima vez, ¿qué vio el criado de Elías subir del mar?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma pequena nuvem como a mão de um homem",
+          "fr": "Un petit nuage comme la main d’un homme",
+          "en": "A little cloud like a man’s hand",
+          "es": "Una pequeña nube como la mano de un hombre"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um grande peixe",
+          "fr": "Un grand poisson",
+          "en": "A great fish",
+          "es": "Un gran pez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um navio",
+          "fr": "Un navire",
+          "en": "A ship",
+          "es": "Un navío"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um arco-íris",
+          "fr": "Un arc-en-ciel",
+          "en": "A rainbow",
+          "es": "Un arco iris"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-006",
+    "type": "choice",
+    "level": "easy",
+    "book": "1KI",
+    "chapter": 19,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Quando Elias acordou no deserto, o que encontrou à sua cabeceira?",
+      "fr": "Quand Élie se réveilla dans le désert, que trouva-t-il à son chevet ?",
+      "en": "When Elijah woke in the wilderness, what was at his head?",
+      "es": "Cuando Elías despertó en el desierto, ¿qué halló a su cabecera?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um bolo cozido e um vaso de água",
+          "fr": "Un gâteau cuit et une cruche d’eau",
+          "en": "A cake baken on the coals and a cruse of water",
+          "es": "Una torta cocida y un vaso de agua"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um corvo com carne",
+          "fr": "Un corbeau avec de la viande",
+          "en": "A raven with meat",
+          "es": "Un cuervo con carne"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um manto novo",
+          "fr": "Un manteau neuf",
+          "en": "A new mantle",
+          "es": "Un manto nuevo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma espada",
+          "fr": "Une épée",
+          "en": "A sword",
+          "es": "Una espada"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-007",
+    "type": "choice",
+    "level": "easy",
+    "book": "1KI",
+    "chapter": 6,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Porque não se ouviam martelos nem machados enquanto se edificava o templo?",
+      "fr": "Pourquoi n’entendait-on ni marteau ni hache pendant qu’on bâtissait le temple ?",
+      "en": "Why was no hammer nor axe heard while the temple was being built?",
+      "es": "¿Por qué no se oían martillos ni hachas mientras se edificaba el templo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "As pedras já vinham acabadas",
+          "fr": "Les pierres étaient déjà taillées",
+          "en": "The stones were made ready before",
+          "es": "Las piedras ya venían acabadas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só se trabalhava de noite",
+          "fr": "On ne travaillait que la nuit",
+          "en": "It was built only at night",
+          "es": "Solo se trabajaba de noche"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Era todo feito de madeira",
+          "fr": "Il était tout en bois",
+          "en": "It was all made of wood",
+          "es": "Era todo de madera"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O rei proibia o barulho",
+          "fr": "Le roi interdisait le bruit",
+          "en": "The king forbade any noise",
+          "es": "El rey prohibía el ruido"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-008",
+    "type": "choice",
+    "level": "easy",
+    "book": "2KI",
+    "chapter": 2,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Que coisa de Elias levantou Eliseu, depois de ela ter caído?",
+      "fr": "Qu’est-ce qu’Élisée releva, après qu’Élie l’eut laissé tomber ?",
+      "en": "What did Elisha take up that had fallen from Elijah?",
+      "es": "¿Qué cosa de Elías alzó Eliseo, después de habérsele caído?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O manto",
+          "fr": "Le manteau",
+          "en": "His mantle",
+          "es": "El manto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O cajado",
+          "fr": "Le bâton",
+          "en": "His staff",
+          "es": "El báculo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A espada",
+          "fr": "L’épée",
+          "en": "His sword",
+          "es": "La espada"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A coroa",
+          "fr": "La couronne",
+          "en": "His crown",
+          "es": "La corona"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-009",
+    "type": "choice",
+    "level": "easy",
+    "book": "2KI",
+    "chapter": 4,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "O que quis uma mulher preparar para o profeta Eliseu, para quando ele passasse?",
+      "fr": "Que voulut préparer une femme pour le prophète Élisée, pour quand il passerait ?",
+      "en": "What did a woman want to make for the prophet Elisha, for when he came by?",
+      "es": "¿Qué quiso preparar una mujer para el profeta Eliseo, para cuando pasara?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma pequena câmara com cama e mesa",
+          "fr": "Une petite chambre avec un lit et une table",
+          "en": "A little chamber with a bed and a table",
+          "es": "Una pequeña cámara con cama y mesa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma tenda no jardim",
+          "fr": "Une tente dans le jardin",
+          "en": "A tent in the garden",
+          "es": "Una tienda en el jardín"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um altar de pedras",
+          "fr": "Un autel de pierres",
+          "en": "An altar of stones",
+          "es": "Un altar de piedras"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um barco para o rio",
+          "fr": "Une barque pour le fleuve",
+          "en": "A boat for the river",
+          "es": "Una barca para el río"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-010",
+    "type": "choice",
+    "level": "easy",
+    "book": "2KI",
+    "chapter": 4,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Quando o azeite encheu as vasilhas, o que disse Eliseu à mulher?",
+      "fr": "Quand l’huile eut rempli les vases, que dit Élisée à la femme ?",
+      "en": "When the oil had filled the vessels, what did Elisha tell the woman?",
+      "es": "Cuando el aceite llenó las vasijas, ¿qué dijo Eliseo a la mujer?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Vende o azeite e paga aos teus credores",
+          "fr": "Va vendre l’huile, et paie ta dette",
+          "en": "Go, sell the oil, and pay thy debt",
+          "es": "Vende el aceite y paga a tus acreedores"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Leva o azeite para o templo",
+          "fr": "Porte l’huile au temple",
+          "en": "Take the oil to the temple",
+          "es": "Lleva el aceite al templo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dá o azeite aos sacerdotes",
+          "fr": "Donne l’huile aux sacrificateurs",
+          "en": "Give the oil to the priests",
+          "es": "Da el aceite a los sacerdotes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Derrama o azeite no chão",
+          "fr": "Répands l’huile par terre",
+          "en": "Pour the oil on the ground",
+          "es": "Derrama el aceite en el suelo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-011",
+    "type": "choice",
+    "level": "easy",
+    "book": "2KI",
+    "chapter": 6,
+    "verse_start": 18,
+    "verse_end": 18,
+    "prompt": {
+      "pt": "Quando o exército sírio desceu contra Eliseu, com que pediu ele a Deus que o ferisse?",
+      "fr": "Quand l’armée syrienne descendit vers Élisée, de quoi demanda-t-il à Dieu de la frapper ?",
+      "en": "When the Syrian army came down to Elisha, what did he ask God to smite them with?",
+      "es": "Cuando el ejército sirio descendió contra Eliseo, ¿con qué pidió a Dios que lo hiriera?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Com cegueira",
+          "fr": "D’aveuglement",
+          "en": "With blindness",
+          "es": "Con ceguedad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com lepra",
+          "fr": "De lèpre",
+          "en": "With leprosy",
+          "es": "Con lepra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com fogo do céu",
+          "fr": "Du feu du ciel",
+          "en": "With fire from heaven",
+          "es": "Con fuego del cielo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com granizo",
+          "fr": "De grêle",
+          "en": "With hail",
+          "es": "Con granizo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-012",
+    "type": "choice",
+    "level": "easy",
+    "book": "1CH",
+    "chapter": 22,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Que nome disse Deus que teria o filho de David que seria «homem de repouso»?",
+      "fr": "Quel nom Dieu dit-il que porterait le fils de David, « homme de repos » ?",
+      "en": "What name did God say David’s son, “a man of rest”, would have?",
+      "es": "¿Qué nombre dijo Dios que tendría el hijo de David, «varón de reposo»?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Salomão",
+          "fr": "Salomon",
+          "en": "Solomon",
+          "es": "Salomón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Absalão",
+          "fr": "Absalom",
+          "en": "Absalom",
+          "es": "Absalom"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Amnom",
+          "fr": "Amnon",
+          "en": "Amnon",
+          "es": "Amnón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Adonias",
+          "fr": "Adonija",
+          "en": "Adonijah",
+          "es": "Adonías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-013",
+    "type": "choice",
+    "level": "easy",
+    "book": "2CH",
+    "chapter": 34,
+    "verse_start": 15,
+    "verse_end": 15,
+    "prompt": {
+      "pt": "O que encontrou o sacerdote Hilquias na casa do SENHOR, no tempo do rei Josias?",
+      "fr": "Qu’est-ce que le sacrificateur Hilkija trouva dans la maison de l’Éternel, au temps du roi Josias ?",
+      "en": "What did Hilkiah the priest find in the house of the LORD in the days of king Josiah?",
+      "es": "¿Qué halló el sacerdote Hilcías en la casa de Jehová, en tiempos del rey Josías?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O livro da lei",
+          "fr": "Le livre de la loi",
+          "en": "The book of the law",
+          "es": "El libro de la ley"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um tesouro de ouro",
+          "fr": "Un trésor d’or",
+          "en": "A treasure of gold",
+          "es": "Un tesoro de oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A vara de Arão",
+          "fr": "La verge d’Aaron",
+          "en": "Aaron’s rod",
+          "es": "La vara de Aarón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A coroa de David",
+          "fr": "La couronne de David",
+          "en": "David’s crown",
+          "es": "La corona de David"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-014",
+    "type": "choice",
+    "level": "easy",
+    "book": "EZR",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo o decreto de Ciro, a que cidade devia subir o povo para edificar a casa do SENHOR?",
+      "fr": "Selon l’édit de Cyrus, dans quelle ville le peuple devait-il monter pour bâtir la maison de l’Éternel ?",
+      "en": "According to Cyrus’ decree, to which city should the people go up to build the house of the LORD?",
+      "es": "Según el decreto de Ciro, ¿a qué ciudad debía subir el pueblo para edificar la casa de Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Jerusalém",
+          "fr": "Jérusalem",
+          "en": "Jerusalem",
+          "es": "Jerusalem"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Babilónia",
+          "fr": "Babylone",
+          "en": "Babylon",
+          "es": "Babilonia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nínive",
+          "fr": "Ninive",
+          "en": "Nineveh",
+          "es": "Nínive"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Samaria",
+          "fr": "Samarie",
+          "en": "Samaria",
+          "es": "Samaria"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-015",
+    "type": "choice",
+    "level": "easy",
+    "book": "NEH",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Que notícia recebeu Neemias sobre o muro de Jerusalém?",
+      "fr": "Quelle nouvelle Néhémie reçut-il sur la muraille de Jérusalem ?",
+      "en": "What news did Nehemiah receive about the wall of Jerusalem?",
+      "es": "¿Qué noticia recibió Nehemías sobre el muro de Jerusalem?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Estava derrubado e as portas queimadas",
+          "fr": "Elle était en ruines et ses portes brûlées",
+          "en": "It was broken down and its gates burned",
+          "es": "Estaba derribado y sus puertas quemadas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Estava acabado e muito alto",
+          "fr": "Elle était achevée et très haute",
+          "en": "It was finished and very high",
+          "es": "Estaba acabado y muy alto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tinha sido coberto de ouro",
+          "fr": "Elle avait été couverte d’or",
+          "en": "It had been covered with gold",
+          "es": "Había sido cubierto de oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Estava cercado por um exército",
+          "fr": "Elle était assiégée par une armée",
+          "en": "It was surrounded by an army",
+          "es": "Estaba rodeado por un ejército"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-016",
+    "type": "choice",
+    "level": "easy",
+    "book": "NEH",
+    "chapter": 4,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Enquanto reconstruíam o muro, o que tinham os trabalhadores na outra mão?",
+      "fr": "Pendant qu’ils rebâtissaient la muraille, que tenaient les ouvriers de l’autre main ?",
+      "en": "While they rebuilt the wall, what did the workers hold in the other hand?",
+      "es": "Mientras reedificaban el muro, ¿qué tenían los obreros en la otra mano?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma arma",
+          "fr": "Une arme",
+          "en": "A weapon",
+          "es": "Una espada"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma lâmpada",
+          "fr": "Une lampe",
+          "en": "A lamp",
+          "es": "Una lámpara"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um pão",
+          "fr": "Un pain",
+          "en": "A loaf of bread",
+          "es": "Un pan"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um livro",
+          "fr": "Un livre",
+          "en": "A book",
+          "es": "Un libro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-017",
+    "type": "choice",
+    "level": "easy",
+    "book": "EST",
+    "chapter": 2,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Quem criou Ester como sua filha, porque ela não tinha pai nem mãe?",
+      "fr": "Qui éleva Esther comme sa fille, parce qu’elle n’avait ni père ni mère ?",
+      "en": "Who brought up Esther as his own daughter, because she had neither father nor mother?",
+      "es": "¿Quién crió a Esther como hija suya, porque no tenía padre ni madre?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Mardoqueu",
+          "fr": "Mardochée",
+          "en": "Mordecai",
+          "es": "Mardochêo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Hamã",
+          "fr": "Haman",
+          "en": "Haman",
+          "es": "Amán"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O rei Assuero",
+          "fr": "Le roi Assuérus",
+          "en": "King Ahasuerus",
+          "es": "El rey Assuero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Hegai",
+          "fr": "Hégaï",
+          "en": "Hegai",
+          "es": "Hegai"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-018",
+    "type": "choice",
+    "level": "easy",
+    "book": "EST",
+    "chapter": 4,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Durante quantos dias pediu Ester aos judeus que jejuassem por ela?",
+      "fr": "Pendant combien de jours Esther demanda-t-elle aux Juifs de jeûner pour elle ?",
+      "en": "For how many days did Esther ask the Jews to fast for her?",
+      "es": "¿Durante cuántos días pidió Esther a los Judíos que ayunaran por ella?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Três dias",
+          "fr": "Trois jours",
+          "en": "Three days",
+          "es": "Tres días"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete dias",
+          "fr": "Sept jours",
+          "en": "Seven days",
+          "es": "Siete días"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quarenta dias",
+          "fr": "Quarante jours",
+          "en": "Forty days",
+          "es": "Cuarenta días"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um dia",
+          "fr": "Un jour",
+          "en": "One day",
+          "es": "Un día"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-019",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "1KI",
+        "chapter": 1,
+        "verse_start": 39,
+        "verse_end": 39,
+        "text": {
+          "pt": "Salomão é ungido rei",
+          "fr": "Salomon est oint roi",
+          "en": "Solomon is anointed king",
+          "es": "Salomón es ungido rey"
+        }
+      },
+      {
+        "book": "1KI",
+        "chapter": 3,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Salomão pede um coração com entendimento",
+          "fr": "Salomon demande un cœur intelligent",
+          "en": "Solomon asks for an understanding heart",
+          "es": "Salomón pide un corazón dócil"
+        }
+      },
+      {
+        "book": "1KI",
+        "chapter": 3,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Duas mulheres apresentam-se diante do rei",
+          "fr": "Deux femmes se présentent devant le roi",
+          "en": "Two women stand before the king",
+          "es": "Dos mujeres se presentan ante el rey"
+        }
+      },
+      {
+        "book": "1KI",
+        "chapter": 6,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Salomão acaba de edificar a casa",
+          "fr": "Salomon achève de bâtir la maison",
+          "en": "Solomon builds the house and finishes it",
+          "es": "Salomón acaba de labrar la casa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-020",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "2KI",
+        "chapter": 5,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Naamã, general do rei da Síria, é leproso",
+          "fr": "Naaman, chef de l’armée syrienne, est lépreux",
+          "en": "Naaman, the Syrian captain, is a leper",
+          "es": "Naamán, general del rey de Siria, es leproso"
+        }
+      },
+      {
+        "book": "2KI",
+        "chapter": 5,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Uma menina fala do profeta de Samaria",
+          "fr": "Une petite fille parle du prophète de Samarie",
+          "en": "A little maid speaks of the prophet in Samaria",
+          "es": "Una muchacha habla del profeta de Samaria"
+        }
+      },
+      {
+        "book": "2KI",
+        "chapter": 5,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Naamã para à porta da casa de Eliseu",
+          "fr": "Naaman s’arrête à la porte d’Élisée",
+          "en": "Naaman stands at the door of Elisha’s house",
+          "es": "Naamán se para a la puerta de Eliseo"
+        }
+      },
+      {
+        "book": "2KI",
+        "chapter": 5,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Naamã vai-se embora irritado",
+          "fr": "Naaman s’en va irrité",
+          "en": "Naaman goes away wroth",
+          "es": "Naamán se va enojado"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-021",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "1CH",
+        "chapter": 11,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "David é ungido rei em Hebrom",
+          "fr": "David est oint roi à Hébron",
+          "en": "David is anointed king in Hebron",
+          "es": "David es ungido rey en Hebrón"
+        }
+      },
+      {
+        "book": "1CH",
+        "chapter": 11,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "David conquista a fortaleza de Sião",
+          "fr": "David s’empare de la forteresse de Sion",
+          "en": "David takes the castle of Zion",
+          "es": "David toma la fortaleza de Sión"
+        }
+      },
+      {
+        "book": "1CH",
+        "chapter": 15,
+        "verse_start": 28,
+        "verse_end": 28,
+        "text": {
+          "pt": "Todo o Israel faz subir a arca com júbilo",
+          "fr": "Tout Israël fait monter l’arche avec joie",
+          "en": "All Israel brings up the ark with shouting",
+          "es": "Todo Israel lleva el arca con júbilo"
+        }
+      },
+      {
+        "book": "1CH",
+        "chapter": 29,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "Salomão senta-se no trono em lugar de David",
+          "fr": "Salomon s’assied sur le trône à la place de David",
+          "en": "Solomon sits on the throne instead of David",
+          "es": "Salomón se sienta en el trono en lugar de David"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-022",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "2CH",
+        "chapter": 3,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Salomão começa a edificar a casa no monte Moriá",
+          "fr": "Salomon commence à bâtir sur la montagne de Morija",
+          "en": "Solomon begins to build on mount Moriah",
+          "es": "Salomón comienza a edificar en el monte Moria"
+        }
+      },
+      {
+        "book": "2CH",
+        "chapter": 5,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Os sacerdotes levam a arca ao lugar santíssimo",
+          "fr": "Les sacrificateurs portent l’arche dans le lieu très saint",
+          "en": "The priests bring the ark into the most holy place",
+          "es": "Los sacerdotes meten el arca en el lugar santísimo"
+        }
+      },
+      {
+        "book": "2CH",
+        "chapter": 6,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Salomão ajoelha-se diante de todo o Israel",
+          "fr": "Salomon se met à genoux devant tout Israël",
+          "en": "Solomon kneels down before all Israel",
+          "es": "Salomón se arrodilla delante de todo Israel"
+        }
+      },
+      {
+        "book": "2CH",
+        "chapter": 9,
+        "verse_start": 31,
+        "verse_end": 31,
+        "text": {
+          "pt": "Salomão morre e Roboão reina em seu lugar",
+          "fr": "Salomon meurt et Roboam règne à sa place",
+          "en": "Solomon dies and Rehoboam reigns in his stead",
+          "es": "Salomón muere y reina Roboam en su lugar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-023",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "NEH",
+        "chapter": 1,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Neemias chora, jejua e ora",
+          "fr": "Néhémie pleure, jeûne et prie",
+          "en": "Nehemiah weeps, fasts and prays",
+          "es": "Nehemías llora, ayuna y ora"
+        }
+      },
+      {
+        "book": "NEH",
+        "chapter": 2,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Neemias pede ao rei que o envie a Judá",
+          "fr": "Néhémie demande au roi de l’envoyer en Juda",
+          "en": "Nehemiah asks the king to send him to Judah",
+          "es": "Nehemías pide al rey que lo envíe a Judá"
+        }
+      },
+      {
+        "book": "NEH",
+        "chapter": 2,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "De noite, Neemias observa os muros",
+          "fr": "De nuit, Néhémie examine les murailles",
+          "en": "By night, Nehemiah views the walls",
+          "es": "De noche, Nehemías considera los muros"
+        }
+      },
+      {
+        "book": "NEH",
+        "chapter": 8,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "O livro da lei é lido diante de todo o povo",
+          "fr": "Le livre de la loi est lu devant tout le peuple",
+          "en": "The book of the law is read before all the people",
+          "es": "El libro de la ley es leído ante todo el pueblo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-024",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EST",
+        "chapter": 1,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "A rainha Vasti recusa-se a vir ao rei",
+          "fr": "La reine Vasthi refuse de venir",
+          "en": "Queen Vashti refuses to come",
+          "es": "La reina Vasthi no quiere comparecer"
+        }
+      },
+      {
+        "book": "EST",
+        "chapter": 2,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Ester é levada para a casa do rei",
+          "fr": "Esther est conduite dans la maison du roi",
+          "en": "Esther is brought to the king’s house",
+          "es": "Esther es llevada a la casa del rey"
+        }
+      },
+      {
+        "book": "EST",
+        "chapter": 5,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Ester convida o rei e Hamã para um banquete",
+          "fr": "Esther invite le roi et Haman à un festin",
+          "en": "Esther invites the king and Haman to a banquet",
+          "es": "Esther invita al rey y a Amán a un banquete"
+        }
+      },
+      {
+        "book": "EST",
+        "chapter": 7,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Ester acusa o malvado Hamã",
+          "fr": "Esther accuse le méchant Haman",
+          "en": "Esther names wicked Haman as the enemy",
+          "es": "Esther acusa al malvado Amán"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-025",
+    "type": "verse",
+    "level": "easy",
+    "book": "1KI",
+    "chapter": 18,
+    "verse_start": 39,
+    "verse_end": 39,
+    "blank": {
+      "pt": "povo",
+      "fr": "peuple",
+      "en": "people",
+      "es": "pueblo"
+    },
+    "distractors": [
+      {
+        "pt": "rei",
+        "fr": "roi",
+        "en": "king",
+        "es": "rey"
+      },
+      {
+        "pt": "acampamento",
+        "fr": "camp",
+        "en": "camp",
+        "es": "campamento"
+      },
+      {
+        "pt": "conselho",
+        "fr": "conseil",
+        "en": "council",
+        "es": "consejo"
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-026",
+    "type": "verse",
+    "level": "easy",
+    "book": "1CH",
+    "chapter": 16,
+    "verse_start": 11,
+    "verse_end": 11,
+    "blank": {
+      "pt": "face",
+      "fr": "face",
+      "en": "face",
+      "es": "rostro"
+    },
+    "distractors": [
+      {
+        "pt": "casa",
+        "fr": "maison",
+        "en": "house",
+        "es": "casa"
+      },
+      {
+        "pt": "lei",
+        "fr": "loi",
+        "en": "law",
+        "es": "ley"
+      },
+      {
+        "pt": "voz",
+        "fr": "voix",
+        "en": "voice",
+        "es": "voz"
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-027",
+    "type": "verse",
+    "level": "easy",
+    "book": "1CH",
+    "chapter": 16,
+    "verse_start": 31,
+    "verse_end": 31,
+    "blank": {
+      "pt": "céus",
+      "fr": "cieux",
+      "en": "heavens",
+      "es": "cielos"
+    },
+    "distractors": [
+      {
+        "pt": "montes",
+        "fr": "montagnes",
+        "en": "mountains",
+        "es": "montes"
+      },
+      {
+        "pt": "rios",
+        "fr": "fleuves",
+        "en": "rivers",
+        "es": "ríos"
+      },
+      {
+        "pt": "mares",
+        "fr": "mers",
+        "en": "seas",
+        "es": "mares"
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-028",
+    "type": "verse",
+    "level": "easy",
+    "book": "2CH",
+    "chapter": 31,
+    "verse_start": 21,
+    "verse_end": 21,
+    "blank": {
+      "pt": "coração",
+      "fr": "cœur",
+      "en": "heart",
+      "es": "corazón"
+    },
+    "distractors": [
+      {
+        "pt": "espírito",
+        "fr": "esprit",
+        "en": "spirit",
+        "es": "espíritu"
+      },
+      {
+        "pt": "entendimento",
+        "fr": "entendement",
+        "en": "understanding",
+        "es": "entendimiento"
+      },
+      {
+        "pt": "zelo",
+        "fr": "zèle",
+        "en": "zeal",
+        "es": "celo"
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-029",
+    "type": "verse",
+    "level": "easy",
+    "book": "NEH",
+    "chapter": 2,
+    "verse_start": 20,
+    "verse_end": 20,
+    "blank": {
+      "pt": "edificaremos",
+      "fr": "bâtirons",
+      "en": "build",
+      "es": "edificaremos"
+    },
+    "distractors": [
+      {
+        "pt": "lutaremos",
+        "fr": "combattrons",
+        "en": "fight",
+        "es": "pelearemos"
+      },
+      {
+        "pt": "fugiremos",
+        "fr": "fuirons",
+        "en": "flee",
+        "es": "huiremos"
+      },
+      {
+        "pt": "descansaremos",
+        "fr": "reposerons",
+        "en": "rest",
+        "es": "descansaremos"
+      }
+    ]
+  },
+  {
+    "id": "hist3-easy-030",
+    "type": "verse",
+    "level": "easy",
+    "book": "EST",
+    "chapter": 8,
+    "verse_start": 16,
+    "verse_end": 16,
+    "blank": {
+      "pt": "alegria",
+      "fr": "joie",
+      "en": "joy",
+      "es": "alegría"
+    },
+    "distractors": [
+      {
+        "pt": "paz",
+        "fr": "paix",
+        "en": "peace",
+        "es": "paz"
+      },
+      {
+        "pt": "riqueza",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riqueza"
+      },
+      {
+        "pt": "força",
+        "fr": "force",
+        "en": "strength",
+        "es": "fuerza"
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-001",
+    "type": "choice",
+    "level": "medium",
+    "book": "1KI",
+    "chapter": 5,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Quem deu a Salomão madeira de cedro, tanta quanta ele quis?",
+      "fr": "Qui donna à Salomon des bois de cèdre autant qu’il en voulut ?",
+      "en": "Who gave Solomon cedar trees according to all his desire?",
+      "es": "¿Quién dio a Salomón madera de cedro todo lo que quiso?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Hirão",
+          "fr": "Hiram",
+          "en": "Hiram",
+          "es": "Hiram"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Faraó",
+          "fr": "Pharaon",
+          "en": "Pharaoh",
+          "es": "Faraón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A rainha de Sabá",
+          "fr": "La reine de Séba",
+          "en": "The queen of Sheba",
+          "es": "La reina de Seba"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Zadoque",
+          "fr": "Tsadok",
+          "en": "Zadok",
+          "es": "Sadoc"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-002",
+    "type": "choice",
+    "level": "medium",
+    "book": "1KI",
+    "chapter": 22,
+    "verse_start": 34,
+    "verse_end": 34,
+    "prompt": {
+      "pt": "Como foi ferido o rei de Israel na batalha?",
+      "fr": "Comment le roi d’Israël fut-il blessé dans la bataille ?",
+      "en": "How was the king of Israel wounded in the battle?",
+      "es": "¿Cómo fue herido el rey de Israel en la batalla?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Por uma flecha disparada ao acaso",
+          "fr": "Par une flèche tirée au hasard",
+          "en": "By an arrow drawn at a venture",
+          "es": "Por una flecha disparada a la ventura"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Por uma pedra de funda",
+          "fr": "Par une pierre de fronde",
+          "en": "By a stone from a sling",
+          "es": "Por una piedra de honda"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Por um golpe de espada",
+          "fr": "Par un coup d’épée",
+          "en": "By the stroke of a sword",
+          "es": "Por un golpe de espada"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Caiu do seu carro",
+          "fr": "Il tomba de son char",
+          "en": "He fell from his chariot",
+          "es": "Cayó de su carro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-003",
+    "type": "choice",
+    "level": "medium",
+    "book": "1KI",
+    "chapter": 22,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Micaías disse que viu todo o Israel disperso pelos montes, como quê?",
+      "fr": "Michée dit qu’il voyait tout Israël dispersé sur les montagnes, comme quoi ?",
+      "en": "Micaiah said he saw all Israel scattered upon the hills, as what?",
+      "es": "Michêas dijo que vio a todo Israel esparcido por los montes, ¿como qué?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Ovelhas que não têm pastor",
+          "fr": "Des brebis qui n’ont point de berger",
+          "en": "Sheep that have not a shepherd",
+          "es": "Ovejas que no tienen pastor"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Folhas levadas pelo vento",
+          "fr": "Des feuilles emportées par le vent",
+          "en": "Leaves driven by the wind",
+          "es": "Hojas llevadas por el viento"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Areia à beira do mar",
+          "fr": "Le sable au bord de la mer",
+          "en": "The sand on the sea shore",
+          "es": "La arena a la orilla del mar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Estrelas do céu",
+          "fr": "Les étoiles du ciel",
+          "en": "The stars of heaven",
+          "es": "Las estrellas del cielo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-004",
+    "type": "choice",
+    "level": "medium",
+    "book": "2KI",
+    "chapter": 2,
+    "verse_start": 24,
+    "verse_end": 24,
+    "prompt": {
+      "pt": "Depois de Eliseu amaldiçoar os que zombavam dele, quantas ursas saíram do bosque?",
+      "fr": "Après qu’Élisée eut maudit ceux qui se moquaient de lui, combien d’ours sortirent de la forêt ?",
+      "en": "After Elisha cursed those who mocked him, how many bears came out of the wood?",
+      "es": "Después de que Eliseo maldijo a los que se burlaban de él, ¿cuántos osos salieron del monte?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Duas",
+          "fr": "Deux",
+          "en": "Two",
+          "es": "Dos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma",
+          "fr": "Un",
+          "en": "One",
+          "es": "Uno"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quarenta e duas",
+          "fr": "Quarante-deux",
+          "en": "Forty-two",
+          "es": "Cuarenta y dos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-005",
+    "type": "choice",
+    "level": "medium",
+    "book": "2KI",
+    "chapter": 2,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "O que pediu Eliseu a Elias, antes de este ser tirado de junto dele?",
+      "fr": "Que demanda Élisée à Élie, avant qu’il fût enlevé d’avec lui ?",
+      "en": "What did Elisha ask of Elijah before he was taken away from him?",
+      "es": "¿Qué pidió Eliseo a Elías antes de que fuera quitado de con él?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A porção dobrada do seu espírito",
+          "fr": "Une double portion de son esprit",
+          "en": "A double portion of his spirit",
+          "es": "Las dos partes de su espíritu"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O seu manto e o seu cajado",
+          "fr": "Son manteau et son bâton",
+          "en": "His mantle and his staff",
+          "es": "Su manto y su báculo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma vida longa",
+          "fr": "Une longue vie",
+          "en": "A long life",
+          "es": "Una larga vida"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Riquezas e honra",
+          "fr": "Des richesses et de la gloire",
+          "en": "Riches and honour",
+          "es": "Riquezas y honra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-006",
+    "type": "choice",
+    "level": "medium",
+    "book": "2KI",
+    "chapter": 4,
+    "verse_start": 43,
+    "verse_end": 43,
+    "prompt": {
+      "pt": "Segundo o servo de Eliseu, diante de quantos homens devia pôr aquela pouca comida?",
+      "fr": "Selon le serviteur d’Élisée, à combien de personnes devait-il donner ce peu de nourriture ?",
+      "en": "According to Elisha’s servitor, before how many men should he set that little food?",
+      "es": "Según el sirviente de Eliseo, ¿delante de cuántos hombres debía poner aquella poca comida?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Cem",
+          "fr": "Cent",
+          "en": "An hundred",
+          "es": "Cien"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cinquenta",
+          "fr": "Cinquante",
+          "en": "Fifty",
+          "es": "Cincuenta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mil",
+          "fr": "Mille",
+          "en": "A thousand",
+          "es": "Mil"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-007",
+    "type": "choice",
+    "level": "medium",
+    "book": "2KI",
+    "chapter": 13,
+    "verse_start": 21,
+    "verse_end": 21,
+    "prompt": {
+      "pt": "O que aconteceu ao homem morto que tocou nos ossos de Eliseu?",
+      "fr": "Qu’arriva-t-il à l’homme mort qui toucha les os d’Élisée ?",
+      "en": "What happened to the dead man who touched the bones of Elisha?",
+      "es": "¿Qué le pasó al hombre muerto que tocó los huesos de Eliseo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Reviveu e pôs-se de pé",
+          "fr": "Il reprit vie et se leva sur ses pieds",
+          "en": "He revived and stood up on his feet",
+          "es": "Revivió y se levantó sobre sus pies"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ficou leproso",
+          "fr": "Il devint lépreux",
+          "en": "He became a leper",
+          "es": "Quedó leproso"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Transformou-se em pó",
+          "fr": "Il devint poussière",
+          "en": "He turned to dust",
+          "es": "Se convirtió en polvo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Foi levado num redemoinho",
+          "fr": "Il fut enlevé dans un tourbillon",
+          "en": "He was taken up in a whirlwind",
+          "es": "Fue llevado en un torbellino"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-008",
+    "type": "choice",
+    "level": "medium",
+    "book": "2KI",
+    "chapter": 5,
+    "verse_start": 20,
+    "verse_end": 20,
+    "prompt": {
+      "pt": "Que criado de Eliseu decidiu correr atrás de Naamã para lhe tirar alguma coisa?",
+      "fr": "Quel serviteur d’Élisée décida de courir après Naaman pour en obtenir quelque chose ?",
+      "en": "Which servant of Elisha decided to run after Naaman and take somewhat of him?",
+      "es": "¿Qué criado de Eliseo decidió correr tras Naamán para tomar de él alguna cosa?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Geazi",
+          "fr": "Guéhazi",
+          "en": "Gehazi",
+          "es": "Giezi"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Obadias",
+          "fr": "Abdias",
+          "en": "Obadiah",
+          "es": "Abdías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jeú",
+          "fr": "Jéhu",
+          "en": "Jehu",
+          "es": "Jehú"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Joabe",
+          "fr": "Joab",
+          "en": "Joab",
+          "es": "Joab"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-009",
+    "type": "choice",
+    "level": "medium",
+    "book": "2KI",
+    "chapter": 23,
+    "verse_start": 21,
+    "verse_end": 21,
+    "prompt": {
+      "pt": "Que festa mandou o rei Josias celebrar, conforme o livro da aliança?",
+      "fr": "Quelle fête le roi Josias ordonna-t-il de célébrer, selon le livre de l’alliance ?",
+      "en": "Which feast did king Josiah command to keep, as written in the book of the covenant?",
+      "es": "¿Qué fiesta mandó celebrar el rey Josías, conforme al libro de la alianza?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A Páscoa",
+          "fr": "La Pâque",
+          "en": "The passover",
+          "es": "La pascua"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A festa das trombetas",
+          "fr": "La fête des trompettes",
+          "en": "The feast of trumpets",
+          "es": "La fiesta de las trompetas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A festa da colheita",
+          "fr": "La fête de la moisson",
+          "en": "The feast of harvest",
+          "es": "La fiesta de la siega"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A dedicação do muro",
+          "fr": "La dédicace des murailles",
+          "en": "The dedication of the wall",
+          "es": "La dedicación del muro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-010",
+    "type": "choice",
+    "level": "medium",
+    "book": "1CH",
+    "chapter": 17,
+    "verse_start": 3,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "A que profeta mandou Deus dizer a David: «Tu não me edificarás casa»?",
+      "fr": "À quel prophète Dieu dit-il d’annoncer à David : « Ce ne sera pas toi qui me bâtiras une maison » ?",
+      "en": "Which prophet was sent to tell David, “Thou shalt not build me an house”?",
+      "es": "¿A qué profeta mandó Dios decir a David: «Tú no me edificarás casa»?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Natã",
+          "fr": "Nathan",
+          "en": "Nathan",
+          "es": "Nathán"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Gade",
+          "fr": "Gad",
+          "en": "Gad",
+          "es": "Gad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Samuel",
+          "fr": "Samuel",
+          "en": "Samuel",
+          "es": "Samuel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Elias",
+          "fr": "Élie",
+          "en": "Elijah",
+          "es": "Elías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-011",
+    "type": "choice",
+    "level": "medium",
+    "book": "1CH",
+    "chapter": 15,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Segundo David, quem devia levar a arca de Deus?",
+      "fr": "Selon David, par qui l’arche de Dieu devait-elle être portée ?",
+      "en": "According to David, who ought to carry the ark of God?",
+      "es": "Según David, ¿quién debía llevar el arca de Dios?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Só os levitas",
+          "fr": "Seulement les Lévites",
+          "en": "Only the Levites",
+          "es": "Solo los Levitas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os valentes de David",
+          "fr": "Les vaillants hommes de David",
+          "en": "David’s mighty men",
+          "es": "Los valientes de David"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Bois num carro novo",
+          "fr": "Des bœufs sur un char neuf",
+          "en": "Oxen on a new cart",
+          "es": "Bueyes en un carro nuevo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os anciãos de Israel",
+          "fr": "Les anciens d’Israël",
+          "en": "The elders of Israel",
+          "es": "Los ancianos de Israel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-012",
+    "type": "choice",
+    "level": "medium",
+    "book": "2CH",
+    "chapter": 26,
+    "verse_start": 19,
+    "verse_end": 19,
+    "prompt": {
+      "pt": "Que rei ficou leproso quando, irado, queria queimar incenso na casa do SENHOR?",
+      "fr": "Quel roi devint lépreux quand, irrité, il voulait brûler des parfums dans la maison de l’Éternel ?",
+      "en": "Which king became a leper when, in his wrath, he would burn incense in the house of the LORD?",
+      "es": "¿Qué rey quedó leproso cuando, airado, quería quemar perfume en la casa de Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uzias",
+          "fr": "Ozias",
+          "en": "Uzziah",
+          "es": "Uzzías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ezequias",
+          "fr": "Ézéchias",
+          "en": "Hezekiah",
+          "es": "Ezechîas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josias",
+          "fr": "Josias",
+          "en": "Josiah",
+          "es": "Josías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josafá",
+          "fr": "Josaphat",
+          "en": "Jehoshaphat",
+          "es": "Josaphat"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-013",
+    "type": "choice",
+    "level": "medium",
+    "book": "2CH",
+    "chapter": 15,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Segundo o profeta que foi ao encontro de Asa, quando estaria o SENHOR com o povo?",
+      "fr": "Selon le prophète venu au-devant d’Asa, quand l’Éternel serait-il avec le peuple ?",
+      "en": "According to the prophet who went out to meet Asa, when would the LORD be with the people?",
+      "es": "Según el profeta que salió al encuentro de Asa, ¿cuándo estaría Jehová con el pueblo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Enquanto eles estivessem com Ele",
+          "fr": "Quand ils seraient avec lui",
+          "en": "While they were with him",
+          "es": "Mientras ellos estuvieran con él"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Enquanto tivessem um rei",
+          "fr": "Tant qu’ils auraient un roi",
+          "en": "While they had a king",
+          "es": "Mientras tuvieran rey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Enquanto o templo estivesse de pé",
+          "fr": "Tant que le temple serait debout",
+          "en": "While the temple stood",
+          "es": "Mientras el templo estuviera en pie"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sempre, fizessem o que fizessem",
+          "fr": "Toujours, quoi qu’ils fassent",
+          "en": "Always, whatever they did",
+          "es": "Siempre, hicieran lo que hicieran"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-014",
+    "type": "choice",
+    "level": "medium",
+    "book": "EZR",
+    "chapter": 1,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Quem tinha levado de Jerusalém os utensílios da casa do SENHOR que Ciro devolveu?",
+      "fr": "Qui avait emporté de Jérusalem les ustensiles de la maison de l’Éternel que Cyrus rendit ?",
+      "en": "Who had carried out of Jerusalem the vessels of the house of the LORD that Cyrus brought forth?",
+      "es": "¿Quién había sacado de Jerusalem los vasos de la casa de Jehová que Ciro devolvió?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nabucodonosor",
+          "fr": "Nebucadnetsar",
+          "en": "Nebuchadnezzar",
+          "es": "Nabucodonosor"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Senaqueribe",
+          "fr": "Sanchérib",
+          "en": "Sennacherib",
+          "es": "Sennachêrib"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Faraó",
+          "fr": "Pharaon",
+          "en": "Pharaoh",
+          "es": "Faraón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dario",
+          "fr": "Darius",
+          "en": "Darius",
+          "es": "Darío"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-015",
+    "type": "choice",
+    "level": "medium",
+    "book": "EZR",
+    "chapter": 4,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Quando os adversários quiseram edificar com eles, o que responderam Zorobabel e Jesua?",
+      "fr": "Quand les ennemis voulurent bâtir avec eux, que répondirent Zorobabel et Josué ?",
+      "en": "When the adversaries wanted to build with them, what did Zerubbabel and Jeshua answer?",
+      "es": "Cuando los enemigos quisieron edificar con ellos, ¿qué respondieron Zorobabel y Jesuá?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Que só eles edificariam a casa",
+          "fr": "Qu’ils bâtiraient la maison eux seuls",
+          "en": "That they alone would build the house",
+          "es": "Que ellos solos edificarían la casa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Que aceitavam a sua ajuda",
+          "fr": "Qu’ils acceptaient leur aide",
+          "en": "That they welcomed their help",
+          "es": "Que aceptaban su ayuda"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Que primeiro tinham de pagar ouro",
+          "fr": "Qu’ils devaient d’abord payer de l’or",
+          "en": "That they must first pay gold",
+          "es": "Que primero debían pagar oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Que esperariam pelo profeta",
+          "fr": "Qu’ils attendraient le prophète",
+          "en": "That they would wait for the prophet",
+          "es": "Que esperarían al profeta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-016",
+    "type": "choice",
+    "level": "medium",
+    "book": "EZR",
+    "chapter": 7,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Segundo Esdras 7:6, o que era Esdras?",
+      "fr": "Selon Esdras 7:6, qu’était Esdras ?",
+      "en": "According to Ezra 7:6, what was Ezra?",
+      "es": "Según Esdras 7:6, ¿qué era Esdras?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Escriba hábil na lei de Moisés",
+          "fr": "Un scribe versé dans la loi de Moïse",
+          "en": "A ready scribe in the law of Moses",
+          "es": "Escriba diligente en la ley de Moisés"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Copeiro do rei",
+          "fr": "Échanson du roi",
+          "en": "The king’s cupbearer",
+          "es": "Copero del rey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Governador de Judá",
+          "fr": "Gouverneur de Juda",
+          "en": "Governor of Judah",
+          "es": "Gobernador de Judá"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Guarda do bosque do rei",
+          "fr": "Garde forestier du roi",
+          "en": "Keeper of the king’s forest",
+          "es": "Guarda del bosque del rey"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-017",
+    "type": "choice",
+    "level": "medium",
+    "book": "NEH",
+    "chapter": 8,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Segundo Neemias 8:8, como era lido o livro da lei ao povo?",
+      "fr": "Selon Néhémie 8:8, comment lisait-on le livre de la loi au peuple ?",
+      "en": "According to Nehemiah 8:8, how was the book of the law read to the people?",
+      "es": "Según Nehemías 8:8, ¿cómo se leía el libro de la ley al pueblo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Explicando o sentido, para que entendessem",
+          "fr": "En donnant le sens, pour faire comprendre",
+          "en": "Distinctly, giving the sense, so they understood",
+          "es": "Poniendo el sentido, para que entendiesen"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em voz baixa, em segredo",
+          "fr": "À voix basse, en secret",
+          "en": "Quietly, in secret",
+          "es": "En voz baja, en secreto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só diante dos sacerdotes",
+          "fr": "Seulement devant les sacrificateurs",
+          "en": "Only before the priests",
+          "es": "Solo delante de los sacerdotes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cantando ao som de harpas",
+          "fr": "En chantant au son des harpes",
+          "en": "Singing with harps",
+          "es": "Cantando al son de arpas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-018",
+    "type": "choice",
+    "level": "medium",
+    "book": "NEH",
+    "chapter": 13,
+    "verse_start": 19,
+    "verse_end": 19,
+    "prompt": {
+      "pt": "Para que não entrassem cargas em Jerusalém no sábado, o que mandou Neemias fazer?",
+      "fr": "Pour empêcher l’entrée des fardeaux à Jérusalem le jour du sabbat, qu’ordonna Néhémie ?",
+      "en": "So that no burden would be brought into Jerusalem on the sabbath, what did Nehemiah command?",
+      "es": "Para que no entrase carga en Jerusalem en sábado, ¿qué mandó Nehemías?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Fechar as portas",
+          "fr": "Fermer les portes",
+          "en": "To shut the gates",
+          "es": "Cerrar las puertas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Derrubar o mercado",
+          "fr": "Détruire le marché",
+          "en": "To pull down the market",
+          "es": "Derribar el mercado"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Queimar as cargas",
+          "fr": "Brûler les fardeaux",
+          "en": "To burn the burdens",
+          "es": "Quemar las cargas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tocar a trombeta",
+          "fr": "Sonner de la trompette",
+          "en": "To blow the trumpet",
+          "es": "Tocar la trompeta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-019",
+    "type": "choice",
+    "level": "medium",
+    "book": "NEH",
+    "chapter": 4,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo Tobias, que animal bastaria para derrubar o muro de pedra?",
+      "fr": "Selon Tobija, quel animal suffirait à renverser la muraille de pierres ?",
+      "en": "According to Tobiah, which animal would break down the stone wall?",
+      "es": "Según Tobías, ¿qué animal bastaría para derribar el muro de piedra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma raposa",
+          "fr": "Un renard",
+          "en": "A fox",
+          "es": "Una zorra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um leão",
+          "fr": "Un lion",
+          "en": "A lion",
+          "es": "Un león"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um burro",
+          "fr": "Un âne",
+          "en": "An ass",
+          "es": "Un asno"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um rato",
+          "fr": "Une souris",
+          "en": "A mouse",
+          "es": "Un ratón"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-020",
+    "type": "choice",
+    "level": "medium",
+    "book": "EST",
+    "chapter": 2,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Qual era o outro nome de Ester?",
+      "fr": "Quel était l’autre nom d’Esther ?",
+      "en": "What was Esther’s other name?",
+      "es": "¿Cuál era el otro nombre de Esther?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Hadassa",
+          "fr": "Hadassa",
+          "en": "Hadassah",
+          "es": "Hadassa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vasti",
+          "fr": "Vasthi",
+          "en": "Vashti",
+          "es": "Vasthi"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Zeres",
+          "fr": "Zéresch",
+          "en": "Zeresh",
+          "es": "Zeres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mical",
+          "fr": "Mical",
+          "en": "Michal",
+          "es": "Michâl"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-021",
+    "type": "choice",
+    "level": "medium",
+    "book": "EST",
+    "chapter": 6,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Quando o rei perguntou que honra se tinha feito a Mardoqueu, o que responderam os servos?",
+      "fr": "Quand le roi demanda quelle distinction Mardochée avait reçue, que répondirent les serviteurs ?",
+      "en": "When the king asked what honour had been done to Mordecai, what did his servants answer?",
+      "es": "Cuando el rey preguntó qué honra se había hecho a Mardochêo, ¿qué respondieron los servidores?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nada se tinha feito",
+          "fr": "Il n’avait rien reçu",
+          "en": "Nothing had been done for him",
+          "es": "Nada se había hecho"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tinha recebido uma coroa",
+          "fr": "Il avait reçu une couronne",
+          "en": "He had received a crown",
+          "es": "Había recibido una corona"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tinha sido feito governador",
+          "fr": "Il avait été fait gouverneur",
+          "en": "He had been made governor",
+          "es": "Había sido hecho gobernador"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tinha recebido muito ouro",
+          "fr": "Il avait reçu beaucoup d’or",
+          "en": "He had received much gold",
+          "es": "Había recibido mucho oro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-022",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "1KI",
+        "chapter": 17,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Elias anuncia que não haverá chuva nem orvalho",
+          "fr": "Élie annonce qu’il n’y aura ni rosée ni pluie",
+          "en": "Elijah says there shall be no dew nor rain",
+          "es": "Elías anuncia que no habrá lluvia ni rocío"
+        }
+      },
+      {
+        "book": "1KI",
+        "chapter": 18,
+        "verse_start": 46,
+        "verse_end": 46,
+        "text": {
+          "pt": "Elias corre diante de Acabe até Jezreel",
+          "fr": "Élie court devant Achab jusqu’à Jizreel",
+          "en": "Elijah runs before Ahab to Jezreel",
+          "es": "Elías corre delante de Achâb hasta Jezreel"
+        }
+      },
+      {
+        "book": "1KI",
+        "chapter": 19,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Elias senta-se debaixo de um junípero",
+          "fr": "Élie s’assied sous un genêt",
+          "en": "Elijah sits down under a juniper tree",
+          "es": "Elías se sienta debajo de un enebro"
+        }
+      },
+      {
+        "book": "1KI",
+        "chapter": 19,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Elias caminha quarenta dias até Horebe",
+          "fr": "Élie marche quarante jours jusqu’à Horeb",
+          "en": "Elijah goes forty days unto Horeb",
+          "es": "Elías camina cuarenta días hasta Horeb"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-023",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "1KI",
+        "chapter": 21,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Acabe pede a Nabote a sua vinha",
+          "fr": "Achab demande sa vigne à Naboth",
+          "en": "Ahab asks Naboth for his vineyard",
+          "es": "Achâb pide a Naboth su viña"
+        }
+      },
+      {
+        "book": "1KI",
+        "chapter": 21,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "São escritas cartas em nome de Acabe",
+          "fr": "Des lettres sont écrites au nom d’Achab",
+          "en": "Letters are written in Ahab’s name",
+          "es": "Se escriben cartas en nombre de Achâb"
+        }
+      },
+      {
+        "book": "1KI",
+        "chapter": 21,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Nabote é apedrejado fora da cidade",
+          "fr": "Naboth est lapidé hors de la ville",
+          "en": "Naboth is stoned outside the city",
+          "es": "Naboth es apedreado fuera de la ciudad"
+        }
+      },
+      {
+        "book": "1KI",
+        "chapter": 21,
+        "verse_start": 20,
+        "verse_end": 20,
+        "text": {
+          "pt": "Acabe diz a Elias: «Achaste-me, inimigo meu?»",
+          "fr": "Achab dit à Élie : « M’as-tu trouvé, mon ennemi ? »",
+          "en": "Ahab says to Elijah, “Hast thou found me?”",
+          "es": "Achâb dice a Elías: «¿Me has hallado?»"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-024",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "2KI",
+        "chapter": 18,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Ezequias faz em pedaços a serpente de bronze",
+          "fr": "Ézéchias met en pièces le serpent d’airain",
+          "en": "Hezekiah breaks in pieces the brasen serpent",
+          "es": "Ezechîas hace pedazos la serpiente de bronce"
+        }
+      },
+      {
+        "book": "2KI",
+        "chapter": 18,
+        "verse_start": 28,
+        "verse_end": 28,
+        "text": {
+          "pt": "Rabsaqué clama em alta voz na língua judaica",
+          "fr": "Rabschaké crie à haute voix en langue judaïque",
+          "en": "Rab-shakeh cries out in the Jews’ language",
+          "es": "Rabsaces clama a gran voz en judaico"
+        }
+      },
+      {
+        "book": "2KI",
+        "chapter": 19,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Ezequias estende a carta diante do SENHOR",
+          "fr": "Ézéchias déploie la lettre devant l’Éternel",
+          "en": "Hezekiah spreads the letter before the LORD",
+          "es": "Ezechîas extiende las letras delante de Jehová"
+        }
+      },
+      {
+        "book": "2KI",
+        "chapter": 19,
+        "verse_start": 35,
+        "verse_end": 35,
+        "text": {
+          "pt": "O anjo do SENHOR fere o campo dos assírios",
+          "fr": "L’ange de l’Éternel frappe le camp des Assyriens",
+          "en": "The angel of the LORD smites the Assyrian camp",
+          "es": "El ángel de Jehová hiere el campo de los Asirios"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-025",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "2CH",
+        "chapter": 20,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Avisam Josafá de que vem uma grande multidão",
+          "fr": "On annonce à Josaphat une multitude nombreuse",
+          "en": "Jehoshaphat is told a great multitude is coming",
+          "es": "Avisan a Josaphat que viene una grande multitud"
+        }
+      },
+      {
+        "book": "2CH",
+        "chapter": 20,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Josafá apregoa um jejum em todo o Judá",
+          "fr": "Josaphat publie un jeûne pour tout Juda",
+          "en": "Jehoshaphat proclaims a fast throughout all Judah",
+          "es": "Josaphat pregona ayuno a todo Judá"
+        }
+      },
+      {
+        "book": "2CH",
+        "chapter": 20,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "O espírito do SENHOR vem sobre Jaaziel",
+          "fr": "L’esprit de l’Éternel saisit Jachaziel",
+          "en": "The Spirit of the LORD comes upon Jahaziel",
+          "es": "El espíritu de Jehová viene sobre Jahaziel"
+        }
+      },
+      {
+        "book": "2CH",
+        "chapter": 20,
+        "verse_start": 22,
+        "verse_end": 22,
+        "text": {
+          "pt": "Começam os louvores e os inimigos são vencidos",
+          "fr": "On commence les louanges et les ennemis sont battus",
+          "en": "They begin to sing and the enemies are smitten",
+          "es": "Comienzan las alabanzas y caen los enemigos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-026",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EZR",
+        "chapter": 4,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "A obra da casa de Deus é interrompida",
+          "fr": "L’ouvrage de la maison de Dieu est interrompu",
+          "en": "The work of the house of God ceases",
+          "es": "Cesa la obra de la casa de Dios"
+        }
+      },
+      {
+        "book": "EZR",
+        "chapter": 5,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Ageu e Zacarias profetizam aos judeus",
+          "fr": "Aggée et Zacharie prophétisent aux Juifs",
+          "en": "Haggai and Zechariah prophesy unto the Jews",
+          "es": "Haggeo y Zacarías profetizan a los Judíos"
+        }
+      },
+      {
+        "book": "EZR",
+        "chapter": 6,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Encontra-se um livro na província da Média",
+          "fr": "On trouve un rouleau dans la province de Médie",
+          "en": "A roll is found in the province of the Medes",
+          "es": "Se halla un libro en la provincia de Media"
+        }
+      },
+      {
+        "book": "EZR",
+        "chapter": 6,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "A casa é terminada no mês de Adar",
+          "fr": "La maison est achevée au mois d’Adar",
+          "en": "The house is finished in the month Adar",
+          "es": "La casa es acabada en el mes de Adar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-027",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "NEH",
+        "chapter": 4,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Sambalate indigna-se ao saber da obra do muro",
+          "fr": "Sanballat s’irrite en apprenant qu’on rebâtit",
+          "en": "Sanballat is wroth to hear the wall is built",
+          "es": "Sanballat se enoja al oír que se edifica el muro"
+        }
+      },
+      {
+        "book": "NEH",
+        "chapter": 4,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Metade dos servos trabalha e a outra metade está armada",
+          "fr": "La moitié des serviteurs travaille, l’autre est armée",
+          "en": "Half the servants work, the other half hold spears",
+          "es": "La mitad trabaja y la otra mitad tiene lanzas"
+        }
+      },
+      {
+        "book": "NEH",
+        "chapter": 5,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Neemias repreende os nobres que emprestam com juros",
+          "fr": "Néhémie reprend les grands qui prêtent à intérêt",
+          "en": "Nehemiah rebukes the nobles for usury",
+          "es": "Nehemías reprende a los principales por la usura"
+        }
+      },
+      {
+        "book": "NEH",
+        "chapter": 6,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Sambalate e Gesém chamam Neemias ao vale de Ono",
+          "fr": "Sanballat et Guéschem l’appellent à la vallée d’Ono",
+          "en": "Sanballat and Geshem call him to the plain of Ono",
+          "es": "Sanballat y Gesem lo llaman al campo de Ono"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-028",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EST",
+        "chapter": 2,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "Dois eunucos procuram matar o rei Assuero",
+          "fr": "Deux eunuques veulent attenter au roi Assuérus",
+          "en": "Two chamberlains seek to lay hand on king Ahasuerus",
+          "es": "Dos eunucos procuran matar al rey Assuero"
+        }
+      },
+      {
+        "book": "EST",
+        "chapter": 3,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Mardoqueu não se inclina diante de Hamã",
+          "fr": "Mardochée ne se prosterne pas devant Haman",
+          "en": "Mordecai does not bow before Haman",
+          "es": "Mardochêo no se inclina ante Amán"
+        }
+      },
+      {
+        "book": "EST",
+        "chapter": 4,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Mardoqueu veste-se de saco e de cinza",
+          "fr": "Mardochée se couvre d’un sac et de cendre",
+          "en": "Mordecai puts on sackcloth with ashes",
+          "es": "Mardochêo se viste de saco y de ceniza"
+        }
+      },
+      {
+        "book": "EST",
+        "chapter": 6,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "O rei não consegue dormir e manda ler as crónicas",
+          "fr": "Le roi ne peut dormir et se fait lire les annales",
+          "en": "The king cannot sleep and the chronicles are read",
+          "es": "El rey no duerme y se leen las memorias"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-029",
+    "type": "verse",
+    "level": "medium",
+    "book": "1KI",
+    "chapter": 4,
+    "verse_start": 29,
+    "verse_end": 29,
+    "blank": {
+      "pt": "areia",
+      "fr": "sable",
+      "en": "sand",
+      "es": "arena"
+    },
+    "distractors": [
+      {
+        "pt": "onda",
+        "fr": "flot",
+        "en": "wave",
+        "es": "ola"
+      },
+      {
+        "pt": "rocha",
+        "fr": "rocher",
+        "en": "rock",
+        "es": "roca"
+      },
+      {
+        "pt": "concha",
+        "fr": "coquillage",
+        "en": "shell",
+        "es": "concha"
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-030",
+    "type": "verse",
+    "level": "medium",
+    "book": "2KI",
+    "chapter": 20,
+    "verse_start": 5,
+    "verse_end": 5,
+    "blank": {
+      "pt": "lágrimas",
+      "fr": "larmes",
+      "en": "tears",
+      "es": "lágrimas"
+    },
+    "distractors": [
+      {
+        "pt": "ofertas",
+        "fr": "offrandes",
+        "en": "offerings",
+        "es": "ofrendas"
+      },
+      {
+        "pt": "feridas",
+        "fr": "plaies",
+        "en": "wounds",
+        "es": "llagas"
+      },
+      {
+        "pt": "súplicas",
+        "fr": "supplications",
+        "en": "supplications",
+        "es": "súplicas"
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-031",
+    "type": "verse",
+    "level": "medium",
+    "book": "1CH",
+    "chapter": 29,
+    "verse_start": 11,
+    "verse_end": 11,
+    "blank": {
+      "pt": "glória",
+      "fr": "gloire",
+      "en": "glory",
+      "es": "gloria"
+    },
+    "distractors": [
+      {
+        "pt": "riqueza",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riqueza"
+      },
+      {
+        "pt": "sabedoria",
+        "fr": "sagesse",
+        "en": "wisdom",
+        "es": "sabiduría"
+      },
+      {
+        "pt": "justiça",
+        "fr": "justice",
+        "en": "justice",
+        "es": "justicia"
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-032",
+    "type": "verse",
+    "level": "medium",
+    "book": "2CH",
+    "chapter": 20,
+    "verse_start": 15,
+    "verse_end": 15,
+    "blank": {
+      "pt": "multidão",
+      "fr": "multitude",
+      "en": "multitude",
+      "es": "multitud"
+    },
+    "distractors": [
+      {
+        "pt": "cidade",
+        "fr": "ville",
+        "en": "city",
+        "es": "ciudad"
+      },
+      {
+        "pt": "tempestade",
+        "fr": "tempête",
+        "en": "storm",
+        "es": "tempestad"
+      },
+      {
+        "pt": "montanha",
+        "fr": "montagne",
+        "en": "mountain",
+        "es": "montaña"
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-033",
+    "type": "verse",
+    "level": "medium",
+    "book": "EZR",
+    "chapter": 6,
+    "verse_start": 16,
+    "verse_end": 16,
+    "blank": {
+      "pt": "alegria",
+      "fr": "joie",
+      "en": "joy",
+      "es": "gozo"
+    },
+    "distractors": [
+      {
+        "pt": "jejum",
+        "fr": "jeûne",
+        "en": "fasting",
+        "es": "ayuno"
+      },
+      {
+        "pt": "temor",
+        "fr": "crainte",
+        "en": "fear",
+        "es": "temor"
+      },
+      {
+        "pt": "silêncio",
+        "fr": "silence",
+        "en": "silence",
+        "es": "silencio"
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-034",
+    "type": "verse",
+    "level": "medium",
+    "book": "NEH",
+    "chapter": 4,
+    "verse_start": 20,
+    "verse_end": 20,
+    "blank": {
+      "pt": "trombeta",
+      "fr": "trompette",
+      "en": "trumpet",
+      "es": "trompeta"
+    },
+    "distractors": [
+      {
+        "pt": "flauta",
+        "fr": "flûte",
+        "en": "flute",
+        "es": "flauta"
+      },
+      {
+        "pt": "campainha",
+        "fr": "cloche",
+        "en": "bell",
+        "es": "campana"
+      },
+      {
+        "pt": "lira",
+        "fr": "lyre",
+        "en": "lyre",
+        "es": "lira"
+      }
+    ]
+  },
+  {
+    "id": "hist3-medium-035",
+    "type": "verse",
+    "level": "medium",
+    "book": "EST",
+    "chapter": 4,
+    "verse_start": 14,
+    "verse_end": 14,
+    "blank": {
+      "pt": "judeus",
+      "fr": "Juifs",
+      "en": "Jews",
+      "es": "Judíos"
+    },
+    "distractors": [
+      {
+        "pt": "persas",
+        "fr": "Perses",
+        "en": "Persians",
+        "es": "Persas"
+      },
+      {
+        "pt": "egípcios",
+        "fr": "Égyptiens",
+        "en": "Egyptians",
+        "es": "Egipcios"
+      },
+      {
+        "pt": "medos",
+        "fr": "Mèdes",
+        "en": "Medes",
+        "es": "Medos"
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-001",
+    "type": "choice",
+    "level": "hard",
+    "book": "1KI",
+    "chapter": 6,
+    "verse_start": 38,
+    "verse_end": 38,
+    "prompt": {
+      "pt": "Quantos anos levou Salomão a edificar a casa do SENHOR?",
+      "fr": "En combien d’années Salomon construisit-il la maison de l’Éternel ?",
+      "en": "How many years was Solomon in building the house of the LORD?",
+      "es": "¿En cuántos años edificó Salomón la casa de Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Sete anos",
+          "fr": "Sept ans",
+          "en": "Seven years",
+          "es": "Siete años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Treze anos",
+          "fr": "Treize ans",
+          "en": "Thirteen years",
+          "es": "Trece años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quatro anos",
+          "fr": "Quatre ans",
+          "en": "Four years",
+          "es": "Cuatro años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vinte anos",
+          "fr": "Vingt ans",
+          "en": "Twenty years",
+          "es": "Veinte años"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-002",
+    "type": "choice",
+    "level": "hard",
+    "book": "1KI",
+    "chapter": 11,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Quantas esposas princesas teve Salomão?",
+      "fr": "Combien de princesses Salomon eut-il pour femmes ?",
+      "en": "How many wives, princesses, did Solomon have?",
+      "es": "¿Cuántas mujeres reinas tuvo Salomón?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Setecentas",
+          "fr": "Sept cents",
+          "en": "Seven hundred",
+          "es": "Setecientas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Trezentas",
+          "fr": "Trois cents",
+          "en": "Three hundred",
+          "es": "Trescientas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mil",
+          "fr": "Mille",
+          "en": "A thousand",
+          "es": "Mil"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cem",
+          "fr": "Cent",
+          "en": "An hundred",
+          "es": "Cien"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-003",
+    "type": "choice",
+    "level": "hard",
+    "book": "1KI",
+    "chapter": 19,
+    "verse_start": 19,
+    "verse_end": 19,
+    "prompt": {
+      "pt": "Com quantas juntas de bois lavrava Eliseu quando Elias lançou sobre ele o seu manto?",
+      "fr": "Combien de paires de bœufs Élisée avait-il devant lui quand Élie jeta sur lui son manteau ?",
+      "en": "With how many yoke of oxen was Elisha plowing when Elijah cast his mantle upon him?",
+      "es": "¿Con cuántas yuntas araba Eliseo cuando Elías echó sobre él su manto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Duas",
+          "fr": "Deux",
+          "en": "Two",
+          "es": "Dos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quarenta",
+          "fr": "Quarante",
+          "en": "Forty",
+          "es": "Cuarenta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-004",
+    "type": "choice",
+    "level": "hard",
+    "book": "2KI",
+    "chapter": 1,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Como ficou doente o rei Acazias, em Samaria?",
+      "fr": "Comment le roi Achazia tomba-t-il malade à Samarie ?",
+      "en": "How did king Ahaziah become sick in Samaria?",
+      "es": "¿Cómo enfermó el rey Ochôzías en Samaria?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Caiu pela sacada de uma sala da sua casa",
+          "fr": "Il tomba par le treillis de sa chambre haute",
+          "en": "He fell down through a lattice in his upper chamber",
+          "es": "Cayó por las celosías de una sala de su casa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Foi ferido por uma flecha",
+          "fr": "Il fut blessé par une flèche",
+          "en": "He was wounded by an arrow",
+          "es": "Fue herido por una flecha"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Foi mordido por uma serpente",
+          "fr": "Il fut mordu par un serpent",
+          "en": "He was bitten by a serpent",
+          "es": "Fue mordido por una serpiente"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Caiu do cavalo",
+          "fr": "Il tomba de cheval",
+          "en": "He fell from his horse",
+          "es": "Cayó del caballo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-005",
+    "type": "choice",
+    "level": "hard",
+    "book": "2KI",
+    "chapter": 4,
+    "verse_start": 41,
+    "verse_end": 41,
+    "prompt": {
+      "pt": "Quando houve mal na panela do guisado, o que deitou Eliseu nela para o tirar?",
+      "fr": "Quand il y eut du mal dans le pot, qu’est-ce qu’Élisée y jeta ?",
+      "en": "When there was harm in the pot of pottage, what did Elisha cast into it?",
+      "es": "Cuando hubo mal en la olla del guisado, ¿qué echó Eliseo en ella para quitarlo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Farinha",
+          "fr": "De la farine",
+          "en": "Meal",
+          "es": "Harina"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sal",
+          "fr": "Du sel",
+          "en": "Salt",
+          "es": "Sal"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Azeite",
+          "fr": "De l’huile",
+          "en": "Oil",
+          "es": "Aceite"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mel",
+          "fr": "Du miel",
+          "en": "Honey",
+          "es": "Miel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-006",
+    "type": "choice",
+    "level": "hard",
+    "book": "2KI",
+    "chapter": 25,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Depois de degolarem os filhos de Zedequias diante dele, o que lhe fizeram?",
+      "fr": "Après avoir égorgé les fils de Sédécias en sa présence, que lui fit-on ?",
+      "en": "After they slew the sons of Zedekiah before his eyes, what did they do to him?",
+      "es": "Después de degollar a los hijos de Sedecías en su presencia, ¿qué le hicieron?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Tiraram-lhe os olhos",
+          "fr": "On lui creva les yeux",
+          "en": "They put out his eyes",
+          "es": "Le sacaron los ojos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cortaram-lhe as mãos",
+          "fr": "On lui coupa les mains",
+          "en": "They cut off his hands",
+          "es": "Le cortaron las manos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Rasparam-lhe a cabeça",
+          "fr": "On lui rasa la tête",
+          "en": "They shaved his head",
+          "es": "Le raparon la cabeza"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Deixaram-no em Jerusalém",
+          "fr": "On le laissa à Jérusalem",
+          "en": "They left him in Jerusalem",
+          "es": "Lo dejaron en Jerusalem"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-007",
+    "type": "choice",
+    "level": "hard",
+    "book": "2KI",
+    "chapter": 22,
+    "verse_start": 14,
+    "verse_end": 14,
+    "prompt": {
+      "pt": "A que profetisa foram o sacerdote Hilquias e os outros falar sobre o livro?",
+      "fr": "Auprès de quelle prophétesse allèrent le sacrificateur Hilkija et les autres ?",
+      "en": "To which prophetess did Hilkiah the priest and the others go?",
+      "es": "¿A qué profetisa fueron el sacerdote Hilcías y los demás?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Hulda",
+          "fr": "Hulda",
+          "en": "Huldah",
+          "es": "Hulda"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Débora",
+          "fr": "Débora",
+          "en": "Deborah",
+          "es": "Débora"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Miriã",
+          "fr": "Marie",
+          "en": "Miriam",
+          "es": "María"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Noadia",
+          "fr": "Noadia",
+          "en": "Noadiah",
+          "es": "Noadías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-008",
+    "type": "choice",
+    "level": "hard",
+    "book": "2KI",
+    "chapter": 1,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Como descreveram os mensageiros o homem que lhes saiu ao encontro, e que era Elias?",
+      "fr": "Comment les messagers décrivirent-ils l’homme venu à leur rencontre, qui était Élie ?",
+      "en": "How did the messengers describe the man who met them, who was Elijah?",
+      "es": "¿Cómo describieron los mensajeros al hombre que les salió al encuentro, que era Elías?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Vestido de pelos, com um cinto de couro",
+          "fr": "Vêtu de poil, avec une ceinture de cuir",
+          "en": "An hairy man, girt with a girdle of leather",
+          "es": "Velloso, ceñido con un cinto de cuero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vestido de púrpura, com uma coroa",
+          "fr": "Vêtu de pourpre, avec une couronne",
+          "en": "Clothed in purple, with a crown",
+          "es": "Vestido de púrpura, con una corona"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um jovem com um cajado",
+          "fr": "Un jeune homme avec un bâton",
+          "en": "A young man with a staff",
+          "es": "Un joven con un báculo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um homem calvo, vestido de linho",
+          "fr": "Un homme chauve, vêtu de lin",
+          "en": "A bald man clothed in linen",
+          "es": "Un hombre calvo, vestido de lino"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-009",
+    "type": "choice",
+    "level": "hard",
+    "book": "2KI",
+    "chapter": 7,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Quantos homens leprosos estavam à entrada da porta?",
+      "fr": "Combien de lépreux y avait-il à l’entrée de la porte ?",
+      "en": "How many leprous men were at the entering in of the gate?",
+      "es": "¿Cuántos hombres leprosos había a la entrada de la puerta?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Quatro",
+          "fr": "Quatre",
+          "en": "Four",
+          "es": "Cuatro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dez",
+          "fr": "Dix",
+          "en": "Ten",
+          "es": "Diez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dois",
+          "fr": "Deux",
+          "en": "Two",
+          "es": "Dos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-010",
+    "type": "choice",
+    "level": "hard",
+    "book": "1CH",
+    "chapter": 21,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo 1 Crónicas 21, quem se levantou contra Israel e incitou David a contar Israel?",
+      "fr": "Selon 1 Chroniques 21, qui se leva contre Israël et excita David à faire le dénombrement ?",
+      "en": "According to 1 Chronicles 21, who stood up against Israel and provoked David to number Israel?",
+      "es": "Según 1 Crónicas 21, ¿quién se levantó contra Israel e incitó a David a contar a Israel?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Satanás",
+          "fr": "Satan",
+          "en": "Satan",
+          "es": "Satanás"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Joabe",
+          "fr": "Joab",
+          "en": "Joab",
+          "es": "Joab"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Gade, o vidente",
+          "fr": "Gad, le voyant",
+          "en": "Gad the seer",
+          "es": "Gad el vidente"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Natã",
+          "fr": "Nathan",
+          "en": "Nathan",
+          "es": "Nathán"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-011",
+    "type": "choice",
+    "level": "hard",
+    "book": "1CH",
+    "chapter": 12,
+    "verse_start": 32,
+    "verse_end": 32,
+    "prompt": {
+      "pt": "Os homens de que tribo conheciam os tempos, para saberem o que Israel devia fazer?",
+      "fr": "Les hommes de quelle tribu avaient l’intelligence des temps pour savoir ce que devait faire Israël ?",
+      "en": "The men of which tribe had understanding of the times, to know what Israel ought to do?",
+      "es": "¿Los hombres de qué tribu eran entendidos en los tiempos y sabían lo que Israel debía hacer?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Issacar",
+          "fr": "Issacar",
+          "en": "Issachar",
+          "es": "Issachâr"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Zebulom",
+          "fr": "Zabulon",
+          "en": "Zebulun",
+          "es": "Zabulón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Judá",
+          "fr": "Juda",
+          "en": "Judah",
+          "es": "Judá"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Benjamim",
+          "fr": "Benjamin",
+          "en": "Benjamin",
+          "es": "Benjamín"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-012",
+    "type": "choice",
+    "level": "hard",
+    "book": "2CH",
+    "chapter": 17,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "No tempo de Josafá, o que levavam consigo os que ensinavam nas cidades de Judá?",
+      "fr": "Au temps de Josaphat, qu’avaient avec eux ceux qui enseignaient dans les villes de Juda ?",
+      "en": "In Jehoshaphat’s days, what did those who taught in the cities of Judah have with them?",
+      "es": "En tiempos de Josaphat, ¿qué llevaban consigo los que enseñaban en las ciudades de Judá?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O livro da lei do SENHOR",
+          "fr": "Le livre de la loi de l’Éternel",
+          "en": "The book of the law of the LORD",
+          "es": "El libro de la ley de Jehová"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A arca da aliança",
+          "fr": "L’arche de l’alliance",
+          "en": "The ark of the covenant",
+          "es": "El arca del pacto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As tábuas de pedra",
+          "fr": "Les tables de pierre",
+          "en": "The tables of stone",
+          "es": "Las tablas de piedra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A vara de Moisés",
+          "fr": "La verge de Moïse",
+          "en": "The rod of Moses",
+          "es": "La vara de Moisés"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-013",
+    "type": "choice",
+    "level": "hard",
+    "book": "2CH",
+    "chapter": 32,
+    "verse_start": 30,
+    "verse_end": 30,
+    "prompt": {
+      "pt": "O que fez Ezequias às águas de Giom?",
+      "fr": "Que fit Ézéchias des eaux de Guihon ?",
+      "en": "What did Hezekiah do with the waters of Gihon?",
+      "es": "¿Qué hizo Ezechîas con las aguas de Gihón?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Tapou-as em cima e levou-as para o ocidente da cidade",
+          "fr": "Il boucha l’issue supérieure et les conduisit à l’occident",
+          "en": "He stopped the upper watercourse and brought it to the west",
+          "es": "Tapó los manaderos de arriba y las llevó al occidente"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Saneou-as com sal",
+          "fr": "Il les assainit avec du sel",
+          "en": "He healed them with salt",
+          "es": "Las sanó con sal"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Desviou-as para o mar",
+          "fr": "Il les détourna vers la mer",
+          "en": "He turned them into the sea",
+          "es": "Las desvió hacia el mar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Construiu sobre elas um palácio",
+          "fr": "Il bâtit dessus un palais",
+          "en": "He built a palace over them",
+          "es": "Edificó sobre ellas un palacio"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-014",
+    "type": "choice",
+    "level": "hard",
+    "book": "2CH",
+    "chapter": 35,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "De quem eram as palavras, vindas da boca de Deus, a que Josias não deu ouvidos?",
+      "fr": "De qui étaient les paroles, venues de la bouche de Dieu, que Josias n’écouta pas ?",
+      "en": "Whose words, from the mouth of God, did Josiah not hearken unto?",
+      "es": "¿De quién eran las palabras, de boca de Dios, a las que Josías no atendió?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Neco",
+          "fr": "Néco",
+          "en": "Necho",
+          "es": "Nechâo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Senaqueribe",
+          "fr": "Sanchérib",
+          "en": "Sennacherib",
+          "es": "Sennachêrib"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nabucodonosor",
+          "fr": "Nebucadnetsar",
+          "en": "Nebuchadnezzar",
+          "es": "Nabucodonosor"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sisaque",
+          "fr": "Schischak",
+          "en": "Shishak",
+          "es": "Sisac"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-015",
+    "type": "choice",
+    "level": "hard",
+    "book": "EZR",
+    "chapter": 2,
+    "verse_start": 64,
+    "verse_end": 64,
+    "prompt": {
+      "pt": "Segundo Esdras 2:64, quantas pessoas tinha toda a congregação junta?",
+      "fr": "Selon Esdras 2:64, de combien de personnes était l’assemblée tout entière ?",
+      "en": "According to Ezra 2:64, how many was the whole congregation together?",
+      "es": "Según Esdras 2:64, ¿de cuántas personas era toda la congregación?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "42 360",
+          "fr": "42 360",
+          "en": "42,360",
+          "es": "42.360"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "24 000",
+          "fr": "24 000",
+          "en": "24,000",
+          "es": "24.000"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "70 000",
+          "fr": "70 000",
+          "en": "70,000",
+          "es": "70.000"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "7 337",
+          "fr": "7 337",
+          "en": "7,337",
+          "es": "7.337"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-016",
+    "type": "choice",
+    "level": "hard",
+    "book": "EZR",
+    "chapter": 8,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "Porque não pediu Esdras ao rei soldados e cavaleiros para o caminho?",
+      "fr": "Pourquoi Esdras ne demanda-t-il pas au roi une escorte et des cavaliers pour la route ?",
+      "en": "Why did Ezra not ask the king for soldiers and horsemen for the way?",
+      "es": "¿Por qué no pidió Esdras al rey tropa y gente de a caballo para el camino?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Teve vergonha, pois dissera que Deus protege quem o busca",
+          "fr": "Il aurait eu honte : il avait dit que Dieu protège ceux qui le cherchent",
+          "en": "He was ashamed, having said God’s hand is on all that seek him",
+          "es": "Tuvo vergüenza, pues había dicho que Dios ampara a los que le buscan"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O rei não tinha soldados",
+          "fr": "Le roi n’avait pas de soldats",
+          "en": "The king had no soldiers",
+          "es": "El rey no tenía soldados"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O caminho era curto e seguro",
+          "fr": "La route était courte et sûre",
+          "en": "The way was short and safe",
+          "es": "El camino era corto y seguro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os levitas eram guerreiros",
+          "fr": "Les Lévites étaient des guerriers",
+          "en": "The Levites were warriors",
+          "es": "Los Levitas eran guerreros"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-017",
+    "type": "choice",
+    "level": "hard",
+    "book": "EZR",
+    "chapter": 10,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Quando o povo se sentou na praça da casa de Deus, o que o fazia tremer além daquele assunto?",
+      "fr": "Quand le peuple se tenait sur la place de la maison de Dieu, qu’est-ce qui le faisait trembler en plus ?",
+      "en": "When the people sat in the street of the house of God, what besides the matter made them tremble?",
+      "es": "Cuando el pueblo se sentó en la plaza de la casa de Dios, ¿qué lo hacía temblar además de aquel negocio?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A chuva",
+          "fr": "La pluie",
+          "en": "The great rain",
+          "es": "Las lluvias"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um terramoto",
+          "fr": "Un tremblement de terre",
+          "en": "An earthquake",
+          "es": "Un terremoto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A neve",
+          "fr": "La neige",
+          "en": "The snow",
+          "es": "La nieve"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um exército inimigo",
+          "fr": "Une armée ennemie",
+          "en": "An enemy army",
+          "es": "Un ejército enemigo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-018",
+    "type": "choice",
+    "level": "hard",
+    "book": "NEH",
+    "chapter": 2,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Em que mês, no vigésimo ano de Artaxerxes, levou Neemias o vinho ao rei?",
+      "fr": "En quel mois de la vingtième année d’Artaxerxès Néhémie offrit-il le vin au roi ?",
+      "en": "In which month of the twentieth year of Artaxerxes did Nehemiah give the wine to the king?",
+      "es": "¿En qué mes del año veinte de Artajerjes dio Nehemías el vino al rey?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nisã",
+          "fr": "Nisan",
+          "en": "Nisan",
+          "es": "Nisán"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Adar",
+          "fr": "Adar",
+          "en": "Adar",
+          "es": "Adar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Elul",
+          "fr": "Élul",
+          "en": "Elul",
+          "es": "Elul"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quisleu",
+          "fr": "Kisleu",
+          "en": "Chisleu",
+          "es": "Chisleu"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-019",
+    "type": "choice",
+    "level": "hard",
+    "book": "NEH",
+    "chapter": 6,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Quando lhe propuseram que se escondesse no templo, o que respondeu Neemias?",
+      "fr": "Quand on lui proposa de se cacher dans le temple, que répondit Néhémie ?",
+      "en": "When he was urged to hide in the temple, what did Nehemiah answer?",
+      "es": "Cuando le propusieron esconderse en el templo, ¿qué respondió Nehemías?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "«Um homem como eu fugiria?»",
+          "fr": "« Un homme comme moi prendre la fuite ! »",
+          "en": "“Should such a man as I flee?”",
+          "es": "«¿Un hombre como yo ha de huir?»"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "«Irei contigo e esconder-me-ei»",
+          "fr": "« J’irai avec toi et je me cacherai »",
+          "en": "“I will go with thee and hide”",
+          "es": "«Iré contigo y me esconderé»"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "«Pedirei soldados ao rei»",
+          "fr": "« Je demanderai des soldats au roi »",
+          "en": "“I will ask the king for soldiers”",
+          "es": "«Pediré soldados al rey»"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "«Esperarei pela noite»",
+          "fr": "« J’attendrai la nuit »",
+          "en": "“I will wait for the night”",
+          "es": "«Esperaré a la noche»"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-020",
+    "type": "choice",
+    "level": "hard",
+    "book": "EST",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Sobre quantas províncias reinava Assuero?",
+      "fr": "Sur combien de provinces régnait Assuérus ?",
+      "en": "Over how many provinces did Ahasuerus reign?",
+      "es": "¿Sobre cuántas provincias reinaba Assuero?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "127",
+          "fr": "127",
+          "en": "127",
+          "es": "127"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "120",
+          "fr": "120",
+          "en": "120",
+          "es": "120"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "100",
+          "fr": "100",
+          "en": "100",
+          "es": "100"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "70",
+          "fr": "70",
+          "en": "70",
+          "es": "70"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-021",
+    "type": "choice",
+    "level": "hard",
+    "book": "EST",
+    "chapter": 5,
+    "verse_start": 14,
+    "verse_end": 14,
+    "prompt": {
+      "pt": "Quem aconselhou Hamã a mandar fazer uma forca de cinquenta côvados?",
+      "fr": "Qui conseilla à Haman de faire préparer un bois haut de cinquante coudées ?",
+      "en": "Who counselled Haman to make a gallows fifty cubits high?",
+      "es": "¿Quién aconsejó a Amán hacer una horca alta de cincuenta codos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Zeres, sua mulher, e os seus amigos",
+          "fr": "Zéresch, sa femme, et tous ses amis",
+          "en": "Zeresh his wife and all his friends",
+          "es": "Zeres su mujer y todos sus amigos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O rei Assuero",
+          "fr": "Le roi Assuérus",
+          "en": "King Ahasuerus",
+          "es": "El rey Assuero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os eunucos da porta",
+          "fr": "Les eunuques de la porte",
+          "en": "The chamberlains of the gate",
+          "es": "Los eunucos de la puerta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A rainha Vasti",
+          "fr": "La reine Vasthi",
+          "en": "Queen Vashti",
+          "es": "La reina Vasthi"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-022",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "1KI",
+        "chapter": 12,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Roboão vai a Siquém para ser feito rei",
+          "fr": "Roboam se rend à Sichem pour être fait roi",
+          "en": "Rehoboam goes to Shechem to be made king",
+          "es": "Roboam va a Sichêm para ser hecho rey"
+        }
+      },
+      {
+        "book": "1KI",
+        "chapter": 12,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "O povo pede-lhe que alivie o jugo pesado",
+          "fr": "Le peuple lui demande d’alléger le joug pesant",
+          "en": "The people ask him to lighten the heavy yoke",
+          "es": "El pueblo le pide que alivie el yugo pesado"
+        }
+      },
+      {
+        "book": "1KI",
+        "chapter": 12,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Roboão responde duramente e deixa o conselho dos anciãos",
+          "fr": "Roboam répond durement et laisse le conseil des vieillards",
+          "en": "Rehoboam answers roughly, forsaking the old men’s counsel",
+          "es": "Roboam responde duramente y deja el consejo de los ancianos"
+        }
+      },
+      {
+        "book": "1KI",
+        "chapter": 12,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Adorão é apedrejado e Roboão foge para Jerusalém",
+          "fr": "Adoram est lapidé et Roboam s’enfuit à Jérusalem",
+          "en": "Adoram is stoned and Rehoboam flees to Jerusalem",
+          "es": "Adoram es apedreado y Roboam huye a Jerusalem"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-023",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "2KI",
+        "chapter": 9,
+        "verse_start": 20,
+        "verse_end": 20,
+        "text": {
+          "pt": "O atalaia reconhece o marchar impetuoso de Jeú",
+          "fr": "La sentinelle reconnaît la conduite de Jéhu",
+          "en": "The watchman sees Jehu driving furiously",
+          "es": "El atalaya reconoce el marchar de Jehú"
+        }
+      },
+      {
+        "book": "2KI",
+        "chapter": 9,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "Jeú fere Jorão com uma flecha",
+          "fr": "Jéhu frappe Joram d’une flèche",
+          "en": "Jehu smites Jehoram with an arrow",
+          "es": "Jehú hiere a Joram con una saeta"
+        }
+      },
+      {
+        "book": "2KI",
+        "chapter": 9,
+        "verse_start": 33,
+        "verse_end": 33,
+        "text": {
+          "pt": "Jezabel é lançada abaixo",
+          "fr": "Jézabel est jetée en bas",
+          "en": "Jezebel is thrown down",
+          "es": "Jezabel es echada abajo"
+        }
+      },
+      {
+        "book": "2KI",
+        "chapter": 10,
+        "verse_start": 27,
+        "verse_end": 27,
+        "text": {
+          "pt": "A casa de Baal é derrubada",
+          "fr": "La maison de Baal est renversée",
+          "en": "The house of Baal is broken down",
+          "es": "La casa de Baal es derribada"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-024",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "2KI",
+        "chapter": 24,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Joaquim é levado cativo para Babilónia",
+          "fr": "Jojakin est transporté à Babylone",
+          "en": "Jehoiachin is carried away to Babylon",
+          "es": "Joachîn es trasportado a Babilonia"
+        }
+      },
+      {
+        "book": "2KI",
+        "chapter": 24,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "Matanias é feito rei com o nome de Zedequias",
+          "fr": "Matthania devient roi sous le nom de Sédécias",
+          "en": "Mattaniah is made king and named Zedekiah",
+          "es": "Mathanías es hecho rey con el nombre de Sedecías"
+        }
+      },
+      {
+        "book": "2KI",
+        "chapter": 25,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "A cidade é aberta e os homens de guerra fogem de noite",
+          "fr": "La brèche est faite et les gens de guerre fuient de nuit",
+          "en": "The city is broken up; the men of war flee by night",
+          "es": "Abierta la ciudad, los hombres de guerra huyen de noche"
+        }
+      },
+      {
+        "book": "2KI",
+        "chapter": 25,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "A casa do SENHOR é queimada",
+          "fr": "La maison de l’Éternel est brûlée",
+          "en": "The house of the LORD is burnt",
+          "es": "La casa de Jehová es quemada"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-025",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "2CH",
+        "chapter": 22,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Atalia destrói a descendência real de Judá",
+          "fr": "Athalie fait périr la race royale de Juda",
+          "en": "Athaliah destroys the seed royal of Judah",
+          "es": "Athalía destruye la simiente real de Judá"
+        }
+      },
+      {
+        "book": "2CH",
+        "chapter": 23,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "O filho do rei é coroado e Joiada unge-o",
+          "fr": "Le fils du roi est couronné et oint par Jehojada",
+          "en": "The king’s son is crowned and Jehoiada anoints him",
+          "es": "El hijo del rey es coronado y Joiada lo unge"
+        }
+      },
+      {
+        "book": "2CH",
+        "chapter": 24,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Põe-se uma arca à porta da casa do SENHOR",
+          "fr": "On place un coffre à la porte de la maison de l’Éternel",
+          "en": "A chest is set at the gate of the house of the LORD",
+          "es": "Ponen un arca a la puerta de la casa de Jehová"
+        }
+      },
+      {
+        "book": "2CH",
+        "chapter": 24,
+        "verse_start": 20,
+        "verse_end": 21,
+        "text": {
+          "pt": "Zacarias, filho de Joiada, é apedrejado",
+          "fr": "Zacharie, fils de Jehojada, est lapidé",
+          "en": "Zechariah, son of Jehoiada, is stoned",
+          "es": "Zachârías, hijo de Joiada, es apedreado"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-026",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EZR",
+        "chapter": 8,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Esdras reúne o povo junto ao rio que vai a Aava",
+          "fr": "Esdras rassemble le peuple près du fleuve d’Ahava",
+          "en": "Ezra gathers the people by the river to Ahava",
+          "es": "Esdras junta al pueblo junto al río de Ahava"
+        }
+      },
+      {
+        "book": "EZR",
+        "chapter": 9,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Esdras rasga a roupa e arranca os cabelos",
+          "fr": "Esdras déchire ses vêtements et s’arrache les cheveux",
+          "en": "Ezra rends his garment and plucks off his hair",
+          "es": "Esdras rasga su vestido y arranca sus cabellos"
+        }
+      },
+      {
+        "book": "EZR",
+        "chapter": 10,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Propõe-se fazer um pacto com Deus",
+          "fr": "On propose de faire une alliance avec Dieu",
+          "en": "A covenant with God is proposed",
+          "es": "Se propone hacer pacto con Dios"
+        }
+      },
+      {
+        "book": "EZR",
+        "chapter": 10,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Esdras e os chefes sentam-se para examinar o caso",
+          "fr": "Esdras et des chefs siègent pour examiner l’affaire",
+          "en": "Ezra and the chief fathers sit to examine the matter",
+          "es": "Esdras y los cabezas se sientan a inquirir el negocio"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-027",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "NEH",
+        "chapter": 8,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "O povo faz tendas sobre os terraços",
+          "fr": "Le peuple se fait des tentes sur les toits",
+          "en": "The people make booths upon their roofs",
+          "es": "El pueblo se hace cabañas sobre los terrados"
+        }
+      },
+      {
+        "book": "NEH",
+        "chapter": 9,
+        "verse_start": 38,
+        "verse_end": 38,
+        "text": {
+          "pt": "Escreve-se um pacto que os chefes selam",
+          "fr": "On écrit une alliance que les chefs scellent",
+          "en": "A sure covenant is written and sealed",
+          "es": "Se escribe una fiel alianza signada por los príncipes"
+        }
+      },
+      {
+        "book": "NEH",
+        "chapter": 12,
+        "verse_start": 27,
+        "verse_end": 27,
+        "text": {
+          "pt": "Dedicação dos muros de Jerusalém com cânticos",
+          "fr": "Dédicace des murailles de Jérusalem avec des chants",
+          "en": "The wall of Jerusalem is dedicated with singing",
+          "es": "Dedicación del muro de Jerusalem con cánticos"
+        }
+      },
+      {
+        "book": "NEH",
+        "chapter": 13,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Neemias lança fora as coisas de Tobias",
+          "fr": "Néhémie jette dehors les objets de Tobija",
+          "en": "Nehemiah casts out Tobiah’s household stuff",
+          "es": "Nehemías echa fuera las alhajas de Tobías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-028",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EST",
+        "chapter": 3,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Assuero engrandece Hamã acima de todos os príncipes",
+          "fr": "Assuérus élève Haman au-dessus de tous les chefs",
+          "en": "Ahasuerus promotes Haman above all the princes",
+          "es": "Assuero engrandece a Amán sobre todos los príncipes"
+        }
+      },
+      {
+        "book": "EST",
+        "chapter": 3,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Os escrivães do rei escrevem as ordens de Hamã",
+          "fr": "Les secrétaires du roi écrivent les ordres d’Haman",
+          "en": "The king’s scribes write all that Haman commanded",
+          "es": "Los escribanos del rey escriben lo que mandó Amán"
+        }
+      },
+      {
+        "book": "EST",
+        "chapter": 8,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "O rei dá a Mardoqueu o anel tirado a Hamã",
+          "fr": "Le roi donne à Mardochée l’anneau repris à Haman",
+          "en": "The king gives Mordecai the ring taken from Haman",
+          "es": "El rey da a Mardochêo el anillo quitado a Amán"
+        }
+      },
+      {
+        "book": "EST",
+        "chapter": 9,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Os dez filhos de Hamã são enforcados",
+          "fr": "Les dix fils d’Haman sont pendus",
+          "en": "Haman’s ten sons are hanged",
+          "es": "Cuelgan a los diez hijos de Amán"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-029",
+    "type": "verse",
+    "level": "hard",
+    "book": "1KI",
+    "chapter": 8,
+    "verse_start": 56,
+    "verse_end": 56,
+    "blank": {
+      "pt": "repouso",
+      "fr": "repos",
+      "en": "rest",
+      "es": "reposo"
+    },
+    "distractors": [
+      {
+        "pt": "vinho",
+        "fr": "vin",
+        "en": "wine",
+        "es": "vino"
+      },
+      {
+        "pt": "pão",
+        "fr": "pain",
+        "en": "bread",
+        "es": "pan"
+      },
+      {
+        "pt": "despojo",
+        "fr": "butin",
+        "en": "spoil",
+        "es": "despojo"
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-030",
+    "type": "verse",
+    "level": "hard",
+    "book": "2KI",
+    "chapter": 23,
+    "verse_start": 25,
+    "verse_end": 25,
+    "blank": {
+      "pt": "forças",
+      "fr": "force",
+      "en": "might",
+      "es": "fuerzas"
+    },
+    "distractors": [
+      {
+        "pt": "riquezas",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riquezas"
+      },
+      {
+        "pt": "palavras",
+        "fr": "parole",
+        "en": "words",
+        "es": "palabras"
+      },
+      {
+        "pt": "obras",
+        "fr": "œuvre",
+        "en": "works",
+        "es": "obras"
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-031",
+    "type": "verse",
+    "level": "hard",
+    "book": "1CH",
+    "chapter": 29,
+    "verse_start": 15,
+    "verse_end": 15,
+    "blank": {
+      "pt": "sombra",
+      "fr": "ombre",
+      "en": "shadow",
+      "es": "sombra"
+    },
+    "distractors": [
+      {
+        "pt": "tempestade",
+        "fr": "orage",
+        "en": "storm",
+        "es": "tormenta"
+      },
+      {
+        "pt": "água",
+        "fr": "eau",
+        "en": "water",
+        "es": "agua"
+      },
+      {
+        "pt": "faísca",
+        "fr": "étincelle",
+        "en": "spark",
+        "es": "chispa"
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-032",
+    "type": "verse",
+    "level": "hard",
+    "book": "2CH",
+    "chapter": 15,
+    "verse_start": 7,
+    "verse_end": 7,
+    "blank": {
+      "pt": "mãos",
+      "fr": "mains",
+      "en": "hands",
+      "es": "manos"
+    },
+    "distractors": [
+      {
+        "pt": "pernas",
+        "fr": "jambes",
+        "en": "legs",
+        "es": "piernas"
+      },
+      {
+        "pt": "almas",
+        "fr": "âmes",
+        "en": "souls",
+        "es": "almas"
+      },
+      {
+        "pt": "vozes",
+        "fr": "voix",
+        "en": "voices",
+        "es": "voces"
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-033",
+    "type": "verse",
+    "level": "hard",
+    "book": "2CH",
+    "chapter": 32,
+    "verse_start": 8,
+    "verse_end": 8,
+    "blank": {
+      "pt": "carne",
+      "fr": "chair",
+      "en": "flesh",
+      "es": "carne"
+    },
+    "distractors": [
+      {
+        "pt": "pedra",
+        "fr": "pierre",
+        "en": "stone",
+        "es": "piedra"
+      },
+      {
+        "pt": "flecha",
+        "fr": "flèche",
+        "en": "arrow",
+        "es": "flecha"
+      },
+      {
+        "pt": "lança",
+        "fr": "lance",
+        "en": "spear",
+        "es": "lanza"
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-034",
+    "type": "verse",
+    "level": "hard",
+    "book": "EZR",
+    "chapter": 10,
+    "verse_start": 4,
+    "verse_end": 4,
+    "blank": {
+      "pt": "negócio",
+      "fr": "affaire",
+      "en": "matter",
+      "es": "negocio"
+    },
+    "distractors": [
+      {
+        "pt": "caminho",
+        "fr": "route",
+        "en": "way",
+        "es": "camino"
+      },
+      {
+        "pt": "trabalho",
+        "fr": "tâche",
+        "en": "work",
+        "es": "trabajo"
+      },
+      {
+        "pt": "combate",
+        "fr": "bataille",
+        "en": "battle",
+        "es": "combate"
+      }
+    ]
+  },
+  {
+    "id": "hist3-hard-035",
+    "type": "verse",
+    "level": "hard",
+    "book": "NEH",
+    "chapter": 1,
+    "verse_start": 5,
+    "verse_end": 5,
+    "blank": {
+      "pt": "pacto",
+      "fr": "alliance",
+      "en": "covenant",
+      "es": "pacto"
+    },
+    "distractors": [
+      {
+        "pt": "templo",
+        "fr": "temple",
+        "en": "temple",
+        "es": "templo"
+      },
+      {
+        "pt": "reino",
+        "fr": "royaume",
+        "en": "kingdom",
+        "es": "reino"
+      },
+      {
+        "pt": "juramento",
+        "fr": "serment",
+        "en": "oath",
+        "es": "juramento"
+      }
+    ]
+  }
+]
