@@ -1,0 +1,5102 @@
+[
+  {
+    "id": "evan2-easy-001",
+    "type": "choice",
+    "level": "easy",
+    "book": "MAT",
+    "chapter": 7,
+    "verse_start": 24,
+    "verse_end": 24,
+    "prompt": {
+      "pt": "Na parábola de Jesus, onde construiu o homem prudente a sua casa?",
+      "fr": "Dans la parabole de Jésus, sur quoi l’homme prudent a-t-il bâti sa maison ?",
+      "en": "In Jesus’ parable, where did the wise man build his house?",
+      "es": "En la parábola de Jesús, ¿dónde edificó su casa el hombre prudente?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Sobre a rocha",
+          "fr": "Sur le roc",
+          "en": "Upon a rock",
+          "es": "Sobre la peña"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sobre a areia",
+          "fr": "Sur le sable",
+          "en": "Upon the sand",
+          "es": "Sobre la arena"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Junto ao rio",
+          "fr": "Près du fleuve",
+          "en": "By the river",
+          "es": "Junto al río"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No alto de uma árvore",
+          "fr": "En haut d’un arbre",
+          "en": "Up in a tree",
+          "es": "En lo alto de un árbol"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-002",
+    "type": "choice",
+    "level": "easy",
+    "book": "MAT",
+    "chapter": 2,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Que presentes ofereceram os magos ao menino Jesus?",
+      "fr": "Quels présents les mages offrirent-ils au petit enfant Jésus ?",
+      "en": "What gifts did the wise men present to the young child Jesus?",
+      "es": "¿Qué dones ofrecieron los magos al niño Jesús?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Ouro, incenso e mirra",
+          "fr": "De l’or, de l’encens et de la myrrhe",
+          "en": "Gold, frankincense and myrrh",
+          "es": "Oro, incienso y mirra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pão, peixe e vinho",
+          "fr": "Du pain, du poisson et du vin",
+          "en": "Bread, fish and wine",
+          "es": "Pan, peces y vino"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Prata, azeite e mel",
+          "fr": "De l’argent, de l’huile et du miel",
+          "en": "Silver, oil and honey",
+          "es": "Plata, aceite y miel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ovelhas, cabras e pombas",
+          "fr": "Des brebis, des chèvres et des colombes",
+          "en": "Sheep, goats and doves",
+          "es": "Ovejas, cabras y palomas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-003",
+    "type": "choice",
+    "level": "easy",
+    "book": "MAT",
+    "chapter": 21,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "O que clamavam as multidões que iam adiante de Jesus e as que o seguiam?",
+      "fr": "Que criaient ceux qui précédaient et ceux qui suivaient Jésus ?",
+      "en": "What did the multitudes that went before Jesus and that followed cry?",
+      "es": "¿Qué aclamaban las gentes que iban delante de Jesús y las que iban detrás?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Hosana!",
+          "fr": "Hosanna !",
+          "en": "Hosanna!",
+          "es": "¡Hosanna!"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aleluia!",
+          "fr": "Alléluia !",
+          "en": "Hallelujah!",
+          "es": "¡Aleluya!"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Amém!",
+          "fr": "Amen !",
+          "en": "Amen!",
+          "es": "¡Amén!"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Maranata!",
+          "fr": "Maranatha !",
+          "en": "Maranatha!",
+          "es": "¡Maranatha!"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-004",
+    "type": "choice",
+    "level": "easy",
+    "book": "MAT",
+    "chapter": 4,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Quantos dias jejuou Jesus no deserto, antes de ter fome?",
+      "fr": "Combien de jours Jésus jeûna-t-il avant d’avoir faim ?",
+      "en": "How many days did Jesus fast before he was hungry?",
+      "es": "¿Cuántos días ayunó Jesús antes de tener hambre?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Quarenta",
+          "fr": "Quarante",
+          "en": "Forty",
+          "es": "Cuarenta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Três",
+          "fr": "Trois",
+          "en": "Three",
+          "es": "Tres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-005",
+    "type": "choice",
+    "level": "easy",
+    "book": "MRK",
+    "chapter": 1,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Segundo Marcos 1:6, o que comia João Batista?",
+      "fr": "Selon Marc 1:6, de quoi se nourrissait Jean-Baptiste ?",
+      "en": "According to Mark 1:6, what did John the Baptist eat?",
+      "es": "Según Marcos 1:6, ¿qué comía Juan el Bautista?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Gafanhotos e mel do campo",
+          "fr": "Des sauterelles et du miel sauvage",
+          "en": "Locusts and wild honey",
+          "es": "Langostas y miel silvestre"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pão e peixe",
+          "fr": "Du pain et du poisson",
+          "en": "Bread and fish",
+          "es": "Pan y peces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Figos e uvas",
+          "fr": "Des figues et des raisins",
+          "en": "Figs and grapes",
+          "es": "Higos y uvas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Maná e codornizes",
+          "fr": "De la manne et des cailles",
+          "en": "Manna and quails",
+          "es": "Maná y codornices"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-006",
+    "type": "choice",
+    "level": "easy",
+    "book": "MRK",
+    "chapter": 4,
+    "verse_start": 38,
+    "verse_end": 38,
+    "prompt": {
+      "pt": "No barco, os discípulos tinham medo de perecer. O que fazia Jesus?",
+      "fr": "Dans la barque, les disciples avaient peur de périr. Que faisait Jésus ?",
+      "en": "In the ship, the disciples were afraid they would perish. What was Jesus doing?",
+      "es": "En la barca, los discípulos temían perecer. ¿Qué hacía Jesús?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Dormia sobre uma almofada",
+          "fr": "Il dormait sur le coussin",
+          "en": "He was asleep on a pillow",
+          "es": "Dormía sobre un cabezal"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Remava com os discípulos",
+          "fr": "Il ramait avec les disciples",
+          "en": "He was rowing with the disciples",
+          "es": "Remaba con los discípulos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Lançava as redes",
+          "fr": "Il jetait les filets",
+          "en": "He was casting the nets",
+          "es": "Echaba las redes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cantava um salmo",
+          "fr": "Il chantait un psaume",
+          "en": "He was singing a psalm",
+          "es": "Cantaba un salmo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-007",
+    "type": "choice",
+    "level": "easy",
+    "book": "MRK",
+    "chapter": 14,
+    "verse_start": 72,
+    "verse_end": 72,
+    "prompt": {
+      "pt": "Depois de Pedro ter negado Jesus, que ave cantou?",
+      "fr": "Après que Pierre eut renié Jésus, quel oiseau chanta ?",
+      "en": "After Peter denied Jesus, which bird crew?",
+      "es": "Después de que Pedro negó a Jesús, ¿qué ave cantó?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O galo",
+          "fr": "Le coq",
+          "en": "The cock",
+          "es": "El gallo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma pomba",
+          "fr": "Une colombe",
+          "en": "A dove",
+          "es": "Una paloma"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um corvo",
+          "fr": "Un corbeau",
+          "en": "A raven",
+          "es": "Un cuervo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um pardal",
+          "fr": "Un passereau",
+          "en": "A sparrow",
+          "es": "Un pajarillo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-008",
+    "type": "choice",
+    "level": "easy",
+    "book": "LUK",
+    "chapter": 15,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Na parábola da ovelha perdida, quantas ovelhas tinha o homem?",
+      "fr": "Dans la parabole de la brebis perdue, combien de brebis l’homme avait-il ?",
+      "en": "In the parable of the lost sheep, how many sheep did the man have?",
+      "es": "En la parábola de la oveja perdida, ¿cuántas ovejas tenía el hombre?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Cem",
+          "fr": "Cent",
+          "en": "An hundred",
+          "es": "Cien"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dez",
+          "fr": "Dix",
+          "en": "Ten",
+          "es": "Diez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mil",
+          "fr": "Mille",
+          "en": "A thousand",
+          "es": "Mil"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-009",
+    "type": "choice",
+    "level": "easy",
+    "book": "LUK",
+    "chapter": 1,
+    "verse_start": 31,
+    "verse_end": 31,
+    "prompt": {
+      "pt": "Que nome devia Maria dar ao filho, segundo o anjo?",
+      "fr": "Selon l’ange, quel nom Marie devait-elle donner à son fils ?",
+      "en": "According to the angel, what name was Mary to give her son?",
+      "es": "Según el ángel, ¿qué nombre debía poner María a su hijo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Jesus",
+          "fr": "Jésus",
+          "en": "Jesus",
+          "es": "Jesús"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "João",
+          "fr": "Jean",
+          "en": "John",
+          "es": "Juan"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "José",
+          "fr": "Joseph",
+          "en": "Joseph",
+          "es": "José"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Samuel",
+          "fr": "Samuel",
+          "en": "Samuel",
+          "es": "Samuel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-010",
+    "type": "choice",
+    "level": "easy",
+    "book": "LUK",
+    "chapter": 18,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Na parábola, aonde subiram o fariseu e o publicano para orar?",
+      "fr": "Dans la parabole, où le pharisien et le publicain montèrent-ils pour prier ?",
+      "en": "In the parable, where did the Pharisee and the publican go up to pray?",
+      "es": "En la parábola, ¿adónde subieron a orar el fariseo y el publicano?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Ao templo",
+          "fr": "Au temple",
+          "en": "Into the temple",
+          "es": "Al templo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A um monte",
+          "fr": "Sur une montagne",
+          "en": "Up a mountain",
+          "es": "A un monte"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ao deserto",
+          "fr": "Au désert",
+          "en": "Into the wilderness",
+          "es": "Al desierto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ao telhado de uma casa",
+          "fr": "Sur le toit d’une maison",
+          "en": "Onto a housetop",
+          "es": "Al terrado de una casa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-011",
+    "type": "choice",
+    "level": "easy",
+    "book": "LUK",
+    "chapter": 15,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Na parábola, quantas moedas tinha a mulher que perdeu uma e varreu a casa?",
+      "fr": "Dans la parabole, combien de drachmes avait la femme qui en perdit une et balaya la maison ?",
+      "en": "In the parable, how many pieces of silver had the woman who lost one and swept the house?",
+      "es": "En la parábola, ¿cuántas dracmas tenía la mujer que perdió una y barrió la casa?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Dez",
+          "fr": "Dix",
+          "en": "Ten",
+          "es": "Diez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Três",
+          "fr": "Trois",
+          "en": "Three",
+          "es": "Tres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Trinta",
+          "fr": "Trente",
+          "en": "Thirty",
+          "es": "Treinta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-012",
+    "type": "choice",
+    "level": "easy",
+    "book": "JHN",
+    "chapter": 1,
+    "verse_start": 29,
+    "verse_end": 29,
+    "prompt": {
+      "pt": "Quando viu Jesus vir ter com ele, que nome lhe deu João?",
+      "fr": "Quand Jean vit Jésus venir à lui, comment l’appela-t-il ?",
+      "en": "When John saw Jesus coming unto him, what did he call him?",
+      "es": "Cuando Juan vio a Jesús que venía a él, ¿cómo lo llamó?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O Cordeiro de Deus",
+          "fr": "L’Agneau de Dieu",
+          "en": "The Lamb of God",
+          "es": "El Cordero de Dios"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O Leão de Judá",
+          "fr": "Le Lion de Juda",
+          "en": "The Lion of Judah",
+          "es": "El León de Judá"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O Filho de David",
+          "fr": "Le Fils de David",
+          "en": "The Son of David",
+          "es": "El Hijo de David"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O Pastor de Israel",
+          "fr": "Le Berger d’Israël",
+          "en": "The Shepherd of Israel",
+          "es": "El Pastor de Israel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-013",
+    "type": "choice",
+    "level": "easy",
+    "book": "JHN",
+    "chapter": 20,
+    "verse_start": 25,
+    "verse_end": 25,
+    "prompt": {
+      "pt": "O que disse Tomé que tinha de ver nas mãos de Jesus para crer?",
+      "fr": "Que Thomas dit-il devoir voir dans les mains de Jésus pour croire ?",
+      "en": "What did Thomas say he must see in Jesus’ hands before he would believe?",
+      "es": "¿Qué dijo Tomás que tenía que ver en las manos de Jesús para creer?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O sinal dos cravos",
+          "fr": "La marque des clous",
+          "en": "The print of the nails",
+          "es": "La señal de los clavos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pão partido",
+          "fr": "Du pain rompu",
+          "en": "Broken bread",
+          "es": "Pan partido"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma luz",
+          "fr": "Une lumière",
+          "en": "A light",
+          "es": "Una luz"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um anel de ouro",
+          "fr": "Un anneau d’or",
+          "en": "A ring of gold",
+          "es": "Un anillo de oro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-014",
+    "type": "choice",
+    "level": "easy",
+    "book": "JHN",
+    "chapter": 6,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Quem tinha os cinco pães de cevada e os dois peixinhos?",
+      "fr": "Qui avait les cinq pains d’orge et les deux poissons ?",
+      "en": "Who had the five barley loaves and the two small fishes?",
+      "es": "¿Quién tenía los cinco panes de cebada y los dos pececillos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um menino",
+          "fr": "Un jeune garçon",
+          "en": "A lad",
+          "es": "Un muchacho"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma viúva",
+          "fr": "Une veuve",
+          "en": "A widow",
+          "es": "Una viuda"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um soldado romano",
+          "fr": "Un soldat romain",
+          "en": "A Roman soldier",
+          "es": "Un soldado romano"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um pescador idoso",
+          "fr": "Un vieux pêcheur",
+          "en": "An old fisherman",
+          "es": "Un pescador anciano"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-015",
+    "type": "choice",
+    "level": "easy",
+    "book": "JHN",
+    "chapter": 19,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "O que puseram os soldados sobre a cabeça de Jesus?",
+      "fr": "Que posèrent les soldats sur la tête de Jésus ?",
+      "en": "What did the soldiers put on Jesus’ head?",
+      "es": "¿Qué pusieron los soldados sobre la cabeza de Jesús?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma coroa de espinhos",
+          "fr": "Une couronne d’épines",
+          "en": "A crown of thorns",
+          "es": "Una corona de espinas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma coroa de ouro",
+          "fr": "Une couronne d’or",
+          "en": "A crown of gold",
+          "es": "Una corona de oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um capacete",
+          "fr": "Un casque",
+          "en": "A helmet",
+          "es": "Un yelmo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma grinalda de flores",
+          "fr": "Une guirlande de fleurs",
+          "en": "A garland of flowers",
+          "es": "Una guirnalda de flores"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-016",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 16,
+    "verse_start": 26,
+    "verse_end": 26,
+    "prompt": {
+      "pt": "O que aconteceu de repente, abrindo todas as portas da prisão?",
+      "fr": "Que se passa-t-il tout à coup, si bien que toutes les portes de la prison s’ouvrirent ?",
+      "en": "What happened suddenly, so that all the prison doors were opened?",
+      "es": "¿Qué ocurrió de repente, de modo que todas las puertas de la cárcel se abrieron?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um grande terramoto",
+          "fr": "Un grand tremblement de terre",
+          "en": "A great earthquake",
+          "es": "Un gran terremoto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um incêndio",
+          "fr": "Un incendie",
+          "en": "A fire",
+          "es": "Un incendio"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma tempestade",
+          "fr": "Une tempête",
+          "en": "A storm",
+          "es": "Una tempestad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma inundação",
+          "fr": "Une inondation",
+          "en": "A flood",
+          "es": "Una inundación"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-017",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 2,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Em Atos 2:2, que ruído veio de repente do céu e encheu a casa?",
+      "fr": "En Actes 2:2, quel bruit vint tout à coup du ciel et remplit la maison ?",
+      "en": "In Acts 2:2, what sound suddenly came from heaven and filled the house?",
+      "es": "En Hechos 2:2, ¿qué estruendo vino de repente del cielo y llenó la casa?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Como de um vento forte",
+          "fr": "Comme celui d’un vent impétueux",
+          "en": "As of a rushing mighty wind",
+          "es": "Como de un viento recio"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como de um trovão",
+          "fr": "Comme celui du tonnerre",
+          "en": "As of thunder",
+          "es": "Como de un trueno"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como de trombetas",
+          "fr": "Comme celui de trompettes",
+          "en": "As of trumpets",
+          "es": "Como de trompetas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como de um rio",
+          "fr": "Comme celui d’un fleuve",
+          "en": "As of a river",
+          "es": "Como de un río"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-018",
+    "type": "choice",
+    "level": "easy",
+    "book": "ACT",
+    "chapter": 5,
+    "verse_start": 15,
+    "verse_end": 15,
+    "prompt": {
+      "pt": "Punham os doentes nas ruas, na esperança de que, ao passar Pedro, alguma coisa dele os cobrisse. O quê?",
+      "fr": "On plaçait les malades dans les rues, dans l’espoir que, au passage de Pierre, quelque chose de lui les couvrît. Quoi ?",
+      "en": "The sick were laid in the streets, so that something of Peter might overshadow them as he passed by. What was it?",
+      "es": "Ponían a los enfermos en las calles, para que al pasar Pedro algo de él los alcanzase. ¿Qué era?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A sua sombra",
+          "fr": "Son ombre",
+          "en": "His shadow",
+          "es": "Su sombra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O seu manto",
+          "fr": "Son manteau",
+          "en": "His mantle",
+          "es": "Su manto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A sua mão",
+          "fr": "Sa main",
+          "en": "His hand",
+          "es": "Su mano"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O seu bordão",
+          "fr": "Son bâton",
+          "en": "His staff",
+          "es": "Su bordón"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-019",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios de Mateus pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Matthieu dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Matthew in the order they happened.",
+      "es": "Ordena estos episodios de Mateo según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "MAT",
+        "chapter": 2,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Uns magos do oriente chegam a Jerusalém",
+          "fr": "Des mages d’Orient arrivent à Jérusalem",
+          "en": "Wise men from the east come to Jerusalem",
+          "es": "Unos magos del oriente llegan a Jerusalem"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 2,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Os magos adoram o menino",
+          "fr": "Les mages adorent le petit enfant",
+          "en": "The wise men worship the young child",
+          "es": "Los magos adoran al niño"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 2,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Avisados em sonho, os magos regressam por outro caminho",
+          "fr": "Avertis en songe, les mages s’en retournent par un autre chemin",
+          "en": "Warned in a dream, the wise men depart another way",
+          "es": "Avisados en sueños, los magos se vuelven por otro camino"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 2,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "A família vai morar em Nazaré",
+          "fr": "La famille va demeurer à Nazareth",
+          "en": "The family goes to dwell in Nazareth",
+          "es": "La familia va a vivir en Nazaret"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-020",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios de Mateus pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Matthieu dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Matthew in the order they happened.",
+      "es": "Ordena estos episodios de Mateo según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "MAT",
+        "chapter": 14,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "João Batista é degolado na prisão",
+          "fr": "Jean-Baptiste est décapité dans la prison",
+          "en": "John the Baptist is beheaded in the prison",
+          "es": "Juan el Bautista es degollado en la cárcel"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 14,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Jesus retira-se de barco para um lugar deserto",
+          "fr": "Jésus se retire dans une barque vers un lieu désert",
+          "en": "Jesus departs by ship into a desert place",
+          "es": "Jesús se retira en un barco a un lugar desierto"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 14,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Jesus tem compaixão da multidão e cura os doentes",
+          "fr": "Jésus a compassion de la foule et guérit les malades",
+          "en": "Jesus has compassion on the multitude and heals their sick",
+          "es": "Jesús tiene compasión de la multitud y sana a los enfermos"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 14,
+        "verse_start": 36,
+        "verse_end": 36,
+        "text": {
+          "pt": "Os que tocam a borda da roupa de Jesus ficam curados",
+          "fr": "Ceux qui touchent le bord de son vêtement sont guéris",
+          "en": "As many as touch the hem of his garment are made whole",
+          "es": "Los que tocan el borde de su manto quedan sanos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-021",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios de Marcos pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Marc dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Mark in the order they happened.",
+      "es": "Ordena estos episodios de Marcos según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "MRK",
+        "chapter": 10,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Jesus toma as crianças nos braços e abençoa-as",
+          "fr": "Jésus prend les enfants dans ses bras et les bénit",
+          "en": "Jesus takes the children in his arms and blesses them",
+          "es": "Jesús toma a los niños en los brazos y los bendice"
+        }
+      },
+      {
+        "book": "MRK",
+        "chapter": 10,
+        "verse_start": 35,
+        "verse_end": 35,
+        "text": {
+          "pt": "Tiago e João vêm pedir um favor a Jesus",
+          "fr": "Jacques et Jean viennent demander une faveur à Jésus",
+          "en": "James and John come to ask a favour of Jesus",
+          "es": "Jacobo y Juan vienen a pedir un favor a Jesús"
+        }
+      },
+      {
+        "book": "MRK",
+        "chapter": 10,
+        "verse_start": 46,
+        "verse_end": 47,
+        "text": {
+          "pt": "Um cego clama a Jesus em Jericó",
+          "fr": "Un aveugle crie vers Jésus à Jéricho",
+          "en": "A blind man cries out to Jesus at Jericho",
+          "es": "Un ciego clama a Jesús en Jericó"
+        }
+      },
+      {
+        "book": "MRK",
+        "chapter": 12,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "Jesus diz: «Dai a César o que é de César»",
+          "fr": "Jésus dit : « Rendez à César ce qui est à César »",
+          "en": "Jesus says, “Render to Cæsar the things that are Cæsar’s”",
+          "es": "Jesús dice: «Dad lo que es de César a César»"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-022",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios de Lucas pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Luc dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Luke in the order they happened.",
+      "es": "Ordena estos episodios de Lucas según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "LUK",
+        "chapter": 10,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Jesus envia outros setenta discípulos, dois a dois",
+          "fr": "Le Seigneur envoie soixante-dix autres disciples, deux à deux",
+          "en": "The Lord sends other seventy disciples, two and two",
+          "es": "El Señor envía otros setenta discípulos, de dos en dos"
+        }
+      },
+      {
+        "book": "LUK",
+        "chapter": 10,
+        "verse_start": 38,
+        "verse_end": 38,
+        "text": {
+          "pt": "Marta recebe Jesus em sua casa",
+          "fr": "Marthe reçoit Jésus dans sa maison",
+          "en": "Martha receives Jesus into her house",
+          "es": "Marta recibe a Jesús en su casa"
+        }
+      },
+      {
+        "book": "LUK",
+        "chapter": 13,
+        "verse_start": 12,
+        "verse_end": 13,
+        "text": {
+          "pt": "Jesus cura uma mulher e ela endireita-se",
+          "fr": "Jésus guérit une femme, qui se redresse",
+          "en": "Jesus heals a woman, and she is made straight",
+          "es": "Jesús sana a una mujer, y ella se endereza"
+        }
+      },
+      {
+        "book": "LUK",
+        "chapter": 19,
+        "verse_start": 35,
+        "verse_end": 35,
+        "text": {
+          "pt": "Jesus é posto em cima de um potro",
+          "fr": "On fait monter Jésus sur un ânon",
+          "en": "Jesus is set on a colt",
+          "es": "Ponen a Jesús sobre un pollino"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-023",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios de João pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Jean dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from John in the order they happened.",
+      "es": "Ordena estos episodios de Juan según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JHN",
+        "chapter": 1,
+        "verse_start": 19,
+        "verse_end": 19,
+        "text": {
+          "pt": "Sacerdotes perguntam a João: «Tu quem és?»",
+          "fr": "Des sacrificateurs demandent à Jean : « Qui es-tu ? »",
+          "en": "Priests ask John, “Who art thou?”",
+          "es": "Sacerdotes preguntan a Juan: «¿Tú, quién eres?»"
+        }
+      },
+      {
+        "book": "JHN",
+        "chapter": 1,
+        "verse_start": 41,
+        "verse_end": 42,
+        "text": {
+          "pt": "André leva o seu irmão Simão a Jesus",
+          "fr": "André conduit son frère Simon vers Jésus",
+          "en": "Andrew brings his brother Simon to Jesus",
+          "es": "Andrés trae a su hermano Simón a Jesús"
+        }
+      },
+      {
+        "book": "JHN",
+        "chapter": 1,
+        "verse_start": 43,
+        "verse_end": 43,
+        "text": {
+          "pt": "Jesus encontra Filipe e diz-lhe: «Segue-me»",
+          "fr": "Jésus rencontre Philippe et lui dit : « Suis-moi »",
+          "en": "Jesus finds Philip and says to him, “Follow me”",
+          "es": "Jesús halla a Felipe y le dice: «Sígueme»"
+        }
+      },
+      {
+        "book": "JHN",
+        "chapter": 3,
+        "verse_start": 22,
+        "verse_end": 22,
+        "text": {
+          "pt": "Jesus vai com os discípulos para a Judeia e batiza",
+          "fr": "Jésus se rend avec ses disciples en Judée et baptise",
+          "en": "Jesus goes with his disciples into the land of Judæa and baptizes",
+          "es": "Jesús va con sus discípulos a la tierra de Judea y bautiza"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-024",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios de Atos pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes des Actes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Acts in the order they happened.",
+      "es": "Ordena estos episodios de Hechos según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 12,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Herodes mete Pedro na prisão",
+          "fr": "Hérode jette Pierre en prison",
+          "en": "Herod puts Peter in prison",
+          "es": "Herodes pone a Pedro en la cárcel"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 12,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Uma porta de ferro abre-se sozinha diante de Pedro",
+          "fr": "Une porte de fer s’ouvre d’elle-même devant Pierre",
+          "en": "An iron gate opens of its own accord for Peter",
+          "es": "Una puerta de hierro se abre sola ante Pedro"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 12,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Pedro bate à porta e Rode vem escutar",
+          "fr": "Pierre frappe à la porte et Rhode vient écouter",
+          "en": "Peter knocks at the door and Rhoda comes to hearken",
+          "es": "Pedro llama a la puerta y Rhode sale a escuchar"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 12,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Rode corre a anunciar que Pedro está à porta",
+          "fr": "Rhode court annoncer que Pierre est à la porte",
+          "en": "Rhoda runs in to tell that Peter is at the gate",
+          "es": "Rhode corre a anunciar que Pedro está a la puerta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-025",
+    "type": "verse",
+    "level": "easy",
+    "book": "MAT",
+    "chapter": 5,
+    "verse_start": 14,
+    "verse_end": 14,
+    "blank": {
+      "pt": "luz",
+      "fr": "lumière",
+      "en": "light",
+      "es": "luz"
+    },
+    "distractors": [
+      {
+        "pt": "sabedoria",
+        "fr": "sagesse",
+        "en": "wisdom",
+        "es": "sabiduría"
+      },
+      {
+        "pt": "força",
+        "fr": "force",
+        "en": "strength",
+        "es": "fuerza"
+      },
+      {
+        "pt": "alegria",
+        "fr": "joie",
+        "en": "joy",
+        "es": "alegría"
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-026",
+    "type": "verse",
+    "level": "easy",
+    "book": "MAT",
+    "chapter": 7,
+    "verse_start": 7,
+    "verse_end": 7,
+    "blank": {
+      "pt": "buscai",
+      "fr": "cherchez",
+      "en": "seek",
+      "es": "buscad"
+    },
+    "distractors": [
+      {
+        "pt": "esperai",
+        "fr": "attendez",
+        "en": "wait",
+        "es": "esperad"
+      },
+      {
+        "pt": "olhai",
+        "fr": "regardez",
+        "en": "look",
+        "es": "mirad"
+      },
+      {
+        "pt": "cantai",
+        "fr": "chantez",
+        "en": "sing",
+        "es": "cantad"
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-027",
+    "type": "verse",
+    "level": "easy",
+    "book": "JHN",
+    "chapter": 10,
+    "verse_start": 11,
+    "verse_end": 11,
+    "blank": {
+      "pt": "ovelhas",
+      "fr": "brebis",
+      "en": "sheep",
+      "es": "ovejas"
+    },
+    "distractors": [
+      {
+        "pt": "cabras",
+        "fr": "chèvres",
+        "en": "goats",
+        "es": "cabras"
+      },
+      {
+        "pt": "vacas",
+        "fr": "vaches",
+        "en": "cows",
+        "es": "vacas"
+      },
+      {
+        "pt": "pombas",
+        "fr": "colombes",
+        "en": "doves",
+        "es": "palomas"
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-028",
+    "type": "verse",
+    "level": "easy",
+    "book": "JHN",
+    "chapter": 6,
+    "verse_start": 35,
+    "verse_end": 35,
+    "blank": {
+      "pt": "pão",
+      "fr": "pain",
+      "en": "bread",
+      "es": "pan"
+    },
+    "distractors": [
+      {
+        "pt": "vinho",
+        "fr": "vin",
+        "en": "wine",
+        "es": "vino"
+      },
+      {
+        "pt": "rei",
+        "fr": "roi",
+        "en": "king",
+        "es": "rey"
+      },
+      {
+        "pt": "caminho",
+        "fr": "chemin",
+        "en": "way",
+        "es": "camino"
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-029",
+    "type": "verse",
+    "level": "easy",
+    "book": "LUK",
+    "chapter": 1,
+    "verse_start": 37,
+    "verse_end": 37,
+    "blank": {
+      "pt": "impossível",
+      "fr": "impossible",
+      "en": "impossible",
+      "es": "imposible"
+    },
+    "distractors": [
+      {
+        "pt": "inútil",
+        "fr": "inutile",
+        "en": "useless",
+        "es": "inútil"
+      },
+      {
+        "pt": "invisível",
+        "fr": "invisible",
+        "en": "invisible",
+        "es": "invisible"
+      },
+      {
+        "pt": "grande",
+        "fr": "grand",
+        "en": "great",
+        "es": "grande"
+      }
+    ]
+  },
+  {
+    "id": "evan2-easy-030",
+    "type": "verse",
+    "level": "easy",
+    "book": "MRK",
+    "chapter": 12,
+    "verse_start": 31,
+    "verse_end": 31,
+    "blank": {
+      "pt": "próximo",
+      "fr": "prochain",
+      "en": "neighbour",
+      "es": "prójimo"
+    },
+    "distractors": [
+      {
+        "pt": "irmão",
+        "fr": "frère",
+        "en": "brother",
+        "es": "hermano"
+      },
+      {
+        "pt": "pai",
+        "fr": "père",
+        "en": "father",
+        "es": "padre"
+      },
+      {
+        "pt": "rei",
+        "fr": "roi",
+        "en": "king",
+        "es": "rey"
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-001",
+    "type": "choice",
+    "level": "medium",
+    "book": "MAT",
+    "chapter": 13,
+    "verse_start": 45,
+    "verse_end": 46,
+    "prompt": {
+      "pt": "Na parábola, o que encontrou o negociante que buscava boas pérolas?",
+      "fr": "Dans la parabole, qu’a trouvé le marchand qui cherchait de belles perles ?",
+      "en": "In the parable, what did the merchant man seeking goodly pearls find?",
+      "es": "En la parábola, ¿qué halló el hombre tratante que buscaba buenas perlas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma pérola de grande valor",
+          "fr": "Une perle de grand prix",
+          "en": "One pearl of great price",
+          "es": "Una preciosa perla"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um tesouro escondido num campo",
+          "fr": "Un trésor caché dans un champ",
+          "en": "A treasure hid in a field",
+          "es": "Un tesoro escondido en un campo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma moeda perdida",
+          "fr": "Une drachme perdue",
+          "en": "A lost piece of silver",
+          "es": "Una dracma perdida"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma rede cheia de peixes",
+          "fr": "Un filet plein de poissons",
+          "en": "A net full of fishes",
+          "es": "Una red llena de peces"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-002",
+    "type": "choice",
+    "level": "medium",
+    "book": "MAT",
+    "chapter": 25,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Na parábola das dez virgens, o que não levaram consigo as tolas?",
+      "fr": "Dans la parabole des dix vierges, que ne prirent pas les vierges folles ?",
+      "en": "In the parable of the ten virgins, what did the foolish ones not take with them?",
+      "es": "En la parábola de las diez vírgenes, ¿qué no tomaron consigo las fatuas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Azeite",
+          "fr": "De l’huile",
+          "en": "Oil",
+          "es": "Aceite"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pão",
+          "fr": "Du pain",
+          "en": "Bread",
+          "es": "Pan"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Água",
+          "fr": "De l’eau",
+          "en": "Water",
+          "es": "Agua"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vestidos de festa",
+          "fr": "Des habits de noce",
+          "en": "Wedding garments",
+          "es": "Vestidos de boda"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-003",
+    "type": "choice",
+    "level": "medium",
+    "book": "MAT",
+    "chapter": 18,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "Segundo Mateus 18:22, até quantas vezes disse Jesus que se deve perdoar?",
+      "fr": "Selon Matthieu 18:22, jusqu’à combien de fois Jésus dit-il qu’il faut pardonner ?",
+      "en": "According to Matthew 18:22, until how many times did Jesus say we should forgive?",
+      "es": "Según Mateo 18:22, ¿hasta cuántas veces dijo Jesús que se debe perdonar?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Até setenta vezes sete",
+          "fr": "Jusqu’à septante fois sept fois",
+          "en": "Until seventy times seven",
+          "es": "Hasta setenta veces siete"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Até sete vezes",
+          "fr": "Jusqu’à sept fois",
+          "en": "Until seven times",
+          "es": "Hasta siete veces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Até três vezes",
+          "fr": "Jusqu’à trois fois",
+          "en": "Until three times",
+          "es": "Hasta tres veces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Até doze vezes",
+          "fr": "Jusqu’à douze fois",
+          "en": "Until twelve times",
+          "es": "Hasta doce veces"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-004",
+    "type": "choice",
+    "level": "medium",
+    "book": "MAT",
+    "chapter": 17,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Quando Jesus foi transfigurado, quem apareceu a falar com ele?",
+      "fr": "Quand Jésus fut transfiguré, qui apparut, s’entretenant avec lui ?",
+      "en": "When Jesus was transfigured, who appeared talking with him?",
+      "es": "Cuando Jesús se transfiguró, ¿quiénes aparecieron hablando con él?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Moisés e Elias",
+          "fr": "Moïse et Élie",
+          "en": "Moses and Elias",
+          "es": "Moisés y Elías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Abraão e Isaque",
+          "fr": "Abraham et Isaac",
+          "en": "Abraham and Isaac",
+          "es": "Abraham e Isaac"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "David e Salomão",
+          "fr": "David et Salomon",
+          "en": "David and Solomon",
+          "es": "David y Salomón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josué e Calebe",
+          "fr": "Josué et Caleb",
+          "en": "Joshua and Caleb",
+          "es": "Josué y Caleb"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-005",
+    "type": "choice",
+    "level": "medium",
+    "book": "MAT",
+    "chapter": 27,
+    "verse_start": 24,
+    "verse_end": 24,
+    "prompt": {
+      "pt": "O que fez Pilatos diante da multidão, dizendo que estava inocente do sangue daquele justo?",
+      "fr": "Que fit Pilate en présence de la foule, en disant qu’il était innocent du sang de ce juste ?",
+      "en": "What did Pilate do before the multitude, saying he was innocent of the blood of that just person?",
+      "es": "¿Qué hizo Pilato delante del pueblo, diciendo que era inocente de la sangre de aquel justo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Lavou as mãos",
+          "fr": "Il se lava les mains",
+          "en": "He washed his hands",
+          "es": "Se lavó las manos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Rasgou as suas vestes",
+          "fr": "Il déchira ses vêtements",
+          "en": "He rent his clothes",
+          "es": "Rasgó sus vestidos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ajoelhou-se",
+          "fr": "Il s’agenouilla",
+          "en": "He knelt down",
+          "es": "Se arrodilló"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Partiu o seu bastão",
+          "fr": "Il brisa son bâton",
+          "en": "He broke his staff",
+          "es": "Quebró su bastón"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-006",
+    "type": "choice",
+    "level": "medium",
+    "book": "MRK",
+    "chapter": 12,
+    "verse_start": 42,
+    "verse_end": 42,
+    "prompt": {
+      "pt": "O que deitou na arca do tesouro a pobre viúva que Jesus viu?",
+      "fr": "Qu’a mis dans le tronc la pauvre veuve que Jésus a vue ?",
+      "en": "What did the poor widow whom Jesus saw throw into the treasury?",
+      "es": "¿Qué echó en el arca la viuda pobre que vio Jesús?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Duas pequenas moedas",
+          "fr": "Deux petites pièces",
+          "en": "Two mites",
+          "es": "Dos blancas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma moeda de ouro",
+          "fr": "Une pièce d’or",
+          "en": "A piece of gold",
+          "es": "Una moneda de oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Trinta moedas de prata",
+          "fr": "Trente pièces d’argent",
+          "en": "Thirty pieces of silver",
+          "es": "Treinta piezas de plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um talento",
+          "fr": "Un talent",
+          "en": "A talent",
+          "es": "Un talento"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-007",
+    "type": "choice",
+    "level": "medium",
+    "book": "MRK",
+    "chapter": 6,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Segundo Marcos 6:7, como começou Jesus a enviar os doze?",
+      "fr": "Selon Marc 6:7, comment Jésus commença-t-il à envoyer les douze ?",
+      "en": "According to Mark 6:7, how did Jesus begin to send forth the twelve?",
+      "es": "Según Marcos 6:7, ¿cómo comenzó Jesús a enviar a los doce?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De dois em dois",
+          "fr": "Deux à deux",
+          "en": "By two and two",
+          "es": "De dos en dos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um a um",
+          "fr": "Un par un",
+          "en": "One by one",
+          "es": "De uno en uno"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Todos juntos",
+          "fr": "Tous ensemble",
+          "en": "All together",
+          "es": "Todos juntos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De três em três",
+          "fr": "Trois par trois",
+          "en": "By three and three",
+          "es": "De tres en tres"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-008",
+    "type": "choice",
+    "level": "medium",
+    "book": "MRK",
+    "chapter": 10,
+    "verse_start": 21,
+    "verse_end": 21,
+    "prompt": {
+      "pt": "Jesus olhou para o homem que lhe perguntava pela vida eterna e amou-o. O que lhe disse para fazer?",
+      "fr": "Jésus regarda l’homme qui l’interrogeait sur la vie éternelle et l’aima. Que lui dit-il de faire ?",
+      "en": "Jesus beheld the man asking about eternal life and loved him. What did he tell him to do?",
+      "es": "Jesús miró al hombre que le preguntaba por la vida eterna y lo amó. ¿Qué le dijo que hiciera?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Vender tudo e dar aos pobres",
+          "fr": "Vendre tout et le donner aux pauvres",
+          "en": "Sell all and give to the poor",
+          "es": "Venderlo todo y darlo a los pobres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Oferecer um cordeiro no templo",
+          "fr": "Offrir un agneau au temple",
+          "en": "Offer a lamb in the temple",
+          "es": "Ofrecer un cordero en el templo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jejuar quarenta dias",
+          "fr": "Jeûner quarante jours",
+          "en": "Fast forty days",
+          "es": "Ayunar cuarenta días"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ir mostrar-se ao sacerdote",
+          "fr": "Aller se montrer au sacrificateur",
+          "en": "Go and shew himself to the priest",
+          "es": "Ir a mostrarse al sacerdote"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-009",
+    "type": "choice",
+    "level": "medium",
+    "book": "MRK",
+    "chapter": 15,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Segundo Marcos 15:17, de que cor vestiram a Jesus antes de lhe porem a coroa de espinhos?",
+      "fr": "Selon Marc 15:17, de quelle couleur revêtit-on Jésus avant de lui mettre la couronne d’épines ?",
+      "en": "According to Mark 15:17, with what colour was Jesus clothed before the crown of thorns was put on him?",
+      "es": "Según Marcos 15:17, ¿de qué color vistieron a Jesús antes de ponerle la corona de espinas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Púrpura",
+          "fr": "De pourpre",
+          "en": "Purple",
+          "es": "Púrpura"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Amarelo",
+          "fr": "De jaune",
+          "en": "Yellow",
+          "es": "Amarillo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Preto",
+          "fr": "De noir",
+          "en": "Black",
+          "es": "Negro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Verde",
+          "fr": "De vert",
+          "en": "Green",
+          "es": "Verde"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-010",
+    "type": "choice",
+    "level": "medium",
+    "book": "LUK",
+    "chapter": 15,
+    "verse_start": 15,
+    "verse_end": 15,
+    "prompt": {
+      "pt": "Na parábola do filho pródigo, para que foi ele mandado aos campos?",
+      "fr": "Dans la parabole du fils prodigue, pour quoi fut-il envoyé dans les champs ?",
+      "en": "In the parable of the prodigal son, what was he sent into the fields to do?",
+      "es": "En la parábola del hijo pródigo, ¿para qué fue enviado al campo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Alimentar porcos",
+          "fr": "Garder les pourceaux",
+          "en": "Feed swine",
+          "es": "Apacentar los puercos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Guardar ovelhas",
+          "fr": "Garder les brebis",
+          "en": "Keep sheep",
+          "es": "Apacentar ovejas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Colher uvas",
+          "fr": "Cueillir les raisins",
+          "en": "Gather grapes",
+          "es": "Vendimiar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Lavrar a terra",
+          "fr": "Labourer la terre",
+          "en": "Plough the land",
+          "es": "Arar la tierra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-011",
+    "type": "choice",
+    "level": "medium",
+    "book": "LUK",
+    "chapter": 10,
+    "verse_start": 39,
+    "verse_end": 39,
+    "prompt": {
+      "pt": "Em casa de Marta, o que fazia a sua irmã Maria?",
+      "fr": "Chez Marthe, que faisait sa sœur Marie ?",
+      "en": "In Martha’s house, what did her sister Mary do?",
+      "es": "En casa de Marta, ¿qué hacía su hermana María?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Sentava-se aos pés de Jesus e ouvia a sua palavra",
+          "fr": "Elle était assise aux pieds de Jésus et écoutait sa parole",
+          "en": "She sat at Jesus’ feet and heard his word",
+          "es": "Se sentaba a los pies de Jesús y oía su palabra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Preparava a refeição",
+          "fr": "Elle préparait le repas",
+          "en": "She prepared the meal",
+          "es": "Preparaba la comida"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tirava água do poço",
+          "fr": "Elle puisait de l’eau au puits",
+          "en": "She drew water at the well",
+          "es": "Sacaba agua del pozo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Lavava os pés dos discípulos",
+          "fr": "Elle lavait les pieds des disciples",
+          "en": "She washed the disciples’ feet",
+          "es": "Lavaba los pies de los discípulos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-012",
+    "type": "choice",
+    "level": "medium",
+    "book": "LUK",
+    "chapter": 12,
+    "verse_start": 18,
+    "verse_end": 18,
+    "prompt": {
+      "pt": "Na parábola de Lucas 12, o que decidiu fazer o homem rico cuja terra dera muito fruto?",
+      "fr": "Dans la parabole de Luc 12, que décida de faire l’homme riche dont les terres avaient beaucoup rapporté ?",
+      "en": "In the parable of Luke 12, what did the rich man whose ground brought forth plentifully decide to do?",
+      "es": "En la parábola de Lucas 12, ¿qué decidió hacer el hombre rico cuya heredad había dado mucho fruto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Derrubar os celeiros e construir maiores",
+          "fr": "Abattre ses greniers et en bâtir de plus grands",
+          "en": "Pull down his barns and build greater",
+          "es": "Derribar sus alfolíes y edificarlos mayores"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dar a colheita aos pobres",
+          "fr": "Donner sa récolte aux pauvres",
+          "en": "Give his fruits to the poor",
+          "es": "Dar sus frutos a los pobres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vender a sua terra",
+          "fr": "Vendre sa terre",
+          "en": "Sell his land",
+          "es": "Vender su heredad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Oferecer tudo no templo",
+          "fr": "Tout offrir au temple",
+          "en": "Offer it all in the temple",
+          "es": "Ofrecerlo todo en el templo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-013",
+    "type": "choice",
+    "level": "medium",
+    "book": "LUK",
+    "chapter": 16,
+    "verse_start": 20,
+    "verse_end": 20,
+    "prompt": {
+      "pt": "Na parábola do homem rico, como se chamava o mendigo deitado à sua porta?",
+      "fr": "Dans la parabole de l’homme riche, comment s’appelait le pauvre couché à sa porte ?",
+      "en": "In the parable of the rich man, what was the name of the beggar laid at his gate?",
+      "es": "En la parábola del hombre rico, ¿cómo se llamaba el mendigo echado a su puerta?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Lázaro",
+          "fr": "Lazare",
+          "en": "Lazarus",
+          "es": "Lázaro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Bartimeu",
+          "fr": "Bartimée",
+          "en": "Bartimæus",
+          "es": "Bartimeo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Zaqueu",
+          "fr": "Zachée",
+          "en": "Zacchæus",
+          "es": "Zaqueo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jairo",
+          "fr": "Jaïrus",
+          "en": "Jairus",
+          "es": "Jairo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-014",
+    "type": "choice",
+    "level": "medium",
+    "book": "JHN",
+    "chapter": 2,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Onde foi o casamento em que estava a mãe de Jesus?",
+      "fr": "Où eurent lieu les noces auxquelles se trouvait la mère de Jésus ?",
+      "en": "Where was the marriage at which the mother of Jesus was?",
+      "es": "¿Dónde fueron las bodas en las que estaba la madre de Jesús?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Em Caná da Galileia",
+          "fr": "À Cana en Galilée",
+          "en": "In Cana of Galilee",
+          "es": "En Caná de Galilea"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em Betânia",
+          "fr": "À Béthanie",
+          "en": "In Bethany",
+          "es": "En Bethania"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em Naim",
+          "fr": "À Naïn",
+          "en": "In Nain",
+          "es": "En Naín"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em Cafarnaum",
+          "fr": "À Capernaüm",
+          "en": "In Capernaum",
+          "es": "En Capernaum"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-015",
+    "type": "choice",
+    "level": "medium",
+    "book": "JHN",
+    "chapter": 21,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Depois da ressurreição, quantas vezes perguntou Jesus a Simão Pedro se o amava?",
+      "fr": "Après la résurrection, combien de fois Jésus demanda-t-il à Simon Pierre s’il l’aimait ?",
+      "en": "After the resurrection, how many times did Jesus ask Simon Peter if he loved him?",
+      "es": "Después de la resurrección, ¿cuántas veces preguntó Jesús a Simón Pedro si le amaba?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Três vezes",
+          "fr": "Trois fois",
+          "en": "Three times",
+          "es": "Tres veces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma vez",
+          "fr": "Une fois",
+          "en": "Once",
+          "es": "Una vez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Duas vezes",
+          "fr": "Deux fois",
+          "en": "Twice",
+          "es": "Dos veces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete vezes",
+          "fr": "Sept fois",
+          "en": "Seven times",
+          "es": "Siete veces"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-016",
+    "type": "choice",
+    "level": "medium",
+    "book": "JHN",
+    "chapter": 19,
+    "verse_start": 19,
+    "verse_end": 19,
+    "prompt": {
+      "pt": "O que estava escrito no título que Pilatos pôs sobre a cruz?",
+      "fr": "Qu’était-il écrit sur l’inscription que Pilate plaça sur la croix ?",
+      "en": "What was written on the title Pilate put on the cross?",
+      "es": "¿Qué estaba escrito en el título que Pilato puso encima de la cruz?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Jesus Nazareno, Rei dos Judeus",
+          "fr": "Jésus de Nazareth, roi des Juifs",
+          "en": "Jesus of Nazareth the King of the Jews",
+          "es": "Jesús Nazareno, Rey de los Judíos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jesus, o Filho de Deus",
+          "fr": "Jésus, le Fils de Dieu",
+          "en": "Jesus, the Son of God",
+          "es": "Jesús, el Hijo de Dios"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jesus, o Profeta da Galileia",
+          "fr": "Jésus, le prophète de Galilée",
+          "en": "Jesus, the Prophet of Galilee",
+          "es": "Jesús, el Profeta de Galilea"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Este é o Messias de Israel",
+          "fr": "Celui-ci est le Messie d’Israël",
+          "en": "This is the Messiah of Israel",
+          "es": "Éste es el Mesías de Israel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-017",
+    "type": "choice",
+    "level": "medium",
+    "book": "JHN",
+    "chapter": 4,
+    "verse_start": 18,
+    "verse_end": 18,
+    "prompt": {
+      "pt": "Junto ao poço, quantos maridos disse Jesus que a mulher samaritana tinha tido?",
+      "fr": "Près du puits, combien de maris Jésus dit-il que la Samaritaine avait eus ?",
+      "en": "At the well, how many husbands did Jesus say the woman of Samaria had had?",
+      "es": "Junto al pozo, ¿cuántos maridos dijo Jesús que había tenido la samaritana?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Cinco",
+          "fr": "Cinq",
+          "en": "Five",
+          "es": "Cinco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dois",
+          "fr": "Deux",
+          "en": "Two",
+          "es": "Dos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Três",
+          "fr": "Trois",
+          "en": "Three",
+          "es": "Tres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-018",
+    "type": "choice",
+    "level": "medium",
+    "book": "JHN",
+    "chapter": 12,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Depois de ungir os pés de Jesus com nardo, com que os enxugou Maria?",
+      "fr": "Après avoir oint les pieds de Jésus de nard, avec quoi Marie les essuya-t-elle ?",
+      "en": "After anointing Jesus’ feet with spikenard, with what did Mary wipe them?",
+      "es": "Después de ungir los pies de Jesús con nardo, ¿con qué los limpió María?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Com os seus cabelos",
+          "fr": "Avec ses cheveux",
+          "en": "With her hair",
+          "es": "Con sus cabellos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com uma toalha",
+          "fr": "Avec un linge",
+          "en": "With a towel",
+          "es": "Con una toalla"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com o seu manto",
+          "fr": "Avec son manteau",
+          "en": "With her mantle",
+          "es": "Con su manto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com folhas de palmeira",
+          "fr": "Avec des feuilles de palmier",
+          "en": "With palm leaves",
+          "es": "Con hojas de palmera"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-019",
+    "type": "choice",
+    "level": "medium",
+    "book": "ACT",
+    "chapter": 18,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Em Atos 18:3, qual era o ofício de Paulo e daqueles com quem ele ficou a trabalhar?",
+      "fr": "En Actes 18:3, quel était le métier de Paul et de ceux chez qui il travailla ?",
+      "en": "In Acts 18:3, what was the craft of Paul and of those he abode and wrought with?",
+      "es": "En Hechos 18:3, ¿cuál era el oficio de Pablo y de aquellos con quienes trabajaba?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Fabricantes de tendas",
+          "fr": "Faiseurs de tentes",
+          "en": "Tentmakers",
+          "es": "Fabricantes de tiendas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pescadores",
+          "fr": "Pêcheurs",
+          "en": "Fishermen",
+          "es": "Pescadores"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Carpinteiros",
+          "fr": "Charpentiers",
+          "en": "Carpenters",
+          "es": "Carpinteros"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Oleiros",
+          "fr": "Potiers",
+          "en": "Potters",
+          "es": "Alfareros"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-020",
+    "type": "choice",
+    "level": "medium",
+    "book": "ACT",
+    "chapter": 28,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Depois do naufrágio, como se chamava a ilha onde Paulo e os outros se salvaram?",
+      "fr": "Après le naufrage, comment s’appelait l’île où Paul et les autres se sauvèrent ?",
+      "en": "After the shipwreck, what was the island called where Paul and the others escaped?",
+      "es": "Después del naufragio, ¿cómo se llamaba la isla donde Pablo y los demás escaparon?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Malta",
+          "fr": "Malte",
+          "en": "Melita",
+          "es": "Melita"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Chipre",
+          "fr": "Chypre",
+          "en": "Cyprus",
+          "es": "Cipro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Creta",
+          "fr": "Crète",
+          "en": "Crete",
+          "es": "Creta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Rodes",
+          "fr": "Rhodes",
+          "en": "Rhodes",
+          "es": "Rhodas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-021",
+    "type": "choice",
+    "level": "medium",
+    "book": "ACT",
+    "chapter": 3,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Como se chamava a porta do templo onde punham todos os dias o coxo de nascença?",
+      "fr": "Comment s’appelait la porte du temple où l’on plaçait chaque jour le boiteux de naissance ?",
+      "en": "What was the name of the temple gate where the man lame from birth was laid daily?",
+      "es": "¿Cómo se llamaba la puerta del templo donde ponían cada día al cojo de nacimiento?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Formosa",
+          "fr": "La Belle",
+          "en": "Beautiful",
+          "es": "La Hermosa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dourada",
+          "fr": "La Dorée",
+          "en": "Golden",
+          "es": "La Dorada"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Real",
+          "fr": "La Royale",
+          "en": "Royal",
+          "es": "La Real"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Das Ovelhas",
+          "fr": "Des Brebis",
+          "en": "Sheep",
+          "es": "De las Ovejas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-022",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios de Mateus pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Matthieu dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Matthew in the order they happened.",
+      "es": "Ordena estos episodios de Mateo según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "MAT",
+        "chapter": 16,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Simão Pedro diz: «Tu és o Cristo»",
+          "fr": "Simon Pierre dit : « Tu es le Christ »",
+          "en": "Simon Peter says, “Thou art the Christ”",
+          "es": "Simón Pedro dice: «Tú eres el Cristo»"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 17,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Jesus é transfigurado: o seu rosto brilha como o sol",
+          "fr": "Jésus est transfiguré : son visage resplendit comme le soleil",
+          "en": "Jesus is transfigured: his face shines as the sun",
+          "es": "Jesús se transfigura: su rostro resplandece como el sol"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 17,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Jesus repreende o demónio e o menino fica são",
+          "fr": "Jésus menace le démon et l’enfant est guéri",
+          "en": "Jesus rebukes the devil and the child is cured",
+          "es": "Jesús reprende al demonio y el mozo queda sano"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 17,
+        "verse_start": 27,
+        "verse_end": 27,
+        "text": {
+          "pt": "Pedro deve achar uma moeda na boca de um peixe",
+          "fr": "Pierre doit trouver une pièce dans la bouche d’un poisson",
+          "en": "Peter is to find money in a fish’s mouth",
+          "es": "Pedro ha de hallar una moneda en la boca de un pez"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-023",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios de Mateus pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Matthieu dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Matthew in the order they happened.",
+      "es": "Ordena estos episodios de Mateo según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "MAT",
+        "chapter": 27,
+        "verse_start": 26,
+        "verse_end": 26,
+        "text": {
+          "pt": "Pilatos solta Barrabás",
+          "fr": "Pilate relâche Barabbas",
+          "en": "Pilate releases Barabbas",
+          "es": "Pilato suelta a Barrabás"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 27,
+        "verse_start": 38,
+        "verse_end": 38,
+        "text": {
+          "pt": "Dois homens são crucificados com Jesus",
+          "fr": "Deux brigands sont crucifiés avec Jésus",
+          "en": "Two thieves are crucified with Jesus",
+          "es": "Dos ladrones son crucificados con Jesús"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 27,
+        "verse_start": 51,
+        "verse_end": 51,
+        "text": {
+          "pt": "O véu do templo rasga-se em dois",
+          "fr": "Le voile du temple se déchire en deux",
+          "en": "The veil of the temple is rent in twain",
+          "es": "El velo del templo se rompe en dos"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 27,
+        "verse_start": 66,
+        "verse_end": 66,
+        "text": {
+          "pt": "A pedra do sepulcro é selada e guardada",
+          "fr": "La pierre du sépulcre est scellée et gardée",
+          "en": "The stone is sealed and a watch set",
+          "es": "Sellan la piedra del sepulcro con la guardia"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-024",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios de Marcos pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Marc dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Mark in the order they happened.",
+      "es": "Ordena estos episodios de Marcos según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "MRK",
+        "chapter": 1,
+        "verse_start": 30,
+        "verse_end": 31,
+        "text": {
+          "pt": "Jesus cura da febre a sogra de Simão",
+          "fr": "Jésus guérit de la fièvre la belle-mère de Simon",
+          "en": "Jesus heals Simon’s wife’s mother of a fever",
+          "es": "Jesús sana de la calentura a la suegra de Simón"
+        }
+      },
+      {
+        "book": "MRK",
+        "chapter": 2,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Jesus diz a um paralítico: «Toma o teu leito»",
+          "fr": "Jésus dit à un paralytique : « Prends ton lit »",
+          "en": "Jesus tells one sick of the palsy, “Take up thy bed”",
+          "es": "Jesús dice a un paralítico: «Toma tu lecho»"
+        }
+      },
+      {
+        "book": "MRK",
+        "chapter": 2,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Jesus chama Levi, que estava no posto de impostos",
+          "fr": "Jésus appelle Lévi, assis au bureau des péages",
+          "en": "Jesus calls Levi, sitting at the receipt of custom",
+          "es": "Jesús llama a Leví, sentado al banco de los tributos"
+        }
+      },
+      {
+        "book": "MRK",
+        "chapter": 3,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Jesus cura um homem que tinha a mão definhada",
+          "fr": "Jésus guérit un homme qui avait la main sèche",
+          "en": "Jesus heals a man with a withered hand",
+          "es": "Jesús sana a un hombre que tenía la mano seca"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-025",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios de Marcos pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Marc dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Mark in the order they happened.",
+      "es": "Ordena estos episodios de Marcos según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "MRK",
+        "chapter": 14,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Uma mulher derrama perfume na cabeça de Jesus",
+          "fr": "Une femme répand du parfum sur la tête de Jésus",
+          "en": "A woman pours ointment on Jesus’ head",
+          "es": "Una mujer derrama ungüento sobre la cabeza de Jesús"
+        }
+      },
+      {
+        "book": "MRK",
+        "chapter": 14,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Judas vai ter com os chefes dos sacerdotes",
+          "fr": "Judas va vers les principaux sacrificateurs",
+          "en": "Judas goes unto the chief priests",
+          "es": "Judas va a los príncipes de los sacerdotes"
+        }
+      },
+      {
+        "book": "MRK",
+        "chapter": 14,
+        "verse_start": 35,
+        "verse_end": 35,
+        "text": {
+          "pt": "Jesus prostra-se em terra e ora",
+          "fr": "Jésus se jette contre terre et prie",
+          "en": "Jesus falls on the ground and prays",
+          "es": "Jesús se postra en tierra y ora"
+        }
+      },
+      {
+        "book": "MRK",
+        "chapter": 14,
+        "verse_start": 52,
+        "verse_end": 52,
+        "text": {
+          "pt": "Um jovem larga o lençol e foge nu",
+          "fr": "Un jeune homme lâche son vêtement et s’enfuit nu",
+          "en": "A young man leaves the linen cloth and flees naked",
+          "es": "Un joven deja la sábana y huye desnudo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-026",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios de Lucas pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Luc dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Luke in the order they happened.",
+      "es": "Ordena estos episodios de Lucas según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "LUK",
+        "chapter": 24,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "As mulheres acham a pedra revolvida do sepulcro",
+          "fr": "Les femmes trouvent la pierre roulée du sépulcre",
+          "en": "The women find the stone rolled away",
+          "es": "Las mujeres hallan la piedra revuelta del sepulcro"
+        }
+      },
+      {
+        "book": "LUK",
+        "chapter": 24,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Dois discípulos vão a caminho de Emaús",
+          "fr": "Deux disciples vont à Émmaüs",
+          "en": "Two disciples go to Emmaus",
+          "es": "Dos discípulos van a Emmaús"
+        }
+      },
+      {
+        "book": "LUK",
+        "chapter": 24,
+        "verse_start": 31,
+        "verse_end": 31,
+        "text": {
+          "pt": "Os olhos deles abrem-se e reconhecem Jesus",
+          "fr": "Leurs yeux s’ouvrent et ils reconnaissent Jésus",
+          "en": "Their eyes are opened and they know Jesus",
+          "es": "Sus ojos son abiertos y conocen a Jesús"
+        }
+      },
+      {
+        "book": "LUK",
+        "chapter": 24,
+        "verse_start": 51,
+        "verse_end": 51,
+        "text": {
+          "pt": "Jesus é levado para cima, ao céu",
+          "fr": "Jésus est enlevé au ciel",
+          "en": "Jesus is carried up into heaven",
+          "es": "Jesús es llevado arriba al cielo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-027",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios de João pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Jean dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from John in the order they happened.",
+      "es": "Ordena estos episodios de Juan según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JHN",
+        "chapter": 19,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "Os soldados repartem as roupas de Jesus em quatro partes",
+          "fr": "Les soldats font quatre parts des vêtements de Jésus",
+          "en": "The soldiers make four parts of Jesus’ garments",
+          "es": "Los soldados hacen cuatro partes de los vestidos de Jesús"
+        }
+      },
+      {
+        "book": "JHN",
+        "chapter": 19,
+        "verse_start": 26,
+        "verse_end": 27,
+        "text": {
+          "pt": "Jesus entrega a sua mãe ao discípulo que amava",
+          "fr": "Jésus confie sa mère au disciple qu’il aimait",
+          "en": "Jesus commends his mother to the disciple whom he loved",
+          "es": "Jesús encomienda su madre al discípulo que amaba"
+        }
+      },
+      {
+        "book": "JHN",
+        "chapter": 19,
+        "verse_start": 30,
+        "verse_end": 30,
+        "text": {
+          "pt": "Jesus diz: «Está consumado» e entrega o espírito",
+          "fr": "Jésus dit : « Tout est accompli » et rend l’esprit",
+          "en": "Jesus says, “It is finished”, and gives up the ghost",
+          "es": "Jesús dice: «Consumado es» y entrega el espíritu"
+        }
+      },
+      {
+        "book": "JHN",
+        "chapter": 19,
+        "verse_start": 34,
+        "verse_end": 34,
+        "text": {
+          "pt": "Um soldado fura o lado de Jesus com uma lança",
+          "fr": "Un soldat perce le côté de Jésus avec une lance",
+          "en": "A soldier pierces Jesus’ side with a spear",
+          "es": "Un soldado abre el costado de Jesús con una lanza"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-028",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios de Atos pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes des Actes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Acts in the order they happened.",
+      "es": "Ordena estos episodios de Hechos según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 16,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Lídia é batizada com a sua família",
+          "fr": "Lydie est baptisée avec sa famille",
+          "en": "Lydia is baptized with her household",
+          "es": "Lidia es bautizada con su familia"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 16,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Paulo manda um espírito sair de uma jovem",
+          "fr": "Paul ordonne à un esprit de sortir d’une servante",
+          "en": "Paul commands a spirit to come out of a damsel",
+          "es": "Pablo manda a un espíritu salir de una muchacha"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 16,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "Paulo e o seu companheiro são açoitados e lançados na prisão",
+          "fr": "Paul et son compagnon sont battus et jetés en prison",
+          "en": "Paul and his companion are beaten and cast into prison",
+          "es": "Pablo y su compañero son azotados y echados en la cárcel"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 16,
+        "verse_start": 33,
+        "verse_end": 33,
+        "text": {
+          "pt": "O carcereiro é batizado com todos os seus",
+          "fr": "Le geôlier est baptisé avec tous les siens",
+          "en": "The jailor is baptized with all his",
+          "es": "El carcelero se bautiza con todos los suyos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-029",
+    "type": "verse",
+    "level": "medium",
+    "book": "MAT",
+    "chapter": 6,
+    "verse_start": 28,
+    "verse_end": 28,
+    "blank": {
+      "pt": "lírios",
+      "fr": "lis",
+      "en": "lilies",
+      "es": "lirios"
+    },
+    "distractors": [
+      {
+        "pt": "pássaros",
+        "fr": "oiseaux",
+        "en": "birds",
+        "es": "pájaros"
+      },
+      {
+        "pt": "cedros",
+        "fr": "cèdres",
+        "en": "cedars",
+        "es": "cedros"
+      },
+      {
+        "pt": "trigos",
+        "fr": "blés",
+        "en": "wheat",
+        "es": "trigos"
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-030",
+    "type": "verse",
+    "level": "medium",
+    "book": "MAT",
+    "chapter": 28,
+    "verse_start": 19,
+    "verse_end": 19,
+    "blank": {
+      "pt": "batizando",
+      "fr": "baptisant",
+      "en": "baptizing",
+      "es": "bautizándolos"
+    },
+    "distractors": [
+      {
+        "pt": "abençoando",
+        "fr": "bénissant",
+        "en": "blessing",
+        "es": "bendiciéndolos"
+      },
+      {
+        "pt": "ungindo",
+        "fr": "oignant",
+        "en": "anointing",
+        "es": "ungiéndolos"
+      },
+      {
+        "pt": "curando",
+        "fr": "guérissant",
+        "en": "healing",
+        "es": "sanándolos"
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-031",
+    "type": "verse",
+    "level": "medium",
+    "book": "MRK",
+    "chapter": 16,
+    "verse_start": 15,
+    "verse_end": 15,
+    "blank": {
+      "pt": "criatura",
+      "fr": "création",
+      "en": "creature",
+      "es": "criatura"
+    },
+    "distractors": [
+      {
+        "pt": "cidade",
+        "fr": "ville",
+        "en": "city",
+        "es": "ciudad"
+      },
+      {
+        "pt": "família",
+        "fr": "famille",
+        "en": "family",
+        "es": "familia"
+      },
+      {
+        "pt": "casa",
+        "fr": "maison",
+        "en": "house",
+        "es": "casa"
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-032",
+    "type": "verse",
+    "level": "medium",
+    "book": "LUK",
+    "chapter": 19,
+    "verse_start": 10,
+    "verse_end": 10,
+    "blank": {
+      "pt": "perdido",
+      "fr": "perdu",
+      "en": "lost",
+      "es": "perdido"
+    },
+    "distractors": [
+      {
+        "pt": "quebrado",
+        "fr": "brisé",
+        "en": "broken",
+        "es": "quebrado"
+      },
+      {
+        "pt": "escondido",
+        "fr": "caché",
+        "en": "hidden",
+        "es": "escondido"
+      },
+      {
+        "pt": "esquecido",
+        "fr": "oublié",
+        "en": "forgotten",
+        "es": "olvidado"
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-033",
+    "type": "verse",
+    "level": "medium",
+    "book": "JHN",
+    "chapter": 1,
+    "verse_start": 14,
+    "verse_end": 14,
+    "blank": {
+      "pt": "carne",
+      "fr": "chair",
+      "en": "flesh",
+      "es": "carne"
+    },
+    "distractors": [
+      {
+        "pt": "luz",
+        "fr": "lumière",
+        "en": "light",
+        "es": "luz"
+      },
+      {
+        "pt": "espírito",
+        "fr": "esprit",
+        "en": "spirit",
+        "es": "espíritu"
+      },
+      {
+        "pt": "fogo",
+        "fr": "feu",
+        "en": "fire",
+        "es": "fuego"
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-034",
+    "type": "verse",
+    "level": "medium",
+    "book": "JHN",
+    "chapter": 11,
+    "verse_start": 25,
+    "verse_end": 25,
+    "blank": {
+      "pt": "ressurreição",
+      "fr": "résurrection",
+      "en": "resurrection",
+      "es": "resurrección"
+    },
+    "distractors": [
+      {
+        "pt": "luz",
+        "fr": "lumière",
+        "en": "light",
+        "es": "luz"
+      },
+      {
+        "pt": "porta",
+        "fr": "porte",
+        "en": "door",
+        "es": "puerta"
+      },
+      {
+        "pt": "verdade",
+        "fr": "vérité",
+        "en": "truth",
+        "es": "verdad"
+      }
+    ]
+  },
+  {
+    "id": "evan2-medium-035",
+    "type": "verse",
+    "level": "medium",
+    "book": "ACT",
+    "chapter": 1,
+    "verse_start": 8,
+    "verse_end": 8,
+    "blank": {
+      "pt": "poder",
+      "fr": "puissance",
+      "en": "power",
+      "es": "virtud"
+    },
+    "distractors": [
+      {
+        "pt": "paz",
+        "fr": "paix",
+        "en": "peace",
+        "es": "paz"
+      },
+      {
+        "pt": "sabedoria",
+        "fr": "sagesse",
+        "en": "wisdom",
+        "es": "sabiduría"
+      },
+      {
+        "pt": "alegria",
+        "fr": "joie",
+        "en": "joy",
+        "es": "alegría"
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-001",
+    "type": "choice",
+    "level": "hard",
+    "book": "MAT",
+    "chapter": 27,
+    "verse_start": 19,
+    "verse_end": 19,
+    "prompt": {
+      "pt": "Quem mandou dizer a Pilatos: «Nada faças com aquele justo», por ter sofrido em sonhos?",
+      "fr": "Qui fit dire à Pilate : « Qu’il n’y ait rien entre toi et ce juste », après avoir souffert en songe ?",
+      "en": "Who sent unto Pilate, saying, “Have thou nothing to do with that just man”, after suffering in a dream?",
+      "es": "¿Quién envió a decir a Pilato: «No tengas que ver con aquel justo», por haber padecido en sueños?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A sua mulher",
+          "fr": "Sa femme",
+          "en": "His wife",
+          "es": "Su mujer"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Herodes",
+          "fr": "Hérode",
+          "en": "Herod",
+          "es": "Herodes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Caifás",
+          "fr": "Caïphe",
+          "en": "Caiaphas",
+          "es": "Caifás"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O centurião",
+          "fr": "Le centenier",
+          "en": "The centurion",
+          "es": "El centurión"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-002",
+    "type": "choice",
+    "level": "hard",
+    "book": "MAT",
+    "chapter": 27,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "O que compraram os principais sacerdotes com as moedas de prata que Judas devolveu?",
+      "fr": "Qu’achetèrent les principaux sacrificateurs avec l’argent que Judas avait rapporté ?",
+      "en": "What did the chief priests buy with the silver Judas brought back?",
+      "es": "¿Qué compraron los príncipes de los sacerdotes con las piezas de plata que devolvió Judas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O campo do oleiro",
+          "fr": "Le champ du potier",
+          "en": "The potter’s field",
+          "es": "El campo del alfarero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um cordeiro para a Páscoa",
+          "fr": "Un agneau pour la Pâque",
+          "en": "A lamb for the passover",
+          "es": "Un cordero para la pascua"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma casa em Betânia",
+          "fr": "Une maison à Béthanie",
+          "en": "A house in Bethany",
+          "es": "Una casa en Bethania"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Óleo para o templo",
+          "fr": "De l’huile pour le temple",
+          "en": "Oil for the temple",
+          "es": "Aceite para el templo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-003",
+    "type": "choice",
+    "level": "hard",
+    "book": "MAT",
+    "chapter": 2,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Herodes mandou matar os meninos de Belém de que idade para baixo?",
+      "fr": "Hérode fit tuer les enfants de Bethléhem à partir de quel âge et au-dessous ?",
+      "en": "Herod slew the children of Bethlehem from what age and under?",
+      "es": "¿De qué edad abajo mató Herodes a los niños de Bethlehem?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Dois anos",
+          "fr": "Deux ans",
+          "en": "Two years old",
+          "es": "Dos años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um ano",
+          "fr": "Un an",
+          "en": "One year old",
+          "es": "Un año"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Três anos",
+          "fr": "Trois ans",
+          "en": "Three years old",
+          "es": "Tres años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete anos",
+          "fr": "Sept ans",
+          "en": "Seven years old",
+          "es": "Siete años"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-004",
+    "type": "choice",
+    "level": "hard",
+    "book": "MAT",
+    "chapter": 20,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Na parábola dos trabalhadores da vinha, por quanto ao dia se acertou o dono com os primeiros?",
+      "fr": "Dans la parabole des ouvriers de la vigne, pour combien par jour le maître convint-il avec les premiers ?",
+      "en": "In the parable of the labourers in the vineyard, for how much a day did the householder agree with the first?",
+      "es": "En la parábola de los obreros de la viña, ¿en cuánto al día se concertó el padre de familia con los primeros?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um denário",
+          "fr": "Un denier",
+          "en": "A penny",
+          "es": "Un denario"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um talento",
+          "fr": "Un talent",
+          "en": "A talent",
+          "es": "Un talento"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma mina",
+          "fr": "Une mine",
+          "en": "A pound",
+          "es": "Una mina"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Trinta moedas de prata",
+          "fr": "Trente pièces d’argent",
+          "en": "Thirty pieces of silver",
+          "es": "Treinta piezas de plata"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-005",
+    "type": "choice",
+    "level": "hard",
+    "book": "MAT",
+    "chapter": 26,
+    "verse_start": 6,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Em Betânia, em casa de quem estava Jesus quando uma mulher lhe derramou perfume na cabeça?",
+      "fr": "À Béthanie, dans la maison de qui était Jésus quand une femme répandit un parfum sur sa tête ?",
+      "en": "In Bethany, in whose house was Jesus when a woman poured ointment on his head?",
+      "es": "En Bethania, ¿en casa de quién estaba Jesús cuando una mujer derramó ungüento sobre su cabeza?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Simão, o leproso",
+          "fr": "Simon le lépreux",
+          "en": "Simon the leper",
+          "es": "Simón el leproso"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Zaqueu",
+          "fr": "Zachée",
+          "en": "Zacchæus",
+          "es": "Zaqueo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nicodemos",
+          "fr": "Nicodème",
+          "en": "Nicodemus",
+          "es": "Nicodemo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jairo",
+          "fr": "Jaïrus",
+          "en": "Jairus",
+          "es": "Jairo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-006",
+    "type": "choice",
+    "level": "hard",
+    "book": "MRK",
+    "chapter": 3,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Que nome deu Jesus a Tiago e João, filhos de Zebedeu?",
+      "fr": "Quel nom Jésus donna-t-il à Jacques et Jean, fils de Zébédée ?",
+      "en": "What name did Jesus give James and John, the sons of Zebedee?",
+      "es": "¿Qué nombre puso Jesús a Jacobo y Juan, hijos de Zebedeo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Boanerges",
+          "fr": "Boanergès",
+          "en": "Boanerges",
+          "es": "Boanerges"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cefas",
+          "fr": "Céphas",
+          "en": "Cephas",
+          "es": "Cephas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dídimo",
+          "fr": "Didyme",
+          "en": "Didymus",
+          "es": "Dídimo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Barnabé",
+          "fr": "Barnabas",
+          "en": "Barnabas",
+          "es": "Bernabé"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-007",
+    "type": "choice",
+    "level": "hard",
+    "book": "MRK",
+    "chapter": 5,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Segundo Marcos, quantos porcos havia na manada que se precipitou no mar?",
+      "fr": "Selon Marc, combien de pourceaux y avait-il dans le troupeau qui se précipita dans la mer ?",
+      "en": "According to Mark, about how many swine were in the herd that ran down into the sea?",
+      "es": "Según Marcos, ¿cuántos puercos había en la manada que cayó en la mar?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Cerca de dois mil",
+          "fr": "Environ deux mille",
+          "en": "About two thousand",
+          "es": "Como dos mil"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cerca de duzentos",
+          "fr": "Environ deux cents",
+          "en": "About two hundred",
+          "es": "Como doscientos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cerca de quinhentos",
+          "fr": "Environ cinq cents",
+          "en": "About five hundred",
+          "es": "Como quinientos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cerca de cinco mil",
+          "fr": "Environ cinq mille",
+          "en": "About five thousand",
+          "es": "Como cinco mil"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-008",
+    "type": "choice",
+    "level": "hard",
+    "book": "MRK",
+    "chapter": 1,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Segundo Marcos 1:13, com quem estava Jesus no deserto, enquanto os anjos o serviam?",
+      "fr": "Selon Marc 1:13, avec qui Jésus était-il au désert, pendant que les anges le servaient ?",
+      "en": "According to Mark 1:13, who was Jesus with in the wilderness, while the angels ministered unto him?",
+      "es": "Según Marcos 1:13, ¿con quién estaba Jesús en el desierto, mientras los ángeles le servían?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Com os animais selvagens",
+          "fr": "Avec les bêtes sauvages",
+          "en": "With the wild beasts",
+          "es": "Con las fieras"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com os seus discípulos",
+          "fr": "Avec ses disciples",
+          "en": "With his disciples",
+          "es": "Con sus discípulos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com João Batista",
+          "fr": "Avec Jean-Baptiste",
+          "en": "With John the Baptist",
+          "es": "Con Juan el Bautista"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com uns pastores",
+          "fr": "Avec des bergers",
+          "en": "With some shepherds",
+          "es": "Con unos pastores"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-009",
+    "type": "choice",
+    "level": "hard",
+    "book": "MRK",
+    "chapter": 16,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Quantos demónios tinha Jesus expulsado de Maria Madalena?",
+      "fr": "Combien de démons Jésus avait-il chassés de Marie de Magdala ?",
+      "en": "How many devils had Jesus cast out of Mary Magdalene?",
+      "es": "¿Cuántos demonios había echado Jesús de María Magdalena?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Três",
+          "fr": "Trois",
+          "en": "Three",
+          "es": "Tres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cinco",
+          "fr": "Cinq",
+          "en": "Five",
+          "es": "Cinco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-010",
+    "type": "choice",
+    "level": "hard",
+    "book": "LUK",
+    "chapter": 8,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Joana, uma das mulheres que serviam Jesus, era mulher de Cuza. De quem era Cuza mordomo?",
+      "fr": "Jeanne, une des femmes qui assistaient Jésus, était femme de Chuza. De qui Chuza était-il l’intendant ?",
+      "en": "Joanna, one of the women who ministered unto Jesus, was the wife of Chuza. Whose steward was Chuza?",
+      "es": "Juana, una de las mujeres que servían a Jesús, era mujer de Chuza. ¿De quién era Chuza procurador?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De Herodes",
+          "fr": "D’Hérode",
+          "en": "Herod’s",
+          "es": "De Herodes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De Pilatos",
+          "fr": "De Pilate",
+          "en": "Pilate’s",
+          "es": "De Pilato"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De Caifás",
+          "fr": "De Caïphe",
+          "en": "Caiaphas’",
+          "es": "De Caifás"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De César",
+          "fr": "De César",
+          "en": "Cæsar’s",
+          "es": "De César"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-011",
+    "type": "choice",
+    "level": "hard",
+    "book": "LUK",
+    "chapter": 24,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Segundo Lucas 24:13, a que distância de Jerusalém ficava a aldeia de Emaús?",
+      "fr": "Selon Luc 24:13, à quelle distance de Jérusalem se trouvait le village d’Émmaüs ?",
+      "en": "According to Luke 24:13, how far from Jerusalem was the village of Emmaus?",
+      "es": "Según Lucas 24:13, ¿a qué distancia de Jerusalem estaba la aldea de Emmaús?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Sessenta estádios",
+          "fr": "Soixante stades",
+          "en": "Threescore furlongs",
+          "es": "Sesenta estadios"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Trinta estádios",
+          "fr": "Trente stades",
+          "en": "Thirty furlongs",
+          "es": "Treinta estadios"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cem estádios",
+          "fr": "Cent stades",
+          "en": "An hundred furlongs",
+          "es": "Cien estadios"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vinte estádios",
+          "fr": "Vingt stades",
+          "en": "Twenty furlongs",
+          "es": "Veinte estadios"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-012",
+    "type": "choice",
+    "level": "hard",
+    "book": "LUK",
+    "chapter": 13,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Quantas pessoas morreram quando caiu a torre de Siloé?",
+      "fr": "Combien de personnes moururent quand la tour de Siloé tomba ?",
+      "en": "How many died when the tower in Siloam fell upon them?",
+      "es": "¿Cuántos murieron cuando cayó la torre en Siloé?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Dezoito",
+          "fr": "Dix-huit",
+          "en": "Eighteen",
+          "es": "Dieciocho"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quarenta",
+          "fr": "Quarante",
+          "en": "Forty",
+          "es": "Cuarenta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Setenta",
+          "fr": "Septante",
+          "en": "Seventy",
+          "es": "Setenta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-013",
+    "type": "choice",
+    "level": "hard",
+    "book": "LUK",
+    "chapter": 1,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Isabel, mulher do sacerdote Zacarias, era das filhas de quem?",
+      "fr": "Élisabeth, femme du sacrificateur Zacharie, était d’entre les filles de qui ?",
+      "en": "Elisabeth, the wife of the priest Zacharias, was of the daughters of whom?",
+      "es": "Elisabet, mujer del sacerdote Zacarías, ¿de las hijas de quién era?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De Arão",
+          "fr": "D’Aaron",
+          "en": "Of Aaron",
+          "es": "De Aarón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De David",
+          "fr": "De David",
+          "en": "Of David",
+          "es": "De David"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De Moisés",
+          "fr": "De Moïse",
+          "en": "Of Moses",
+          "es": "De Moisés"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De Jacob",
+          "fr": "De Jacob",
+          "en": "Of Jacob",
+          "es": "De Jacob"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-014",
+    "type": "choice",
+    "level": "hard",
+    "book": "LUK",
+    "chapter": 19,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Na parábola das minas, quantos servos chamou o homem nobre antes de partir?",
+      "fr": "Dans la parabole des mines, combien de serviteurs l’homme de haute naissance appela-t-il avant de partir ?",
+      "en": "In the parable of the pounds, how many servants did the nobleman call before he left?",
+      "es": "En la parábola de las minas, ¿cuántos siervos llamó el hombre noble antes de partir?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Dez",
+          "fr": "Dix",
+          "en": "Ten",
+          "es": "Diez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Três",
+          "fr": "Trois",
+          "en": "Three",
+          "es": "Tres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cinco",
+          "fr": "Cinq",
+          "en": "Five",
+          "es": "Cinco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-015",
+    "type": "choice",
+    "level": "hard",
+    "book": "JHN",
+    "chapter": 2,
+    "verse_start": 20,
+    "verse_end": 20,
+    "prompt": {
+      "pt": "Segundo os judeus em João 2:20, quantos anos se levou a edificar o templo?",
+      "fr": "Selon les Juifs en Jean 2:20, combien d’années a-t-il fallu pour bâtir le temple ?",
+      "en": "According to the Jews in John 2:20, how many years was the temple in building?",
+      "es": "Según los judíos en Juan 2:20, ¿en cuántos años fue edificado el templo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Quarenta e seis",
+          "fr": "Quarante-six",
+          "en": "Forty and six",
+          "es": "Cuarenta y seis"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quarenta",
+          "fr": "Quarante",
+          "en": "Forty",
+          "es": "Cuarenta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Setenta",
+          "fr": "Septante",
+          "en": "Seventy",
+          "es": "Setenta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-016",
+    "type": "choice",
+    "level": "hard",
+    "book": "JHN",
+    "chapter": 5,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Segundo João 5:2, quantas entradas cobertas tinha o tanque de Betesda?",
+      "fr": "Selon Jean 5:2, combien de portiques avait la piscine de Béthesda ?",
+      "en": "According to John 5:2, how many porches had the pool of Bethesda?",
+      "es": "Según Juan 5:2, ¿cuántos portales tenía el estanque de Bethesda?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Cinco",
+          "fr": "Cinq",
+          "en": "Five",
+          "es": "Cinco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Três",
+          "fr": "Trois",
+          "en": "Three",
+          "es": "Tres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-017",
+    "type": "choice",
+    "level": "hard",
+    "book": "JHN",
+    "chapter": 19,
+    "verse_start": 39,
+    "verse_end": 39,
+    "prompt": {
+      "pt": "Para o corpo de Jesus, quantos arráteis de mirra e aloés trouxe Nicodemos, aproximadamente?",
+      "fr": "Pour le corps de Jésus, environ combien de livres de myrrhe et d’aloès Nicodème apporta-t-il ?",
+      "en": "For the body of Jesus, about how many pounds of myrrh and aloes did Nicodemus bring?",
+      "es": "Para el cuerpo de Jesús, ¿cuántas libras de mirra y de áloes trajo Nicodemo, poco más o menos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Cem",
+          "fr": "Cent",
+          "en": "An hundred",
+          "es": "Cien"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dez",
+          "fr": "Dix",
+          "en": "Ten",
+          "es": "Diez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Trinta",
+          "fr": "Trente",
+          "en": "Thirty",
+          "es": "Treinta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mil",
+          "fr": "Mille",
+          "en": "A thousand",
+          "es": "Mil"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-018",
+    "type": "choice",
+    "level": "hard",
+    "book": "JHN",
+    "chapter": 11,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Por que outro nome era chamado o discípulo Tomé?",
+      "fr": "De quel autre nom était appelé le disciple Thomas ?",
+      "en": "By what other name was the disciple Thomas called?",
+      "es": "¿Con qué otro nombre se llamaba el discípulo Tomás?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Dídimo",
+          "fr": "Didyme",
+          "en": "Didymus",
+          "es": "Dídimo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cefas",
+          "fr": "Céphas",
+          "en": "Cephas",
+          "es": "Cephas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tadeu",
+          "fr": "Thaddée",
+          "en": "Thaddaeus",
+          "es": "Tadeo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Boanerges",
+          "fr": "Boanergès",
+          "en": "Boanerges",
+          "es": "Boanerges"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-019",
+    "type": "choice",
+    "level": "hard",
+    "book": "JHN",
+    "chapter": 12,
+    "verse_start": 4,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Segundo Judas Iscariotes, por quanto se podia ter vendido o perfume de Maria?",
+      "fr": "Selon Judas Iscariot, pour combien aurait-on pu vendre le parfum de Marie ?",
+      "en": "According to Judas Iscariot, for how much could Mary’s ointment have been sold?",
+      "es": "Según Judas Iscariote, ¿por cuánto se podía haber vendido el ungüento de María?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Trezentos dinheiros",
+          "fr": "Trois cents deniers",
+          "en": "Three hundred pence",
+          "es": "Trescientos dineros"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Trinta dinheiros",
+          "fr": "Trente deniers",
+          "en": "Thirty pence",
+          "es": "Treinta dineros"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cem dinheiros",
+          "fr": "Cent deniers",
+          "en": "An hundred pence",
+          "es": "Cien dineros"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mil dinheiros",
+          "fr": "Mille deniers",
+          "en": "A thousand pence",
+          "es": "Mil dineros"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-020",
+    "type": "choice",
+    "level": "hard",
+    "book": "ACT",
+    "chapter": 4,
+    "verse_start": 36,
+    "verse_end": 36,
+    "prompt": {
+      "pt": "Barnabé, o levita a quem os apóstolos deram esse sobrenome, era natural de que terra?",
+      "fr": "Barnabas, le Lévite ainsi surnommé par les apôtres, était originaire de quel pays ?",
+      "en": "Barnabas, the Levite so surnamed by the apostles, was of what country?",
+      "es": "Bernabé, el levita así llamado por los apóstoles, ¿de qué tierra era natural?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Chipre",
+          "fr": "Chypre",
+          "en": "Cyprus",
+          "es": "Cipro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Creta",
+          "fr": "Crète",
+          "en": "Crete",
+          "es": "Creta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cilícia",
+          "fr": "Cilicie",
+          "en": "Cilicia",
+          "es": "Cilicia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Egito",
+          "fr": "Égypte",
+          "en": "Egypt",
+          "es": "Egipto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-021",
+    "type": "choice",
+    "level": "hard",
+    "book": "ACT",
+    "chapter": 14,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Em Listra, a quem chamava o povo Júpiter?",
+      "fr": "À Lystre, qui la foule appelait-elle Jupiter ?",
+      "en": "At Lystra, whom did the people call Jupiter?",
+      "es": "En Listra, ¿a quién llamaba la gente Júpiter?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Barnabé",
+          "fr": "Barnabas",
+          "en": "Barnabas",
+          "es": "Bernabé"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Paulo",
+          "fr": "Paul",
+          "en": "Paul",
+          "es": "Pablo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Silas",
+          "fr": "Silas",
+          "en": "Silas",
+          "es": "Silas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Timóteo",
+          "fr": "Timothée",
+          "en": "Timotheus",
+          "es": "Timoteo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-022",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios de Mateus pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Matthieu dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Matthew in the order they happened.",
+      "es": "Ordena estos episodios de Mateo según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "MAT",
+        "chapter": 22,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "Jesus diz: «Dai a César o que é de César»",
+          "fr": "Jésus dit : « Rendez à César ce qui est à César »",
+          "en": "Jesus says, “Render unto Cæsar the things which are Cæsar’s”",
+          "es": "Jesús dice: «Pagad a César lo que es de César»"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 22,
+        "verse_start": 25,
+        "verse_end": 25,
+        "text": {
+          "pt": "Os saduceus falam de sete irmãos e uma só mulher",
+          "fr": "Les sadducéens parlent de sept frères et d’une seule femme",
+          "en": "The Sadducees tell of seven brethren and one wife",
+          "es": "Los saduceos hablan de siete hermanos y una mujer"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 22,
+        "verse_start": 42,
+        "verse_end": 42,
+        "text": {
+          "pt": "Jesus pergunta: «De quem é filho o Cristo?»",
+          "fr": "Jésus demande : « De qui le Christ est-il fils ? »",
+          "en": "Jesus asks, “Whose son is Christ?”",
+          "es": "Jesús pregunta: «¿De quién es Hijo el Cristo?»"
+        }
+      },
+      {
+        "book": "MAT",
+        "chapter": 24,
+        "verse_start": 1,
+        "verse_end": 2,
+        "text": {
+          "pt": "Jesus diz que do templo não ficará pedra sobre pedra",
+          "fr": "Jésus dit qu’il ne restera pas du temple pierre sur pierre",
+          "en": "Jesus says no stone of the temple shall be left upon another",
+          "es": "Jesús dice que del templo no quedará piedra sobre piedra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-023",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios de Marcos pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Marc dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Mark in the order they happened.",
+      "es": "Ordena estos episodios de Marcos según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "MRK",
+        "chapter": 7,
+        "verse_start": 29,
+        "verse_end": 29,
+        "text": {
+          "pt": "O demónio sai da filha de uma mulher grega",
+          "fr": "Le démon sort de la fille d’une femme grecque",
+          "en": "The devil goes out of a Greek woman’s daughter",
+          "es": "El demonio sale de la hija de una mujer griega"
+        }
+      },
+      {
+        "book": "MRK",
+        "chapter": 7,
+        "verse_start": 35,
+        "verse_end": 35,
+        "text": {
+          "pt": "Os ouvidos de um surdo abrem-se e ele fala bem",
+          "fr": "Les oreilles d’un sourd s’ouvrent et il parle très bien",
+          "en": "A deaf man’s ears are opened and he speaks plain",
+          "es": "Los oídos de un sordo son abiertos y habla bien"
+        }
+      },
+      {
+        "book": "MRK",
+        "chapter": 8,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Sobram sete cestos depois de uma multidão comer",
+          "fr": "On emporte sept corbeilles de morceaux qui restent",
+          "en": "Seven baskets of broken meat are taken up",
+          "es": "Se levantan siete espuertas de pedazos sobrados"
+        }
+      },
+      {
+        "book": "MRK",
+        "chapter": 8,
+        "verse_start": 25,
+        "verse_end": 25,
+        "text": {
+          "pt": "Um cego de Betsaida passa a ver todos claramente",
+          "fr": "Un aveugle de Bethsaïda voit tout distinctement",
+          "en": "A blind man of Bethsaida sees every man clearly",
+          "es": "Un ciego de Bethsaida ve claramente a todos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-024",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios de Lucas pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Luc dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Luke in the order they happened.",
+      "es": "Ordena estos episodios de Lucas según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "LUK",
+        "chapter": 7,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "O servo de um centurião é achado com saúde",
+          "fr": "Le serviteur d’un centenier est trouvé guéri",
+          "en": "A centurion’s servant is found whole",
+          "es": "El siervo de un centurión es hallado sano"
+        }
+      },
+      {
+        "book": "LUK",
+        "chapter": 7,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "O filho de uma viúva de Naim senta-se e fala",
+          "fr": "Le fils d’une veuve de Naïn s’assied et parle",
+          "en": "A widow’s son at Nain sits up and speaks",
+          "es": "El hijo de una viuda de Naín se incorpora y habla"
+        }
+      },
+      {
+        "book": "LUK",
+        "chapter": 7,
+        "verse_start": 19,
+        "verse_end": 19,
+        "text": {
+          "pt": "João manda perguntar: «És tu aquele que havia de vir?»",
+          "fr": "Jean fait demander : « Es-tu celui qui doit venir ? »",
+          "en": "John sends to ask, “Art thou he that should come?”",
+          "es": "Juan envía a preguntar: «¿Eres tú aquél que había de venir?»"
+        }
+      },
+      {
+        "book": "LUK",
+        "chapter": 7,
+        "verse_start": 38,
+        "verse_end": 38,
+        "text": {
+          "pt": "Uma pecadora molha com lágrimas os pés de Jesus",
+          "fr": "Une pécheresse mouille de ses larmes les pieds de Jésus",
+          "en": "A sinful woman washes Jesus’ feet with tears",
+          "es": "Una pecadora riega con lágrimas los pies de Jesús"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-025",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios de Lucas pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Luc dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Luke in the order they happened.",
+      "es": "Ordena estos episodios de Lucas según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "LUK",
+        "chapter": 22,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Jesus manda Pedro e João preparar a Páscoa",
+          "fr": "Jésus envoie Pierre et Jean préparer la Pâque",
+          "en": "Jesus sends Peter and John to prepare the passover",
+          "es": "Jesús envía a Pedro y a Juan a preparar la pascua"
+        }
+      },
+      {
+        "book": "LUK",
+        "chapter": 22,
+        "verse_start": 31,
+        "verse_end": 31,
+        "text": {
+          "pt": "Jesus diz: «Simão, Simão, Satanás pediu para vos peneirar»",
+          "fr": "Jésus dit : « Simon, Simon, Satan vous a réclamés »",
+          "en": "Jesus says, “Simon, Simon, Satan hath desired to have you”",
+          "es": "Jesús dice: «Simón, Simón, Satanás os ha pedido»"
+        }
+      },
+      {
+        "book": "LUK",
+        "chapter": 22,
+        "verse_start": 51,
+        "verse_end": 51,
+        "text": {
+          "pt": "Jesus toca na orelha de um servo e cura-o",
+          "fr": "Jésus touche l’oreille d’un serviteur et le guérit",
+          "en": "Jesus touches a servant’s ear and heals him",
+          "es": "Jesús toca la oreja de un siervo y le sana"
+        }
+      },
+      {
+        "book": "LUK",
+        "chapter": 23,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Pilatos e Herodes fazem-se amigos",
+          "fr": "Pilate et Hérode deviennent amis",
+          "en": "Pilate and Herod are made friends",
+          "es": "Pilato y Herodes se hacen amigos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-026",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios de João pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Jean dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from John in the order they happened.",
+      "es": "Ordena estos episodios de Juan según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JHN",
+        "chapter": 9,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Jesus faz lama com saliva e unta os olhos do cego",
+          "fr": "Jésus met de la boue faite de salive sur les yeux de l’aveugle",
+          "en": "Jesus anoints a blind man’s eyes with clay of spittle",
+          "es": "Jesús unta los ojos del ciego con lodo de saliva"
+        }
+      },
+      {
+        "book": "JHN",
+        "chapter": 9,
+        "verse_start": 19,
+        "verse_end": 19,
+        "text": {
+          "pt": "Os pais do homem são interrogados",
+          "fr": "Les parents de l’homme sont interrogés",
+          "en": "The man’s parents are questioned",
+          "es": "Los padres del hombre son interrogados"
+        }
+      },
+      {
+        "book": "JHN",
+        "chapter": 9,
+        "verse_start": 34,
+        "verse_end": 34,
+        "text": {
+          "pt": "O homem que foi curado é lançado fora",
+          "fr": "L’homme guéri est chassé",
+          "en": "The healed man is cast out",
+          "es": "El hombre sanado es echado fuera"
+        }
+      },
+      {
+        "book": "JHN",
+        "chapter": 9,
+        "verse_start": 35,
+        "verse_end": 35,
+        "text": {
+          "pt": "Jesus pergunta-lhe: «Crês tu no Filho de Deus?»",
+          "fr": "Jésus lui demande : « Crois-tu au Fils de Dieu ? »",
+          "en": "Jesus asks him, “Dost thou believe on the Son of God?”",
+          "es": "Jesús le pregunta: «¿Crees tú en el Hijo de Dios?»"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-027",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios de João pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de Jean dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from John in the order they happened.",
+      "es": "Ordena estos episodios de Juan según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JHN",
+        "chapter": 13,
+        "verse_start": 26,
+        "verse_end": 26,
+        "text": {
+          "pt": "Jesus dá o pedaço de pão molhado a Judas",
+          "fr": "Jésus donne le morceau trempé à Judas",
+          "en": "Jesus gives the sop to Judas",
+          "es": "Jesús da el pan mojado a Judas"
+        }
+      },
+      {
+        "book": "JHN",
+        "chapter": 13,
+        "verse_start": 30,
+        "verse_end": 30,
+        "text": {
+          "pt": "Judas sai logo, e já era noite",
+          "fr": "Judas sort aussitôt ; il était nuit",
+          "en": "Judas goes out immediately, and it is night",
+          "es": "Judas sale luego, y era ya noche"
+        }
+      },
+      {
+        "book": "JHN",
+        "chapter": 18,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Jesus passa com os discípulos o ribeiro de Cedrom",
+          "fr": "Jésus passe avec ses disciples le torrent du Cédron",
+          "en": "Jesus goes with his disciples over the brook Cedron",
+          "es": "Jesús pasa con sus discípulos el arroyo de Cedrón"
+        }
+      },
+      {
+        "book": "JHN",
+        "chapter": 18,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Os que vêm prender Jesus caem por terra",
+          "fr": "Ceux qui viennent arrêter Jésus tombent par terre",
+          "en": "Those who come to take Jesus fall to the ground",
+          "es": "Los que vienen a prender a Jesús caen en tierra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-028",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios de Atos pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes des Actes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes from Acts in the order they happened.",
+      "es": "Ordena estos episodios de Hechos según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ACT",
+        "chapter": 21,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Ágabo ata os pés e as mãos com a cinta de Paulo",
+          "fr": "Agabus se lie les pieds et les mains avec la ceinture de Paul",
+          "en": "Agabus binds his own hands and feet with Paul’s girdle",
+          "es": "Agabo se ata los pies y las manos con el cinto de Pablo"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 21,
+        "verse_start": 26,
+        "verse_end": 26,
+        "text": {
+          "pt": "Paulo purifica-se e entra no templo",
+          "fr": "Paul se purifie et entre dans le temple",
+          "en": "Paul purifies himself and enters the temple",
+          "es": "Pablo se purifica y entra en el templo"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 21,
+        "verse_start": 40,
+        "verse_end": 40,
+        "text": {
+          "pt": "Paulo, de pé nas escadas, fala ao povo em hebraico",
+          "fr": "Paul, debout sur les degrés, parle au peuple en hébreu",
+          "en": "Paul, standing on the stairs, speaks in the Hebrew tongue",
+          "es": "Pablo, en pie en las gradas, habla al pueblo en hebreo"
+        }
+      },
+      {
+        "book": "ACT",
+        "chapter": 22,
+        "verse_start": 25,
+        "verse_end": 25,
+        "text": {
+          "pt": "Paulo pergunta se é lícito açoitar um romano",
+          "fr": "Paul demande s’il est permis de battre de verges un Romain",
+          "en": "Paul asks if it is lawful to scourge a Roman",
+          "es": "Pablo pregunta si es lícito azotar a un Romano"
+        }
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-029",
+    "type": "verse",
+    "level": "hard",
+    "book": "MAT",
+    "chapter": 23,
+    "verse_start": 24,
+    "verse_end": 24,
+    "blank": {
+      "pt": "camelo",
+      "fr": "chameau",
+      "en": "camel",
+      "es": "camello"
+    },
+    "distractors": [
+      {
+        "pt": "leão",
+        "fr": "lion",
+        "en": "lion",
+        "es": "león"
+      },
+      {
+        "pt": "cavalo",
+        "fr": "cheval",
+        "en": "horse",
+        "es": "caballo"
+      },
+      {
+        "pt": "touro",
+        "fr": "taureau",
+        "en": "bull",
+        "es": "toro"
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-030",
+    "type": "verse",
+    "level": "hard",
+    "book": "MRK",
+    "chapter": 9,
+    "verse_start": 24,
+    "verse_end": 24,
+    "blank": {
+      "pt": "incredulidade",
+      "fr": "incrédulité",
+      "en": "unbelief",
+      "es": "incredulidad"
+    },
+    "distractors": [
+      {
+        "pt": "enfermidade",
+        "fr": "infirmité",
+        "en": "infirmity",
+        "es": "enfermedad"
+      },
+      {
+        "pt": "ignorância",
+        "fr": "ignorance",
+        "en": "ignorance",
+        "es": "ignorancia"
+      },
+      {
+        "pt": "angústia",
+        "fr": "angoisse",
+        "en": "anguish",
+        "es": "angustia"
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-031",
+    "type": "verse",
+    "level": "hard",
+    "book": "LUK",
+    "chapter": 9,
+    "verse_start": 62,
+    "verse_end": 62,
+    "blank": {
+      "pt": "arado",
+      "fr": "charrue",
+      "en": "plough",
+      "es": "arado"
+    },
+    "distractors": [
+      {
+        "pt": "machado",
+        "fr": "hache",
+        "en": "axe",
+        "es": "hacha"
+      },
+      {
+        "pt": "remo",
+        "fr": "rame",
+        "en": "oar",
+        "es": "remo"
+      },
+      {
+        "pt": "forcado",
+        "fr": "fourche",
+        "en": "pitchfork",
+        "es": "bieldo"
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-032",
+    "type": "verse",
+    "level": "hard",
+    "book": "LUK",
+    "chapter": 12,
+    "verse_start": 15,
+    "verse_end": 15,
+    "blank": {
+      "pt": "ganância",
+      "fr": "avarice",
+      "en": "covetousness",
+      "es": "avaricia"
+    },
+    "distractors": [
+      {
+        "pt": "preguiça",
+        "fr": "paresse",
+        "en": "sloth",
+        "es": "pereza"
+      },
+      {
+        "pt": "ira",
+        "fr": "colère",
+        "en": "anger",
+        "es": "ira"
+      },
+      {
+        "pt": "inveja",
+        "fr": "envie",
+        "en": "envy",
+        "es": "envidia"
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-033",
+    "type": "verse",
+    "level": "hard",
+    "book": "JHN",
+    "chapter": 3,
+    "verse_start": 30,
+    "verse_end": 30,
+    "blank": {
+      "pt": "diminuir",
+      "fr": "diminue",
+      "en": "decrease",
+      "es": "menguar"
+    },
+    "distractors": [
+      {
+        "pt": "servir",
+        "fr": "serve",
+        "en": "serve",
+        "es": "servir"
+      },
+      {
+        "pt": "partir",
+        "fr": "parte",
+        "en": "depart",
+        "es": "partir"
+      },
+      {
+        "pt": "cair",
+        "fr": "tombe",
+        "en": "fall",
+        "es": "caer"
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-034",
+    "type": "verse",
+    "level": "hard",
+    "book": "ACT",
+    "chapter": 26,
+    "verse_start": 28,
+    "verse_end": 28,
+    "blank": {
+      "pt": "cristão",
+      "fr": "chrétien",
+      "en": "Christian",
+      "es": "cristiano"
+    },
+    "distractors": [
+      {
+        "pt": "judeu",
+        "fr": "juif",
+        "en": "Jew",
+        "es": "judío"
+      },
+      {
+        "pt": "grego",
+        "fr": "grec",
+        "en": "Greek",
+        "es": "griego"
+      },
+      {
+        "pt": "romano",
+        "fr": "romain",
+        "en": "Roman",
+        "es": "romano"
+      }
+    ]
+  },
+  {
+    "id": "evan2-hard-035",
+    "type": "verse",
+    "level": "hard",
+    "book": "ACT",
+    "chapter": 17,
+    "verse_start": 28,
+    "verse_end": 28,
+    "blank": {
+      "pt": "poetas",
+      "fr": "poètes",
+      "en": "poets",
+      "es": "poetas"
+    },
+    "distractors": [
+      {
+        "pt": "profetas",
+        "fr": "prophètes",
+        "en": "prophets",
+        "es": "profetas"
+      },
+      {
+        "pt": "sábios",
+        "fr": "sages",
+        "en": "wise men",
+        "es": "sabios"
+      },
+      {
+        "pt": "reis",
+        "fr": "rois",
+        "en": "kings",
+        "es": "reyes"
+      }
+    ]
+  }
+]

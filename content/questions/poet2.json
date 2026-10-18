@@ -1,0 +1,5086 @@
+[
+  {
+    "id": "poet2-easy-001",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JOB",
+        "chapter": 1,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Satanás apresenta-se diante do SENHOR",
+          "fr": "Satan se présente devant l’Éternel",
+          "en": "Satan comes before the LORD",
+          "es": "Satán se presenta delante de Jehová"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 1,
+        "verse_start": 19,
+        "verse_end": 19,
+        "text": {
+          "pt": "Um grande vento derruba a casa",
+          "fr": "Un grand vent fait s’écrouler la maison",
+          "en": "A great wind makes the house fall",
+          "es": "Un gran viento derriba la casa"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 2,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Jó é ferido de chagas malignas",
+          "fr": "Job est frappé d’un ulcère malin",
+          "en": "Job is struck with sore boils",
+          "es": "Job es herido de una maligna sarna"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 2,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Jó senta-se no meio da cinza",
+          "fr": "Job s’assied sur la cendre",
+          "en": "Job sits down among the ashes",
+          "es": "Job se sienta en medio de ceniza"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-002",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "PSA",
+        "chapter": 136,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Deus fere os primogénitos do Egipto",
+          "fr": "Dieu frappe les premiers-nés d’Égypte",
+          "en": "God smites Egypt in their firstborn",
+          "es": "Dios hiere a Egipto en sus primogénitos"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 136,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Deus divide o mar Vermelho",
+          "fr": "Dieu coupe en deux la mer Rouge",
+          "en": "God divides the Red sea",
+          "es": "Dios divide el mar Bermejo"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 136,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Faraó e o seu exército caem no mar",
+          "fr": "Pharaon et son armée sont précipités dans la mer",
+          "en": "Pharaoh and his host are overthrown in the sea",
+          "es": "Faraón y su ejército son arrojados al mar"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 136,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Deus guia o seu povo pelo deserto",
+          "fr": "Dieu conduit son peuple dans le désert",
+          "en": "God leads his people through the wilderness",
+          "es": "Dios pastorea a su pueblo por el desierto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-003",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "José é vendido como escravo",
+          "fr": "Joseph est vendu comme esclave",
+          "en": "Joseph is sold for a servant",
+          "es": "José es vendido por siervo"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "Israel entra no Egipto",
+          "fr": "Israël vient en Égypte",
+          "en": "Israel comes into Egypt",
+          "es": "Israel entra en Egipto"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 26,
+        "verse_end": 26,
+        "text": {
+          "pt": "Deus envia Moisés e Arão",
+          "fr": "Dieu envoie Moïse et Aaron",
+          "en": "God sends Moses and Aaron",
+          "es": "Dios envía a Moisés y a Aarón"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 37,
+        "verse_end": 37,
+        "text": {
+          "pt": "Israel sai com prata e ouro",
+          "fr": "Le peuple sort avec de l’argent et de l’or",
+          "en": "Israel goes out with silver and gold",
+          "es": "Israel sale con plata y oro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-004",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "PSA",
+        "chapter": 78,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Deus divide o mar e o povo passa",
+          "fr": "Dieu fend la mer et le peuple passe",
+          "en": "God divides the sea and they pass through",
+          "es": "Dios rompe el mar y el pueblo pasa"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 78,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "Deus faz chover o maná",
+          "fr": "Dieu fait pleuvoir la manne",
+          "en": "God rains down manna",
+          "es": "Dios hace llover maná"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 78,
+        "verse_start": 55,
+        "verse_end": 55,
+        "text": {
+          "pt": "As tribos recebem a terra como herança",
+          "fr": "Les tribus reçoivent le pays en héritage",
+          "en": "The tribes receive their inheritance",
+          "es": "Las tribus reciben su herencia"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 78,
+        "verse_start": 70,
+        "verse_end": 70,
+        "text": {
+          "pt": "Deus escolhe David dos currais das ovelhas",
+          "fr": "Dieu choisit David et le tire des bergeries",
+          "en": "God chooses David from the sheepfolds",
+          "es": "Dios escoge a David de las majadas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-005",
+    "type": "choice",
+    "level": "easy",
+    "book": "JOB",
+    "chapter": 1,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Quantos filhos e filhas tinha Jó no início da história?",
+      "fr": "Combien de fils et de filles Job avait-il au début de l’histoire ?",
+      "en": "How many sons and daughters did Job have at the start of the story?",
+      "es": "¿Cuántos hijos e hijas tenía Job al principio de la historia?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Sete filhos e três filhas",
+          "fr": "Sept fils et trois filles",
+          "en": "Seven sons and three daughters",
+          "es": "Siete hijos y tres hijas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze filhos e uma filha",
+          "fr": "Douze fils et une fille",
+          "en": "Twelve sons and one daughter",
+          "es": "Doce hijos y una hija"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Três filhos e sete filhas",
+          "fr": "Trois fils et sept filles",
+          "en": "Three sons and seven daughters",
+          "es": "Tres hijos y siete hijas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dois filhos e duas filhas",
+          "fr": "Deux fils et deux filles",
+          "en": "Two sons and two daughters",
+          "es": "Dos hijos y dos hijas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-006",
+    "type": "choice",
+    "level": "easy",
+    "book": "JOB",
+    "chapter": 1,
+    "verse_start": 20,
+    "verse_end": 20,
+    "prompt": {
+      "pt": "Depois de perder tudo, o que fez Jó?",
+      "fr": "Après avoir tout perdu, que fit Job ?",
+      "en": "After losing everything, what did Job do?",
+      "es": "Después de perderlo todo, ¿qué hizo Job?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Prostrou-se em terra e adorou",
+          "fr": "Il se jeta par terre et se prosterna",
+          "en": "He fell down upon the ground and worshipped",
+          "es": "Cayó en tierra y adoró"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Fugiu para o deserto",
+          "fr": "Il s’enfuit au désert",
+          "en": "He ran away into the wilderness",
+          "es": "Huyó al desierto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Amaldiçoou a Deus",
+          "fr": "Il maudit Dieu",
+          "en": "He cursed God",
+          "es": "Maldijo a Dios"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Construiu uma casa nova",
+          "fr": "Il construisit une nouvelle maison",
+          "en": "He built a new house",
+          "es": "Construyó una casa nueva"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-007",
+    "type": "choice",
+    "level": "easy",
+    "book": "JOB",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Jó 1:1, que tipo de homem era Jó?",
+      "fr": "Selon Job 1:1, quel genre d’homme était Job ?",
+      "en": "According to Job 1:1, what kind of man was Job?",
+      "es": "Según Job 1:1, ¿qué clase de hombre era Job?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Íntegro e correto",
+          "fr": "Intègre et droit",
+          "en": "Perfect and upright",
+          "es": "Perfecto y recto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Preguiçoso e tolo",
+          "fr": "Paresseux et insensé",
+          "en": "Lazy and foolish",
+          "es": "Perezoso y necio"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pobre e doente",
+          "fr": "Pauvre et malade",
+          "en": "Poor and sick",
+          "es": "Pobre y enfermo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Orgulhoso e cruel",
+          "fr": "Orgueilleux et cruel",
+          "en": "Proud and cruel",
+          "es": "Orgulloso y cruel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-008",
+    "type": "choice",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 23,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "No Salmo 23, por qual vale anda o salmista sem temer mal algum?",
+      "fr": "Dans le Psaume 23, dans quelle vallée le psalmiste marche-t-il sans craindre aucun mal ?",
+      "en": "In Psalm 23, through which valley does the psalmist walk without fearing evil?",
+      "es": "En el Salmo 23, ¿por qué valle anda el salmista sin temer mal alguno?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O vale da sombra da morte",
+          "fr": "La vallée de l’ombre de la mort",
+          "en": "The valley of the shadow of death",
+          "es": "El valle de sombra de muerte"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O vale do Jordão",
+          "fr": "La vallée du Jourdain",
+          "en": "The valley of the Jordan",
+          "es": "El valle del Jordán"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O vale dos leões",
+          "fr": "La vallée des lions",
+          "en": "The valley of lions",
+          "es": "El valle de los leones"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O vale das flores",
+          "fr": "La vallée des fleurs",
+          "en": "The valley of flowers",
+          "es": "El valle de las flores"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-009",
+    "type": "choice",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 24,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo o Salmo 24:1, a quem pertence a terra?",
+      "fr": "Selon le Psaume 24:1, à qui appartient la terre ?",
+      "en": "According to Psalm 24:1, whose is the earth?",
+      "es": "Según el Salmo 24:1, ¿de quién es la tierra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Ao SENHOR",
+          "fr": "À l’Éternel",
+          "en": "The LORD’s",
+          "es": "De Jehová"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aos reis",
+          "fr": "Aux rois",
+          "en": "The kings’",
+          "es": "De los reyes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aos anjos",
+          "fr": "Aux anges",
+          "en": "The angels’",
+          "es": "De los ángeles"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aos ricos",
+          "fr": "Aux riches",
+          "en": "The rich men’s",
+          "es": "De los ricos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-010",
+    "type": "choice",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 96,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo o Salmo 96:1, que canção devemos cantar ao SENHOR?",
+      "fr": "Selon le Psaume 96:1, quel cantique faut-il chanter à l’Éternel ?",
+      "en": "According to Psalm 96:1, what kind of song should we sing unto the LORD?",
+      "es": "Según el Salmo 96:1, ¿qué canción debemos cantar a Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma nova canção",
+          "fr": "Un cantique nouveau",
+          "en": "A new song",
+          "es": "Una canción nueva"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma canção triste",
+          "fr": "Un cantique triste",
+          "en": "A sad song",
+          "es": "Una canción triste"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma canção antiga",
+          "fr": "Un cantique ancien",
+          "en": "An old song",
+          "es": "Una canción antigua"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma canção de guerra",
+          "fr": "Un chant de guerre",
+          "en": "A song of war",
+          "es": "Una canción de guerra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-011",
+    "type": "choice",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 119,
+    "verse_start": 103,
+    "verse_end": 103,
+    "prompt": {
+      "pt": "Segundo o Salmo 119:103, as palavras de Deus são mais doces do que o quê?",
+      "fr": "Selon le Psaume 119:103, les paroles de Dieu sont plus douces que quoi ?",
+      "en": "According to Psalm 119:103, God’s words are sweeter than what?",
+      "es": "Según el Salmo 119:103, ¿más dulces que qué son las palabras de Dios?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O mel",
+          "fr": "Le miel",
+          "en": "Honey",
+          "es": "La miel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os figos",
+          "fr": "Les figues",
+          "en": "Figs",
+          "es": "Los higos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O vinho",
+          "fr": "Le vin",
+          "en": "Wine",
+          "es": "El vino"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O leite",
+          "fr": "Le lait",
+          "en": "Milk",
+          "es": "La leche"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-012",
+    "type": "choice",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 121,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Segundo o Salmo 121:2, de onde vem o socorro do salmista?",
+      "fr": "Selon le Psaume 121:2, d’où vient le secours du psalmiste ?",
+      "en": "According to Psalm 121:2, where does the psalmist’s help come from?",
+      "es": "Según el Salmo 121:2, ¿de dónde viene el socorro del salmista?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Do SENHOR, que fez os céus e a terra",
+          "fr": "De l’Éternel, qui a fait les cieux et la terre",
+          "en": "From the LORD, which made heaven and earth",
+          "es": "De Jehová, que hizo los cielos y la tierra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dos reis da terra",
+          "fr": "Des rois de la terre",
+          "en": "From the kings of the earth",
+          "es": "De los reyes de la tierra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dos seus cavalos",
+          "fr": "De ses chevaux",
+          "en": "From his horses",
+          "es": "De sus caballos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dos seus amigos",
+          "fr": "De ses amis",
+          "en": "From his friends",
+          "es": "De sus amigos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-013",
+    "type": "choice",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 91,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Segundo o Salmo 91:11, a quem dá Deus ordem para te guardar em todos os teus caminhos?",
+      "fr": "Selon le Psaume 91:11, à qui Dieu ordonne-t-il de te garder dans toutes tes voies ?",
+      "en": "According to Psalm 91:11, whom does God give charge to keep you in all your ways?",
+      "es": "Según el Salmo 91:11, ¿a quién mandará Dios que te guarde en todos tus caminos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Aos seus anjos",
+          "fr": "À ses anges",
+          "en": "His angels",
+          "es": "A sus ángeles"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aos sacerdotes",
+          "fr": "Aux prêtres",
+          "en": "The priests",
+          "es": "A los sacerdotes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aos reis",
+          "fr": "Aux rois",
+          "en": "The kings",
+          "es": "A los reyes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aos soldados",
+          "fr": "Aux soldats",
+          "en": "The soldiers",
+          "es": "A los soldados"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-014",
+    "type": "choice",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 100,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo o Salmo 100:3, somos o povo do SENHOR e o quê do seu pasto?",
+      "fr": "Selon le Psaume 100:3, nous sommes le peuple de l’Éternel et quoi de son pâturage ?",
+      "en": "According to Psalm 100:3, we are the LORD’s people and what of his pasture?",
+      "es": "Según el Salmo 100:3, somos pueblo de Jehová y ¿qué de su prado?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "As ovelhas",
+          "fr": "Le troupeau",
+          "en": "The sheep",
+          "es": "Las ovejas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os pastores",
+          "fr": "Les bergers",
+          "en": "The shepherds",
+          "es": "Los pastores"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os leões",
+          "fr": "Les lions",
+          "en": "The lions",
+          "es": "Los leones"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As árvores",
+          "fr": "Les arbres",
+          "en": "The trees",
+          "es": "Los árboles"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-015",
+    "type": "choice",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 136,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo o Salmo 136:1, porque devemos agradecer ao SENHOR?",
+      "fr": "Selon le Psaume 136:1, pourquoi faut-il louer l’Éternel ?",
+      "en": "According to Psalm 136:1, why should we give thanks unto the LORD?",
+      "es": "Según el Salmo 136:1, ¿por qué debemos alabar a Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Porque Ele é bom",
+          "fr": "Parce qu’il est bon",
+          "en": "For he is good",
+          "es": "Porque es bueno"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Porque somos ricos",
+          "fr": "Parce que nous sommes riches",
+          "en": "Because we are rich",
+          "es": "Porque somos ricos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Porque o rei o mandou",
+          "fr": "Parce que le roi l’a ordonné",
+          "en": "Because the king commanded it",
+          "es": "Porque el rey lo mandó"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Porque é dia de festa",
+          "fr": "Parce que c’est jour de fête",
+          "en": "Because it is a feast day",
+          "es": "Porque es día de fiesta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-016",
+    "type": "choice",
+    "level": "easy",
+    "book": "PRO",
+    "chapter": 6,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Segundo Provérbios 6:6, que animal deve o preguiçoso observar para se tornar sábio?",
+      "fr": "Selon Proverbes 6:6, quel animal le paresseux doit-il observer pour devenir sage ?",
+      "en": "According to Proverbs 6:6, which creature should the sluggard go to, to become wise?",
+      "es": "Según Proverbios 6:6, ¿a qué animal debe ir el perezoso para ser sabio?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A formiga",
+          "fr": "La fourmi",
+          "en": "The ant",
+          "es": "La hormiga"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A abelha",
+          "fr": "L’abeille",
+          "en": "The bee",
+          "es": "La abeja"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O leão",
+          "fr": "Le lion",
+          "en": "The lion",
+          "es": "El león"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A águia",
+          "fr": "L’aigle",
+          "en": "The eagle",
+          "es": "El águila"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-017",
+    "type": "choice",
+    "level": "easy",
+    "book": "PRO",
+    "chapter": 15,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Provérbios 15:1, o que desvia o furor?",
+      "fr": "Selon Proverbes 15:1, qu’est-ce qui calme la fureur ?",
+      "en": "According to Proverbs 15:1, what turns away wrath?",
+      "es": "Según Proverbios 15:1, ¿qué quita la ira?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma resposta suave",
+          "fr": "Une réponse douce",
+          "en": "A soft answer",
+          "es": "Una respuesta blanda"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma palavra dura",
+          "fr": "Une parole dure",
+          "en": "A harsh word",
+          "es": "Una palabra áspera"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um grito",
+          "fr": "Un cri",
+          "en": "A shout",
+          "es": "Un grito"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma ameaça",
+          "fr": "Une menace",
+          "en": "A threat",
+          "es": "Una amenaza"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-018",
+    "type": "choice",
+    "level": "easy",
+    "book": "PRO",
+    "chapter": 16,
+    "verse_start": 18,
+    "verse_end": 18,
+    "prompt": {
+      "pt": "Segundo Provérbios 16:18, o que vem antes da destruição?",
+      "fr": "Selon Proverbes 16:18, qu’est-ce qui précède la ruine ?",
+      "en": "According to Proverbs 16:18, what goes before destruction?",
+      "es": "Según Proverbios 16:18, ¿qué va antes del quebrantamiento?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A arrogância",
+          "fr": "L’arrogance",
+          "en": "Pride",
+          "es": "La soberbia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A humildade",
+          "fr": "L’humilité",
+          "en": "Humility",
+          "es": "La humildad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A sabedoria",
+          "fr": "La sagesse",
+          "en": "Wisdom",
+          "es": "La sabiduría"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A paciência",
+          "fr": "La patience",
+          "en": "Patience",
+          "es": "La paciencia"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-019",
+    "type": "choice",
+    "level": "easy",
+    "book": "PRO",
+    "chapter": 26,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Segundo Provérbios 26:11, que animal volta ao seu vómito, como o tolo à sua loucura?",
+      "fr": "Selon Proverbes 26:11, quel animal retourne à ce qu’il a vomi, comme l’insensé à sa folie ?",
+      "en": "According to Proverbs 26:11, which animal returns to his vomit, as a fool to his folly?",
+      "es": "Según Proverbios 26:11, ¿qué animal vuelve a su vómito, como el necio a su necedad?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O cão",
+          "fr": "Le chien",
+          "en": "The dog",
+          "es": "El perro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O porco",
+          "fr": "Le porc",
+          "en": "The pig",
+          "es": "El cerdo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O gato",
+          "fr": "Le chat",
+          "en": "The cat",
+          "es": "El gato"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O burro",
+          "fr": "L’âne",
+          "en": "The donkey",
+          "es": "El asno"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-020",
+    "type": "choice",
+    "level": "easy",
+    "book": "PRO",
+    "chapter": 27,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Segundo Provérbios 27:17, o que afia o ferro?",
+      "fr": "Selon Proverbes 27:17, qu’est-ce qui aiguise le fer ?",
+      "en": "According to Proverbs 27:17, what sharpens iron?",
+      "es": "Según Proverbios 27:17, ¿con qué se aguza el hierro?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O ferro",
+          "fr": "Le fer",
+          "en": "Iron",
+          "es": "El hierro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A pedra",
+          "fr": "La pierre",
+          "en": "Stone",
+          "es": "La piedra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A água",
+          "fr": "L’eau",
+          "en": "Water",
+          "es": "El agua"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O fogo",
+          "fr": "Le feu",
+          "en": "Fire",
+          "es": "El fuego"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-021",
+    "type": "choice",
+    "level": "easy",
+    "book": "ECC",
+    "chapter": 4,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Segundo Eclesiastes 4:9, quantos são melhores do que um?",
+      "fr": "Selon l’Ecclésiaste 4:9, combien valent mieux qu’un seul ?",
+      "en": "According to Ecclesiastes 4:9, how many are better than one?",
+      "es": "Según Eclesiastés 4:9, ¿cuántos son mejores que uno?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Dois",
+          "fr": "Deux",
+          "en": "Two",
+          "es": "Dos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nenhum",
+          "fr": "Aucun",
+          "en": "None",
+          "es": "Ninguno"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dez",
+          "fr": "Dix",
+          "en": "Ten",
+          "es": "Diez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mil",
+          "fr": "Mille",
+          "en": "A thousand",
+          "es": "Mil"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-022",
+    "type": "choice",
+    "level": "easy",
+    "book": "ECC",
+    "chapter": 3,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Segundo Eclesiastes 3:4, há tempo de chorar e tempo de quê?",
+      "fr": "Selon l’Ecclésiaste 3:4, il y a un temps pour pleurer et un temps pour quoi ?",
+      "en": "According to Ecclesiastes 3:4, there is a time to weep and a time to what?",
+      "es": "Según Eclesiastés 3:4, hay tiempo de llorar y ¿tiempo de qué?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Rir",
+          "fr": "Rire",
+          "en": "Laugh",
+          "es": "Reír"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dormir",
+          "fr": "Dormir",
+          "en": "Sleep",
+          "es": "Dormir"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Comer",
+          "fr": "Manger",
+          "en": "Eat",
+          "es": "Comer"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Correr",
+          "fr": "Courir",
+          "en": "Run",
+          "es": "Correr"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-023",
+    "type": "choice",
+    "level": "easy",
+    "book": "ECC",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Eclesiastes 1:1, o Pregador era filho de que rei?",
+      "fr": "Selon l’Ecclésiaste 1:1, de quel roi l’Ecclésiaste était-il le fils ?",
+      "en": "According to Ecclesiastes 1:1, the Preacher was the son of which king?",
+      "es": "Según Eclesiastés 1:1, ¿de qué rey era hijo el Predicador?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "David",
+          "fr": "David",
+          "en": "David",
+          "es": "David"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Saul",
+          "fr": "Saül",
+          "en": "Saul",
+          "es": "Saúl"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Faraó",
+          "fr": "Pharaon",
+          "en": "Pharaoh",
+          "es": "Faraón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Herodes",
+          "fr": "Hérode",
+          "en": "Herod",
+          "es": "Herodes"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-024",
+    "type": "choice",
+    "level": "easy",
+    "book": "SNG",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo o primeiro versículo, de quem é o Cântico dos Cânticos?",
+      "fr": "Selon son premier verset, de qui est le Cantique des cantiques ?",
+      "en": "According to its first verse, whose is the Song of songs?",
+      "es": "Según su primer versículo, ¿de quién es la Canción de canciones?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De Salomão",
+          "fr": "De Salomon",
+          "en": "Solomon’s",
+          "es": "De Salomón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De David",
+          "fr": "De David",
+          "en": "David’s",
+          "es": "De David"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De Moisés",
+          "fr": "De Moïse",
+          "en": "Moses’",
+          "es": "De Moisés"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De Jó",
+          "fr": "De Job",
+          "en": "Job’s",
+          "es": "De Job"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-025",
+    "type": "verse",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 27,
+    "verse_start": 1,
+    "verse_end": 1,
+    "blank": {
+      "pt": "luz",
+      "fr": "lumière",
+      "en": "light",
+      "es": "luz"
+    },
+    "distractors": [
+      {
+        "pt": "rei",
+        "fr": "roi",
+        "en": "king",
+        "es": "rey"
+      },
+      {
+        "pt": "pastor",
+        "fr": "berger",
+        "en": "shepherd",
+        "es": "pastor"
+      },
+      {
+        "pt": "escudo",
+        "fr": "bouclier",
+        "en": "shield",
+        "es": "escudo"
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-026",
+    "type": "verse",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 23,
+    "verse_start": 6,
+    "verse_end": 6,
+    "blank": {
+      "pt": "casa",
+      "fr": "maison",
+      "en": "house",
+      "es": "casa"
+    },
+    "distractors": [
+      {
+        "pt": "cidade",
+        "fr": "ville",
+        "en": "city",
+        "es": "ciudad"
+      },
+      {
+        "pt": "tenda",
+        "fr": "tente",
+        "en": "tent",
+        "es": "tienda"
+      },
+      {
+        "pt": "montanha",
+        "fr": "montagne",
+        "en": "mountain",
+        "es": "montaña"
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-027",
+    "type": "verse",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 126,
+    "verse_start": 5,
+    "verse_end": 5,
+    "blank": {
+      "pt": "lágrimas",
+      "fr": "larmes",
+      "en": "tears",
+      "es": "lágrimas"
+    },
+    "distractors": [
+      {
+        "pt": "ira",
+        "fr": "colère",
+        "en": "anger",
+        "es": "ira"
+      },
+      {
+        "pt": "pressa",
+        "fr": "hâte",
+        "en": "haste",
+        "es": "prisa"
+      },
+      {
+        "pt": "silêncio",
+        "fr": "silence",
+        "en": "silence",
+        "es": "silencio"
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-028",
+    "type": "verse",
+    "level": "easy",
+    "book": "PSA",
+    "chapter": 148,
+    "verse_start": 3,
+    "verse_end": 3,
+    "blank": {
+      "pt": "lua",
+      "fr": "lune",
+      "en": "moon",
+      "es": "luna"
+    },
+    "distractors": [
+      {
+        "pt": "mar",
+        "fr": "mer",
+        "en": "sea",
+        "es": "mar"
+      },
+      {
+        "pt": "chuva",
+        "fr": "pluie",
+        "en": "rain",
+        "es": "lluvia"
+      },
+      {
+        "pt": "terra",
+        "fr": "terre",
+        "en": "earth",
+        "es": "tierra"
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-029",
+    "type": "verse",
+    "level": "easy",
+    "book": "PRO",
+    "chapter": 17,
+    "verse_start": 17,
+    "verse_end": 17,
+    "blank": {
+      "pt": "amigo",
+      "fr": "ami",
+      "en": "friend",
+      "es": "amigo"
+    },
+    "distractors": [
+      {
+        "pt": "inimigo",
+        "fr": "ennemi",
+        "en": "foe",
+        "es": "enemigo"
+      },
+      {
+        "pt": "estrangeiro",
+        "fr": "étranger",
+        "en": "stranger",
+        "es": "extranjero"
+      },
+      {
+        "pt": "escravo",
+        "fr": "esclave",
+        "en": "slave",
+        "es": "esclavo"
+      }
+    ]
+  },
+  {
+    "id": "poet2-easy-030",
+    "type": "verse",
+    "level": "easy",
+    "book": "PRO",
+    "chapter": 22,
+    "verse_start": 6,
+    "verse_end": 6,
+    "blank": {
+      "pt": "menino",
+      "fr": "enfant",
+      "en": "child",
+      "es": "niño"
+    },
+    "distractors": [
+      {
+        "pt": "escravo",
+        "fr": "esclave",
+        "en": "slave",
+        "es": "esclavo"
+      },
+      {
+        "pt": "inimigo",
+        "fr": "ennemi",
+        "en": "foe",
+        "es": "enemigo"
+      },
+      {
+        "pt": "estrangeiro",
+        "fr": "étranger",
+        "en": "stranger",
+        "es": "extranjero"
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-001",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JOB",
+        "chapter": 1,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Os sabeus levam os bois",
+          "fr": "Des Sabéens enlèvent les bœufs",
+          "en": "The Sabeans take away the oxen",
+          "es": "Los Sabeos toman los bueyes"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 1,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "O fogo de Deus consome as ovelhas",
+          "fr": "Le feu de Dieu consume les brebis",
+          "en": "The fire of God burns up the sheep",
+          "es": "Fuego de Dios quema las ovejas"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 1,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "Os caldeus levam os camelos",
+          "fr": "Des Chaldéens enlèvent les chameaux",
+          "en": "The Chaldeans carry away the camels",
+          "es": "Los Caldeos toman los camellos"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 1,
+        "verse_start": 19,
+        "verse_end": 19,
+        "text": {
+          "pt": "Um grande vento derruba a casa dos filhos",
+          "fr": "Un grand vent abat la maison des enfants",
+          "en": "A great wind strikes the children’s house",
+          "es": "Un gran viento derriba la casa de los hijos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-002",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "José é vendido como escravo",
+          "fr": "Joseph est vendu comme esclave",
+          "en": "Joseph is sold for a servant",
+          "es": "José es vendido por siervo"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Prendem os pés de José com grilhões",
+          "fr": "On serre les pieds de Joseph dans des liens",
+          "en": "Joseph’s feet are hurt with fetters",
+          "es": "Afligen los pies de José con grillos"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 20,
+        "verse_end": 20,
+        "text": {
+          "pt": "O rei manda soltar José",
+          "fr": "Le roi fait ôter les liens de Joseph",
+          "en": "The king sends and looses Joseph",
+          "es": "El rey envía y suelta a José"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "José torna-se senhor da casa do rei",
+          "fr": "Joseph est établi seigneur sur la maison du roi",
+          "en": "Joseph is made lord of the king’s house",
+          "es": "José es puesto por señor de la casa del rey"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-003",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "PRO",
+        "chapter": 7,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "O narrador olha pela janela da sua casa",
+          "fr": "Le narrateur regarde par la fenêtre de sa maison",
+          "en": "The speaker looks out of the window of his house",
+          "es": "El narrador mira por la ventana de su casa"
+        }
+      },
+      {
+        "book": "PRO",
+        "chapter": 7,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Um rapaz passa junto à esquina dela",
+          "fr": "Un jeune homme passe près de l’angle de sa rue",
+          "en": "A young man passes near her corner",
+          "es": "Un joven pasa junto a la esquina de ella"
+        }
+      },
+      {
+        "book": "PRO",
+        "chapter": 7,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Uma mulher sai ao encontro dele",
+          "fr": "Une femme vient l’aborder",
+          "en": "A woman comes out to meet him",
+          "es": "Una mujer le sale al encuentro"
+        }
+      },
+      {
+        "book": "PRO",
+        "chapter": 7,
+        "verse_start": 22,
+        "verse_end": 22,
+        "text": {
+          "pt": "Ele segue-a como o boi ao matadouro",
+          "fr": "Il la suit comme le bœuf va à la boucherie",
+          "en": "He follows her as an ox to the slaughter",
+          "es": "Él la sigue como el buey al degolladero"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-004",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "SNG",
+        "chapter": 3,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "De noite, ela procura-o na sua cama",
+          "fr": "La nuit, elle le cherche sur sa couche",
+          "en": "By night on her bed she seeks him",
+          "es": "De noche ella lo busca en su lecho"
+        }
+      },
+      {
+        "book": "SNG",
+        "chapter": 3,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Ela percorre as ruas da cidade",
+          "fr": "Elle fait le tour de la ville",
+          "en": "She goes about the city streets",
+          "es": "Ella rodea la ciudad por las calles"
+        }
+      },
+      {
+        "book": "SNG",
+        "chapter": 3,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Os guardas da cidade encontram-na",
+          "fr": "Les gardes de la ville la rencontrent",
+          "en": "The city watchmen find her",
+          "es": "Los guardas de la ciudad la hallan"
+        }
+      },
+      {
+        "book": "SNG",
+        "chapter": 3,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Ela encontra-o e não o deixa ir",
+          "fr": "Elle le trouve et ne le lâche plus",
+          "en": "She finds him and will not let him go",
+          "es": "Ella lo halla y no lo deja ir"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-005",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JOB",
+        "chapter": 2,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Três amigos combinam ir consolar Jó",
+          "fr": "Trois amis décident d’aller consoler Job",
+          "en": "Three friends agree to come and comfort Job",
+          "es": "Tres amigos conciertan ir a consolar a Job"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 2,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Os amigos choram e rasgam as capas",
+          "fr": "Les amis pleurent et déchirent leurs manteaux",
+          "en": "The friends weep and rend their mantles",
+          "es": "Los amigos lloran y rasgan sus mantos"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 2,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Ficam sentados sete dias sem falar",
+          "fr": "Ils restent assis sept jours sans parler",
+          "en": "They sit seven days without a word",
+          "es": "Se sientan siete días sin hablar"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 3,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Jó abre a boca e amaldiçoa o seu dia",
+          "fr": "Job ouvre la bouche et maudit le jour de sa naissance",
+          "en": "Job opens his mouth and curses his day",
+          "es": "Job abre su boca y maldice su día"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-006",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 29,
+        "verse_end": 29,
+        "text": {
+          "pt": "As águas do Egipto tornam-se sangue",
+          "fr": "Les eaux d’Égypte sont changées en sang",
+          "en": "Egypt’s waters are turned into blood",
+          "es": "Las aguas de Egipto se vuelven sangre"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 30,
+        "verse_end": 30,
+        "text": {
+          "pt": "A terra enche-se de rãs",
+          "fr": "Le pays fourmille de grenouilles",
+          "en": "The land brings forth frogs",
+          "es": "La tierra produce ranas"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 32,
+        "verse_end": 32,
+        "text": {
+          "pt": "Cai saraiva em vez de chuva",
+          "fr": "La grêle tombe au lieu de la pluie",
+          "en": "Hail falls instead of rain",
+          "es": "Cae granizo en lugar de lluvia"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 36,
+        "verse_end": 36,
+        "text": {
+          "pt": "Os primogénitos são feridos",
+          "fr": "Les premiers-nés sont frappés",
+          "en": "The firstborn are smitten",
+          "es": "Los primogénitos son heridos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-007",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JOB",
+        "chapter": 42,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Os três amigos fazem o que o SENHOR mandou",
+          "fr": "Les trois amis font ce que l’Éternel a dit",
+          "en": "The three friends do as the LORD commanded",
+          "es": "Los tres amigos hacen como Jehová les dijo"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 42,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "O SENHOR dá a Jó o dobro do que tinha",
+          "fr": "L’Éternel donne à Job le double de ce qu’il avait",
+          "en": "The LORD gives Job twice as much as before",
+          "es": "Jehová da a Job el doble de lo que tenía"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 42,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Os irmãos de Jó comem com ele em sua casa",
+          "fr": "Les frères de Job mangent avec lui chez lui",
+          "en": "Job’s brethren eat bread with him in his house",
+          "es": "Los hermanos de Job comen pan con él en su casa"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 42,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Jó vê os seus descendentes até à quarta geração",
+          "fr": "Job voit ses descendants jusqu’à la quatrième génération",
+          "en": "Job sees his descendants to four generations",
+          "es": "Job ve a sus descendientes hasta la cuarta generación"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-008",
+    "type": "choice",
+    "level": "medium",
+    "book": "JOB",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Em que terra vivia Jó?",
+      "fr": "Dans quel pays vivait Job ?",
+      "en": "In which land did Job live?",
+      "es": "¿En qué tierra vivía Job?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uz",
+          "fr": "Uts",
+          "en": "Uz",
+          "es": "Hus"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Egipto",
+          "fr": "Égypte",
+          "en": "Egypt",
+          "es": "Egipto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Canaã",
+          "fr": "Canaan",
+          "en": "Canaan",
+          "es": "Canaán"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moabe",
+          "fr": "Moab",
+          "en": "Moab",
+          "es": "Moab"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-009",
+    "type": "choice",
+    "level": "medium",
+    "book": "JOB",
+    "chapter": 2,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Com que se raspava Jó, sentado no meio da cinza?",
+      "fr": "Avec quoi Job se grattait-il, assis sur la cendre ?",
+      "en": "What did Job take to scrape himself as he sat among the ashes?",
+      "es": "¿Con qué se rascaba Job, sentado en medio de ceniza?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um caco",
+          "fr": "Un tesson",
+          "en": "A potsherd",
+          "es": "Una teja"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma pedra",
+          "fr": "Une pierre",
+          "en": "A stone",
+          "es": "Una piedra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma faca",
+          "fr": "Un couteau",
+          "en": "A knife",
+          "es": "Un cuchillo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um ramo",
+          "fr": "Une branche",
+          "en": "A branch",
+          "es": "Una rama"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-010",
+    "type": "choice",
+    "level": "medium",
+    "book": "JOB",
+    "chapter": 32,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Quando Eliú começou a falar, o que disse de si mesmo?",
+      "fr": "Quand Élihu prit la parole, que dit-il de lui-même ?",
+      "en": "When Elihu began to speak, what did he say about himself?",
+      "es": "Cuando Eliú comenzó a hablar, ¿qué dijo de sí mismo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Que era jovem",
+          "fr": "Qu’il était jeune",
+          "en": "That he was young",
+          "es": "Que era joven"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Que era profeta",
+          "fr": "Qu’il était prophète",
+          "en": "That he was a prophet",
+          "es": "Que era profeta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Que era rei",
+          "fr": "Qu’il était roi",
+          "en": "That he was a king",
+          "es": "Que era rey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Que era irmão de Jó",
+          "fr": "Qu’il était le frère de Job",
+          "en": "That he was Job’s brother",
+          "es": "Que era hermano de Job"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-011",
+    "type": "choice",
+    "level": "medium",
+    "book": "JOB",
+    "chapter": 42,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Segundo Jó 42:10, por quem orava Jó quando o SENHOR o restaurou?",
+      "fr": "Selon Job 42:10, pour qui Job avait-il prié quand l’Éternel le rétablit ?",
+      "en": "According to Job 42:10, for whom did Job pray when the LORD turned his captivity?",
+      "es": "Según Job 42:10, ¿por quiénes oraba Job cuando Jehová mudó su aflicción?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Pelos seus amigos",
+          "fr": "Pour ses amis",
+          "en": "For his friends",
+          "es": "Por sus amigos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pela sua mulher",
+          "fr": "Pour sa femme",
+          "en": "For his wife",
+          "es": "Por su mujer"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pelos seus filhos",
+          "fr": "Pour ses fils",
+          "en": "For his sons",
+          "es": "Por sus hijos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pelo rei",
+          "fr": "Pour le roi",
+          "en": "For the king",
+          "es": "Por el rey"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-012",
+    "type": "choice",
+    "level": "medium",
+    "book": "PSA",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo o Salmo 1:1, o homem bem-aventurado não se senta junto de quem?",
+      "fr": "Selon le Psaume 1:1, en compagnie de qui l’homme heureux ne s’assied-il pas ?",
+      "en": "According to Psalm 1:1, in whose seat does the blessed man not sit?",
+      "es": "Según el Salmo 1:1, ¿en silla de quiénes no se sienta el varón bienaventurado?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Dos escarnecedores",
+          "fr": "Des moqueurs",
+          "en": "The scornful",
+          "es": "De escarnecedores"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dos sábios",
+          "fr": "Des sages",
+          "en": "The wise",
+          "es": "De sabios"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dos pobres",
+          "fr": "Des pauvres",
+          "en": "The poor",
+          "es": "De pobres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dos sacerdotes",
+          "fr": "Des prêtres",
+          "en": "The priests",
+          "es": "De sacerdotes"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-013",
+    "type": "choice",
+    "level": "medium",
+    "book": "PSA",
+    "chapter": 37,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Segundo o Salmo 37:4, o que dará o SENHOR a quem se agrada nele?",
+      "fr": "Selon le Psaume 37:4, que donnera l’Éternel à celui qui fait de lui ses délices ?",
+      "en": "According to Psalm 37:4, what will the LORD give to the one who delights in him?",
+      "es": "Según el Salmo 37:4, ¿qué dará Jehová al que pone en él su delicia?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Os pedidos do seu coração",
+          "fr": "Ce que son cœur désire",
+          "en": "The desires of his heart",
+          "es": "Las peticiones de su corazón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Muitas riquezas",
+          "fr": "De grandes richesses",
+          "en": "Great riches",
+          "es": "Muchas riquezas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um reino na terra",
+          "fr": "Un royaume sur la terre",
+          "en": "A kingdom on earth",
+          "es": "Un reino en la tierra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Fama entre os povos",
+          "fr": "La renommée parmi les peuples",
+          "en": "Fame among the nations",
+          "es": "Fama entre los pueblos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-014",
+    "type": "choice",
+    "level": "medium",
+    "book": "PSA",
+    "chapter": 90,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo o seu título, o Salmo 90 é uma oração de quem?",
+      "fr": "D’après son titre, le Psaume 90 est une prière de qui ?",
+      "en": "According to its title, Psalm 90 is a prayer of whom?",
+      "es": "Según su título, ¿de quién es la oración del Salmo 90?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Moisés",
+          "fr": "Moïse",
+          "en": "Moses",
+          "es": "Moisés"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "David",
+          "fr": "David",
+          "en": "David",
+          "es": "David"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Salomão",
+          "fr": "Salomon",
+          "en": "Solomon",
+          "es": "Salomón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Asafe",
+          "fr": "Asaph",
+          "en": "Asaph",
+          "es": "Asaph"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-015",
+    "type": "choice",
+    "level": "medium",
+    "book": "PSA",
+    "chapter": 90,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Segundo o Salmo 90:4, aos olhos de Deus, mil anos são como quê?",
+      "fr": "Selon le Psaume 90:4, à quoi sont semblables mille ans aux yeux de Dieu ?",
+      "en": "According to Psalm 90:4, a thousand years in God’s sight are like what?",
+      "es": "Según el Salmo 90:4, ¿a qué son semejantes mil años delante de los ojos de Dios?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O dia de ontem, que passou",
+          "fr": "Le jour d’hier, quand il n’est plus",
+          "en": "Yesterday when it is past",
+          "es": "El día de ayer, que pasó"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um século",
+          "fr": "Un siècle",
+          "en": "A century",
+          "es": "Un siglo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma eternidade",
+          "fr": "Une éternité",
+          "en": "An eternity",
+          "es": "Una eternidad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um ano inteiro",
+          "fr": "Une année entière",
+          "en": "A whole year",
+          "es": "Un año entero"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-016",
+    "type": "choice",
+    "level": "medium",
+    "book": "PSA",
+    "chapter": 103,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Segundo o Salmo 103:12, tão longe como o oriente está do ocidente, o que afastou Deus de nós?",
+      "fr": "Selon le Psaume 103:12, autant l’orient est éloigné de l’occident, qu’est-ce que Dieu éloigne de nous ?",
+      "en": "According to Psalm 103:12, as far as the east is from the west, what has God removed from us?",
+      "es": "Según el Salmo 103:12, cuanto está lejos el oriente del occidente, ¿qué alejó Dios de nosotros?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "As nossas transgressões",
+          "fr": "Nos transgressions",
+          "en": "Our transgressions",
+          "es": "Nuestras rebeliones"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os nossos inimigos",
+          "fr": "Nos ennemis",
+          "en": "Our enemies",
+          "es": "Nuestros enemigos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As nossas riquezas",
+          "fr": "Nos richesses",
+          "en": "Our riches",
+          "es": "Nuestras riquezas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os nossos amigos",
+          "fr": "Nos amis",
+          "en": "Our friends",
+          "es": "Nuestros amigos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-017",
+    "type": "choice",
+    "level": "medium",
+    "book": "PSA",
+    "chapter": 118,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "Segundo o Salmo 118:22, o que rejeitaram os construtores, e se tornou cabeça de esquina?",
+      "fr": "Selon le Psaume 118:22, qu’ont rejeté ceux qui bâtissaient, et qui est devenu la principale de l’angle ?",
+      "en": "According to Psalm 118:22, what did the builders refuse, which became the head stone of the corner?",
+      "es": "Según el Salmo 118:22, ¿qué desecharon los edificadores, que vino a ser cabeza del ángulo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A pedra",
+          "fr": "La pierre",
+          "en": "The stone",
+          "es": "La piedra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A viga",
+          "fr": "La poutre",
+          "en": "The beam",
+          "es": "La viga"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A porta",
+          "fr": "La porte",
+          "en": "The door",
+          "es": "La puerta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A coluna",
+          "fr": "La colonne",
+          "en": "The pillar",
+          "es": "La columna"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-018",
+    "type": "choice",
+    "level": "medium",
+    "book": "PSA",
+    "chapter": 119,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Segundo o Salmo 119:11, onde guardou o salmista a palavra de Deus, para não pecar?",
+      "fr": "Selon le Psaume 119:11, où le psalmiste serre-t-il la parole de Dieu, afin de ne pas pécher ?",
+      "en": "According to Psalm 119:11, where did the psalmist hide God’s word, that he might not sin?",
+      "es": "Según el Salmo 119:11, ¿dónde guardó el salmista los dichos de Dios para no pecar?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "No seu coração",
+          "fr": "Dans son cœur",
+          "en": "In his heart",
+          "es": "En su corazón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Num livro",
+          "fr": "Dans un livre",
+          "en": "In a book",
+          "es": "En un libro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Na arca",
+          "fr": "Dans l’arche",
+          "en": "In the ark",
+          "es": "En el arca"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No templo",
+          "fr": "Dans le temple",
+          "en": "In the temple",
+          "es": "En el templo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-019",
+    "type": "choice",
+    "level": "medium",
+    "book": "PSA",
+    "chapter": 133,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo o Salmo 133:1, para quem é bom e agradável viver em união?",
+      "fr": "Selon le Psaume 133:1, pour qui est-il agréable et doux de demeurer ensemble ?",
+      "en": "According to Psalm 133:1, for whom is it good and pleasant to dwell together in unity?",
+      "es": "Según el Salmo 133:1, ¿para quiénes es bueno y delicioso habitar juntos en uno?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Os irmãos",
+          "fr": "Des frères",
+          "en": "Brethren",
+          "es": "Los hermanos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os reis",
+          "fr": "Des rois",
+          "en": "Kings",
+          "es": "Los reyes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os soldados",
+          "fr": "Des soldats",
+          "en": "Soldiers",
+          "es": "Los soldados"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os vizinhos",
+          "fr": "Des voisins",
+          "en": "Neighbours",
+          "es": "Los vecinos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-020",
+    "type": "choice",
+    "level": "medium",
+    "book": "PSA",
+    "chapter": 137,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo o Salmo 137:1, junto aos rios de que lugar se sentavam e choravam, lembrando-se de Sião?",
+      "fr": "Selon le Psaume 137:1, au bord des fleuves de quel lieu étaient-ils assis à pleurer en se souvenant de Sion ?",
+      "en": "According to Psalm 137:1, by the rivers of which place did they sit down and weep, remembering Zion?",
+      "es": "Según el Salmo 137:1, ¿junto a los ríos de qué lugar se sentaban y lloraban, acordándose de Sión?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Babilónia",
+          "fr": "Babylone",
+          "en": "Babylon",
+          "es": "Babilonia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nínive",
+          "fr": "Ninive",
+          "en": "Nineveh",
+          "es": "Nínive"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Egipto",
+          "fr": "Égypte",
+          "en": "Egypt",
+          "es": "Egipto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Damasco",
+          "fr": "Damas",
+          "en": "Damascus",
+          "es": "Damasco"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-021",
+    "type": "choice",
+    "level": "medium",
+    "book": "PRO",
+    "chapter": 3,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Segundo Provérbios 3:12, a quem repreende o SENHOR?",
+      "fr": "Selon Proverbes 3:12, qui l’Éternel châtie-t-il ?",
+      "en": "According to Proverbs 3:12, whom does the LORD correct?",
+      "es": "Según Proverbios 3:12, ¿a quién castiga Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Aquele que ama",
+          "fr": "Celui qu’il aime",
+          "en": "The one he loves",
+          "es": "Al que ama"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aquele que odeia",
+          "fr": "Celui qu’il hait",
+          "en": "The one he hates",
+          "es": "Al que aborrece"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os estrangeiros",
+          "fr": "Les étrangers",
+          "en": "The strangers",
+          "es": "A los extranjeros"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os reis da terra",
+          "fr": "Les rois de la terre",
+          "en": "The kings of the earth",
+          "es": "A los reyes de la tierra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-022",
+    "type": "choice",
+    "level": "medium",
+    "book": "PRO",
+    "chapter": 4,
+    "verse_start": 23,
+    "verse_end": 23,
+    "prompt": {
+      "pt": "Segundo Provérbios 4:23, o que deves guardar acima de tudo?",
+      "fr": "Selon Proverbes 4:23, que faut-il garder plus que toute autre chose ?",
+      "en": "According to Proverbs 4:23, what must you keep with all diligence?",
+      "es": "Según Proverbios 4:23, ¿qué debes guardar sobre toda cosa guardada?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O teu coração",
+          "fr": "Ton cœur",
+          "en": "Your heart",
+          "es": "Tu corazón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O teu dinheiro",
+          "fr": "Ton argent",
+          "en": "Your money",
+          "es": "Tu dinero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A tua casa",
+          "fr": "Ta maison",
+          "en": "Your house",
+          "es": "Tu casa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O teu nome",
+          "fr": "Ton nom",
+          "en": "Your name",
+          "es": "Tu nombre"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-023",
+    "type": "choice",
+    "level": "medium",
+    "book": "PRO",
+    "chapter": 12,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Segundo Provérbios 12:4, o que é a mulher virtuosa para o seu marido?",
+      "fr": "Selon Proverbes 12:4, qu’est la femme vertueuse pour son mari ?",
+      "en": "According to Proverbs 12:4, what is a virtuous woman to her husband?",
+      "es": "Según Proverbios 12:4, ¿qué es la mujer virtuosa para su marido?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A coroa",
+          "fr": "La couronne",
+          "en": "A crown",
+          "es": "La corona"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O escudo",
+          "fr": "Le bouclier",
+          "en": "A shield",
+          "es": "El escudo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O tesouro",
+          "fr": "Le trésor",
+          "en": "A treasure",
+          "es": "El tesoro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A lâmpada",
+          "fr": "La lampe",
+          "en": "A lamp",
+          "es": "La lámpara"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-024",
+    "type": "choice",
+    "level": "medium",
+    "book": "PRO",
+    "chapter": 18,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Segundo Provérbios 18:10, o que é o nome do SENHOR?",
+      "fr": "Selon Proverbes 18:10, qu’est le nom de l’Éternel ?",
+      "en": "According to Proverbs 18:10, what is the name of the LORD?",
+      "es": "Según Proverbios 18:10, ¿qué es el nombre de Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma torre forte",
+          "fr": "Une tour forte",
+          "en": "A strong tower",
+          "es": "Una torre fuerte"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma espada afiada",
+          "fr": "Une épée tranchante",
+          "en": "A sharp sword",
+          "es": "Una espada aguda"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um rio profundo",
+          "fr": "Un fleuve profond",
+          "en": "A deep river",
+          "es": "Un río profundo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma lâmpada acesa",
+          "fr": "Une lampe allumée",
+          "en": "A burning lamp",
+          "es": "Una lámpara encendida"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-025",
+    "type": "choice",
+    "level": "medium",
+    "book": "PRO",
+    "chapter": 25,
+    "verse_start": 21,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "Segundo Provérbios 25:21-22, se deres pão ao teu inimigo com fome, o que amontoarás sobre a cabeça dele?",
+      "fr": "Selon Proverbes 25:21-22, si tu donnes du pain à ton ennemi qui a faim, qu’amasses-tu sur sa tête ?",
+      "en": "According to Proverbs 25:21-22, if you give bread to your hungry enemy, what do you heap upon his head?",
+      "es": "Según Proverbios 25:21-22, si das pan al que te aborrece cuando tiene hambre, ¿qué allegas sobre su cabeza?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Brasas",
+          "fr": "Des charbons ardents",
+          "en": "Coals of fire",
+          "es": "Ascuas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pó",
+          "fr": "De la poussière",
+          "en": "Dust",
+          "es": "Polvo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cinza",
+          "fr": "De la cendre",
+          "en": "Ashes",
+          "es": "Ceniza"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Azeite",
+          "fr": "De l’huile",
+          "en": "Oil",
+          "es": "Aceite"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-026",
+    "type": "choice",
+    "level": "medium",
+    "book": "ECC",
+    "chapter": 4,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Segundo Eclesiastes 4:12, que cordão não se rompe depressa?",
+      "fr": "Selon l’Ecclésiaste 4:12, quelle corde ne se rompt pas facilement ?",
+      "en": "According to Ecclesiastes 4:12, which cord is not quickly broken?",
+      "es": "Según Eclesiastés 4:12, ¿qué cordón no se rompe pronto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O de três dobras",
+          "fr": "La corde à trois fils",
+          "en": "A threefold cord",
+          "es": "El de tres dobleces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O de ouro",
+          "fr": "La corde d’or",
+          "en": "A golden cord",
+          "es": "El de oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O de duas dobras",
+          "fr": "La corde à deux fils",
+          "en": "A twofold cord",
+          "es": "El de dos dobleces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O de linho",
+          "fr": "La corde de lin",
+          "en": "A linen cord",
+          "es": "El de lino"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-027",
+    "type": "choice",
+    "level": "medium",
+    "book": "ECC",
+    "chapter": 1,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Segundo Eclesiastes 1:2, o que diz o Pregador de todas as coisas?",
+      "fr": "Selon l’Ecclésiaste 1:2, que dit l’Ecclésiaste de toutes choses ?",
+      "en": "According to Ecclesiastes 1:2, what does the Preacher say about all things?",
+      "es": "Según Eclesiastés 1:2, ¿qué dice el Predicador de todas las cosas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Tudo é fútil",
+          "fr": "Tout est vanité",
+          "en": "All is vanity",
+          "es": "Todo es vanidad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tudo é bom",
+          "fr": "Tout est bon",
+          "en": "All is good",
+          "es": "Todo es bueno"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tudo é novo",
+          "fr": "Tout est nouveau",
+          "en": "All is new",
+          "es": "Todo es nuevo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tudo é eterno",
+          "fr": "Tout est éternel",
+          "en": "All is eternal",
+          "es": "Todo es eterno"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-028",
+    "type": "choice",
+    "level": "medium",
+    "book": "SNG",
+    "chapter": 2,
+    "verse_start": 15,
+    "verse_end": 15,
+    "prompt": {
+      "pt": "Segundo Cântico dos Cânticos 2:15, que pequenos animais danificam as vinhas?",
+      "fr": "Selon le Cantique des cantiques 2:15, quels petits animaux ravagent les vignes ?",
+      "en": "According to Song of Solomon 2:15, which little animals spoil the vines?",
+      "es": "Según Cantares 2:15, ¿qué animales pequeños echan a perder las viñas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "As raposas",
+          "fr": "Les renards",
+          "en": "The foxes",
+          "es": "Las zorras"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os coelhos",
+          "fr": "Les lapins",
+          "en": "The rabbits",
+          "es": "Los conejos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os ratos",
+          "fr": "Les souris",
+          "en": "The mice",
+          "es": "Los ratones"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os pardais",
+          "fr": "Les moineaux",
+          "en": "The sparrows",
+          "es": "Los gorriones"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-029",
+    "type": "verse",
+    "level": "medium",
+    "book": "JOB",
+    "chapter": 19,
+    "verse_start": 25,
+    "verse_end": 25,
+    "blank": {
+      "pt": "Redentor",
+      "fr": "rédempteur",
+      "en": "redeemer",
+      "es": "Redentor"
+    },
+    "distractors": [
+      {
+        "pt": "Juiz",
+        "fr": "juge",
+        "en": "judge",
+        "es": "Juez"
+      },
+      {
+        "pt": "Pastor",
+        "fr": "berger",
+        "en": "shepherd",
+        "es": "Pastor"
+      },
+      {
+        "pt": "Amigo",
+        "fr": "ami",
+        "en": "friend",
+        "es": "Amigo"
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-030",
+    "type": "verse",
+    "level": "medium",
+    "book": "PSA",
+    "chapter": 121,
+    "verse_start": 4,
+    "verse_end": 4,
+    "blank": {
+      "pt": "dormirá",
+      "fr": "dort",
+      "en": "sleep",
+      "es": "dormirá"
+    },
+    "distractors": [
+      {
+        "pt": "falará",
+        "fr": "parle",
+        "en": "speak",
+        "es": "hablará"
+      },
+      {
+        "pt": "comerá",
+        "fr": "mange",
+        "en": "eat",
+        "es": "comerá"
+      },
+      {
+        "pt": "chorará",
+        "fr": "pleure",
+        "en": "weep",
+        "es": "llorará"
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-031",
+    "type": "verse",
+    "level": "medium",
+    "book": "PSA",
+    "chapter": 91,
+    "verse_start": 4,
+    "verse_end": 4,
+    "blank": {
+      "pt": "asas",
+      "fr": "ailes",
+      "en": "wings",
+      "es": "alas"
+    },
+    "distractors": [
+      {
+        "pt": "mãos",
+        "fr": "mains",
+        "en": "hands",
+        "es": "manos"
+      },
+      {
+        "pt": "tendas",
+        "fr": "tentes",
+        "en": "tents",
+        "es": "tiendas"
+      },
+      {
+        "pt": "pernas",
+        "fr": "jambes",
+        "en": "legs",
+        "es": "piernas"
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-032",
+    "type": "verse",
+    "level": "medium",
+    "book": "PRO",
+    "chapter": 9,
+    "verse_start": 10,
+    "verse_end": 10,
+    "blank": {
+      "pt": "sabedoria",
+      "fr": "sagesse",
+      "en": "wisdom",
+      "es": "sabiduría"
+    },
+    "distractors": [
+      {
+        "pt": "riqueza",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riqueza"
+      },
+      {
+        "pt": "guerra",
+        "fr": "guerre",
+        "en": "war",
+        "es": "guerra"
+      },
+      {
+        "pt": "força",
+        "fr": "force",
+        "en": "strength",
+        "es": "fuerza"
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-033",
+    "type": "verse",
+    "level": "medium",
+    "book": "PRO",
+    "chapter": 15,
+    "verse_start": 3,
+    "verse_end": 3,
+    "blank": {
+      "pt": "olhos",
+      "fr": "yeux",
+      "en": "eyes",
+      "es": "ojos"
+    },
+    "distractors": [
+      {
+        "pt": "braços",
+        "fr": "bras",
+        "en": "arms",
+        "es": "brazos"
+      },
+      {
+        "pt": "servos",
+        "fr": "serviteurs",
+        "en": "servants",
+        "es": "siervos"
+      },
+      {
+        "pt": "anjos",
+        "fr": "anges",
+        "en": "angels",
+        "es": "ángeles"
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-034",
+    "type": "verse",
+    "level": "medium",
+    "book": "PRO",
+    "chapter": 1,
+    "verse_start": 8,
+    "verse_end": 8,
+    "blank": {
+      "pt": "mãe",
+      "fr": "mère",
+      "en": "mother",
+      "es": "madre"
+    },
+    "distractors": [
+      {
+        "pt": "irmã",
+        "fr": "sœur",
+        "en": "sister",
+        "es": "hermana"
+      },
+      {
+        "pt": "rainha",
+        "fr": "reine",
+        "en": "queen",
+        "es": "reina"
+      },
+      {
+        "pt": "serva",
+        "fr": "servante",
+        "en": "maidservant",
+        "es": "sierva"
+      }
+    ]
+  },
+  {
+    "id": "poet2-medium-035",
+    "type": "verse",
+    "level": "medium",
+    "book": "ECC",
+    "chapter": 1,
+    "verse_start": 9,
+    "verse_end": 9,
+    "blank": {
+      "pt": "sol",
+      "fr": "soleil",
+      "en": "sun",
+      "es": "sol"
+    },
+    "distractors": [
+      {
+        "pt": "rio",
+        "fr": "fleuve",
+        "en": "river",
+        "es": "río"
+      },
+      {
+        "pt": "trono",
+        "fr": "trône",
+        "en": "throne",
+        "es": "trono"
+      },
+      {
+        "pt": "monte",
+        "fr": "mont",
+        "en": "mountain",
+        "es": "monte"
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-001",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios da vida de David, citados nos títulos dos Salmos.",
+      "fr": "Mets dans l’ordre ces épisodes de la vie de David, cités dans les titres des Psaumes.",
+      "en": "Put these episodes of David’s life, named in psalm titles, in order.",
+      "es": "Ordena estos episodios de la vida de David, citados en los títulos de los Salmos."
+    },
+    "items": [
+      {
+        "book": "PSA",
+        "chapter": 34,
+        "verse_start": null,
+        "verse_end": null,
+        "text": {
+          "pt": "David muda de comportamento diante de Abimeleque",
+          "fr": "David contrefait l’insensé devant Abimélec",
+          "en": "David changes his behaviour before Abimelech",
+          "es": "David muda su semblante delante de Abimelech"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 52,
+        "verse_start": null,
+        "verse_end": null,
+        "text": {
+          "pt": "Doegue, o edomita, informa Saul sobre David",
+          "fr": "Doëg l’Édomite fait un rapport à Saül sur David",
+          "en": "Doeg the Edomite tells Saul about David",
+          "es": "Doeg Idumeo da cuenta a Saúl de David"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 51,
+        "verse_start": null,
+        "verse_end": null,
+        "text": {
+          "pt": "O profeta Natã vem ter com David",
+          "fr": "Le prophète Nathan vient vers David",
+          "en": "Nathan the prophet comes to David",
+          "es": "El profeta Nathán viene a David"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 3,
+        "verse_start": null,
+        "verse_end": null,
+        "text": {
+          "pt": "David foge de Absalão, seu filho",
+          "fr": "David fuit devant Absalom, son fils",
+          "en": "David flees from Absalom his son",
+          "es": "David huye de Absalom su hijo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-002",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "ECC",
+        "chapter": 9,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Um grande rei vem contra uma pequena cidade",
+          "fr": "Un roi puissant marche contre une petite ville",
+          "en": "A great king comes against a little city",
+          "es": "Un gran rey viene contra una pequeña ciudad"
+        }
+      },
+      {
+        "book": "ECC",
+        "chapter": 9,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "O rei cerca a cidade e levanta baluartes",
+          "fr": "Le roi l’investit et élève de grands forts",
+          "en": "He besieges it and builds great bulwarks",
+          "es": "La cerca y edifica grandes baluartes"
+        }
+      },
+      {
+        "book": "ECC",
+        "chapter": 9,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Um homem pobre e sábio livra a cidade",
+          "fr": "Un homme pauvre et sage sauve la ville",
+          "en": "A poor wise man delivers the city",
+          "es": "Un hombre pobre y sabio libra la ciudad"
+        }
+      },
+      {
+        "book": "ECC",
+        "chapter": 9,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Ninguém se lembra daquele homem pobre",
+          "fr": "Personne ne se souvient de cet homme pauvre",
+          "en": "No man remembers that poor man",
+          "es": "Nadie se acuerda de aquel hombre pobre"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-003",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "SNG",
+        "chapter": 5,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "O amado bate e diz: «Abre-me»",
+          "fr": "Le bien-aimé frappe : « Ouvre-moi »",
+          "en": "The beloved knocks: “Open to me”",
+          "es": "El amado llama: «Ábreme»"
+        }
+      },
+      {
+        "book": "SNG",
+        "chapter": 5,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Ela levanta-se para abrir ao amado",
+          "fr": "Elle se lève pour ouvrir à son bien-aimé",
+          "en": "She rises up to open to her beloved",
+          "es": "Ella se levanta para abrir a su amado"
+        }
+      },
+      {
+        "book": "SNG",
+        "chapter": 5,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Ela abre, mas o amado já se foi",
+          "fr": "Elle ouvre, mais il s’en est allé",
+          "en": "She opens, but her beloved has gone",
+          "es": "Ella abre, pero su amado se ha ido"
+        }
+      },
+      {
+        "book": "SNG",
+        "chapter": 5,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Os guardas da cidade ferem-na",
+          "fr": "Les gardes de la ville la frappent",
+          "en": "The watchmen of the city smite her",
+          "es": "Los guardas de la ciudad la hieren"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-004",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JOB",
+        "chapter": 32,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "A ira de Eliú acende-se contra Jó",
+          "fr": "La colère d’Élihu s’enflamme contre Job",
+          "en": "Elihu’s wrath is kindled against Job",
+          "es": "Eliú se enoja con furor contra Job"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 38,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "O SENHOR responde a Jó do redemoinho",
+          "fr": "L’Éternel répond à Job du milieu de la tempête",
+          "en": "The LORD answers Job out of the whirlwind",
+          "es": "Jehová responde a Job desde un torbellino"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 42,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Jó arrepende-se no pó e na cinza",
+          "fr": "Job se repent sur la poussière et la cendre",
+          "en": "Job repents in dust and ashes",
+          "es": "Job se arrepiente en el polvo y la ceniza"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 42,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "A ira do SENHOR acende-se contra Elifaz",
+          "fr": "La colère de l’Éternel s’enflamme contre Éliphaz",
+          "en": "The LORD’s wrath is kindled against Eliphaz",
+          "es": "La ira de Jehová se enciende contra Eliphaz"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-005",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JOB",
+        "chapter": 1,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Os filhos de Jó fazem banquetes nas suas casas",
+          "fr": "Les fils de Job donnent des festins chez eux",
+          "en": "Job’s sons feast in their houses",
+          "es": "Los hijos de Job hacen banquetes en sus casas"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 1,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Jó oferece holocaustos pelos filhos",
+          "fr": "Job offre des holocaustes pour ses fils",
+          "en": "Job offers burnt offerings for his sons",
+          "es": "Job ofrece holocaustos por sus hijos"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 1,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Satanás vem entre os filhos de Deus",
+          "fr": "Satan vient au milieu des fils de Dieu",
+          "en": "Satan comes among the sons of God",
+          "es": "Satán viene entre los hijos de Dios"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 1,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Satanás sai da presença do SENHOR",
+          "fr": "Satan se retire de devant l’Éternel",
+          "en": "Satan goes forth from the presence of the LORD",
+          "es": "Satán sale de delante de Jehová"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-006",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 38,
+        "verse_end": 38,
+        "text": {
+          "pt": "O Egipto alegra-se com a saída de Israel",
+          "fr": "Les Égyptiens se réjouissent du départ d’Israël",
+          "en": "Egypt is glad when Israel departs",
+          "es": "Egipto se alegra de que Israel salga"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 39,
+        "verse_end": 39,
+        "text": {
+          "pt": "Deus estende uma nuvem para os cobrir",
+          "fr": "Dieu étend la nuée pour les couvrir",
+          "en": "God spreads a cloud for a covering",
+          "es": "Dios extiende una nube por cubierta"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 40,
+        "verse_end": 40,
+        "text": {
+          "pt": "Deus faz vir codornizes e pão do céu",
+          "fr": "Dieu fait venir des cailles et le pain du ciel",
+          "en": "God brings quails and the bread of heaven",
+          "es": "Dios trae codornices y pan del cielo"
+        }
+      },
+      {
+        "book": "PSA",
+        "chapter": 105,
+        "verse_start": 41,
+        "verse_end": 41,
+        "text": {
+          "pt": "Deus abre a rocha e saem águas",
+          "fr": "Dieu ouvre le rocher et des eaux coulent",
+          "en": "God opens the rock and waters gush out",
+          "es": "Dios abre la peña y fluyen aguas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-007",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JOB",
+        "chapter": 4,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Elifaz, o temanita, fala pela primeira vez",
+          "fr": "Éliphaz de Théman parle pour la première fois",
+          "en": "Eliphaz the Temanite speaks for the first time",
+          "es": "Eliphaz Temanita habla por primera vez"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 8,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Bildade, o suíta, fala pela primeira vez",
+          "fr": "Bildad de Schuach parle pour la première fois",
+          "en": "Bildad the Shuhite speaks for the first time",
+          "es": "Bildad Suhita habla por primera vez"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 11,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Zofar, o naamita, fala pela primeira vez",
+          "fr": "Tsophar de Naama parle pour la première fois",
+          "en": "Zophar the Naamathite speaks for the first time",
+          "es": "Sophar Naamathita habla por primera vez"
+        }
+      },
+      {
+        "book": "JOB",
+        "chapter": 31,
+        "verse_start": 40,
+        "verse_end": 40,
+        "text": {
+          "pt": "Terminam as palavras de Jó",
+          "fr": "Fin des paroles de Job",
+          "en": "The words of Job are ended",
+          "es": "Se acaban las palabras de Job"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-008",
+    "type": "choice",
+    "level": "hard",
+    "book": "JOB",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo Jó 1:3, quantos camelos tinha Jó antes das suas provações?",
+      "fr": "Selon Job 1:3, combien de chameaux Job possédait-il avant ses épreuves ?",
+      "en": "According to Job 1:3, how many camels did Job have before his trials?",
+      "es": "Según Job 1:3, ¿cuántos camellos tenía Job antes de sus pruebas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Três mil",
+          "fr": "Trois mille",
+          "en": "Three thousand",
+          "es": "Tres mil"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete mil",
+          "fr": "Sept mille",
+          "en": "Seven thousand",
+          "es": "Siete mil"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Seis mil",
+          "fr": "Six mille",
+          "en": "Six thousand",
+          "es": "Seis mil"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quinhentos",
+          "fr": "Cinq cents",
+          "en": "Five hundred",
+          "es": "Quinientos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-009",
+    "type": "choice",
+    "level": "hard",
+    "book": "JOB",
+    "chapter": 42,
+    "verse_start": 14,
+    "verse_end": 14,
+    "prompt": {
+      "pt": "Segundo Jó 42:14, como se chamava a primeira das filhas que Jó teve depois da provação?",
+      "fr": "Selon Job 42:14, comment s’appelait la première des filles que Job eut après l’épreuve ?",
+      "en": "According to Job 42:14, what was the name of the first of the daughters Job had after his trial?",
+      "es": "Según Job 42:14, ¿cómo se llamaba la primera de las hijas que Job tuvo después de la prueba?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Jemima",
+          "fr": "Jemima",
+          "en": "Jemima",
+          "es": "Jemimah"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quézia",
+          "fr": "Ketsia",
+          "en": "Kezia",
+          "es": "Cesiah"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quéren-Hapuque",
+          "fr": "Kéren-Happuc",
+          "en": "Keren-happuch",
+          "es": "Keren-happuch"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Diná",
+          "fr": "Dina",
+          "en": "Dinah",
+          "es": "Dina"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-010",
+    "type": "choice",
+    "level": "hard",
+    "book": "JOB",
+    "chapter": 42,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Segundo Jó 42:16, quantos anos viveu Jó depois disto?",
+      "fr": "Selon Job 42:16, combien d’années Job vécut-il après cela ?",
+      "en": "According to Job 42:16, how many years did Job live after this?",
+      "es": "Según Job 42:16, ¿cuántos años vivió Job después de esto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Cento e quarenta",
+          "fr": "Cent quarante",
+          "en": "A hundred and forty",
+          "es": "Ciento cuarenta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Setenta",
+          "fr": "Soixante-dix",
+          "en": "Seventy",
+          "es": "Setenta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cento e vinte",
+          "fr": "Cent vingt",
+          "en": "A hundred and twenty",
+          "es": "Ciento veinte"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Novecentos",
+          "fr": "Neuf cents",
+          "en": "Nine hundred",
+          "es": "Novecientos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-011",
+    "type": "choice",
+    "level": "hard",
+    "book": "JOB",
+    "chapter": 38,
+    "verse_start": 6,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Segundo Jó 38:6-7, quem cantava alegremente quando Deus pôs a pedra angular da terra?",
+      "fr": "Selon Job 38:6-7, qui éclatait en chants d’allégresse quand Dieu posa la pierre angulaire de la terre ?",
+      "en": "According to Job 38:6-7, who sang together when God laid the corner stone of the earth?",
+      "es": "Según Job 38:6-7, ¿quiénes alababan cuando Dios puso la piedra angular de la tierra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "As estrelas da manhã",
+          "fr": "Les étoiles du matin",
+          "en": "The morning stars",
+          "es": "Las estrellas del alba"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os reis da terra",
+          "fr": "Les rois de la terre",
+          "en": "The kings of the earth",
+          "es": "Los reyes de la tierra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As aves do céu",
+          "fr": "Les oiseaux du ciel",
+          "en": "The birds of the air",
+          "es": "Las aves del cielo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os mares",
+          "fr": "Les mers",
+          "en": "The seas",
+          "es": "Los mares"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-012",
+    "type": "choice",
+    "level": "hard",
+    "book": "PSA",
+    "chapter": 90,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Segundo o Salmo 90:10, a quantos anos chegam os dias da nossa vida?",
+      "fr": "Selon le Psaume 90:10, à combien d’années s’élèvent les jours de nos années ?",
+      "en": "According to Psalm 90:10, how long are the days of our years?",
+      "es": "Según el Salmo 90:10, ¿cuántos años son los días de nuestra edad?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Setenta anos",
+          "fr": "Soixante-dix ans",
+          "en": "Threescore years and ten",
+          "es": "Setenta años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cem anos",
+          "fr": "Cent ans",
+          "en": "A hundred years",
+          "es": "Cien años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cento e vinte anos",
+          "fr": "Cent vingt ans",
+          "en": "A hundred and twenty years",
+          "es": "Ciento veinte años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quarenta anos",
+          "fr": "Quarante ans",
+          "en": "Forty years",
+          "es": "Cuarenta años"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-013",
+    "type": "choice",
+    "level": "hard",
+    "book": "PSA",
+    "chapter": 127,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Que nome aparece no título do Salmo 127, um cântico dos degraus?",
+      "fr": "Quel nom figure dans le titre du Psaume 127, un cantique des degrés ?",
+      "en": "Which name appears in the title of Psalm 127, a Song of degrees?",
+      "es": "¿Qué nombre aparece en el título del Salmo 127, un cántico gradual?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Salomão",
+          "fr": "Salomon",
+          "en": "Solomon",
+          "es": "Salomón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "David",
+          "fr": "David",
+          "en": "David",
+          "es": "David"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moisés",
+          "fr": "Moïse",
+          "en": "Moses",
+          "es": "Moisés"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Asafe",
+          "fr": "Asaph",
+          "en": "Asaph",
+          "es": "Asaph"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-014",
+    "type": "choice",
+    "level": "hard",
+    "book": "PSA",
+    "chapter": 128,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo o Salmo 128:3, os teus filhos serão como plantas de quê, ao redor da tua mesa?",
+      "fr": "Selon le Psaume 128:3, tes fils seront comme des plants de quoi, autour de ta table ?",
+      "en": "According to Psalm 128:3, your children shall be like what plants round about your table?",
+      "es": "Según el Salmo 128:3, ¿como plantas de qué serán tus hijos alrededor de tu mesa?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De oliveira",
+          "fr": "D’olivier",
+          "en": "Olive",
+          "es": "De olivas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De videira",
+          "fr": "De vigne",
+          "en": "Vine",
+          "es": "De parra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De figueira",
+          "fr": "De figuier",
+          "en": "Fig",
+          "es": "De higuera"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De cedro",
+          "fr": "De cèdre",
+          "en": "Cedar",
+          "es": "De cedro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-015",
+    "type": "choice",
+    "level": "hard",
+    "book": "PSA",
+    "chapter": 137,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Segundo o Salmo 137:2, onde penduraram os exilados as suas harpas?",
+      "fr": "Selon le Psaume 137:2, à quoi les exilés avaient-ils suspendu leurs harpes ?",
+      "en": "According to Psalm 137:2, upon what did the exiles hang their harps?",
+      "es": "Según el Salmo 137:2, ¿sobre qué colgaron los desterrados sus arpas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nos salgueiros",
+          "fr": "Aux saules",
+          "en": "Upon the willows",
+          "es": "Sobre los sauces"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nos cedros",
+          "fr": "Aux cèdres",
+          "en": "Upon the cedars",
+          "es": "Sobre los cedros"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nas palmeiras",
+          "fr": "Aux palmiers",
+          "en": "Upon the palm trees",
+          "es": "Sobre las palmas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nas muralhas",
+          "fr": "Aux murailles",
+          "en": "Upon the walls",
+          "es": "Sobre los muros"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-016",
+    "type": "choice",
+    "level": "hard",
+    "book": "PSA",
+    "chapter": 104,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Que ave é nomeada no Salmo 104:17 por ter a sua casa nas árvores?",
+      "fr": "Quel oiseau est nommé dans le Psaume 104:17 comme ayant sa demeure dans les arbres ?",
+      "en": "Which bird is named in Psalm 104:17 as having her house in the trees?",
+      "es": "¿Qué ave se nombra en el Salmo 104:17 por hacer su casa en los árboles?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A cegonha",
+          "fr": "La cigogne",
+          "en": "The stork",
+          "es": "La cigüeña"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A águia",
+          "fr": "L’aigle",
+          "en": "The eagle",
+          "es": "El águila"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O pardal",
+          "fr": "Le moineau",
+          "en": "The sparrow",
+          "es": "El gorrión"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A coruja",
+          "fr": "La chouette",
+          "en": "The owl",
+          "es": "La lechuza"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-017",
+    "type": "choice",
+    "level": "hard",
+    "book": "PSA",
+    "chapter": 115,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Segundo o Salmo 115:4, de que são feitos os ídolos das nações?",
+      "fr": "Selon le Psaume 115:4, de quoi sont faites les idoles des nations ?",
+      "en": "According to Psalm 115:4, what are the idols of the heathen made of?",
+      "es": "Según el Salmo 115:4, ¿de qué son los ídolos de las naciones?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Prata e ouro",
+          "fr": "D’argent et d’or",
+          "en": "Silver and gold",
+          "es": "Plata y oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Madeira e pedra",
+          "fr": "De bois et de pierre",
+          "en": "Wood and stone",
+          "es": "Madera y piedra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Bronze e ferro",
+          "fr": "D’airain et de fer",
+          "en": "Brass and iron",
+          "es": "Bronce y hierro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Barro e palha",
+          "fr": "D’argile et de paille",
+          "en": "Clay and straw",
+          "es": "Barro y paja"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-018",
+    "type": "choice",
+    "level": "hard",
+    "book": "PRO",
+    "chapter": 3,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Segundo Provérbios 3:9, além dos teus bens, com que deves honrar o SENHOR?",
+      "fr": "Selon Proverbes 3:9, outre tes biens, avec quoi dois-tu honorer l’Éternel ?",
+      "en": "According to Proverbs 3:9, besides your substance, with what should you honour the LORD?",
+      "es": "Según Proverbios 3:9, además de tu sustancia, ¿con qué debes honrar a Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A primeira parte da tua renda",
+          "fr": "Les prémices de ton revenu",
+          "en": "The firstfruits of all your increase",
+          "es": "Las primicias de tus frutos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os teus cânticos",
+          "fr": "Tes cantiques",
+          "en": "Your songs",
+          "es": "Tus cánticos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os teus jejuns",
+          "fr": "Tes jeûnes",
+          "en": "Your fasting",
+          "es": "Tus ayunos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As tuas vestes",
+          "fr": "Tes vêtements",
+          "en": "Your garments",
+          "es": "Tus vestidos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-019",
+    "type": "choice",
+    "level": "hard",
+    "book": "PRO",
+    "chapter": 6,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Segundo Provérbios 6:16, o SENHOR odeia seis coisas; quantas são abominação para Ele?",
+      "fr": "Selon Proverbes 6:16, l’Éternel hait six choses ; combien en a-t-il en horreur ?",
+      "en": "According to Proverbs 6:16, the LORD hates six things; how many are an abomination unto him?",
+      "es": "Según Proverbios 6:16, Jehová aborrece seis cosas; ¿cuántas abomina su alma?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cinco",
+          "fr": "Cinq",
+          "en": "Five",
+          "es": "Cinco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dez",
+          "fr": "Dix",
+          "en": "Ten",
+          "es": "Diez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-020",
+    "type": "choice",
+    "level": "hard",
+    "book": "PRO",
+    "chapter": 11,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Provérbios 11:1, o que é abominação ao SENHOR?",
+      "fr": "Selon Proverbes 11:1, qu’est-ce qui est en horreur à l’Éternel ?",
+      "en": "According to Proverbs 11:1, what is abomination to the LORD?",
+      "es": "Según Proverbios 11:1, ¿qué es abominación a Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A balança enganosa",
+          "fr": "La balance fausse",
+          "en": "A false balance",
+          "es": "El peso falso"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O peso justo",
+          "fr": "Le poids juste",
+          "en": "A just weight",
+          "es": "La pesa cabal"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A colheita farta",
+          "fr": "La moisson abondante",
+          "en": "A plentiful harvest",
+          "es": "La cosecha abundante"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O dinheiro emprestado",
+          "fr": "L’argent prêté",
+          "en": "Borrowed money",
+          "es": "El dinero prestado"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-021",
+    "type": "choice",
+    "level": "hard",
+    "book": "PRO",
+    "chapter": 16,
+    "verse_start": 32,
+    "verse_end": 32,
+    "prompt": {
+      "pt": "Segundo Provérbios 16:32, quem é melhor do que o valente?",
+      "fr": "Selon Proverbes 16:32, qui vaut mieux qu’un héros ?",
+      "en": "According to Proverbs 16:32, who is better than the mighty?",
+      "es": "Según Proverbios 16:32, ¿quién es mejor que el fuerte?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O que demora a irritar-se",
+          "fr": "Celui qui est lent à la colère",
+          "en": "He that is slow to anger",
+          "es": "El que tarde se aira"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O que tem muitos cavalos",
+          "fr": "Celui qui a beaucoup de chevaux",
+          "en": "He that has many horses",
+          "es": "El que tiene muchos caballos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O que fala muito",
+          "fr": "Celui qui parle beaucoup",
+          "en": "He that speaks much",
+          "es": "El que habla mucho"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O que ajunta ouro",
+          "fr": "Celui qui amasse de l’or",
+          "en": "He that gathers gold",
+          "es": "El que junta oro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-022",
+    "type": "choice",
+    "level": "hard",
+    "book": "PRO",
+    "chapter": 19,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Segundo Provérbios 19:17, quem faz misericórdia ao pobre empresta a quem?",
+      "fr": "Selon Proverbes 19:17, celui qui a pitié du pauvre prête à qui ?",
+      "en": "According to Proverbs 19:17, he that has pity upon the poor lends unto whom?",
+      "es": "Según Proverbios 19:17, el que da al pobre, ¿a quién presta?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Ao SENHOR",
+          "fr": "À l’Éternel",
+          "en": "Unto the LORD",
+          "es": "A Jehová"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ao rei",
+          "fr": "Au roi",
+          "en": "Unto the king",
+          "es": "Al rey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ao seu vizinho",
+          "fr": "À son voisin",
+          "en": "Unto his neighbour",
+          "es": "A su vecino"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ao sacerdote",
+          "fr": "Au prêtre",
+          "en": "Unto the priest",
+          "es": "Al sacerdote"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-023",
+    "type": "choice",
+    "level": "hard",
+    "book": "PRO",
+    "chapter": 25,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Provérbios 25:1, os homens de que rei de Judá copiaram estes provérbios de Salomão?",
+      "fr": "Selon Proverbes 25:1, les gens de quel roi de Juda recueillirent ces proverbes de Salomon ?",
+      "en": "According to Proverbs 25:1, the men of which king of Judah copied out these proverbs of Solomon?",
+      "es": "Según Proverbios 25:1, ¿los varones de qué rey de Judá copiaron estos proverbios de Salomón?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Ezequias",
+          "fr": "Ézéchias",
+          "en": "Hezekiah",
+          "es": "Ezechîas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josias",
+          "fr": "Josias",
+          "en": "Josiah",
+          "es": "Josías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uzias",
+          "fr": "Ozias",
+          "en": "Uzziah",
+          "es": "Uzzías"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Roboão",
+          "fr": "Roboam",
+          "en": "Rehoboam",
+          "es": "Roboam"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-024",
+    "type": "choice",
+    "level": "hard",
+    "book": "PRO",
+    "chapter": 25,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Segundo Provérbios 25:11, a palavra dita a seu tempo é como maçãs de quê?",
+      "fr": "Selon Proverbes 25:11, une parole dite à propos est comme des pommes de quoi ?",
+      "en": "According to Proverbs 25:11, a word fitly spoken is like apples of what?",
+      "es": "Según Proverbios 25:11, ¿de qué es la manzana a la que se compara la palabra dicha como conviene?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De ouro",
+          "fr": "D’or",
+          "en": "Gold",
+          "es": "De oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De prata",
+          "fr": "D’argent",
+          "en": "Silver",
+          "es": "De plata"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De bronze",
+          "fr": "D’airain",
+          "en": "Brass",
+          "es": "De bronce"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De mel",
+          "fr": "De miel",
+          "en": "Honey",
+          "es": "De miel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-025",
+    "type": "choice",
+    "level": "hard",
+    "book": "PRO",
+    "chapter": 30,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Provérbios 30:1, de quem são as palavras deste capítulo?",
+      "fr": "Selon Proverbes 30:1, de qui sont les paroles de ce chapitre ?",
+      "en": "According to Proverbs 30:1, whose words are in this chapter?",
+      "es": "Según Proverbios 30:1, ¿de quién son las palabras de este capítulo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De Agur",
+          "fr": "D’Agur",
+          "en": "Agur’s",
+          "es": "De Agur"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De Lemuel",
+          "fr": "De Lemuel",
+          "en": "Lemuel’s",
+          "es": "De Lemuel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De Asafe",
+          "fr": "D’Asaph",
+          "en": "Asaph’s",
+          "es": "De Asaph"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De Natã",
+          "fr": "De Nathan",
+          "en": "Nathan’s",
+          "es": "De Nathán"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-026",
+    "type": "choice",
+    "level": "hard",
+    "book": "PRO",
+    "chapter": 30,
+    "verse_start": 27,
+    "verse_end": 27,
+    "prompt": {
+      "pt": "Segundo Provérbios 30:27, que pequenos animais não têm rei, mas saem todos em bandos?",
+      "fr": "Selon Proverbes 30:27, quels petits animaux n’ont point de roi, mais sortent tous par divisions ?",
+      "en": "According to Proverbs 30:27, which little creatures have no king, yet go forth all of them by bands?",
+      "es": "Según Proverbios 30:27, ¿qué animales pequeños no tienen rey, y salen todos acuadrillados?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Os gafanhotos",
+          "fr": "Les sauterelles",
+          "en": "The locusts",
+          "es": "Las langostas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As abelhas",
+          "fr": "Les abeilles",
+          "en": "The bees",
+          "es": "Las abejas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os pardais",
+          "fr": "Les moineaux",
+          "en": "The sparrows",
+          "es": "Los gorriones"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As pombas",
+          "fr": "Les colombes",
+          "en": "The doves",
+          "es": "Las palomas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-027",
+    "type": "choice",
+    "level": "hard",
+    "book": "ECC",
+    "chapter": 11,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Eclesiastes 11:1, o que deves lançar sobre as águas?",
+      "fr": "Selon l’Ecclésiaste 11:1, que dois-tu jeter sur la face des eaux ?",
+      "en": "According to Ecclesiastes 11:1, what should you cast upon the waters?",
+      "es": "Según Eclesiastés 11:1, ¿qué debes echar sobre las aguas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O teu pão",
+          "fr": "Ton pain",
+          "en": "Your bread",
+          "es": "Tu pan"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As tuas redes",
+          "fr": "Tes filets",
+          "en": "Your nets",
+          "es": "Tus redes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As tuas moedas",
+          "fr": "Tes pièces d’argent",
+          "en": "Your coins",
+          "es": "Tus monedas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As tuas pedras",
+          "fr": "Tes pierres",
+          "en": "Your stones",
+          "es": "Tus piedras"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-028",
+    "type": "choice",
+    "level": "hard",
+    "book": "ECC",
+    "chapter": 2,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Segundo Eclesiastes 2:4, o que plantou o Pregador entre as suas grandes obras?",
+      "fr": "Selon l’Ecclésiaste 2:4, qu’a planté l’Ecclésiaste parmi ses grands ouvrages ?",
+      "en": "According to Ecclesiastes 2:4, what did the Preacher plant among his great works?",
+      "es": "Según Eclesiastés 2:4, ¿qué plantó el Predicador entre sus grandes obras?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Vinhas",
+          "fr": "Des vignes",
+          "en": "Vineyards",
+          "es": "Viñas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Campos de trigo",
+          "fr": "Des champs de blé",
+          "en": "Fields of wheat",
+          "es": "Campos de trigo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Campos de linho",
+          "fr": "Des champs de lin",
+          "en": "Fields of flax",
+          "es": "Campos de lino"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Algodão",
+          "fr": "Du coton",
+          "en": "Cotton",
+          "es": "Algodón"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-029",
+    "type": "verse",
+    "level": "hard",
+    "book": "JOB",
+    "chapter": 42,
+    "verse_start": 5,
+    "verse_end": 5,
+    "blank": {
+      "pt": "olhos",
+      "fr": "œil",
+      "en": "eye",
+      "es": "ojos"
+    },
+    "distractors": [
+      {
+        "pt": "amigos",
+        "fr": "ami",
+        "en": "friend",
+        "es": "amigos"
+      },
+      {
+        "pt": "filhos",
+        "fr": "fils",
+        "en": "son",
+        "es": "hijos"
+      },
+      {
+        "pt": "inimigos",
+        "fr": "ennemi",
+        "en": "enemy",
+        "es": "enemigos"
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-030",
+    "type": "verse",
+    "level": "hard",
+    "book": "PSA",
+    "chapter": 37,
+    "verse_start": 25,
+    "verse_end": 25,
+    "blank": {
+      "pt": "pão",
+      "fr": "pain",
+      "en": "bread",
+      "es": "pan"
+    },
+    "distractors": [
+      {
+        "pt": "água",
+        "fr": "eau",
+        "en": "water",
+        "es": "agua"
+      },
+      {
+        "pt": "abrigo",
+        "fr": "abri",
+        "en": "shelter",
+        "es": "abrigo"
+      },
+      {
+        "pt": "vinho",
+        "fr": "vin",
+        "en": "wine",
+        "es": "vino"
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-031",
+    "type": "verse",
+    "level": "hard",
+    "book": "PSA",
+    "chapter": 103,
+    "verse_start": 15,
+    "verse_end": 15,
+    "blank": {
+      "pt": "erva",
+      "fr": "herbe",
+      "en": "grass",
+      "es": "hierba"
+    },
+    "distractors": [
+      {
+        "pt": "espuma",
+        "fr": "écume",
+        "en": "foam",
+        "es": "espuma"
+      },
+      {
+        "pt": "argila",
+        "fr": "argile",
+        "en": "clay",
+        "es": "arcilla"
+      },
+      {
+        "pt": "casca",
+        "fr": "écorce",
+        "en": "bark",
+        "es": "corteza"
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-032",
+    "type": "verse",
+    "level": "hard",
+    "book": "PRO",
+    "chapter": 14,
+    "verse_start": 12,
+    "verse_end": 12,
+    "blank": {
+      "pt": "morte",
+      "fr": "mort",
+      "en": "death",
+      "es": "muerte"
+    },
+    "distractors": [
+      {
+        "pt": "vida",
+        "fr": "vie",
+        "en": "life",
+        "es": "vida"
+      },
+      {
+        "pt": "paz",
+        "fr": "paix",
+        "en": "peace",
+        "es": "paz"
+      },
+      {
+        "pt": "glória",
+        "fr": "gloire",
+        "en": "glory",
+        "es": "gloria"
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-033",
+    "type": "verse",
+    "level": "hard",
+    "book": "PRO",
+    "chapter": 20,
+    "verse_start": 1,
+    "verse_end": 1,
+    "blank": {
+      "pt": "vinho",
+      "fr": "vin",
+      "en": "Wine",
+      "es": "vino"
+    },
+    "distractors": [
+      {
+        "pt": "pão",
+        "fr": "pain",
+        "en": "Bread",
+        "es": "pan"
+      },
+      {
+        "pt": "queijo",
+        "fr": "fromage",
+        "en": "Cheese",
+        "es": "queso"
+      },
+      {
+        "pt": "sono",
+        "fr": "sommeil",
+        "en": "Sleep",
+        "es": "sueño"
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-034",
+    "type": "verse",
+    "level": "hard",
+    "book": "SNG",
+    "chapter": 8,
+    "verse_start": 7,
+    "verse_end": 7,
+    "blank": {
+      "pt": "águas",
+      "fr": "eaux",
+      "en": "waters",
+      "es": "aguas"
+    },
+    "distractors": [
+      {
+        "pt": "chamas",
+        "fr": "flammes",
+        "en": "flames",
+        "es": "llamas"
+      },
+      {
+        "pt": "pedras",
+        "fr": "pierres",
+        "en": "stones",
+        "es": "piedras"
+      },
+      {
+        "pt": "lágrimas",
+        "fr": "larmes",
+        "en": "tears",
+        "es": "lágrimas"
+      }
+    ]
+  },
+  {
+    "id": "poet2-hard-035",
+    "type": "verse",
+    "level": "hard",
+    "book": "ECC",
+    "chapter": 9,
+    "verse_start": 10,
+    "verse_end": 10,
+    "blank": {
+      "pt": "forças",
+      "fr": "force",
+      "en": "might",
+      "es": "fuerzas"
+    },
+    "distractors": [
+      {
+        "pt": "alegrias",
+        "fr": "joie",
+        "en": "joy",
+        "es": "alegrías"
+      },
+      {
+        "pt": "riquezas",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riquezas"
+      },
+      {
+        "pt": "dores",
+        "fr": "douleur",
+        "en": "sorrow",
+        "es": "dolores"
+      }
+    ]
+  }
+]

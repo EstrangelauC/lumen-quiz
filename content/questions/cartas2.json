@@ -1,0 +1,5102 @@
+[
+  {
+    "id": "cartas2-easy-001",
+    "type": "choice",
+    "level": "easy",
+    "book": "ROM",
+    "chapter": 3,
+    "verse_start": 23,
+    "verse_end": 23,
+    "prompt": {
+      "pt": "Segundo Romanos 3:23, quem pecou e está destituído da glória de Deus?",
+      "fr": "Selon Romains 3:23, qui a péché et est privé de la gloire de Dieu ?",
+      "en": "According to Romans 3:23, who have sinned and come short of the glory of God?",
+      "es": "Según Romanos 3:23, ¿quiénes pecaron y están destituidos de la gloria de Dios?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Todos",
+          "fr": "Tous",
+          "en": "All",
+          "es": "Todos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só os gentios",
+          "fr": "Seulement les païens",
+          "en": "Only the Gentiles",
+          "es": "Solo los gentiles"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só os reis",
+          "fr": "Seulement les rois",
+          "en": "Only the kings",
+          "es": "Solo los reyes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ninguém",
+          "fr": "Personne",
+          "en": "No one",
+          "es": "Nadie"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-002",
+    "type": "choice",
+    "level": "easy",
+    "book": "1CO",
+    "chapter": 13,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Segundo 1 Coríntios 13:4, como é o amor?",
+      "fr": "Selon 1 Corinthiens 13:4, comment est la charité ?",
+      "en": "According to 1 Corinthians 13:4, what is charity like?",
+      "es": "Según 1 Corintios 13:4, ¿cómo es la caridad?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Paciente e bondoso",
+          "fr": "Patiente et pleine de bonté",
+          "en": "It suffereth long and is kind",
+          "es": "Sufrida y benigna"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Orgulhoso e invejoso",
+          "fr": "Orgueilleuse et envieuse",
+          "en": "Proud and envious",
+          "es": "Orgullosa y envidiosa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Rápido a irar-se",
+          "fr": "Prompte à se mettre en colère",
+          "en": "Quick to anger",
+          "es": "Pronta para airarse"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Triste e severo",
+          "fr": "Triste et sévère",
+          "en": "Sad and severe",
+          "es": "Triste y severa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-003",
+    "type": "choice",
+    "level": "easy",
+    "book": "1CO",
+    "chapter": 12,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Segundo 1 Coríntios 12:12, o corpo é um só, mas tem muitos…",
+      "fr": "Selon 1 Corinthiens 12:12, le corps est un, mais il a plusieurs…",
+      "en": "According to 1 Corinthians 12:12, the body is one, but has many…",
+      "es": "Según 1 Corintios 12:12, el cuerpo es uno, pero tiene muchos…"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Membros",
+          "fr": "Membres",
+          "en": "Members",
+          "es": "Miembros"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nomes",
+          "fr": "Noms",
+          "en": "Names",
+          "es": "Nombres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Corações",
+          "fr": "Cœurs",
+          "en": "Hearts",
+          "es": "Corazones"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Rostos",
+          "fr": "Visages",
+          "en": "Faces",
+          "es": "Rostros"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-004",
+    "type": "choice",
+    "level": "easy",
+    "book": "2CO",
+    "chapter": 9,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Segundo 2 Coríntios 9:7, quem é que Deus ama?",
+      "fr": "Selon 2 Corinthiens 9:7, qui Dieu aime-t-il ?",
+      "en": "According to 2 Corinthians 9:7, whom does God love?",
+      "es": "Según 2 Corintios 9:7, ¿a quién ama Dios?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Quem dá com alegria",
+          "fr": "Celui qui donne avec joie",
+          "en": "A cheerful giver",
+          "es": "El dador alegre"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quem dá com tristeza",
+          "fr": "Celui qui donne avec tristesse",
+          "en": "A grudging giver",
+          "es": "El que da con tristeza"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quem dá por obrigação",
+          "fr": "Celui qui donne par contrainte",
+          "en": "One who gives of necessity",
+          "es": "El que da por necesidad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quem nunca pede nada",
+          "fr": "Celui qui ne demande jamais rien",
+          "en": "One who never asks for anything",
+          "es": "El que nunca pide nada"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-005",
+    "type": "choice",
+    "level": "easy",
+    "book": "GAL",
+    "chapter": 6,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Completa Gálatas 6:7: «o que o ser humano semear, isso também…»",
+      "fr": "Complète Galates 6:7 : « Ce qu’un homme aura semé, il le… »",
+      "en": "Complete Galatians 6:7: “whatsoever a man soweth, that shall he also…”",
+      "es": "Completa Gálatas 6:7: «todo lo que el hombre sembrare, eso también…»"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "colherá",
+          "fr": "moissonnera",
+          "en": "reap",
+          "es": "segará"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "venderá",
+          "fr": "vendra",
+          "en": "sell",
+          "es": "venderá"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "esquecerá",
+          "fr": "oubliera",
+          "en": "forget",
+          "es": "olvidará"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "perderá",
+          "fr": "perdra",
+          "en": "lose",
+          "es": "perderá"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-006",
+    "type": "choice",
+    "level": "easy",
+    "book": "EPH",
+    "chapter": 2,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Segundo Efésios 2:8, o que nos salva, por meio da fé?",
+      "fr": "Selon Éphésiens 2:8, qu’est-ce qui nous sauve, par le moyen de la foi ?",
+      "en": "According to Ephesians 2:8, what saves us, through faith?",
+      "es": "Según Efesios 2:8, ¿qué nos salva por la fe?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A graça",
+          "fr": "La grâce",
+          "en": "Grace",
+          "es": "La gracia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As nossas obras",
+          "fr": "Nos œuvres",
+          "en": "Our works",
+          "es": "Nuestras obras"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O dinheiro",
+          "fr": "L’argent",
+          "en": "Money",
+          "es": "El dinero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A nossa força",
+          "fr": "Notre force",
+          "en": "Our strength",
+          "es": "Nuestra fuerza"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-007",
+    "type": "choice",
+    "level": "easy",
+    "book": "PHP",
+    "chapter": 4,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Segundo Filipenses 4:4, quando devemos alegrar-nos no Senhor?",
+      "fr": "Selon Philippiens 4:4, quand devons-nous nous réjouir dans le Seigneur ?",
+      "en": "According to Philippians 4:4, when should we rejoice in the Lord?",
+      "es": "Según Filipenses 4:4, ¿cuándo debemos gozarnos en el Señor?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Sempre",
+          "fr": "Toujours",
+          "en": "Always",
+          "es": "Siempre"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só nos dias de festa",
+          "fr": "Seulement les jours de fête",
+          "en": "Only on feast days",
+          "es": "Solo en los días de fiesta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só quando tudo corre bem",
+          "fr": "Seulement quand tout va bien",
+          "en": "Only when all goes well",
+          "es": "Solo cuando todo va bien"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só de manhã",
+          "fr": "Seulement le matin",
+          "en": "Only in the morning",
+          "es": "Solo por la mañana"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-008",
+    "type": "choice",
+    "level": "easy",
+    "book": "COL",
+    "chapter": 3,
+    "verse_start": 23,
+    "verse_end": 23,
+    "prompt": {
+      "pt": "Segundo Colossenses 3:23, devemos fazer tudo de coração, como para quem?",
+      "fr": "Selon Colossiens 3:23, nous devons tout faire de bon cœur, comme pour qui ?",
+      "en": "According to Colossians 3:23, we should do everything heartily, as to whom?",
+      "es": "Según Colosenses 3:23, debemos hacerlo todo de ánimo, ¿como para quién?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Para o Senhor",
+          "fr": "Pour le Seigneur",
+          "en": "To the Lord",
+          "es": "Para el Señor"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Para os vizinhos",
+          "fr": "Pour les voisins",
+          "en": "To the neighbours",
+          "es": "Para los vecinos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Para nós mesmos",
+          "fr": "Pour nous-mêmes",
+          "en": "To ourselves",
+          "es": "Para nosotros mismos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Para o rei",
+          "fr": "Pour le roi",
+          "en": "To the king",
+          "es": "Para el rey"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-009",
+    "type": "choice",
+    "level": "easy",
+    "book": "1TH",
+    "chapter": 5,
+    "verse_start": 18,
+    "verse_end": 18,
+    "prompt": {
+      "pt": "Segundo 1 Tessalonicenses 5:18, em que devemos dar graças?",
+      "fr": "Selon 1 Thessaloniciens 5:18, en quoi devons-nous rendre grâces ?",
+      "en": "According to 1 Thessalonians 5:18, in what should we give thanks?",
+      "es": "Según 1 Tesalonicenses 5:18, ¿en qué debemos dar gracias?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Em tudo",
+          "fr": "En toutes choses",
+          "en": "In every thing",
+          "es": "En todo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só nas coisas boas",
+          "fr": "Seulement dans les bonnes choses",
+          "en": "Only in good things",
+          "es": "Solo en las cosas buenas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só às refeições",
+          "fr": "Seulement aux repas",
+          "en": "Only at meals",
+          "es": "Solo en las comidas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só ao sábado",
+          "fr": "Seulement le jour du sabbat",
+          "en": "Only on the sabbath",
+          "es": "Solo el sábado"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-010",
+    "type": "choice",
+    "level": "easy",
+    "book": "1TI",
+    "chapter": 4,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Segundo 1 Timóteo 4:12, o que é que ninguém devia desprezar em Timóteo?",
+      "fr": "Selon 1 Timothée 4:12, qu’est-ce que personne ne devait mépriser chez Timothée ?",
+      "en": "According to 1 Timothy 4:12, what should no man despise in Timothy?",
+      "es": "Según 1 Timoteo 4:12, ¿qué no debía nadie tener en poco en Timoteo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A sua juventude",
+          "fr": "Sa jeunesse",
+          "en": "His youth",
+          "es": "Su juventud"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A sua família",
+          "fr": "Sa famille",
+          "en": "His family",
+          "es": "Su familia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A sua pobreza",
+          "fr": "Sa pauvreté",
+          "en": "His poverty",
+          "es": "Su pobreza"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A sua terra",
+          "fr": "Son pays",
+          "en": "His country",
+          "es": "Su tierra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-011",
+    "type": "choice",
+    "level": "easy",
+    "book": "2TI",
+    "chapter": 3,
+    "verse_start": 15,
+    "verse_end": 15,
+    "prompt": {
+      "pt": "Segundo 2 Timóteo 3:15, desde quando conhecia Timóteo as Sagradas Escrituras?",
+      "fr": "Selon 2 Timothée 3:15, depuis quand Timothée connaissait-il les saintes lettres ?",
+      "en": "According to 2 Timothy 3:15, since when had Timothy known the holy scriptures?",
+      "es": "Según 2 Timoteo 3:15, ¿desde cuándo conocía Timoteo las Sagradas Escrituras?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Desde a infância",
+          "fr": "Dès son enfance",
+          "en": "From a child",
+          "es": "Desde la niñez"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Desde que conheceu Paulo",
+          "fr": "Depuis qu’il avait connu Paul",
+          "en": "Since he met Paul",
+          "es": "Desde que conoció a Pablo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Desde que foi para Roma",
+          "fr": "Depuis son voyage à Rome",
+          "en": "Since he went to Rome",
+          "es": "Desde que fue a Roma"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Há poucos dias",
+          "fr": "Depuis peu de jours",
+          "en": "For only a few days",
+          "es": "Desde hacía pocos días"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-012",
+    "type": "choice",
+    "level": "easy",
+    "book": "JAS",
+    "chapter": 1,
+    "verse_start": 19,
+    "verse_end": 19,
+    "prompt": {
+      "pt": "Segundo Tiago 1:19, para que devemos ser prontos?",
+      "fr": "Selon Jacques 1:19, à quoi devons-nous être prompts ?",
+      "en": "According to James 1:19, what should we be swift to do?",
+      "es": "Según Santiago 1:19, ¿para qué debemos ser prontos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Para ouvir",
+          "fr": "À écouter",
+          "en": "To hear",
+          "es": "Para oír"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Para falar",
+          "fr": "À parler",
+          "en": "To speak",
+          "es": "Para hablar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Para nos irarmos",
+          "fr": "À nous mettre en colère",
+          "en": "To be angry",
+          "es": "Para airarnos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Para julgar",
+          "fr": "À juger",
+          "en": "To judge",
+          "es": "Para juzgar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-013",
+    "type": "choice",
+    "level": "easy",
+    "book": "1PE",
+    "chapter": 3,
+    "verse_start": 20,
+    "verse_end": 20,
+    "prompt": {
+      "pt": "Segundo 1 Pedro 3:20, quantas pessoas foram salvas na arca, nos dias de Noé?",
+      "fr": "Selon 1 Pierre 3:20, combien de personnes furent sauvées dans l’arche, aux jours de Noé ?",
+      "en": "According to 1 Peter 3:20, how many souls were saved in the ark, in the days of Noah?",
+      "es": "Según 1 Pedro 3:20, ¿cuántas personas fueron salvas en el arca, en los días de Noé?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Oito",
+          "fr": "Huit",
+          "en": "Eight",
+          "es": "Ocho"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Duas",
+          "fr": "Deux",
+          "en": "Two",
+          "es": "Dos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quarenta",
+          "fr": "Quarante",
+          "en": "Forty",
+          "es": "Cuarenta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-014",
+    "type": "choice",
+    "level": "easy",
+    "book": "1PE",
+    "chapter": 5,
+    "verse_start": 6,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Segundo 1 Pedro 5:6-7, porque devemos lançar sobre Deus toda a nossa ansiedade?",
+      "fr": "Selon 1 Pierre 5:6-7, pourquoi devons-nous nous décharger sur Dieu de tous nos soucis ?",
+      "en": "According to 1 Peter 5:6-7, why should we cast all our care upon God?",
+      "es": "Según 1 Pedro 5:6-7, ¿por qué debemos echar en Dios toda nuestra solicitud?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Porque ele tem cuidado de nós",
+          "fr": "Parce qu’il prend soin de nous",
+          "en": "Because he careth for us",
+          "es": "Porque él tiene cuidado de nosotros"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Porque ele nos vai castigar",
+          "fr": "Parce qu’il va nous punir",
+          "en": "Because he will punish us",
+          "es": "Porque nos va a castigar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Porque as preocupações são boas",
+          "fr": "Parce que les soucis sont bons",
+          "en": "Because worries are good",
+          "es": "Porque las preocupaciones son buenas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Porque ele está longe",
+          "fr": "Parce qu’il est loin",
+          "en": "Because he is far away",
+          "es": "Porque él está lejos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-015",
+    "type": "choice",
+    "level": "easy",
+    "book": "1JN",
+    "chapter": 1,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Segundo 1 João 1:9, o que faz Deus se confessarmos os nossos pecados?",
+      "fr": "Selon 1 Jean 1:9, que fait Dieu si nous confessons nos péchés ?",
+      "en": "According to 1 John 1:9, what does God do if we confess our sins?",
+      "es": "Según 1 Juan 1:9, ¿qué hace Dios si confesamos nuestros pecados?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Perdoa-nos",
+          "fr": "Il nous les pardonne",
+          "en": "He forgives us",
+          "es": "Nos perdona"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Esquece-se de nós",
+          "fr": "Il nous oublie",
+          "en": "He forgets us",
+          "es": "Se olvida de nosotros"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Castiga-nos",
+          "fr": "Il nous punit",
+          "en": "He punishes us",
+          "es": "Nos castiga"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Afasta-se de nós",
+          "fr": "Il s’éloigne de nous",
+          "en": "He goes away from us",
+          "es": "Se aleja de nosotros"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-016",
+    "type": "choice",
+    "level": "easy",
+    "book": "REV",
+    "chapter": 1,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Em Apocalipse 1:8, o Senhor diz que é o Alfa e que outra letra?",
+      "fr": "Dans Apocalypse 1:8, le Seigneur dit qu’il est l’alpha et quelle autre lettre ?",
+      "en": "In Revelation 1:8, the Lord says he is Alpha and which other letter?",
+      "es": "En Apocalipsis 1:8, el Señor dice que es el Alpha y ¿qué otra letra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O Ómega",
+          "fr": "L’oméga",
+          "en": "Omega",
+          "es": "La Omega"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O Beta",
+          "fr": "Le bêta",
+          "en": "Beta",
+          "es": "La Beta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O Gama",
+          "fr": "Le gamma",
+          "en": "Gamma",
+          "es": "La Gamma"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O Delta",
+          "fr": "Le delta",
+          "en": "Delta",
+          "es": "La Delta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-017",
+    "type": "choice",
+    "level": "easy",
+    "book": "REV",
+    "chapter": 21,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Segundo Apocalipse 21:4, o que limpará Deus dos olhos deles?",
+      "fr": "Selon Apocalypse 21:4, qu’est-ce que Dieu essuiera de leurs yeux ?",
+      "en": "According to Revelation 21:4, what shall God wipe away from their eyes?",
+      "es": "Según Apocalipsis 21:4, ¿qué limpiará Dios de los ojos de ellos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Toda a lágrima",
+          "fr": "Toute larme",
+          "en": "All tears",
+          "es": "Toda lágrima"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Toda a poeira",
+          "fr": "Toute poussière",
+          "en": "All dust",
+          "es": "Todo polvo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Toda a luz",
+          "fr": "Toute lumière",
+          "en": "All light",
+          "es": "Toda luz"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Todo o sono",
+          "fr": "Tout sommeil",
+          "en": "All sleep",
+          "es": "Todo sueño"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-018",
+    "type": "choice",
+    "level": "easy",
+    "book": "REV",
+    "chapter": 3,
+    "verse_start": 20,
+    "verse_end": 20,
+    "prompt": {
+      "pt": "Segundo Apocalipse 3:20, o que faz aquele que está à porta?",
+      "fr": "Selon Apocalypse 3:20, que fait celui qui se tient à la porte ?",
+      "en": "According to Revelation 3:20, what does the one who stands at the door do?",
+      "es": "Según Apocalipsis 3:20, ¿qué hace el que está a la puerta?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Bate",
+          "fr": "Il frappe",
+          "en": "He knocks",
+          "es": "Llama"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Canta",
+          "fr": "Il chante",
+          "en": "He sings",
+          "es": "Canta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dorme",
+          "fr": "Il dort",
+          "en": "He sleeps",
+          "es": "Duerme"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vai-se embora",
+          "fr": "Il s’en va",
+          "en": "He goes away",
+          "es": "Se va"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-019",
+    "type": "verse",
+    "level": "easy",
+    "book": "ROM",
+    "chapter": 12,
+    "verse_start": 21,
+    "verse_end": 21,
+    "blank": {
+      "pt": "bem",
+      "fr": "bien",
+      "en": "good",
+      "es": "bien"
+    },
+    "distractors": [
+      {
+        "pt": "desprezo",
+        "fr": "mépris",
+        "en": "contempt",
+        "es": "desprecio"
+      },
+      {
+        "pt": "silêncio",
+        "fr": "silence",
+        "en": "silence",
+        "es": "silencio"
+      },
+      {
+        "pt": "tempo",
+        "fr": "temps",
+        "en": "time",
+        "es": "tiempo"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-020",
+    "type": "verse",
+    "level": "easy",
+    "book": "JAS",
+    "chapter": 1,
+    "verse_start": 5,
+    "verse_end": 5,
+    "blank": {
+      "pt": "sabedoria",
+      "fr": "sagesse",
+      "en": "wisdom",
+      "es": "sabiduría"
+    },
+    "distractors": [
+      {
+        "pt": "riqueza",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riqueza"
+      },
+      {
+        "pt": "comida",
+        "fr": "nourriture",
+        "en": "food",
+        "es": "comida"
+      },
+      {
+        "pt": "força",
+        "fr": "force",
+        "en": "strength",
+        "es": "fuerza"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-021",
+    "type": "verse",
+    "level": "easy",
+    "book": "PHP",
+    "chapter": 4,
+    "verse_start": 13,
+    "verse_end": 13,
+    "blank": {
+      "pt": "fortalece",
+      "fr": "fortifie",
+      "en": "strengtheneth",
+      "es": "fortalece"
+    },
+    "distractors": [
+      {
+        "pt": "guia",
+        "fr": "guide",
+        "en": "guideth",
+        "es": "guía"
+      },
+      {
+        "pt": "guarda",
+        "fr": "garde",
+        "en": "keepeth",
+        "es": "guarda"
+      },
+      {
+        "pt": "ouve",
+        "fr": "voit",
+        "en": "heareth",
+        "es": "oye"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-022",
+    "type": "verse",
+    "level": "easy",
+    "book": "HEB",
+    "chapter": 13,
+    "verse_start": 8,
+    "verse_end": 8,
+    "blank": {
+      "pt": "mesmo",
+      "fr": "même",
+      "en": "same",
+      "es": "mismo"
+    },
+    "distractors": [
+      {
+        "pt": "novo",
+        "fr": "nouveau",
+        "en": "new",
+        "es": "nuevo"
+      },
+      {
+        "pt": "último",
+        "fr": "dernier",
+        "en": "last",
+        "es": "postrero"
+      },
+      {
+        "pt": "diferente",
+        "fr": "différent",
+        "en": "different",
+        "es": "diferente"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-023",
+    "type": "verse",
+    "level": "easy",
+    "book": "1JN",
+    "chapter": 1,
+    "verse_start": 5,
+    "verse_end": 5,
+    "blank": {
+      "pt": "luz",
+      "fr": "lumière",
+      "en": "light",
+      "es": "luz"
+    },
+    "distractors": [
+      {
+        "pt": "noite",
+        "fr": "nuit",
+        "en": "night",
+        "es": "noche"
+      },
+      {
+        "pt": "vento",
+        "fr": "vent",
+        "en": "wind",
+        "es": "viento"
+      },
+      {
+        "pt": "água",
+        "fr": "eau",
+        "en": "water",
+        "es": "agua"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-024",
+    "type": "verse",
+    "level": "easy",
+    "book": "1JN",
+    "chapter": 4,
+    "verse_start": 19,
+    "verse_end": 19,
+    "blank": {
+      "pt": "amou",
+      "fr": "aimés",
+      "en": "loved",
+      "es": "amó"
+    },
+    "distractors": [
+      {
+        "pt": "chamou",
+        "fr": "appelés",
+        "en": "called",
+        "es": "llamó"
+      },
+      {
+        "pt": "viu",
+        "fr": "vus",
+        "en": "saw",
+        "es": "vio"
+      },
+      {
+        "pt": "ouviu",
+        "fr": "entendus",
+        "en": "heard",
+        "es": "oyó"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-025",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes acontecimentos, lembrados em 2 Pedro, pela ordem em que aconteceram.",
+      "fr": "Mets ces événements, rappelés dans 2 Pierre, dans l’ordre où ils se sont produits.",
+      "en": "Put these events, recalled in 2 Peter, in the order they happened.",
+      "es": "Ordena estos sucesos, recordados en 2 Pedro, según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "2PE",
+        "chapter": 2,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Deus traz o dilúvio e guarda Noé",
+          "fr": "Dieu fait venir le déluge et sauve Noé",
+          "en": "God brings the flood and saves Noah",
+          "es": "Dios trae el diluvio y guarda a Noé"
+        }
+      },
+      {
+        "book": "2PE",
+        "chapter": 2,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Sodoma e Gomorra são reduzidas a cinza",
+          "fr": "Sodome et Gomorrhe sont réduites en cendres",
+          "en": "Sodom and Gomorrha are turned into ashes",
+          "es": "Sodoma y Gomorra son tornadas en ceniza"
+        }
+      },
+      {
+        "book": "2PE",
+        "chapter": 2,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Um animal de carga fala e trava Balaão",
+          "fr": "Une ânesse parle et arrête Balaam",
+          "en": "A dumb ass speaks and rebukes Balaam",
+          "es": "Una bestia de carga habla y refrena a Balaam"
+        }
+      },
+      {
+        "book": "2PE",
+        "chapter": 1,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Pedro ouve a voz do céu no monte santo",
+          "fr": "Pierre entend la voix du ciel sur la sainte montagne",
+          "en": "Peter hears the voice from heaven in the holy mount",
+          "es": "Pedro oye la voz del cielo en el monte santo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-026",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes heróis da fé (Hebreus 11) pela ordem em que viveram.",
+      "fr": "Mets ces héros de la foi (Hébreux 11) dans l’ordre où ils ont vécu.",
+      "en": "Put these heroes of faith (Hebrews 11) in the order they lived.",
+      "es": "Ordena estos héroes de la fe (Hebreos 11) según vivieron."
+    },
+    "items": [
+      {
+        "book": "HEB",
+        "chapter": 11,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Abel oferece a Deus um sacrifício melhor",
+          "fr": "Abel offre à Dieu un sacrifice plus excellent",
+          "en": "Abel offers a more excellent sacrifice",
+          "es": "Abel ofrece a Dios mayor sacrificio"
+        }
+      },
+      {
+        "book": "HEB",
+        "chapter": 11,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Enoque é levado sem ver a morte",
+          "fr": "Énoch est enlevé sans voir la mort",
+          "en": "Enoch is translated without seeing death",
+          "es": "Enoc es traspuesto para no ver muerte"
+        }
+      },
+      {
+        "book": "HEB",
+        "chapter": 11,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Noé constrói a arca",
+          "fr": "Noé construit l’arche",
+          "en": "Noah prepares an ark",
+          "es": "Noé apareja el arca"
+        }
+      },
+      {
+        "book": "HEB",
+        "chapter": 11,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Abraão sai sem saber para onde ia",
+          "fr": "Abraham part sans savoir où il allait",
+          "en": "Abraham goes out, not knowing whither",
+          "es": "Abraham sale sin saber dónde iba"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-027",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "HEB",
+        "chapter": 11,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "Moisés bebé é escondido três meses",
+          "fr": "Moïse bébé est caché trois mois",
+          "en": "Baby Moses is hid three months",
+          "es": "Moisés niño es escondido tres meses"
+        }
+      },
+      {
+        "book": "HEB",
+        "chapter": 11,
+        "verse_start": 28,
+        "verse_end": 28,
+        "text": {
+          "pt": "Celebra-se a Páscoa e o derramamento do sangue",
+          "fr": "On célèbre la Pâque et l’aspersion du sang",
+          "en": "The passover and the sprinkling of blood are kept",
+          "es": "Se celebra la pascua y el derramamiento de la sangre"
+        }
+      },
+      {
+        "book": "HEB",
+        "chapter": 11,
+        "verse_start": 29,
+        "verse_end": 29,
+        "text": {
+          "pt": "O povo atravessa o mar Vermelho",
+          "fr": "Le peuple traverse la mer Rouge",
+          "en": "The people pass through the Red sea",
+          "es": "El pueblo pasa el mar Bermejo"
+        }
+      },
+      {
+        "book": "HEB",
+        "chapter": 11,
+        "verse_start": 30,
+        "verse_end": 30,
+        "text": {
+          "pt": "Os muros de Jericó caem",
+          "fr": "Les murailles de Jéricho tombent",
+          "en": "The walls of Jericho fall down",
+          "es": "Caen los muros de Jericó"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-028",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JAS",
+        "chapter": 5,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "Elias ora para que não chova",
+          "fr": "Élie prie pour qu’il ne pleuve pas",
+          "en": "Elias prays that it might not rain",
+          "es": "Elías ora para que no llueva"
+        }
+      },
+      {
+        "book": "JAS",
+        "chapter": 5,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "Não chove durante três anos e seis meses",
+          "fr": "Il ne pleut pas pendant trois ans et six mois",
+          "en": "It rains not for three years and six months",
+          "es": "No llueve en tres años y seis meses"
+        }
+      },
+      {
+        "book": "JAS",
+        "chapter": 5,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Elias ora outra vez",
+          "fr": "Élie prie de nouveau",
+          "en": "Elias prays again",
+          "es": "Elías ora otra vez"
+        }
+      },
+      {
+        "book": "JAS",
+        "chapter": 5,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "O céu dá chuva e a terra dá fruto",
+          "fr": "Le ciel donne la pluie, la terre son fruit",
+          "en": "The heaven gives rain, the earth her fruit",
+          "es": "El cielo da lluvia y la tierra su fruto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-029",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estas visões pela ordem em que aparecem no Apocalipse.",
+      "fr": "Mets ces visions dans l’ordre où elles apparaissent dans l’Apocalypse.",
+      "en": "Put these visions in the order they appear in Revelation.",
+      "es": "Ordena estas visiones según aparecen en el Apocalipsis."
+    },
+    "items": [
+      {
+        "book": "REV",
+        "chapter": 6,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Um cavalo branco; o cavaleiro tem um arco",
+          "fr": "Un cheval blanc ; son cavalier a un arc",
+          "en": "A white horse; its rider has a bow",
+          "es": "Un caballo blanco; su jinete tiene un arco"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 6,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Um cavalo vermelho, com uma grande espada",
+          "fr": "Un cheval roux, avec une grande épée",
+          "en": "A red horse, with a great sword",
+          "es": "Un caballo bermejo, con una grande espada"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 6,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Um cavalo preto, com uma balança",
+          "fr": "Un cheval noir, avec une balance",
+          "en": "A black horse, with a pair of balances",
+          "es": "Un caballo negro, con un peso"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 6,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Um cavalo amarelo, montado pela Morte",
+          "fr": "Un cheval pâle, monté par la mort",
+          "en": "A pale horse, ridden by Death",
+          "es": "Un caballo amarillo, montado por la Muerte"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-easy-030",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "REV",
+        "chapter": 1,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "João está na ilha de Patmos",
+          "fr": "Jean est dans l’île de Patmos",
+          "en": "John is in the isle of Patmos",
+          "es": "Juan está en la isla de Patmos"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 1,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Ouve atrás de si uma voz como de trombeta",
+          "fr": "Il entend derrière lui une voix comme une trompette",
+          "en": "He hears behind him a voice as of a trumpet",
+          "es": "Oye detrás de sí una voz como de trompeta"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 1,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Vira-se e vê sete castiçais de ouro",
+          "fr": "Il se retourne et voit sept chandeliers d’or",
+          "en": "He turns and sees seven golden candlesticks",
+          "es": "Se vuelve y ve siete candeleros de oro"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 1,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "Cai aos pés dele como morto",
+          "fr": "Il tombe à ses pieds comme mort",
+          "en": "He falls at his feet as dead",
+          "es": "Cae como muerto a sus pies"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-001",
+    "type": "choice",
+    "level": "medium",
+    "book": "ROM",
+    "chapter": 1,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Em Romanos 1:16, de que diz Paulo que não se envergonha?",
+      "fr": "Dans Romains 1:16, de quoi Paul dit-il qu’il n’a point honte ?",
+      "en": "In Romans 1:16, what does Paul say he is not ashamed of?",
+      "es": "En Romanos 1:16, ¿de qué dice Pablo que no se avergüenza?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Do Evangelho",
+          "fr": "De l’Évangile",
+          "en": "The gospel",
+          "es": "Del evangelio"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Da sua riqueza",
+          "fr": "De sa richesse",
+          "en": "His riches",
+          "es": "De sus riquezas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Da sua sabedoria",
+          "fr": "De sa sagesse",
+          "en": "His wisdom",
+          "es": "De su sabiduría"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Da sua cidade natal",
+          "fr": "De sa ville natale",
+          "en": "His home town",
+          "es": "De su ciudad natal"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-002",
+    "type": "choice",
+    "level": "medium",
+    "book": "ROM",
+    "chapter": 5,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Segundo Romanos 5:8, quando morreu Cristo por nós?",
+      "fr": "Selon Romains 5:8, quand Christ est-il mort pour nous ?",
+      "en": "According to Romans 5:8, when did Christ die for us?",
+      "es": "Según Romanos 5:8, ¿cuándo murió Cristo por nosotros?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Quando ainda éramos pecadores",
+          "fr": "Lorsque nous étions encore des pécheurs",
+          "en": "While we were yet sinners",
+          "es": "Siendo aún pecadores"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Depois de nos tornarmos justos",
+          "fr": "Après que nous sommes devenus justes",
+          "en": "After we became righteous",
+          "es": "Después de hacernos justos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quando guardámos toda a lei",
+          "fr": "Quand nous avons gardé toute la loi",
+          "en": "When we had kept all the law",
+          "es": "Cuando guardamos toda la ley"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quando lhe pedimos",
+          "fr": "Quand nous le lui avons demandé",
+          "en": "When we asked him to",
+          "es": "Cuando se lo pedimos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-003",
+    "type": "choice",
+    "level": "medium",
+    "book": "ROM",
+    "chapter": 12,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Romanos 12:1, como devemos apresentar os nossos corpos a Deus?",
+      "fr": "Selon Romains 12:1, comment devons-nous offrir nos corps à Dieu ?",
+      "en": "According to Romans 12:1, how should we present our bodies to God?",
+      "es": "Según Romanos 12:1, ¿cómo debemos presentar nuestros cuerpos a Dios?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Como sacrifício vivo",
+          "fr": "Comme un sacrifice vivant",
+          "en": "A living sacrifice",
+          "es": "En sacrificio vivo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como oferta queimada",
+          "fr": "Comme un holocauste",
+          "en": "A burnt offering",
+          "es": "En holocausto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como templo de pedra",
+          "fr": "Comme un temple de pierre",
+          "en": "A temple of stone",
+          "es": "Como templo de piedra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como servos do rei",
+          "fr": "Comme serviteurs du roi",
+          "en": "As servants of the king",
+          "es": "Como siervos del rey"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-004",
+    "type": "choice",
+    "level": "medium",
+    "book": "1CO",
+    "chapter": 3,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Em 1 Coríntios 3:6, Paulo plantou. Quem regou?",
+      "fr": "Dans 1 Corinthiens 3:6, Paul a planté. Qui a arrosé ?",
+      "en": "In 1 Corinthians 3:6, Paul planted. Who watered?",
+      "es": "En 1 Corintios 3:6, Pablo plantó. ¿Quién regó?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Apolo",
+          "fr": "Apollos",
+          "en": "Apollos",
+          "es": "Apolos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Silas",
+          "fr": "Silas",
+          "en": "Silas",
+          "es": "Silas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Barnabé",
+          "fr": "Barnabas",
+          "en": "Barnabas",
+          "es": "Bernabé"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Timóteo",
+          "fr": "Timothée",
+          "en": "Timothy",
+          "es": "Timoteo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-005",
+    "type": "choice",
+    "level": "medium",
+    "book": "2CO",
+    "chapter": 5,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Segundo 2 Coríntios 5:17, se alguém está em Cristo, o que é?",
+      "fr": "Selon 2 Corinthiens 5:17, si quelqu’un est en Christ, qu’est-il ?",
+      "en": "According to 2 Corinthians 5:17, if any man be in Christ, what is he?",
+      "es": "Según 2 Corintios 5:17, si alguno está en Cristo, ¿qué es?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma nova criatura",
+          "fr": "Une nouvelle créature",
+          "en": "A new creature",
+          "es": "Nueva criatura"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um anjo",
+          "fr": "Un ange",
+          "en": "An angel",
+          "es": "Un ángel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um profeta",
+          "fr": "Un prophète",
+          "en": "A prophet",
+          "es": "Un profeta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um homem perfeito",
+          "fr": "Un homme parfait",
+          "en": "A perfect man",
+          "es": "Un hombre perfecto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-006",
+    "type": "choice",
+    "level": "medium",
+    "book": "EPH",
+    "chapter": 4,
+    "verse_start": 26,
+    "verse_end": 26,
+    "prompt": {
+      "pt": "Segundo Efésios 4:26, o que não se deve pôr sobre a nossa ira?",
+      "fr": "Selon Éphésiens 4:26, qu’est-ce qui ne doit pas se coucher sur notre colère ?",
+      "en": "According to Ephesians 4:26, what should not go down upon our wrath?",
+      "es": "Según Efesios 4:26, ¿qué no debe ponerse sobre nuestro enojo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O sol",
+          "fr": "Le soleil",
+          "en": "The sun",
+          "es": "El sol"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A lua",
+          "fr": "La lune",
+          "en": "The moon",
+          "es": "La luna"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As estrelas",
+          "fr": "Les étoiles",
+          "en": "The stars",
+          "es": "Las estrellas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A noite",
+          "fr": "La nuit",
+          "en": "The night",
+          "es": "La noche"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-007",
+    "type": "choice",
+    "level": "medium",
+    "book": "EPH",
+    "chapter": 6,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Segundo Efésios 6:16, com que podemos apagar as flechas inflamadas do maligno?",
+      "fr": "Selon Éphésiens 6:16, avec quoi pouvons-nous éteindre les traits enflammés du malin ?",
+      "en": "According to Ephesians 6:16, with what can we quench the fiery darts of the wicked?",
+      "es": "Según Efesios 6:16, ¿con qué podemos apagar los dardos de fuego del maligno?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Com o escudo da fé",
+          "fr": "Avec le bouclier de la foi",
+          "en": "With the shield of faith",
+          "es": "Con el escudo de la fe"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com o capacete da salvação",
+          "fr": "Avec le casque du salut",
+          "en": "With the helmet of salvation",
+          "es": "Con el yelmo de la salud"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com a couraça da justiça",
+          "fr": "Avec la cuirasse de la justice",
+          "en": "With the breastplate of righteousness",
+          "es": "Con la cota de justicia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Com a água do rio",
+          "fr": "Avec l’eau du fleuve",
+          "en": "With water from the river",
+          "es": "Con el agua del río"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-008",
+    "type": "choice",
+    "level": "medium",
+    "book": "COL",
+    "chapter": 3,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Segundo Colossenses 3:2, em que coisas devemos pensar?",
+      "fr": "Selon Colossiens 3:2, à quelles choses devons-nous nous affectionner ?",
+      "en": "According to Colossians 3:2, on what things should we set our affection?",
+      "es": "Según Colosenses 3:2, ¿en qué cosas debemos poner la mira?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nas coisas de cima",
+          "fr": "Aux choses d’en haut",
+          "en": "On things above",
+          "es": "En las cosas de arriba"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nas coisas da terra",
+          "fr": "Aux choses de la terre",
+          "en": "On things on the earth",
+          "es": "En las cosas de la tierra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nas riquezas",
+          "fr": "Aux richesses",
+          "en": "On riches",
+          "es": "En las riquezas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nas coisas do passado",
+          "fr": "Aux choses du passé",
+          "en": "On things of the past",
+          "es": "En las cosas del pasado"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-009",
+    "type": "choice",
+    "level": "medium",
+    "book": "1TH",
+    "chapter": 5,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Segundo 1 Tessalonicenses 5:2, como virá o dia do Senhor?",
+      "fr": "Selon 1 Thessaloniciens 5:2, comment viendra le jour du Seigneur ?",
+      "en": "According to 1 Thessalonians 5:2, how cometh the day of the Lord?",
+      "es": "Según 1 Tesalonicenses 5:2, ¿cómo vendrá el día del Señor?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Como um ladrão de noite",
+          "fr": "Comme un voleur dans la nuit",
+          "en": "As a thief in the night",
+          "es": "Como ladrón de noche"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como um rei anunciado com antecedência",
+          "fr": "Comme un roi annoncé à l’avance",
+          "en": "As a king announced in advance",
+          "es": "Como un rey anunciado de antemano"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como a aurora de cada dia",
+          "fr": "Comme l’aurore de chaque jour",
+          "en": "As the dawn of every day",
+          "es": "Como la aurora de cada día"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como um mensageiro em pleno dia",
+          "fr": "Comme un messager en plein jour",
+          "en": "As a messenger in broad daylight",
+          "es": "Como un mensajero a plena luz"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-010",
+    "type": "choice",
+    "level": "medium",
+    "book": "2TH",
+    "chapter": 3,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Segundo 2 Tessalonicenses 3:13, de que não nos devemos cansar?",
+      "fr": "Selon 2 Thessaloniciens 3:13, de quoi ne devons-nous pas nous lasser ?",
+      "en": "According to 2 Thessalonians 3:13, in what should we not be weary?",
+      "es": "Según 2 Tesalonicenses 3:13, ¿de qué no debemos cansarnos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De fazer o bem",
+          "fr": "De faire le bien",
+          "en": "In well doing",
+          "es": "De hacer bien"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De jejuar",
+          "fr": "De jeûner",
+          "en": "In fasting",
+          "es": "De ayunar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De cantar",
+          "fr": "De chanter",
+          "en": "In singing",
+          "es": "De cantar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De viajar",
+          "fr": "De voyager",
+          "en": "In travelling",
+          "es": "De viajar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-011",
+    "type": "choice",
+    "level": "medium",
+    "book": "1TI",
+    "chapter": 2,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Segundo 1 Timóteo 2:5, quem é o único mediador entre Deus e os homens?",
+      "fr": "Selon 1 Timothée 2:5, qui est le seul médiateur entre Dieu et les hommes ?",
+      "en": "According to 1 Timothy 2:5, who is the one mediator between God and men?",
+      "es": "Según 1 Timoteo 2:5, ¿quién es el único mediador entre Dios y los hombres?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Cristo Jesus",
+          "fr": "Jésus-Christ",
+          "en": "Christ Jesus",
+          "es": "Jesucristo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moisés",
+          "fr": "Moïse",
+          "en": "Moses",
+          "es": "Moisés"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O sumo sacerdote",
+          "fr": "Le souverain sacrificateur",
+          "en": "The high priest",
+          "es": "El sumo sacerdote"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os anjos",
+          "fr": "Les anges",
+          "en": "The angels",
+          "es": "Los ángeles"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-012",
+    "type": "choice",
+    "level": "medium",
+    "book": "2TI",
+    "chapter": 4,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Em 2 Timóteo 4:7, Paulo lutou a boa luta e terminou a carreira. O que guardou?",
+      "fr": "Dans 2 Timothée 4:7, Paul a combattu le bon combat et achevé la course. Qu’a-t-il gardé ?",
+      "en": "In 2 Timothy 4:7, Paul fought a good fight and finished his course. What did he keep?",
+      "es": "En 2 Timoteo 4:7, Pablo peleó la buena batalla y acabó la carrera. ¿Qué guardó?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A fé",
+          "fr": "La foi",
+          "en": "The faith",
+          "es": "La fe"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O ouro",
+          "fr": "L’or",
+          "en": "The gold",
+          "es": "El oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A lei",
+          "fr": "La loi",
+          "en": "The law",
+          "es": "La ley"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O templo",
+          "fr": "Le temple",
+          "en": "The temple",
+          "es": "El templo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-013",
+    "type": "choice",
+    "level": "medium",
+    "book": "TIT",
+    "chapter": 3,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Segundo Tito 3:5, segundo o que nos salvou Deus?",
+      "fr": "Selon Tite 3:5, selon quoi Dieu nous a-t-il sauvés ?",
+      "en": "According to Titus 3:5, according to what did God save us?",
+      "es": "Según Tito 3:5, ¿por qué medio nos salvó Dios?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Segundo a sua misericórdia",
+          "fr": "Selon sa miséricorde",
+          "en": "According to his mercy",
+          "es": "Por su misericordia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Segundo as nossas obras de justiça",
+          "fr": "Selon nos œuvres de justice",
+          "en": "According to our works of righteousness",
+          "es": "Por nuestras obras de justicia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Segundo a nossa riqueza",
+          "fr": "Selon notre richesse",
+          "en": "According to our riches",
+          "es": "Por nuestra riqueza"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Segundo a nossa família",
+          "fr": "Selon notre famille",
+          "en": "According to our family",
+          "es": "Por nuestra familia"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-014",
+    "type": "choice",
+    "level": "medium",
+    "book": "PHM",
+    "chapter": 1,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Em Filémon 1:16, Paulo diz que alguém deve ser recebido não mais como servo, mas como quê?",
+      "fr": "Dans Philémon 1:16, Paul dit que quelqu’un doit être reçu non plus comme un esclave, mais comme quoi ?",
+      "en": "In Philemon 1:16, Paul says someone should be received no longer as a servant, but as what?",
+      "es": "En Filemón 1:16, Pablo dice que alguien debe ser recibido ya no como siervo, sino ¿como qué?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Como um irmão amado",
+          "fr": "Comme un frère bien-aimé",
+          "en": "As a brother beloved",
+          "es": "Como hermano amado"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como um servo castigado",
+          "fr": "Comme un esclave puni",
+          "en": "As a punished servant",
+          "es": "Como siervo castigado"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como um estranho",
+          "fr": "Comme un étranger",
+          "en": "As a stranger",
+          "es": "Como un extraño"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Como um inimigo",
+          "fr": "Comme un ennemi",
+          "en": "As an enemy",
+          "es": "Como un enemigo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-015",
+    "type": "choice",
+    "level": "medium",
+    "book": "HEB",
+    "chapter": 4,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Segundo Hebreus 4:12, a palavra de Deus é mais afiada do que o quê?",
+      "fr": "Selon Hébreux 4:12, la parole de Dieu est plus tranchante que quoi ?",
+      "en": "According to Hebrews 4:12, the word of God is sharper than what?",
+      "es": "Según Hebreos 4:12, la palabra de Dios es más penetrante que ¿qué?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Toda a espada de dois gumes",
+          "fr": "Une épée quelconque à deux tranchants",
+          "en": "Any twoedged sword",
+          "es": "Toda espada de dos filos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma faca de pedra",
+          "fr": "Un couteau de pierre",
+          "en": "A knife of stone",
+          "es": "Un cuchillo de piedra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um machado de ferro",
+          "fr": "Une hache de fer",
+          "en": "An axe of iron",
+          "es": "Un hacha de hierro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A ponta de uma lança",
+          "fr": "La pointe d’une lance",
+          "en": "The point of a spear",
+          "es": "La punta de una lanza"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-016",
+    "type": "choice",
+    "level": "medium",
+    "book": "HEB",
+    "chapter": 12,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Hebreus 12:1, de que estamos rodeados?",
+      "fr": "Selon Hébreux 12:1, de quoi sommes-nous environnés ?",
+      "en": "According to Hebrews 12:1, with what are we compassed about?",
+      "es": "Según Hebreos 12:1, ¿de qué estamos rodeados?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De uma grande nuvem de testemunhas",
+          "fr": "D’une grande nuée de témoins",
+          "en": "A great cloud of witnesses",
+          "es": "De una grande nube de testigos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De um grande exército de anjos",
+          "fr": "D’une grande armée d’anges",
+          "en": "A great army of angels",
+          "es": "De un grande ejército de ángeles"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De uma grande muralha de pedra",
+          "fr": "D’une grande muraille de pierre",
+          "en": "A great wall of stone",
+          "es": "De un grande muro de piedra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De uma grande família de reis",
+          "fr": "D’une grande famille de rois",
+          "en": "A great family of kings",
+          "es": "De una grande familia de reyes"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-017",
+    "type": "choice",
+    "level": "medium",
+    "book": "JAS",
+    "chapter": 2,
+    "verse_start": 26,
+    "verse_end": 26,
+    "prompt": {
+      "pt": "Segundo Tiago 2:26, como está a fé sem obras?",
+      "fr": "Selon Jacques 2:26, comment est la foi sans les œuvres ?",
+      "en": "According to James 2:26, what is faith without works?",
+      "es": "Según Santiago 2:26, ¿cómo es la fe sin obras?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Morta",
+          "fr": "Morte",
+          "en": "Dead",
+          "es": "Muerta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Forte",
+          "fr": "Forte",
+          "en": "Strong",
+          "es": "Fuerte"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Perfeita",
+          "fr": "Parfaite",
+          "en": "Perfect",
+          "es": "Perfecta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Escondida",
+          "fr": "Cachée",
+          "en": "Hidden",
+          "es": "Escondida"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-018",
+    "type": "choice",
+    "level": "medium",
+    "book": "1PE",
+    "chapter": 2,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Segundo 1 Pedro 2:9, os crentes são que tipo de sacerdócio?",
+      "fr": "Selon 1 Pierre 2:9, quel sacerdoce sont les croyants ?",
+      "en": "According to 1 Peter 2:9, what kind of priesthood are believers?",
+      "es": "Según 1 Pedro 2:9, ¿qué sacerdocio son los creyentes?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um sacerdócio real",
+          "fr": "Un sacerdoce royal",
+          "en": "A royal priesthood",
+          "es": "Real sacerdocio"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um sacerdócio levítico",
+          "fr": "Un sacerdoce lévitique",
+          "en": "A Levitical priesthood",
+          "es": "Un sacerdocio levítico"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um sacerdócio terreno",
+          "fr": "Un sacerdoce terrestre",
+          "en": "An earthly priesthood",
+          "es": "Un sacerdocio terrenal"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um sacerdócio passageiro",
+          "fr": "Un sacerdoce passager",
+          "en": "A passing priesthood",
+          "es": "Un sacerdocio pasajero"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-019",
+    "type": "choice",
+    "level": "medium",
+    "book": "2PE",
+    "chapter": 1,
+    "verse_start": 21,
+    "verse_end": 21,
+    "prompt": {
+      "pt": "Segundo 2 Pedro 1:21, movidos por quem falaram os santos homens de Deus?",
+      "fr": "Selon 2 Pierre 1:21, poussés par qui des hommes ont-ils parlé de la part de Dieu ?",
+      "en": "According to 2 Peter 1:21, by whom were holy men of God moved when they spake?",
+      "es": "Según 2 Pedro 1:21, ¿inspirados por quién hablaron los santos hombres de Dios?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Pelo Espírito Santo",
+          "fr": "Par le Saint-Esprit",
+          "en": "By the Holy Ghost",
+          "es": "Por el Espíritu Santo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pela vontade humana",
+          "fr": "Par une volonté d’homme",
+          "en": "By the will of man",
+          "es": "Por voluntad humana"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pelos reis de Israel",
+          "fr": "Par les rois d’Israël",
+          "en": "By the kings of Israel",
+          "es": "Por los reyes de Israel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pelos sábios da Grécia",
+          "fr": "Par les sages de la Grèce",
+          "en": "By the wise men of Greece",
+          "es": "Por los sabios de Grecia"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-020",
+    "type": "choice",
+    "level": "medium",
+    "book": "2JN",
+    "chapter": 1,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Segundo 2 João 1:10, o que não se deve fazer a quem não traz esta doutrina?",
+      "fr": "Selon 2 Jean 1:10, que ne faut-il pas faire à celui qui n’apporte pas cette doctrine ?",
+      "en": "According to 2 John 1:10, what should you not do to one who brings not this doctrine?",
+      "es": "Según 2 Juan 1:10, ¿qué no se debe hacer con quien no trae esta doctrina?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Recebê-lo em casa",
+          "fr": "Le recevoir dans sa maison",
+          "en": "Receive him into your house",
+          "es": "Recibirlo en casa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Orar por ele",
+          "fr": "Prier pour lui",
+          "en": "Pray for him",
+          "es": "Orar por él"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Escrever-lhe uma carta",
+          "fr": "Lui écrire une lettre",
+          "en": "Write him a letter",
+          "es": "Escribirle una carta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dar-lhe um conselho",
+          "fr": "Lui donner un conseil",
+          "en": "Give him advice",
+          "es": "Darle un consejo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-021",
+    "type": "choice",
+    "level": "medium",
+    "book": "JUD",
+    "chapter": 1,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo Judas 1:3, pelo que devemos batalhar?",
+      "fr": "Selon Jude 1:3, pour quoi devons-nous combattre ?",
+      "en": "According to Jude 1:3, for what should we earnestly contend?",
+      "es": "Según Judas 1:3, ¿por qué debemos contender eficazmente?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Pela fé entregue aos santos",
+          "fr": "Pour la foi transmise aux saints",
+          "en": "For the faith delivered unto the saints",
+          "es": "Por la fe dada a los santos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pela terra prometida",
+          "fr": "Pour la terre promise",
+          "en": "For the promised land",
+          "es": "Por la tierra prometida"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pelo templo de Jerusalém",
+          "fr": "Pour le temple de Jérusalem",
+          "en": "For the temple of Jerusalem",
+          "es": "Por el templo de Jerusalem"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pelas riquezas do mundo",
+          "fr": "Pour les richesses du monde",
+          "en": "For the riches of the world",
+          "es": "Por las riquezas del mundo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-022",
+    "type": "verse",
+    "level": "medium",
+    "book": "ROM",
+    "chapter": 12,
+    "verse_start": 12,
+    "verse_end": 12,
+    "blank": {
+      "pt": "esperança",
+      "fr": "espérance",
+      "en": "hope",
+      "es": "esperanza"
+    },
+    "distractors": [
+      {
+        "pt": "riqueza",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riqueza"
+      },
+      {
+        "pt": "vitória",
+        "fr": "victoire",
+        "en": "victory",
+        "es": "victoria"
+      },
+      {
+        "pt": "força",
+        "fr": "force",
+        "en": "strength",
+        "es": "fuerza"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-023",
+    "type": "verse",
+    "level": "medium",
+    "book": "1CO",
+    "chapter": 6,
+    "verse_start": 19,
+    "verse_end": 19,
+    "blank": {
+      "pt": "templo",
+      "fr": "temple",
+      "en": "temple",
+      "es": "templo"
+    },
+    "distractors": [
+      {
+        "pt": "palácio",
+        "fr": "palais",
+        "en": "palace",
+        "es": "palacio"
+      },
+      {
+        "pt": "tesouro",
+        "fr": "trésor",
+        "en": "treasure",
+        "es": "tesoro"
+      },
+      {
+        "pt": "castelo",
+        "fr": "château",
+        "en": "castle",
+        "es": "castillo"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-024",
+    "type": "verse",
+    "level": "medium",
+    "book": "2CO",
+    "chapter": 5,
+    "verse_start": 7,
+    "verse_end": 7,
+    "blank": {
+      "pt": "vista",
+      "fr": "vue",
+      "en": "sight",
+      "es": "vista"
+    },
+    "distractors": [
+      {
+        "pt": "lei",
+        "fr": "loi",
+        "en": "law",
+        "es": "ley"
+      },
+      {
+        "pt": "força",
+        "fr": "force",
+        "en": "strength",
+        "es": "fuerza"
+      },
+      {
+        "pt": "riqueza",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riqueza"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-025",
+    "type": "verse",
+    "level": "medium",
+    "book": "COL",
+    "chapter": 3,
+    "verse_start": 14,
+    "verse_end": 14,
+    "blank": {
+      "pt": "amor",
+      "fr": "charité",
+      "en": "charity",
+      "es": "caridad"
+    },
+    "distractors": [
+      {
+        "pt": "poder",
+        "fr": "puissance",
+        "en": "power",
+        "es": "poder"
+      },
+      {
+        "pt": "conhecimento",
+        "fr": "connaissance",
+        "en": "knowledge",
+        "es": "conocimiento"
+      },
+      {
+        "pt": "temor",
+        "fr": "crainte",
+        "en": "fear",
+        "es": "temor"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-026",
+    "type": "verse",
+    "level": "medium",
+    "book": "1TI",
+    "chapter": 6,
+    "verse_start": 7,
+    "verse_end": 7,
+    "blank": {
+      "pt": "mundo",
+      "fr": "monde",
+      "en": "world",
+      "es": "mundo"
+    },
+    "distractors": [
+      {
+        "pt": "templo",
+        "fr": "temple",
+        "en": "temple",
+        "es": "templo"
+      },
+      {
+        "pt": "reino",
+        "fr": "royaume",
+        "en": "kingdom",
+        "es": "reino"
+      },
+      {
+        "pt": "deserto",
+        "fr": "désert",
+        "en": "wilderness",
+        "es": "desierto"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-027",
+    "type": "verse",
+    "level": "medium",
+    "book": "2TI",
+    "chapter": 3,
+    "verse_start": 16,
+    "verse_end": 16,
+    "blank": {
+      "pt": "Escritura",
+      "fr": "Écriture",
+      "en": "scripture",
+      "es": "Escritura"
+    },
+    "distractors": [
+      {
+        "pt": "tradição",
+        "fr": "tradition",
+        "en": "tradition",
+        "es": "tradición"
+      },
+      {
+        "pt": "história",
+        "fr": "histoire",
+        "en": "history",
+        "es": "historia"
+      },
+      {
+        "pt": "sabedoria",
+        "fr": "sagesse",
+        "en": "wisdom",
+        "es": "sabiduría"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-028",
+    "type": "verse",
+    "level": "medium",
+    "book": "JAS",
+    "chapter": 4,
+    "verse_start": 7,
+    "verse_end": 7,
+    "blank": {
+      "pt": "fugirá",
+      "fr": "fuira",
+      "en": "flee",
+      "es": "huirá"
+    },
+    "distractors": [
+      {
+        "pt": "voltará",
+        "fr": "reviendra",
+        "en": "return",
+        "es": "volverá"
+      },
+      {
+        "pt": "cairá",
+        "fr": "tombera",
+        "en": "fall",
+        "es": "caerá"
+      },
+      {
+        "pt": "rirá",
+        "fr": "rira",
+        "en": "laugh",
+        "es": "reirá"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-029",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios da vida de Paulo pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes de la vie de Paul dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes of Paul’s life in the order they happened.",
+      "es": "Ordena estos episodios de la vida de Pablo según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GAL",
+        "chapter": 1,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Paulo persegue a igreja de Deus",
+          "fr": "Paul persécute l’Église de Dieu",
+          "en": "Paul persecutes the church of God",
+          "es": "Pablo persigue la iglesia de Dios"
+        }
+      },
+      {
+        "book": "GAL",
+        "chapter": 1,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "Deus revela o seu Filho em Paulo",
+          "fr": "Dieu révèle son Fils en Paul",
+          "en": "God reveals his Son in Paul",
+          "es": "Dios revela a su Hijo en Pablo"
+        }
+      },
+      {
+        "book": "2CO",
+        "chapter": 11,
+        "verse_start": 33,
+        "verse_end": 33,
+        "text": {
+          "pt": "Paulo foge de Damasco num cesto",
+          "fr": "Paul s’échappe de Damas dans une corbeille",
+          "en": "Paul escapes from Damascus in a basket",
+          "es": "Pablo escapa de Damasco en un serón"
+        }
+      },
+      {
+        "book": "GAL",
+        "chapter": 1,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "Paulo vai para a Síria e a Cilícia",
+          "fr": "Paul va en Syrie et en Cilicie",
+          "en": "Paul comes into Syria and Cilicia",
+          "es": "Pablo va a Siria y Cilicia"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-030",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estas aparições de Cristo ressuscitado pela ordem dada em 1 Coríntios 15.",
+      "fr": "Mets ces apparitions du Christ ressuscité dans l’ordre donné en 1 Corinthiens 15.",
+      "en": "Put these appearances of the risen Christ in the order given in 1 Corinthians 15.",
+      "es": "Ordena estas apariciones de Cristo resucitado según el orden de 1 Corintios 15."
+    },
+    "items": [
+      {
+        "book": "1CO",
+        "chapter": 15,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Aparece a Cefas",
+          "fr": "Il apparaît à Céphas",
+          "en": "He is seen of Cephas",
+          "es": "Aparece a Cefas"
+        }
+      },
+      {
+        "book": "1CO",
+        "chapter": 15,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Aparece a mais de quinhentos irmãos",
+          "fr": "Il apparaît à plus de cinq cents frères",
+          "en": "He is seen of above five hundred brethren",
+          "es": "Aparece a más de quinientos hermanos"
+        }
+      },
+      {
+        "book": "1CO",
+        "chapter": 15,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Aparece a Tiago",
+          "fr": "Il apparaît à Jacques",
+          "en": "He is seen of James",
+          "es": "Aparece a Jacobo"
+        }
+      },
+      {
+        "book": "1CO",
+        "chapter": 15,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Aparece a Paulo",
+          "fr": "Il apparaît à Paul",
+          "en": "He is seen of Paul",
+          "es": "Aparece a Pablo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-031",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes passos de Cristo segundo Filipenses 2.",
+      "fr": "Mets ces étapes du Christ dans l’ordre de Philippiens 2.",
+      "en": "Put these steps of Christ in the order of Philippians 2.",
+      "es": "Ordena estos pasos de Cristo según Filipenses 2."
+    },
+    "items": [
+      {
+        "book": "PHP",
+        "chapter": 2,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Toma a forma de servo",
+          "fr": "Il prend une forme de serviteur",
+          "en": "He takes the form of a servant",
+          "es": "Toma forma de siervo"
+        }
+      },
+      {
+        "book": "PHP",
+        "chapter": 2,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Humilha-se até à morte de cruz",
+          "fr": "Il s’humilie jusqu’à la mort de la croix",
+          "en": "He humbles himself unto the death of the cross",
+          "es": "Se humilla hasta la muerte de cruz"
+        }
+      },
+      {
+        "book": "PHP",
+        "chapter": 2,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Deus exalta-o soberanamente",
+          "fr": "Dieu l’élève souverainement",
+          "en": "God highly exalts him",
+          "es": "Dios le ensalza a lo sumo"
+        }
+      },
+      {
+        "book": "PHP",
+        "chapter": 2,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Todo o joelho se dobra ao nome de Jesus",
+          "fr": "Tout genou fléchit au nom de Jésus",
+          "en": "Every knee bows at the name of Jesus",
+          "es": "Toda rodilla se dobla al nombre de Jesús"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-032",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes acontecimentos do êxodo, lembrados em 1 Coríntios 10, pela ordem em que aconteceram.",
+      "fr": "Mets ces événements de l’exode, rappelés en 1 Corinthiens 10, dans l’ordre où ils se sont produits.",
+      "en": "Put these events of the exodus, recalled in 1 Corinthians 10, in the order they happened.",
+      "es": "Ordena estos sucesos del éxodo, recordados en 1 Corintios 10, según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "1CO",
+        "chapter": 10,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Os pais passam todos pelo mar",
+          "fr": "Les pères passent tous à travers la mer",
+          "en": "The fathers all pass through the sea",
+          "es": "Los padres pasan todos la mar"
+        }
+      },
+      {
+        "book": "1CO",
+        "chapter": 10,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Comem todos o mesmo alimento espiritual",
+          "fr": "Ils mangent tous le même aliment spirituel",
+          "en": "They all eat the same spiritual meat",
+          "es": "Comen todos la misma vianda espiritual"
+        }
+      },
+      {
+        "book": "1CO",
+        "chapter": 10,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Bebem da pedra espiritual que os seguia",
+          "fr": "Ils boivent au rocher spirituel qui les suivait",
+          "en": "They drink of the spiritual Rock that followed them",
+          "es": "Beben de la piedra espiritual que los seguía"
+        }
+      },
+      {
+        "book": "1CO",
+        "chapter": 10,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Caem vinte e três mil num só dia",
+          "fr": "Vingt-trois mille tombent en un seul jour",
+          "en": "Three and twenty thousand fall in one day",
+          "es": "Caen veinte y tres mil en un día"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-033",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes acontecimentos, lembrados em Judas, pela ordem em que aconteceram.",
+      "fr": "Mets ces événements, rappelés dans Jude, dans l’ordre où ils se sont produits.",
+      "en": "Put these events, recalled in Jude, in the order they happened.",
+      "es": "Ordena estos sucesos, recordados en Judas, según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "JUD",
+        "chapter": 1,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Enoque profetiza",
+          "fr": "Énoch prophétise",
+          "en": "Enoch prophesies",
+          "es": "Enoc profetiza"
+        }
+      },
+      {
+        "book": "JUD",
+        "chapter": 1,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Sodoma e Gomorra sofrem o fogo",
+          "fr": "Sodome et Gomorrhe subissent le feu",
+          "en": "Sodom and Gomorrha suffer fire",
+          "es": "Sodoma y Gomorra sufren el fuego"
+        }
+      },
+      {
+        "book": "JUD",
+        "chapter": 1,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "O Senhor tira o povo do Egito",
+          "fr": "Le Seigneur tire le peuple d’Égypte",
+          "en": "The Lord saves the people out of Egypt",
+          "es": "El Señor salva al pueblo de Egipto"
+        }
+      },
+      {
+        "book": "JUD",
+        "chapter": 1,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Balaão corre atrás do erro por recompensa",
+          "fr": "Balaam s’égare pour un salaire",
+          "en": "Balaam runs after error for reward",
+          "es": "Balaam se lanza en el error por recompensa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-034",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes toques de trombeta pela ordem em que aparecem no Apocalipse.",
+      "fr": "Mets ces sonneries de trompette dans l’ordre où elles apparaissent dans l’Apocalypse.",
+      "en": "Put these trumpet blasts in the order they appear in Revelation.",
+      "es": "Ordena estos toques de trompeta según aparecen en el Apocalipsis."
+    },
+    "items": [
+      {
+        "book": "REV",
+        "chapter": 8,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Saraiva e fogo misturados com sangue",
+          "fr": "De la grêle et du feu mêlés de sang",
+          "en": "Hail and fire mingled with blood",
+          "es": "Granizo y fuego mezclado con sangre"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 8,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Um monte a arder é lançado ao mar",
+          "fr": "Une montagne embrasée est jetée dans la mer",
+          "en": "A burning mountain is cast into the sea",
+          "es": "Un monte ardiendo es lanzado en la mar"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 8,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Uma grande estrela cai sobre os rios",
+          "fr": "Une grande étoile tombe sur les fleuves",
+          "en": "A great star falls upon the rivers",
+          "es": "Una grande estrella cae en los ríos"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 9,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Saem gafanhotos do fumo do poço",
+          "fr": "Des sauterelles sortent de la fumée du puits",
+          "en": "Locusts come out of the smoke of the pit",
+          "es": "Salen langostas del humo del pozo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-medium-035",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estas visões pela ordem em que aparecem no Apocalipse.",
+      "fr": "Mets ces visions dans l’ordre où elles apparaissent dans l’Apocalypse.",
+      "en": "Put these visions in the order they appear in Revelation.",
+      "es": "Ordena estas visiones según aparecen en el Apocalipsis."
+    },
+    "items": [
+      {
+        "book": "REV",
+        "chapter": 20,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Satanás é amarrado por mil anos",
+          "fr": "Satan est lié pour mille ans",
+          "en": "Satan is bound a thousand years",
+          "es": "Satanás es atado por mil años"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 20,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "O diabo é lançado no lago de fogo",
+          "fr": "Le diable est jeté dans l’étang de feu",
+          "en": "The devil is cast into the lake of fire",
+          "es": "El diablo es lanzado en el lago de fuego"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 20,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Um grande trono branco",
+          "fr": "Un grand trône blanc",
+          "en": "A great white throne",
+          "es": "Un gran trono blanco"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 21,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Um novo céu e uma nova terra",
+          "fr": "Un nouveau ciel et une nouvelle terre",
+          "en": "A new heaven and a new earth",
+          "es": "Un cielo nuevo y una tierra nueva"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-001",
+    "type": "choice",
+    "level": "hard",
+    "book": "ROM",
+    "chapter": 16,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "Em Romanos 16:22, quem diz ter escrito esta carta?",
+      "fr": "Dans Romains 16:22, qui dit avoir écrit cette lettre ?",
+      "en": "In Romans 16:22, who says he wrote this epistle?",
+      "es": "En Romanos 16:22, ¿quién dice haber escrito la epístola?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Tércio",
+          "fr": "Tertius",
+          "en": "Tertius",
+          "es": "Tercio"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Timóteo",
+          "fr": "Timothée",
+          "en": "Timotheus",
+          "es": "Timoteo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Lucas",
+          "fr": "Luc",
+          "en": "Luke",
+          "es": "Lucas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tíquico",
+          "fr": "Tychique",
+          "en": "Tychicus",
+          "es": "Tichîco"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-002",
+    "type": "choice",
+    "level": "hard",
+    "book": "ROM",
+    "chapter": 15,
+    "verse_start": 24,
+    "verse_end": 24,
+    "prompt": {
+      "pt": "Segundo Romanos 15:24, para que país esperava Paulo viajar, passando pelos romanos?",
+      "fr": "Selon Romains 15:24, dans quel pays Paul espérait-il se rendre en passant chez les Romains ?",
+      "en": "According to Romans 15:24, into which country did Paul hope to journey, visiting the Romans on the way?",
+      "es": "Según Romanos 15:24, ¿a qué país esperaba Pablo partir, pasando por los romanos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Espanha",
+          "fr": "Espagne",
+          "en": "Spain",
+          "es": "España"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Egito",
+          "fr": "Égypte",
+          "en": "Egypt",
+          "es": "Egipto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Macedónia",
+          "fr": "Macédoine",
+          "en": "Macedonia",
+          "es": "Macedonia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Arábia",
+          "fr": "Arabie",
+          "en": "Arabia",
+          "es": "Arabia"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-003",
+    "type": "choice",
+    "level": "hard",
+    "book": "ROM",
+    "chapter": 11,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Romanos 11:1, de que tribo era Paulo?",
+      "fr": "Selon Romains 11:1, de quelle tribu était Paul ?",
+      "en": "According to Romans 11:1, of which tribe was Paul?",
+      "es": "Según Romanos 11:1, ¿de qué tribu era Pablo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Benjamim",
+          "fr": "Benjamin",
+          "en": "Benjamin",
+          "es": "Benjamín"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Judá",
+          "fr": "Juda",
+          "en": "Judah",
+          "es": "Judá"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Levi",
+          "fr": "Lévi",
+          "en": "Levi",
+          "es": "Leví"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Efraim",
+          "fr": "Éphraïm",
+          "en": "Ephraim",
+          "es": "Ephraim"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-004",
+    "type": "choice",
+    "level": "hard",
+    "book": "1CO",
+    "chapter": 1,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "Segundo 1 Coríntios 1:11, por quem soube Paulo que havia brigas entre os coríntios?",
+      "fr": "Selon 1 Corinthiens 1:11, par qui Paul a-t-il appris qu’il y avait des disputes parmi les Corinthiens ?",
+      "en": "According to 1 Corinthians 1:11, by whom did Paul hear of contentions among the Corinthians?",
+      "es": "Según 1 Corintios 1:11, ¿por quién supo Pablo que había contiendas entre los corintios?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Pelos da casa de Cloé",
+          "fr": "Par les gens de Chloé",
+          "en": "By them of the house of Chloe",
+          "es": "Por los de Cloé"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pelos da casa de Lídia",
+          "fr": "Par les gens de Lydie",
+          "en": "By them of the house of Lydia",
+          "es": "Por los de Lidia"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pelos da casa de Febe",
+          "fr": "Par les gens de Phœbé",
+          "en": "By them of the house of Phebe",
+          "es": "Por los de Febe"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pelos da casa de Marta",
+          "fr": "Par les gens de Marthe",
+          "en": "By them of the house of Martha",
+          "es": "Por los de Marta"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-005",
+    "type": "choice",
+    "level": "hard",
+    "book": "GAL",
+    "chapter": 3,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Segundo Gálatas 3:17, quantos anos depois da promessa veio a Lei?",
+      "fr": "Selon Galates 3:17, combien d’années après la promesse la loi est-elle survenue ?",
+      "en": "According to Galatians 3:17, how many years after the promise came the law?",
+      "es": "Según Gálatas 3:17, ¿cuántos años después de la promesa fue hecha la ley?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Quatrocentos e trinta",
+          "fr": "Quatre cent trente",
+          "en": "Four hundred and thirty",
+          "es": "Cuatrocientos treinta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Quarenta",
+          "fr": "Quarante",
+          "en": "Forty",
+          "es": "Cuarenta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Setenta",
+          "fr": "Soixante-dix",
+          "en": "Seventy",
+          "es": "Setenta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Cento e vinte",
+          "fr": "Cent vingt",
+          "en": "A hundred and twenty",
+          "es": "Ciento veinte"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-006",
+    "type": "choice",
+    "level": "hard",
+    "book": "EPH",
+    "chapter": 6,
+    "verse_start": 21,
+    "verse_end": 21,
+    "prompt": {
+      "pt": "Segundo Efésios 6:21, quem iria contar aos efésios tudo sobre Paulo?",
+      "fr": "Selon Éphésiens 6:21, qui devait informer les Éphésiens de tout ce qui concernait Paul ?",
+      "en": "According to Ephesians 6:21, who would make known to the Ephesians all things about Paul?",
+      "es": "Según Efesios 6:21, ¿quién haría saber a los efesios todo acerca de Pablo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Tíquico",
+          "fr": "Tychique",
+          "en": "Tychicus",
+          "es": "Tichîco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Onésimo",
+          "fr": "Onésime",
+          "en": "Onesimus",
+          "es": "Onésimo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Epafrodito",
+          "fr": "Épaphrodite",
+          "en": "Epaphroditus",
+          "es": "Epafrodito"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tito",
+          "fr": "Tite",
+          "en": "Titus",
+          "es": "Tito"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-007",
+    "type": "choice",
+    "level": "hard",
+    "book": "PHP",
+    "chapter": 4,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Em Filipenses 4:2, que duas mulheres exorta Paulo a terem o mesmo sentimento no Senhor?",
+      "fr": "Dans Philippiens 4:2, quelles deux femmes Paul exhorte-t-il à être d’un même sentiment dans le Seigneur ?",
+      "en": "In Philippians 4:2, which two women does Paul beseech to be of the same mind in the Lord?",
+      "es": "En Filipenses 4:2, ¿a qué dos mujeres ruega Pablo que sientan lo mismo en el Señor?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Evódia e Síntique",
+          "fr": "Évodie et Syntyche",
+          "en": "Euodias and Syntyche",
+          "es": "Euodias y Syntychê"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Lóide e Eunice",
+          "fr": "Loïs et Eunice",
+          "en": "Lois and Eunice",
+          "es": "Loida y Eunice"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Marta e Maria",
+          "fr": "Marthe et Marie",
+          "en": "Martha and Mary",
+          "es": "Marta y María"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Lídia e Febe",
+          "fr": "Lydie et Phœbé",
+          "en": "Lydia and Phebe",
+          "es": "Lidia y Febe"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-008",
+    "type": "choice",
+    "level": "hard",
+    "book": "COL",
+    "chapter": 4,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Segundo Colossenses 4:16, que outra carta deviam ler os colossenses?",
+      "fr": "Selon Colossiens 4:16, quelle autre lettre les Colossiens devaient-ils lire ?",
+      "en": "According to Colossians 4:16, which other epistle were the Colossians to read?",
+      "es": "Según Colosenses 4:16, ¿qué otra carta debían leer los colosenses?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A de Laodiceia",
+          "fr": "Celle de Laodicée",
+          "en": "The epistle from Laodicea",
+          "es": "La de Laodicea"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A de Éfeso",
+          "fr": "Celle d’Éphèse",
+          "en": "The epistle from Ephesus",
+          "es": "La de Efeso"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A de Filipos",
+          "fr": "Celle de Philippes",
+          "en": "The epistle from Philippi",
+          "es": "La de Filipos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A de Tessalónica",
+          "fr": "Celle de Thessalonique",
+          "en": "The epistle from Thessalonica",
+          "es": "La de Tesalónica"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-009",
+    "type": "choice",
+    "level": "hard",
+    "book": "1TH",
+    "chapter": 1,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo 1 Tessalonicenses 1:1, além de Timóteo, quem envia a carta com Paulo?",
+      "fr": "Selon 1 Thessaloniciens 1:1, outre Timothée, qui envoie la lettre avec Paul ?",
+      "en": "According to 1 Thessalonians 1:1, besides Timotheus, who sends the epistle with Paul?",
+      "es": "Según 1 Tesalonicenses 1:1, además de Timoteo, ¿quién envía la carta con Pablo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Silvano",
+          "fr": "Silvain",
+          "en": "Silvanus",
+          "es": "Silvano"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Barnabé",
+          "fr": "Barnabas",
+          "en": "Barnabas",
+          "es": "Bernabé"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tito",
+          "fr": "Tite",
+          "en": "Titus",
+          "es": "Tito"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Lucas",
+          "fr": "Luc",
+          "en": "Luke",
+          "es": "Lucas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-010",
+    "type": "choice",
+    "level": "hard",
+    "book": "2TH",
+    "chapter": 3,
+    "verse_start": 17,
+    "verse_end": 17,
+    "prompt": {
+      "pt": "Segundo 2 Tessalonicenses 3:17, qual era a assinatura de Paulo em todas as suas cartas?",
+      "fr": "Selon 2 Thessaloniciens 3:17, quelle était la signature de Paul dans toutes ses lettres ?",
+      "en": "According to 2 Thessalonians 3:17, what was Paul’s token in every epistle?",
+      "es": "Según 2 Tesalonicenses 3:17, ¿cuál era el signo de Pablo en toda carta suya?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A saudação da sua própria mão",
+          "fr": "La salutation de sa propre main",
+          "en": "The salutation with his own hand",
+          "es": "La salutación de su mano"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um selo de cera",
+          "fr": "Un sceau de cire",
+          "en": "A seal of wax",
+          "es": "Un sello de cera"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O nome de Timóteo",
+          "fr": "Le nom de Timothée",
+          "en": "The name of Timotheus",
+          "es": "El nombre de Timoteo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O desenho de um peixe",
+          "fr": "Le dessin d’un poisson",
+          "en": "The drawing of a fish",
+          "es": "El dibujo de un pez"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-011",
+    "type": "choice",
+    "level": "hard",
+    "book": "2TH",
+    "chapter": 2,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Segundo 2 Tessalonicenses 2:3, o que tem de vir primeiro, antes desse dia?",
+      "fr": "Selon 2 Thessaloniciens 2:3, que doit-il arriver auparavant, avant ce jour-là ?",
+      "en": "According to 2 Thessalonians 2:3, what must come first, before that day?",
+      "es": "Según 2 Tesalonicenses 2:3, ¿qué debe venir antes de ese día?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A apostasia",
+          "fr": "L’apostasie",
+          "en": "A falling away",
+          "es": "La apostasía"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma grande fome",
+          "fr": "Une grande famine",
+          "en": "A great famine",
+          "es": "Una grande hambre"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A reconstrução do templo",
+          "fr": "La reconstruction du temple",
+          "en": "The rebuilding of the temple",
+          "es": "La reconstrucción del templo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um eclipse do sol",
+          "fr": "Une éclipse de soleil",
+          "en": "An eclipse of the sun",
+          "es": "Un eclipse de sol"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-012",
+    "type": "choice",
+    "level": "hard",
+    "book": "2TI",
+    "chapter": 4,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Segundo 2 Timóteo 4:10, quem abandonou Paulo por amor ao mundo presente?",
+      "fr": "Selon 2 Timothée 4:10, qui a abandonné Paul par amour pour le siècle présent ?",
+      "en": "According to 2 Timothy 4:10, who forsook Paul, having loved this present world?",
+      "es": "Según 2 Timoteo 4:10, ¿quién desamparó a Pablo, amando este siglo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Demas",
+          "fr": "Démas",
+          "en": "Demas",
+          "es": "Demas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Lucas",
+          "fr": "Luc",
+          "en": "Luke",
+          "es": "Lucas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Marcos",
+          "fr": "Marc",
+          "en": "Mark",
+          "es": "Marcos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Onesíforo",
+          "fr": "Onésiphore",
+          "en": "Onesiphorus",
+          "es": "Onesíforo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-013",
+    "type": "choice",
+    "level": "hard",
+    "book": "TIT",
+    "chapter": 3,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Segundo Tito 3:12, onde decidiu Paulo passar o inverno?",
+      "fr": "Selon Tite 3:12, où Paul avait-il résolu de passer l’hiver ?",
+      "en": "According to Titus 3:12, where had Paul determined to winter?",
+      "es": "Según Tito 3:12, ¿dónde había determinado Pablo invernar?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Em Nicópolis",
+          "fr": "À Nicopolis",
+          "en": "At Nicopolis",
+          "es": "En Nicópolis"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em Corinto",
+          "fr": "À Corinthe",
+          "en": "At Corinth",
+          "es": "En Corinto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em Éfeso",
+          "fr": "À Éphèse",
+          "en": "At Ephesus",
+          "es": "En Efeso"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em Atenas",
+          "fr": "À Athènes",
+          "en": "At Athens",
+          "es": "En Atenas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-014",
+    "type": "choice",
+    "level": "hard",
+    "book": "PHM",
+    "chapter": 1,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "Segundo Filémon 1:22, o que pede Paulo que lhe preparem?",
+      "fr": "Selon Philémon 1:22, que demande Paul qu’on lui prépare ?",
+      "en": "According to Philemon 1:22, what does Paul ask to be prepared for him?",
+      "es": "Según Filemón 1:22, ¿qué pide Pablo que le preparen?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um lugar para ficar",
+          "fr": "Un logement",
+          "en": "A lodging",
+          "es": "Alojamiento"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um barco para a viagem",
+          "fr": "Un bateau pour le voyage",
+          "en": "A ship for the journey",
+          "es": "Un barco para el viaje"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um banquete",
+          "fr": "Un festin",
+          "en": "A feast",
+          "es": "Un banquete"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma carta para a igreja",
+          "fr": "Une lettre pour l’Église",
+          "en": "A letter for the church",
+          "es": "Una carta para la iglesia"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-015",
+    "type": "choice",
+    "level": "hard",
+    "book": "HEB",
+    "chapter": 7,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Segundo Hebreus 7:1, quem era rei de Salém e sacerdote do Deus Altíssimo e abençoou Abraão?",
+      "fr": "Selon Hébreux 7:1, qui était roi de Salem, sacrificateur du Dieu Très-Haut, et bénit Abraham ?",
+      "en": "According to Hebrews 7:1, who was king of Salem, priest of the most high God, and blessed Abraham?",
+      "es": "Según Hebreos 7:1, ¿quién era rey de Salem, sacerdote del Dios Altísimo, y bendijo a Abraham?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Melquisedeque",
+          "fr": "Melchisédek",
+          "en": "Melchisedec",
+          "es": "Melchîsedec"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Abimeleque",
+          "fr": "Abimélec",
+          "en": "Abimelech",
+          "es": "Abimelech"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ló",
+          "fr": "Lot",
+          "en": "Lot",
+          "es": "Lot"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Faraó",
+          "fr": "Pharaon",
+          "en": "Pharaoh",
+          "es": "Faraón"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-016",
+    "type": "choice",
+    "level": "hard",
+    "book": "HEB",
+    "chapter": 9,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Segundo Hebreus 9:4, de quem era a vara que florescera, guardada na arca?",
+      "fr": "Selon Hébreux 9:4, à qui était la verge qui avait fleuri, gardée dans l’arche ?",
+      "en": "According to Hebrews 9:4, whose rod that budded was kept in the ark?",
+      "es": "Según Hebreos 9:4, ¿de quién era la vara que reverdeció, guardada en el arca?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Arão",
+          "fr": "Aaron",
+          "en": "Aaron",
+          "es": "Aarón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Moisés",
+          "fr": "Moïse",
+          "en": "Moses",
+          "es": "Moisés"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josué",
+          "fr": "Josué",
+          "en": "Joshua",
+          "es": "Josué"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Samuel",
+          "fr": "Samuel",
+          "en": "Samuel",
+          "es": "Samuel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-017",
+    "type": "choice",
+    "level": "hard",
+    "book": "1PE",
+    "chapter": 5,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Em 1 Pedro 5:13, a quem chama Pedro «meu filho»?",
+      "fr": "Dans 1 Pierre 5:13, qui Pierre appelle-t-il « mon fils » ?",
+      "en": "In 1 Peter 5:13, whom does Peter call “my son”?",
+      "es": "En 1 Pedro 5:13, ¿a quién llama Pedro «mi hijo»?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Marcos",
+          "fr": "Marc",
+          "en": "Marcus",
+          "es": "Marcos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Silvano",
+          "fr": "Silvain",
+          "en": "Silvanus",
+          "es": "Silvano"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Timóteo",
+          "fr": "Timothée",
+          "en": "Timothy",
+          "es": "Timoteo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tito",
+          "fr": "Tite",
+          "en": "Titus",
+          "es": "Tito"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-018",
+    "type": "choice",
+    "level": "hard",
+    "book": "2PE",
+    "chapter": 3,
+    "verse_start": 15,
+    "verse_end": 15,
+    "prompt": {
+      "pt": "Em 2 Pedro 3:15, que irmão diz Pedro que também lhes escreveu, segundo a sabedoria que lhe foi dada?",
+      "fr": "Dans 2 Pierre 3:15, quel frère Pierre dit-il leur avoir aussi écrit, selon la sagesse qui lui a été donnée ?",
+      "en": "In 2 Peter 3:15, which brother does Peter say also wrote to them, according to the wisdom given him?",
+      "es": "En 2 Pedro 3:15, ¿qué hermano dice Pedro que también les escribió, según la sabiduría que le fue dada?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Paulo",
+          "fr": "Paul",
+          "en": "Paul",
+          "es": "Pablo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "João",
+          "fr": "Jean",
+          "en": "John",
+          "es": "Juan"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Judas",
+          "fr": "Jude",
+          "en": "Jude",
+          "es": "Judas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tiago",
+          "fr": "Jacques",
+          "en": "James",
+          "es": "Jacobo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-019",
+    "type": "choice",
+    "level": "hard",
+    "book": "1JN",
+    "chapter": 2,
+    "verse_start": 18,
+    "verse_end": 18,
+    "prompt": {
+      "pt": "Segundo 1 João 2:18, por que sabemos que é a última hora?",
+      "fr": "Selon 1 Jean 2:18, à quoi connaissons-nous que c’est la dernière heure ?",
+      "en": "According to 1 John 2:18, whereby do we know that it is the last time?",
+      "es": "Según 1 Juan 2:18, ¿por qué sabemos que es el último tiempo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Porque já vieram muitos anticristos",
+          "fr": "Parce qu’il y a plusieurs antéchrists",
+          "en": "Because there are many antichrists",
+          "es": "Porque han comenzado a ser muchos anticristos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Porque o templo caiu",
+          "fr": "Parce que le temple est tombé",
+          "en": "Because the temple has fallen",
+          "es": "Porque el templo ha caído"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Porque houve um terramoto",
+          "fr": "Parce qu’il y a eu un tremblement de terre",
+          "en": "Because there was an earthquake",
+          "es": "Porque hubo un terremoto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Porque o sol escureceu",
+          "fr": "Parce que le soleil s’est obscurci",
+          "en": "Because the sun was darkened",
+          "es": "Porque el sol se oscureció"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-020",
+    "type": "choice",
+    "level": "hard",
+    "book": "3JN",
+    "chapter": 1,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Segundo 3 João 1:9, quem, na igreja, busca ser o comandante e não recebe quem escreve?",
+      "fr": "Selon 3 Jean 1:9, qui, dans l’Église, aime à être le premier et ne reçoit pas celui qui écrit ?",
+      "en": "According to 3 John 1:9, who in the church loveth to have the preeminence and receiveth not the writer?",
+      "es": "Según 3 Juan 1:9, ¿quién ama tener el primado en la iglesia y no recibe a quien escribe?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Diótrefes",
+          "fr": "Diotrèphe",
+          "en": "Diotrephes",
+          "es": "Diótrefes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Demétrio",
+          "fr": "Démétrius",
+          "en": "Demetrius",
+          "es": "Demetrio"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Gaio",
+          "fr": "Gaïus",
+          "en": "Gaius",
+          "es": "Gaio"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Árquipo",
+          "fr": "Archippe",
+          "en": "Archippus",
+          "es": "Archîpo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-021",
+    "type": "choice",
+    "level": "hard",
+    "book": "REV",
+    "chapter": 2,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Segundo Apocalipse 2:13, como se chamava a fiel testemunha que foi morta onde Satanás habita?",
+      "fr": "Selon Apocalypse 2:13, comment s’appelait le témoin fidèle mis à mort là où Satan a sa demeure ?",
+      "en": "According to Revelation 2:13, what was the name of the faithful martyr who was slain where Satan dwelleth?",
+      "es": "Según Apocalipsis 2:13, ¿cómo se llamaba el testigo fiel que fue muerto donde Satanás mora?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Antipas",
+          "fr": "Antipas",
+          "en": "Antipas",
+          "es": "Antipas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Estêvão",
+          "fr": "Étienne",
+          "en": "Stephen",
+          "es": "Esteban"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Tiago",
+          "fr": "Jacques",
+          "en": "James",
+          "es": "Jacobo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Zacarias",
+          "fr": "Zacharie",
+          "en": "Zechariah",
+          "es": "Zacarías"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-022",
+    "type": "verse",
+    "level": "hard",
+    "book": "ROM",
+    "chapter": 5,
+    "verse_start": 3,
+    "verse_end": 3,
+    "blank": {
+      "pt": "paciência",
+      "fr": "persévérance",
+      "en": "patience",
+      "es": "paciencia"
+    },
+    "distractors": [
+      {
+        "pt": "alegria",
+        "fr": "joie",
+        "en": "joy",
+        "es": "gozo"
+      },
+      {
+        "pt": "riqueza",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riqueza"
+      },
+      {
+        "pt": "tristeza",
+        "fr": "tristesse",
+        "en": "sorrow",
+        "es": "tristeza"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-023",
+    "type": "verse",
+    "level": "hard",
+    "book": "1CO",
+    "chapter": 15,
+    "verse_start": 55,
+    "verse_end": 55,
+    "blank": {
+      "pt": "aguilhão",
+      "fr": "aiguillon",
+      "en": "sting",
+      "es": "aguijón"
+    },
+    "distractors": [
+      {
+        "pt": "trono",
+        "fr": "trône",
+        "en": "throne",
+        "es": "trono"
+      },
+      {
+        "pt": "poder",
+        "fr": "pouvoir",
+        "en": "power",
+        "es": "poder"
+      },
+      {
+        "pt": "reino",
+        "fr": "royaume",
+        "en": "kingdom",
+        "es": "reino"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-024",
+    "type": "verse",
+    "level": "hard",
+    "book": "2CO",
+    "chapter": 11,
+    "verse_start": 24,
+    "verse_end": 24,
+    "blank": {
+      "pt": "cinco",
+      "fr": "cinq",
+      "en": "five",
+      "es": "cinco"
+    },
+    "distractors": [
+      {
+        "pt": "três",
+        "fr": "trois",
+        "en": "three",
+        "es": "tres"
+      },
+      {
+        "pt": "duas",
+        "fr": "deux",
+        "en": "two",
+        "es": "dos"
+      },
+      {
+        "pt": "sete",
+        "fr": "sept",
+        "en": "seven",
+        "es": "siete"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-025",
+    "type": "verse",
+    "level": "hard",
+    "book": "TIT",
+    "chapter": 1,
+    "verse_start": 12,
+    "verse_end": 12,
+    "blank": {
+      "pt": "mentirosos",
+      "fr": "menteurs",
+      "en": "liars",
+      "es": "mentirosos"
+    },
+    "distractors": [
+      {
+        "pt": "ladrões",
+        "fr": "voleurs",
+        "en": "thieves",
+        "es": "ladrones"
+      },
+      {
+        "pt": "orgulhosos",
+        "fr": "orgueilleux",
+        "en": "proud",
+        "es": "soberbios"
+      },
+      {
+        "pt": "covardes",
+        "fr": "lâches",
+        "en": "cowards",
+        "es": "cobardes"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-026",
+    "type": "verse",
+    "level": "hard",
+    "book": "1TI",
+    "chapter": 5,
+    "verse_start": 23,
+    "verse_end": 23,
+    "blank": {
+      "pt": "vinho",
+      "fr": "vin",
+      "en": "wine",
+      "es": "vino"
+    },
+    "distractors": [
+      {
+        "pt": "leite",
+        "fr": "lait",
+        "en": "milk",
+        "es": "leche"
+      },
+      {
+        "pt": "azeite",
+        "fr": "huile",
+        "en": "oil",
+        "es": "aceite"
+      },
+      {
+        "pt": "mel",
+        "fr": "miel",
+        "en": "honey",
+        "es": "miel"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-027",
+    "type": "verse",
+    "level": "hard",
+    "book": "JAS",
+    "chapter": 2,
+    "verse_start": 23,
+    "verse_end": 23,
+    "blank": {
+      "pt": "amigo",
+      "fr": "ami",
+      "en": "Friend",
+      "es": "amigo"
+    },
+    "distractors": [
+      {
+        "pt": "filho",
+        "fr": "fils",
+        "en": "son",
+        "es": "hijo"
+      },
+      {
+        "pt": "rei",
+        "fr": "roi",
+        "en": "king",
+        "es": "rey"
+      },
+      {
+        "pt": "juiz",
+        "fr": "juge",
+        "en": "judge",
+        "es": "juez"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-028",
+    "type": "verse",
+    "level": "hard",
+    "book": "REV",
+    "chapter": 21,
+    "verse_start": 21,
+    "verse_end": 21,
+    "blank": {
+      "pt": "ouro",
+      "fr": "or",
+      "en": "gold",
+      "es": "oro"
+    },
+    "distractors": [
+      {
+        "pt": "estanho",
+        "fr": "étain",
+        "en": "tin",
+        "es": "estaño"
+      },
+      {
+        "pt": "bronze",
+        "fr": "airain",
+        "en": "brass",
+        "es": "bronce"
+      },
+      {
+        "pt": "marfim",
+        "fr": "ivoire",
+        "en": "ivory",
+        "es": "marfil"
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-029",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios contados por Paulo em Gálatas pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes racontés par Paul dans Galates dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes told by Paul in Galatians in the order they happened.",
+      "es": "Ordena estos episodios contados por Pablo en Gálatas según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GAL",
+        "chapter": 1,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "Paulo parte para a Arábia",
+          "fr": "Paul part pour l’Arabie",
+          "en": "Paul goes into Arabia",
+          "es": "Pablo se va a la Arabia"
+        }
+      },
+      {
+        "book": "GAL",
+        "chapter": 1,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Paulo fica quinze dias com Pedro",
+          "fr": "Paul demeure quinze jours chez Céphas",
+          "en": "Paul abides fifteen days with Peter",
+          "es": "Pablo está quince días con Pedro"
+        }
+      },
+      {
+        "book": "GAL",
+        "chapter": 2,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Catorze anos depois, sobe com Barnabé e Tito",
+          "fr": "Quatorze ans après, il monte avec Barnabas et Tite",
+          "en": "Fourteen years after, he goes up with Barnabas and Titus",
+          "es": "Catorce años después, sube con Bernabé y Tito"
+        }
+      },
+      {
+        "book": "GAL",
+        "chapter": 2,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Tiago, Cefas e João dão-lhe a mão direita",
+          "fr": "Jacques, Céphas et Jean lui donnent la main",
+          "en": "James, Cephas and John give him the right hand",
+          "es": "Jacobo, Cefas y Juan le dan la diestra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-030",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes acontecimentos em Antioquia (Gálatas 2) pela ordem em que aconteceram.",
+      "fr": "Mets ces événements d’Antioche (Galates 2) dans l’ordre où ils se sont produits.",
+      "en": "Put these events at Antioch (Galatians 2) in the order they happened.",
+      "es": "Ordena estos sucesos de Antioquía (Gálatas 2) según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GAL",
+        "chapter": 2,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Pedro come com os gentios",
+          "fr": "Céphas mange avec les païens",
+          "en": "Peter eats with the Gentiles",
+          "es": "Pedro come con los gentiles"
+        }
+      },
+      {
+        "book": "GAL",
+        "chapter": 2,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Chegam alguns da parte de Tiago e Pedro afasta-se",
+          "fr": "Des gens de Jacques arrivent et Céphas s’esquive",
+          "en": "Some come from James and Peter withdraws",
+          "es": "Vienen unos de Jacobo y Pedro se retrae"
+        }
+      },
+      {
+        "book": "GAL",
+        "chapter": 2,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Até Barnabé é levado pela hipocrisia",
+          "fr": "Barnabas même est entraîné par l’hypocrisie",
+          "en": "Even Barnabas is carried away with dissimulation",
+          "es": "Aun Bernabé es llevado de su simulación"
+        }
+      },
+      {
+        "book": "GAL",
+        "chapter": 2,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Paulo fala a Pedro diante de todos",
+          "fr": "Paul parle à Céphas en présence de tous",
+          "en": "Paul speaks to Peter before them all",
+          "es": "Pablo habla a Pedro delante de todos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-031",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes acontecimentos contados por Paulo em 2 Coríntios 12.",
+      "fr": "Mets ces événements racontés par Paul en 2 Corinthiens 12 dans l’ordre.",
+      "en": "Put these events told by Paul in 2 Corinthians 12 in order.",
+      "es": "Ordena estos sucesos contados por Pablo en 2 Corintios 12."
+    },
+    "items": [
+      {
+        "book": "2CO",
+        "chapter": 12,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Um homem em Cristo é arrebatado ao terceiro céu",
+          "fr": "Un homme en Christ est ravi au troisième ciel",
+          "en": "A man in Christ is caught up to the third heaven",
+          "es": "Un hombre en Cristo es arrebatado al tercer cielo"
+        }
+      },
+      {
+        "book": "2CO",
+        "chapter": 12,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "É dado a Paulo um espinho na carne",
+          "fr": "Une écharde est mise dans la chair de Paul",
+          "en": "A thorn in the flesh is given to Paul",
+          "es": "Es dado a Pablo un aguijón en la carne"
+        }
+      },
+      {
+        "book": "2CO",
+        "chapter": 12,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Paulo ora três vezes ao Senhor",
+          "fr": "Paul prie trois fois le Seigneur",
+          "en": "Paul beseeches the Lord thrice",
+          "es": "Pablo ruega tres veces al Señor"
+        }
+      },
+      {
+        "book": "2CO",
+        "chapter": 12,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "O Senhor responde: «A minha graça te basta»",
+          "fr": "Le Seigneur répond : « Ma grâce te suffit »",
+          "en": "The Lord answers: “My grace is sufficient”",
+          "es": "El Señor responde: «Bástate mi gracia»"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-032",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes acontecimentos da última ceia, contados em 1 Coríntios 11, pela ordem em que aconteceram.",
+      "fr": "Mets ces événements de la Cène, racontés en 1 Corinthiens 11, dans l’ordre où ils se sont produits.",
+      "en": "Put these events of the Lord’s supper, told in 1 Corinthians 11, in the order they happened.",
+      "es": "Ordena estos sucesos de la Cena, contados en 1 Corintios 11, según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "1CO",
+        "chapter": 11,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "O Senhor Jesus toma o pão",
+          "fr": "Le Seigneur Jésus prend du pain",
+          "en": "The Lord Jesus takes bread",
+          "es": "El Señor Jesús toma pan"
+        }
+      },
+      {
+        "book": "1CO",
+        "chapter": 11,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "Dá graças",
+          "fr": "Il rend grâces",
+          "en": "He gives thanks",
+          "es": "Da gracias"
+        }
+      },
+      {
+        "book": "1CO",
+        "chapter": 11,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "Parte o pão",
+          "fr": "Il rompt le pain",
+          "en": "He breaks it",
+          "es": "Parte el pan"
+        }
+      },
+      {
+        "book": "1CO",
+        "chapter": 11,
+        "verse_start": 25,
+        "verse_end": 25,
+        "text": {
+          "pt": "Toma o copo, depois de cear",
+          "fr": "Il prend la coupe, après avoir soupé",
+          "en": "He takes the cup, when he had supped",
+          "es": "Toma la copa, después de cenar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-033",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes acontecimentos contados por Paulo em 1 Tessalonicenses pela ordem em que aconteceram.",
+      "fr": "Mets ces événements racontés par Paul dans 1 Thessaloniciens dans l’ordre où ils se sont produits.",
+      "en": "Put these events told by Paul in 1 Thessalonians in the order they happened.",
+      "es": "Ordena estos sucesos contados por Pablo en 1 Tesalonicenses según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "1TH",
+        "chapter": 2,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Paulo é maltratado em Filipos",
+          "fr": "Paul est outragé à Philippes",
+          "en": "Paul is shamefully entreated at Philippi",
+          "es": "Pablo es afrentado en Filipos"
+        }
+      },
+      {
+        "book": "1TH",
+        "chapter": 2,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Paulo prega aos tessalonicenses, trabalhando noite e dia",
+          "fr": "Paul prêche aux Thessaloniciens, travaillant nuit et jour",
+          "en": "Paul preaches to the Thessalonians, labouring night and day",
+          "es": "Pablo predica a los tesalonicenses, trabajando noche y día"
+        }
+      },
+      {
+        "book": "1TH",
+        "chapter": 3,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "De Atenas, Paulo envia-lhes Timóteo",
+          "fr": "D’Athènes, Paul leur envoie Timothée",
+          "en": "From Athens, Paul sends them Timotheus",
+          "es": "Desde Atenas, Pablo les envía a Timoteo"
+        }
+      },
+      {
+        "book": "1TH",
+        "chapter": 3,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Timóteo volta com boas notícias da fé deles",
+          "fr": "Timothée revient avec de bonnes nouvelles de leur foi",
+          "en": "Timotheus returns with good tidings of their faith",
+          "es": "Timoteo vuelve con noticias de su fe"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-034",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes heróis da fé (Hebreus 11) pela ordem em que aconteceu o que fizeram.",
+      "fr": "Mets ces actes de foi (Hébreux 11) dans l’ordre où ils se sont produits.",
+      "en": "Put these acts of faith (Hebrews 11) in the order they happened.",
+      "es": "Ordena estos actos de fe (Hebreos 11) según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "HEB",
+        "chapter": 11,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "Abraão oferece Isaac",
+          "fr": "Abraham offre Isaac",
+          "en": "Abraham offers up Isaac",
+          "es": "Abraham ofrece a Isaac"
+        }
+      },
+      {
+        "book": "HEB",
+        "chapter": 11,
+        "verse_start": 20,
+        "verse_end": 20,
+        "text": {
+          "pt": "Isaac abençoa Jacob e Esaú",
+          "fr": "Isaac bénit Jacob et Ésaü",
+          "en": "Isaac blesses Jacob and Esau",
+          "es": "Isaac bendice a Jacob y a Esaú"
+        }
+      },
+      {
+        "book": "HEB",
+        "chapter": 11,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "Jacob abençoa os filhos de José",
+          "fr": "Jacob bénit les fils de Joseph",
+          "en": "Jacob blesses the sons of Joseph",
+          "es": "Jacob bendice a los hijos de José"
+        }
+      },
+      {
+        "book": "HEB",
+        "chapter": 11,
+        "verse_start": 22,
+        "verse_end": 22,
+        "text": {
+          "pt": "José fala da saída dos filhos de Israel",
+          "fr": "Joseph parle de la sortie des fils d’Israël",
+          "en": "Joseph mentions the departing of Israel",
+          "es": "José se acuerda de la partida de Israel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartas2-hard-035",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estas taças pela ordem em que são derramadas no Apocalipse.",
+      "fr": "Mets ces coupes dans l’ordre où elles sont versées dans l’Apocalypse.",
+      "en": "Put these vials in the order they are poured out in Revelation.",
+      "es": "Ordena estas copas según son derramadas en el Apocalipsis."
+    },
+    "items": [
+      {
+        "book": "REV",
+        "chapter": 16,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "O mar torna-se em sangue",
+          "fr": "La mer devient du sang",
+          "en": "The sea becomes as blood",
+          "es": "El mar se convierte en sangre"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 16,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "O sol queima os homens com fogo",
+          "fr": "Le soleil brûle les hommes par le feu",
+          "en": "The sun scorches men with fire",
+          "es": "El sol quema a los hombres con fuego"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 16,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "O reino da besta fica em trevas",
+          "fr": "Le royaume de la bête est couvert de ténèbres",
+          "en": "The kingdom of the beast is full of darkness",
+          "es": "El reino de la bestia se hace tenebroso"
+        }
+      },
+      {
+        "book": "REV",
+        "chapter": 16,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "O rio Eufrates seca",
+          "fr": "L’eau de l’Euphrate tarit",
+          "en": "The Euphrates is dried up",
+          "es": "El río Eufrates se seca"
+        }
+      }
+    ]
+  }
+]

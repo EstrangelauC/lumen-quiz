@@ -26,7 +26,7 @@ await db.exec(`
   create publication supabase_realtime;
 `);
 
-for (const f of ['0001_init.sql', '0002_question_bank.sql', '0003_answer_streak.sql']) {
+for (const f of ['0001_init.sql', '0002_question_bank.sql', '0003_answer_streak.sql', '0004_more_question_counts.sql']) {
   await db.exec(readFileSync(new URL(`../supabase/migrations/${f}`, import.meta.url), 'utf8'));
   console.log(`✓ migração ${f} aplicada`);
 }
@@ -172,6 +172,18 @@ await as(P1, true);
 await asAuthenticated(() => expectError(() => db.query(`select create_session('easy', 5)`), 'not_registered'));
 await as(HOST);
 await asAuthenticated(() => expectError(() => db.query(`select create_session('easy', 7)`), 'invalid_count'));
+await asAuthenticated(() => expectError(() => db.query(`select create_session('easy', 35)`), 'invalid_count'));
+// 25, 30, 40, 50 são números válidos (0004): com o banco pequeno de teste falha por falta de perguntas, não por número
+for (const n of [25, 30, 40, 50]) await asAuthenticated(() => expectError(() => db.query(`select create_session('easy', ${n})`), 'not_enough_questions'));
+// A tabela aceita os números novos (a restrição da 0002 só aceitava 5–20) e recusa os outros
+{
+  const hostId = (await one(`select host_id from game_sessions limit 1`))?.host_id
+    ?? (await one(`select id from auth.users limit 1`)).id;
+  await db.query(`insert into game_sessions (host_id, pin, level, question_count, time_limit_s) values ($1, '990050', 'easy', 50, 20)`, [hostId]);
+  await expectError(() => db.query(`insert into game_sessions (host_id, pin, level, question_count, time_limit_s) values ($1, '990035', 'easy', 35, 20)`, [hostId]), 'game_sessions_question_count_check');
+  await db.query(`delete from game_sessions where pin = '990050'`);
+  console.log('✓ game_sessions aceita 25/30/40/50 e recusa outros números');
+}
 await asAuthenticated(() => expectError(() => db.query(`select create_session('medium', 5)`), 'not_enough_questions'));
 await asAuthenticated(() => expectError(() => db.query(`select create_session('nope', 5)`), 'invalid_level'));
 const created = await asAuthenticated(async () => (await one(`select create_session('easy', 5) s`)).s);

@@ -1,0 +1,5102 @@
+[
+  {
+    "id": "lei2-easy-001",
+    "type": "choice",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 2,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Em que dia descansou Deus de toda a sua obra?",
+      "fr": "Quel jour Dieu se reposa-t-il de toute son œuvre ?",
+      "en": "On which day did God rest from all his work?",
+      "es": "¿En qué día reposó Dios de toda su obra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "No sétimo dia",
+          "fr": "Le septième jour",
+          "en": "On the seventh day",
+          "es": "El día séptimo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No primeiro dia",
+          "fr": "Le premier jour",
+          "en": "On the first day",
+          "es": "El día primero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No terceiro dia",
+          "fr": "Le troisième jour",
+          "en": "On the third day",
+          "es": "El día tercero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No sexto dia",
+          "fr": "Le sixième jour",
+          "en": "On the sixth day",
+          "es": "El día sexto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-002",
+    "type": "choice",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 3,
+    "verse_start": 20,
+    "verse_end": 20,
+    "prompt": {
+      "pt": "Que nome deu Adão à sua mulher?",
+      "fr": "Quel nom Adam donna-t-il à sa femme ?",
+      "en": "What name did Adam give his wife?",
+      "es": "¿Qué nombre puso Adam a su mujer?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Eva",
+          "fr": "Ève",
+          "en": "Eve",
+          "es": "Eva"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sara",
+          "fr": "Sara",
+          "en": "Sarah",
+          "es": "Sara"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Raquel",
+          "fr": "Rachel",
+          "en": "Rachel",
+          "es": "Rachêl"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Rebeca",
+          "fr": "Rebecca",
+          "en": "Rebekah",
+          "es": "Rebeca"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-003",
+    "type": "choice",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 2,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Onde plantou o SENHOR Deus um jardim, do lado do oriente?",
+      "fr": "Où l’Éternel Dieu planta-t-il un jardin, du côté de l’orient ?",
+      "en": "Where did the LORD God plant a garden, eastward?",
+      "es": "¿Dónde plantó Jehová Dios un huerto, al oriente?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Em Éden",
+          "fr": "En Éden",
+          "en": "In Eden",
+          "es": "En Edén"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em Babel",
+          "fr": "À Babel",
+          "en": "In Babel",
+          "es": "En Babel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No Egito",
+          "fr": "En Égypte",
+          "en": "In Egypt",
+          "es": "En Egipto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em Sodoma",
+          "fr": "À Sodome",
+          "en": "In Sodom",
+          "es": "En Sodoma"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-004",
+    "type": "choice",
+    "level": "easy",
+    "book": "EXO",
+    "chapter": 2,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Quem viu a cesta do bebé Moisés entre os juncos, junto ao rio?",
+      "fr": "Qui aperçut la caisse du petit Moïse au milieu des roseaux, près du fleuve ?",
+      "en": "Who saw baby Moses’ ark among the flags by the river?",
+      "es": "¿Quién vio la arquilla del niño Moisés en el carrizal, junto al río?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A filha do Faraó",
+          "fr": "La fille de Pharaon",
+          "en": "Pharaoh’s daughter",
+          "es": "La hija de Faraón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A mulher do Faraó",
+          "fr": "La femme de Pharaon",
+          "en": "Pharaoh’s wife",
+          "es": "La mujer de Faraón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um pastor",
+          "fr": "Un berger",
+          "en": "A shepherd",
+          "es": "Un pastor"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um soldado egípcio",
+          "fr": "Un soldat égyptien",
+          "en": "An Egyptian soldier",
+          "es": "Un soldado egipcio"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-005",
+    "type": "choice",
+    "level": "easy",
+    "book": "EXO",
+    "chapter": 4,
+    "verse_start": 14,
+    "verse_end": 14,
+    "prompt": {
+      "pt": "Segundo Êxodo 4:14, como se chamava o irmão de Moisés?",
+      "fr": "D’après Exode 4:14, comment s’appelait le frère de Moïse ?",
+      "en": "According to Exodus 4:14, what was the name of Moses’ brother?",
+      "es": "Según Éxodo 4:14, ¿cómo se llamaba el hermano de Moisés?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Arão",
+          "fr": "Aaron",
+          "en": "Aaron",
+          "es": "Aarón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josué",
+          "fr": "Josué",
+          "en": "Joshua",
+          "es": "Josué"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Calebe",
+          "fr": "Caleb",
+          "en": "Caleb",
+          "es": "Caleb"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Jetro",
+          "fr": "Jéthro",
+          "en": "Jethro",
+          "es": "Jethro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-006",
+    "type": "choice",
+    "level": "easy",
+    "book": "EXO",
+    "chapter": 13,
+    "verse_start": 21,
+    "verse_end": 21,
+    "prompt": {
+      "pt": "De noite, como ia o SENHOR diante do povo para o iluminar?",
+      "fr": "La nuit, comment l’Éternel allait-il devant le peuple pour l’éclairer ?",
+      "en": "By night, how did the LORD go before the people to give them light?",
+      "es": "De noche, ¿cómo iba Jehová delante del pueblo para alumbrarle?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Numa coluna de fogo",
+          "fr": "Dans une colonne de feu",
+          "en": "In a pillar of fire",
+          "es": "En una columna de fuego"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Numa estrela brilhante",
+          "fr": "Dans une étoile brillante",
+          "en": "In a bright star",
+          "es": "En una estrella brillante"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Num anjo com uma tocha",
+          "fr": "Dans un ange portant une torche",
+          "en": "In an angel with a torch",
+          "es": "En un ángel con una antorcha"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Na lua cheia",
+          "fr": "Dans la pleine lune",
+          "en": "In the full moon",
+          "es": "En la luna llena"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-007",
+    "type": "choice",
+    "level": "easy",
+    "book": "EXO",
+    "chapter": 34,
+    "verse_start": 28,
+    "verse_end": 28,
+    "prompt": {
+      "pt": "Segundo Êxodo 34:28, quantas palavras da aliança foram escritas nas tábuas?",
+      "fr": "D’après Exode 34:28, combien de paroles de l’alliance furent écrites sur les tables ?",
+      "en": "According to Exodus 34:28, how many commandments of the covenant were written on the tables?",
+      "es": "Según Éxodo 34:28, ¿cuántas palabras de la alianza se escribieron en las tablas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "10",
+          "fr": "10",
+          "en": "10",
+          "es": "10"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "7",
+          "fr": "7",
+          "en": "7",
+          "es": "7"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "12",
+          "fr": "12",
+          "en": "12",
+          "es": "12"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "3",
+          "fr": "3",
+          "en": "3",
+          "es": "3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-008",
+    "type": "choice",
+    "level": "easy",
+    "book": "EXO",
+    "chapter": 3,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "O que mandou Deus Moisés tirar dos pés, por estar em terra santa?",
+      "fr": "Qu’est-ce que Dieu ordonna à Moïse d’ôter de ses pieds, parce qu’il était sur une terre sainte ?",
+      "en": "What did God tell Moses to put off from his feet, because he stood on holy ground?",
+      "es": "¿Qué mandó Dios a Moisés quitarse de los pies, porque estaba en tierra santa?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Os calçados",
+          "fr": "Ses souliers",
+          "en": "His shoes",
+          "es": "Sus zapatos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O pó",
+          "fr": "La poussière",
+          "en": "The dust",
+          "es": "El polvo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As correntes",
+          "fr": "Les chaînes",
+          "en": "The chains",
+          "es": "Las cadenas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os anéis",
+          "fr": "Les anneaux",
+          "en": "The rings",
+          "es": "Los anillos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-009",
+    "type": "choice",
+    "level": "easy",
+    "book": "LEV",
+    "chapter": 11,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Que animal tem as unhas fendidas mas não rumina, e por isso era impuro?",
+      "fr": "Quel animal a le pied fourchu mais ne rumine pas, et était donc impur ?",
+      "en": "Which animal divides the hoof but does not chew the cud, and so was unclean?",
+      "es": "¿Qué animal tiene pezuñas hendidas pero no rumia, y por eso era inmundo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O porco",
+          "fr": "Le porc",
+          "en": "The swine",
+          "es": "El puerco"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A ovelha",
+          "fr": "La brebis",
+          "en": "The sheep",
+          "es": "La oveja"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O boi",
+          "fr": "Le bœuf",
+          "en": "The ox",
+          "es": "El buey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A cabra",
+          "fr": "La chèvre",
+          "en": "The goat",
+          "es": "La cabra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-010",
+    "type": "choice",
+    "level": "easy",
+    "book": "LEV",
+    "chapter": 11,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Que animais das águas podiam os israelitas comer?",
+      "fr": "Quels animaux des eaux les Israélites pouvaient-ils manger ?",
+      "en": "Which creatures of the waters could the Israelites eat?",
+      "es": "¿Qué animales de las aguas podían comer los israelitas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Os que têm barbatanas e escamas",
+          "fr": "Ceux qui ont des nageoires et des écailles",
+          "en": "Those that have fins and scales",
+          "es": "Los que tienen aletas y escamas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Todos os que nadam",
+          "fr": "Tous ceux qui nagent",
+          "en": "All that swim",
+          "es": "Todos los que nadan"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só os que não têm escamas",
+          "fr": "Seulement ceux qui n’ont pas d’écailles",
+          "en": "Only those without scales",
+          "es": "Solo los que no tienen escamas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nenhum animal das águas",
+          "fr": "Aucun animal des eaux",
+          "en": "No creature of the waters",
+          "es": "Ningún animal de las aguas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-011",
+    "type": "choice",
+    "level": "easy",
+    "book": "NUM",
+    "chapter": 14,
+    "verse_start": 33,
+    "verse_end": 33,
+    "prompt": {
+      "pt": "Quantos anos andariam os filhos de Israel pelo deserto?",
+      "fr": "Combien d’années les enfants d’Israël resteraient-ils dans le désert ?",
+      "en": "How many years would the children of Israel wander in the wilderness?",
+      "es": "¿Cuántos años andarían los hijos de Israel por el desierto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "40",
+          "fr": "40",
+          "en": "40",
+          "es": "40"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "7",
+          "fr": "7",
+          "en": "7",
+          "es": "7"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "12",
+          "fr": "12",
+          "en": "12",
+          "es": "12"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "100",
+          "fr": "100",
+          "en": "100",
+          "es": "100"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-012",
+    "type": "choice",
+    "level": "easy",
+    "book": "NUM",
+    "chapter": 13,
+    "verse_start": 23,
+    "verse_end": 24,
+    "prompt": {
+      "pt": "Que trouxeram os espias de Escol, levado por dois homens numa vara?",
+      "fr": "Que rapportèrent les espions d’Eschcol, porté à deux sur une perche ?",
+      "en": "What did the spies bring from Eshcol, carried by two men on a staff?",
+      "es": "¿Qué trajeron los espías de Escol, llevado por dos en un palo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um cacho de uvas",
+          "fr": "Une grappe de raisin",
+          "en": "A cluster of grapes",
+          "es": "Un racimo de uvas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um saco de trigo",
+          "fr": "Un sac de blé",
+          "en": "A sack of corn",
+          "es": "Un saco de trigo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um cesto de maçãs",
+          "fr": "Un panier de pommes",
+          "en": "A basket of apples",
+          "es": "Un cesto de manzanas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um jarro de mel",
+          "fr": "Une jarre de miel",
+          "en": "A jar of honey",
+          "es": "Un cántaro de miel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-013",
+    "type": "choice",
+    "level": "easy",
+    "book": "NUM",
+    "chapter": 12,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Em Números 12:10, quem ficou leprosa como a neve?",
+      "fr": "En Nombres 12:10, qui fut frappée d’une lèpre blanche comme la neige ?",
+      "en": "In Numbers 12:10, who became leprous, white as snow?",
+      "es": "En Números 12:10, ¿quién quedó leprosa como la nieve?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Miriã",
+          "fr": "Marie",
+          "en": "Miriam",
+          "es": "María"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Zípora",
+          "fr": "Séphora",
+          "en": "Zipporah",
+          "es": "Séphora"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Joquebede",
+          "fr": "Jokébed",
+          "en": "Jochebed",
+          "es": "Jochêbed"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sara",
+          "fr": "Sara",
+          "en": "Sarah",
+          "es": "Sara"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-014",
+    "type": "choice",
+    "level": "easy",
+    "book": "DEU",
+    "chapter": 34,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Quem ficou cheio do espírito de sabedoria, porque Moisés tinha posto as mãos sobre ele?",
+      "fr": "Qui fut rempli de l’esprit de sagesse, parce que Moïse avait posé ses mains sur lui ?",
+      "en": "Who was full of the spirit of wisdom, because Moses had laid his hands upon him?",
+      "es": "¿Quién fue lleno de espíritu de sabiduría, porque Moisés había puesto sus manos sobre él?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Josué",
+          "fr": "Josué",
+          "en": "Joshua",
+          "es": "Josué"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Arão",
+          "fr": "Aaron",
+          "en": "Aaron",
+          "es": "Aarón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Calebe",
+          "fr": "Caleb",
+          "en": "Caleb",
+          "es": "Caleb"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Eleazar",
+          "fr": "Éléazar",
+          "en": "Eleazar",
+          "es": "Eleazar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-015",
+    "type": "choice",
+    "level": "easy",
+    "book": "DEU",
+    "chapter": 6,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "A quem devias repetir as palavras de Deus, em casa e pelo caminho?",
+      "fr": "À qui fallait-il inculquer les paroles de Dieu, à la maison et en voyage ?",
+      "en": "To whom were God’s words to be taught, at home and by the way?",
+      "es": "¿A quién había que repetir las palabras de Dios, en casa y por el camino?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Aos teus filhos",
+          "fr": "À tes enfants",
+          "en": "To thy children",
+          "es": "A tus hijos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aos reis",
+          "fr": "Aux rois",
+          "en": "To the kings",
+          "es": "A los reyes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aos estrangeiros",
+          "fr": "Aux étrangers",
+          "en": "To the strangers",
+          "es": "A los extranjeros"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aos animais",
+          "fr": "Aux animaux",
+          "en": "To the animals",
+          "es": "A los animales"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-016",
+    "type": "choice",
+    "level": "easy",
+    "book": "DEU",
+    "chapter": 5,
+    "verse_start": 22,
+    "verse_end": 22,
+    "prompt": {
+      "pt": "Em quantas tábuas de pedra escreveu o SENHOR as suas palavras?",
+      "fr": "Sur combien de tables de pierre l’Éternel écrivit-il ses paroles ?",
+      "en": "On how many tables of stone did the LORD write his words?",
+      "es": "¿En cuántas tablas de piedra escribió Jehová sus palabras?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "2",
+          "fr": "2",
+          "en": "2",
+          "es": "2"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "1",
+          "fr": "1",
+          "en": "1",
+          "es": "1"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "3",
+          "fr": "3",
+          "en": "3",
+          "es": "3"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "10",
+          "fr": "10",
+          "en": "10",
+          "es": "10"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-017",
+    "type": "choice",
+    "level": "easy",
+    "book": "DEU",
+    "chapter": 8,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "Durante a viagem pelo deserto, o que nunca envelheceu sobre o povo?",
+      "fr": "Pendant la marche dans le désert, qu’est-ce qui ne s’est point usé sur le peuple ?",
+      "en": "During the journey in the wilderness, what never waxed old upon the people?",
+      "es": "Durante el viaje por el desierto, ¿qué nunca se envejeció sobre el pueblo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A roupa",
+          "fr": "Le vêtement",
+          "en": "Their raiment",
+          "es": "El vestido"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As tendas",
+          "fr": "Les tentes",
+          "en": "Their tents",
+          "es": "Las tiendas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O cabelo",
+          "fr": "Les cheveux",
+          "en": "Their hair",
+          "es": "El cabello"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "As armas",
+          "fr": "Les armes",
+          "en": "Their weapons",
+          "es": "Las armas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-018",
+    "type": "choice",
+    "level": "easy",
+    "book": "DEU",
+    "chapter": 6,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Onde devia o povo escrever as palavras de Deus?",
+      "fr": "Où le peuple devait-il écrire les paroles de Dieu ?",
+      "en": "Where were the people to write God’s words?",
+      "es": "¿Dónde debía el pueblo escribir las palabras de Dios?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Nos umbrais da casa e nas entradas",
+          "fr": "Sur les poteaux de la maison et sur les portes",
+          "en": "On the posts of the house and on the gates",
+          "es": "En los postes de la casa y en las portadas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nas paredes do templo",
+          "fr": "Sur les murs du temple",
+          "en": "On the walls of the temple",
+          "es": "En las paredes del templo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Na areia do deserto",
+          "fr": "Sur le sable du désert",
+          "en": "In the sand of the desert",
+          "es": "En la arena del desierto"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nas vestes dos sacerdotes",
+          "fr": "Sur les vêtements des sacrificateurs",
+          "en": "On the priests’ garments",
+          "es": "En las vestiduras de los sacerdotes"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-019",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 6,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Deus manda Noé fazer uma arca",
+          "fr": "Dieu dit à Noé de faire une arche",
+          "en": "God tells Noah to make an ark",
+          "es": "Dios manda a Noé hacer un arca"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 7,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Noé entra na arca com a família",
+          "fr": "Noé entre dans l’arche avec sa famille",
+          "en": "Noah goes into the ark with his family",
+          "es": "Noé entra en el arca con su familia"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 8,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Noé envia a pomba",
+          "fr": "Noé lâche la colombe",
+          "en": "Noah sends forth a dove",
+          "es": "Noé envía la paloma"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 9,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Deus põe o seu arco nas nuvens",
+          "fr": "Dieu place son arc dans la nue",
+          "en": "God sets his bow in the cloud",
+          "es": "Dios pone su arco en las nubes"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-020",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 12,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Deus manda Abrão sair da sua terra",
+          "fr": "Dieu dit à Abram de quitter son pays",
+          "en": "God tells Abram to leave his country",
+          "es": "Dios manda a Abram salir de su tierra"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 18,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Três homens visitam Abraão",
+          "fr": "Trois hommes visitent Abraham",
+          "en": "Three men visit Abraham",
+          "es": "Tres varones visitan a Abraham"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 21,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Sara dá à luz um filho na velhice",
+          "fr": "Sara enfante un fils dans sa vieillesse",
+          "en": "Sarah bears a son in old age",
+          "es": "Sara pare un hijo en su vejez"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 22,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Deus manda Abraão oferecer Isaac",
+          "fr": "Dieu demande à Abraham d’offrir Isaac",
+          "en": "God tells Abraham to offer Isaac",
+          "es": "Dios manda a Abraham ofrecer a Isaac"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-021",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EXO",
+        "chapter": 7,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "A vara de Arão torna-se uma cobra",
+          "fr": "La verge d’Aaron devient un serpent",
+          "en": "Aaron’s rod becomes a serpent",
+          "es": "La vara de Aarón se vuelve culebra"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 12,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "Moisés manda sacrificar a Páscoa",
+          "fr": "Moïse fait immoler la Pâque",
+          "en": "Moses has the passover killed",
+          "es": "Moisés manda sacrificar la pascua"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 12,
+        "verse_start": 31,
+        "verse_end": 31,
+        "text": {
+          "pt": "O Faraó manda o povo sair",
+          "fr": "Pharaon ordonne au peuple de partir",
+          "en": "Pharaoh tells the people to go",
+          "es": "Faraón manda salir al pueblo"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 14,
+        "verse_start": 22,
+        "verse_end": 22,
+        "text": {
+          "pt": "Israel passa pelo meio do mar em seco",
+          "fr": "Israël passe au milieu de la mer à sec",
+          "en": "Israel walks through the sea on dry ground",
+          "es": "Israel pasa por medio del mar en seco"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-022",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "NUM",
+        "chapter": 13,
+        "verse_start": 17,
+        "verse_end": 18,
+        "text": {
+          "pt": "Moisés envia espias a Canaã",
+          "fr": "Moïse envoie explorer le pays de Canaan",
+          "en": "Moses sends spies into Canaan",
+          "es": "Moisés envía espías a Canaán"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 14,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "O povo queixa-se de Moisés e Arão",
+          "fr": "Le peuple murmure contre Moïse et Aaron",
+          "en": "The people murmur against Moses and Aaron",
+          "es": "El pueblo se queja contra Moisés y Aarón"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 20,
+        "verse_start": 11,
+        "verse_end": 11,
+        "text": {
+          "pt": "Moisés fere a rocha com a vara",
+          "fr": "Moïse frappe le rocher avec sa verge",
+          "en": "Moses smites the rock with his rod",
+          "es": "Moisés hiere la peña con su vara"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 21,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Moisés faz uma serpente de bronze",
+          "fr": "Moïse fait un serpent d’airain",
+          "en": "Moses makes a serpent of brass",
+          "es": "Moisés hace una serpiente de bronce"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-023",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "NUM",
+        "chapter": 22,
+        "verse_start": 4,
+        "verse_end": 5,
+        "text": {
+          "pt": "Balaque manda chamar Balaão",
+          "fr": "Balak fait appeler Balaam",
+          "en": "Balak sends for Balaam",
+          "es": "Balac manda llamar a Balaam"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 22,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "Balaão parte com os príncipes de Moabe",
+          "fr": "Balaam part avec les chefs de Moab",
+          "en": "Balaam goes with the princes of Moab",
+          "es": "Balaam va con los príncipes de Moab"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 22,
+        "verse_start": 31,
+        "verse_end": 31,
+        "text": {
+          "pt": "Balaão vê o anjo do SENHOR no caminho",
+          "fr": "Balaam voit l’ange de l’Éternel sur le chemin",
+          "en": "Balaam sees the angel of the LORD in the way",
+          "es": "Balaam ve al ángel de Jehová en el camino"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 24,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Balaão abençoa Israel três vezes",
+          "fr": "Balaam bénit Israël trois fois",
+          "en": "Balaam blesses Israel three times",
+          "es": "Balaam bendice a Israel tres veces"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-024",
+    "type": "order",
+    "level": "easy",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DEU",
+        "chapter": 33,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Moisés abençoa os filhos de Israel",
+          "fr": "Moïse bénit les enfants d’Israël",
+          "en": "Moses blesses the children of Israel",
+          "es": "Moisés bendice a los hijos de Israel"
+        }
+      },
+      {
+        "book": "DEU",
+        "chapter": 34,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Moisés sobe ao cume do Pisga",
+          "fr": "Moïse monte au sommet du Pisga",
+          "en": "Moses goes up to the top of Pisgah",
+          "es": "Moisés sube a la cumbre de Pisga"
+        }
+      },
+      {
+        "book": "DEU",
+        "chapter": 34,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Moisés morre na terra de Moabe",
+          "fr": "Moïse meurt au pays de Moab",
+          "en": "Moses dies in the land of Moab",
+          "es": "Moisés muere en la tierra de Moab"
+        }
+      },
+      {
+        "book": "DEU",
+        "chapter": 34,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "Israel chora Moisés trinta dias",
+          "fr": "Israël pleure Moïse trente jours",
+          "en": "Israel weeps for Moses thirty days",
+          "es": "Israel llora a Moisés treinta días"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-025",
+    "type": "verse",
+    "level": "easy",
+    "book": "GEN",
+    "chapter": 1,
+    "verse_start": 31,
+    "verse_end": 31,
+    "blank": {
+      "pt": "bom",
+      "fr": "bon",
+      "en": "good",
+      "es": "bueno"
+    },
+    "distractors": [
+      {
+        "pt": "escuro",
+        "fr": "sombre",
+        "en": "dark",
+        "es": "oscuro"
+      },
+      {
+        "pt": "pequeno",
+        "fr": "petit",
+        "en": "small",
+        "es": "pequeño"
+      },
+      {
+        "pt": "vazio",
+        "fr": "vide",
+        "en": "empty",
+        "es": "vacío"
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-026",
+    "type": "verse",
+    "level": "easy",
+    "book": "EXO",
+    "chapter": 20,
+    "verse_start": 8,
+    "verse_end": 8,
+    "blank": {
+      "pt": "repouso",
+      "fr": "repos",
+      "en": "sabbath",
+      "es": "reposo"
+    },
+    "distractors": [
+      {
+        "pt": "trabalho",
+        "fr": "travail",
+        "en": "work",
+        "es": "trabajo"
+      },
+      {
+        "pt": "mercado",
+        "fr": "marché",
+        "en": "market",
+        "es": "mercado"
+      },
+      {
+        "pt": "juízo",
+        "fr": "jugement",
+        "en": "judgment",
+        "es": "juicio"
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-027",
+    "type": "verse",
+    "level": "easy",
+    "book": "EXO",
+    "chapter": 14,
+    "verse_start": 14,
+    "verse_end": 14,
+    "blank": {
+      "pt": "lutará",
+      "fr": "combattra",
+      "en": "fight",
+      "es": "peleará"
+    },
+    "distractors": [
+      {
+        "pt": "dormirá",
+        "fr": "dormira",
+        "en": "sleep",
+        "es": "dormirá"
+      },
+      {
+        "pt": "chorará",
+        "fr": "pleurera",
+        "en": "weep",
+        "es": "llorará"
+      },
+      {
+        "pt": "esperará",
+        "fr": "attendra",
+        "en": "wait",
+        "es": "esperará"
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-028",
+    "type": "verse",
+    "level": "easy",
+    "book": "LEV",
+    "chapter": 19,
+    "verse_start": 11,
+    "verse_end": 11,
+    "blank": {
+      "pt": "furtareis",
+      "fr": "déroberez",
+      "en": "steal",
+      "es": "hurtaréis"
+    },
+    "distractors": [
+      {
+        "pt": "cantareis",
+        "fr": "chanterez",
+        "en": "sing",
+        "es": "cantaréis"
+      },
+      {
+        "pt": "comereis",
+        "fr": "mangerez",
+        "en": "eat",
+        "es": "comeréis"
+      },
+      {
+        "pt": "dormireis",
+        "fr": "dormirez",
+        "en": "sleep",
+        "es": "dormiréis"
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-029",
+    "type": "verse",
+    "level": "easy",
+    "book": "NUM",
+    "chapter": 6,
+    "verse_start": 26,
+    "verse_end": 26,
+    "blank": {
+      "pt": "paz",
+      "fr": "paix",
+      "en": "peace",
+      "es": "paz"
+    },
+    "distractors": [
+      {
+        "pt": "guerra",
+        "fr": "guerre",
+        "en": "war",
+        "es": "guerra"
+      },
+      {
+        "pt": "riqueza",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riqueza"
+      },
+      {
+        "pt": "força",
+        "fr": "force",
+        "en": "strength",
+        "es": "fuerza"
+      }
+    ]
+  },
+  {
+    "id": "lei2-easy-030",
+    "type": "verse",
+    "level": "easy",
+    "book": "DEU",
+    "chapter": 7,
+    "verse_start": 9,
+    "verse_end": 9,
+    "blank": {
+      "pt": "fiel",
+      "fr": "fidèle",
+      "en": "faithful",
+      "es": "fiel"
+    },
+    "distractors": [
+      {
+        "pt": "forte",
+        "fr": "fort",
+        "en": "strong",
+        "es": "fuerte"
+      },
+      {
+        "pt": "distante",
+        "fr": "lointain",
+        "en": "distant",
+        "es": "lejano"
+      },
+      {
+        "pt": "irado",
+        "fr": "irrité",
+        "en": "angry",
+        "es": "airado"
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-001",
+    "type": "choice",
+    "level": "medium",
+    "book": "GEN",
+    "chapter": 21,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Que idade tinha Abraão quando lhe nasceu Isaac?",
+      "fr": "Quel âge avait Abraham à la naissance d’Isaac ?",
+      "en": "How old was Abraham when Isaac was born?",
+      "es": "¿Qué edad tenía Abraham cuando le nació Isaac?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "100 anos",
+          "fr": "100 ans",
+          "en": "100 years",
+          "es": "100 años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "75 anos",
+          "fr": "75 ans",
+          "en": "75 years",
+          "es": "75 años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "90 anos",
+          "fr": "90 ans",
+          "en": "90 years",
+          "es": "90 años"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "120 anos",
+          "fr": "120 ans",
+          "en": "120 years",
+          "es": "120 años"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-002",
+    "type": "choice",
+    "level": "medium",
+    "book": "GEN",
+    "chapter": 29,
+    "verse_start": 20,
+    "verse_end": 20,
+    "prompt": {
+      "pt": "Quantos anos serviu Jacob por Raquel, que lhe pareceram poucos dias?",
+      "fr": "Combien d’années Jacob servit-il pour Rachel, qui furent à ses yeux comme quelques jours ?",
+      "en": "How many years did Jacob serve for Rachel, which seemed to him but a few days?",
+      "es": "¿Cuántos años sirvió Jacob por Rachêl, que le parecieron pocos días?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "7",
+          "fr": "7",
+          "en": "7",
+          "es": "7"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "3",
+          "fr": "3",
+          "en": "3",
+          "es": "3"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "10",
+          "fr": "10",
+          "en": "10",
+          "es": "10"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "40",
+          "fr": "40",
+          "en": "40",
+          "es": "40"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-003",
+    "type": "choice",
+    "level": "medium",
+    "book": "GEN",
+    "chapter": 39,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Quem comprou José aos ismaelitas, quando ele foi levado ao Egito?",
+      "fr": "Qui acheta Joseph aux Ismaélites, quand il fut descendu en Égypte ?",
+      "en": "Who bought Joseph of the Ishmeelites when he was brought down to Egypt?",
+      "es": "¿Quién compró a José de mano de los Ismaelitas, cuando fue llevado a Egipto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Potifar",
+          "fr": "Potiphar",
+          "en": "Potiphar",
+          "es": "Potiphar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Labão",
+          "fr": "Laban",
+          "en": "Laban",
+          "es": "Labán"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Abimeleque",
+          "fr": "Abimélec",
+          "en": "Abimelech",
+          "es": "Abimelech"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ló",
+          "fr": "Lot",
+          "en": "Lot",
+          "es": "Lot"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-004",
+    "type": "choice",
+    "level": "medium",
+    "book": "EXO",
+    "chapter": 15,
+    "verse_start": 20,
+    "verse_end": 20,
+    "prompt": {
+      "pt": "Que profetisa, irmã de Arão, tomou um pandeiro na mão e saiu com as mulheres?",
+      "fr": "Quelle prophétesse, sœur d’Aaron, prit un tambourin et sortit avec les femmes ?",
+      "en": "Which prophetess, the sister of Aaron, took a timbrel in her hand and went out with the women?",
+      "es": "¿Qué profetisa, hermana de Aarón, tomó un pandero y salió con las mujeres?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Miriã",
+          "fr": "Marie",
+          "en": "Miriam",
+          "es": "María"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Zípora",
+          "fr": "Séphora",
+          "en": "Zipporah",
+          "es": "Séphora"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Joquebede",
+          "fr": "Jokébed",
+          "en": "Jochebed",
+          "es": "Jochêbed"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Agar",
+          "fr": "Agar",
+          "en": "Hagar",
+          "es": "Agar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-005",
+    "type": "choice",
+    "level": "medium",
+    "book": "EXO",
+    "chapter": 15,
+    "verse_start": 25,
+    "verse_end": 25,
+    "prompt": {
+      "pt": "O que mostrou o SENHOR a Moisés para tornar as águas doces?",
+      "fr": "Que montra l’Éternel à Moïse pour rendre l’eau douce ?",
+      "en": "What did the LORD shew Moses to make the waters sweet?",
+      "es": "¿Qué mostró Jehová a Moisés para endulzar las aguas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma árvore",
+          "fr": "Un bois",
+          "en": "A tree",
+          "es": "Un árbol"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma pedra",
+          "fr": "Une pierre",
+          "en": "A stone",
+          "es": "Una piedra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um pouco de sal",
+          "fr": "Un peu de sel",
+          "en": "Some salt",
+          "es": "Un poco de sal"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um pedaço de pão",
+          "fr": "Un morceau de pain",
+          "en": "A piece of bread",
+          "es": "Un pedazo de pan"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-006",
+    "type": "choice",
+    "level": "medium",
+    "book": "EXO",
+    "chapter": 3,
+    "verse_start": 14,
+    "verse_end": 14,
+    "prompt": {
+      "pt": "Segundo Êxodo 3:14, o que respondeu Deus a Moisés sobre o seu nome?",
+      "fr": "D’après Exode 3:14, que répondit Dieu à Moïse au sujet de son nom ?",
+      "en": "According to Exodus 3:14, what did God say to Moses about his name?",
+      "es": "Según Éxodo 3:14, ¿qué respondió Dios a Moisés sobre su nombre?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "EU SOU O QUE SOU",
+          "fr": "Je suis celui qui suis",
+          "en": "I AM THAT I AM",
+          "es": "YO SOY EL QUE SOY"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O Deus dos exércitos",
+          "fr": "Le Dieu des armées",
+          "en": "The God of hosts",
+          "es": "El Dios de los ejércitos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O Rei dos reis",
+          "fr": "Le Roi des rois",
+          "en": "The King of kings",
+          "es": "El Rey de reyes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O Santo de Israel",
+          "fr": "Le Saint d’Israël",
+          "en": "The Holy One of Israel",
+          "es": "El Santo de Israel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-007",
+    "type": "choice",
+    "level": "medium",
+    "book": "EXO",
+    "chapter": 18,
+    "verse_start": 17,
+    "verse_end": 18,
+    "prompt": {
+      "pt": "Quem disse a Moisés «Não fazes bem», porque ele não podia fazer tudo sozinho?",
+      "fr": "Qui dit à Moïse « Ce que tu fais n’est pas bien », car il ne pouvait pas y suffire seul ?",
+      "en": "Who told Moses “The thing that thou doest is not good”, because he could not do it alone?",
+      "es": "¿Quién dijo a Moisés «No haces bien», porque no podía hacerlo solo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O seu sogro",
+          "fr": "Son beau-père",
+          "en": "His father in law",
+          "es": "Su suegro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O seu irmão Arão",
+          "fr": "Son frère Aaron",
+          "en": "His brother Aaron",
+          "es": "Su hermano Aarón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josué",
+          "fr": "Josué",
+          "en": "Joshua",
+          "es": "Josué"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O Faraó",
+          "fr": "Pharaon",
+          "en": "Pharaoh",
+          "es": "Faraón"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-008",
+    "type": "choice",
+    "level": "medium",
+    "book": "LEV",
+    "chapter": 25,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "No sétimo ano, o que não deviam fazer à terra e à vinha?",
+      "fr": "La septième année, que ne fallait-il pas faire au champ et à la vigne ?",
+      "en": "In the seventh year, what were they not to do to their field and vineyard?",
+      "es": "En el séptimo año, ¿qué no debían hacer a su tierra y a su viña?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Semear e podar",
+          "fr": "Ensemencer et tailler",
+          "en": "Sow and prune",
+          "es": "Sembrar y podar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Regar e vender",
+          "fr": "Arroser et vendre",
+          "en": "Water and sell",
+          "es": "Regar y vender"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Medir e cercar",
+          "fr": "Mesurer et clôturer",
+          "en": "Measure and fence",
+          "es": "Medir y cercar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Comprar e herdar",
+          "fr": "Acheter et hériter",
+          "en": "Buy and inherit",
+          "es": "Comprar y heredar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-009",
+    "type": "choice",
+    "level": "medium",
+    "book": "LEV",
+    "chapter": 25,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Que ano devia ser santificado como jubileu?",
+      "fr": "Quelle année devait être sanctifiée comme jubilé ?",
+      "en": "Which year was to be hallowed as a jubile?",
+      "es": "¿Qué año debía santificarse como jubileo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O ano cinquenta",
+          "fr": "La cinquantième année",
+          "en": "The fiftieth year",
+          "es": "El año cincuenta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O sétimo ano",
+          "fr": "La septième année",
+          "en": "The seventh year",
+          "es": "El año séptimo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O ano quarenta",
+          "fr": "La quarantième année",
+          "en": "The fortieth year",
+          "es": "El año cuarenta"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O ano cem",
+          "fr": "La centième année",
+          "en": "The hundredth year",
+          "es": "El año cien"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-010",
+    "type": "choice",
+    "level": "medium",
+    "book": "LEV",
+    "chapter": 27,
+    "verse_start": 30,
+    "verse_end": 30,
+    "prompt": {
+      "pt": "Segundo Levítico 27:30, a quem pertencem os dízimos da terra?",
+      "fr": "D’après Lévitique 27:30, à qui appartient la dîme de la terre ?",
+      "en": "According to Leviticus 27:30, whose is the tithe of the land?",
+      "es": "Según Levítico 27:30, ¿de quién son las décimas de la tierra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Ao SENHOR",
+          "fr": "À l’Éternel",
+          "en": "The LORD’s",
+          "es": "De Jehová"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ao rei",
+          "fr": "Au roi",
+          "en": "The king’s",
+          "es": "Del rey"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ao dono da terra",
+          "fr": "Au propriétaire du champ",
+          "en": "The landowner’s",
+          "es": "Del dueño de la tierra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Aos pobres",
+          "fr": "Aux pauvres",
+          "en": "The poor’s",
+          "es": "De los pobres"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-011",
+    "type": "choice",
+    "level": "medium",
+    "book": "LEV",
+    "chapter": 19,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "Ao ceifar, que parte do campo não deviam acabar de ceifar?",
+      "fr": "Lors de la moisson, quelle partie du champ fallait-il laisser sans moissonner ?",
+      "en": "When reaping, which part of the field were they not to wholly reap?",
+      "es": "Al segar, ¿qué parte del campo no debían acabar de segar?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O canto",
+          "fr": "Un coin",
+          "en": "The corners",
+          "es": "El rincón"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O centro",
+          "fr": "Le milieu",
+          "en": "The middle",
+          "es": "El centro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A entrada",
+          "fr": "L’entrée",
+          "en": "The entrance",
+          "es": "La entrada"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A parte junto ao rio",
+          "fr": "La partie près du fleuve",
+          "en": "The part by the river",
+          "es": "La parte junto al río"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-012",
+    "type": "choice",
+    "level": "medium",
+    "book": "NUM",
+    "chapter": 6,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Durante o voto de nazireado, o que não podia passar sobre a cabeça?",
+      "fr": "Pendant le naziréat, qu’est-ce qui ne devait point passer sur la tête ?",
+      "en": "During the vow of separation, what was not to come upon the head?",
+      "es": "Durante el voto de nazareato, ¿qué no debía pasar sobre la cabeza?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "A navalha",
+          "fr": "Le rasoir",
+          "en": "A razor",
+          "es": "La navaja"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O azeite",
+          "fr": "L’huile",
+          "en": "Oil",
+          "es": "El aceite"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "A água",
+          "fr": "L’eau",
+          "en": "Water",
+          "es": "El agua"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma coroa",
+          "fr": "Une couronne",
+          "en": "A crown",
+          "es": "Una corona"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-013",
+    "type": "choice",
+    "level": "medium",
+    "book": "NUM",
+    "chapter": 11,
+    "verse_start": 31,
+    "verse_end": 31,
+    "prompt": {
+      "pt": "Que aves trouxe o vento do SENHOR para junto do acampamento?",
+      "fr": "Quels oiseaux le vent envoyé par l’Éternel amena-t-il sur le camp ?",
+      "en": "What birds did the wind from the LORD bring by the camp?",
+      "es": "¿Qué aves trajo el viento de Jehová sobre el campamento?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Codornizes",
+          "fr": "Des cailles",
+          "en": "Quails",
+          "es": "Codornices"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pombas",
+          "fr": "Des colombes",
+          "en": "Doves",
+          "es": "Palomas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Corvos",
+          "fr": "Des corbeaux",
+          "en": "Ravens",
+          "es": "Cuervos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pardais",
+          "fr": "Des passereaux",
+          "en": "Sparrows",
+          "es": "Gorriones"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-014",
+    "type": "choice",
+    "level": "medium",
+    "book": "NUM",
+    "chapter": 12,
+    "verse_start": 3,
+    "verse_end": 3,
+    "prompt": {
+      "pt": "Como descreve Números 12:3 o homem Moisés?",
+      "fr": "Comment Nombres 12:3 décrit-il Moïse ?",
+      "en": "How does Numbers 12:3 describe the man Moses?",
+      "es": "¿Cómo describe Números 12:3 al varón Moisés?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Mais manso do que todos os homens",
+          "fr": "Plus patient que tout homme",
+          "en": "Meek above all men",
+          "es": "Más manso que todos los hombres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mais forte do que todos os homens",
+          "fr": "Plus fort que tout homme",
+          "en": "Strong above all men",
+          "es": "Más fuerte que todos los hombres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mais rico do que todos os homens",
+          "fr": "Plus riche que tout homme",
+          "en": "Rich above all men",
+          "es": "Más rico que todos los hombres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mais alto do que todos os homens",
+          "fr": "Plus grand que tout homme",
+          "en": "Tall above all men",
+          "es": "Más alto que todos los hombres"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-015",
+    "type": "choice",
+    "level": "medium",
+    "book": "NUM",
+    "chapter": 20,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Porque não levariam Moisés e Arão a congregação à terra prometida?",
+      "fr": "Pourquoi Moïse et Aaron ne feraient-ils pas entrer l’assemblée dans le pays ?",
+      "en": "Why would Moses and Aaron not bring the congregation into the land?",
+      "es": "¿Por qué Moisés y Aarón no meterían la congregación en la tierra?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Porque não creram no SENHOR",
+          "fr": "Parce qu’ils n’avaient pas cru en l’Éternel",
+          "en": "Because they believed not the LORD",
+          "es": "Porque no creyeron en Jehová"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Porque eram velhos demais",
+          "fr": "Parce qu’ils étaient trop vieux",
+          "en": "Because they were too old",
+          "es": "Porque eran demasiado viejos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Porque tinham medo dos gigantes",
+          "fr": "Parce qu’ils avaient peur des géants",
+          "en": "Because they feared the giants",
+          "es": "Porque temían a los gigantes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Porque o povo não os queria",
+          "fr": "Parce que le peuple ne voulait plus d’eux",
+          "en": "Because the people rejected them",
+          "es": "Porque el pueblo no los quería"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-016",
+    "type": "choice",
+    "level": "medium",
+    "book": "NUM",
+    "chapter": 11,
+    "verse_start": 16,
+    "verse_end": 16,
+    "prompt": {
+      "pt": "Quantos anciãos de Israel mandou o SENHOR Moisés reunir?",
+      "fr": "Combien d’anciens d’Israël l’Éternel dit-il à Moïse d’assembler ?",
+      "en": "How many of the elders of Israel did the LORD tell Moses to gather?",
+      "es": "¿Cuántos ancianos de Israel mandó Jehová a Moisés juntar?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "70",
+          "fr": "70",
+          "en": "70",
+          "es": "70"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "12",
+          "fr": "12",
+          "en": "12",
+          "es": "12"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "40",
+          "fr": "40",
+          "en": "40",
+          "es": "40"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "120",
+          "fr": "120",
+          "en": "120",
+          "es": "120"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-017",
+    "type": "choice",
+    "level": "medium",
+    "book": "NUM",
+    "chapter": 1,
+    "verse_start": 49,
+    "verse_end": 49,
+    "prompt": {
+      "pt": "Que tribo não devia ser contada no recenseamento dos filhos de Israel?",
+      "fr": "Quelle tribu ne devait pas être comptée dans le dénombrement des enfants d’Israël ?",
+      "en": "Which tribe was not to be numbered among the children of Israel?",
+      "es": "¿Qué tribu no debía contarse entre los hijos de Israel?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Levi",
+          "fr": "Lévi",
+          "en": "Levi",
+          "es": "Leví"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Judá",
+          "fr": "Juda",
+          "en": "Judah",
+          "es": "Judá"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Rúben",
+          "fr": "Ruben",
+          "en": "Reuben",
+          "es": "Rubén"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Benjamim",
+          "fr": "Benjamin",
+          "en": "Benjamin",
+          "es": "Benjamín"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-018",
+    "type": "choice",
+    "level": "medium",
+    "book": "DEU",
+    "chapter": 34,
+    "verse_start": 10,
+    "verse_end": 10,
+    "prompt": {
+      "pt": "Segundo Deuteronómio 34:10, como conhecia o SENHOR a Moisés?",
+      "fr": "D’après Deutéronome 34:10, comment l’Éternel connaissait-il Moïse ?",
+      "en": "According to Deuteronomy 34:10, how did the LORD know Moses?",
+      "es": "Según Deuteronomio 34:10, ¿cómo conocía Jehová a Moisés?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Face a face",
+          "fr": "Face à face",
+          "en": "Face to face",
+          "es": "Cara a cara"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Em sonhos",
+          "fr": "En songe",
+          "en": "In dreams",
+          "es": "En sueños"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Por meio de anjos",
+          "fr": "Par des anges",
+          "en": "Through angels",
+          "es": "Por medio de ángeles"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só de longe",
+          "fr": "Seulement de loin",
+          "en": "Only from afar",
+          "es": "Solo de lejos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-019",
+    "type": "choice",
+    "level": "medium",
+    "book": "DEU",
+    "chapter": 34,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Segundo Deuteronómio 34:6, quem conhece o sepulcro de Moisés?",
+      "fr": "D’après Deutéronome 34:6, qui connaît le sépulcre de Moïse ?",
+      "en": "According to Deuteronomy 34:6, who knows of Moses’ sepulchre?",
+      "es": "Según Deuteronomio 34:6, ¿quién sabe el sepulcro de Moisés?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Ninguém, até hoje",
+          "fr": "Personne, jusqu’à ce jour",
+          "en": "No man, unto this day",
+          "es": "Ninguno, hasta hoy"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Só Josué",
+          "fr": "Seulement Josué",
+          "en": "Only Joshua",
+          "es": "Solo Josué"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Os sacerdotes",
+          "fr": "Les sacrificateurs",
+          "en": "The priests",
+          "es": "Los sacerdotes"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Toda a tribo de Levi",
+          "fr": "Toute la tribu de Lévi",
+          "en": "All the tribe of Levi",
+          "es": "Toda la tribu de Leví"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-020",
+    "type": "choice",
+    "level": "medium",
+    "book": "DEU",
+    "chapter": 25,
+    "verse_start": 4,
+    "verse_end": 4,
+    "prompt": {
+      "pt": "O que não se devia pôr ao boi quando trilhava o grão?",
+      "fr": "Que ne fallait-il pas mettre au bœuf quand il foulait le grain ?",
+      "en": "What was not to be put on the ox when he treadeth out the corn?",
+      "es": "¿Qué no se debía poner al buey cuando trillaba?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Uma mordaça",
+          "fr": "Une muselière",
+          "en": "A muzzle",
+          "es": "Un bozal"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um jugo",
+          "fr": "Un joug",
+          "en": "A yoke",
+          "es": "Un yugo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um sino",
+          "fr": "Une clochette",
+          "en": "A bell",
+          "es": "Una campana"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma corda",
+          "fr": "Une corde",
+          "en": "A rope",
+          "es": "Una cuerda"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-021",
+    "type": "choice",
+    "level": "medium",
+    "book": "DEU",
+    "chapter": 28,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Segundo Deuteronómio 28:13, se o povo obedecesse, o SENHOR pô-lo-ia por cabeça e não por…",
+      "fr": "D’après Deutéronome 28:13, si le peuple obéissait, l’Éternel ferait de lui la tête et non…",
+      "en": "According to Deuteronomy 28:13, if the people obeyed, the LORD would make them the head and not…",
+      "es": "Según Deuteronomio 28:13, si el pueblo obedecía, Jehová lo pondría por cabeza y no por…"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Cauda",
+          "fr": "La queue",
+          "en": "The tail",
+          "es": "Cola"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Pés",
+          "fr": "Les pieds",
+          "en": "The feet",
+          "es": "Pies"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Servo",
+          "fr": "Le serviteur",
+          "en": "The servant",
+          "es": "Siervo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Último",
+          "fr": "Le dernier",
+          "en": "The last",
+          "es": "Último"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-022",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 42,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Os irmãos de José vão comprar trigo ao Egito",
+          "fr": "Les frères de Joseph vont acheter du blé en Égypte",
+          "en": "Joseph’s brethren go to buy corn in Egypt",
+          "es": "Los hermanos de José van a comprar trigo a Egipto"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 43,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "Os irmãos levam Benjamim ao Egito",
+          "fr": "Les frères emmènent Benjamin en Égypte",
+          "en": "The brothers take Benjamin to Egypt",
+          "es": "Los hermanos llevan a Benjamín a Egipto"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 44,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "O copo é achado no saco de Benjamim",
+          "fr": "La coupe est trouvée dans le sac de Benjamin",
+          "en": "The cup is found in Benjamin’s sack",
+          "es": "La copa es hallada en el costal de Benjamín"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 46,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Jacob desce ao Egito com a família",
+          "fr": "Jacob se rend en Égypte avec sa famille",
+          "en": "Jacob comes into Egypt with his family",
+          "es": "Jacob viene a Egipto con su familia"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-023",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 28,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Jacob sai de Berseba para Harã",
+          "fr": "Jacob part de Beer-Schéba pour Charan",
+          "en": "Jacob leaves Beer-sheba for Haran",
+          "es": "Jacob sale de Beer-seba hacia Harán"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 29,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "Labão dá Lia a Jacob",
+          "fr": "Laban donne Léa à Jacob",
+          "en": "Laban gives Leah to Jacob",
+          "es": "Labán da Lea a Jacob"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 32,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "Jacob luta com um homem até à alva",
+          "fr": "Jacob lutte avec un homme jusqu’à l’aurore",
+          "en": "Jacob wrestles with a man until daybreak",
+          "es": "Jacob lucha con un varón hasta el alba"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 33,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Esaú abraça Jacob e choram",
+          "fr": "Ésaü embrasse Jacob et ils pleurent",
+          "en": "Esau embraces Jacob and they weep",
+          "es": "Esaú abraza a Jacob y lloran"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-024",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EXO",
+        "chapter": 16,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "O povo recebe o pão que o SENHOR dá",
+          "fr": "Le peuple reçoit le pain que donne l’Éternel",
+          "en": "The people receive the bread the LORD gives",
+          "es": "El pueblo recibe el pan que Jehová da"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 17,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Moisés fere a rocha em Horebe",
+          "fr": "Moïse frappe le rocher d’Horeb",
+          "en": "Moses smites the rock in Horeb",
+          "es": "Moisés hiere la peña en Horeb"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 17,
+        "verse_start": 13,
+        "verse_end": 13,
+        "text": {
+          "pt": "Josué vence Amaleque",
+          "fr": "Josué vainc Amalek",
+          "en": "Joshua defeats Amalek",
+          "es": "Josué deshace a Amalec"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 18,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Jetro visita Moisés no deserto",
+          "fr": "Jéthro rejoint Moïse au désert",
+          "en": "Jethro comes to Moses in the wilderness",
+          "es": "Jethro llega a Moisés en el desierto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-025",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EXO",
+        "chapter": 19,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Israel acampa diante do monte Sinai",
+          "fr": "Israël campe vis-à-vis du mont Sinaï",
+          "en": "Israel camps before mount Sinai",
+          "es": "Israel acampa delante del monte Sinaí"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 20,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Deus fala os Dez Mandamentos",
+          "fr": "Dieu prononce les dix commandements",
+          "en": "God speaks the ten commandments",
+          "es": "Dios habla los diez mandamientos"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 24,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Moisés fica 40 dias no monte",
+          "fr": "Moïse reste 40 jours sur la montagne",
+          "en": "Moses is 40 days in the mount",
+          "es": "Moisés está 40 días en el monte"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 32,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Arão faz um bezerro de fundição",
+          "fr": "Aaron fait un veau en fonte",
+          "en": "Aaron makes a molten calf",
+          "es": "Aarón hace un becerro de fundición"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-026",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "LEV",
+        "chapter": 9,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "Fogo do SENHOR consome o holocausto",
+          "fr": "Le feu de l’Éternel consume l’holocauste",
+          "en": "Fire from the LORD consumes the offering",
+          "es": "Fuego de Jehová consume el holocausto"
+        }
+      },
+      {
+        "book": "LEV",
+        "chapter": 10,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Nadabe e Abiú morrem diante do SENHOR",
+          "fr": "Nadab et Abihu meurent devant l’Éternel",
+          "en": "Nadab and Abihu die before the LORD",
+          "es": "Nadab y Abiú mueren delante de Jehová"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 1,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Deus manda contar o povo",
+          "fr": "Dieu ordonne de dénombrer le peuple",
+          "en": "God orders a census of the people",
+          "es": "Dios manda contar al pueblo"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 10,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Israel parte do deserto do Sinai",
+          "fr": "Israël part du désert de Sinaï",
+          "en": "Israel leaves the wilderness of Sinai",
+          "es": "Israel parte del desierto de Sinaí"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-027",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "NUM",
+        "chapter": 11,
+        "verse_start": 31,
+        "verse_end": 31,
+        "text": {
+          "pt": "O vento traz codornizes ao acampamento",
+          "fr": "Un vent amène des cailles sur le camp",
+          "en": "A wind brings quails to the camp",
+          "es": "Un viento trae codornices al campamento"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 12,
+        "verse_start": 10,
+        "verse_end": 10,
+        "text": {
+          "pt": "Miriã fica leprosa",
+          "fr": "Marie est frappée de la lèpre",
+          "en": "Miriam becomes leprous",
+          "es": "María queda leprosa"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 17,
+        "verse_start": 8,
+        "verse_end": 8,
+        "text": {
+          "pt": "A vara de Arão floresce",
+          "fr": "La verge d’Aaron fleurit",
+          "en": "Aaron’s rod buds",
+          "es": "La vara de Aarón florece"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 25,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Israel peca com as filhas de Moabe em Sitim",
+          "fr": "Israël se livre à la débauche avec les filles de Moab",
+          "en": "Israel commits whoredom with the daughters of Moab",
+          "es": "Israel fornica con las hijas de Moab en Sittim"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-028",
+    "type": "order",
+    "level": "medium",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DEU",
+        "chapter": 9,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Moisés fica 40 dias no monte",
+          "fr": "Moïse reste 40 jours sur la montagne",
+          "en": "Moses abides 40 days in the mount",
+          "es": "Moisés está 40 días en el monte"
+        }
+      },
+      {
+        "book": "DEU",
+        "chapter": 9,
+        "verse_start": 16,
+        "verse_end": 16,
+        "text": {
+          "pt": "O povo faz um bezerro de fundição",
+          "fr": "Le peuple se fait un veau de fonte",
+          "en": "The people make a molten calf",
+          "es": "El pueblo hace un becerro de fundición"
+        }
+      },
+      {
+        "book": "DEU",
+        "chapter": 9,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "Moisés quebra as duas tábuas",
+          "fr": "Moïse brise les deux tables",
+          "en": "Moses breaks the two tables",
+          "es": "Moisés quiebra las dos tablas"
+        }
+      },
+      {
+        "book": "DEU",
+        "chapter": 10,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Moisés faz uma arca de madeira",
+          "fr": "Moïse fait une arche de bois",
+          "en": "Moses makes an ark of wood",
+          "es": "Moisés hace un arca de madera"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-029",
+    "type": "verse",
+    "level": "medium",
+    "book": "GEN",
+    "chapter": 18,
+    "verse_start": 14,
+    "verse_end": 14,
+    "blank": {
+      "pt": "difícil",
+      "fr": "étonnant",
+      "en": "hard",
+      "es": "difícil"
+    },
+    "distractors": [
+      {
+        "pt": "escondida",
+        "fr": "caché",
+        "en": "hidden",
+        "es": "escondida"
+      },
+      {
+        "pt": "pequena",
+        "fr": "petit",
+        "en": "small",
+        "es": "pequeña"
+      },
+      {
+        "pt": "nova",
+        "fr": "nouveau",
+        "en": "new",
+        "es": "nueva"
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-030",
+    "type": "verse",
+    "level": "medium",
+    "book": "EXO",
+    "chapter": 15,
+    "verse_start": 2,
+    "verse_end": 2,
+    "blank": {
+      "pt": "força",
+      "fr": "force",
+      "en": "strength",
+      "es": "fortaleza"
+    },
+    "distractors": [
+      {
+        "pt": "riqueza",
+        "fr": "richesse",
+        "en": "riches",
+        "es": "riqueza"
+      },
+      {
+        "pt": "coroa",
+        "fr": "couronne",
+        "en": "crown",
+        "es": "corona"
+      },
+      {
+        "pt": "luz",
+        "fr": "lumière",
+        "en": "light",
+        "es": "luz"
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-031",
+    "type": "verse",
+    "level": "medium",
+    "book": "LEV",
+    "chapter": 19,
+    "verse_start": 2,
+    "verse_end": 2,
+    "blank": {
+      "pt": "Santos",
+      "fr": "saints",
+      "en": "holy",
+      "es": "Santos"
+    },
+    "distractors": [
+      {
+        "pt": "Fortes",
+        "fr": "forts",
+        "en": "strong",
+        "es": "Fuertes"
+      },
+      {
+        "pt": "Ricos",
+        "fr": "riches",
+        "en": "rich",
+        "es": "Ricos"
+      },
+      {
+        "pt": "Sábios",
+        "fr": "sages",
+        "en": "wise",
+        "es": "Sabios"
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-032",
+    "type": "verse",
+    "level": "medium",
+    "book": "LEV",
+    "chapter": 24,
+    "verse_start": 20,
+    "verse_end": 20,
+    "blank": {
+      "pt": "lesão",
+      "fr": "blessure",
+      "en": "blemish",
+      "es": "lesión"
+    },
+    "distractors": [
+      {
+        "pt": "dívida",
+        "fr": "dette",
+        "en": "debt",
+        "es": "deuda"
+      },
+      {
+        "pt": "promessa",
+        "fr": "promesse",
+        "en": "promise",
+        "es": "promesa"
+      },
+      {
+        "pt": "visita",
+        "fr": "visite",
+        "en": "visit",
+        "es": "visita"
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-033",
+    "type": "verse",
+    "level": "medium",
+    "book": "NUM",
+    "chapter": 32,
+    "verse_start": 23,
+    "verse_end": 23,
+    "blank": {
+      "pt": "alcançará",
+      "fr": "atteindra",
+      "en": "find",
+      "es": "alcanzará"
+    },
+    "distractors": [
+      {
+        "pt": "perdoará",
+        "fr": "pardonnera",
+        "en": "forgive",
+        "es": "perdonará"
+      },
+      {
+        "pt": "esquecerá",
+        "fr": "oubliera",
+        "en": "forget",
+        "es": "olvidará"
+      },
+      {
+        "pt": "deixará",
+        "fr": "quittera",
+        "en": "leave",
+        "es": "dejará"
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-034",
+    "type": "verse",
+    "level": "medium",
+    "book": "DEU",
+    "chapter": 30,
+    "verse_start": 19,
+    "verse_end": 19,
+    "blank": {
+      "pt": "escolhe",
+      "fr": "Choisis",
+      "en": "choose",
+      "es": "escoge"
+    },
+    "distractors": [
+      {
+        "pt": "esquece",
+        "fr": "Oublie",
+        "en": "forget",
+        "es": "olvida"
+      },
+      {
+        "pt": "vende",
+        "fr": "Vends",
+        "en": "sell",
+        "es": "vende"
+      },
+      {
+        "pt": "teme",
+        "fr": "Crains",
+        "en": "fear",
+        "es": "teme"
+      }
+    ]
+  },
+  {
+    "id": "lei2-medium-035",
+    "type": "verse",
+    "level": "medium",
+    "book": "DEU",
+    "chapter": 33,
+    "verse_start": 27,
+    "verse_end": 27,
+    "blank": {
+      "pt": "braços",
+      "fr": "bras",
+      "en": "arms",
+      "es": "brazos"
+    },
+    "distractors": [
+      {
+        "pt": "montes",
+        "fr": "monts",
+        "en": "hills",
+        "es": "montes"
+      },
+      {
+        "pt": "pés",
+        "fr": "pieds",
+        "en": "feet",
+        "es": "pies"
+      },
+      {
+        "pt": "olhos",
+        "fr": "yeux",
+        "en": "eyes",
+        "es": "ojos"
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-001",
+    "type": "choice",
+    "level": "hard",
+    "book": "GEN",
+    "chapter": 35,
+    "verse_start": 18,
+    "verse_end": 18,
+    "prompt": {
+      "pt": "Ao morrer, que nome deu Raquel ao filho que lhe nasceu?",
+      "fr": "En mourant, quel nom Rachel donna-t-elle au fils qui venait de naître ?",
+      "en": "As she was dying, what name did Rachel give the son just born?",
+      "es": "Al morir, ¿qué nombre dio Rachêl al hijo que le nació?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Benoni",
+          "fr": "Ben-Oni",
+          "en": "Ben-oni",
+          "es": "Benoni"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Rúben",
+          "fr": "Ruben",
+          "en": "Reuben",
+          "es": "Rubén"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Judá",
+          "fr": "Juda",
+          "en": "Judah",
+          "es": "Judá"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Gade",
+          "fr": "Gad",
+          "en": "Gad",
+          "es": "Gad"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-002",
+    "type": "choice",
+    "level": "hard",
+    "book": "GEN",
+    "chapter": 32,
+    "verse_start": 30,
+    "verse_end": 30,
+    "prompt": {
+      "pt": "Que nome deu Jacob ao lugar onde viu Deus face a face?",
+      "fr": "Quel nom Jacob donna-t-il au lieu où il vit Dieu face à face ?",
+      "en": "What did Jacob call the place where he saw God face to face?",
+      "es": "¿Qué nombre puso Jacob al lugar donde vio a Dios cara a cara?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Peniel",
+          "fr": "Peniel",
+          "en": "Peniel",
+          "es": "Peniel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Betel",
+          "fr": "Béthel",
+          "en": "Beth-el",
+          "es": "Beth-el"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Berseba",
+          "fr": "Beer-Schéba",
+          "en": "Beer-sheba",
+          "es": "Beer-seba"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Hebrom",
+          "fr": "Hébron",
+          "en": "Hebron",
+          "es": "Hebrón"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-003",
+    "type": "choice",
+    "level": "hard",
+    "book": "EXO",
+    "chapter": 1,
+    "verse_start": 15,
+    "verse_end": 15,
+    "prompt": {
+      "pt": "Como se chamavam as parteiras das hebreias a quem falou o rei do Egito?",
+      "fr": "Comment s’appelaient les sages-femmes des Hébreux à qui parla le roi d’Égypte ?",
+      "en": "What were the names of the Hebrew midwives the king of Egypt spoke to?",
+      "es": "¿Cómo se llamaban las parteras de las Hebreas a quienes habló el rey de Egipto?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Sifrá e Puá",
+          "fr": "Schiphra et Pua",
+          "en": "Shiphrah and Puah",
+          "es": "Siphra y Phúa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ada e Zilá",
+          "fr": "Ada et Tsilla",
+          "en": "Adah and Zillah",
+          "es": "Ada y Zilla"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Bila e Zilpa",
+          "fr": "Bilha et Zilpa",
+          "en": "Bilhah and Zilpah",
+          "es": "Bilha y Zilpa"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Lia e Raquel",
+          "fr": "Léa et Rachel",
+          "en": "Leah and Rachel",
+          "es": "Lea y Rachêl"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-004",
+    "type": "choice",
+    "level": "hard",
+    "book": "EXO",
+    "chapter": 15,
+    "verse_start": 27,
+    "verse_end": 27,
+    "prompt": {
+      "pt": "O que havia em Elim, onde Israel acampou junto às águas?",
+      "fr": "Qu’y avait-il à Élim, où Israël campa près de l’eau ?",
+      "en": "What was at Elim, where Israel encamped by the waters?",
+      "es": "¿Qué había en Elim, donde Israel asentó junto a las aguas?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "12 fontes e 70 palmeiras",
+          "fr": "12 sources et 70 palmiers",
+          "en": "12 wells and 70 palm trees",
+          "es": "12 fuentes y 70 palmas"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "7 poços e 40 figueiras",
+          "fr": "7 puits et 40 figuiers",
+          "en": "7 wells and 40 fig trees",
+          "es": "7 pozos y 40 higueras"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "3 fontes e 12 oliveiras",
+          "fr": "3 sources et 12 oliviers",
+          "en": "3 wells and 12 olive trees",
+          "es": "3 fuentes y 12 olivos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "12 poços e 12 videiras",
+          "fr": "12 puits et 12 vignes",
+          "en": "12 wells and 12 vines",
+          "es": "12 pozos y 12 vides"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-005",
+    "type": "choice",
+    "level": "hard",
+    "book": "LEV",
+    "chapter": 10,
+    "verse_start": 9,
+    "verse_end": 9,
+    "prompt": {
+      "pt": "O que não podiam beber Arão e os filhos quando entravam no tabernáculo?",
+      "fr": "Que ne devaient pas boire Aaron et ses fils quand ils entraient dans la tente d’assignation ?",
+      "en": "What were Aaron and his sons not to drink when they went into the tabernacle?",
+      "es": "¿Qué no podían beber Aarón y sus hijos cuando entraban en el tabernáculo?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Vinho nem bebida forte",
+          "fr": "Ni vin ni boisson enivrante",
+          "en": "Wine nor strong drink",
+          "es": "Vino ni sidra"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Leite nem mel",
+          "fr": "Ni lait ni miel",
+          "en": "Milk nor honey",
+          "es": "Leche ni miel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Água nem leite",
+          "fr": "Ni eau ni lait",
+          "en": "Water nor milk",
+          "es": "Agua ni leche"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Azeite nem vinagre",
+          "fr": "Ni huile ni vinaigre",
+          "en": "Oil nor vinegar",
+          "es": "Aceite ni vinagre"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-006",
+    "type": "choice",
+    "level": "hard",
+    "book": "LEV",
+    "chapter": 23,
+    "verse_start": 5,
+    "verse_end": 5,
+    "prompt": {
+      "pt": "Em que dia do primeiro mês era a Páscoa do SENHOR?",
+      "fr": "Quel jour du premier mois était la Pâque de l’Éternel ?",
+      "en": "On which day of the first month was the LORD’s passover?",
+      "es": "¿En qué día del mes primero era la pascua de Jehová?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "No dia 14",
+          "fr": "Le 14e jour",
+          "en": "On the 14th day",
+          "es": "El día 14"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No dia 10",
+          "fr": "Le 10e jour",
+          "en": "On the 10th day",
+          "es": "El día 10"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No dia 15",
+          "fr": "Le 15e jour",
+          "en": "On the 15th day",
+          "es": "El día 15"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "No dia 7",
+          "fr": "Le 7e jour",
+          "en": "On the 7th day",
+          "es": "El día 7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-007",
+    "type": "choice",
+    "level": "hard",
+    "book": "LEV",
+    "chapter": 16,
+    "verse_start": 29,
+    "verse_end": 29,
+    "prompt": {
+      "pt": "Em Levítico 16:29, em que dia deviam afligir as almas e não fazer obra alguma?",
+      "fr": "En Lévitique 16:29, quel jour fallait-il humilier son âme et ne faire aucun ouvrage ?",
+      "en": "In Leviticus 16:29, on which day were they to afflict their souls and do no work?",
+      "es": "En Levítico 16:29, ¿qué día debían afligir sus almas y no hacer obra alguna?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Dia 10 do sétimo mês",
+          "fr": "Le 10e jour du septième mois",
+          "en": "The 10th day of the seventh month",
+          "es": "El día 10 del mes séptimo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dia 14 do primeiro mês",
+          "fr": "Le 14e jour du premier mois",
+          "en": "The 14th day of the first month",
+          "es": "El día 14 del mes primero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dia 15 do sétimo mês",
+          "fr": "Le 15e jour du septième mois",
+          "en": "The 15th day of the seventh month",
+          "es": "El día 15 del mes séptimo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Dia 1 do sétimo mês",
+          "fr": "Le 1er jour du septième mois",
+          "en": "The 1st day of the seventh month",
+          "es": "El día 1 del mes séptimo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-008",
+    "type": "choice",
+    "level": "hard",
+    "book": "LEV",
+    "chapter": 2,
+    "verse_start": 13,
+    "verse_end": 13,
+    "prompt": {
+      "pt": "Segundo Levítico 2:13, o que devia ser oferecido com todas as ofertas?",
+      "fr": "D’après Lévitique 2:13, que fallait-il mettre sur toutes les offrandes ?",
+      "en": "According to Leviticus 2:13, what was to be offered with all the offerings?",
+      "es": "Según Levítico 2:13, ¿qué debía ofrecerse con toda ofrenda?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Sal",
+          "fr": "Du sel",
+          "en": "Salt",
+          "es": "Sal"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Mel",
+          "fr": "Du miel",
+          "en": "Honey",
+          "es": "Miel"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Fermento",
+          "fr": "Du levain",
+          "en": "Leaven",
+          "es": "Levadura"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Vinagre",
+          "fr": "Du vinaigre",
+          "en": "Vinegar",
+          "es": "Vinagre"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-009",
+    "type": "choice",
+    "level": "hard",
+    "book": "LEV",
+    "chapter": 5,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Segundo Levítico 5:7, o que trazia pelo pecado quem não podia oferecer um animal do rebanho?",
+      "fr": "D’après Lévitique 5:7, qu’apportait pour son péché celui qui ne pouvait offrir une bête du troupeau ?",
+      "en": "According to Leviticus 5:7, what did one bring for sin if he could not bring a lamb?",
+      "es": "Según Levítico 5:7, ¿qué traía por su pecado quien no alcanzaba para un cordero?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Duas rolinhas ou dois pombinhos",
+          "fr": "Deux tourterelles ou deux jeunes pigeons",
+          "en": "Two turtledoves or two young pigeons",
+          "es": "Dos tórtolas o dos palominos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um bezerro",
+          "fr": "Un veau",
+          "en": "A calf",
+          "es": "Un becerro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um carneiro",
+          "fr": "Un bélier",
+          "en": "A ram",
+          "es": "Un carnero"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Duas ovelhas",
+          "fr": "Deux brebis",
+          "en": "Two ewes",
+          "es": "Dos ovejas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-010",
+    "type": "choice",
+    "level": "hard",
+    "book": "NUM",
+    "chapter": 11,
+    "verse_start": 26,
+    "verse_end": 26,
+    "prompt": {
+      "pt": "Que dois homens ficaram no acampamento e ali profetizaram?",
+      "fr": "Quels deux hommes restèrent dans le camp et y prophétisèrent ?",
+      "en": "Which two men remained in the camp and prophesied there?",
+      "es": "¿Qué dos varones quedaron en el campamento y profetizaron allí?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Eldade e Medade",
+          "fr": "Eldad et Médad",
+          "en": "Eldad and Medad",
+          "es": "Eldad y Medad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nadabe e Abiú",
+          "fr": "Nadab et Abihu",
+          "en": "Nadab and Abihu",
+          "es": "Nadab y Abiú"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Datã e Abirão",
+          "fr": "Dathan et Abiram",
+          "en": "Dathan and Abiram",
+          "es": "Dathán y Abiram"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josué e Calebe",
+          "fr": "Josué et Caleb",
+          "en": "Joshua and Caleb",
+          "es": "Josué y Caleb"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-011",
+    "type": "choice",
+    "level": "hard",
+    "book": "NUM",
+    "chapter": 20,
+    "verse_start": 28,
+    "verse_end": 28,
+    "prompt": {
+      "pt": "A quem vestiu Moisés as vestes de Arão, antes de Arão morrer no cume do monte?",
+      "fr": "À qui Moïse fit-il revêtir les vêtements d’Aaron, avant qu’Aaron meure au sommet de la montagne ?",
+      "en": "Upon whom did Moses put Aaron’s garments, before Aaron died in the top of the mount?",
+      "es": "¿A quién vistió Moisés los vestidos de Aarón, antes de que Aarón muriera en la cumbre del monte?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Eleazar",
+          "fr": "Éléazar",
+          "en": "Eleazar",
+          "es": "Eleazar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Itamar",
+          "fr": "Ithamar",
+          "en": "Ithamar",
+          "es": "Ithamar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josué",
+          "fr": "Josué",
+          "en": "Joshua",
+          "es": "Josué"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Fineias",
+          "fr": "Phinées",
+          "en": "Phinehas",
+          "es": "Phinees"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-012",
+    "type": "choice",
+    "level": "hard",
+    "book": "NUM",
+    "chapter": 25,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Em Números 25:7, quem se levantou do meio da congregação e tomou uma lança na mão?",
+      "fr": "En Nombres 25:7, qui se leva du milieu de l’assemblée et prit une lance dans sa main ?",
+      "en": "In Numbers 25:7, who rose up from among the congregation and took a javelin in his hand?",
+      "es": "En Números 25:7, ¿quién se levantó de en medio de la congregación y tomó una lanza en su mano?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Fineias",
+          "fr": "Phinées",
+          "en": "Phinehas",
+          "es": "Phinees"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Calebe",
+          "fr": "Caleb",
+          "en": "Caleb",
+          "es": "Caleb"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Itamar",
+          "fr": "Ithamar",
+          "en": "Ithamar",
+          "es": "Ithamar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Josué",
+          "fr": "Josué",
+          "en": "Joshua",
+          "es": "Josué"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-013",
+    "type": "choice",
+    "level": "hard",
+    "book": "NUM",
+    "chapter": 27,
+    "verse_start": 1,
+    "verse_end": 1,
+    "prompt": {
+      "pt": "Maalá, Noa, Hogla, Milca e Tirza eram filhas de quem?",
+      "fr": "Machla, Noa, Hogla, Milca et Thirtsa étaient les filles de qui ?",
+      "en": "Mahlah, Noah, Hoglah, Milcah and Tirzah were the daughters of whom?",
+      "es": "¿De quién eran hijas Maala, Noa, Hogla, Milca y Tirsa?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Zelofeade",
+          "fr": "Tselophchad",
+          "en": "Zelophehad",
+          "es": "Salphaad"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Coré",
+          "fr": "Koré",
+          "en": "Korah",
+          "es": "Coré"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Calebe",
+          "fr": "Caleb",
+          "en": "Caleb",
+          "es": "Caleb"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Labão",
+          "fr": "Laban",
+          "en": "Laban",
+          "es": "Labán"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-014",
+    "type": "choice",
+    "level": "hard",
+    "book": "NUM",
+    "chapter": 35,
+    "verse_start": 6,
+    "verse_end": 6,
+    "prompt": {
+      "pt": "Quantas das cidades dadas aos levitas seriam cidades de refúgio?",
+      "fr": "Combien des villes données aux Lévites seraient des villes de refuge ?",
+      "en": "How many of the cities given to the Levites were to be cities of refuge?",
+      "es": "¿Cuántas de las ciudades dadas a los Levitas serían ciudades de acogimiento?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "6",
+          "fr": "6",
+          "en": "6",
+          "es": "6"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "3",
+          "fr": "3",
+          "en": "3",
+          "es": "3"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "12",
+          "fr": "12",
+          "en": "12",
+          "es": "12"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "42",
+          "fr": "42",
+          "en": "42",
+          "es": "42"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-015",
+    "type": "choice",
+    "level": "hard",
+    "book": "NUM",
+    "chapter": 10,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Quantas trombetas de prata mandou Deus Moisés fazer?",
+      "fr": "Combien de trompettes d’argent Dieu ordonna-t-il à Moïse de faire ?",
+      "en": "How many trumpets of silver did God tell Moses to make?",
+      "es": "¿Cuántas trompetas de plata mandó Dios a Moisés hacer?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "2",
+          "fr": "2",
+          "en": "2",
+          "es": "2"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "4",
+          "fr": "4",
+          "en": "4",
+          "es": "4"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "7",
+          "fr": "7",
+          "en": "7",
+          "es": "7"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "12",
+          "fr": "12",
+          "en": "12",
+          "es": "12"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-016",
+    "type": "choice",
+    "level": "hard",
+    "book": "DEU",
+    "chapter": 27,
+    "verse_start": 12,
+    "verse_end": 12,
+    "prompt": {
+      "pt": "Em que monte ficariam seis tribos para abençoar o povo, depois de passar o Jordão?",
+      "fr": "Sur quel mont six tribus se tiendraient-elles pour bénir le peuple, après le passage du Jourdain ?",
+      "en": "On which mount would six tribes stand to bless the people, after crossing Jordan?",
+      "es": "¿Sobre qué monte estarían seis tribus para bendecir al pueblo, pasado el Jordán?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Gerizim",
+          "fr": "Garizim",
+          "en": "Gerizim",
+          "es": "Gerizim"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Ebal",
+          "fr": "Ébal",
+          "en": "Ebal",
+          "es": "Ebal"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sinai",
+          "fr": "Sinaï",
+          "en": "Sinai",
+          "es": "Sinaí"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Nebo",
+          "fr": "Nebo",
+          "en": "Nebo",
+          "es": "Nebo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-017",
+    "type": "choice",
+    "level": "hard",
+    "book": "DEU",
+    "chapter": 1,
+    "verse_start": 2,
+    "verse_end": 2,
+    "prompt": {
+      "pt": "Quantas jornadas havia desde Horebe até Cades-Barneia?",
+      "fr": "Combien de journées y avait-il depuis Horeb jusqu’à Kadès-Barnéa ?",
+      "en": "How many days’ journey was it from Horeb unto Kadesh-barnea?",
+      "es": "¿Cuántas jornadas había desde Horeb hasta Cades-barnea?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "11",
+          "fr": "11",
+          "en": "11",
+          "es": "11"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "3",
+          "fr": "3",
+          "en": "3",
+          "es": "3"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "7",
+          "fr": "7",
+          "en": "7",
+          "es": "7"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "40",
+          "fr": "40",
+          "en": "40",
+          "es": "40"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-018",
+    "type": "choice",
+    "level": "hard",
+    "book": "DEU",
+    "chapter": 3,
+    "verse_start": 11,
+    "verse_end": 11,
+    "prompt": {
+      "pt": "De que era feita a cama de Ogue, rei de Basã?",
+      "fr": "De quoi était fait le lit d’Og, roi de Basan ?",
+      "en": "What was the bedstead of Og king of Bashan made of?",
+      "es": "¿De qué era la cama de Og rey de Basán?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "De ferro",
+          "fr": "De fer",
+          "en": "Of iron",
+          "es": "De hierro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De ouro",
+          "fr": "D’or",
+          "en": "Of gold",
+          "es": "De oro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De cedro",
+          "fr": "De cèdre",
+          "en": "Of cedar",
+          "es": "De cedro"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "De pedra",
+          "fr": "De pierre",
+          "en": "Of stone",
+          "es": "De piedra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-019",
+    "type": "choice",
+    "level": "hard",
+    "book": "DEU",
+    "chapter": 7,
+    "verse_start": 7,
+    "verse_end": 7,
+    "prompt": {
+      "pt": "Segundo Deuteronómio 7:7, como era Israel em comparação com os outros povos?",
+      "fr": "D’après Deutéronome 7:7, qu’était Israël comparé aux autres peuples ?",
+      "en": "According to Deuteronomy 7:7, what was Israel compared with other peoples?",
+      "es": "Según Deuteronomio 7:7, ¿qué era Israel comparado con los otros pueblos?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "O menor de todos os povos",
+          "fr": "Le moindre de tous les peuples",
+          "en": "The fewest of all people",
+          "es": "Los más pocos de todos los pueblos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O mais numeroso de todos",
+          "fr": "Le plus nombreux de tous",
+          "en": "The most numerous of all",
+          "es": "Los más numerosos de todos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O mais rico de todos",
+          "fr": "Le plus riche de tous",
+          "en": "The richest of all",
+          "es": "Los más ricos de todos"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "O mais antigo de todos",
+          "fr": "Le plus ancien de tous",
+          "en": "The oldest of all",
+          "es": "Los más antiguos de todos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-020",
+    "type": "choice",
+    "level": "hard",
+    "book": "DEU",
+    "chapter": 22,
+    "verse_start": 8,
+    "verse_end": 8,
+    "prompt": {
+      "pt": "Ao edificar uma casa nova, o que devia fazer-se no terraço?",
+      "fr": "Quand on bâtissait une maison neuve, que fallait-il faire autour du toit ?",
+      "en": "When building a new house, what was to be made for the roof?",
+      "es": "Al edificar casa nueva, ¿qué había que hacer a la azotea?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Um parapeito",
+          "fr": "Une balustrade",
+          "en": "A battlement",
+          "es": "Un pretil"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Um altar",
+          "fr": "Un autel",
+          "en": "An altar",
+          "es": "Un altar"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma torre",
+          "fr": "Une tour",
+          "en": "A tower",
+          "es": "Una torre"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma cisterna",
+          "fr": "Une citerne",
+          "en": "A cistern",
+          "es": "Una cisterna"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-021",
+    "type": "choice",
+    "level": "hard",
+    "book": "DEU",
+    "chapter": 19,
+    "verse_start": 15,
+    "verse_end": 15,
+    "prompt": {
+      "pt": "Segundo Deuteronómio 19:15, quantas testemunhas eram precisas para estabelecer um caso?",
+      "fr": "D’après Deutéronome 19:15, combien de témoins fallait-il pour établir un fait ?",
+      "en": "According to Deuteronomy 19:15, how many witnesses were needed to establish a matter?",
+      "es": "Según Deuteronomio 19:15, ¿cuántos testigos hacían falta para establecer un caso?"
+    },
+    "options": [
+      {
+        "correct": true,
+        "text": {
+          "pt": "Duas ou três",
+          "fr": "Deux ou trois",
+          "en": "Two or three",
+          "es": "Dos o tres"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Uma só",
+          "fr": "Un seul",
+          "en": "Only one",
+          "es": "Uno solo"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Sete",
+          "fr": "Sept",
+          "en": "Seven",
+          "es": "Siete"
+        }
+      },
+      {
+        "correct": false,
+        "text": {
+          "pt": "Doze",
+          "fr": "Douze",
+          "en": "Twelve",
+          "es": "Doce"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-022",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "GEN",
+        "chapter": 17,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Abrão passa a chamar-se Abraão",
+          "fr": "Abram reçoit le nom d’Abraham",
+          "en": "Abram is named Abraham",
+          "es": "Abram pasa a llamarse Abraham"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 19,
+        "verse_start": 1,
+        "verse_end": 1,
+        "text": {
+          "pt": "Dois anjos chegam a Sodoma",
+          "fr": "Deux anges arrivent à Sodome",
+          "en": "Two angels come to Sodom",
+          "es": "Dos ángeles llegan a Sodoma"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 20,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Abimeleque toma Sara",
+          "fr": "Abimélec fait enlever Sara",
+          "en": "Abimelech takes Sarah",
+          "es": "Abimelech toma a Sara"
+        }
+      },
+      {
+        "book": "GEN",
+        "chapter": 21,
+        "verse_start": 14,
+        "verse_end": 14,
+        "text": {
+          "pt": "Abraão despede Agar e o menino",
+          "fr": "Abraham renvoie Agar et l’enfant",
+          "en": "Abraham sends Hagar and the child away",
+          "es": "Abraham despide a Agar y al muchacho"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-023",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EXO",
+        "chapter": 1,
+        "verse_start": 15,
+        "verse_end": 15,
+        "text": {
+          "pt": "O rei do Egito fala às parteiras",
+          "fr": "Le roi d’Égypte parle aux sages-femmes",
+          "en": "The king of Egypt speaks to the midwives",
+          "es": "El rey de Egipto habla a las parteras"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 2,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "A filha do Faraó vê a cesta no rio",
+          "fr": "La fille de Pharaon voit la caisse",
+          "en": "Pharaoh’s daughter sees the ark",
+          "es": "La hija de Faraón ve la arquilla"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 2,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "Moisés recebe Zípora por mulher",
+          "fr": "Moïse reçoit Séphora pour femme",
+          "en": "Moses is given Zipporah",
+          "es": "Moisés recibe a Séphora por mujer"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 7,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "A vara de Arão devora as varas dos magos",
+          "fr": "La verge d’Aaron engloutit leurs verges",
+          "en": "Aaron’s rod swallows up their rods",
+          "es": "La vara de Aarón devora las varas de ellos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-024",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "EXO",
+        "chapter": 32,
+        "verse_start": 19,
+        "verse_end": 19,
+        "text": {
+          "pt": "Moisés quebra as tábuas ao pé do monte",
+          "fr": "Moïse brise les tables au pied de la montagne",
+          "en": "Moses breaks the tables beneath the mount",
+          "es": "Moisés quiebra las tablas al pie del monte"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 34,
+        "verse_start": 4,
+        "verse_end": 4,
+        "text": {
+          "pt": "Moisés talha duas tábuas novas",
+          "fr": "Moïse taille deux nouvelles tables",
+          "en": "Moses hews two new tables",
+          "es": "Moisés alisa dos tablas nuevas"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 34,
+        "verse_start": 29,
+        "verse_end": 29,
+        "text": {
+          "pt": "A pele do rosto de Moisés resplandece",
+          "fr": "La peau du visage de Moïse rayonne",
+          "en": "The skin of Moses’ face shines",
+          "es": "La tez del rostro de Moisés resplandece"
+        }
+      },
+      {
+        "book": "EXO",
+        "chapter": 40,
+        "verse_start": 17,
+        "verse_end": 17,
+        "text": {
+          "pt": "O tabernáculo é levantado",
+          "fr": "Le tabernacle est dressé",
+          "en": "The tabernacle is reared up",
+          "es": "El tabernáculo es erigido"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-025",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "LEV",
+        "chapter": 8,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Moisés lava Arão e os filhos com água",
+          "fr": "Moïse lave Aaron et ses fils avec de l’eau",
+          "en": "Moses washes Aaron and his sons",
+          "es": "Moisés lava a Aarón y a sus hijos"
+        }
+      },
+      {
+        "book": "LEV",
+        "chapter": 8,
+        "verse_start": 9,
+        "verse_end": 9,
+        "text": {
+          "pt": "Moisés põe a mitra na cabeça de Arão",
+          "fr": "Moïse pose la tiare sur la tête d’Aaron",
+          "en": "Moses puts the mitre on Aaron’s head",
+          "es": "Moisés pone la mitra sobre la cabeza de Aarón"
+        }
+      },
+      {
+        "book": "LEV",
+        "chapter": 8,
+        "verse_start": 12,
+        "verse_end": 12,
+        "text": {
+          "pt": "Moisés unge Arão com azeite",
+          "fr": "Moïse oint Aaron d’huile",
+          "en": "Moses anoints Aaron with oil",
+          "es": "Moisés unge a Aarón con aceite"
+        }
+      },
+      {
+        "book": "LEV",
+        "chapter": 9,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "Fogo do SENHOR consome o holocausto",
+          "fr": "Le feu de l’Éternel consume l’holocauste",
+          "en": "Fire from the LORD consumes the offering",
+          "es": "Fuego de Jehová consume el holocausto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-026",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "NUM",
+        "chapter": 20,
+        "verse_start": 21,
+        "verse_end": 21,
+        "text": {
+          "pt": "Edom não deixa Israel passar",
+          "fr": "Édom refuse le passage à Israël",
+          "en": "Edom refuses Israel passage",
+          "es": "Edom no deja pasar a Israel"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 20,
+        "verse_start": 28,
+        "verse_end": 28,
+        "text": {
+          "pt": "Arão morre no cume do monte",
+          "fr": "Aaron meurt au sommet de la montagne",
+          "en": "Aaron dies in the top of the mount",
+          "es": "Aarón muere en la cumbre del monte"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 21,
+        "verse_start": 6,
+        "verse_end": 6,
+        "text": {
+          "pt": "Serpentes ardentes mordem o povo",
+          "fr": "Des serpents brûlants mordent le peuple",
+          "en": "Fiery serpents bite the people",
+          "es": "Serpientes ardientes muerden al pueblo"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 21,
+        "verse_start": 24,
+        "verse_end": 24,
+        "text": {
+          "pt": "Israel vence Seom e toma a sua terra",
+          "fr": "Israël bat Sihon et prend son pays",
+          "en": "Israel smites Sihon and takes his land",
+          "es": "Israel vence a Sehón y toma su tierra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-027",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "NUM",
+        "chapter": 26,
+        "verse_start": 2,
+        "verse_end": 2,
+        "text": {
+          "pt": "Novo recenseamento dos de vinte anos acima",
+          "fr": "Nouveau dénombrement dès l’âge de vingt ans",
+          "en": "A new census from twenty years old",
+          "es": "Nuevo censo de veinte años arriba"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 27,
+        "verse_start": 18,
+        "verse_end": 18,
+        "text": {
+          "pt": "Deus manda pôr a mão sobre Josué",
+          "fr": "Dieu dit de poser la main sur Josué",
+          "en": "God says to lay hands on Joshua",
+          "es": "Dios manda poner la mano sobre Josué"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 31,
+        "verse_start": 7,
+        "verse_end": 7,
+        "text": {
+          "pt": "Israel luta contra Midiã",
+          "fr": "Israël s’avance contre Madian",
+          "en": "Israel wars against the Midianites",
+          "es": "Israel pelea contra Madián"
+        }
+      },
+      {
+        "book": "NUM",
+        "chapter": 32,
+        "verse_start": 5,
+        "verse_end": 5,
+        "text": {
+          "pt": "Rúben e Gade pedem terra deste lado do Jordão",
+          "fr": "Ruben et Gad demandent à rester avant le Jourdain",
+          "en": "Reuben and Gad ask not to cross Jordan",
+          "es": "Rubén y Gad piden no pasar el Jordán"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-028",
+    "type": "order",
+    "level": "hard",
+    "prompt": {
+      "pt": "Ordena estes episódios pela ordem em que aconteceram.",
+      "fr": "Mets ces épisodes dans l’ordre où ils se sont produits.",
+      "en": "Put these episodes in the order they happened.",
+      "es": "Ordena estos episodios según ocurrieron."
+    },
+    "items": [
+      {
+        "book": "DEU",
+        "chapter": 1,
+        "verse_start": 23,
+        "verse_end": 23,
+        "text": {
+          "pt": "Moisés escolhe doze homens, um por tribo",
+          "fr": "Moïse prend douze hommes, un par tribu",
+          "en": "Moses takes twelve men, one of a tribe",
+          "es": "Moisés toma doce varones, uno por tribu"
+        }
+      },
+      {
+        "book": "DEU",
+        "chapter": 2,
+        "verse_start": 32,
+        "verse_end": 33,
+        "text": {
+          "pt": "Deus entrega Seom a Israel",
+          "fr": "Dieu livre Sihon à Israël",
+          "en": "God delivers Sihon before Israel",
+          "es": "Dios entrega a Sehón delante de Israel"
+        }
+      },
+      {
+        "book": "DEU",
+        "chapter": 3,
+        "verse_start": 3,
+        "verse_end": 3,
+        "text": {
+          "pt": "Deus entrega Ogue, rei de Basã",
+          "fr": "Dieu livre Og, roi de Basan",
+          "en": "God delivers Og, king of Bashan",
+          "es": "Dios entrega a Og, rey de Basán"
+        }
+      },
+      {
+        "book": "DEU",
+        "chapter": 3,
+        "verse_start": 27,
+        "verse_end": 27,
+        "text": {
+          "pt": "Deus manda Moisés subir ao cume do Pisga",
+          "fr": "Dieu dit à Moïse de monter au sommet du Pisga",
+          "en": "God tells Moses to go up to Pisgah",
+          "es": "Dios manda a Moisés subir a la cumbre del Pisga"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-029",
+    "type": "verse",
+    "level": "hard",
+    "book": "DEU",
+    "chapter": 32,
+    "verse_start": 10,
+    "verse_end": 10,
+    "blank": {
+      "pt": "menina",
+      "fr": "prunelle",
+      "en": "apple",
+      "es": "niña"
+    },
+    "distractors": [
+      {
+        "pt": "luz",
+        "fr": "lumière",
+        "en": "light",
+        "es": "luz"
+      },
+      {
+        "pt": "pérola",
+        "fr": "perle",
+        "en": "pearl",
+        "es": "perla"
+      },
+      {
+        "pt": "lágrima",
+        "fr": "larme",
+        "en": "tear",
+        "es": "lágrima"
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-030",
+    "type": "verse",
+    "level": "hard",
+    "book": "EXO",
+    "chapter": 33,
+    "verse_start": 11,
+    "verse_end": 11,
+    "blank": {
+      "pt": "companheiro",
+      "fr": "ami",
+      "en": "friend",
+      "es": "compañero"
+    },
+    "distractors": [
+      {
+        "pt": "servo",
+        "fr": "serviteur",
+        "en": "servant",
+        "es": "siervo"
+      },
+      {
+        "pt": "filho",
+        "fr": "fils",
+        "en": "son",
+        "es": "hijo"
+      },
+      {
+        "pt": "rei",
+        "fr": "roi",
+        "en": "king",
+        "es": "rey"
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-031",
+    "type": "verse",
+    "level": "hard",
+    "book": "LEV",
+    "chapter": 26,
+    "verse_start": 12,
+    "verse_end": 12,
+    "blank": {
+      "pt": "andarei",
+      "fr": "marcherai",
+      "en": "walk",
+      "es": "andaré"
+    },
+    "distractors": [
+      {
+        "pt": "dormirei",
+        "fr": "dormirai",
+        "en": "sleep",
+        "es": "dormiré"
+      },
+      {
+        "pt": "reinarei",
+        "fr": "régnerai",
+        "en": "reign",
+        "es": "reinaré"
+      },
+      {
+        "pt": "julgarei",
+        "fr": "jugerai",
+        "en": "judge",
+        "es": "juzgaré"
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-032",
+    "type": "verse",
+    "level": "hard",
+    "book": "NUM",
+    "chapter": 24,
+    "verse_start": 17,
+    "verse_end": 17,
+    "blank": {
+      "pt": "estrela",
+      "fr": "astre",
+      "en": "Star",
+      "es": "estrella"
+    },
+    "distractors": [
+      {
+        "pt": "sol",
+        "fr": "soleil",
+        "en": "Sun",
+        "es": "sol"
+      },
+      {
+        "pt": "espada",
+        "fr": "glaive",
+        "en": "Sword",
+        "es": "espada"
+      },
+      {
+        "pt": "fogo",
+        "fr": "feu",
+        "en": "Fire",
+        "es": "fuego"
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-033",
+    "type": "verse",
+    "level": "hard",
+    "book": "NUM",
+    "chapter": 14,
+    "verse_start": 18,
+    "verse_end": 18,
+    "blank": {
+      "pt": "misericórdia",
+      "fr": "bonté",
+      "en": "mercy",
+      "es": "misericordia"
+    },
+    "distractors": [
+      {
+        "pt": "força",
+        "fr": "force",
+        "en": "strength",
+        "es": "fortaleza"
+      },
+      {
+        "pt": "glória",
+        "fr": "gloire",
+        "en": "glory",
+        "es": "gloria"
+      },
+      {
+        "pt": "sabedoria",
+        "fr": "sagesse",
+        "en": "wisdom",
+        "es": "sabiduría"
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-034",
+    "type": "verse",
+    "level": "hard",
+    "book": "DEU",
+    "chapter": 29,
+    "verse_start": 29,
+    "verse_end": 29,
+    "blank": {
+      "pt": "secretas",
+      "fr": "cachées",
+      "en": "secret",
+      "es": "secretas"
+    },
+    "distractors": [
+      {
+        "pt": "santas",
+        "fr": "saintes",
+        "en": "holy",
+        "es": "santas"
+      },
+      {
+        "pt": "antigas",
+        "fr": "anciennes",
+        "en": "old",
+        "es": "antiguas"
+      },
+      {
+        "pt": "grandes",
+        "fr": "grandes",
+        "en": "great",
+        "es": "grandes"
+      }
+    ]
+  },
+  {
+    "id": "lei2-hard-035",
+    "type": "verse",
+    "level": "hard",
+    "book": "DEU",
+    "chapter": 32,
+    "verse_start": 4,
+    "verse_end": 4,
+    "blank": {
+      "pt": "Rocha",
+      "fr": "rocher",
+      "en": "Rock",
+      "es": "Roca"
+    },
+    "distractors": [
+      {
+        "pt": "Fortaleza",
+        "fr": "rempart",
+        "en": "Fortress",
+        "es": "Fortaleza"
+      },
+      {
+        "pt": "Coroa",
+        "fr": "diadème",
+        "en": "Crown",
+        "es": "Corona"
+      },
+      {
+        "pt": "Torre",
+        "fr": "donjon",
+        "en": "Tower",
+        "es": "Torre"
+      }
+    ]
+  }
+]

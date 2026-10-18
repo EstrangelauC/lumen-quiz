@@ -87,7 +87,8 @@
     "start": "Commencer la partie",
     "starting": "Création de la partie…",
     "unavailable": "Indisponible",
-    "available": "{count} questions disponibles"
+    "available": "{count} questions disponibles",
+    "countOption": "{count} questions"
   },
   "discover": {
     "title": "Découvrir",
