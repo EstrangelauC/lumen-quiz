@@ -53,3 +53,17 @@ body {
   70% { transform: scale(1.08); opacity: 1; }
   100% { transform: scale(1); }
 }
+
+/* Fim do jogo: balões sobem e rebentam (components/game/Celebration.tsx) */
+@keyframes balloon-rise {
+  0% { transform: translateY(20vh); opacity: 0; }
+  10% { opacity: 1; }
+  100% { transform: translateY(-68vh) rotate(-6deg); opacity: 1; }
+}
+@keyframes balloon-pop {
+  0% { transform: translateY(-68vh) scale(1); opacity: 1; }
+  100% { transform: translateY(-68vh) scale(1.8); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [style*='balloon-'] { animation: none !important; display: none; }
+}

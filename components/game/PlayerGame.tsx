@@ -12,6 +12,7 @@ import TimerBadge from './TimerBadge';
 import OrderInput from './OrderInput';
 import VerseReveal, { VerseGapText } from './VerseReveal';
 import LanguageSwitcher from '../LanguageSwitcher';
+import Celebration from './Celebration';
 
 // Antes da revelação só se sabe que respondi (is_correct e pontos ficam a null)
 type Ranking = { rank: number; total: number; score: number; ahead: { name: string; gap: number } | null };
@@ -223,6 +224,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
       {/* Fim */}
       {status === 'finished' && (
         <Centered>
+          {ranking && <Celebration big={ranking.rank === 1} />}
           <p className="text-6xl">{ranking?.rank === 1 ? '🏆' : ranking && ranking.rank <= 3 ? '🎉' : '🙏'}</p>
           <h1 className="font-display mt-4 text-3xl font-semibold">{t('gameOver')}</h1>
           {ranking && (

@@ -11,6 +11,7 @@ import { useCountdown } from '@/hooks/useCountdown';
 import TimerBadge from './TimerBadge';
 import VerseReveal, { VerseGapText } from './VerseReveal';
 import LanguageSwitcher from '../LanguageSwitcher';
+import Celebration from './Celebration';
 
 const MEDALS = ['🥇', '🥈', '🥉'];
 const LETTERS = 'ABCD';
@@ -413,6 +414,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
       {/* ---------------- PÓDIO ---------------- */}
       {status === 'finished' && (
         <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col items-center px-4 pb-10 pt-6 text-center">
+          {players.length > 0 && <Celebration big />}
           <h1 className="font-display text-4xl font-semibold sm:text-5xl">{t('gameOver')}</h1>
 
           <div className="mt-10 flex w-full items-end justify-center gap-3">
