@@ -1,6 +1,7 @@
 'use client';
 
 import { Fragment } from 'react';
+import BiblicalArt from '@/components/BiblicalArt';
 import { bibleSource } from '@/lib/bible-sources';
 
 /**
@@ -22,7 +23,8 @@ export default function VerseReveal({
   const lg = size === 'lg';
 
   return (
-    <figure className={`w-full rounded-2xl bg-black/20 text-center ${lg ? 'px-6 py-[1.5vh] sm:px-10' : 'px-4 py-3'}`}>
+    <figure className={`verse-reveal w-full rounded-2xl bg-black/20 text-center ${lg ? 'px-6 py-[1.5vh] sm:px-10' : 'px-4 py-3'}`}>
+      <BiblicalArt scene="lamp" className="verse-art" />
       {text && (
         <blockquote className={`font-display leading-snug ${lg ? 'mx-auto max-w-4xl text-[clamp(1rem,2.8vh,1.5rem)]' : 'text-base'}`}>
           “{text}”
@@ -57,3 +59,4 @@ export function VerseGapText({ text }: { text: string }) {
     </>
   );
 }
+

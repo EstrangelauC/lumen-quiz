@@ -67,3 +67,57 @@ body {
 @media (prefers-reduced-motion: reduce) {
   [style*='balloon-'] { animation: none !important; display: none; }
 }
+
+
+/* Lumen's biblical editorial identity. Artwork never depends on quiz answers. */
+body { background-image: radial-gradient(ellipse at top, #f2b84b0d, transparent 60%); }
+button, a, select { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible, select:focus-visible { outline: 3px solid #c48a24; outline-offset: 4px; }
+.biblical-art { background-image: url('/art/biblical-atlas.webp'); background-size: 300% 200%; background-repeat: no-repeat; overflow: hidden; }
+.biblical-art--noah { background-position: 0 0; }
+.biblical-art--david { background-position: 50% 0; }
+.biblical-art--moses { background-position: 100% 0; }
+.biblical-art--lamp { background-position: 0 100%; }
+.biblical-art--landscape { background-position: 50% 100%; }
+.biblical-art--wreath { background-position: 100% 100%; }
+.lumen-hero { background: radial-gradient(ellipse at 80% 50%, #433454, #1b1640 65%); }
+.hero-art-stage { position: relative; min-width: 0; padding-top: 18rem; }
+.hero-portraits { position: absolute; inset: 0 0 auto; height: 24rem; display: flex; mask-image: linear-gradient(#000 72%, transparent); }
+.hero-portraits > div { flex: 1; border-radius: 7rem 7rem 0 0; height: 100%; box-shadow: 0 0 35px #0003; }
+.hero-portraits > div:nth-child(2) { margin-top: 2rem; }
+.hero-portraits > div:nth-child(3) { margin-top: 4rem; }
+.hero-art-stage > div:last-child { position: relative; transform: rotate(-3deg); max-width: 15rem; margin-right: 0; }
+.lumen-landing .card { border-color: #cba25b30; box-shadow: 0 8px 30px #1b164008; }
+.level-card { overflow: hidden; position: relative; padding: 0 0 1.25rem !important; gap: 0 !important; border-color: #cba25b40; }
+.level-card > span { padding: 1.25rem 1.25rem 0; }
+.level-art { width: 100%; aspect-ratio: 1.5; border-bottom: 1px solid #cba25b30; }
+.level-card[aria-checked="true"] { box-shadow: 0 12px 32px #b5852220; }
+.entry-art { width: 100%; aspect-ratio: 1; border-radius: 2rem 8rem 2rem 2rem; box-shadow: 0 20px 60px #1b164018; }
+.lumen-entry { background: radial-gradient(ellipse at 0 100%, #f2b84b22, transparent 65%), #fbf7ef; }
+.lumen-game { background-image: radial-gradient(ellipse at 80% 0, #46315188, transparent 65%); }
+.lumen-game > header { border-bottom: 1px solid #f2b84b25; background: #120e2e80; margin-bottom: 1vh; }
+.lobby-players { position: relative; isolation: isolate; }
+.lobby-art { position: absolute; inset: 0; width: 100%; height: 100%; border-radius: 1.5rem; opacity: .26; z-index: -1; }
+.lobby-pin { color: #1b1640; background: linear-gradient(120deg, #fde9b8, #f2b84b66); border-radius: 1rem; padding: .15em .3em; }
+.question-landscape { width: 100%; height: clamp(3rem, 9vh, 6rem); flex-shrink: 0; border-radius: 1rem; margin-block: .5rem 1rem; box-shadow: inset 0 0 40px #1b164025; }
+.player-lobby-art { width: min(80vw, 23rem); aspect-ratio: 1.5; border-radius: 1.5rem; margin-bottom: 1rem; }
+.podium-art { width: min(55vw, 18rem); height: clamp(4rem, 12vh, 8rem); flex-shrink: 0; border-radius: 1rem; margin: 0 auto 1rem; mask-image: linear-gradient(#000 75%, transparent); }
+.verse-reveal { position: relative; overflow: hidden; isolation: isolate; border: 1px solid #f2b84b40; background: linear-gradient(120deg, #302442, #1b1640); }
+.verse-art { position: absolute; inset: 0 0 0 auto; width: 30%; height: 100%; opacity: .16; z-index: -1; mask-image: linear-gradient(90deg, transparent, #000); }
+.lumen-reveal.bg-emerald-600 { background: radial-gradient(ellipse at top, #23614b, #142e32); }
+.lumen-reveal.bg-rose-600 { background: radial-gradient(ellipse at top, #763749, #281b37); }
+@media (max-width: 767px) {
+  .hero-art-stage { max-width: 30rem; margin: 0 auto; width: 100%; }
+  .level-card { flex-direction: row; padding: 0 !important; align-items: stretch; }
+  .level-art { width: 32%; min-width: 6rem; aspect-ratio: auto; min-height: 9rem; border: 0; }
+  .level-card > span { padding: 1rem; }
+  .entry-layout { align-content: start; }
+  .lumen-player .question-landscape { height: 4rem; }
+}
+@media (max-height: 650px) {
+  .lumen-game:not(.lumen-player) .question-landscape { display: none; }
+  .podium-art { height: 3rem; margin-bottom: .5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

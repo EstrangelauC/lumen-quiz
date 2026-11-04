@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import BiblicalArt from '@/components/BiblicalArt';
 import { getTranslations } from 'next-intl/server';
 import Logo from '@/components/Logo';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
@@ -25,7 +26,7 @@ export default async function LandingPage() {
   const mockOptions = [t('mockA'), t('mockB'), t('mockC'), t('mockD')];
 
   return (
-    <div className="min-h-dvh">
+    <div className="lumen-landing min-h-dvh">
       {/* Cabeçalho */}
       <header className="bg-ink">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-4">
@@ -46,7 +47,7 @@ export default async function LandingPage() {
       </header>
 
       {/* Hero */}
-      <section className="relative overflow-hidden bg-ink text-white">
+      <section className="lumen-hero relative overflow-hidden bg-ink text-white">
         <div
           aria-hidden
           className="pointer-events-none absolute -top-40 left-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-gold/20 blur-3xl"
@@ -70,6 +71,12 @@ export default async function LandingPage() {
             </div>
           </div>
 
+          <div className="hero-art-stage">
+            <div className="hero-portraits">
+              <BiblicalArt scene="noah" />
+              <BiblicalArt scene="moses" />
+              <BiblicalArt scene="david" />
+            </div>
           {/* Maqueta de telemóvel com uma pergunta */}
           <div className="mx-auto w-full max-w-xs">
             <div className="rounded-[2.5rem] border-[10px] border-night bg-parchment p-4 shadow-2xl shadow-black/40">
@@ -91,6 +98,7 @@ export default async function LandingPage() {
                 ))}
               </div>
             </div>
+          </div>
           </div>
         </div>
       </section>
@@ -165,3 +173,4 @@ export default async function LandingPage() {
     </div>
   );
 }
+

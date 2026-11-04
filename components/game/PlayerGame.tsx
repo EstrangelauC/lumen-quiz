@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import BiblicalArt from '@/components/BiblicalArt';
 import { useRouter } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import { useCallback, useEffect, useMemo, useState } from 'react';
@@ -158,7 +159,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
   }
 
   return (
-    <div className="flex min-h-dvh flex-col bg-night text-white">
+    <div className={`lumen-game lumen-player lumen-game--${status} flex min-h-dvh flex-col bg-night text-white`}>
       <header className="flex items-center justify-between px-4 py-3">
         <span className="font-semibold">{me.nickname}</span>
         <div className="flex items-center gap-2">
@@ -170,7 +171,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
       {/* Sala de espera */}
       {status === 'lobby' && (
         <Centered>
-          <p className="text-6xl">🙌</p>
+          <BiblicalArt scene="lamp" className="player-lobby-art" />
           <h1 className="font-display mt-4 text-3xl font-semibold">{t('youAreIn')}</h1>
           <p className="mt-2 text-white/70">{t('seeName')}</p>
           <p className="mt-8 animate-pulse text-sm text-white/50">{t('waitStart')}</p>
@@ -180,6 +181,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
       {/* Pergunta */}
       {status === 'question' && current && (
         <main className="flex flex-1 flex-col px-4 pb-6">
+          <BiblicalArt scene="landscape" className="question-landscape" />
           <div className="flex items-start gap-3">
             <div className="flex-1">
               {current.type === 'verse' && (
@@ -232,6 +234,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
       {status === 'finished' && (
         <Centered>
           {ranking && <Celebration big={ranking.rank === 1} />}
+          <BiblicalArt scene="wreath" className="podium-art" />
           <p className="text-6xl">{ranking?.rank === 1 ? '🏆' : ranking && ranking.rank <= 3 ? '🎉' : '🙏'}</p>
           <h1 className="font-display mt-4 text-3xl font-semibold">{t('gameOver')}</h1>
           {ranking && (
@@ -270,7 +273,7 @@ function RevealView({
       : [];
 
   return (
-    <div className={`flex flex-1 flex-col items-center justify-center px-6 pb-10 text-center ${right ? 'bg-emerald-600' : myAnswer ? 'bg-rose-600' : ''}`}>
+    <div className={`lumen-reveal flex flex-1 flex-col items-center justify-center px-6 pb-10 text-center ${right ? 'bg-emerald-600' : myAnswer ? 'bg-rose-600' : ''}`}>
       <p className="text-6xl">{right ? '✅' : myAnswer ? '❌' : '⌛'}</p>
       <h1 className="font-display mt-4 text-4xl font-semibold">{right ? t('correct') : myAnswer ? t('wrong') : t('noAnswer')}</h1>
       {right && myAnswer?.points_awarded != null && (
@@ -323,3 +326,4 @@ function RevealView({
 function Centered({ children }: { children: React.ReactNode }) {
   return <div className="flex flex-1 flex-col items-center justify-center px-6 pb-16 text-center">{children}</div>;
 }
+

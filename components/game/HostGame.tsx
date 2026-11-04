@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import BiblicalArt from '@/components/BiblicalArt';
 import { useLocale, useTranslations } from 'next-intl';
 import { QRCodeSVG } from 'qrcode.react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
@@ -205,7 +206,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
   return (
     // Ecrã do anfitrião = exatamente a janela (sem deslizar): tamanhos em vh e as respostas
     // esticam ou encolhem para caber; só em janelas muito baixas cada zona desliza por dentro
-    <div className="flex h-dvh flex-col overflow-hidden bg-night text-white">
+    <div className={`lumen-game lumen-game--${status} flex h-dvh flex-col overflow-hidden bg-night text-white`}>
       {/* Barra superior */}
       <header className="flex shrink-0 items-center justify-between gap-3 px-4 py-2 sm:px-6">
         <div className="flex items-center gap-3">
@@ -230,7 +231,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
         <main className="mx-auto grid min-h-0 w-full max-w-6xl flex-1 gap-[3vh] overflow-y-auto px-4 pb-[3vh] pt-[1vh] sm:px-6 lg:grid-cols-[1.1fr_1fr] lg:gap-8">
           <section className="flex flex-col items-center justify-center rounded-3xl bg-white p-[2.5vh] text-center text-ink sm:p-[4vh]">
             <p className="text-sm font-semibold uppercase tracking-widest text-ink/50">{t('pin')}</p>
-            <p className="font-display mt-1 text-[clamp(2.5rem,11vh,6rem)] font-bold leading-none tracking-[0.15em]">{pin}</p>
+            <p className="lobby-pin font-display mt-1 text-[clamp(2.5rem,11vh,6rem)] font-bold leading-none tracking-[0.15em]">{pin}</p>
             <p className="mt-[2vh] text-ink/60">{t('joinAt')}</p>
             <p className="break-all text-lg font-semibold">{joinUrl.replace(/^https?:\/\//, '').replace(/\?.*$/, '')}</p>
             {joinUrl && (
@@ -249,7 +250,8 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
             </div>
           </section>
 
-          <section className="flex min-h-0 flex-col">
+          <section className="lobby-players flex min-h-0 flex-col">
+            <BiblicalArt scene="lamp" className="lobby-art" />
             <div className="flex items-center justify-between">
               <h2 className="font-display text-2xl font-semibold">{t('players', { count: players.length })}</h2>
             </div>
@@ -288,6 +290,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
             )}
           </div>
 
+          <BiblicalArt scene="landscape" className="question-landscape" />
           <div className={`shrink-0 text-center ${status === 'reveal' ? 'py-[1vh]' : 'py-[2.5vh]'}`}>
             {current.type === 'verse' && (
               <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-gold">{t('completeVerse')}</p>
@@ -414,6 +417,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
       {status === 'finished' && (
         <main className="mx-auto flex min-h-0 w-full max-w-3xl flex-1 flex-col items-center overflow-y-auto px-4 pb-[3vh] pt-[2vh] text-center">
           {players.length > 0 && <Celebration big />}
+          <BiblicalArt scene="wreath" className="podium-art" />
           <h1 className="font-display text-[clamp(1.75rem,6vh,3rem)] font-semibold">{t('gameOver')}</h1>
 
           <div className="mt-[4vh] flex w-full shrink-0 items-end justify-center gap-3">
@@ -507,3 +511,4 @@ function Scoreboard({
     </ol>
   );
 }
+
