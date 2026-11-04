@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import BiblicalArt from '@/components/BiblicalArt';
+import QuestionBackdrop from './QuestionBackdrop';
 import { useLocale, useTranslations } from 'next-intl';
 import { QRCodeSVG } from 'qrcode.react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
@@ -207,6 +208,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
     // Ecrã do anfitrião = exatamente a janela (sem deslizar): tamanhos em vh e as respostas
     // esticam ou encolhem para caber; só em janelas muito baixas cada zona desliza por dentro
     <div className={`lumen-game lumen-game--${status} flex h-dvh flex-col overflow-hidden bg-night text-white`}>
+      {(status === 'question' || status === 'reveal') && <QuestionBackdrop reference={current?.bible_ref ?? null} revealed={status === 'reveal' && current !== null} />}
       {/* Barra superior */}
       <header className="flex shrink-0 items-center justify-between gap-3 px-4 py-2 sm:px-6">
         <div className="flex items-center gap-3">
@@ -290,7 +292,6 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
             )}
           </div>
 
-          <BiblicalArt scene="landscape" className="question-landscape" />
           <div className={`shrink-0 text-center ${status === 'reveal' ? 'py-[1vh]' : 'py-[2.5vh]'}`}>
             {current.type === 'verse' && (
               <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-gold">{t('completeVerse')}</p>

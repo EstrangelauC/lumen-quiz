@@ -121,3 +121,15 @@ button:focus-visible, a:focus-visible, select:focus-visible { outline: 3px solid
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+/* Full-screen biblical scenes remain behind the existing game UI. */
+.lumen-game { position: relative; isolation: isolate; }
+.question-backdrop { position: absolute; inset: 0; overflow: hidden; z-index: -1; pointer-events: none; background: #120e2e; }
+.question-backdrop-scene { position: absolute; left: 50%; top: 50%; width: max(100%, 100vh); height: max(100%, 100vw); min-width: 100%; min-height: 100%; transform: translate(-50%, -50%); background-image: url('/art/bible-stories.webp'); background-size: 600% 400%; background-repeat: no-repeat; }
+.question-backdrop-neutral { position: absolute; inset: 0; background: linear-gradient(#1b16404d, #120e2e88), url('/art/biblical-atlas.webp') 50% 100% / 300% 200%; }
+.question-backdrop-shade { position: absolute; inset: 0; background: linear-gradient(180deg, #120e2e88, #120e2e66 35%, #120e2ec9); }
+.lumen-game--reveal .lumen-reveal { background: transparent; }
+.lumen-game--reveal:has(.lumen-reveal.bg-emerald-600) .question-backdrop-shade { background: linear-gradient(#072e2988, #062d2588 55%, #120e2ed9); }
+.lumen-game--reveal:has(.lumen-reveal.bg-rose-600) .question-backdrop-shade { background: linear-gradient(#491a2d88, #29102088 55%, #120e2ed9); }
+.lumen-game--reveal .verse-reveal { background: #1b1640c9; backdrop-filter: blur(5px); }
+.lumen-game--reveal .verse-art { display: none; }

@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import BiblicalArt from '@/components/BiblicalArt';
+import QuestionBackdrop from './QuestionBackdrop';
 import { useRouter } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import { useCallback, useEffect, useMemo, useState } from 'react';
@@ -160,6 +161,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
 
   return (
     <div className={`lumen-game lumen-player lumen-game--${status} flex min-h-dvh flex-col bg-night text-white`}>
+      {(status === 'question' || status === 'reveal') && <QuestionBackdrop reference={current?.bible_ref ?? null} revealed={status === 'reveal' && current !== null} />}
       <header className="flex items-center justify-between px-4 py-3">
         <span className="font-semibold">{me.nickname}</span>
         <div className="flex items-center gap-2">
@@ -181,7 +183,6 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
       {/* Pergunta */}
       {status === 'question' && current && (
         <main className="flex flex-1 flex-col px-4 pb-6">
-          <BiblicalArt scene="landscape" className="question-landscape" />
           <div className="flex items-start gap-3">
             <div className="flex-1">
               {current.type === 'verse' && (
