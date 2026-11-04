@@ -1,5 +1,6 @@
 'use client';
 
+import BiblicalArt from '@/components/BiblicalArt';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
@@ -8,10 +9,10 @@ import { createClient } from '@/lib/supabase/client';
 type Level = 'easy' | 'medium' | 'hard';
 type Counts = Record<Level, number>;
 
-const LEVELS: { id: Level; icon: string }[] = [
-  { id: 'easy', icon: '🌱' },
-  { id: 'medium', icon: '📖' },
-  { id: 'hard', icon: '🏛️' },
+const LEVELS: { id: Level; icon: 'noah' | 'david' | 'moses' }[] = [
+  { id: 'easy', icon: 'noah' },
+  { id: 'medium', icon: 'david' },
+  { id: 'hard', icon: 'moses' },
 ];
 // Tem de coincidir com create_session (migração 0004)
 const COUNTS = [5, 10, 15, 20, 25, 30, 40, 50] as const;
@@ -69,13 +70,11 @@ export default function NewGameForm({ counts }: { counts: Counts }) {
                 aria-checked={selected}
                 disabled={!usable}
                 onClick={() => pickLevel(id)}
-                className={`card flex min-h-28 items-center gap-4 p-5 text-left transition md:flex-col md:items-start md:gap-2 ${
+                className={`level-card card flex min-h-28 items-center gap-4 p-5 text-left transition md:flex-col md:items-start md:gap-2 ${
                   selected ? 'ring-4 ring-gold' : 'hover:-translate-y-0.5'
                 } disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0`}
               >
-                <span className="text-4xl" aria-hidden>
-                  {icon}
-                </span>
+                <BiblicalArt scene={icon} className="level-art" />
                 <span>
                   <span className="font-display block text-2xl font-semibold">{t(id)}</span>
                   <span className="mt-1 block text-ink/70">{t(`${id}Desc`)}</span>
@@ -119,3 +118,4 @@ export default function NewGameForm({ counts }: { counts: Counts }) {
     </div>
   );
 }
+
