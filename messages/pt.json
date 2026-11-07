@@ -88,7 +88,9 @@
     "starting": "A criar jogo…",
     "unavailable": "Indisponível",
     "available": "{count} perguntas disponíveis",
-    "countOption": "{count} perguntas"
+    "countOption": "{count} perguntas",
+    "selected": "Selecionado",
+    "selectedLevel": "Nível escolhido: {level}"
   },
   "discover": {
     "title": "Descobrir",
