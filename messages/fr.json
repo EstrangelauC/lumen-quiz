@@ -88,7 +88,9 @@
     "starting": "Création de la partie…",
     "unavailable": "Indisponible",
     "available": "{count} questions disponibles",
-    "countOption": "{count} questions"
+    "countOption": "{count} questions",
+    "selected": "Sélectionné",
+    "selectedLevel": "Niveau choisi : {level}"
   },
   "discover": {
     "title": "Découvrir",
