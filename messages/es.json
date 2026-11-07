@@ -155,7 +155,9 @@
     "report": "Reportar pregunta",
     "reported": "Pregunta reportada",
     "confirmReport": "¿Reportar esta pregunta? Ya no aparecerá en próximas partidas.",
-    "showLeaderboard": "Ver clasificación"
+    "showLeaderboard": "Ver clasificación",
+    "introTitle": "¡Prepárate!",
+    "introHint": "La pregunta está a punto de empezar..."
   },
   "join": {
     "title": "Unirse a un juego",
@@ -197,6 +199,9 @@
     "completeVerse": "Completa el versículo",
     "behind": "A {points} pts de {name}",
     "tied": "Empatado con {name}",
-    "streak": "🔥 {count} aciertos seguidos · +{bonus} de bonificación"
+    "streak": "🔥 {count} aciertos seguidos · +{bonus} de bonificación",
+    "introTitle": "¡Prepárate!",
+    "introHint": "La pregunta está a punto de empezar...",
+    "questionOf": "Pregunta {n} de {total}"
   }
 }
