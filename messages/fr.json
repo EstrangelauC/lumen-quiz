@@ -155,7 +155,9 @@
     "report": "Signaler la question",
     "reported": "Question signalée",
     "confirmReport": "Signaler cette question ? Elle ne sortira plus dans les prochaines parties.",
-    "showLeaderboard": "Voir le classement"
+    "showLeaderboard": "Voir le classement",
+    "introTitle": "Préparez-vous !",
+    "introHint": "La question va commencer..."
   },
   "join": {
     "title": "Rejoindre une partie",
@@ -197,6 +199,9 @@
     "completeVerse": "Complète le verset",
     "behind": "À {points} pts de {name}",
     "tied": "À égalité avec {name}",
-    "streak": "🔥 {count} bonnes réponses d’affilée · +{bonus} de bonus"
+    "streak": "🔥 {count} bonnes réponses d’affilée · +{bonus} de bonus",
+    "introTitle": "Prépare-toi !",
+    "introHint": "La question va commencer...",
+    "questionOf": "Question {n} sur {total}"
   }
 }
