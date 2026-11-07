@@ -9,8 +9,9 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { createClient } from '@/lib/supabase/client';
 import { ANSWER_STYLES } from '@/lib/quiz';
 import type { CurrentQuestion, GameSession, Player } from '@/lib/types';
-import { useCountdown } from '@/hooks/useCountdown';
+import { useCountdown, useQuestionIntro } from '@/hooks/useCountdown';
 import TimerBadge from './TimerBadge';
+import QuestionIntro from './QuestionIntro';
 import VerseReveal, { VerseGapText } from './VerseReveal';
 import LanguageSwitcher from '../LanguageSwitcher';
 import Celebration from './Celebration';
@@ -137,6 +138,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
   }, [supabase, sessionId, status, position, locale, loadPlayers]);
 
   const remaining = useCountdown(question?.started_at, question?.time_limit_s ?? 0, offset, status === 'question');
+  const introRemaining = useQuestionIntro(question?.started_at, offset, status === 'question');
 
   // Revela automaticamente quando o tempo acaba ou quando todos já responderam
   useEffect(() => {
@@ -194,6 +196,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
   const current = question && question.status === status && question.position === position ? question : null;
   const reported = current ? current.reported || reportedNow === current.question_id : false;
   const showBoard = status === 'reveal' && current !== null && boardFor === current.question_id;
+  const showIntro = status === 'question' && current !== null && introRemaining > 0;
   const rightOrder =
     current?.type === 'order' && current.correct_order
       ? current.correct_order
@@ -208,7 +211,7 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
     // Ecrã do anfitrião = exatamente a janela (sem deslizar): tamanhos em vh e as respostas
     // esticam ou encolhem para caber; só em janelas muito baixas cada zona desliza por dentro
     <div className={`lumen-game lumen-game--${status} flex h-dvh flex-col overflow-hidden bg-night text-white`}>
-      {(status === 'question' || status === 'reveal') && <QuestionBackdrop reference={current?.bible_ref ?? null} revealed={status === 'reveal' && current !== null} />}
+      {(status === 'question' || status === 'reveal') && <QuestionBackdrop reference={showIntro ? null : (current?.bible_ref ?? null)} revealed={status === 'reveal' && current !== null} />}
       {/* Barra superior */}
       <header className="flex shrink-0 items-center justify-between gap-3 px-4 py-2 sm:px-6">
         <div className="flex items-center gap-3">
@@ -276,8 +279,18 @@ export default function HostGame({ sessionId, pin }: { sessionId: string; pin: s
         </main>
       )}
 
+      {/* Preparação sincronizada antes de abrir cada pergunta */}
+      {showIntro && current && (
+        <QuestionIntro
+          remaining={introRemaining}
+          title={t('introTitle')}
+          subtitle={t('introHint')}
+          questionLabel={t('questionOf', { n: current.position, total: current.total })}
+        />
+      )}
+
       {/* ---------------- PERGUNTA / REVELAÇÃO ---------------- */}
-      {(status === 'question' || status === 'reveal') && current && !showBoard && (
+      {(status === 'question' || status === 'reveal') && current && !showBoard && !showIntro && (
         <main className="mx-auto flex min-h-0 w-full max-w-6xl flex-1 flex-col overflow-y-auto px-4 pb-[2.5vh] sm:px-6">
           <div className="flex shrink-0 items-center justify-between gap-4 py-[0.5vh]">
             <p className="text-sm font-semibold uppercase tracking-widest text-white/50">
