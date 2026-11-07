@@ -155,7 +155,9 @@
     "report": "Report question",
     "reported": "Question reported",
     "confirmReport": "Report this question? It will no longer appear in future games.",
-    "showLeaderboard": "See leaderboard"
+    "showLeaderboard": "See leaderboard",
+    "introTitle": "Get ready!",
+    "introHint": "The question is about to start..."
   },
   "join": {
     "title": "Join a game",
@@ -197,6 +199,9 @@
     "completeVerse": "Complete the verse",
     "behind": "{points} pts behind {name}",
     "tied": "Tied with {name}",
-    "streak": "🔥 {count} in a row · +{bonus} streak bonus"
+    "streak": "🔥 {count} in a row · +{bonus} streak bonus",
+    "introTitle": "Get ready!",
+    "introHint": "The question is about to start...",
+    "questionOf": "Question {n} of {total}"
   }
 }
