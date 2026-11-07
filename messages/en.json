@@ -88,7 +88,9 @@
     "starting": "Creating game…",
     "unavailable": "Unavailable",
     "available": "{count} questions available",
-    "countOption": "{count} questions"
+    "countOption": "{count} questions",
+    "selected": "Selected",
+    "selectedLevel": "Selected level: {level}"
   },
   "discover": {
     "title": "Discover",
