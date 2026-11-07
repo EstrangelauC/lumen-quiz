@@ -26,7 +26,7 @@ await db.exec(`
   create publication supabase_realtime;
 `);
 
-for (const f of ['0001_init.sql', '0002_question_bank.sql', '0003_answer_streak.sql', '0004_more_question_counts.sql']) {
+for (const f of ['0001_init.sql', '0002_question_bank.sql', '0003_answer_streak.sql', '0004_more_question_counts.sql', '0005_question_intro_countdown.sql']) {
   await db.exec(readFileSync(new URL(`../supabase/migrations/${f}`, import.meta.url), 'utf8'));
   console.log(`✓ migração ${f} aplicada`);
 }
@@ -254,6 +254,15 @@ for (let pos = 1; pos <= 5; pos++) {
   const row = sqs[pos - 1];
   const g = await cur(P1, 'fr');
 
+  // Contagem de 3 segundos no servidor. A RPC não aceita respostas antecipadas.
+  const start = await one('select extract(epoch from question_started_at - now())::float as delay from game_sessions where id = $1', [SID]);
+  if (!(start.delay > 0 && start.delay <= 3)) throw new Error('contagem inicial fora dos 3s: ' + start.delay);
+  await asUser(P1, true, () => row.type === 'order'
+    ? expectError(() => submitOrder(row.c), 'question_not_started')
+    : expectError(() => db.query('select submit_answer($1, $2)', [SID, row.d[0]]), 'question_not_started'));
+  // Avança o relógio da sessão sem esperar por 3 segundos reais.
+  await db.query("update game_sessions set question_started_at = now() - interval '0.05 seconds' where id = $1", [SID]);
+
   // Durante a pergunta: nada que revele a resposta
   if (g.status !== 'question' || g.position !== pos || g.total !== 5 || g.type !== row.type) throw new Error('cabeçalho ' + JSON.stringify(g));
   if (g.correct_order !== null || g.verse_text !== null) throw new Error('fuga antes da revelação ' + JSON.stringify(g));
@@ -412,7 +421,10 @@ console.log('✓ jogo termina em finished');
   const bonus2 = async () => (await db.query(`select a.streak, a.streak_bonus from answers a join players pl on pl.id = a.player_id
                                                join session_questions sq on sq.session_id = a.session_id and sq.question_id = a.question_id
                                               where pl.session_id = $1 and pl.user_id = $2 order by sq.position`, [S2, P1])).rows;
-  const host2 = (fn) => asUser(HOST, false, () => db.query(`select ${fn}($1)`, [S2]));
+  const host2 = async (fn) => {
+    await asUser(HOST, false, () => db.query(`select ${fn}($1)`, [S2]));
+    if (fn === 'next_question') await db.query("update game_sessions set question_started_at = now() - interval '0.05 seconds' where id = $1", [S2]);
+  };
   // P1 responde certo à pergunta atual; devolve os pontos gravados
   const answerRight = async () => {
     const sq = await one(`select sq.question_id, q.type::text type,
@@ -463,7 +475,10 @@ console.log('✓ jogo termina em finished');
   const s3 = await asUser(HOST, false, async () => (await one(`select create_session('easy', 5) s`)).s);
   const S3 = s3.session_id;
   await asUser(P1, true, () => one(`select join_session($1, 'Ana', 'fr')`, [s3.pin]));
-  const host3 = (fn) => asUser(HOST, false, () => db.query(`select ${fn}($1)`, [S3]));
+  const host3 = async (fn) => {
+    await asUser(HOST, false, () => db.query(`select ${fn}($1)`, [S3]));
+    if (fn === 'next_question') await db.query("update game_sessions set question_started_at = now() - interval '0.05 seconds' where id = $1", [S3]);
+  };
   const current3 = () => one(`select sq.question_id, q.type::text type,
                                      (select jsonb_agg(o.id order by o.position) from bank_options o where o.question_id = sq.question_id) c,
                                      (select o.id from bank_options o where o.question_id = sq.question_id and o.is_correct limit 1) ok,

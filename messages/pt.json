@@ -88,7 +88,9 @@
     "starting": "A criar jogo…",
     "unavailable": "Indisponível",
     "available": "{count} perguntas disponíveis",
-    "countOption": "{count} perguntas"
+    "countOption": "{count} perguntas",
+    "selected": "Selecionado",
+    "selectedLevel": "Nível escolhido: {level}"
   },
   "discover": {
     "title": "Descobrir",
@@ -155,7 +157,9 @@
     "report": "Reportar pergunta",
     "reported": "Pergunta reportada",
     "confirmReport": "Reportar esta pergunta? Deixa de sair nos próximos jogos.",
-    "showLeaderboard": "Ver classificação"
+    "showLeaderboard": "Ver classificação",
+    "introTitle": "Prepara-te!",
+    "introHint": "A pergunta vai começar..."
   },
   "join": {
     "title": "Entrar num jogo",
@@ -197,6 +201,9 @@
     "completeVerse": "Completa o versículo",
     "behind": "A {points} pts de {name}",
     "tied": "Empatado com {name}",
-    "streak": "🔥 {count} certas seguidas · +{bonus} de bónus"
+    "streak": "🔥 {count} certas seguidas · +{bonus} de bónus",
+    "introTitle": "Prepara-te!",
+    "introHint": "A pergunta vai começar...",
+    "questionOf": "Pergunta {n} de {total}"
   }
 }

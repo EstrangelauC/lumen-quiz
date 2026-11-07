@@ -9,8 +9,9 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { createClient } from '@/lib/supabase/client';
 import { ANSWER_STYLES } from '@/lib/quiz';
 import type { CurrentQuestion, GameSession, Player } from '@/lib/types';
-import { useCountdown } from '@/hooks/useCountdown';
+import { useCountdown, useQuestionIntro } from '@/hooks/useCountdown';
 import TimerBadge from './TimerBadge';
+import QuestionIntro from './QuestionIntro';
 import OrderInput from './OrderInput';
 import VerseReveal, { VerseGapText } from './VerseReveal';
 import LanguageSwitcher from '../LanguageSwitcher';
@@ -133,9 +134,10 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
   }, [supabase, sessionId, me, status, position, locale, loadRanking]);
 
   const remaining = useCountdown(question?.started_at, question?.time_limit_s ?? 0, offset, status === 'question');
+  const introRemaining = useQuestionIntro(question?.started_at, offset, status === 'question');
 
   async function answer(optionId: string) {
-    if (myAnswer || sending || remaining === 0) return;
+    if (myAnswer || sending || remaining === 0 || introRemaining > 0) return;
     setSending(true);
     setMyAnswer({ ...ANSWERED, option_id: optionId });
     const { error } = await supabase.rpc('submit_answer', { p_session_id: sessionId, p_option_id: optionId });
@@ -144,7 +146,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
   }
 
   async function answerOrder(ids: string[]) {
-    if (myAnswer || sending || remaining === 0) return;
+    if (myAnswer || sending || remaining === 0 || introRemaining > 0) return;
     setSending(true);
     setMyAnswer({ ...ANSWERED, order_ids: ids });
     const { error } = await supabase.rpc('submit_order', { p_session_id: sessionId, p_order: ids });
@@ -154,6 +156,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
 
   // Só mostra a pergunta carregada se ainda for a do estado atual da sessão
   const current = question && question.status === status && question.position === position ? question : null;
+  const showIntro = status === 'question' && current !== null && introRemaining > 0;
 
   if (!me || !session) {
     return <div className="flex min-h-dvh items-center justify-center bg-night text-white/60">…</div>;
@@ -161,7 +164,7 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
 
   return (
     <div className={`lumen-game lumen-player lumen-game--${status} flex min-h-dvh flex-col bg-night text-white`}>
-      {(status === 'question' || status === 'reveal') && <QuestionBackdrop reference={current?.bible_ref ?? null} revealed={status === 'reveal' && current !== null} />}
+      {(status === 'question' || status === 'reveal') && <QuestionBackdrop reference={showIntro ? null : (current?.bible_ref ?? null)} revealed={status === 'reveal' && current !== null} />}
       <header className="flex items-center justify-between px-4 py-3">
         <span className="font-semibold">{me.nickname}</span>
         <div className="flex items-center gap-2">
@@ -180,8 +183,18 @@ export default function PlayerGame({ sessionId }: { sessionId: string }) {
         </Centered>
       )}
 
+      {/* Preparação sincronizada antes de cada pergunta */}
+      {showIntro && current && (
+        <QuestionIntro
+          remaining={introRemaining}
+          title={t('introTitle')}
+          subtitle={t('introHint')}
+          questionLabel={t('questionOf', { n: current.position, total: current.total })}
+        />
+      )}
+
       {/* Pergunta */}
-      {status === 'question' && current && (
+      {status === 'question' && current && !showIntro && (
         <main className="flex flex-1 flex-col px-4 pb-6">
           <div className="flex items-start gap-3">
             <div className="flex-1">

@@ -23,3 +23,21 @@ export function useCountdown(startedAt: string | null | undefined, limitS: numbe
   // Enquanto a nova pergunta não tiver "tique", devolve o tempo total (evita revelar por engano)
   return state.key === startedAt ? state.remaining : limitS;
 }
+
+/**
+ * Segundos até ao início da pergunta, calculados com o mesmo relógio corrigido.
+ * O intervalo atualiza o ecrã, mas não redefine o momento de início no servidor.
+ */
+export function useQuestionIntro(startedAt: string | null | undefined, offsetMs: number, active: boolean) {
+  const [now, setNow] = useState(() => Date.now());
+
+  useEffect(() => {
+    if (!active || !startedAt) return;
+    setNow(Date.now());
+    const id = setInterval(() => setNow(Date.now()), 100);
+    return () => clearInterval(id);
+  }, [startedAt, active]);
+
+  if (!active || !startedAt) return 0;
+  return Math.max(0, Math.ceil((Date.parse(startedAt) - (Math.max(now, Date.now()) + offsetMs)) / 1000));
+}

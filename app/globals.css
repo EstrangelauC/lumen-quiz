@@ -91,7 +91,14 @@ button:focus-visible, a:focus-visible, select:focus-visible { outline: 3px solid
 .level-card { overflow: hidden; position: relative; padding: 0 0 1.25rem !important; gap: 0 !important; border-color: #cba25b40; }
 .level-card > span { padding: 1.25rem 1.25rem 0; }
 .level-art { width: 100%; aspect-ratio: 1.5; border-bottom: 1px solid #cba25b30; }
-.level-card[aria-checked="true"] { box-shadow: 0 12px 32px #b5852220; }
+.level-card--selected,
+.level-card[aria-checked="true"] {
+  background: #fff7e1;
+  border-color: #c48717;
+  box-shadow: 0 0 0 3px #f2b84b99, 0 12px 32px #b5852233;
+  transform: translateY(-2px);
+}
+.level-card--selected .level-art { border-bottom-color: #c4871766; }
 .entry-art { width: 100%; aspect-ratio: 1; border-radius: 2rem 8rem 2rem 2rem; box-shadow: 0 20px 60px #1b164018; }
 .lumen-entry { background: radial-gradient(ellipse at 0 100%, #f2b84b22, transparent 65%), #fbf7ef; }
 .lumen-game { background-image: radial-gradient(ellipse at 80% 0, #46315188, transparent 65%); }

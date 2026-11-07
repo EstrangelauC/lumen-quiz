@@ -70,11 +70,17 @@ export default function NewGameForm({ counts }: { counts: Counts }) {
                 aria-checked={selected}
                 disabled={!usable}
                 onClick={() => pickLevel(id)}
-                className={`level-card card flex min-h-28 items-center gap-4 p-5 text-left transition md:flex-col md:items-start md:gap-2 ${
-                  selected ? 'ring-4 ring-gold' : 'hover:-translate-y-0.5'
+                className={`level-card card flex min-h-28 items-center gap-4 p-5 text-left transition-all duration-200 md:flex-col md:items-start md:gap-2 ${
+                  selected ? 'level-card--selected' : 'hover:-translate-y-0.5 hover:shadow-lg'
                 } disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0`}
               >
                 <BiblicalArt scene={icon} className="level-art" />
+                {selected && (
+                  <div className="absolute right-3 top-3 z-10 flex items-center gap-1.5 rounded-full bg-gold px-3 py-1.5 text-xs font-extrabold uppercase tracking-wide text-ink shadow-lg">
+                    <span aria-hidden="true">✓</span>
+                    {t('selected')}
+                  </div>
+                )}
                 <span>
                   <span className="font-display block text-2xl font-semibold">{t(id)}</span>
                   <span className="mt-1 block text-ink/70">{t(`${id}Desc`)}</span>
@@ -86,6 +92,10 @@ export default function NewGameForm({ counts }: { counts: Counts }) {
             );
           })}
         </div>
+        <p className="mt-4 flex items-center gap-2 rounded-xl border border-gold/60 bg-gold-soft/60 px-4 py-3 text-sm font-semibold text-ink" role="status" aria-live="polite">
+          <span aria-hidden="true" className="flex size-6 shrink-0 items-center justify-center rounded-full bg-gold text-ink">✓</span>
+          {t('selectedLevel', { level: t(level) })}
+        </p>
       </section>
 
       <section>
